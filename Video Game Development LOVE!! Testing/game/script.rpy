@@ -25,7 +25,7 @@ label start:
 
     # These display lines of dialogue.
 
-    "Welcome to Video Game Development LOVE!!"
+    "Welcome to Video Game Development LOVE!! Testing"
     
     show karen tendo test with Fade(0.1, 0.0, 0.5, color="#fff")
 
