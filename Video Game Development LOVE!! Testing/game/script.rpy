@@ -4,6 +4,7 @@
 # name of the character.
 
 define e = Character("Eileen")
+define kt = Character("Karen Tendo")
 
 
 # The game starts here.
@@ -14,22 +15,38 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg room
+    scene bg test with Dissolve(1)
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    # show karen tendo test
 
     # These display lines of dialogue.
 
     "Welcome to Video Game Development LOVE!!"
+    
+    show karen tendo test with Fade(0.1, 0.0, 0.5, color="#fff")
 
     e "You're weaboo trash."
 
     e "That is all!"
 
+    call end_scene
+
     # This ends the game.
 
     return
+    
+label end_scene:
+    scene black
+    show end_text:
+        yanchor 0.5 ypos 0.5
+        xanchor 0.5 xpos 0.5
+    with dissolve
+    with Pause(3)
+    return
+    
+init:
+    image end_text = Text("{size=90}The End\n{size=40}Thanks for playing!", text_align=0.5)
