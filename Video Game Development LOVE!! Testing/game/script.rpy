@@ -5,6 +5,7 @@
 
 define e = Character("Eileen")
 define kt = Character("Karen Tendo")
+define mc = Character("[mcname]")
 
 
 # The game starts here.
@@ -27,11 +28,19 @@ label start:
 
     "Welcome to Video Game Development LOVE!!"
     
+    python:
+        mcname = renpy.input("What is your name?")
+        mcname = mcname.strip();
+        if not mcname:
+            mcname = "Default_Name"
+    
     show karen tendo test with Fade(0.1, 0.0, 0.5, color="#fff")
+    
+    kt "Nice to meet you, [mcname]!" 
 
-    e "You're weaboo trash."
+    kt "You're weaboo trash."
 
-    e "That is all!"
+    kt "That is all!"
 
     call end_scene
 
