@@ -1,0 +1,8 @@
+#Ren'Py .gitignore
+game/cache
+game/saves
+
+log.txt
+traceback.txt
+
+*/Thumbs.db
