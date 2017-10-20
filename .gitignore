@@ -1,8 +1,20 @@
 #Ren'Py .gitignore
-game/cache
-game/saves
+*.rpyc
+*.rpyb
+*.rpymc
+*.pyc
+*.pyo
+
+*~
+*.bak
+
+saves
+tmp
+cache
+env
 
 log.txt
+errors.txt
 traceback.txt
 
-*/Thumbs.db
+styles.txt
