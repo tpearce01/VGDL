@@ -6,11 +6,13 @@
 define e = Character("Eileen")
 define kt = Character("Karen Tendo")
 
+define you_are_weeb_trash = True
 
 # The game starts here.
 
 label start:
-
+    stop music fadeout 1.0
+    queue music "test-music-a.ogg"
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
@@ -31,7 +33,20 @@ label start:
 
     e "You're weaboo trash."
 
-    e "That is all!"
+    menu weeb_trash:
+        "Am I weeb trash?"
+        
+        "Thank you for noticing":
+            "You truly are weeb trash."
+            
+        "No, I'm not!" if you_are_weeb_trash:
+            $ you_are_weeb_trash = False
+            "Yes, you are."
+            jump weeb_trash
+            
+        "Yes, I am" if not you_are_weeb_trash:
+            "You truly are weeb trash."
+            
 
     call end_scene
 

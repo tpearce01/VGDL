@@ -1,30 +1,32 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 36, in script call
-    call credits
-  File "game/script.rpy", line 48, in script
-    with pause(3)
-  File "game/script.rpy", line 48, in <module>
-    with pause(3)
-NameError: name 'pause' is not defined
+  File "game/script.rpy", line 68, in script
+    play music "main_menu_music.ogg"
+  File "renpy/common/000statements.rpy", line 115, in execute_play_music
+    if_changed=p.get("if_changed", False))
+Exception: Can't play music during init phase.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 36, in script call
-    call credits
-  File "game/script.rpy", line 48, in script
-    with pause(3)
-  File "C:\Users\Tyler\Downloads\renpy-6.99.12.4-sdk\renpy\ast.py", line 1268, in execute
-    trans = renpy.python.py_eval(self.expr)
-  File "C:\Users\Tyler\Downloads\renpy-6.99.12.4-sdk\renpy\python.py", line 1749, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "C:\Users\Tyler\Downloads\renpy-6.99.12.4-sdk\renpy\python.py", line 1743, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 48, in <module>
-    with pause(3)
-NameError: name 'pause' is not defined
+  File "C:\Users\Tyler\Downloads\renpy-6.99.12.4-sdk\renpy\bootstrap.py", line 295, in bootstrap
+    renpy.main.main()
+  File "C:\Users\Tyler\Downloads\renpy-6.99.12.4-sdk\renpy\main.py", line 419, in main
+    game.context().run(node)
+  File "game/script.rpy", line 68, in script
+    play music "main_menu_music.ogg"
+  File "C:\Users\Tyler\Downloads\renpy-6.99.12.4-sdk\renpy\ast.py", line 1706, in execute
+    self.call("execute")
+  File "C:\Users\Tyler\Downloads\renpy-6.99.12.4-sdk\renpy\ast.py", line 1724, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "C:\Users\Tyler\Downloads\renpy-6.99.12.4-sdk\renpy\statements.py", line 145, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 115, in execute_play_music
+    if_changed=p.get("if_changed", False))
+  File "C:\Users\Tyler\Downloads\renpy-6.99.12.4-sdk\renpy\audio\music.py", line 78, in play
+    raise Exception("Can't play music during init phase.")
+Exception: Can't play music during init phase.
 
 Windows-8-6.2.9200
 Ren'Py 6.99.12.4.2187
