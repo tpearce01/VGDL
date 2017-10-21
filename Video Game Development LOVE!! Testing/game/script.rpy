@@ -5,6 +5,7 @@
 
 define e = Character("Eileen")
 define kt = Character("Karen Tendo")
+define mc = Character("[mcname]")
 
 define you_are_weeb_trash = True
 
@@ -29,9 +30,17 @@ label start:
 
     "Welcome to Video Game Development LOVE!!"
     
+    python:
+        mcname = renpy.input("What is your name?")
+        mcname = mcname.strip();
+        if not mcname:
+            mcname = "Default_Name"
+    
     show karen tendo test with Fade(0.1, 0.0, 0.5, color="#fff")
+    
+    kt "Nice to meet you, [mcname]!" 
 
-    e "You're weaboo trash."
+    kt "You're weaboo trash."
 
     menu weeb_trash:
         "Am I weeb trash?"
@@ -46,7 +55,6 @@ label start:
             
         "Yes, I am" if not you_are_weeb_trash:
             "You truly are weeb trash."
-            
 
     call end_scene
 
