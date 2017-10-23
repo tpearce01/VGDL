@@ -370,7 +370,6 @@ screen main_menu():
             text "[config.version]":
                 style "main_menu_version"
 
-
 style main_menu_frame is empty
 style main_menu_vbox is vbox
 style main_menu_text is gui_text

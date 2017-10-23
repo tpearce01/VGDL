@@ -9,8 +9,8 @@ define mc = Character("[mcname]")
 
 define you_are_weeb_trash = True
 
-# The game starts here.
-
+# The game starts here. 
+    
 label start:
     stop music fadeout 1.0
     queue music "test-music-a.ogg" loop
@@ -56,6 +56,12 @@ label start:
         "Yes, I am" if not you_are_weeb_trash:
             "You truly are weeb trash."
 
+    hide karen tendo test 
+    with dissolve
+    with Pause(1)
+    show anim
+    with Pause(3)
+
     call end_scene
 
     # This ends the game.
@@ -74,4 +80,7 @@ label end_scene:
     return
     
 init:
+    define anim_speed = .08
+    
     image end_text = Text("{size=90}The End\n{size=40}Thanks for playing!", text_align=0.5)
+    image anim = Animation("1.png", anim_speed, "2.png", anim_speed, "3.png", anim_speed, "4.png", anim_speed, "5.png", anim_speed, "6.png", anim_speed, "7.png", anim_speed, "8.png", anim_speed)
