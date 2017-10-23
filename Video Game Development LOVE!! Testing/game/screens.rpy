@@ -369,6 +369,8 @@ screen main_menu():
 
             text "[config.version]":
                 style "main_menu_version"
+    python:
+        renpy.music.set_volume(0.35, 0, channel="music")
 
 style main_menu_frame is empty
 style main_menu_vbox is vbox

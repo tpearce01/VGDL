@@ -13,7 +13,11 @@ define you_are_weeb_trash = True
     
 label start:
     stop music fadeout 1.0
+    python:
+        renpy.music.set_volume(0.25, 0, channel="music")
     queue music "test-music-a.ogg" loop
+    #python:
+    #    renpy.music.set_volume(0.25, 0, channel="music")
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
