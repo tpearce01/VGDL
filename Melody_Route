@@ -1,0 +1,40 @@
+mc "Set up like this will make the protag speak"
+"No name up front means narration- the protag will not be speaking"
+audio "Put the department name for the person you want to speak. So this is Melody"
+design "And this is Alexander"
+art "And this is Reina"
+
+INSERT - TIME SKIP
+
+
+SCENE 1
+
+"This campus is so big..."
+"Maybe that girl will know..."
+
+mc "Um, excuse me..."
+Melody "Geez, you scared me!"
+mc "That's some nice art."
+Melody "You're not gonna snitch on me with the Po-Po, are you?"
+mc "No! I was just wondering if you knew where the Social Science Tower was."
+Melody "It's right behind you, airhead. You got class or somethin'?"
+mc "I've got a while before class, but-"
+[THING ABOUT INTRODUCING NAMES AND STUFF]
+Meldoy "Oh, crap! Just remembered I've got a midterm that I'm ten minutes late for. Later, dork."
+
+Alex "Long time no see..."
+mc "Alex!?"
+Alex "So, you've met Melody. What'd you think?"
+mc "What'd I think? She's... unique."
+Alex "She's got a reputation on campus as being the 'bad girl'."
+mc "I can see why."
+Alex "I don't know her very well, but I do know she's incredibly talented at all kinds of art."
+mc "No kidding."
+Alex "Haha, okay. Why don't you join the VGDC with me this quarter?"
+mc "That's an awesome idea!"
+Alex "Great! There's a meeting tonight. What class do you have next?"
+mc "It's over in the Social Science Tower..."
+Alex "Cool, I'll walk you over there."
+
+SCENE 2
+
