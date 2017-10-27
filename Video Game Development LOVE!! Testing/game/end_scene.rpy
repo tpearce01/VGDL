@@ -11,3 +11,5 @@ label end_scene:
     with Pause(1)
     return
 ## END END SCENE ##
+
+image end_text = Text("{size=90}The End\n{size=40}Thanks for playing!", text_align=0.5)

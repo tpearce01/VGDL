@@ -27,6 +27,5 @@ label start:
     
 init:
     define anim_speed = .08
-    image end_text = Text("{size=90}The End\n{size=40}Thanks for playing!", text_align=0.5)
     image anim = Animation("1.png", anim_speed, "2.png", anim_speed, "3.png", anim_speed, "4.png", anim_speed, "5.png", anim_speed, "6.png", anim_speed, "7.png", anim_speed, "8.png", anim_speed)
     image sparkle_anim = Animation("sparkle1.gif", anim_speed, "sparkle2.gif", anim_speed, "sparkle3.gif", anim_speed, "sparkle4.gif", anim_speed)
