@@ -5,6 +5,8 @@
 # INTRO SCENE
 label george_dan_intro:
     scene bg ring_road
+    with Pause(1)
+    scene bg ring_road with hpunch
     "The main character(player) bumps into a mysterious person and the player drops her stuff."
     show gd calm
     gd "He then calmly looks at the player and gives the player a small, but charming smile and then proceeds to pick up the player&#x27;s stuff. Seeing a book that he likes, the mysterious person then tells the player that she has really good taste for books."
@@ -24,6 +26,8 @@ label george_dan_intro:
     # hide ren farewell with dissolve
     return
 #END INTRO SCENE
+
+# FIRST MEETING SCENE
 label george_dan_route1scene1:
     scene bg classroom
     show gd calm
@@ -67,4 +71,5 @@ label george_dan_route1scene1:
     -Not only did the player feel embarrassed, she goes into denial and tries to reject her interest in Jeorge, but deep down she felt very sad."
 
     return
+# END FIRST MEETING SCENE
 ## END GEORGE DAN ROUTE ##
