@@ -14,6 +14,8 @@ label george_dan_intro:
     # gd "-He then smiles and exits. "
     hide gd smile with dissolve
     "Wondering who the guy was, the player thought that he is very cute."
+    $ gd_affection += 1
+    "GD affection+1: [gd_affection]"
 
     # show ren greeting
     # "A person approaches the player and this person is her closest friend from highschool who is 1 year above the player."
@@ -69,7 +71,8 @@ label george_dan_route1scene1:
         linear 0.5 xalign 0.0 yalign 1.0
     "-Before she said anything, the president and Ren greeted each other. (they know each other). He then asks Ren to come with him as he needed to talk to her.
     -Not only did the player feel embarrassed, she goes into denial and tries to reject her interest in Jeorge, but deep down she felt very sad."
-
+    $ gd_affection += 1
+    gd "Affection +1. New affection : [gd_affection]"
     return
 # END FIRST MEETING SCENE
 ## END GEORGE DAN ROUTE ##

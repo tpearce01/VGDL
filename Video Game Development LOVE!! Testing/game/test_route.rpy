@@ -56,4 +56,18 @@ label test_route:
     with Pause(3)
     
     return
+    
+label test_route_func:
+    "Route: [route]"
+    "Value: [max_affection]"
+    python:
+        gd_affection = 69
+        set_route()
+    "Route: [route]"
+    "Value: [max_affection]"
+    return
+    
 ## END TEST ROUTE ## 
+
+init:
+    define mcname = ""
