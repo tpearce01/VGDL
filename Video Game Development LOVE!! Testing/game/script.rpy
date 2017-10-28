@@ -19,12 +19,12 @@ define mc = Character("[mcname]")
 ## START ##
 # The game starts here. 
 label start:
-    call george_dan_intro
-    call george_dan_route1scene1
+    #call george_dan_intro
+    #call george_dan_route1scene1
     
     #call test_route_func
-        
-    #call end_scene
+    #call test_route
+    call end_scene
 
     # This ends the game.
 
