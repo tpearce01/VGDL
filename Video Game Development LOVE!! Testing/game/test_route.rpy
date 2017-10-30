@@ -1,5 +1,16 @@
 ## TEST ROUTE ##
 ## This route is for testing only ##
+# GET MCNAME
+label get_name:
+    python:
+        mcname = renpy.input("What is your name?")
+        mcname = mcname.strip();
+        if not mcname:
+            mcname = "Default_Name"
+    return
+# END GET MCNAME
+
+
 label test_route:
     stop music fadeout 1.0
     python:

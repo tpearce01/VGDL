@@ -10,24 +10,35 @@ define kd = Character("Kendrick")       # Production
 define md = Character("Melody")         # Audio
 define ax = Character("Alexander")      # Design
 
+# Minor Characters
+define ren = Character ("Ren")          # Childhood friend
+define prof = Character("Professor")    # Teacher
+define crowd = Character("Crowd")       # Crowd of people
+define team = Character("Team")         # Projet team
+
+# Main Character 
+define mc = Character("[mcname]")
+
 # TEST VARS
 define you_are_weeb_trash = True
 define kt = Character("Karen Tendo")
-define mc = Character("[mcname]")
+
 
 
 ## START ##
 # The game starts here. 
 label start:
-    #call george_dan_intro
-    #call george_dan_route1scene1
+    call get_name
+    call gd_intro
+    call gd_route1_scene1
+    call gd_route1_scene2
+    call gd_route1_scene3
+    call gd_route1_scene4
     
-    #call test_route_func
-    #call test_route
+    # Credits
     call end_scene
 
     # This ends the game.
-
     return
 ## END START ##
     
