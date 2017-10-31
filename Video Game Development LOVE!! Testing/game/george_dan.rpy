@@ -252,7 +252,7 @@ label gd_route1_scene4:
     "*crowd claps*"
     "THAT WAS THE WORST PRESENTATION THAT I'VE DONE. THAT GUY IS REALLY PISSING ME OFF!!"
     #show ren
-    ren "Hey 'protagonist' you did great. I expected nothing less from my little girl."
+    ren "Hey [mcname] you did great. I expected nothing less from my little girl."
     "\"Thanks Ren, but I choked pretty hard up there...\""
     "\"Jeez I never get nervous.\""
     ren "You did amazing, don't worry too much. Maybe it's because you present to so many people that presenting to a smaller group makes you nervous Hahaha."
@@ -289,7 +289,7 @@ label gd_route1_scene4:
 label gd_route1_scene4_tellname:
     "\"Fine if you want my name that badly. My name is [mcname].\""
     gd "Hi [mcname] it's a pleasure to meet you."
-    "*J.D puts his hands out and smiles*"
+    "*George Dan puts his hands out and smiles*"
     "protagonist This guy..."
     return
 # END ROUTE1 SCENE4 TELL NAME
@@ -307,7 +307,7 @@ label gd_route1_scene4_ignore:
 label gd_route1_scene4_nevetell:
     "*With attitude* \"I'll never tell you my name even if you ask for it a million times.\""
     gd "Haha fair enough. My name is George Dan, it's a honor to meet you [mcname]"
-    "*they both look at each other in the eyes as J.D puts his hands out and smiles*"
+    "*they both look at each other in the eyes as George Dan puts his hands out and smiles*"
     "This guy... never stops to make my heart jump."
     $ gd_affection += 2
     return
