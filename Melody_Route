@@ -1,40 +1,34 @@
-mc "Set up like this will make the protag speak"
-"No name up front means narration- the protag will not be speaking"
-audio "Put the department name for the person you want to speak. So this is Melody"
-design "And this is Alexander"
-art "And this is Reina"
+SSLH - After Initial Meeting
 
-INSERT - TIME SKIP
+mc "(I can't believe I left my phone in the lecture hall...)"
+mc "(Crap, crap, crap...)"
+mc "(Please let it still be there...)"
 
-
-SCENE 1
-
-"This campus is so big..."
-"Maybe that girl will know..."
+"When I entered the lecture hall, I saw a girl walking around the room."
 
 mc "Um, excuse me..."
-Melody "Geez, you scared me!"
-mc "That's some nice art."
-Melody "You're not gonna snitch on me with the Po-Po, are you?"
-mc "No! I was just wondering if you knew where the Social Science Tower was."
-Melody "It's right behind you, airhead. You got class or somethin'?"
-mc "I've got a while before class, but-"
-[THING ABOUT INTRODUCING NAMES AND STUFF]
-Meldoy "Oh, crap! Just remembered I've got a midterm that I'm ten minutes late for. Later, dork."
+md "Jesus Christ!"
+mc "Sorry!! I didn't mean to scare you!"
+md "It's gonna take a lot more than that. What do you want?"
+mc "I think I left my phone..."
+md "You mean this crappy little broken thing that I found on the floor?"
+mc "I... yeah."
+md "Okay, you can have it back. But I need you to promise me something."
+mc "I guess."
+md "Promise me that you won't tell anyone that you saw me here."
+mc "Hey, you're that girl from last night. Melody."
+md "Super observant, Sherlock. That's not promising me."
 
-Alex "Long time no see..."
-mc "Alex!?"
-Alex "So, you've met Melody. What'd you think?"
-mc "What'd I think? She's... unique."
-Alex "She's got a reputation on campus as being the 'bad girl'."
-mc "I can see why."
-Alex "I don't know her very well, but I do know she's incredibly talented at all kinds of art."
-mc "No kidding."
-Alex "Haha, okay. Why don't you join the VGDC with me this quarter?"
-mc "That's an awesome idea!"
-Alex "Great! There's a meeting tonight. What class do you have next?"
-mc "It's over in the Social Science Tower..."
-Alex "Cool, I'll walk you over there."
+
+
+"As soon as Melody left, Alex came in."
+
+ax "You were taking such a long time, I thought something had happened to you."
+mc "Sorry. That girl..."
+ax "Who? Melody?"
+mc "Yeah."
+****[dialogue, dialogue, dialogue]
+ax "It's getting late. We should start heading back."
 
 SCENE 2
 
