@@ -6,19 +6,35 @@ SSLH - After Initial Meeting
 ax “Bonjour, (y/n)!”
 mc “Since when did you speak French?”
 ax “It’s the language of love, mon amie.” 
-mc “Okay… forget I said anything. What I really want to know is why you didn’t tell me your club was the VGDC!”
-ax “I was going to get to it, but… the girl in the Demin jacket.”
+mc “That didn't answer my question, but forget about it. Why you didn’t tell me your club was the VGDC!?”
+ax “I was going to get to it, but… the girl in the Demin jacket, you know.”
 mc “Did you ever get her number?”
-ax “I did! We went on one date. It went south pretty quickly. She’s pretty pissed at me.”
+ax “I did! We went on a date last night. It went south pretty quickly. She’s pretty pissed at me.”
 mc “That’s too bad. Sorry, dude.”
 ax “Yeah, about that. I wanted to ask you a couple things.”
-mc “Throw ‘em at me.”
+mc “Sure, what is it?”
 ax “One: I’m gonna pitch a game next week, and I want you to be a part of my team.”
-ax “Can we do a group project again, just like old times?”
-mc “Yeah, sure. Just don’t make me do all the work like old times.”
-ax “Haha! I promise I won’t. And number two: I need your help with getting back at the girl in the Demin jacket.”
+mc “Yeah, sounds fun! Just don’t make me do all the work like every other group project we've done.”
+ax “Haha! I promise I won’t."
+mc "Do you have any plans for it yet?"
+ax "I was thinking like, a simple Final Fantasy type game, but... well, actually, that's all I have so far."
+mc "That's so specific. What's the other thing you wanted to ask?"
+ax "Two: I need your help with getting back at the girl in the Demin jacket.”
+mc "(What the hell, Alex!?)"
+mc "I... what do you mean?"
+ax "It's nothing evil. Just... pretend to go out with me for a couple weeks. I want to make her jealous."
+mc "How would us pretending to go out do anything?"
+ax "Like I said, I want to make her jealous. I want her to see that she could have had it all."
+mc "I, um, still don't quite understand. I'll help out, though."
+ax "Great! You're the best (y/n)! See you at class later?"
+mc "Y-yeah."
 
 “I wasn’t completely on board with helping Alex and his little scheme of getting back at the girl.”
-“And I wasn’t too sure about doing the game thing either. I didn’t know the first thing about being in a group in the club.”
+“And I wasn’t too sure about doing the game thing with him either, honestly.”
 “But, I loved the idea of doing things with my best friend again.”
 “And that trumped every ounce of doubt I had.”
+
+ALDRICH PARK - Scouting for Scenes
+
+ax "So, what do you think of the campus so far?"
+mc "It's beautiful!"
