@@ -53,7 +53,7 @@ label gd_route1_scene1:
     gd "introduces himself"
     show sparkle_anim:
         xalign 0.5 yalign 0.6
-    "So he was the one that I bumped into earlier..Jeorge dan.. What a cute name. "
+    "So he was the one that I bumped into earlier..George dan.. What a cute name. "
     "Why can't I stop looking at him. My heart feels heavy, my hands are starting to sweat, what is this excitement? "
     "Is it because of him? I don't even know him, he is just a guy that I randomly bumped into earlier!"
     "But when he bumped into me .. when he briefly told me those words.. and when I see him now, it's like..."
@@ -230,16 +230,20 @@ label gd_route1_scene3_end:
 label gd_route1_scene4:
     #bg lecture_hall
     "*the next VGDC meeting, aka pitch day*"
+    show gd calm with dissolve
     gd "Alright everyone, today is the big day. Let's hear those pitches."
     "*crowd claps*"
     "*a few pitches later*"
     "It's almost my turn...why am I nervous?! I can give a lecture to full hall of professionals for hours,"
     "but I'm nervous about this small presentation..."
     gd "Up next we have a game called Faker by 'protagonist'"
+    hide gd with dissolve
     "*crowd claps*"
     "Hi everyone. My gum... I mean AH I mean game is called Faker..."
-    "*protagonist turns head slightly and sees J.D*"
+    show gd with dissolve
+    "*I turn my head slightly and see George Dan*"
     "UGHHH WHY IS HE LOOKING AT ME. THIS GUY IS IRRATING ME. Focus... Focus... I can do this."
+    hide gd with dissolve
     "\"So my game is a text based game with animation where the player plays as the chracters and choose their fate.\""
     "\"There will be an abnormal villain/kidnapper that can morph himself into anyone.\""
     "\"His goal of this game is for the player to find the kidnapper as soon as possible...\""
@@ -255,7 +259,7 @@ label gd_route1_scene4:
     #hide ren
     show gd calm
     with dissolve
-    "*I looks to J.D*"
+    "*I look to George Dan"
     "Or maybe I'm nervous because this idiot's face distracts me so much it irritates me."
     hide gd
     with dissolve
@@ -294,7 +298,7 @@ label gd_route1_scene4_ignore:
     "\"No. I will not give you my name!\""
     gd "You are one interesting girl."
     show gd #smile
-    gd "My name is Jeorge Dan, nice to meet you!"
+    gd "My name is George Dan, nice to meet you!"
     "who is...this guy."
     $ gd_affection += 1
     return
@@ -302,7 +306,7 @@ label gd_route1_scene4_ignore:
 # ROUTE1 SCENE4 NEVER TELL
 label gd_route1_scene4_nevetell:
     "*With attitude* \"I'll never tell you my name even if you ask for it a million times.\""
-    gd "Haha fair enough. My name is Jeorge Dan, it's a honor to meet you [mcname]"
+    gd "Haha fair enough. My name is George Dan, it's a honor to meet you [mcname]"
     "*they both look at each other in the eyes as J.D puts his hands out and smiles*"
     "This guy... never stops to make my heart jump."
     $ gd_affection += 2
@@ -332,7 +336,7 @@ label gd_route1_scene4_nevetell:
     "That nervous feeling is coming back...my hands are starting to sweat again... THIS GUY IS IRRITATING ME."
     gd "Hey everyone. It's an honor to be working with you guys and supervising the team."
     gd "Everyone please introduce yourself. I have another group to meet up with, please write your info down on the paper."
-    "*with sarcasm* \"Okay Gore, oops! Jeorge! It was nice meeting you, okay bye!\""
+    "*with sarcasm* \"Okay Gore, oops! George! It was nice meeting you, okay bye!\""
     "Thank goodness he's gone. He's heading over to Ren's group..."
     "\"What a great supervisor. He ditches us to wonder off and never come back. Whatever. We won't need him.\""
     team "Eh hahaha."

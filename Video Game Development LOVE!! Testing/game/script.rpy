@@ -17,12 +17,11 @@ define crowd = Character("Crowd")       # Crowd of people
 define team = Character("Team")         # Projet team
 
 # Main Character 
-define mc = Character("[mcname]")
+define mc = Character("[mcname]")       # Main Character / Protagonist
 
 # TEST VARS
 define you_are_weeb_trash = True
 define kt = Character("Karen Tendo")
-
 
 
 ## START ##
@@ -43,6 +42,12 @@ label start:
 ## END START ##
     
 init:
+    # CHARACTER NAME
+    define mcname = ""
+    define they = "he"
+    define their = "his"
+    
+    # CURRENT ROUTE
     define route = "common"
     
     # AFFECTION
@@ -60,6 +65,7 @@ init:
     image sparkle_anim = Animation("sparkle1.gif", anim_speed, "sparkle2.gif", anim_speed, "sparkle3.gif", anim_speed, "sparkle4.gif", anim_speed)
     
 init python:
+    # SET ROUTE STRING BASED ON AFFECTION
     def set_route():
         global max_affection
         global route

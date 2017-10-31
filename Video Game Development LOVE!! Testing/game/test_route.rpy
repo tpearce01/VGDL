@@ -79,6 +79,3 @@ label test_route_func:
     return
     
 ## END TEST ROUTE ## 
-
-init:
-    define mcname = ""
