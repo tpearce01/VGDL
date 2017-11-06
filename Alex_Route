@@ -53,11 +53,50 @@ mc "Hi! Uh... so the basic gist of our game is a 2D, turn-based fighting system 
 
 ALDRICH PARK - Scouting for Scenes
 
-ax "So, what do you think of the campus so far?"
-mc "It's beautiful!"
-ax "I was thinking maybe using the part right over there as inspiration for the fights."
-mc "I gotta admit though - I never knew you were so into design."
-ax "All my life."
+ax "What do you think of the campus so far? It's not quite UCLA, but..."
+mc "Well, I think it's really, really green."
+ax "Is... is that good?"
+mc "Nature is good. And I like how like, you can get most places by going in a circle."
+ax "Oh, Ring Road?"
+mc "Yeah! Ring Road is super convenient."
+ax "Speaking of circles... it's funny."
+mc "What is?"
+ax "You remember how we 'went out' in Junior High for a week?"
+mc "Oh yeah! That was crazy. Why did we break up again?"
+ax "Because I wasn't Legolas."
+mc "Right. Uh, why is that funny?"
 
+FOOD COURT - Path Divergence
 
+ax "Thanks for meeting me here."
+mc "Of course. What do you need?"
+ax "I've got a confession to make."
 
+"Alex had become uncharacteristically quiet."
+
+mc "What happened? Are you not the president of Hot Wheels like you've claimed to be in the past?"
+ax "No. No, that's not it."
+mc "Whatever it is, it's not going to change our relationship."
+ax "I wouldn't be so sure about that."
+mc "Well, are you going to tell me? Or keep stringing me along?"
+ax "I'm sorry. I'm sorry."
+ax "..."
+ax "I don't want to pretend anymore."
+mc "Pretend what?"
+ax "This. Us. You and me. (Y/N), I've liked you for so long. Since we were kids."
+mc "I... don't know what to say..."
+ax "Say that we can stop pretending. Say that you feel the same way about me. I love you, (Y/N)."
+
+CHOICE A - "I love you!"
+mc "I love you too, Alex. Let's... let's stop pretending."
+ax "Phew... that was hard..."
+
+CHOICE B - "Wait a second..."
+mc "You're asking a lot from me, Alex. I... I'll need some time to think about it."
+ax "Y-yeah... sure. Y'know, I was just kidding."
+mc "It didn't look like it."
+ax "Nah. YOu and me, officially a couple? If we were going to do that, we would have done it forever ago."
+mc "Yeah, I guess."
+
+CHOICE A
+mc "
