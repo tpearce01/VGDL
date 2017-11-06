@@ -4,9 +4,9 @@
 
 # INTRO SCENE
 label gd_intro:
-    scene bg ring_road
-    with Pause(1)
-    scene bg ring_road with hpunch
+    scene bg park_2
+    ""
+    scene bg park_2 with hpunch
     "The main character(player) bumps into a mysterious person and the player drops her stuff."
     show gd calm
     gd "He then calmly looks at the player and gives the player a small, but charming smile and then proceeds to pick up the player&#x27;s stuff. Seeing a book that he likes, the mysterious person then tells the player that she has really good taste for books."
@@ -158,7 +158,7 @@ label gd_route1_scene2:
 
 # ROUTE1 SCENE3
 label gd_route1_scene3:
-    #bg lecture_hall
+    scene bg meeting_1
     "*next day in the lecture hall*"
     #show prof 
     #with dissolve
@@ -206,7 +206,7 @@ label gd_route1_scene3_leave:
 # END ROUTE1 SCENE3 LEAVE
 # ROUTE1 SCENE3 END
 label gd_route1_scene3_end:
-    #bg outside
+    scene bg park_2
     "\"My hands are shaking...\""
     "That was so embarrassing... I was able to confidently give a lecture but once *he* asked me a question I started to breakdown..."
     "\"THAT GUY IS SO ANNOYING!!!!\""
@@ -228,7 +228,7 @@ label gd_route1_scene3_end:
 
 # ROUTE1 SCENE4
 label gd_route1_scene4:
-    #bg lecture_hall
+    scene bg meeting_1
     "*the next VGDC meeting, aka pitch day*"
     show gd calm with dissolve
     gd "Alright everyone, today is the big day. Let's hear those pitches."
@@ -284,6 +284,7 @@ label gd_route1_scene4:
             call gd_route1_scene4_ignore
         "Tell him that you'll never tell him your name.":
             call gd_route1_scene4_nevetell
+    hide gd calm
     return
 # ROUTE1 SCENE4 TELL NAME
 label gd_route1_scene4_tellname:
@@ -315,8 +316,8 @@ label gd_route1_scene4_nevetell:
 # END ROUTE1 SCENE4
 
 # ROUTE1 SCENE5
-label gd_route1_scene5
-    #bg lecture_hall
+label gd_route1_scene5:
+    scene bg classroom
     "*a few days later*"
     #show ren with dissolve
     ren "Hey [mcname]."
@@ -331,13 +332,16 @@ label gd_route1_scene5
     #show ren smile
     ren "Okay, let's go to the meeting!"
     #hide ren with dissolve
+    scene bg meeting_2
     "*later*"
     "WHAT?! HES ON MY TEAM AS THE GROUP SUPERVISOR?! "
     "I bet he purposely put himself on my group..."
     "That nervous feeling is coming back...my hands are starting to sweat again... THIS GUY IS IRRITATING ME."
+    show gd calm with dissolve
     gd "Hey everyone. It's an honor to be working with you guys and supervising the team."
     gd "Everyone please introduce yourself. I have another group to meet up with, please write your info down on the paper."
     "*with sarcasm* \"Okay Gore, oops! George! It was nice meeting you, okay bye!\""
+    hide gd calm with dissolve
     "Thank goodness he's gone. He's heading over to Ren's group..."
     "\"What a great supervisor. He ditches us to wonder off and never come back. Whatever. We won't need him.\""
     team "Eh hahaha."
@@ -348,6 +352,7 @@ label gd_route1_scene5
     gd "Oh yeah, I'll message you later to get the information that I missed."
     "*sarcastically* \"But of course my amazing supervisor!\""
     gd "Hahaha, be safe when you go home."
+    hide gd calm with dissolve
     "\"Laters.\""
     return
 # END ROUTE1 SCENE5
@@ -429,7 +434,7 @@ label gd_route1_scene7:
     #*protagonist extremely happy and starts to devour the beef*
     show gd calm
     gd "Alright, so what's the plan for next week? When do you plan to have the meetings and what are the deadlines?"
-    "\"I... Oooooooo is that your halloween costume?! Waah it's so nice!"\"
+    "\"I... Oooooooo is that your halloween costume?! Waah it's so nice!\""
     "\"This is one good detective costume! Where did you get it?!\""
     gd "Oh, I made it."
     "\"What?! You did all that by yourself?! Wow...\""
@@ -453,14 +458,15 @@ label gd_route1_scene7:
     gd "It's called being a responsible adult." 
     "\"So you're saying I'm not an adult?!\""
     "\"That's insulting...\""
-    gd "Hahaha, there are many different kinds of adults... The ones that can cook and sew.
-    gd "The ones that take care of their children...And the ones that work hard endlessly throughout the day and night.
+    gd "Hahaha, there are many different kinds of adults... The ones that can cook and sew."
+    gd "The ones that take care of their children...And the ones that work hard endlessly throughout the day and night."
     #*J.D pokes protagonist in the nose*
     "*George Dan pokes me in the nose*"
     gd "Well it's late, we weren't able to discuss much, but we can talk about the game another day."
     gd "Let's go, I'll drive you home."
     #*J.D puts on his coat and the protagonist looks*
     "He's so mature... and those eyes... that expression... He's been through a lot."
+    hide gd with dissolve
     return
 # END ROUTE1 SCENE7
 

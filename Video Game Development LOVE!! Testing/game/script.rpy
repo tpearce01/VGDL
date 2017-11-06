@@ -33,6 +33,9 @@ label start:
     call gd_route1_scene2
     call gd_route1_scene3
     call gd_route1_scene4
+    call gd_route1_scene5
+    call gd_route1_scene6
+    call gd_route1_scene7
     
     # Credits
     call end_scene
