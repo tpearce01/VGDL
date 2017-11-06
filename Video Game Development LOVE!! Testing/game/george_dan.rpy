@@ -4,9 +4,9 @@
 
 # INTRO SCENE
 label gd_intro:
-    scene bg ring_road
-    with Pause(1)
-    scene bg ring_road with hpunch
+    scene bg park_2
+    ""
+    scene bg park_2 with hpunch
     "The main character(player) bumps into a mysterious person and the player drops her stuff."
     show gd calm
     gd "He then calmly looks at the player and gives the player a small, but charming smile and then proceeds to pick up the player&#x27;s stuff. Seeing a book that he likes, the mysterious person then tells the player that she has really good taste for books."
@@ -158,7 +158,7 @@ label gd_route1_scene2:
 
 # ROUTE1 SCENE3
 label gd_route1_scene3:
-    #bg lecture_hall
+    scene bg meeting_1
     "*next day in the lecture hall*"
     #show prof 
     #with dissolve
@@ -206,7 +206,7 @@ label gd_route1_scene3_leave:
 # END ROUTE1 SCENE3 LEAVE
 # ROUTE1 SCENE3 END
 label gd_route1_scene3_end:
-    #bg outside
+    scene bg park_2
     "\"My hands are shaking...\""
     "That was so embarrassing... I was able to confidently give a lecture but once *he* asked me a question I started to breakdown..."
     "\"THAT GUY IS SO ANNOYING!!!!\""
@@ -228,7 +228,7 @@ label gd_route1_scene3_end:
 
 # ROUTE1 SCENE4
 label gd_route1_scene4:
-    #bg lecture_hall
+    scene bg meeting_1
     "*the next VGDC meeting, aka pitch day*"
     show gd calm with dissolve
     gd "Alright everyone, today is the big day. Let's hear those pitches."
@@ -252,7 +252,7 @@ label gd_route1_scene4:
     "*crowd claps*"
     "THAT WAS THE WORST PRESENTATION THAT I'VE DONE. THAT GUY IS REALLY PISSING ME OFF!!"
     #show ren
-    ren "Hey 'protagonist' you did great. I expected nothing less from my little girl."
+    ren "Hey [mcname] you did great. I expected nothing less from my little girl."
     "\"Thanks Ren, but I choked pretty hard up there...\""
     "\"Jeez I never get nervous.\""
     ren "You did amazing, don't worry too much. Maybe it's because you present to so many people that presenting to a smaller group makes you nervous Hahaha."
@@ -284,12 +284,13 @@ label gd_route1_scene4:
             call gd_route1_scene4_ignore
         "Tell him that you'll never tell him your name.":
             call gd_route1_scene4_nevetell
+    hide gd calm
     return
 # ROUTE1 SCENE4 TELL NAME
 label gd_route1_scene4_tellname:
     "\"Fine if you want my name that badly. My name is [mcname].\""
     gd "Hi [mcname] it's a pleasure to meet you."
-    "*J.D puts his hands out and smiles*"
+    "*George Dan puts his hands out and smiles*"
     "protagonist This guy..."
     return
 # END ROUTE1 SCENE4 TELL NAME
@@ -307,7 +308,7 @@ label gd_route1_scene4_ignore:
 label gd_route1_scene4_nevetell:
     "*With attitude* \"I'll never tell you my name even if you ask for it a million times.\""
     gd "Haha fair enough. My name is George Dan, it's a honor to meet you [mcname]"
-    "*they both look at each other in the eyes as J.D puts his hands out and smiles*"
+    "*they both look at each other in the eyes as George Dan puts his hands out and smiles*"
     "This guy... never stops to make my heart jump."
     $ gd_affection += 2
     return
@@ -315,7 +316,8 @@ label gd_route1_scene4_nevetell:
 # END ROUTE1 SCENE4
 
 # ROUTE1 SCENE5
-    #bg lecture_hall
+label gd_route1_scene5:
+    scene bg classroom
     "*a few days later*"
     #show ren with dissolve
     ren "Hey [mcname]."
@@ -330,13 +332,16 @@ label gd_route1_scene4_nevetell:
     #show ren smile
     ren "Okay, let's go to the meeting!"
     #hide ren with dissolve
+    scene bg meeting_2
     "*later*"
     "WHAT?! HES ON MY TEAM AS THE GROUP SUPERVISOR?! "
     "I bet he purposely put himself on my group..."
     "That nervous feeling is coming back...my hands are starting to sweat again... THIS GUY IS IRRITATING ME."
+    show gd calm with dissolve
     gd "Hey everyone. It's an honor to be working with you guys and supervising the team."
     gd "Everyone please introduce yourself. I have another group to meet up with, please write your info down on the paper."
     "*with sarcasm* \"Okay Gore, oops! George! It was nice meeting you, okay bye!\""
+    hide gd calm with dissolve
     "Thank goodness he's gone. He's heading over to Ren's group..."
     "\"What a great supervisor. He ditches us to wonder off and never come back. Whatever. We won't need him.\""
     team "Eh hahaha."
@@ -347,6 +352,125 @@ label gd_route1_scene4_nevetell:
     gd "Oh yeah, I'll message you later to get the information that I missed."
     "*sarcastically* \"But of course my amazing supervisor!\""
     gd "Hahaha, be safe when you go home."
+    hide gd calm with dissolve
     "\"Laters.\""
+    return
 # END ROUTE1 SCENE5
+
+# ROUTE 1 SCENE 6
+label gd_route1_scene6:
+    #scene apartment
+    "*later that night*"
+    #show phone
+    "*text from phone*"
+    "It's 12 a.m... why is someone texting me this late"
+    #show phone georgedan
+    "WHAT DOES HE WANT ITS 12AM. Why am I so awake now..."
+    gd "Hey, this is me Jeorge, sorry for messaging you this late, but I was wondering when you wanted to meet up to discuss about the game?"
+    "HMMM should I wait till the morning and answer or should I answer it now..." 
+    "WHAT. WHY DOES THAT MATTER. I'll just answer it now."
+    "\"Uhh yeah I can meet up whenever after 6p.m tomorrow.\""
+    gd "Okay, where do you want to meet up?"
+    "\"Wherever is fine.\""
+    gd "My apartment?"
+    "WAIT WHAT. WHAT DID HE SAY."
+    "\"your apartment?\""
+    gd "Yeah, I'll give you a ride there."
+    "My hands are starting to sweat like crazy... WHAT DO I SAY. HIS APARTMENT?!"
+    "\"Yeah sure if you want\""
+    "WHY DID I SAY YES. WHY DID I SAY THAT."
+    gd "Let's meet up at the library when you're done?"    
+    "\"Yeah\""
+    "HOW DID THIS HAPPEN."    
+    #hide phone with dissolve
+    "*3 hours later*"
+    "It's 3 a.m... I'm going to be so tired tomorrow but I can't sleep. ALL BECAUSE OF HIM AGAIN."
+    return
+# END ROUTE 1 SCENE 6
+
+# ROUTE 1 SCENE 7
+label gd_route1_scene7:
+    #scene gd_apartment_outside
+    "So this is where the president lives huh?"
+    show gd calm
+    gd "Yeah, it's pretty empty inside"
+    #scene gd_apartment_inside
+    "It's so clean... His apartment is extremely clean!!"
+    "\"Your apartment is so clean!!! How is this possible? You're... you're a guy. Guys are messy.\""
+    "\"It's so sad when a guy's apartment is cleaner than yours...\""
+    gd "Hahaha, I just like to keep things clean I guess."
+    gd "Would you like anything to drink or eat?"
+    "\"Yeah, what do you have?! I haven't eaten anything today.\""    
+    gd "Well the fri... I guess you found the fridge."
+    "\"Wow... you have so much fresh foods and ingredients stocked in here!\""
+    gd "Feel free to cook yourself anything."
+    "\"I.. I can't cook. I don't know how. Or well I never learned how to... I never got the chance to try.\""
+    gd "Ah I see. As the daughter of the prestige Chancellor, you're always too busy with research to cook food for yourself."
+    gd "That's fine, I'll cook you dinner."
+    gd "In the mean time can you give layout your project and give me a rundown of what you plan on doing for the next week."
+    "\"wait... can I..?\""
+    gd "You want to help me cook is what you were going to ask?"
+    "WAIT WHAT.HOW DID HE KNOW. WHY DID I SAY THAT. NOT KNOWNIG HOW TO COOK IS ALREADY EMBARRASSING."
+    gd "No."
+    #*protagonist gives a scare/frozen expression*
+    gd "Hahaha, I'm just kidding. Yeah, I'll teach you how to cook."
+    "\"You could've frozen African with those words...\""
+    "\"What are we cooking?!\""
+    gd "Steak and veggies"
+    "\"REALY STEAK?!\"" 
+    "The only beef I had since arriving here was chinese beef from fast food..."
+    gd "You probably only had fast food since you arrived here am I wrong?"
+    "Either this guy is some kind of mind reader or he's from the future. He can read me like a book."
+    "*awkwardly laughs*"
+    "\"AHAHAHAHA....\""
+    gd "Okay, can you clean the veggies?"
+    hide gd calm with dissolve
+    "*an hour later*"
+    show gd calm with dissolve
+    gd "And we're done!"
+    "\"Wow!!! That smell is so amazing!!!!!!! I can already taste the richness of the meat through my nose\""
+    #show gd smile
+    gd "You made it. You did a great job."
+    #*protagonist extremely happy and starts to devour the beef*
+    show gd calm
+    gd "Alright, so what's the plan for next week? When do you plan to have the meetings and what are the deadlines?"
+    "\"I... Oooooooo is that your halloween costume?! Waah it's so nice!\""
+    "\"This is one good detective costume! Where did you get it?!\""
+    gd "Oh, I made it."
+    "\"What?! You did all that by yourself?! Wow...\""
+    "\"You're not just a useless supervisor after all\""
+    gd "Huh?"
+    #*protagonist stands up*
+    "*I stand up*"
+    "\"Oh shoot, my shirt caught the table and it ripped... and today was going so well too...\""
+    gd "Here, take off your shirt"
+    "\"WHAT?! HUH?! YOU PERVERT.\""
+    #*J.D smiles and chuckles*
+    #show gd smile
+    gd "Here take this shirt, put it on, and give me the one that ripped, I'll won't look."
+    "\"This guy.. what is he up to.\""
+    "\"Here.\""
+    "*George Dan pulls out his sewing kit*"
+    "Wow... he's going to sew it back for me.."
+    "*George Dan hands back the shirt*"
+    gd "Here ya go, sorry I wasn't able to do a better job."
+    "\"You sure know how to do everything huh... You're like a mom...\""
+    gd "It's called being a responsible adult." 
+    "\"So you're saying I'm not an adult?!\""
+    "\"That's insulting...\""
+    gd "Hahaha, there are many different kinds of adults... The ones that can cook and sew."
+    gd "The ones that take care of their children...And the ones that work hard endlessly throughout the day and night."
+    #*J.D pokes protagonist in the nose*
+    "*George Dan pokes me in the nose*"
+    gd "Well it's late, we weren't able to discuss much, but we can talk about the game another day."
+    gd "Let's go, I'll drive you home."
+    #*J.D puts on his coat and the protagonist looks*
+    "He's so mature... and those eyes... that expression... He's been through a lot."
+    hide gd with dissolve
+    return
+# END ROUTE1 SCENE7
+
+# ROUTE1 SCENE8
+# DIALOGUE NOT YET IMPLEMENTED
+# END ROUTE1 SCENE8
 ## END GEORGE DAN ROUTE ##
