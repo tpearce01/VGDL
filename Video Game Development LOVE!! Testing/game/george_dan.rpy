@@ -315,6 +315,7 @@ label gd_route1_scene4_nevetell:
 # END ROUTE1 SCENE4
 
 # ROUTE1 SCENE5
+label gd_route1_scene5
     #bg lecture_hall
     "*a few days later*"
     #show ren with dissolve
@@ -348,5 +349,122 @@ label gd_route1_scene4_nevetell:
     "*sarcastically* \"But of course my amazing supervisor!\""
     gd "Hahaha, be safe when you go home."
     "\"Laters.\""
+    return
 # END ROUTE1 SCENE5
+
+# ROUTE 1 SCENE 6
+label gd_route1_scene6:
+    #scene apartment
+    "*later that night*"
+    #show phone
+    "*text from phone*"
+    "It's 12 a.m... why is someone texting me this late"
+    #show phone georgedan
+    "WHAT DOES HE WANT ITS 12AM. Why am I so awake now..."
+    gd "Hey, this is me Jeorge, sorry for messaging you this late, but I was wondering when you wanted to meet up to discuss about the game?"
+    "HMMM should I wait till the morning and answer or should I answer it now..." 
+    "WHAT. WHY DOES THAT MATTER. I'll just answer it now."
+    "\"Uhh yeah I can meet up whenever after 6p.m tomorrow.\""
+    gd "Okay, where do you want to meet up?"
+    "\"Wherever is fine.\""
+    gd "My apartment?"
+    "WAIT WHAT. WHAT DID HE SAY."
+    "\"your apartment?\""
+    gd "Yeah, I'll give you a ride there."
+    "My hands are starting to sweat like crazy... WHAT DO I SAY. HIS APARTMENT?!"
+    "\"Yeah sure if you want\""
+    "WHY DID I SAY YES. WHY DID I SAY THAT."
+    gd "Let's meet up at the library when you're done?"    
+    "\"Yeah\""
+    "HOW DID THIS HAPPEN."    
+    #hide phone with dissolve
+    "*3 hours later*"
+    "It's 3 a.m... I'm going to be so tired tomorrow but I can't sleep. ALL BECAUSE OF HIM AGAIN."
+    return
+# END ROUTE 1 SCENE 6
+
+# ROUTE 1 SCENE 7
+label gd_route1_scene7:
+    #scene gd_apartment_outside
+    "So this is where the president lives huh?"
+    show gd calm
+    gd "Yeah, it's pretty empty inside"
+    #scene gd_apartment_inside
+    "It's so clean... His apartment is extremely clean!!"
+    "\"Your apartment is so clean!!! How is this possible? You're... you're a guy. Guys are messy.\""
+    "\"It's so sad when a guy's apartment is cleaner than yours...\""
+    gd "Hahaha, I just like to keep things clean I guess."
+    gd "Would you like anything to drink or eat?"
+    "\"Yeah, what do you have?! I haven't eaten anything today.\""    
+    gd "Well the fri... I guess you found the fridge."
+    "\"Wow... you have so much fresh foods and ingredients stocked in here!\""
+    gd "Feel free to cook yourself anything."
+    "\"I.. I can't cook. I don't know how. Or well I never learned how to... I never got the chance to try.\""
+    gd "Ah I see. As the daughter of the prestige Chancellor, you're always too busy with research to cook food for yourself."
+    gd "That's fine, I'll cook you dinner."
+    gd "In the mean time can you give layout your project and give me a rundown of what you plan on doing for the next week."
+    "\"wait... can I..?\""
+    gd "You want to help me cook is what you were going to ask?"
+    "WAIT WHAT.HOW DID HE KNOW. WHY DID I SAY THAT. NOT KNOWNIG HOW TO COOK IS ALREADY EMBARRASSING."
+    gd "No."
+    #*protagonist gives a scare/frozen expression*
+    gd "Hahaha, I'm just kidding. Yeah, I'll teach you how to cook."
+    "\"You could've frozen African with those words...\""
+    "\"What are we cooking?!\""
+    gd "Steak and veggies"
+    "\"REALY STEAK?!\"" 
+    "The only beef I had since arriving here was chinese beef from fast food..."
+    gd "You probably only had fast food since you arrived here am I wrong?"
+    "Either this guy is some kind of mind reader or he's from the future. He can read me like a book."
+    "*awkwardly laughs*"
+    "\"AHAHAHAHA....\""
+    gd "Okay, can you clean the veggies?"
+    hide gd calm with dissolve
+    "*an hour later*"
+    show gd calm with dissolve
+    gd "And we're done!"
+    "\"Wow!!! That smell is so amazing!!!!!!! I can already taste the richness of the meat through my nose\""
+    #show gd smile
+    gd "You made it. You did a great job."
+    #*protagonist extremely happy and starts to devour the beef*
+    show gd calm
+    gd "Alright, so what's the plan for next week? When do you plan to have the meetings and what are the deadlines?"
+    "\"I... Oooooooo is that your halloween costume?! Waah it's so nice!"\"
+    "\"This is one good detective costume! Where did you get it?!\""
+    gd "Oh, I made it."
+    "\"What?! You did all that by yourself?! Wow...\""
+    "\"You're not just a useless supervisor after all\""
+    gd "Huh?"
+    #*protagonist stands up*
+    "*I stand up*"
+    "\"Oh shoot, my shirt caught the table and it ripped... and today was going so well too...\""
+    gd "Here, take off your shirt"
+    "\"WHAT?! HUH?! YOU PERVERT.\""
+    #*J.D smiles and chuckles*
+    #show gd smile
+    gd "Here take this shirt, put it on, and give me the one that ripped, I'll won't look."
+    "\"This guy.. what is he up to.\""
+    "\"Here.\""
+    "*George Dan pulls out his sewing kit*"
+    "Wow... he's going to sew it back for me.."
+    "*George Dan hands back the shirt*"
+    gd "Here ya go, sorry I wasn't able to do a better job."
+    "\"You sure know how to do everything huh... You're like a mom...\""
+    gd "It's called being a responsible adult." 
+    "\"So you're saying I'm not an adult?!\""
+    "\"That's insulting...\""
+    gd "Hahaha, there are many different kinds of adults... The ones that can cook and sew.
+    gd "The ones that take care of their children...And the ones that work hard endlessly throughout the day and night.
+    #*J.D pokes protagonist in the nose*
+    "*George Dan pokes me in the nose*"
+    gd "Well it's late, we weren't able to discuss much, but we can talk about the game another day."
+    gd "Let's go, I'll drive you home."
+    #*J.D puts on his coat and the protagonist looks*
+    "He's so mature... and those eyes... that expression... He's been through a lot."
+    return
+# END ROUTE1 SCENE7
+
+# ROUTE1 SCENE8
+# DIALOGUE NOT YET IMPLEMENTED
+# END ROUTE1 SCENE8
 ## END GEORGE DAN ROUTE ##
