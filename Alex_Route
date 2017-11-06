@@ -95,8 +95,47 @@ CHOICE B - "Wait a second..."
 mc "You're asking a lot from me, Alex. I... I'll need some time to think about it."
 ax "Y-yeah... sure. Y'know, I was just kidding."
 mc "It didn't look like it."
-ax "Nah. YOu and me, officially a couple? If we were going to do that, we would have done it forever ago."
+ax "Nah. You and me, officially a couple? If we were going to do that, we would have done it forever ago."
 mc "Yeah, I guess."
 
 CHOICE A
-mc "
+[scene 1]
+ax "Wow, you and me, together. This feels... good."
+
+[scene 2]
+"Weeks passed, and we were so happy."
+"We did everything together. Just like old time."
+"The only difference was that we were past the friend stage. We were in love."
+
+[scene 3]
+"Our game was set to be completed in the following week."
+"Alex had stopped returning my texts. He didn't want to meet up for lunch..."
+"Things had gone south very fast."
+
+[end]
+mc "You're really going to pin all of this on me?"
+ax "We didn't finish the game because of YOU."
+mc "How is it my fault!?"
+ax "Your constant nagging, dragging me to places instead of to the meetings so we could finish things."
+mc "That's what couples do!"
+ax "If you love someone, then you're not going to keep them from doing what they want to do."
+mc "Alex! Don't leave. I love you!"
+ax "Yeah, and I thought I loved you too."
+
+CHOICE B
+[scene 1]
+ax "Look, about the other day..."
+mc "Forget about it. Let's just work on our game, okay?"
+
+[scene 2]
+"Our game was set to be completed in the following week."
+"One of the writers in our group had flaked out early on."
+"We were scrambling to get everything done on time."
+
+[scene 3]
+ax "Wow, our game turned out great!"
+
+[end]
+ax "Thanks for everything, (Y/N)."
+mc "It's what friends do!"
+ax "Then I'm super lucky to have a friend like you."
