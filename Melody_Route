@@ -4,31 +4,74 @@ mc "(I can't believe I left my phone in the lecture hall...)"
 mc "(Crap, crap, crap...)"
 mc "(Please let it still be there...)"
 
-"When I entered the lecture hall, I saw a girl walking around the room."
+"When I entered the lecture hall, I saw a girl drawing on the far wall.”
+“It kind of looked like the Audio Officer from the VGDC meeting.”
 
-mc "Um, excuse me..."
-md "Jesus Christ!"
-mc "Sorry!! I didn't mean to scare you!"
-md "It's gonna take a lot more than that. What do you want?"
-mc "I think I left my phone..."
-md "You mean this crappy little broken thing that I found on the floor?"
-mc "I... yeah."
-md "Okay, you can have it back. But I need you to promise me something."
-mc "I guess."
-md "Promise me that you won't tell anyone that you saw me here."
-mc "Hey, you're that girl from last night. Melody."
-md "Super observant, Sherlock. That's not promising me."
+mc “Excuse me?”
+md “What do you want?”
+mc “Just wondering if you’ve seen a phone around here.”
+md “Not really.”
+
+“As Melody was leaving, Alex made his way inside.”
+
+ax “Hey, what’s taking you so long? You okay?”
+mc “Yeah… I just got caught up with talking to Melody.”
+ax “The Audio Officer Melody?”
+mc “The one and only!”
+ax “So which one of you did the lovely art on the wall?”
+mc “That? Oh! Uh, not me!”
+ax “I can believe that. You aren’t exactly known for your artistic talent.”
+mc “Hey!”
+ax “Relax! I’m joking!”
+
+LANGSON LIBRARY - Forming Pitch
+
+md "Hey, bromiga."
+mc "Bromiga?"
+md "It's a combination of 'bro' and 'amiga'. Hence, 'bromiga'."
+mc "Oh, well, hey back, bromiga!"
+md "No... no, it doesn't sound right coming from you."
+mc "Um... okay. Did you need soemthing?"
+md "Just thought I'd come by to see what you're up to."
+mc "I'm working on my pitch."
+md "So you're gonna pitch a game next week?"
+mc "Yeah. I'm just not sure what kind I'm going to do."
+
+SSLH - Pitching Game
 
 
+****ALDRICH PARK - Video Game Related
 
-"As soon as Melody left, Alex came in."
+"Melody had sent me a text."
 
-ax "You were taking such a long time, I thought something had happened to you."
-mc "Sorry. That girl..."
-ax "Who? Melody?"
-mc "Yeah."
-****[dialogue, dialogue, dialogue]
-ax "It's getting late. We should start heading back."
+mc "(Meet me at the Student Center Starbucks tonight.)"
 
-SCENE 2
 
+STUDENT CENTER - Path Divergence
+
+md "Oh, (Y/N), you're finally here!"
+mc "Hey. What's up?"
+md "I need you to help me with something."
+mc "I'll do what I can!"
+md "That's hella sweet. So, Alex has been trying to get me kicked out of the club forever now."
+md "I need your help in pranking him. To teach him a lesson. What do you say, bromiga?"
+
+CHOICE A - "Okay, I'll help you."
+mc "You're right. Let's teach him a lesson!"
+mc
+
+CHOICE B - "No, I don't think so..."
+mc "I can't do that. Not to my best friend."
+md "That's weak, bromiga."
+
+CHOICE A
+[scene 1]
+[scene 2]
+[scene 3]
+[end]
+
+CHOICE B
+[scene 1]
+[scene 2]
+[scene 3]
+[end]
