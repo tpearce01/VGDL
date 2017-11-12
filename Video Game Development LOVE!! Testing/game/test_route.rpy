@@ -2,6 +2,7 @@
 ## This route is for testing only ##
 # GET MCNAME
 label get_name:
+    scene bg black
     python:
         mcname = renpy.input("What is your name?")
         mcname = mcname.strip();
@@ -10,9 +11,30 @@ label get_name:
     return
 # END GET MCNAME
 
+# GET GENDER
+label get_gender:
+    menu gender:
+        "What is your gender?"
+        
+        "Male":
+            # Gender defaults to male - no change needed. Adding statement to satisfy renpy menu syntax
+            $ gender = "m"
+        "Female":
+            python:
+                gender = "f"
+                they = "her"
+                their = "hers"
+    return
+# END GET GENDER
+
+label test_monologue:
+    scene bg black
+    "Inner monologue text"
+    "(Inner monologue text"
+    mc "(Inner monologue text)"
+    return
 
 label test_route:
-    stop music fadeout 1.0
     python:
         renpy.music.set_volume(0.25, 0, channel="music")
     queue music "test-music-a.ogg" loop

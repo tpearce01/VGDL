@@ -27,40 +27,64 @@ define kt = Character("Karen Tendo")
 ## START ##
 # The game starts here. 
 label start:
-    call get_name
-    call gd_intro
-    call gd_route1_scene1
-    call gd_route1_scene2
-    call gd_route1_scene3
-    call gd_route1_scene4
-    call gd_route1_scene5
-    call gd_route1_scene6
-    call gd_route1_scene7
+    stop music fadeout 1.0      # Stop music from menu in case it has not been stopped
+    #queue music "insert_song_name.ogg" loop
+    scene bg black              # Default to black scene in case of missing background
+    
+    # TESTING
+    #call test_monologue
+    # END TESTING
+    
+    # INTRODUCTION / PRE-PROLOGUE
+    call get_name               # Get main character name
+    call get_gender             # Get main character gender
+    
+    # PROLOGUE
+    call prologue_scene1
+    call prologue_scene2
+    call prologue_scene3
+    call prologue_scene4
+    call prologue_scene5
+    call prologue_scene6
+    call prologue_scene7
+    
+    # GEORGE DAN
+    call gd_intro               # George Dan intro
+    call gd_route1_scene1       # George Dan Scene 1
+    call gd_route1_scene2       # George Dan Scene 1
+    call gd_route1_scene3       # George Dan Scene 1
+    call gd_route1_scene4       # George Dan Scene 1    
+    call gd_route1_scene5       # George Dan Scene 1
+    call gd_route1_scene6       # George Dan Scene 1
+    call gd_route1_scene7       # George Dan Scene 1
     
     # Credits
-    call end_scene
+    call end_scene              # Credits Scene
 
     # This ends the game.
     return
 ## END START ##
     
 init:
-    # CHARACTER NAME
-    define mcname = ""
-    define they = "he"
-    define their = "his"
+    # CHARACTER ATTRIBUTES
+    define mcname = "Tyler"     # Default main character name
+    define gender = "m"         # Default character gender
+    
+    # DIALOGUE VARIABLES
+    define they = "he"          # UNUSED - Variable for setting gender he/she
+    define their = "his"        # UNUSED - Variable for setting gender his/hers
     
     # CURRENT ROUTE
-    define route = "common"
+    define route = "common"     # UNUSED - Define current route title
     
-    # AFFECTION
-    define max_affection = 0
-    define gd_affection = 0
-    define yu_affection = 0
-    define re_affection = 0
-    define kd_affection = 0
-    define md_affection = 0
-    define ax_affection = 0
+    # AFFECTION - UNUSED
+    define max_affection = 0    # Highest current affection, used for affection function
+    define gd_affection = 0     # George Dan affection
+    define yu_affection = 0     # Yukiko affection
+    define re_affection = 0     # Reina affection
+    define kd_affection = 0     # Kendrick affection
+    define md_affection = 0     # Melody affection
+    define ax_affection = 0     # Alexander affection
     
     # ANIMATIONS
     define anim_speed = .08
@@ -68,7 +92,7 @@ init:
     image sparkle_anim = Animation("sparkle1.gif", anim_speed, "sparkle2.gif", anim_speed, "sparkle3.gif", anim_speed, "sparkle4.gif", anim_speed)
     
 init python:
-    # SET ROUTE STRING BASED ON AFFECTION
+    # FUNCTION set_route - SET ROUTE STRING BASED ON AFFECTION
     def set_route():
         global max_affection
         global route
