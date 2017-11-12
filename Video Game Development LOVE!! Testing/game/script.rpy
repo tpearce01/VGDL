@@ -27,6 +27,10 @@ define kt = Character("Karen Tendo")
 ## START ##
 # The game starts here. 
 label start:
+    # TESTING
+    call test_monologue
+    # END TESTING
+    
     call get_name
     call gd_intro
     call gd_route1_scene1

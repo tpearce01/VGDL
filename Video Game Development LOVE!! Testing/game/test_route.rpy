@@ -10,6 +10,12 @@ label get_name:
     return
 # END GET MCNAME
 
+label test_monologue:
+    scene bg test
+    "Inner monologue text"
+    "(Inner monologue text"
+    mc "(Inner monologue text)"
+    return
 
 label test_route:
     stop music fadeout 1.0

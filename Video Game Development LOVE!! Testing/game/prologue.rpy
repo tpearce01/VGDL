@@ -151,7 +151,7 @@ label prologue_scene3:
     "Making up my mind, I picked my book up from the table and made my way towards the game room"
     return
          
-label prologue_scene3:
+label prologue_scene4:
     scene bg park_1
     mc "Let's see..."
     "I was walking through Aldrich Park, inputing DBH on the Zotfinder app to guide me."
@@ -185,7 +185,7 @@ label prologue_scene3:
     "After brushing myself off for good measure, I went on my way."
     return
     
-label prologue_scene4:
+label prologue_scene5:
     #--Skip to DB lobby--
     scene bg db_lobby
     mc "DB 1412..."
@@ -210,7 +210,7 @@ label prologue_scene4:
     "Then, I peeked inside the game room."
     return
 
-label prologue_scene5:
+label prologue_scene6:
     #--Game room--
     scene bg clubroom
     mc "(Ahh... I just have the greatest timing...)"
@@ -252,7 +252,7 @@ label prologue_scene5:
     re "..."
     return
     
-label prologue_scene6:
+label prologue_scene7:
     #--DB hall--
     #scene bg dbhall
     mc "sigh..."
@@ -264,7 +264,7 @@ label prologue_scene6:
     mc "Well, it'd be unfair to leave just for that. Might as well just give it a shot."
     "I nodded to myself and pushed through the doors of the building."
 
-label prologue_scene7:
+label prologue_scene8:
     #--Outside DB--
     #scene outside db
     "The doors swung open"
