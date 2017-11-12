@@ -16,6 +16,10 @@ label get_gender:
     menu gender:
         "What is your gender?"
         
+        "Male":
+            # Gender defaults to male - no change needed. Adding statement to satisfy renpy menu syntax
+            $ gender = "m"
+        "Female":
             python:
                 gender = "f"
                 they = "her"
