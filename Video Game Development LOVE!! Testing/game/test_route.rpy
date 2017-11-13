@@ -1,31 +1,14 @@
 ## TEST ROUTE ##
 ## This route is for testing only ##
-# GET MCNAME
-label get_name:
-    scene bg black
-    python:
-        mcname = renpy.input("What is your name?")
-        mcname = mcname.strip();
-        if not mcname:
-            mcname = "Default_Name"
-    return
-# END GET MCNAME
 
-# GET GENDER
-label get_gender:
-    menu gender:
-        "What is your gender?"
-        
-        "Male":
-            # Gender defaults to male - no change needed. Adding statement to satisfy renpy menu syntax
-            $ gender = "m"
-        "Female":
-            python:
-                gender = "f"
-                they = "her"
-                their = "hers"
+# TEST EFFECTS
+label test_effects:
+    scene bg park_1
+    show yu calm
+    with Pause(1)
+    scene bg park_2 with irisin
     return
-# END GET GENDER
+# END TEST EFFECTS
 
 label test_monologue:
     scene bg black

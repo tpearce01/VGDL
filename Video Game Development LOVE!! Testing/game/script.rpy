@@ -25,14 +25,15 @@ define kt = Character("Karen Tendo")
 
 
 ## START ##
-# The game starts here. 
+# MAIN GAME LOOP
 label start:
     stop music fadeout 1.0      # Stop music from menu in case it has not been stopped
-    #queue music "insert_song_name.ogg" loop
+    #queue music "insert_song_name.ogg" loop    # Template for queueing music
     scene bg black              # Default to black scene in case of missing background
     
     # TESTING
     #call test_monologue
+    #call test_effects
     # END TESTING
     
     # INTRODUCTION / PRE-PROLOGUE
@@ -65,6 +66,37 @@ label start:
     return
 ## END START ##
     
+## NON-ROUTE SCENES ##
+# GET MCNAME
+label get_name:
+    scene bg black
+    python:
+        mcname = renpy.input("What is your name?")
+        mcname = mcname.strip();
+        if not mcname:
+            mcname = "Default_Name"
+    return
+# END GET MCNAME
+
+# GET GENDER
+label get_gender:
+    menu gender:
+        "What is your gender?"
+        
+        "Male":
+            # Gender defaults to male - no change needed. Adding statement to satisfy renpy menu syntax
+            $ gender = "m"
+        "Female":
+            python:
+                gender = "f"
+                they = "her"
+                they_c = "Her"
+                their = "hers"
+                their_c = "Hers"
+    return
+# END GET GENDER
+## END NON ROUTE SCENES ##
+    
 init:
     # CHARACTER ATTRIBUTES
     define mcname = "Tyler"     # Default main character name
@@ -72,7 +104,9 @@ init:
     
     # DIALOGUE VARIABLES
     define they = "he"          # UNUSED - Variable for setting gender he/she
+    define they_c = "He"        # He/She Capital version
     define their = "his"        # UNUSED - Variable for setting gender his/hers
+    define their_c = "His"        # His/Hers Capital version
     
     # CURRENT ROUTE
     define route = "common"     # UNUSED - Define current route title

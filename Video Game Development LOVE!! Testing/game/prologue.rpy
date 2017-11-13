@@ -1,6 +1,8 @@
 ## PROLOGUE ##
 
+# PROLOGUE SCENE1
 label prologue_scene1:
+    scene bg black
     "My name is [mcname]"
     "I'd consider myself a pretty good student. I attended class, got good grades, and ended the semester with an admirable GPA."
     "Though I wasn't entirely confident about it, I genuinely thought I had a shot at getting accepted into my dream school, UCLA."
@@ -9,8 +11,8 @@ label prologue_scene1:
     "Unfortunately, life tends to not go the way I want it to."
     "And today was no exception."
     #--Aldrich Park 1--
-    scene bg park_1
-    show ax with dissolve
+    scene bg park_1 with dissolve
+    show ax calm with dissolve
     ax "[mcname], this way! My club's booth is just up ahead!"
     mc "\"Alex, I told you, I'm not interested in joining any clubs this quarter! Just, let go of me already!\""
     ax "Hmm? Sorry, did you say something?"
@@ -18,8 +20,10 @@ label prologue_scene1:
     mc "\"Well, not mentally, at least.\""
     ax "Hmm... You're not wrong there."
     mc "\"Oh, so you heard that?\""
+    show ax happy with dissolve
     ax"Haha! Selective hearing, I guess!"
     mc "\"Selective hearing my ass\""
+    show ax calm with dissolve
     "This guy is Alexander, or Alex for short."
     "As a result of our parents being close friends, he and I were introduced at a young age and pretty much grew up together."
     "For better or for worse, we became each others' confidants. I knew all his ins and outs, and he knew mine."
@@ -31,14 +35,10 @@ label prologue_scene1:
     mc "(But my feelings for him...)"
     ax "[mcname]. [mcname], look, over there."
     mc "\"What?\""
-    hide ax with dissolve
-    #show girls
     "I turned to look in the direction he was pointing, only to see a group of girls chatting amongst themselves."
     ax "See that girl in the denim jacket?"
     mc "\"Yea...?\""
-    #hide girls
     ax "..."
-    show ax with dissolve
     ax "I need her number."
     mc "..."
     mc "(My feelings for him definitely changed for the worse.)"
@@ -57,45 +57,53 @@ label prologue_scene1:
     "I didn't want to go, but Alex was insitent on making me join his club."
     mc "(At least now, I can finally go back to my room...)"
     "I let out a sigh, and began following a road that would hopefully lead me out of here."
-    show yu with dissolve
+    show yu calm with dissolve
     yu "Hey, you!"
     mc "..."
     yu "Huh? Hellooo...?"
     mc "..."
     mc "(Just keep facing forward, and they'll just give up-)"
     yu "Boo!"
+    with hpunch
     mc "?!"
-    scene bg park_1 with vpunch
     "I jolted back, path now blocked by a grinning girl with purple hair."
+    show yu happy
     yu "Haha, gotcha!"
     yu "No escaping from me now, alright?"
     mc "(Damn. Foiled again...)"
     yu "Hey, don't give me that look... Come on, just follow me for a sec, okay? There's this really cool club you should totally check out!"
     mc "\"Umm... Sorry, but I'm actually not interest-\""
     yu "Nonsense! This way!"
+    show yu calm
     "And just like that, she placed a hand on my back, and whisked me away."
+    hide yu calm with dissolve
     mc "(Why me...)"
     return
+# END PROLOGUE SCENE1
 
+# PROLOGUE SCENE2
 label prologue_scene2:
     #--Aldrich Park 2--
-    scene bg park_2
-    show yu with dissolve
+    scene bg park_2 with fade
+    show yu calm with dissolve
     yu "Here we are!"
     kd "Hmm..?"
-    show yu:
-        linear 0.5 xalign 1.0
-    show kd #expression
     "The girl brought me to a booth with a video game themed banner. There was a guy wearing a suit sitting behind it."
     "He stared at me for a moment before turning to the girl."
+    show yu calm:
+        linear 0.5 xalign 1.0
+    show kd calm at left with dissolve
     kd "Yukiko, please tell me you didn't just abduct this person."
-    yu "Tooootally not! [they] came here out of their own free will! Right?"
+    yu "Tooootally not! [they_c] came here out of their own free will! Right?"
     mc "..."
     kd "It certainly doesn't seem like it."
     yu "Oh lighten up! I know how much you love people, so I brought you one!"
     kd "Tch."
     yu "Alright bud, I'll leave you in Kendrick's hands, alright? I've got some more hunting to do."
     mc "(Wait, you're just going to leave me here?!)"
+    hide yu calm with dissolve
+    show kd calm:
+        linear 0.5 xalign 0.5
     "Before I got to voice my thoughts, the girl named Yukiko ran away, leaving me with this Kendrick guy."
     "He clicked his tongue."
     kd "How unprofessional." 
@@ -105,6 +113,7 @@ label prologue_scene2:
     "He shot a sharp glance at me, and I awkwardly scratched my cheek."
     mc "\"Can I just... go..?\""
     kd "..."
+    show kd thinking
     "He looked away for a moment, probably contemplating something. But soon after, he sighed and walked around the table, making his way towards me."
     kd "I'm afraid not. I have a duty, and I am expected to fulfill it."
     "I couldn't help but let out a sigh." 
@@ -112,6 +121,7 @@ label prologue_scene2:
     kd "Please, bear with me while I go over the activities and goals of this club. I'll try to keep it short."
     mc "\"Alright... Fine by me, I guess.\""
     "He cleared his throat."
+    show kd calm
     kd "We are known at the Video Game Development Club, or the VGDC for short."
     kd "No matter the major of the individual, this club is open to anyone and everyone interested in producing video games."
     kd "There are six departments: programming, art, writing, audio, production, and design. I, personally, am part of the production department."
@@ -134,11 +144,14 @@ label prologue_scene2:
     mc "..."
     mc "(That suit is seriously overkill for a casual involvement fair, though...)"
     return
+# END PROLOGUE SCENE2
     
+# PROLOGUE SCENE3
 label prologue_scene3:
     #--Student Center--
-    #scene bg studentcenter
+    scene bg black with dissolve
     "--A few days later--" 
+    scene bg studentcenter with dissolve
     mc "..."
     "I've gotten through my first academic week here in UCI. Classes are faced paced, but nothing I can't work with."
     "I'm completing my work, attending my classes, and reading on my free time. The quarter is going smoothly, so everything should be fine as is. But..."
@@ -150,17 +163,21 @@ label prologue_scene3:
     "I thought for a minute. It wouldn't hurt to give it a shot, would it?"
     "Making up my mind, I picked my book up from the table and made my way towards the game room"
     return
+# END PROLOGUE SCENE3
          
+ # PROLOGUE SCENE4
 label prologue_scene4:
-    scene bg park_1
+    scene bg park_1 with dissolve
     mc "\"Let's see...\""
     "I was walking through Aldrich Park, inputing DBH on the Zotfinder app to guide me."
     "The park had been relatively empty, so I didn't bother looking up and see where I was going."
     mc "\"DBH... Ah, it should be up a- woa!\""
+    with hpunch
     "Something hit my arm, hard."
     "Next thing I knew, I was on the floor, my phone and book joining me on the cold, hard ground."
     mc "\"Ow.. Who the heck..?\""
     mc "!!"
+    show gd calm #or in pain
     "I looked up to find a tall boy staring down at me."
     "Our eyes met, and he immediately smiled, kneeling down to pick up the book that fell from my hand."
     mc "\"Umm.. Thank you..\""
@@ -173,6 +190,7 @@ label prologue_scene4:
     gd "I apologize for bumping into you. And..."
     gd "... you have really good taste for books."
     mc "..."
+    hide gd calm
     "With that, he simply stood up and left."
     "I turned and stared at his retreating form, completely under whatever spell the guy casted on me."
     mc "I have no idea who he is, but..."
@@ -184,10 +202,12 @@ label prologue_scene4:
     "I hurriedly picked up my phone and got up." 
     "After brushing myself off for good measure, I went on my way."
     return
+# END PROLOGUE SCENE4
     
+# PROLOGUE SCENE5
 label prologue_scene5:
     #--Skip to DB lobby--
-    scene bg db_lobby
+    scene bg db_lobby with fade
     mc "\"DB 1412...\""
     "I entered the Donald Bren lobby and came across a map of the area."
     mc "(Oh. According to this, it should be just up ahead.)"
@@ -199,6 +219,7 @@ label prologue_scene5:
     mc "(Are they... staring at the door-?)"
     mc "!!"
     "An arm swung the door open, and out came a very enraged girl with red streaks in her hair."
+    show md angry
     md "Oh, cut the crap! I ain't changing for the likes of you all, got it?!"
     mc "..."
     md "!!"
@@ -209,7 +230,9 @@ label prologue_scene5:
     "I caught the door before it closed, nervously turning to watch students hastily moving out of the girl's way."
     "Then, I peeked inside the game room."
     return
+# END PROLOGUE SCENE5
 
+# PROLOGUE SCENE6
 label prologue_scene6:
     #--Game room--
     scene bg clubroom
@@ -220,6 +243,7 @@ label prologue_scene6:
     "Carefully, I closed the door as silently as possible, and scanned the room for someone approachable."
     mc "\"... Oh-\""
     "In the corner of the room, there was a girl with a ponytail drawing on a tablet"
+    show re calm
     "Unlike the rest of the room, she had a relaxed expression on her face, as if the events prior had never happened."
     mc "(Looks like my best bet...)"
     "I quietly stepped toward her."
@@ -251,10 +275,12 @@ label prologue_scene6:
     mc "\"Well, uh... Bye.\""
     re "..."
     return
-    
+# END PROLOGUE SCENE6
+
+# PROLOGUE SCENE7
 label prologue_scene7:
     #--DB hall--
-    #scene bg dbhall
+    scene bg db hall
     mc "sigh..."
     mc "(Did I really make the right choice..?)"
     "I quietly closed the door to the game room and headed towards the exit."
@@ -264,9 +290,105 @@ label prologue_scene7:
     mc "\"Well, it'd be unfair to leave just for that. Might as well just give it a shot.\""
     "I nodded to myself and pushed through the doors of the building."
     return
+# END PROLOGUE SCENE7
 
+# PROLOGUE SCENE8
 label prologue_scene8:
     #--Outside DB--
-    #scene outside db
+    scene bg db outside
     "The doors swung open"
+    show ax calm
+    ax "Ah."
+    mc "\"Oh.\""
+    ax "..."
+    mc "..."
+    mc "\"Back inside I go...\""
+    ax "[mcname]!"
+    "He grabbed my arm."
+    mc "\"Ngh...\""
+    mc "\"Unhand me you philandering monkey.\""
+    ax "Yikes. You're one brutal tsundere."
+    mc "\"Oh no. These are my honest feelings.\""
+    ax "So harsh..."
+    ax "But hey, this is perfect timing. My club meeting room is actually really close by."
+    ax "Come with me, let's finally get you joined!"
+    mc "\"Thanks, but no thanks. I already joined a club, and I don't need any more than that this quarter.\""
+    ax "Huh..?"
+    "Alex let go of my hand."
+    mc "...?"
+    show ax frown
+    "There was an uncharacteristic frown on his face. It actually made me feel a little guilty."
+    ax "Geez, really..?"
+    ax "Alright, tell me what club this is. I'll beat up whoever took you away!"
+    mc "\"The Videa Game Development Club, or VGDC.\""
+    ax "..."
+    "His eyes widened a bit."
+    show ax calm
+    mc "\"Alex?\""
+    ax "The VGDC, huh..."
+    "A small smile spread across his cheeks."
+    mc "\"..? Yea, what about it?\""
+    "He shook his head."
+    ax "Nothing, nothing."
+    ax "Well, I'll let it slide for now. See you tomorrow, [mcname]!"
+    "Before I could respond, he spun on his heel and headed away from the building."
+    hide ax with dissolve
+    mc "..."
+    mc "\"Weirdo.\""
     return
+# END PROLOGUE SCENE8
+    
+# PROLOGUE SCENE9
+label prologue_scene9:
+    #--Meeting room--
+    scene bg meeting
+    "Just before the first VGDC meeting.."
+    mc "(Oh man... There's a lot of people.)"
+    mc "(I didn't think it'd be this packed.)"
+    "I looked around the room in awe, taking a seat close to the front of the hall."
+    "Up on the stage, there was a guy setting up a powepoint on a computer."
+    mc "(He must be the one leading the meeting.)"
+    "I tilted my head to the side in an attempt to better see him."
+    "Just then, he stood straight and faced the audience, a smile plastered on his face."
+    mc "(... Hmm..?)"
+    show gd calm
+    gd "Good evening, everyone."
+    "The chattering within the hall ceased, and all eyes fell on him."
+    gd "I'm very pleased to have you all here. It's very humbling to see such a great turnout."
+    mc "(This... is the guy I bumped into!)"
+    gd "Welcome to the first Video Game Development Club meeting. I'm the club president, Jeorge Dan. Though, you may call me George Dan if you wish."
+    mc "(The club president? Seriously?!)"
+    mc "(Geez... This really is a small world.)"
+    "I took a deep breath, paying no mind to the rapid pacing in my chest."
+    #--black--
+    with fade
+    "The meeting went on."
+    "George Dan went over the basics of the club, including activities, purpose, and history."
+    "He spoke in a way that was confident yet calm. I'd like to say that his voice captured everyone in the hall."
+    "Though... that may have just been me."
+    return
+    
+label prologue_scene10:
+    #--back to hall--
+    scene bg meeting with dissolve
+    show gd calm
+    "About thirty minutes into the meeting..."
+    gd "And now, we move on to departments."
+    gd "As you all know, we will be formulating development teams in the near future."
+    gd "Each member will belong to a specified department, no matter their skill level."
+    gd "If you have no experience, have no fear. We have seasoned officers at your disposal."
+    gd "Now... if those officers could please come on stage and introduce themselves?"
+    "George Dan directed a smile at the opposite end of the stage, causing a group of students to stir."
+    "Soon enough, they all walked to the front of the stage and faced us all."
+    mc "(....)"
+    mc "(Why is is that I've met all these people...?)"
+    gd "Alright. Kendrick, if you could start us off?"
+    show gd:
+        linear 0.5 xalign 1.0
+    show kd calm with dissolve
+    "The president spoke to the person who led the line of officers, a familiar suit-clad male."
+    "In response, he straightened his posture and took a few steps forward."
+    kd "My name is Kendrick, production officer."
+    kd "As a member of the production department, you will be the head of "
+    return
+# END PROLOGUE SCENE9
