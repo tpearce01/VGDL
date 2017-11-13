@@ -5,23 +5,20 @@
 # INTRO SCENE
 label gd_intro:
     scene bg park_2
-    ""
-    scene bg park_2 with hpunch
+    with Pause(0.5)
+    with hpunch
     "The main character(player) bumps into a mysterious person and the player drops her stuff."
     show gd calm
     gd "He then calmly looks at the player and gives the player a small, but charming smile and then proceeds to pick up the player&#x27;s stuff. Seeing a book that he likes, the mysterious person then tells the player that she has really good taste for books."
-    # show gd smile
+    show gd smile
     # gd "-He then smiles and exits. "
     hide gd smile with dissolve
     "Wondering who the guy was, the player thought that he is very cute."
-    # show ren greeting
+    show ren calm
     "A person approaches the player and this person is her closest friend from highschool who is 1 year above the player."
-    # show ren calm
     "Ren and the player talks for a bit and then Ren asks the player if they are going to join any clubs."
     "Ren then forces the player to join VDGC with her because they both love videogames. Ren tells the player that the meeting is tonight."
-    # show ren farewell
     "Player and Ren then part ways."
-    # hide ren farewell with dissolve
     return
 #END INTRO SCENE
 
@@ -30,9 +27,9 @@ label gd_route1_scene1:
     #**Setting: Lecture hall/meeting hall**
     #**Club introduction **
     #The board introduces the members
-    scene bg classroom
-    show gd calm
-    gd "The board introduces the members"
+    scene bg classroom with fade
+    show gd calm with dissolve
+    "The board introduces the members"
     show gd:
         linear 0.5 xalign 1.0
     with Pause(1)
