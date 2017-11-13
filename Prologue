@@ -281,13 +281,48 @@ mc "Weirdo."
 
 --Meeting room--
 
-"Just before the first VGDC meeting.."
+"Just a minute before the first VGDC meeting.."
 mc "(Oh man... There's a lot of people.)"
 mc "(I didn't think it'd be this packed.)"
 "I looked around the room in awe, taking a seat close to the front of the hall."
-"Up on the stage, there was a guy setting up a powepoint on a computer."
-mc "This guy must be the p
+"Up on the stage, there was a guy setting up a powepoint on a computer, leaning in a way so half his face was covered."
+mc "(He must be the one leading the meeting.)"
+"I tilted my head to the side in an attempt to better see him."
+"Just then, he stood straight and faced the audience, a smile plastered on his face."
+mc "(... Hmm..?)"
+jd "Good evening, everyone."
+"The chattering within the hall ceased, and all eyes fell on him."
+jd "I'm very pleased to have you all here. It's very humbling to see such a great turnout."
+mc "(This... is the guy I bumped into!)"
+jd "Welcome to the first Video Game Development Club meeting. I'm the club president, Jeorge Dan. Though, you may call me JD if you wish."
+mc "(The club president? Seriously?!)"
+mc "(Geez... This really is a small world.)"
+"I took a deep breath, paying no mind to the rapid pacing in my chest."
 
+--black--
+
+"The meeting went on."
+"JD went over the basics of the club, including activities, purpose, and history."
+"He spoke in a way that was confident yet calm. I'd like to say that his voice captured everyone in the hall."
+"Though... that may have just been me."
+
+--back to hall--
+
+"About thirty minutes into the meeting..."
+jd "And now, we move on to departments."
+jd "As you all know, we will be formulating development teams in the near future."
+jd "Each member will belong to a specified department, no matter their skill level."
+jd "If you have no experience, have no fear. We have seasoned officers at your disposal."
+jd "Now... if those officers could please come on stage and introduce themselves?"
+"JD directed a smile at the opposite end of the stage, causing a group of students to stir."
+"Soon enough, they all walked to the front of the stage and faced us all."
+mc "(....)"
+mc "(Why is is that I've met all these people...?)"
+jd "Alright. Kendrick, if you could start us off?"
+"The president spoke to the person who led the line of officers, a familiar suit-clad male."
+"In response, he straightened his posture and took a few steps forward."
+kd "My name is Kendrick, production officer."
+kd "As a member of the production department, you will be the head of 
 
 
 
