@@ -1,1 +1,16 @@
+## YUKIKO ROUTE ##
 
+# INTRO SCENE
+label yu_intro:
+    scene bg park_2
+    ""
+    scene bg park_2 with hpunch
+    "The main character(player) bumps into a mysterious person and the player drops her stuff."
+    show yu calm
+    yu "Hi."
+    # show yu smile
+    # yu "She then smiles and exits."
+    hide yu smile with dissolve
+    "Wondering who the guy was, the player thought that he is very cute."
+    return
+#END INTRO SCENE
