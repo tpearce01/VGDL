@@ -367,7 +367,9 @@ label prologue_scene9:
     "He spoke in a way that was confident yet calm. I'd like to say that his voice captured everyone in the hall."
     "Though... that may have just been me."
     return
+# END PROLOGUE SCENE9
     
+# PROLOGUE SCENE10
 label prologue_scene10:
     #--back to hall--
     scene bg meeting with dissolve
@@ -391,4 +393,4 @@ label prologue_scene10:
     kd "My name is Kendrick, production officer."
     kd "As a member of the production department, you will be the head of "
     return
-# END PROLOGUE SCENE9
+# END PROLOGUE SCENE10
