@@ -235,7 +235,7 @@ label prologue_scene5:
 # PROLOGUE SCENE6
 label prologue_scene6:
     #--Game room--
-    scene bg clubroom
+    scene bg gamelab
     mc "(Ahh... I just have the greatest timing...)"
     "It was dead silent. Every member had a grim look on their face, and no one looked up from their screen."
     mc "(I don't even think anyone noticed me...)"
@@ -341,7 +341,7 @@ label prologue_scene8:
 # PROLOGUE SCENE9
 label prologue_scene9:
     #--Meeting room--
-    scene bg meeting
+    scene bg meeting_1 with dissolve
     "Just before the first VGDC meeting.."
     mc "(Oh man... There's a lot of people.)"
     mc "(I didn't think it'd be this packed.)"
@@ -367,10 +367,12 @@ label prologue_scene9:
     "He spoke in a way that was confident yet calm. I'd like to say that his voice captured everyone in the hall."
     "Though... that may have just been me."
     return
+# END PROLOGUE SCENE9
     
+# PROLOGUE SCENE10
 label prologue_scene10:
     #--back to hall--
-    scene bg meeting with dissolve
+    scene bg meeting_1 with dissolve
     show gd calm
     "About thirty minutes into the meeting..."
     gd "And now, we move on to departments."
@@ -391,4 +393,4 @@ label prologue_scene10:
     kd "My name is Kendrick, production officer."
     kd "As a member of the production department, you will be the head of "
     return
-# END PROLOGUE SCENE9
+# END PROLOGUE SCENE10
