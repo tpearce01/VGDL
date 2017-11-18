@@ -95,13 +95,12 @@ label alex_scene4:
     mc "\"I... don't know what to say...\""
     ax "Say that we can stop pretending. Say that you feel the same way about me. I love you, [mcname]."
     menu pretend:
-        ""
+        "Say that we can stop pretending. Say that you feel the same way about me. I love you, [mcname]."
         "\"I love you!\"":          # CHOICE A
             mc "\"I love you too, Alex. Let's... let's stop pretending.\""
             show ax happy with dissolve
             ax "Phew... that was hard..."
-            #augment relationship vars
-            jump alex_scene4_a1
+            jump alex_scene4a_1
 
         "\"Wait a second...\"":     # CHOICE B
             mc "\"You're asking a lot from me, Alex. I... I'll need some time to think about it.\""
@@ -110,30 +109,30 @@ label alex_scene4:
             mc "\"It didn't look like it.\""
             ax "Nah. You and me, officially a couple? If we were going to do that, we would have done it forever ago."
             mc "\"Yeah, I guess.\""
-            #augment relationship vars
-            jump alex_scene4_b1
+            jump alex_scene4b_1
 
 # CHOICE A
-label alex_scene4_a1:
-    #[scene 1]
+label alex_scene4a_1:
+    scene bg black     # PLACEHOLDER
     ax "Wow, you and me, together. This feels... good."
 
-label alex_scene4_a2:
+label alex_scene4a_2:
     #[scene 2]
     scene bg black with fade
     "Weeks passed, and we were so happy."
     "We did everything together. Just like old time."
     "The only difference was that we were past the friend stage. We were in love."
 
-label alex_scene4_a3:
+label alex_scene4a_3:
     #[scene 3]
+    scene bg black     # PLACEHOLDER
     "Our game was set to be completed in the following week."
     "Alex had stopped returning my texts. He didn't want to meet up for lunch..."
     "Things had gone south very fast."
 
-label alex_scene4_aend:
+label alex_scene4a_end:
     #[end]
-    #scene bg ??
+    scene bg black     # PLACEHOLDER
     mc "\"You're really going to pin all of this on me?\""
     ax "We didn't finish the game because of YOU."
     mc "\"How is it my fault!?\""
@@ -144,28 +143,28 @@ label alex_scene4_aend:
     ax "Yeah, and I thought I loved you too."
     return
 
-# CHOICE B
-label alex_scene4_b1:
+# CHOICE B SCENE 1
+label alex_scene4b_1:
     #CHOICE B
-    #[scene 1]
-    #scene bg ??
+    scene bg black3     # PLACEHOLDER
     ax "Look, about the other day..."
     mc "\"Forget about it. Let's just work on our game, okay?\""
 
-label alex_scene4_b2:
-    #[scene 2]
+# CHOICE B SCENE 2
+label alex_scene4b_2:
     scene bg black with fade
     "Our game was set to be completed in the following week."
     "One of the writers in our group had flaked out early on."
     "We were scrambling to get everything done on time."
 
-label alex_scene4_b3:
-    #[scene 3]
-    #scene bg ??
+# CHOICE B SCENE 3
+label alex_scene4b_3:
+    scene bg black     # PLACEHOLDER
     ax "Wow, our game turned out great!"
 
-label alex_scene4_bend:
-    #[end]
+# CHOICE B SCENE 4
+label alex_scene4b_end:
+    scene bg black     # PLACEHOLDER
     ax "Thanks for everything, [mcname]."
     mc "\"It's what friends do!\""
     ax "Then I'm super lucky to have a friend like you."
