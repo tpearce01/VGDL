@@ -49,22 +49,25 @@ label start:
     call prologue_scene5        # PROLOGUE SCENE 5
     call prologue_scene6        # PROLOGUE SCENE 6
     call prologue_scene7        # PROLOGUE SCENE 7
+    call prologue_scene8        # PROLOGUE SCENE 8
+    call prologue_scene9        # PROLOGUE SCENE 9
+    call prologue_scene10       # PROLOGUE SCENE 10
     
     # GEORGE DAN
-    call gd_scene1              # GEORGE DAN SCENE 1
-    call gd_scene2              # GEORGE DAN SCENE 2
+    #call gd_scene1              # GEORGE DAN SCENE 1
+    #call gd_scene2              # GEORGE DAN SCENE 2
     
     # ALEX
-    call alex_scene1            # ALEX SCENE 1
-    call alex_scene2            # ALEX SCENE 2
-    call alex_scene3            # ALEX SCENE 3
-    call alex_scene4            # ALEX SCENE 4
+    #call alex_scene1            # ALEX SCENE 1
+    #call alex_scene2            # ALEX SCENE 2
+    #call alex_scene3            # ALEX SCENE 3
+    #call alex_scene4            # ALEX SCENE 4
     
     # MELODY
-    call melody_scene1          # MELODY SCENE 1
-    call melody_scene2          # MELODY SCENE 2
-    call melody_scene3          # MELODY SCENE 3
-    call melody_scene4          # MELODY SCENE 4
+    #call melody_scene1          # MELODY SCENE 1
+    #call melody_scene2          # MELODY SCENE 2
+    #call melody_scene3          # MELODY SCENE 3
+    #call melody_scene4          # MELODY SCENE 4
     
     # Credits
     call end_scene              # Credits Scene
