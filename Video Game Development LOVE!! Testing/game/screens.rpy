@@ -296,7 +296,14 @@ screen navigation():
 
         if main_menu:
 
-            textbutton _("Start") action Start()
+            imagebutton auto "gui/mm_play_%s.png" xpos 930 ypos 110 focus_mask True action Start()
+            
+            imagebutton auto "gui/mm_load_%s.png" xpos 910 ypos 90 focus_mask True  action ShowMenu('load')
+            
+            imagebutton auto "gui/mm_options_%s.png" xpos 890 ypos 70 focus_mask True  action ShowMenu('preferences')
+            
+            imagebutton auto "gui/mm_exit_%s.png" xpos 900 ypos 100 focus_mask True action Quit(confirm= not main_menu)
+
 
         else:
 
@@ -304,9 +311,8 @@ screen navigation():
 
             textbutton _("Save") action ShowMenu("save")
 
-        textbutton _("Load") action ShowMenu("load")
+        
 
-        textbutton _("Preferences") action ShowMenu("preferences")
 
         if _in_replay:
 
@@ -315,6 +321,10 @@ screen navigation():
         elif not main_menu:
 
             textbutton _("Main Menu") action MainMenu()
+            
+            textbutton _("Load") action ShowMenu ("Load")
+            
+            textbutton _("Preferences") action ShowMenu("preferences")
 
         textbutton _("About") action ShowMenu("about")
 
@@ -324,7 +334,8 @@ screen navigation():
             textbutton _("Help") action ShowMenu("help")
 
             ## The quit button is banned on iOS and unnecessary on Android.
-            textbutton _("Quit") action Quit(confirm=not main_menu)
+            
+            
 
 
 style navigation_button is gui_button
@@ -381,6 +392,7 @@ style main_menu_version is main_menu_text
 style main_menu_frame:
     xsize 280
     yfill True
+    xoffset -120
 
     background "gui/overlay/main_menu.png"
 
@@ -709,6 +721,7 @@ style slot_button_text:
 screen preferences():
 
     tag menu
+    
 
     if renpy.mobile:
         $ cols = 2
