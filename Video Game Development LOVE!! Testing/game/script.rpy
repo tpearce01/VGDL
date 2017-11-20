@@ -16,6 +16,7 @@ define prof = Character("Professor")    # Teacher
 define crowd = Character("Crowd")       # Crowd of people
 define team = Character("Team")         # Projet team
 define dad = Character("Dad")           # MC's Dad
+define nm = Character("Naomi")          # Alex's Friend
 
 # Main Character 
 define mc = Character("[mcname]")       # Main Character / Protagonist
@@ -35,6 +36,8 @@ label start:
     # TESTING
     #call test_monologue
     #call test_effects
+    #call test_transitions
+    #call test_image_effects
     # END TESTING
     
     # INTRODUCTION / PRE-PROLOGUE
@@ -52,7 +55,7 @@ label start:
     call prologue_scene8        # PROLOGUE SCENE 8
     call prologue_scene9        # PROLOGUE SCENE 9
     call prologue_scene10       # PROLOGUE SCENE 10
-    
+   
     # GEORGE DAN
     #call gd_scene1              # GEORGE DAN SCENE 1
     #call gd_scene2              # GEORGE DAN SCENE 2

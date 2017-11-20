@@ -3,17 +3,20 @@
 # MELODY SCENE 1
 label melody_scene1:
     #SSLH - After Initial Meeting
-    scene bg sslh
+    scene bg sslh with dissolve
     mc "(I can't believe I left my phone in the lecture hall...)"
     mc "(Crap, crap, crap...)"
     mc "(Please let it still be there...)"
     "When I entered the lecture hall, I saw a girl drawing on the far wall."
+    show md calm with dissolve
     "It kind of looked like the Audio Officer from the VGDC meeting."
     mc "\"Excuse me?\""
     md "What do you want?"
     mc "\"Just wondering if you’ve seen a phone around here.\""
     md "Not really."
+    hide md with dissolve
     "As Melody was leaving, Alex made his way inside."
+    show ax with dissolve
     ax "Hey, what’s taking you so long? You ?"
     mc "\"Yeah… I just got caught up with talking to Melody.\""
     ax "The Audio Officer Melody?"
@@ -29,7 +32,8 @@ label melody_scene1:
 # MELODY SCENE 2
 label melody_scene2:
     #LANGSON LIBRARY - Forming Pitch
-    scene bg library
+    scene bg library with dissolve
+    show md calm with dissolve
     md "Hey, bromiga."
     mc "\"Bromiga?\""
     md "It's a combination of 'bro' and 'amiga'. Hence, 'bromiga'."
@@ -62,7 +66,7 @@ label melody_scene2:
 # MELODY SCENE 3
 label melody_scene3:
     #SSLH - Pitching Game
-    scene bg black
+    scene bg black with dissolve
     #???? - Video Game Related
     "Melody sent me a text a few minutes later."
     mc "(We should get together to talk about the game.)"
@@ -73,7 +77,8 @@ label melody_scene3:
 # MELODY SCENE 4
 label melody_scene4:
     #STUDENT CENTER - Path Divergence
-    scene bg studentcenter
+    scene bg studentcenter with dissolve
+    show md calm with dissolve
     md "Oh, [mcname], you're finally here!"
     mc "\"Hey. What's up?\""
     md "I need you to help me with something."
@@ -81,8 +86,10 @@ label melody_scene4:
     md "That's hella sweet. So, Alex has been trying to get me kicked out of the club forever now."
     md "I need your help in pranking him. To teach him a lesson. What do you say, bromiga?"
     mc "\"I don't know. Why is he trying to get you kicked out?\""
+    show md upset with dissolve
     md "He thinks I'm a \"no-good degenerate\", that I'm bad for the club's image."
     mc "\"He's my friend though...\""
+    show md calm with dissolve
     md "That's exactly why I need you to help me out. You can help me get to him."
     menu help_him_out:
         "That's exactly why I need you to help me out. You can help me get to him."
@@ -110,10 +117,11 @@ label melody_scene4:
     
 #CHOICE A SCENE 1
 label melody_scene4a_1:
-    scene bg black
+    scene bg black with dissolve
     "I almost texted Alex to let him know the situation."
     "But all his secrets, his attitude... I didn't like it."
     "Maybe he deserved this."
+    show md calm with dissolve
     md "So, I've finally got the details planned out."
     mc "\"I'm ready for anything.\""
 
@@ -125,7 +133,8 @@ label melody_scene4a_1:
 
 # CHOICE A SCENE END
 label melody_scene4a_end:
-    scene bg black
+    scene bg black with dissolve
+    show md calm with dissolve
     md "Look, I'm... I didn't mean to destroy your friendship with Alex."
     mc "\"I don't think what you did was right. But what he did was even worse.\""
     md "So, forgive me?"
@@ -136,7 +145,7 @@ label melody_scene4a_end:
 # CHOICE B SCENE 1
 label melody_scene4b_1:
     #[scene 1]
-    scene bg black
+    scene bg black with dissolve
     "The first thing I did was text Alex."
     mc "(We need to talk. Pronto.)"
     ax "(I'm busy tonight. First thing tomorrow morning?)"
@@ -148,7 +157,9 @@ label melody_scene4b_1:
 # CHOICE B SCENE 2
 label melody_scene4b_2:
     #[scene 2]
+    scene bg black with dissolve
     "Melody was waiting for me when I got out of class."
+    show md calm with dissolve
     md "Fancy seeing you here."
     mc "\"You're not still mad, are you?\""
     md "Me? Nah. We're still a part of team, remember? Still gotta finish that."
@@ -157,11 +168,13 @@ label melody_scene4b_2:
 # CHOICE B SCENE 3
 label melody_scene4b_3:
     #[scene 3]
+    scene bg black with dissolve
     "I thought that a fight was going to break out between the two."
 
 # CHOICE B SCENE END
 label melody_scene4b_end:
     #[end]
+    scene bg black with dissolve
     md "I really wish that things had turned out different between us."
     mc "\"I kind of did too. You're talented, and smart...\""
     md "Loyalty is everything. And you did nothing to help me."

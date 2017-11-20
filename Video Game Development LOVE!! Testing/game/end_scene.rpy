@@ -24,7 +24,7 @@ init:
     define credits_speed = 15
     python:
         credits = "{size=80}Credits\n\n"
-        credits_data = ('art', 'Alonso'), ('art', 'Carolee'), ('art', 'Ha'), ('art', 'Kierstin'), ('art', 'Mark'), ('Audio', 'Derek'), ('Programming', 'Em'), ('Programming', 'Tyler'), ('Writing', 'Adrian'), ('Writing', 'Edric'), ('Writing', 'Phuoc'), ('Special Thanks', 'Naz - Officer Buddy'), ('Special Thanks', 'VGDC - For making this possible')
+        credits_data = ('Art (Part Time)', 'Alonso'), ('Art', 'Carolee'), ('Art', 'Ha'), ('Art', 'Kierstin'), ('Art (Part Time)', 'Mark'), ('Audio', 'Derek'), ('Programming', 'Em'), ('Programming', 'Tyler'), ('Writing', 'Adrian'), ('Writing', 'Edric'), ('Writing', 'Phuoc'), ('Special Thanks', 'Naz - Officer Buddy'), ('Special Thanks', 'VGDC - For making this possible')
         c_temp = ''
         for c in credits_data:
             if not c_temp==c[0]:

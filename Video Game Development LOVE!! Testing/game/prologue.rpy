@@ -455,15 +455,21 @@ label prologue_scene10:
         "Which one interests me the most?"
         "Programming":
             "Programming route"
+            call yu_scene1
         "Art":
-            "Art route"
+            "Art Route"
+            call re_scene1
         "Writing":
             "Writing Route"
+            call gd_scene1
         "Production":
             "Production Route"
+            call kd_scene1
         "Audio":
             "Audio Route"
+            call melody_scene1
         "Design":
             "Design Route"
+            call ax_scene1
     return
 # END PROLOGUE SCENE10
