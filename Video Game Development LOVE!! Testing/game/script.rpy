@@ -34,7 +34,7 @@ label start:
     scene bg black              # Default to black scene in case of missing background
     
     # TESTING
-    #call test_monologue
+    call test_monologue
     #call test_effects
     #call test_transitions
     #call test_image_effects
