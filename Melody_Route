@@ -1,16 +1,36 @@
-SSLH - After Initial Meeting
+Scene 1 - SSLH
 
 mc "(I can't believe I left my phone in the lecture hall...)"
 mc "(Crap, crap, crap...)"
 mc "(Please let it still be there...)"
 
-"When I entered the lecture hall, I saw a girl drawing on the far wall.”
-“It kind of looked like the Audio Officer from the VGDC meeting.”
+"When I entered the lecture hall, I saw Melody drawing graffiti on the far wall.”
+"I felt frozen in place. I must have looked like a lunatic, because Melody looked at me strangely."
 
-mc “Excuse me?”
-md “What do you want?”
-mc “Just wondering if you’ve seen a phone around here.”
-md “Not really.”
+md "I said HEY!"
+mc "Uh, I'm really sorry. I, um, well, I-"
+md "What?"
+mc "(Pull yourself together. She's not going to jump you.)"
+mc "(...)"
+mc "(...or will she?)"
+md "You gonna talk or just stand there with your mouth open like that?"
+mc "(She had come up to me, holding my phone.)"
+md "This thing yours?"
+mc "That, actually, was, um, my -"
+md "Here, have it. I don't want your crappy phone."
+mc "Um, thanks."
+md "So, I saw you at the meeting last night."
+mc "You did?"
+md "Sure did. It's nice to see some new faces around here."
+mc "Um, thanks?"
+md "You're friends with Alex, aren't you?"
+mc "Yeah, I am. Why?"
+md "Between you and me, I was thinking of bailing this quarter for the club. I can't stand the people."
+mc "What!? But, aren't you an officer?"
+md "Yup. I gotta put me and my happiness first. But, if you're gonna be around..." 
+md "Maybe this quarter won't be as bad as I think."
+mc "Oh. Well, I'm glad?"
+md "See ya around, newbie. Don't be a stranger."
 
 “As Melody was leaving, Alex made his way inside.”
 
@@ -18,11 +38,12 @@ ax “Hey, what’s taking you so long? You okay?”
 mc “Yeah… I just got caught up with talking to Melody.”
 ax “The Audio Officer Melody?”
 mc “The one and only!”
-ax “So which one of you did the lovely art on the wall?”
+ax “Hm. So which one of you did the lovely art on the wall?”
 mc “That? Oh! Uh, not me!”
-ax “I can believe that. You aren’t exactly known for your artistic talent.”
-mc “Hey!”
-ax “Relax! I’m joking!”
+ax "Hm. I thought she liked music."
+mc "She's multitalented?"
+ax "I wouldn't know. I don't really want to know. Wanna grab lunch?"
+mc "That sounds great."
 
 LANGSON LIBRARY - Forming Pitch
 
@@ -41,9 +62,28 @@ mc "I'm not sure yet."
 md "I'll join your team if you can promise me that he won't join it."
 mc "Uh... do you mind me asking why I couldn't have both of you guys?"
 md "We don't work well together."
-mc "(I felt bad about ditching Alex, but at the same time, to have someone as talented as Melody...")
+
+2 Options
+[Option 1] - Ditch Alex
+mc "(I felt bad about ditching Alex, but at the same time, to have someone as talented as Melody...)"
 mc "Okay, it's a deal."
+md "Wow, really?"
+mc "Yeah. I could really use someone with a good music background for my game."
+md "Well, now I'm curious what kind of game you're gonna pitch."
+mc "
 md "You're not gonna regret this, (Y/N). Here's my number."
+
+[Option 2] - Don't Ditch Alex
+mc "(As much as I wanted to work with someone as talented as Melody, I couldn't ditch Alex...)"
+mc "I'm sorry. I can't make that kind of a deal."
+md "Look, you're new here, so I won't take it too personally. But, I don't take no for an answer."
+mc "Is that like, a threat or something?"
+md "It sure is. Look, we're pitching together next week. Here's my number, (Y/N)."
+mc "But, Alex..."
+md "Isn't a part of our team, got it? Me and (Y/N), an unstoppable team."
+
+(Melody Leaves, and Alex arrives)
+
 
 ax "Hey! What's up?"
 mc "Nothin' much."
@@ -65,7 +105,7 @@ SSLH - Pitching Game
 "Melody sent me a text a few minutes later."
 
 mc "(We should get together to talk about the game.)"
-mc "(Meet me at the Student Center Starbucks tonight.)"
+mc "(Meet me outside the student center tonight.)"
 
 STUDENT CENTER - Path Divergence
 
@@ -73,10 +113,13 @@ md "Oh, (Y/N), you're finally here!"
 mc "Hey. What's up?"
 md "I need you to help me with something."
 mc "I'll do what I can!"
-md "That's hella sweet. So, Alex has been trying to get me kicked out of the club forever now."
-md "I need your help in pranking him. To teach him a lesson. What do you say, bromiga?"
-mc "I don't know. Why is he trying to get you kicked out?"
-md "He thinks I'm a "no-good degenerate", that I'm bad for the club's image."
+md "That's hella sweet. So, I need your help in pranking Alex."
+mc "I don't know. Why? What did he do?"
+md "He tried to get me kicked out of the club because of my project last quarter."
+mc "What kind of a game was it?"
+md "There were parts that he considered "deplorable content" and it shouldn't have been made."
+mc "But you're only the audio officer. Was it really that bad?"
+md "He just can't appreciate actual talent when he sees it."
 mc "He's my friend though..."
 md "That's exactly why I need you to help me out. You can help me get to him."
 
@@ -91,8 +134,9 @@ mc "He's kind of been a jerk lately."
 CHOICE B - "No, I don't think so..."
 mc "I can't do that. Not to my best friend."
 md "That's weak, bromiga."
-mc "It's not that I don't want to help you. I just don't want to do something nasty to my best friend."
+mc "It's not that I don't want to help you. I just don't want to do anything nasty to my best friend."
 md "Oh, no, I get it."
+mc "(Her tone wasn't convincing at all. She actually looked really hurt.)"
 mc "We're still cool with the game thing?"
 md "I guess so. There's nothing I can say to make you change your mind?"
 mc "Not really."
@@ -105,13 +149,32 @@ CHOICE A
 "Maybe he deserved this."
 
 md "So, I've finally got the details planned out."
-mc "I'm ready for anything."
+mc "I'm ready for anything. What are we gonna do? Key his car?"
+md "Oh, that's a good idea. Let's do that, and then my thing."
+mc "What did you have in mind?"
+md "It may take some time and patience, so bear with me here. But we're gonna sabotage his project."
+mc "How?"
+md "Well, first, he keeps a copy of all his gaming stuff in the DBH gaming lab."
+mc "What do we do until then?"
+md "
 
 [scene 2]
 
 
 [scene 3]
+ax "(Y/N)? Melody? What are you doin' with our stuff?"
+mc "Alex! You're here late."
+ax "Yeah, I wanted to grab the copy of our stuff, since the first one was..."
+mc "(Melody had a malicous look on her face.)"
+md "Was WHAT, Alex?"
+ax "You two destroyed our project. And you're destroying the copy."
+md "Oh, clap, clap, clap. A-plus, Mr. Designer Boy."
+ax "(Y/N), how could you do this to me?"
 
+2 Options
+[Option 1 - Take Melody's side]
+
+[Option 2 - Take Alex's side]
 
 [end]
 md "Look, I'm... I didn't mean to destroy your friendship with Alex."
@@ -125,7 +188,7 @@ CHOICE B
 "The first thing I did was text Alex."
 mc "(We need to talk. Pronto.)"
 ax "(I'm busy tonight. First thing tomorrow morning?)"
-mc "(Yeah, fine. First thing at the Starbucks.)"
+mc "(Yeah, fine. First thing at the Food Court.)"
 
 mc "Oh geez... I got a text from Melody."
 ax "What'd she say?"
@@ -140,8 +203,14 @@ mc "O-of course!"
 
 [scene 3]
 "I thought that a fight was going to break out between the two."
+md "Stole her? From you? In your freakin' dreams."
+ax "I'm only saying this one more time - lay off her."
 
 [end]
 md "I really wish that things had turned out different between us."
 mc "I kind of did too. You're talented, and smart..."
 md "Loyalty is everything. And you did nothing to help me."
+
+
+
+
