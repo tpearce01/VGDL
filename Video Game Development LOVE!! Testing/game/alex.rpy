@@ -107,7 +107,7 @@ label alex_scene2:
 # ALEX SCENE 3
 label alex_scene3:
     #Scene 3 - Food Court
-    scene bg foodcourt with dissolve
+    scene bg foodcourt_2 with dissolve
     mc "I had no idea you were into the whole design thing."
     ax "Sure am! It's really pretty cool."
     return
@@ -116,7 +116,7 @@ label alex_scene3:
 # ALEX SCENE 4
 label alex_scene4:
     #SSLH - Pitching Game
-    scene bg meeting with fade
+    scene bg meeting_1 with fade
     "A week passed, and the most important club meeting of the quarter was near - the Pitch Meeting."
     "We had finally decided on a theme for the game - the old west."
     "I’ve never been a huge fan of speaking in front of huge crowds."

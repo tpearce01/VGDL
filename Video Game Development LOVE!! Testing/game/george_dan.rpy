@@ -4,7 +4,7 @@
 
 # SCENE 1: Familiar Face
 label gd_scene1:
-    scene bg meeting_2 with dissolve
+    scene bg meeting_1 with dissolve
     show gd calm with dissolve
     mc "Hey that guy looks familiar. I've definitely seen him from somewhere." 
     mc "What the?! He’s that guy that I bumped into earlier today..."
@@ -74,7 +74,7 @@ label gd_scene1:
 label gd_scene2:
     #Scene 2: Fatherly Love
     #Setting: MC’s Apartment
-    scene bg apartment in2
+    scene bg mc_apartment_inside
     #Characters: MC
     "(You get home to your apartment)"
     mc "That was… the most… EMBARRASSING MOMENT OF MY LIFE!!!"

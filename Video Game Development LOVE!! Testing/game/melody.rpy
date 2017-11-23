@@ -32,7 +32,7 @@ label melody_scene1:
 # MELODY SCENE 2
 label melody_scene2:
     #LANGSON LIBRARY - Forming Pitch
-    scene bg library with dissolve
+    scene bg library_1 with dissolve
     show md calm with dissolve
     md "Hey, bromiga."
     mc "\"Bromiga?\""
