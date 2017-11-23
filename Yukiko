@@ -2,15 +2,45 @@
 
 # INTRO SCENE
 label yu_intro:
-    scene bg park_2
-    ""
-    scene bg park_2 with hpunch
-    "The main character(player) bumps into a mysterious person and the player drops her stuff."
-    show yu calm
-    yu "Hi."
-    # show yu smile
-    # yu "She then smiles and exits."
-    hide yu smile with dissolve
-    "Wondering who the guy was, the player thought that he is very cute."
+    #idk location
+    "I decide that programming sounds interesting so I'm going to try to talk to the programming officer."
+    "I heard at the meeting that there are workshops every week about a variety of topics.
+    "I check on my phone the date of the next programming workshop."
+    "I see the programming officer is... Yukiko."
+    "Ah... she's the girl who forcibly escorted me to the club yesterday."
+    "She seemed the most approachable out of all the officers, but that might be a problem itself."
+    "Oh well. If I want to learn how to program, then she would be the best officer to talk to."
+    "What's going to happen to me?"
+    "I head over to the game lab to see if she's there."
     return
 #END INTRO SCENE
+
+label yu_scene1
+    #game lab
+    #knocking sounds hopefully
+    #
+    yu "Hey, it's you!"
+
+#Confession Scene
+label yu_scene?:
+    #probably a scene of UTC at night
+    mc "(Actually managing to call her out here still feels like a dream.)"
+    mc "(The cool breeze flowing through the azure night reminds me of time passing by.)"
+    mc "(It lulls a me into a reverie of emotional procrastination as I put off processing my feelings of excitement and anxiety.)"
+    mc "(The growing sound of rhythmical tapping of boots on concrete breaks me out of my trance.)"
+    mc "Hey, Yukiko."
+    yu "Hey, MC, you know I've been wondering for the whoooooooooole day what important thing you could possibly have to tell me at the dead of night."
+    mc "Oh yeah, sorry about calling you out this late."
+    yu "Don't worry, I don't mind."
+    yu "I usually stay up working past this hour anyways!"
+    mc "You sure work as hard as ever, huh?"
+    yu "When I get in the zone, it I just forget that things are moving around me."
+    mc "I really like that about you."
+    #Yukiko smiles
+    yu "Thanks!"
+    #Yukiko tries to make small talk
+    mc "U-um, let's get to what I came out here to talk to you about!"
+    yu "Right, right; sorry for sidetracking."
+    mc "Well... you see..."
+    yu "Yes?"
+    mc ""
