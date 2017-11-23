@@ -207,7 +207,7 @@ label prologue_scene4:
 # PROLOGUE SCENE5
 label prologue_scene5:
     #--Skip to DB lobby--
-    scene bg db_lobby with fade
+    scene bg dbh_inside with fade
     mc "\"DB 1412...\""
     "I entered the Donald Bren lobby and came across a map of the area."
     mc "(Oh. According to this, it should be just up ahead.)"
@@ -235,7 +235,7 @@ label prologue_scene5:
 # PROLOGUE SCENE6
 label prologue_scene6:
     #--Game room--
-    scene bg gamelab
+    scene bg gameroom
     mc "(Ahh... I just have the greatest timing...)"
     "It was dead silent. Every member had a grim look on their face, and no one looked up from their screen."
     mc "(I don't even think anyone noticed me...)"
@@ -280,7 +280,7 @@ label prologue_scene6:
 # PROLOGUE SCENE7
 label prologue_scene7:
     #--DB hall--
-    scene bg db hall
+    scene bg dbh_inside
     mc "sigh..."
     mc "(Did I really make the right choice..?)"
     "I quietly closed the door to the game room and headed towards the exit."
@@ -295,7 +295,7 @@ label prologue_scene7:
 # PROLOGUE SCENE8
 label prologue_scene8:
     #--Outside DB--
-    scene bg db outside
+    scene bg dbh_outside
     "The doors swung open"
     show ax calm
     ax "Ah."
@@ -455,15 +455,21 @@ label prologue_scene10:
         "Which one interests me the most?"
         "Programming":
             "Programming route"
+            call yu_scene1
         "Art":
-            "Art route"
+            "Art Route"
+            call re_scene1
         "Writing":
             "Writing Route"
+            call gd_scene1
         "Production":
             "Production Route"
+            call kd_scene1
         "Audio":
             "Audio Route"
+            call melody_scene1
         "Design":
             "Design Route"
+            call ax_scene1
     return
 # END PROLOGUE SCENE10

@@ -1,4 +1,6 @@
 ## ALEX ##
+
+# ALEX SCENE 1
 label alex_scene1:
     #***ADD IN TEXT W/ GIRL AND DENIM JACKET***
     #Food Court - After Initial Meeting
@@ -6,57 +8,129 @@ label alex_scene1:
     "I hadn’t talked to Alex since finding out that he was a design officer in the VGDC."
     "I had so many questions."
     "I managed to meet up with him in the food court the next day."
-    show ax calm with dissolve
+    show ax smile with dissolve
     ax "Bonjour, [mcname]!"
     mc "\"Since when did you speak French?\""
     ax "Since finding out it’s the language of love, and that chicks really dig bilingual guys."
     mc "(We were just friends, but it always hurt to hear him talk about other girls.)"
-    mc "\"Yeah, cool. So, um, why didn’t you tell me that you were in the VGDC?\""
-    ax "You never asked. You’re not mad, are you?"
-    mc "\"No, I’m not mad. I just feel like there’s a lot of things I don’t know about you anymore.\""
+    mc "\"Um, okay. So, why didn’t you tell me that you were in the VGDC?\""
+    show ax calm with dissolve
+    ax "I dunno. I wanted it to be a surprise."
+    mc "\"It was a crappy surprise.\""
+    ax "Sorry I made you feel that way, [mcname]."
+    mc "\"I just feel like there’s a lot of things I don’t know about you anymore.\""
     ax "I think I can help with that, if you help me with something."
     mc "\"What are you talking about?\""
-    ax "So, I went out with the girl last night that I met at the Involvement Fair. It uh, went south pretty quickly."
+    ax "So, I went out with the girl last night that I met at the Involvement Fair." 
+    mc "\"What's her name?\""
+    ax "Naomi. Anyways, it uh, went south pretty quickly."
     mc "\"How’d you manage to screw it up so fast?\""
-    ax "I guess I have a ‘reputation’ for being a womanizer. And the girl called me out on it."
-    mc "\"Dude… that’s intense.\""
-    ax "Tell me about it. Anyways, we set up a dare."
-    mc "\"What kind of a dare?\""
-    ax "This is actually where you come in. I’ll need you to pretend to be in a fake relationship with me."
+    ax "I guess I have a ‘reputation’ for being a womanizer. And Naomi called me out on it."
+    mc "\"Dude… that sucks.\""
+    ax "Tell me about it. Anyways, this is where you come in."
+    mc "\"What are you gonna make me do?\""
+    ax "I’ll need you to pretend to be in a fake relationship with me."
     mc "\"Um…\""
-    ax "And then we’ll break up when she says, \"I was wrong about you.\" I’ll get my $20, and hopefully the lady."
-    mc "\"That sounds complicated and unnecessary...\""
-    ax "Please, [mcname]... I really like this girl. I gotta clear my name. You’re my best friend, right?"
-    mc "(I was, at one time...)"
-    mc "\"Yeah, that’s right.\""
-    ax "So, can you please help me?"
-    mc "\"...Okay.\""
-    ax "Since we’re gonna be together a lot more now anyways, why don’t you help me with my pitch for next week, too?"
-    mc "\"For the club? You’re gonna pitch a game?\""
-    ax "Yeah! The gameplay is gonna be like, old school Final Fantasy."
-    mc "\"What else?\""
-    ax "Well, that’s all I have so far. Maybe you could help me brainstorm a little more?"
-    mc "\"Okay. After class?\""
-    ax "Totally. I’ll text you."
+    ax "Please say you'll help me, [mcname]."
+    #Diverges into 2 options:
+    menu help_alex:
+        "Please say you'll help me, [mcname]."
+        "Yes":
+            #[Pos. Option] "Yes"
+            mc "\"Okay, but how does it benefit me?\""
+            ax "You'll get the satisfaction of helping your best friend in his time of need."
+            mc "\"That's it?\""
+            ax "I'll also help you with a pitch for the meeting next week."
+            mc "(I did want to pitch something next week...)"
+            mc "(And if I had the help of one of the official officers, I was sure to get accepted.)"
+            mc "\"All right. As long as your plan doesn't involve anything super awful.\""
+            ax "Nah! I’ll text you later about it."
+        "No":
+            #[Neg. Option] "No"
+            mc "\"I'm not comfortable with doing soemthing like that.\""
+            show ax frown with dissolve
+            ax "So you're gonna abandon your friend in his time of need?"
+            mc "\"I'm not 'abandoning' you...\""
+            ax "Look, help me with this, and I'll help you with your pitch for next week."
+            mc "\"How'd you know that I wanted to pitch...?\""
+            ax "Just a good guess."
+            mc "(I did want to pitch something next week...)"
+            mc "(And if I had the help of one of the official officers, I was sure to get accepted.)"
+            mc "\"Fine. I'll help, but I'm still not comfortable with all of this.\""
+            ax "It won't be for very long, I promise. I'll text you later about it."
+    hide ax with dissolve
     "Although I thought that his revenge plan was an awful idea, I missed doing stuff with Alex."
     "He had changed. Whether or not for the better, I hadn’t decided yet."
     "But it didn’t really matter. He was my friend, and we were doing stuff together again, like old times."
     return
+# END ALEX SCENE 1
 
+# ALEX SCENE 2
 label alex_scene2:
+    #Scene 2 - Starbucks Student Center
+    scene bg starbucks with dissolve
+    show ax calm with dissolve
+    ax "Okay, so we have to have some sort of a plan for the pitch."
+    mc "I was thinking of a dating sim, but with cats."
+    ax "So kind of like Hatoful Boyfriend?"
+    mc "Yeah! But with cats."
+    ax "Okay, okay..."
+    "Before Alex could continue, a girl in a demin jacket walked up to our table."
+    show ax calm:
+        linear 0.5 xalign 1.0
+    with Pause(0.5)
+    show nm calm with dissolve
+    nm "Alex."
+    ax "Naomi."
+    nm "Hi, I don't believe I know you."
+    mc "My name is [mcname]."
+    nm "So, how do you two know each other?"
+    mc "We've known each other forever. We went to different high schools, but we were able to reconnect when I came here."
+    nm "Heh. I assume he's told you about me, then?"
+    ax "Actually... I haven't told [mcname] anything about you."
+    nm "What a surprise. Look, [mcname], the guy you knew back when you were kids... that guy isn't around anymore."
+    ax "How would you know?"
+    nm "I just don't want you to hurt [mcname]'s feelings."
+    ax "Can you please leave, Naomi?"
+    nm "I know you two are the new \"it\" couple. Everyone's been talking about it. [mcname], get out while you can."
+    hide nm with dissolve
+    show ax calm:
+        linear 0.5 xalign 0.5
+    with Pause(0.5)
+    "Naomi left, and I sat there baffled."
+    mc "Everyone's talking about it?"
+    ax "Don't worry. She's just trying to psyche you out."
+    mc "If you say so."
+    return
+# END ALEX SCENE 2
+
+# ALEX SCENE 3
+label alex_scene3:
+    #Scene 3 - Food Court
+    scene bg foodcourt_2 with dissolve
+    mc "I had no idea you were into the whole design thing."
+    ax "Sure am! It's really pretty cool."
+    return
+# END ALEX SCENE 3
+
+# ALEX SCENE 4
+label alex_scene4:
     #SSLH - Pitching Game
-    scene bg meeting with fade
+    scene bg meeting_1 with fade
     "A week passed, and the most important club meeting of the quarter was near - the Pitch Meeting."
     "We had finally decided on a theme for the game - the old west."
     "I’ve never been a huge fan of speaking in front of huge crowds."
     "But with Alex at my side, we could conquer anything."
     show ax calm with dissolve
     ax "Hello everyone! My name is Alex, and this is my friend, [mcname]."
-    mc "\"Hi! Uh... so the basic gist of our game is a 2D, turn-based fighting system set in the old west.\""
+    mc "\"Hi! Uh... so the basic gist of our game is that it's a dating simulator about cats.\""
+    ax "Think \'Hatoful Boyfriend\'."
     return
+# END ALEX SCENE 4
 
+# ALEX SCENE 5
+label alex_scene5:
     #ALDRICH PARK - Scouting for Scenes
-label alex_scene3:
     scene bg park_1 with fade
     show ax calm with dissolve
     ax "What do you think of the campus so far? It's not quite UCLA, but..."
@@ -72,8 +146,10 @@ label alex_scene3:
     ax "Because I wasn't Legolas."
     mc "\"Right. Uh, why is that funny?\""
     return
+# END ALEX SCENE 5
 
-label alex_scene4:
+# ALEX SCENE 6
+label alex_scene6:
     #FOOD COURT - Path Divergence
     show bg foodcourt
     show ax calm with dissolve
@@ -100,37 +176,41 @@ label alex_scene4:
             mc "\"I love you too, Alex. Let's... let's stop pretending.\""
             show ax happy with dissolve
             ax "Phew... that was hard..."
-            jump alex_scene4a_1
+            mc "\"But what about Naomi?\""
+            jump alex_scene6a_1
 
         "\"Wait a second...\"":     # CHOICE B
-            mc "\"You're asking a lot from me, Alex. I... I'll need some time to think about it.\""
+            mc "\"I'm still not completely convinced, Alex.\""
             show ax frown with dissolve
             ax "Y-yeah... sure. Y'know, I was just kidding."
             mc "\"It didn't look like it.\""
             ax "Nah. You and me, officially a couple? If we were going to do that, we would have done it forever ago."
             mc "\"Yeah, I guess.\""
-            jump alex_scene4b_1
+            jump alex_scene6b_1
 
-# CHOICE A
-label alex_scene4a_1:
+# CHOICE A SCENE 1
+label alex_scene6a_1:
     scene bg black     # PLACEHOLDER
     ax "Wow, you and me, together. This feels... good."
 
-label alex_scene4a_2:
+# CHOICE A SCENE 2
+label alex_scene6a_2:
     #[scene 2]
     scene bg black with fade
     "Weeks passed, and we were so happy."
     "We did everything together. Just like old time."
     "The only difference was that we were past the friend stage. We were in love."
 
-label alex_scene4a_3:
+# CHOICE A SCENE 3
+label alex_scene6a_3:
     #[scene 3]
     scene bg black     # PLACEHOLDER
     "Our game was set to be completed in the following week."
     "Alex had stopped returning my texts. He didn't want to meet up for lunch..."
     "Things had gone south very fast."
 
-label alex_scene4a_end:
+# CHOICE A SCENE END
+label alex_scene6a_end:
     #[end]
     scene bg black     # PLACEHOLDER
     mc "\"You're really going to pin all of this on me?\""
@@ -144,28 +224,29 @@ label alex_scene4a_end:
     return
 
 # CHOICE B SCENE 1
-label alex_scene4b_1:
+label alex_scene6b_1:
     #CHOICE B
     scene bg black3     # PLACEHOLDER
     ax "Look, about the other day..."
     mc "\"Forget about it. Let's just work on our game, okay?\""
 
 # CHOICE B SCENE 2
-label alex_scene4b_2:
+label alex_scene6b_2:
     scene bg black with fade
     "Our game was set to be completed in the following week."
     "One of the writers in our group had flaked out early on."
     "We were scrambling to get everything done on time."
 
 # CHOICE B SCENE 3
-label alex_scene4b_3:
+label alex_scene6b_3:
     scene bg black     # PLACEHOLDER
     ax "Wow, our game turned out great!"
 
-# CHOICE B SCENE 4
-label alex_scene4b_end:
+# CHOICE B SCENE END
+label alex_scene6b_end:
     scene bg black     # PLACEHOLDER
     ax "Thanks for everything, [mcname]."
     mc "\"It's what friends do!\""
     ax "Then I'm super lucky to have a friend like you."
     return
+# END ALEX SCENE 6

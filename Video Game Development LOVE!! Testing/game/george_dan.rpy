@@ -4,7 +4,8 @@
 
 # SCENE 1: Familiar Face
 label gd_scene1:
-    scene bg meeting_2
+    scene bg meeting_1 with dissolve
+    show gd calm with dissolve
     mc "Hey that guy looks familiar. I've definitely seen him from somewhere." 
     mc "What the?! He’s that guy that I bumped into earlier today..."
     gd "Hi everyone, welcome to VGDC and to our first meeting of the year! I am your president, Jeorge Dan."
@@ -19,8 +20,10 @@ label gd_scene1:
     mc "Damn it! Okay, I gotta snap out of it. I sound so cliche it’s cringe. And I don’t believe in that love at first sight crap either. But yet, this is the first time that I’m really this curious about someone."
     mc "But seriously though, after that first encounter, part of me really wants to know him, wants to know who he is. But what is it about him that makes me so curious?!"
     mc "Oh well, I shouldn’t think too much about it. Too much curiosity is always troublesome."    
+    hide gd with dissolve
     "(something pokes you)"
     mc "HUH?! Something poked me."
+    show ren calm with dissolve
     ren "Hey, I didn't expect to see you here!"
     mc "Oh it's Ren! I haven't seen her since high school. She would always treat me like her little sister back then kinda like a bigger sister... always taking care of me and watching over me."
     mc "\"Ren! It's been awhile!\""
@@ -37,6 +40,10 @@ label gd_scene1:
     mc "\"Thanks for the encouragement Ren!\""
     mc "I really do miss talking to Ren."
     mc "At that moment I saw him coming up towards us and Ren started to walk down towards him."
+    show ren calm:
+        linear 0.5 xalign 1.0
+    with Pause(0.5)
+    show gd calm with dissolve
     gd "Hey Ren, long time no see. I need to ask you something, can you come with me?"
     ren "Heya Prez, what's up with the speech? You know this was only a VGDC meeting, not a presidential inauguration... Who are you trying to impress anyway?"
     gd "I'm trying to impress all the beautiful people here of course and also you, Ren."
@@ -45,6 +52,8 @@ label gd_scene1:
     show gd smile
     gd "I’m joking of course. Anyway come with me for a sec."
     ren "You got it..."
+    hide ren with dissolve
+    hide gd with dissolve
     mc "So Ren knows him huh? Here’s my chance to have my curiosity satisfied!! This is perfect!!"
     mc "\"HEY YOU!!\"...wait where did they go?"
     "(a few people in the crowd turns and looks at you)"
@@ -65,7 +74,7 @@ label gd_scene1:
 label gd_scene2:
     #Scene 2: Fatherly Love
     #Setting: MC’s Apartment
-    scene bg apartment in2
+    scene bg mc_apartment_inside
     #Characters: MC
     "(You get home to your apartment)"
     mc "That was… the most… EMBARRASSING MOMENT OF MY LIFE!!!"
