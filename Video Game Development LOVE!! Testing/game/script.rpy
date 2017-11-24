@@ -34,7 +34,9 @@ label start:
     scene bg black              # Default to black scene in case of missing background
     
     # TESTING
-    call test_monologue
+    call test_moon
+    #call test_time
+    #call test_monologue
     #call test_effects
     #call test_transitions
     #call test_image_effects
@@ -121,6 +123,11 @@ init:
     define their = "his"        # UNUSED - Variable for setting gender his/hers
     define their_c = "His"        # His/Hers Capital version
     
+    # SYSTEM TIME
+    define year = 0
+    define month = 0
+    define day = 0
+    
     # CURRENT ROUTE
     define route = "common"     # UNUSED - Define current route title
     
@@ -139,6 +146,32 @@ init:
     image sparkle_anim = Animation("sparkle1.gif", anim_speed, "sparkle2.gif", anim_speed, "sparkle3.gif", anim_speed, "sparkle4.gif", anim_speed)
     
 init python:
+    # MODULE IMPORTS
+    import time
+    
+    # FUNCTION get_time - GET CURRENT SYSTEM TIME
+    def get_time():
+        global year
+        global month
+        global day
+        year, month, day, hour, minute, second, dow, doy, dst = time.localtime()
+        
+    # FUNCTION is_fullmoon - DETERMINE IF GEORGE DAN IS A CAT
+    # Original code by bumsfield (https://www.daniweb.com/programming/software-development/code/216727/moon-phase-calculator#post968407)
+    # Modified by Tyler Pearce
+    def moon_phase(month, day, year):
+        ages = [18, 0, 11, 22, 3, 14, 25, 6, 17, 28, 9, 20, 1, 12, 23, 4, 15, 26, 7]
+        offsets = [-1, 1, 0, 1, 2, 3, 4, 5, 7, 7, 9, 9]
+        
+        if day == 31:
+            day = 1
+        days_into_phase = ((ages[(year + 1) % 19] + ((day + offsets[month-1]) % 30) + (year < 1900)) % 30)
+        index = int((days_into_phase + 2) * 16/59.0)
+
+        if index == 4:
+            return True
+        return False
+    
     # FUNCTION set_route - SET ROUTE STRING BASED ON AFFECTION
     def set_route():
         global max_affection
