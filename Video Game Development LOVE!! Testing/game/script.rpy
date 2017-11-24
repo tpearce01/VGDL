@@ -123,10 +123,11 @@ init:
     define their = "his"        # UNUSED - Variable for setting gender his/hers
     define their_c = "His"        # His/Hers Capital version
     
-    # SYSTEM TIME
+    # SYSTEM TIME / WERECAT VARIABLES
     define year = 0
     define month = 0
     define day = 0
+    define is_werecat = false
     
     # CURRENT ROUTE
     define route = "common"     # UNUSED - Define current route title
@@ -160,6 +161,7 @@ init python:
     # Original code by bumsfield (https://www.daniweb.com/programming/software-development/code/216727/moon-phase-calculator#post968407)
     # Modified by Tyler Pearce
     def moon_phase(month, day, year):
+        global is_werecat
         ages = [18, 0, 11, 22, 3, 14, 25, 6, 17, 28, 9, 20, 1, 12, 23, 4, 15, 26, 7]
         offsets = [-1, 1, 0, 1, 2, 3, 4, 5, 7, 7, 9, 9]
         
@@ -169,8 +171,19 @@ init python:
         index = int((days_into_phase + 2) * 16/59.0)
 
         if index == 4:
+            is_werecat = True
             return True
+        is_werecat = False
         return False
+        ## NOTES ON WERECAT GEORGE DAN ##
+        # TO DO:
+        #       > Add werecat art
+        #       > Find + Replace all "show gd calm" --> 
+        #           if is_werecat:
+        #               show gd werecat calm
+        #           else:
+        #               show gd calm
+        #       > Repeat for all emotions
     
     # FUNCTION set_route - SET ROUTE STRING BASED ON AFFECTION
     def set_route():
