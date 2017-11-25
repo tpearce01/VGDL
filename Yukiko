@@ -52,12 +52,15 @@ label yu_scene1:
     mc "Hey."
     yu "Hmm?"
     mc "(Her eyes finally land on me and scan me up and down.")
-    mc "(Contrary to what I expected, her face lights up with the intensity of a million suns and she invades my personal space.)"
     yu "Hey, it's [mcname]!"
+    mc "(Contrary to what I expected, her face lights up with the intensity of a thousand suns.)"
     mc "Yeah, I was waiting for you."
-    mc "(To be honest, I've never had anyone so earnestly happy to see me before, so my face began tinting a light shade of crimson.)"
-    yu "
-
+    mc "(To be honest, I've never had anyone so earnestly happy to see me before, so I can feel my face begin tinting a light shade of crimson.)"
+    mc "(She takes a huge stride into my personal space.)"
+    yu "What can I do for you today?"
+    mc "I, uh..."
+    mc "(What did I come here for again..?)"
+    yu "Did you need help with programming, perhaps?"
 #Confession Scene
 label yu_scene?:
     #probably a scene of UTC at night
