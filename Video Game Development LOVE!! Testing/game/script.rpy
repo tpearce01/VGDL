@@ -34,7 +34,8 @@ label start:
     scene bg black              # Default to black scene in case of missing background
     
     # TESTING
-    call test_moon
+    call test_imagemap
+    #call test_moon
     #call test_time
     #call test_monologue
     #call test_effects
@@ -127,7 +128,7 @@ init:
     define year = 0
     define month = 0
     define day = 0
-    define is_werecat = false
+    define is_werecat = False
     
     # CURRENT ROUTE
     define route = "common"     # UNUSED - Define current route title

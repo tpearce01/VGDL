@@ -10,6 +10,62 @@ label test_effects:
     return
 # END TEST EFFECTS
 
+# IMAGEMAP
+label test_imagemap:
+    #scene bg black
+    #show yu calm with dissolve
+    #screen yu_test():
+    #    imagemap:
+    #        ground "yu calm.png"
+    #        idle "re calm.png"
+    #        hover "ax calm.png"
+    #        
+    #        hotspot (0,0,600,720) hovered renpy.show("yu shy.png") unhovered renpy.show("yu calm.png") action ("UwU")
+    #"testing"
+    $ result = renpy.imagemap("yu shy2.png", "yu calm2.png", [(0,0,1280,720,"2"), (515,475,755,650,"1")])
+    if result == "1":
+        show yu shy2
+        "A-aah! [mcname]-kun, not there!"
+    elif result == "2":
+        jump test_imagemap
+    return
+        
+
+# CURSOR
+init 1 python:   
+    
+    def change_cursor(type="default"):
+        persistent.mouse = type
+        if type == "default":
+            setattr(config, "mouse", None)
+        elif type == "1":
+            setattr(config, "mouse", {"default": [("images/cursor1.png", 0, 0)]})
+            
+    if not hasattr(persistent, "mouse"):
+        change_cursor()
+    else:
+        change_cursor(persistent.mouse)
+    # Default cursor:
+    # $ change_cursor()
+    # cursor 1:
+    # $ change_cursor("1")
+    
+label show_yu_calm:
+    show yu calm
+    return
+    
+label show_yu_shy:
+    show yu shy
+    return
+    
+label set_cursor_default:
+    $ change_cursor()
+    return
+    
+label set_cursor_1:
+    $ change_cursor("1")
+    return
+
 label test_moon:
     python:
         string_data = "Not a full moon"
