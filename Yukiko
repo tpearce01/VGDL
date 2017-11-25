@@ -39,23 +39,24 @@ label yu_scene1:
     mc "(I step forward and wave my hands in front of her.)"
     yu "..........."
     mc "I don't want to do anything that would bother her, so..."
-    #another officer tells protag that they have to break her line of sight with the monitor for at least 5 seconds
-    mc "Maybe I'll just come back another time."
-    mc "I proceed to turn around and leave, but I forget that I moved closer to her than I thought to wave my hands in front of Yukiko's face."
-    mc "I trip on the leg of her chair, bringing her toppling down onto me."
-    mc "(The loud crashing noise steals the attention of everyone in the game lab."
-    #Yukiko's sprite zoomed right in front of your grill
-    mc "(Her unfocused red eyes take a bit to adjust to the troublesome scene surrounding her.)"
-    mc "(Amidst everyone's stares, I manage to force out a single word.")
+    mc "(I pull up a chair next to her, lean back, and let my mind wander.)"
+    #fade to black
+    mc "(During the hour that elapsed, while glancing at her occasionally in the corner of my eye, I progressed from playing with my phone to reading my textbook to doing homework."
+    mc "(After an hour, I give up and decide to watch her.")
+    mc "(She's still calmly typing away at a computer.)"
+    mc "(Her face doesn't change except for the occasional furrowing of her brows while waiting for the computer.")
+    mc "(The shine of the monitor reflected in her focused red eyes almost makes it look like she's an android processing lines of code.")
+    mc "(Eventually, she finally shuts down the computer.)"
+    mc "(She abruptly stands up, extends her arms upwards, and arches her back forward in a long stretch.)"
+    yu "*yawn*"
     mc "Hey."
-    mc "(Contrary to what I expected, her face lights up with the intensity of a million suns and she moves her body closer to mines.)"
-    #we all know her huge rack is pressing on you at this point but this is a pg-13 game so im just gonna ignore that
+    yu "Hmm?"
+    mc "(Her eyes finally land on me and scan me up and down.")
+    mc "(Contrary to what I expected, her face lights up with the intensity of a million suns and she invades my personal space.)"
     yu "Hey, it's [mcname]!"
-    mc "
-    
-    
-    
-    
+    mc "Yeah, I was waiting for you."
+    mc "(To be honest, I've never had anyone so earnestly happy to see me before, so my face began tinting a light shade of crimson.)"
+    yu "
 
 #Confession Scene
 label yu_scene?:
