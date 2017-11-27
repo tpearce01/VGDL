@@ -108,6 +108,18 @@ label yu_route:
     call yu_scene3
     return
 # END YUKIKO
+
+# REINA
+label re_route:
+    "Placeholder Reina Route"
+    return
+# END REINA
+
+# KENDRICK 
+label kd_route:
+    "Placeholder Kendrick route"
+    return
+# END KENDRIK
 ## END ROUTE CONTROL ##
     
 ## NON-ROUTE SCENES ##
