@@ -29,7 +29,7 @@ label prologue_scene1:
     "For better or for worse, we became each others' confidants. I knew all his ins and outs, and he knew mine."
     "We did just about everything together, our bickering a result of how comfortable we are with each other."
     "That is, until his family moved to a different state, and we spent the last four years just chatting online whenever we could."
-    mc "\"(It's been four whole years...)\""
+    mc "(It's been four whole years...)"
     "He was so ecsatic when he found out I would be attending UCI, he wanted to meet up as soon as we could."
     "Physically, Alex definitely changed over the years. Admittedly, for the better."
     mc "(But my feelings for him...)"
@@ -57,24 +57,23 @@ label prologue_scene1:
     "I didn't want to go, but Alex was insitent on making me join his club."
     mc "(At least now, I can finally go back to my room...)"
     "I let out a sigh, and began following a road that would hopefully lead me out of here."
-    show yu calm with dissolve
     yu "Hey, you!"
     mc "..."
     yu "Huh? Hellooo...?"
     mc "..."
     mc "(Just keep facing forward, and they'll just give up-)"
-    yu "Boo!"
     with hpunch
+    yu "Boo!"
+    show yu happy with dissolve
     mc "?!"
     "I jolted back, path now blocked by a grinning girl with purple hair."
-    show yu happy
     yu "Haha, gotcha!"
     yu "No escaping from me now, alright?"
     mc "(Damn. Foiled again...)"
     yu "Hey, don't give me that look... Come on, just follow me for a sec, okay? There's this really cool club you should totally check out!"
     mc "\"Umm... Sorry, but I'm actually not interest-\""
     yu "Nonsense! This way!"
-    show yu calm
+    show yu calm with dissolve
     "And just like that, she placed a hand on my back, and whisked me away."
     hide yu calm with dissolve
     mc "(Why me...)"
@@ -130,7 +129,7 @@ label prologue_scene2:
     mc "..."
     kd "And that's the main gist of it. Would you happen to be interested in joining?"
     mc "\"Hmm...\""
-    mc "\"That... hoenstly sounds really cool.\""
+    mc "\"That... honestly sounds really cool.\""
     kd "Oh?"
     mc "\"But, I actually kinda planned to not join any clubs my first quarter here.\""
     kd "... I see."
@@ -361,7 +360,7 @@ label prologue_scene9:
     mc "(Geez... This really is a small world.)"
     "I took a deep breath, paying no mind to the rapid pacing in my chest."
     #--black--
-    with fade
+    scene bg black with fade
     "The meeting went on."
     "George Dan went over the basics of the club, including activities, purpose, and history."
     "He spoke in a way that was confident yet calm. I'd like to say that his voice captured everyone in the hall."
@@ -372,9 +371,10 @@ label prologue_scene9:
 # PROLOGUE SCENE10
 label prologue_scene10:
     #--back to hall--
-    scene bg meeting_1 with dissolve
-    show gd calm
+    scene bg black with fade
     "About thirty minutes into the meeting..."
+    scene bg meeting_1 with dissolve
+    show gd calm with dissolve
     gd "And now, we move on to departments."
     gd "As you all know, we will be formulating development teams in the near future."
     gd "Each member will belong to a specified department, no matter their skill level."
@@ -387,21 +387,28 @@ label prologue_scene10:
     mc "\"... Huh?\""
     mc "\"Wait, is that-?!\""
     gd "Alright. Alexander, if you could start us off?"
+    show gd calm:
+        linear 0.5 xalign 0.0
     "The president spoke to the person who led the line of officers, none other than Alex."
     "In response, he straightened his posture and took a few steps forward, a charming grin on his face."
+    show ax calm with dissolve
     ax "Heya! Name's Alexander, the design officer."
     ax "Probably not the most well known or popular department, sure. But that doesn't make it any less amazing."
     ax "If you're even the slightest bit curious about what it is I do, come talk to me." 
     ax "And to the girls out there, trust me, I'll make it worth your time~"
     "I could hear some girls nearby giggle."
+    hide ax calm with dissolve
     mc "(God, Alex...)"
     "Before I could gather myself, the next person stepped forward."
+    show kd calm with dissolve
     kd "My name is Kendrick, the production officer."
     kd "As a producer, you will be enforcing order and organization."
     kd "Straightforward, though the weak willed may find it difficult."
     kd "Please only take up this position if you fully intend on taking matters into your own hands."
     kd "I'd rather not waste my time cleaning up the mess of others."
+    hide kd calm with dissolve
     "..."
+    show yu calm with dissolve
     yu "..."
     yu "Oooookaaay..."
     yu "Anyways!! Hey-ho everyone!"
@@ -411,12 +418,16 @@ label prologue_scene10:
     yu "This department's fairly straightforward. You write words into the computer and the engine does its thing!"
     yu "... Or, well, I guess it's a liiiitle more complicated than that."
     yu "But not to worry! I'll be here to help you if your code goes out of whack!"
+    show yu calm:
+        linear 0.5 xalign 1.0
+    show md calm with dissolve
     md "Geez, you're as loud as ever."
     "A girl with headphones stepped forward, placing a hand on Yukiko's shoulder."
     mc "(That's the girl who got into a fight with the club members the other day...)"
     yu "Heyy, wait your turn!"
     md "Shouldn't be a problem, right? You were just about done anyway."
     yu "Hmph."
+    hide yu calm with dissolve
     "As Yukiko returned to her spot, Melody cleared her thoat and faced the room."
     md "Name's Melody. Audio officer."
     md "Not much t' say, really. We make music and sound effects and stuff."
@@ -428,8 +439,10 @@ label prologue_scene10:
     gd "Alright. That was four officers. That means we're missing..."
     md "Ah!"
     "Melody's eyes lit up."
+    hide md calm with dissolve
     "She returned back to the line of officers pushed someone forward by their shoulders."
     re "Eeep!"
+    show re calm with dissolve
     re "M-Melody!"
     md "Alright, alright! Give 'em hell, Reina!"
     re "Ahh... ummm..."
@@ -439,7 +452,10 @@ label prologue_scene10:
     re "...."
     re "I-I'll be happy you help to!"
     mc "\"... huh?\""
+    hide re calm with dissolve
     "Before I knew it, Reina bowed and ran behind the line of officers, Melody following her with a smile on her face."
+    show gd calm:
+        linear 0.5 xalign 0.5
     gd "Haha. A lively bunch, aren't we?"
     mc "(That's one way to put it...)"
     gd "Well then. That just leaves me."
@@ -447,6 +463,7 @@ label prologue_scene10:
     gd "Anyone can write words, true. But more goes into the script than one realizes."
     gd "If you take interest in conveying themes in a way that is eloquent yet subtle through the written..."
     gd "Consider joining the department. I'll do my best to assist you."
+    hide gd calm with dissolve
     "As the officers wrapped up their introductions, the audience erupted into applause."
     "I clapped along, but at the moment, my mind was racing."
     mc "(So many departments, but...)"
@@ -455,21 +472,22 @@ label prologue_scene10:
         "Which one interests me the most?"
         "Programming":
             "Programming route"
-            call yu_scene1
+            #call yu_scene1
+            call yu_route
         "Art":
             "Art Route"
-            call re_scene1
+            #call re_scene1
         "Writing":
             "Writing Route"
-            call gd_scene1
+            call gd_route
         "Production":
             "Production Route"
-            call kd_scene1
+            #call kd_scene1
         "Audio":
             "Audio Route"
-            call melody_scene1
+            call melody_route
         "Design":
             "Design Route"
-            call ax_scene1
+            call alex_route
     return
 # END PROLOGUE SCENE10

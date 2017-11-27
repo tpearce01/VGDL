@@ -10,6 +10,20 @@ label test_effects:
     return
 # END TEST EFFECTS
 
+label test_moon:
+    python:
+        string_data = "Not a full moon"
+        get_time()
+        is_fullmoon = moon_phase(month, day, year)
+        if is_fullmoon:
+            string_data = "Full moon"
+    "[string_data]"
+
+label test_time:
+    $ get_time()
+    "[day], [month], [year]"
+    return
+
 label test_monologue:
     scene bg black
     "Inner monologue text"
