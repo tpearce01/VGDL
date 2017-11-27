@@ -11,6 +11,7 @@ define md = Character("Melody")         # Audio
 define ax = Character("Alexander")      # Design
 
 # Minor Characters
+define unknown = Character("???")       # Unknown Character
 define ren = Character ("Ren")          # Childhood friend
 define prof = Character("Professor")    # Teacher
 define crowd = Character("Crowd")       # Crowd of people
@@ -46,7 +47,19 @@ label start:
     call get_name               # Get main character name
     call get_gender             # Get main character gender
     
-    # PROLOGUE
+    # CORE ROUTE
+    call prologue
+    
+    # Credits
+    call end_scene              # Credits Scene
+
+    # This ends the game.
+    return
+## END START ##
+
+## ROUTE CONTROL ##
+# PROLOGUE
+label prologue:
     call prologue_scene1        # PROLOGUE SCENE 1
     call prologue_scene2        # PROLOGUE SCENE 2
     call prologue_scene3        # PROLOGUE SCENE 3      
@@ -57,31 +70,48 @@ label start:
     call prologue_scene8        # PROLOGUE SCENE 8
     call prologue_scene9        # PROLOGUE SCENE 9
     call prologue_scene10       # PROLOGUE SCENE 10
-   
-    # GEORGE DAN
-    #call gd_scene1              # GEORGE DAN SCENE 1
-    #call gd_scene2              # GEORGE DAN SCENE 2
-    
-    # ALEX
-    #call alex_scene1            # ALEX SCENE 1
-    #call alex_scene2            # ALEX SCENE 2
-    #call alex_scene3            # ALEX SCENE 3
-    #call alex_scene4            # ALEX SCENE 4
-    
-    # MELODY
-    #call melody_scene1          # MELODY SCENE 1
-    #call melody_scene2          # MELODY SCENE 2
-    #call melody_scene3          # MELODY SCENE 3
-    #call melody_scene4          # MELODY SCENE 4
-    
-    # Credits
-    call end_scene              # Credits Scene
-
-    # This ends the game.
     return
-## END START ##
+# END PROLOGUE
+
+# GEORGE DAN
+label gd_route:
+    call gd_scene1              # GEORGE DAN SCENE 1
+    call gd_scene2              # GEORGE DAN SCENE 2
+    return
+# END GEORGE DAN
+
+# ALEX
+label alex_route:
+    call alex_scene1            # ALEX SCENE 1
+    call alex_scene2            # ALEX SCENE 2
+    call alex_scene3            # ALEX SCENE 3
+    call alex_scene4            # ALEX SCENE 4
+    call alex_scene5            # ALEX SCENE 5
+    call alex_scene6            # ALEX SCENE 6
+    return
+# END ALEX
+
+# MELODY
+label melody_route:
+    call melody_scene1          # MELODY SCENE 1
+    call melody_scene2          # MELODY SCENE 2
+    call melody_scene3          # MELODY SCENE 3
+    call melody_scene4          # MELODY SCENE 4
+    return
+#END MELODY
+
+# YUKIKO
+label yu_route:
+    call yu_intro
+    call yu_scene1
+    call yu_scene2
+    call yu_scene3
+    return
+# END YUKIKO
+## END ROUTE CONTROL ##
     
 ## NON-ROUTE SCENES ##
+
 # GET MCNAME
 label get_name:
     scene bg black
@@ -127,7 +157,7 @@ init:
     define year = 0
     define month = 0
     define day = 0
-    define is_werecat = false
+    define is_werecat = False
     
     # CURRENT ROUTE
     define route = "common"     # UNUSED - Define current route title
