@@ -1,16 +1,15 @@
 #DIALOGUE : 
+
+
 #Scene 1: 
+
 #setting:lecture hall
 
-protagonist “(Hey that guy looks familiar. I've definitely seen him from somewhere.)” 
+protagonist “(So the guy I bumped into before is the president of this club...)” 
 
-protagonist “(Hey... He’s that guy that I bumped into earlier today!)”
+J.D “Oh yeah, one more thing. This first meeting may not be too exciting, but I promise you that there will be invaluable experiences to gain,many joyous moments to come, and new friends to share those moments with. 
 
-J.D “Hi everyone, welcome to VGDC and to our first meeting of the year! I am your president, Jeorge Dan.”
-
-protagonist “(What?! He’s the president of this club too??)”
-
-J.D “This first meeting may not be too exciting, but I promise you that there will be invaluable experiences to gain, many joyous moments to come, and new friends to share those moments with. So with that said, I hope that you will enjoy your journey here to the fullest…”
+jd "So with that said, I hope that you will enjoy your journey here to the fullest.”
 
 protagonist “(The way he speaks… it’s so familiar, but I can’t recall what it is.)”
 
@@ -94,7 +93,7 @@ Crowd “No fool, you’re ugly.”
 
 Crowd “Waah… you’re so mean.”
 
-Scene 2:
+#Scene 2:
 #Setting: MC’s Apartment
 
 protagonist “That was the most… EMBARRASSING MOMENT OF MY LIFE!!!”
