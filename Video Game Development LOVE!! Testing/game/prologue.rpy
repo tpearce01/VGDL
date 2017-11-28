@@ -471,22 +471,16 @@ label prologue_scene10:
     menu department_choice:
         "Which one interests me the most?"
         "Programming":
-            "Programming route"
             call yu_route
         "Art":
-            "Art Route"
             call re_route
         "Writing":
-            "Writing Route"
             call gd_route
         "Production":
-            "Production Route"
             call kd_route
         "Audio":
-            "Audio Route"
             call melody_route
         "Design":
-            "Design Route"
             call alex_route
     return
 # END PROLOGUE SCENE10
