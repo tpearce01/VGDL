@@ -2,9 +2,11 @@ DIALOGUE :
 Scene 1: 
 #setting:lecture hall
 
-mc “(So the guy I bumped into before is the president of this club...)” 
+mc “(So he's the guy I bumped into earlier...)” 
 
-jd “Oh yeah, one more thing. This first meeting may not be too exciting, but I promise you that there will be invaluable experiences to gain,many joyous moments to come, and new friends to share those moments with..”
+jd “Oh yeah, one more thing. This first meeting may not be too exciting, but 
+I promise you that there will be invaluable experiences to gain,many joyous moments to come, 
+and new friends to share those moments with.”
 
 jd "So with that said, I hope that you will enjoy your journey here to the fullest.”
 
@@ -12,7 +14,7 @@ mc “(The way he speaks… it’s so familiar, but I can’t recall what it is.
 
 mc “(The way that he is able to captivate the audience…)”
 
-mc “(There is a weird, but definitely familiar feeling about him that that perplexes me and I can’t seem to figure out!!)”
+mc “(There is a weird, but definitely familiar feeling about him that perplexes me and I can’t seem to figure out!!)”
 
 mc “(For some odd reason I can't stop gazing at him.)”
 
@@ -24,7 +26,8 @@ mc “(HUH?! Something poked me.)”
 
 Ren "Hey, I didn't expect to see you here!"
 
-mc “(Oh it's Ren! I haven't seen her since high school. She was like my bigger sister back in high school. She would always protect me.)”
+"This is Ren. I haven't seen her since high school, but
+she was like my bigger sister back then in high school. Always protecting me and taking care of me."
 
 mc "Ren! It's been awhile!"
 
@@ -38,7 +41,7 @@ Ren "Anyway, I see that you are here now, so does that mean you are planning to 
 
 mc "Yeah I was at their booth earlier and I wanted to check out their first club meeting."
 
-Ren "You should definitely join! Take time away from your busywork and enjoy some time with your biggos here!"
+Ren "You should definitely join!!"
 
 Ren "Are you going to pitch a game idea for the next meeting? I think you should!”
 
@@ -50,7 +53,7 @@ mc "Thanks Ren, I’ll definitely consider it now.”
 
 mc “(I really do miss talking to Ren.)”
 
-mc “(At that moment I saw him coming up towards us and Ren started to walk down towards him.)”
+"At that moment I saw him coming up towards us and Ren started to walk down towards him.”
 
 jd "Hey Ren, I need to ask you something, can you come with me?
 
@@ -58,9 +61,9 @@ Ren "Yeah, I can, but what's up with the speech? You know this was only a VGDC m
 
 jd “I must make sure that the new members know how cool I am.”
 
-“(jd smiles)”
+Ren "That's pretty...cringe."
 
-Anyway come with me for a sec."
+jd "Anyway, come with me for a sec."
 
 Ren “You got it...”
 
@@ -68,23 +71,23 @@ mc “(So Ren knows him huh? Here’s my chance to have my curiosity satisfied! 
 
 mc “HEY YOU!!”
 
-mc “(...wait where did they go?)”
+mc “(...Wait where did they go?)”
 
-“(a few people in the crowd turns and looks at you)”
+mc "(Why did everyone turn their heads? Is there something interesting behind me?)"
 
 Crowd “?...”
 
-mc “(OH SHOOT! WHY IS EVERYONE STARING AT ME?! WAS I THAT LOUD?! THIS IS EMBARRASSING!!)”
+mc “(WHY ARE THEY STARING AT ME?! WAS I THAT LOUD??)”
  
 mc “(I HAVE TO GET OUT OF HERE!!)”
 
 Crowd “Who was that?”
 
-Crowd “That was pretty weird.. Who was” [she] “calling for?”   
+Crowd “That was pretty weird.. Who was” [they] “calling for?”   
 
 #she/he gender
 
-Crowd “Hey! Maybe” [she] “was calling for me because” [she] “thought I was cute!”
+Crowd “Hey! Maybe” [she] “was calling for me because” [they] “thought I was cute!”
 
 Crowd “No fool, you’re ugly.”
 
@@ -95,19 +98,18 @@ Scene 2:
 
 mc “That was the most… EMBARRASSING MOMENT OF MY LIFE!!!”
 
-mc “(That was so embarrassing. Everything felt so embarrassing!!)”
+mc “That was so embarrassing. Everything felt so embarrassing!!”
 
-mc “(Okay. Okay. Focus... I have to calm down and get work done. Get over it, let the past me worry about what happened.)”
+mc “Okay. Okay. Focus... I have to calm down and get work done. Get over it, let the past me worry about what happened.”
 
-mc “(Okay… time to get work done.)”
+mc “Okay… time to get work done.”
 
-“(Your stomach growls)”
-
-mc “(Uh…now I’m getting really hungry and I haven’t eaten anything all day too. But the meeting ended so late so I didn’t have time to make food.)”
+mc “(Uh…now I’m getting really hungry and I haven’t eaten anything all day too. 
+But the meeting ended so late so I didn’t have time to make food.)”
 
 mc “Life at college...”
 
-“(your phone rings)”
+"My phone suddenly started to ring. It was my dad calling me."
 
 mc "Hello? Dad?”
 
@@ -119,7 +121,8 @@ mc “And you sound happy today, did something happen?”
 
 Dad “Nothin’, your mom and I just had our anniversary today.”
 
-Dad “Oh yeah, if you’re hungry, there’s food in the fridge. We came up to your area to eat for our anniversary, and we dropped by to say hi, but you weren’t there so we just dropped off some food for ya.”
+Dad “Oh yeah, if you’re hungry, there’s food in the fridge. We came up to your area to eat for our anniversary, 
+and we dropped by to say hi, but you weren’t there so we just dropped off some food for ya.”
 
 mc “No way?! You are officially my favorite dad!”
 
@@ -127,7 +130,7 @@ Dad “I am your only dad…”
 
 Dad “But your fridge is pretty empty! You need to take care of yourself and be more responsible for your health!”
 
-mc “Yeah Dad, I know. I’ve just been a bit tight on my schedule, but I’ll be sure to stock up the fridge with food.”
+mc “Yeah Dad, I know. I’ve just been a bit tight on my schedule, but I’ll be sure to stock up the fridge with food later.”
 
 Dad “You know that boys won’t want you if you’re as skinny as a stick.”
 
@@ -141,13 +144,13 @@ Dad “Hahaha, I’m joking of course.”
 
 mc “Oh yeah, there’s this boy, it’s weird, but I get a very familiar feeling coming from him as if I know him from somewhere long ago.”
 
-mc “Do you think I should ask him about it?”
+mc “I wanted to ask him if we've met before but I missed my chance.”
 
 Dad “I knew it!! There’s a boy HAHAHA. It’s been a week and you already found someone.”
 
 mc “...Seriously, you’re an annoying boy stuck in an old man’s body. AND I DON’T LIKE HIM, I JUST WANT TO KNOW HIM!!”
 
-Dad “Hahah, but yeah why the heck not? You guys probably met each other before.”
+Dad “I'm only joking! And yea if he makes you that curious, then you should definitely meet him.”
 
 mc “Anything else you want to say old man?”
 
@@ -155,29 +158,31 @@ Dad “I just want to say, firstly, good luck with school and keep warm, the wea
 
 mc “Thanks Dad...Tell mo...”
 
-“(Your dad hangs up the phone before you finish)”
+mc "He... JUST HUNG UP ON ME?"
 
 mc “That rotten old man! Didn’t even let me finish my sentence and just hangs up on. What kind of dad does that…”
 
-mc “(I grabbed the food and started eating.)”
+"I headed to the fridge and grabbed the food that my parents brought for me."
 
-mc “(Thanks Mom and Dad…)”
+mc “Thanks Mom and Dad…”
 
-mc “(After I finished eating, I took off my clothes, got into my bed, and put on my headphones. The soothing music starts to play, as I begin to do some of my work.)”
+"After I finished eating, I took off my clothes, got into my bed, and put on my headphones. The soothing music starts to play,
+as I begin to do some of my homework.”
 
-mc “(Eventually, my eyes start to tire. I put my work aside, laid down on, looked at the window, and as I listened to the music, his voice...started to run through my mind.)”
+"Eventually, my eyes start to tire. I put my work aside, laid down on, looked at the window, and as I listened to the music, 
+his voice...started to run through my mind.)”
 
 mc “(I really want to ask him…)”
 
-mc “(Hey... you…)”
+mc “(Hey... you...)”
 
-“(*Beep Beep Beep*)”
+--black--
 
 mc “OH SHOOT!! IT’S 8:15!”
 
-mc “(I won’t make it to my 8 a.m class!! Damn… I forgot to reset my alarm.)”
+mc “(I won’t make it to my 8 a.m class!! Damn… I forgot to set my alarm.)”
 
-mc “(Disappointed and sad, I slammed my head back into my pillow.)”
+"Disappointed and sad, I slammed my head back into my pillow.”
 
 
 Scene 3: 
@@ -188,29 +193,31 @@ mc “(What terrible luck… Whatever, I should find a place to study now.)”
 
 mc “(Oh! I know where! Ren told me that Ayala Library is a great place to study and I haven’t been there yet either.)”
 
+--black--
+
 mc “(I think it should be around here somewhere…)”
 
 mc “(Oh! I see it. Wow, it looks so nice from the outside…)”
 
-mc “(Suddenly I bump into someone.)”
+"I then suddenly bumped into someone
 
 Stranger “Oh, sorry. My apologies.”
 
 mc “Oops! Sorry, let me pick up the water bottle for you...”
 
-mc “(As I return the water bottle, I look up and the person that I bumped into is none other than him!! The president of VGDC.”)
+"As I return the water bottle, I look up and the person that I bumped into is none other than him!! The president of VGDC.”
 
 mc “(What should I do or say?!)”
 
-[Player Options 1]
+#[Player Options 1]----------------------------------------------
 
-[Hand back the bottle,say nothing, and walk away] (worst)
+#[Hand back the bottle,say nothing, and walk away] (worst)------
 
-mc “(I immediately hand back the bottle and nervously walk off without saying a word.)”
+"I immediately hand back the bottle and nervously walk off without saying a word.”
 
 jd “Thank y...”
 
-[Get dramatic and tell him that he’s the worst kind of guy]  (middle)
+#[Get dramatic and tell him that he’s the worst kind of guy]  (middle)------
 
 mc “Wait a minute, why am I, a girl, picking up the bottle for you who obviously bumped into me??”
 
@@ -220,38 +227,43 @@ jd “My apologies. You picked up my bottle so fast that I didn’t even have ti
 
 jd “Thank you very much though.”
 
-mc “(He looks so tall and handsome close up... Wait what?)”
+mc “(He looks so tall and handsome up close... Wait what?)”
 
 mc “Uhhh you’re the worst kind of guys, just make sure to not get in my way next time Hmfph!”
 
 mc “(Next time?! What am saying!?)”
 
-mc “(I start to quickly walk away.)”
+"I start to quickly walk away."
 
-[Pretend to accidentally trip and sees if he catches you] (best)
+#[Pretend to accidentally trip and sees if he catches you] (best)------
 
 mc “Here’s your bott…”
 
-mc (“As I return the bottle to him, my legs start to feel weak. Suddenly, as if a ghost had possessed me, my legs stumble and I fell toward him.”)
+“As I return the bottle to him, my legs start to feel weak. Suddenly, as if a ghost had possessed me,
+my legs stumble and I fell toward him.”
 
 jd “Oi, Are you okay?”	
 
-mc “(My mind went blank and I just blocked out all the noises. The only thing that I can think of is how his arms are holding onto mine.)”
+“My mind went blank and I just blocked out all the noises. 
+The only thing that I can think of is how his hands are holding onto mine."
 
-mc “(He looks so tall and handsome close up and he smells nice too… Wait what?)”
+mc “(He's so warm and his hands are soft. He smells nice too… Wait what?)”
 
-mc “(Suddenly, I snap out of my delusional state and realize what had just happened.)”
+“Suddenly, I snapped out of my delusional state and realize what had just happened.”
 
 mc “Hahaha! I’m very sorry!”
 
-mc “(After nervously apologizing, I got up and quickly walked away.)”
+jd "It's oka..."
 
-#cut
+"After nervously apologizing, I got up and quickly walked away.”
+
+#cut----------------------------------------------
+
 #Setting: Outside
 
 mc “I can’t believe that just happened!! That was extremely awkward…”
 
-mc “(Why did I do that…At first I wanted to meet him, and when I met him, I become a nervous wreck.)”
+mc “(Why did I do that... at first I wanted to meet him, and when I met him, I become a nervous wreck.)”
 
 mc “(It’s okay! It’s over now. I need to focus and get some work done.)”
 
@@ -259,67 +271,72 @@ mc “(It’s okay! It’s over now. I need to focus and get some work done.)”
 
 mc “(This library is so nice. It looks so modern and it feels so comfortable.)”
 
-mc “(Hmmm, now to find a table to sit at… oh there’s another room in here.)”
+mc “(Hmmm, now to find a table to sit at... oh there’s another room in here.)”
 
-mc “(I sat down and then as I unpack my stuff, I look across from me and he was there again!)”
+"I sat down and then as unpacked my stuff, I looked across from me and he was there! Again!”
 
 mc “He’s reading his book so he doesn’t notice me yet. What should I do?!)”
 
-mc “(I quickly hid my face behind my textbook before he could notice me.)”
+"I quickly hid my face behind my textbook before he could notice me."
 
 mc “(Okay, no problem. This is fine. It’s not awkward at all. We’re just two people studying at the same table.)”
 
-mc “(A few minutes pass by as I try to study.)”
+"A few minutes pass by as I try to study."
 
-mc “(This feeling is so tense... how am I supposed to focus?! I wonder if he’s looking at me. Should I peek to see if he is or should I just leave??)”
+mc “(This feeling is so tense... how am I supposed to focus?! I wonder if he’s looking at me. Should I peek to see if he is
+or should I just leave??)”
 
-[Player Options 2]
+[Player Options 2]----------------------------------------------
 
-[Definitely peek] (best)
+---[Definitely peek] (best)---
 
 mc “(Okay. Just a really, really brief peek.)”
 
 “(you peek at him)”
 
-mc “(Wow.... His face, resting gently on his silky fingers. He looks so elegant like a beautiful swan resting alongside a riverbank…)”
+mc “(Wow.... His face, resting gently on his silky fingers. He looks so elegant...)”
 
 mc “(STOP PEEKING THIS IS NO TIME TO CHECK HIM OUT!!)”
 
-mc “(You’re right myself… but I must peek again!!)”
+mc “(You’re right myself...but I must peek again!!)”
 
 mc “(He’s not looking at all, or maybe he is indirectly looking and he can actually see me peeking at him! This guy is so sly.)”
 
 mc “(AH! I know a way to test this.)”
 
-mc “(I gently put my book down, with my face looking down. I then softly yawn.)”
+"I gently put my book down, with my face looking down. I then softly yawn."
 
 mc “(If he yawns then that means that he’s definitely looking at me! Hehe, I’m a genius!)”
 
-mc “(I slightly peek and he yawns!)”
+"He then yawns almost instantly!"
 
 mc “HA I KNEW IT!”
 
-“(jd gives a slight chuckle)”
+"He then gives off a small smirk."
 
-mc “(Did he just smirk at me?)”
+mc “(Did he just smirk at me!? This arrogant guy...)”
 
-“(The people in the room turns and looks at you except for jd)”
+"Before I noticed, the people in the room were all staring at me except for him."
 
 mc “(Wait… Why is everyone looking at me?)”
 
 mc “(OH NO, I DID IT AGAIN!! ME AND MY BIG MOUTH. I NEED TO LEAVE.)”
 
-“(You quickly exit the room.)”
+--black--
 
 mc “(That was so embarrassing! I got played by that fool!!)”
 
-[Hell no, get the heck out of there!!] (worst)
+---[Hell no, get the heck out of there!!] (worst)---
 
 mc “(I can’t believe he’s here again. I’m definitely leaving.)”
 
-“(You exit the room)”
+"I got up and left."
 
-#cut
+
+#cut----------------------------------------------
+
+--black--
+
 #library
 
 mc “(That guy thinks he’s so cooool, but he’s so annoying and that dumb smile of his…)”
@@ -328,7 +345,7 @@ mc “(I need to get back on track though and study...)”
 
 mc “(I’ll definitely get him back for this.)”
 
-“(You study and a few hours pass by)”
+“I studied for awhile until I was caught up."
 
 mc “(I think that’s enough studying for today. I caught up with my class so that’s a relief.)”
 
@@ -338,17 +355,18 @@ mc “(I should drop by and support them. Maybe Ren will give me a discount hehe
 
 mc “(Hopefully he’s not there running the booth or something. I can’t stand seeing him again.)”
 
+--black--
 #outside anywhere
 
 mc “(I think the booth is on ring road somewhere… )”
 
 mc “(Oh there it is!)”
 
-“(you walk towards the VGDC booth)”
+“I walked towards the VGDC booth.”
 
 Ren “Hey! What the? Why do you look like a starving child! I can’t have that. Here, take this. I already paid for it”
 
-“(Ren hands you a plate of food)”
+“Ren handed me a plate full of freshly made food!!”
 
 mc “Ren… thank you so much!!!”
 
@@ -364,7 +382,7 @@ mc “Oh by the way Ren, is there a park near here?”
 
 Ren “Yeah, there’s a park one mile going that way. Are you planning to chill there?”
 
-mc “Yeah, I had a long and stressful day.”
+mc “Yeah, I had a long, stressful, and embarrassing day.”
 
 mc “Okay thank you Ren, I’m going to head over there, and thank you for the food!”
 
@@ -380,13 +398,14 @@ mc “(Okay, that’s done, now I just need to grab my basketball and then I can
 
 #park
 
-mc “(This park is amazing, there’s even a pond here! It’s so empty and quiet. Everyone must be too busy with school to have time to come here.)”
+mc “(This park is amazing, there’s even a pond here! It’s so empty and quiet. Everyone must be too busy with school to 
+have time to come here.)”
 
-mc “(The quietness of the park creates such a relaxing atmosphere compared to the liveliness on Ring Road…)”
+mc “(The quietness of the park creates such a relaxing atmosphere compared to the liveliness on Ring Road...)”
 
 mc “(But sometimes I do prefer the solitude that quietness brings.)”
 
-mc “(Wait… There’s actually someone here. Who is that over there?)”
+mc “(Wait... there’s actually someone here. Who is that over there?)”
 
 mc “(Aww, that’s cute. It seems like they’re feeding the ducks.)”
 
@@ -398,11 +417,11 @@ mc “(Should I confront him this time?)”
 
 [Yes, and make sure you show him who’s boss] (Best Choice + Bonus)
 
-“(You walk up to jd)”
+“I walk up to him to confront him."
 
 mc “Hey you!!”
 
-“(jd looks at you)”
+“He then looks at me.”
 
 mc “(Oh crap! Maybe this is a bad idea. It’s too late now though!)”
 
@@ -412,13 +431,13 @@ mc “What is your purpose!?”
 
 jd “Oh, it’s you, the one that yelled out loud at the library.”
 
-mc “I DID NOT DO…”
+mc “I DID NOT DO...”
 
-mc “So you are stalking me!!”
+mc “So you ARE stalking me!!”
 
-jd “I mean… I can’t be the one stalking you if I’m always the one here before you.”
+jd “I mean... I can’t be the one stalking you if I’m always the one here before you.”
 
-jd “So are you stalking me?”
+jd “So are YOU stalking me?”
 
 mc “(He’s smiling at me! He’s ridiculing me! This guy pisses me off so much!!!)”
 
@@ -438,7 +457,7 @@ jd “That’s fine. And if I win, you tell me your name, Stalker.”
 
 mc “(That smirk of his, I’ll make sure to slam this ball onto his face.)”
 
-mc “(With force, I pass the ball to him.)”
+"With force, I passed the ball to him.”
 
 mc “Here! Take this. You start.”
 
@@ -448,7 +467,7 @@ jd “Are you ready?”
 
 mc “(Yeah, I’m ready to kick your ass.)”
 
-mc “(As I nod my head, a faint clap of thunder passes by.)”
+"As I nod my head, a faint clap of thunder passes by.”
 
 jd “Thunder…”
 
@@ -458,13 +477,15 @@ mc “(DAMN IT! Is it really going to rain. Cursed luck, I didn’t even bring a
 
 mc “(Actually, if I run, I might be able to make it back before the rain hits!)”
 
-mc “(What the?! It’s raining already! What a splendid day… It couldn’t get any worse.)”
+"Suddenly, seconds after the roaring of the thunder, rain started to fall."
+
+mc “(What the?! It’s raining already! What a splendid day... It couldn’t get any worse.)”
 
 mc “(Something is covering me from the rain...)”
 
-“(jd holds up an umbrella over your head from behind)”
+“He's holding an umbrella over my head.”
 
-mc “(This guy… what does he want. He’s probably going to ask me if he can walk me home.)”
+mc “(This guy... what does he want. He’s probably going to ask me if he can walk me home.)”
 
 jd “I’ll walk you home.”
 
@@ -474,74 +495,76 @@ mc “No thanks. I’d rather stay in the rain.”
 
 jd “Then I will stay here in the rain, together, with you.”
 
-mc “(Huh… what?!?!)”
+mc “(Huh??...)”
 
-mc “(I turn my head to look at him… Who is this guy.)”
+"Unexpected were his words as I turned my head to look at him."
+
+mc “Who... is this guy.”
 
 #settings: road?
 
-mc “(It was turning night. We walk home in silence as the rain falls. The sound of the rain brought a soothing quietness, but it did not bring solitude.)” 
+"It was turning night. We walk home in silence as the rain falls. 
+The sound of the rain brought a soothing quietness, but it did not bring solitude."
 
-mc “(He stood next to me, with his umbrella above us as we walk through our reflection on the concrete.)”
+"He stood next to me, with his umbrella above us as we walk through our reflection on the concrete."
 
-mc “(The quietness wasn’t awkward between us, but instead it felt… comforting, as if two friends had reunited after years of isolation…)”
+"The quietness wasn’t awkward between us, but instead it felt… comforting, as if two friends had reunited after years of isolation..."
 
-mc “(No words needed. The sound of the rain spoke for us.)”
+"No words needed. The rain spoke for us."
 
-mc “(Once we arrived in front of my place, I turn to look up at him.)”
+"Once we arrived at my place, I turn to look up at him."
 
 mc “Uh-um.. Thanks for walking me home.”
 
-mc “(He looks me in the eyes and smiles.)”
-
-mc “(I turn around and start to walk away.)”
+"As I turned around, I can see that annoying but beautiful smile of his from the corner of my eye."
 
 jd “By the way. May I ask for you name?”
 
-[Player Option 3.1(bonus)]
+[Player Option 3.1(bonus)]----------
 
+---[Run at him and whisper in his ears] (1st best)---
 
-[Run at him and whisper in his ears] (1st best)
+“I turned around and walked up to him. With my hands on his shoulders I 
+whispered...)”
 
-mc “(I turn around and walk up to him. With my hands on his shoulders I 
-whispered…)”
+mc “My name is (y/n)".
 
-mc “My name is” [mc].
+jd "(y/n)...”
 
-jd [mc] + “...”
-
-
-[Nah. You haven’t beaten me yet.”] (2nd best)
+---[Nah. You haven’t beaten me yet.”] (2nd best)---
 
 mc “You haven’t beaten me yet.”
 
 mc “(I turn around and smile.)”
 
-mc “My name is” [mc].
+mc “My name is (y/n)".
 
-jd [mc] + “...”
+jd "(y/n)...”
 
 
-[Tell him your name from afar] (3rd best)
+---[Tell him your name from afar] (3rd best)---
 
-mc “My name is [mc].”
+mc “My name is (y/n)".
 
-jd [mc] + “...”
+jd "(y/n)...”
+
 
 
 #inside prot apartment
 
 mc “(It’s so cold in here!! I need a warm bath so badly!)”
 
-mc “(I turn on the heater and headed for the showers.)”
+"I turned on the heater and headed for the showers.”
 
-mc “What an eventful day today… ”
+mc “What an eventful day today...”
 
-mc “(He’s… he’s actually not as bad as I thought. Thinking about the events that happened within the last few hours, I couldn’t help but to smile.)”
+mc “(He’s... he’s actually not as bad as I thought.)"
+
+"Thinking about the events that happened within the last few hours, I couldn’t help but to smile.”
 
 mc “This bath feels so good!”
 
-mc “Oh right! Pitch day is coming soon, I need to come up with a game idea soon…”
+mc “Oh right! Pitch day is coming soon, I need to come up with a game idea soon...”
 
 
 [Nah, just play ball and ignore him] (Worst Choice) (3.2)
@@ -576,7 +599,7 @@ mc “Yes?”
 
 jd “Do you need an umbrella?”
 
-mc “No… I’m good, I’d rather walk in the rain. Thanks for the offer.”
+mc “No... I’m good, I’d rather walk in the rain. Thanks for the offer.”
 
 jd “Are you sure?”
 
@@ -586,9 +609,11 @@ jd “Okay. By the way, may I ask for your name?”
 
 mc “(What the? Why does he want to know my name for!?)”
 
-mc “My name is” + [mc]
+mc “My name is (y/n)".
 
-jd “Nice to meet you today” + [mc]
+jd "(y/n)...”
+
+jd “Nice to meet you today."
 
 mc “(So he did notice me… Maybe I should’ve taken his offer. I sounded pretty rude too…)”
 
@@ -598,27 +623,24 @@ mc “You idiot… now you’re gonna be going home dripping wet.”
 
 mc “(It’s so cold in here!! I need a warm bath so badly!)”
 
-mc  “(I turn on the heater and headed for the showers.)”
+"I turned on the heater and headed for the showers."
 
-mc “What an eventful day today… ”
+mc “What an eventful day today..."
 
-mc “Maybe I shouldn’t have been so cold towards him…”
+mc “Maybe I shouldn’t have been so cold towards him...”
 
-mc “Aiyah… I totally shouldn’t have done that.”
+mc “Aiyah... I totally shouldn’t have done that.”
 
-mc “(I slowly sunk my head under the water.)”
+"I slowly sunk my head under the water."
 
-mc “Oh and I still need to come up with a game idea soon…”
+mc “Oh and I still need to come up with a game idea soon...”
 
-Scene 4
+----Scene 4----
 Setting: Lecture Hall, Anywhere On Campus
 
 DIALOGUE:
 
-
 jd "Alright everyone, today is the big day. Let's hear those pitches."
-
-“(*The crowd claps*)”
 
 mc “(Today is already pitch day… I hope I don’t choke up there.)”
 
@@ -1054,9 +1076,11 @@ mc “Why are you here so early!?.”
 
 Ren “I must make sure that you are okay!”
 
-mc “It’s been a week since I fainted... I think I’ll be okay.”
+mc “I've been okay...”
 
-Ren “Better safe than sorry! Anyway, my apartment is lonesome, so I’m gonna crash here and hang out with you for the day!”
+Ren “Better safe than sorry! You've also been overstudying, so I'm here to make sure you're staying healthy!"
+
+Rne "And anyway, my apartment is lonesome, so I’m gonna crash here and hang out with you for the day!”
 
 mc “(Even though it’s 8 a.m on a Saturday, I’m happy that Ren came. It does get pretty lonely sometimes.)”
 
@@ -1064,13 +1088,15 @@ mc “Okay, okay I’m going back to bed. Please, Just 10 more minutes. Or bette
 
 Ren “....”
 
-mc “(It’s been a few weeks so far and the club meetings are going well. We made a lot of progress so far and we’re on track to finish it by winter break.)”
+mc “(It's almost the end of the quarter and the club meetings are going well. We made a lot of progress so far and we’re on track to finish it by winter break.)”
 
-mc “(Ren and I have also been getting extremely close. After the incident where I fainted in front of her, she would always check up on me and take care of me.)”
+mc “(Ren and I have also been getting extremely close.)"
 
-mc  “(And as for jd, I would always see him at club meetings and he would always make the meeting fun, interesting, and productive for everyone.)”
+mc "(After the incident where I fainted in front of her, she would always check up on me and take care of me.)”
 
-mc “(As I felt the stitches on the shirt that he sew back for me, the memories of when I first met him at the park came back.)”
+mc  “(And as for J.D, I would always see him at club meetings and he would always make the meeting fun, interesting, and productive for everyone.)”
+
+mc “(As I felt the stitches on the shirt that he sew back for me, memories of when I first met him at the park came back.)”
 
 mc “(I haven’t seen him at the park since our first encounter...)”
 
