@@ -35,7 +35,7 @@ label start:
     scene bg black              # Default to black scene in case of missing background
     
     # TESTING
-    call test_moon
+    #call test_moon
     #call test_time
     #call test_monologue
     #call test_effects
@@ -250,5 +250,6 @@ init python:
             route = "alexander"
             max_affection = ax_affection
     
-        
+    # AUDIO
+    renpy.music.set_volume(0.25, 0, channel="music")
         
