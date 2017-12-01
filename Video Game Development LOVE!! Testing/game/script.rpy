@@ -35,6 +35,7 @@ label start:
     scene bg black              # Default to black scene in case of missing background
     
     # TESTING
+    #call kd_route
     #call end_scene
     #call test_moon
     #call test_time
@@ -118,7 +119,9 @@ label re_route:
 
 # KENDRICK 
 label kd_route:
-    "Placeholder Kendrick route"
+    #"Placeholder Kendrick route"
+    call kd_scene1
+    call kd_scene2
     return
 # END KENDRIK
 ## END ROUTE CONTROL ##
