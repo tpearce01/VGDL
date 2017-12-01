@@ -1,5 +1,5 @@
-DIALOGUE : 
-Scene 1: 
+#DIALOGUE : 
+#Scene 1: 
 #setting:lecture hall
 
 mc “(So he's the guy I bumped into earlier...)” 
@@ -77,7 +77,7 @@ mc "(Why did everyone turn their heads? Is there something interesting behind me
 
 Crowd “?...”
 
-mc “(WHY ARE THEY STARING AT ME?! WAS I THAT LOUD??)”
+mc “(EHHH? WHY ARE THEY STARING AT ME?! WAS I THAT LOUD??)”
  
 mc “(I HAVE TO GET OUT OF HERE!!)”
 
@@ -109,7 +109,7 @@ But the meeting ended so late so I didn’t have time to make food.)”
 
 mc “Life at college...”
 
-"My phone suddenly started to ring. It was my dad calling me."
+"My phone suddenly starts to ring. I'm pretty sure it's the old man calling me."
 
 mc "Hello? Dad?”
 
