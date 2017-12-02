@@ -1,3 +1,5 @@
+## KENDRICK ROUTE ##
+
 #(Scene 1)
 label kd_scene1:
     scene bg library_1
@@ -65,6 +67,7 @@ label kd_scene1:
     kd "We’ll see."
     "He went offline."
     return
+# END SCENE 1
 
 #(Scene 2)
 #--A sky or something?--
@@ -81,3 +84,4 @@ label kd_scene2:
     #--black--
     mc "(So long as things keep going like this, I can pull through.)"
     return
+# END SCENE 2

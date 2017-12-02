@@ -197,7 +197,7 @@ label gd_scene3:
     
     #cut
     #library
-    scene bg library_2
+    scene bg library_2 with fade
     mc "(That guy thinks he’s so cooool, but he’s so annoying and that dumb smile of his…)"
     mc "(I need to get back on track though and study...)"
     mc "(I’ll definitely get him back for this.)"
@@ -231,7 +231,7 @@ label gd_scene3:
     mc "(Okay, that’s done, now I just need to grab my basketball and then I can head to the park.)"
     
     #park
-    scene bg park_1 with irisout
+    scene bg park_1 with dissolve
     mc "(This park is amazing, there’s even a pond here! It’s so empty and quiet. Everyone must be too busy with school to have time to come here.)"
     mc "(The quietness of the park creates such a relaxing atmosphere compared to the liveliness on Ring Road…)"
     mc "(But sometimes I do prefer the solitude that quietness brings.)"
@@ -420,7 +420,7 @@ label gd_scene5:
     mc "(Hopefully I don't get him on my team… but for some reason I feel like I will.)"
     ren "Okay, let's go to the meeting!"
     #lecture hall
-    scene bg meeting_1 with irisin
+    scene bg meeting_1 with dissolve
     mc "(WHAT?! HE'S ON MY TEAM AS THE GROUP SUPERVISOR?!)"
     mc "(I bet he purposely put himself into my group…)"
     show gd calm with dissolve
@@ -452,8 +452,8 @@ label gd_scene5:
 #Setting: Player’s Apartment
 #Characters: MC and gd(Phone)
 label gd_scene6:
-    scene bg mc_apartment_inside
-    #show phone with dissolve
+    scene bg mc_apartment_inside with fade
+    show phone with dissolve
     mc "(I suddenly wake after hearing a message notification. It's 1 a.m!!)"
     mc "(Why is he texting me at 1 a.m?! Why am I so awake now...)"
     gd "Hey, this is me Jeorge, sorry for messaging you this late, but I was wondering when you wanted to meetup to discuss about the game?"
@@ -472,7 +472,9 @@ label gd_scene6:
     mc "(I'm going to be so tired tomorrow but I can't sleep. All because of him...)"
     
     #Setting: gd’s apartment
+    scene bg gd_apartment_inside with fade
     mc "So this is where the president lives huh?"
+    show gd calm with dissolve
     gd "Yeah, it's pretty empty inside"
     mc "It's so clean..." 
     mc "Your apartment is so clean, but you're a guy…"
@@ -530,14 +532,18 @@ label gd_scene6:
     #Setting: Lecture Hall? Or  Game lab?
     #Characters: gd, ren, MC
     #player’s apartment
+    scene bg black with fade
     "(*Beep Beep Beep*)"
     mc "(I shouldn’t have stayed up so late last night… I’m so tired now.)"
     mc "(Today is our VGDC group’s first meeting! I’m so nervous but excited at the same time. Leading a group is such a big task, hopefully I’ll be able to manage.)"
     mc "(I got up and got ready. Hmm I think I should dress a little nicer today…)"
     #Outside anywhere
+    scene bg park_1 with fade
     mc "(It’s almost time for the meeting… Thinking about it makes my stomach want to curl up.)"
     mc "(I’ll be fine! Let’s go in.)"
     #inside meeting place
+    scene bg library_1 with dissolve
+    show ren calm with dissolve
     ren "Wow! Look at that everyone, our leader looks so pretty today! You look good kiddo."
     mc "(I’m… seriously about to faint. Everyone is actually here, including him and they’re all looking!! Maybe I shouldn’t have looked extra nice today.)"
     mc "Thanks ren… Hi everyone, welcome to the first meeting. Let’s all work hard and do our best!"
@@ -547,6 +553,9 @@ label gd_scene6:
     team "Yea!"
     mc "Then let’s get to work!"
     mc "Hey gd, since we don’t have any writers… do you mind being our main writer?"
+    show ren calm:
+        linear 0.5 xalign 0
+    show gd calm at right with dissolve
     gd "Yeah, I don’t mind."
     mc "Thanks!"
     mc  "By the way…"
@@ -558,6 +567,9 @@ label gd_scene6:
     ren "That’s not true! You’re the one that relied on me for all the characters last project!"
     ren "That reminds me! You owe me a dinner for the characters I drew for your group last project since you guys didn’t have an artist!"
     gd "Oh yeah, I totally forgot about that! My bad ren. I’ll cook you dinner tonight and bring it over."
+    hide gd calm with dissolve
+    show ren calm:
+        linear 0.5 xalign 0.5
     mc "(ren and Jeorge get along so well.)"
     mc "(We worked on the project for an hour. Throughout the hour of our meeting, I discussed my vision of the projects and questions that the members had.)"
     mc "Alright everyone! Thank you for coming to today’s meeting. I’ll see everyone next meeting!"
@@ -580,7 +592,10 @@ label gd_scene6:
     mc "No, I’m okay really… "
     mc "(She gave me a stare that is similar to that of a worried mother’s expression towards her child.)"
     mc "...Thank you, ren."
+    hide ren calm with dissolve
     #player’s Apartment
+    show bg mc_apartment_inside with dissolve
+    show ren calm with dissolve
     ren "You’ve been working too hard on yourself…"
     mc "Maybe just a little."
     mc "(I smiled and she gives me a long sigh.)"
@@ -604,8 +619,10 @@ label gd_scene6:
     #Player’s Apartment Part 1235332
     #Setting: apartment
     #player’s apartment
+    scene bg mc_apartment_inside with fade
     ren "Hey! Wake up! I’m here to cook you breakfast!"
     mc "(It’s 8 a.m and she’s already here knocking at my door....)"
+    show ren calm with dissolve
     mc "Why are you here so early!?."
     ren "I must make sure that you are okay!"
     mc "It’s been a week since I fainted... I think I’ll be okay."
@@ -614,8 +631,9 @@ label gd_scene6:
     mc "Okay, okay I’m going back to bed. Please, Just 10 more minutes. Or better yet, wake me up when you finish cooking. Thank you!"
     ren "...."
     mc "(It’s been a few weeks so far and the club meetings are going well. We made a lot of progress so far and we’re on track to finish it by winter break.)"
-    mc "(ren and I have also been getting extremely close. After the incident where I fainted in front of her, she would always check up on me and take care of me.)"
+    mc "(Ren and I have also been getting extremely close. After the incident where I fainted in front of her, she would always check up on me and take care of me.)"
     mc  "(And as for gd, I would always see him at club meetings and he would always make the meeting fun, interesting, and productive for everyone.)"
     mc "(As I felt the stitches on the shirt that he sew back for me, the memories of when I first met him at the park came back.)"
     mc "(I haven’t seen him at the park since our first encounter...)"
     return
+# END SCENE 6

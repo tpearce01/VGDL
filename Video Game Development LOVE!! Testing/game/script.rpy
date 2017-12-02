@@ -113,7 +113,9 @@ label yu_route:
 
 # REINA
 label re_route:
-    "Placeholder Reina Route"
+    #"Placeholder Reina Route"
+    call re_scene1
+    call re_scene2
     return
 # END REINA
 
