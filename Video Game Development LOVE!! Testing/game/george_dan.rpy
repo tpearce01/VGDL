@@ -72,7 +72,7 @@ label gd_scene2:
     mc "(Uh…now I’m getting really hungry and I haven’t eaten anything all day too. But the meeting ended so late so I didn’t have time to make food.)"
     mc "Life at college..."
     "(your phone rings)"
-    #show phone with dissolve
+    show phone with dissolve
     mc "Hello? Dad?"
     dad "Hi my wonderful child, it’s your amazing dad here. How was your first few days at school so far?"
     mc "I’m hungry…"
@@ -97,7 +97,7 @@ label gd_scene2:
     dad "I just want to say, firstly, good luck with school and keep warm, the weather is getting colder."
     mc "Thanks dad...Tell mo..."
     "(Your dad hangs up the phone before you finish)"
-    #hide phone with dissolve
+    hide phone with dissolve
     mc "That rotten old man! Didn’t even let me finish my sentence and just hangs up on. What kind of dad does that…"
     mc "(I grabbed the food and started eating.)"
     mc "(Thanks Mom and dad…)"

@@ -4,7 +4,7 @@
 label alex_scene1:
     #***ADD IN TEXT W/ GIRL AND DENIM JACKET***
     #Food Court - After Initial Meeting
-    scene bg foodcourt
+    scene bg foodcourt with dissolve
     "I hadn’t talked to Alex since finding out that he was a design officer in the VGDC."
     "I had so many questions."
     "I managed to meet up with him in the food court the next day."
@@ -68,7 +68,7 @@ label alex_scene1:
 # ALEX SCENE 2
 label alex_scene2:
     #Scene 2 - Starbucks Student Center
-    scene bg starbucks with dissolve
+    scene bg starbucks with fade
     show ax calm with dissolve
     ax "Okay, so we have to have some sort of a plan for the pitch."
     mc "I was thinking of a dating sim, but with cats."
@@ -107,7 +107,8 @@ label alex_scene2:
 # ALEX SCENE 3
 label alex_scene3:
     #Scene 3 - Food Court
-    scene bg foodcourt_2 with dissolve
+    scene bg foodcourt_2 with fade
+    show ax calm with dissolve
     mc "I had no idea you were into the whole design thing."
     ax "Sure am! It's really pretty cool."
     return
@@ -132,7 +133,7 @@ label alex_scene4:
 label alex_scene5:
     #ALDRICH PARK - Scouting for Scenes
     scene bg park_1 with fade
-    show ax calm with dissolve
+    show ax calm with fade
     ax "What do you think of the campus so far? It's not quite UCLA, but..."
     mc "\"Well, I think it's really, really green.\""
     ax "Is... is that good?"
@@ -151,7 +152,7 @@ label alex_scene5:
 # ALEX SCENE 6
 label alex_scene6:
     #FOOD COURT - Path Divergence
-    show bg foodcourt
+    show bg foodcourt with fade
     show ax calm with dissolve
     ax "Thanks for meeting me here."
     mc "\"Of course. What do you need?\""
@@ -190,7 +191,8 @@ label alex_scene6:
 
 # CHOICE A SCENE 1
 label alex_scene6a_1:
-    scene bg black     # PLACEHOLDER
+    scene bg park_2 with fade
+    show ax calm with dissolve
     ax "Wow, you and me, together. This feels... good."
 
 # CHOICE A SCENE 2
@@ -204,7 +206,7 @@ label alex_scene6a_2:
 # CHOICE A SCENE 3
 label alex_scene6a_3:
     #[scene 3]
-    scene bg black     # PLACEHOLDER
+    scene bg black with fade
     "Our game was set to be completed in the following week."
     "Alex had stopped returning my texts. He didn't want to meet up for lunch..."
     "Things had gone south very fast."
@@ -212,7 +214,8 @@ label alex_scene6a_3:
 # CHOICE A SCENE END
 label alex_scene6a_end:
     #[end]
-    scene bg black     # PLACEHOLDER
+    scene bg park_1 with fade    
+    show ax frown with dissolve
     mc "\"You're really going to pin all of this on me?\""
     ax "We didn't finish the game because of YOU."
     mc "\"How is it my fault!?\""
@@ -221,12 +224,15 @@ label alex_scene6a_end:
     ax "If you love someone, then you're not going to keep them from doing what they want to do."
     mc "\"Alex! Don't leave. I love you!\""
     ax "Yeah, and I thought I loved you too."
+    hide ax frown with dissolve
+    ""
     return
 
 # CHOICE B SCENE 1
 label alex_scene6b_1:
     #CHOICE B
-    scene bg black3     # PLACEHOLDER
+    scene bg park_2 with fade    # PLACEHOLDER
+    show ax calm with dissolve
     ax "Look, about the other day..."
     mc "\"Forget about it. Let's just work on our game, okay?\""
 
@@ -239,12 +245,14 @@ label alex_scene6b_2:
 
 # CHOICE B SCENE 3
 label alex_scene6b_3:
-    scene bg black     # PLACEHOLDER
+    scene bg park_2 with fade
+    show ax calm with dissolve
     ax "Wow, our game turned out great!"
 
 # CHOICE B SCENE END
 label alex_scene6b_end:
-    scene bg black     # PLACEHOLDER
+    scene bg park_1 with fade
+    show ax calm with dissolve
     ax "Thanks for everything, [mcname]."
     mc "\"It's what friends do!\""
     ax "Then I'm super lucky to have a friend like you."
