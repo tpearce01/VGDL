@@ -109,7 +109,7 @@ label re_scene3:
      mc "Bootylicious."
      re "Pfff-"
      re "Hahaha! And you said my phrase made no sense!"
-     mc "Hey, this makes waaaaay more sense than "putty lease us!""
+     mc "Hey, this makes waaaaay more sense than \"putty lease us!\""
      "She laughed, and the day went on like that, with us chuckling over a silly kid’s game."
      "In the end, she left with a grin on her face."
      "I wished to myself that I could keep making her smile like that."
