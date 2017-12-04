@@ -2,7 +2,7 @@
 
 # PROLOGUE SCENE1
 label prologue_scene1:
-    scene bg black
+    scene bg black with fade
     "My name is [mcname]"
     "I'd consider myself a pretty good student. I attended class, got good grades, and ended the semester with an admirable GPA."
     "Though I wasn't entirely confident about it, I genuinely thought I had a shot at getting accepted into my dream school, UCLA."
@@ -13,7 +13,7 @@ label prologue_scene1:
     #--Aldrich Park 1--
     scene bg park_1 with dissolve
     show ax calm with dissolve
-    ax "[mcname], this way! My club's booth is just up ahead!"
+    unknown "[mcname], this way! My club's booth is just up ahead!"
     mc "\"Alex, I told you, I'm not interested in joining any clubs this quarter! Just, let go of me already!\""
     ax "Hmm? Sorry, did you say something?"
     mc "\"Tch. You'd think someone would change after these years, but you haven't grown at all.\""
@@ -57,22 +57,22 @@ label prologue_scene1:
     "I didn't want to go, but Alex was insitent on making me join his club."
     mc "(At least now, I can finally go back to my room...)"
     "I let out a sigh, and began following a road that would hopefully lead me out of here."
-    yu "Hey, you!"
+    unknown "Hey, you!"
     mc "..."
-    yu "Huh? Hellooo...?"
+    unknown "Huh? Hellooo...?"
     mc "..."
     mc "(Just keep facing forward, and they'll just give up-)"
     with hpunch
-    yu "Boo!"
+    unknown "Boo!"
     show yu happy with dissolve
     mc "?!"
     "I jolted back, path now blocked by a grinning girl with purple hair."
-    yu "Haha, gotcha!"
-    yu "No escaping from me now, alright?"
+    unknown "Haha, gotcha!"
+    unknown "No escaping from me now, alright?"
     mc "(Damn. Foiled again...)"
-    yu "Hey, don't give me that look... Come on, just follow me for a sec, okay? There's this really cool club you should totally check out!"
+    unknown "Hey, don't give me that look... Come on, just follow me for a sec, okay? There's this really cool club you should totally check out!"
     mc "\"Umm... Sorry, but I'm actually not interest-\""
-    yu "Nonsense! This way!"
+    unknown "Nonsense! This way!"
     show yu calm with dissolve
     "And just like that, she placed a hand on my back, and whisked me away."
     hide yu calm with dissolve
@@ -85,19 +85,21 @@ label prologue_scene2:
     #--Aldrich Park 2--
     scene bg park_2 with fade
     show yu calm with dissolve
-    yu "Here we are!"
-    kd "Hmm..?"
+    unknown "Here we are!"
+    show yu calm:
+        linear 0.5 xalign 0.0
+    show kd calm with dissolve
+    show kd calm:
+        linear 0.5 xalign 1.0
+    unknown "Hmm..?"
     "The girl brought me to a booth with a video game themed banner. There was a guy wearing a suit sitting behind it."
     "He stared at me for a moment before turning to the girl."
-    show yu calm:
-        linear 0.5 xalign 1.0
-    show kd calm at left with dissolve
-    kd "Yukiko, please tell me you didn't just abduct this person."
+    unknown "Yukiko, please tell me you didn't just abduct this person."
     yu "Tooootally not! [they_c] came here out of their own free will! Right?"
     mc "..."
-    kd "It certainly doesn't seem like it."
+    unknown "It certainly doesn't seem like it."
     yu "Oh lighten up! I know how much you love people, so I brought you one!"
-    kd "Tch."
+    unknown "Tch."
     yu "Alright bud, I'll leave you in Kendrick's hands, alright? I've got some more hunting to do."
     mc "(Wait, you're just going to leave me here?!)"
     hide yu calm with dissolve
@@ -112,7 +114,7 @@ label prologue_scene2:
     "He shot a sharp glance at me, and I awkwardly scratched my cheek."
     mc "\"Can I just... go..?\""
     kd "..."
-    show kd thinking
+    show kd thinking with dissolve
     "He looked away for a moment, probably contemplating something. But soon after, he sighed and walked around the table, making his way towards me."
     kd "I'm afraid not. I have a duty, and I am expected to fulfill it."
     "I couldn't help but let out a sigh." 
@@ -120,7 +122,7 @@ label prologue_scene2:
     kd "Please, bear with me while I go over the activities and goals of this club. I'll try to keep it short."
     mc "\"Alright... Fine by me, I guess.\""
     "He cleared his throat."
-    show kd calm
+    show kd calm with dissolve
     kd "We are known at the Video Game Development Club, or the VGDC for short."
     kd "No matter the major of the individual, this club is open to anyone and everyone interested in producing video games."
     kd "There are six departments: programming, art, writing, audio, production, and design. I, personally, am part of the production department."
@@ -148,7 +150,7 @@ label prologue_scene2:
 # PROLOGUE SCENE3
 label prologue_scene3:
     #--Student Center--
-    scene bg black with dissolve
+    scene bg black with fade
     "--A few days later--" 
     scene bg studentcenter with dissolve
     mc "..."
@@ -166,7 +168,7 @@ label prologue_scene3:
          
  # PROLOGUE SCENE4
 label prologue_scene4:
-    scene bg park_1 with dissolve
+    scene bg park_1 with fade
     mc "\"Let's see...\""
     "I was walking through Aldrich Park, inputing DBH on the Zotfinder app to guide me."
     "The park had been relatively empty, so I didn't bother looking up and see where I was going."
@@ -176,20 +178,20 @@ label prologue_scene4:
     "Next thing I knew, I was on the floor, my phone and book joining me on the cold, hard ground."
     mc "\"Ow.. Who the heck..?\""
     mc "!!"
-    show gd calm #or in pain
+    show gd calm with dissolve
     "I looked up to find a tall boy staring down at me."
     "Our eyes met, and he immediately smiled, kneeling down to pick up the book that fell from my hand."
     mc "\"Umm.. Thank you..\""
     "I reached out, expecting him to hand me the book. But instead, he continued to stare at the cover."
     mc " ...?"
-    gd ".. Oh, sorry."
+    unknown ".. Oh, sorry."
     "He looked up and apologized, as if he only just remembered I was there."
     "Placing the book in my hand, he flashed a smile so beautiful, my heart skipped a beat."
     mc "(Holy shi-)"
-    gd "I apologize for bumping into you. And..."
-    gd "... you have really good taste for books."
+    unknown "I apologize for bumping into you. And..."
+    unknown "... you have really good taste for books."
     mc "..."
-    hide gd calm
+    hide gd calm with dissolve
     "With that, he simply stood up and left."
     "I turned and stared at his retreating form, completely under whatever spell the guy casted on me."
     mc "I have no idea who he is, but..."
@@ -218,13 +220,13 @@ label prologue_scene5:
     mc "(Are they... staring at the door-?)"
     mc "!!"
     "An arm swung the door open, and out came a very enraged girl with red streaks in her hair."
-    show md angry
-    md "Oh, cut the crap! I ain't changing for the likes of you all, got it?!"
+    show md angry with dissolve
+    unknown "Oh, cut the crap! I ain't changing for the likes of you all, got it?!"
     mc "..."
-    md "!!"
+    unknown "!!"
     mc "(Oh shit...)"
     "The girl stopped in her tracks and looked me right in the eye."
-    md "... Tch."
+    unknown "... Tch."
     "After a second, she just adjusted her backpack, and stormed out of the building."
     "I caught the door before it closed, nervously turning to watch students hastily moving out of the girl's way."
     "Then, I peeked inside the game room."
@@ -234,7 +236,7 @@ label prologue_scene5:
 # PROLOGUE SCENE6
 label prologue_scene6:
     #--Game room--
-    scene bg gameroom
+    scene bg gameroom with fade
     mc "(Ahh... I just have the greatest timing...)"
     "It was dead silent. Every member had a grim look on their face, and no one looked up from their screen."
     mc "(I don't even think anyone noticed me...)"
@@ -242,44 +244,45 @@ label prologue_scene6:
     "Carefully, I closed the door as silently as possible, and scanned the room for someone approachable."
     mc "\"... Oh-\""
     "In the corner of the room, there was a girl with a ponytail drawing on a tablet"
-    show re calm
+    show re calm with dissolve
     "Unlike the rest of the room, she had a relaxed expression on her face, as if the events prior had never happened."
     mc "(Looks like my best bet...)"
     "I quietly stepped toward her."
     mc "\"Umm.. Excuse me-?\""
-    re "Ah?!"
+    unknown "Ah?!"
     mc "\"Woa-!\""
     "The girl jolted back, and pretty violently too."
     "The chair shook and teetered. Instincltively, I put my hand to the back of the chair to keep her from falling."
-    re "!!"
+    unknown "!!"
     mc "\"That was my bad. Sorry for scaring you. Are you oka-?\""
-    re "YES!"
+    unknown "YES!"
     mc "..."
-    re "..."
-    re "I, umm..."
-    re "I'm- I'm thank y- FINE! I'm fine! And, umm..."
-    re "... Thank you..."
+    unknown "..."
+    unknown "I, umm..."
+    unknown "I'm- I'm thank y- FINE! I'm fine! And, umm..."
+    unknown "... Thank you..."
     "Completely red in the face, she quietly mumbled the last part, then finally turned to look at me."
-    re "So, uh... can I help you?"
+    unknown "So, uh... can I help you?"
     mc "\"Oh, yea.\""
     mc "\"Actually, I'm interested in joinging VGDC, and was told this was the place to go if I wanted to sign up.\""
-    re "Y-yes, it is... Um, I'll have you added to the newsletter. Can you give me your email...?"
+    unknown "Y-yes, it is... Um, I'll have you added to the newsletter. Can you give me your email...?"
     "After I told her, she inputted it and nodded."
-    re "Alright. I added you and sent you the first message. You should be getting an email every week from here on out."
-    re "Oh, and uh, the first meeting is tomorrow from 8:30 to 9:40 in SSLH 100."
+    unknown "Alright. I added you and sent you the first message. You should be getting an email every week from here on out."
+    unknown "Oh, and uh, the first meeting is tomorrow from 8:30 to 9:40 in SSLH 100."
     mc "\"Alright, got it. Thank you for your help.\""
-    re" Mmm.."
+    unknown" Mmm.."
+    hide re calm with dissolve
     "She gave a small nod and turned away."
     mc "(Hmm..? Did I do something wrong?)"
     mc "\"Well, uh... Bye.\""
-    re "..."
+    unknown "..."
     return
 # END PROLOGUE SCENE6
 
 # PROLOGUE SCENE7
 label prologue_scene7:
     #--DB hall--
-    scene bg dbh_inside
+    scene bg dbh_inside with fade
     mc "sigh..."
     mc "(Did I really make the right choice..?)"
     "I quietly closed the door to the game room and headed towards the exit."
@@ -294,9 +297,9 @@ label prologue_scene7:
 # PROLOGUE SCENE8
 label prologue_scene8:
     #--Outside DB--
-    scene bg dbh_outside
+    scene bg dbh_outside with dissolve
     "The doors swung open"
-    show ax calm
+    show ax calm with dissolve
     ax "Ah."
     mc "\"Oh.\""
     ax "..."
@@ -315,14 +318,14 @@ label prologue_scene8:
     ax "Huh..?"
     "Alex let go of my hand."
     mc "...?"
-    show ax frown
+    show ax frown with dissolve
     "There was an uncharacteristic frown on his face. It actually made me feel a little guilty."
     ax "Geez, really..?"
     ax "Alright, tell me what club this is. I'll beat up whoever took you away!"
     mc "\"The Videa Game Development Club, or VGDC.\""
     ax "..."
     "His eyes widened a bit."
-    show ax calm
+    show ax calm with dissolve
     mc "\"Alex?\""
     ax "The VGDC, huh..."
     "A small smile spread across his cheeks."
@@ -340,7 +343,7 @@ label prologue_scene8:
 # PROLOGUE SCENE9
 label prologue_scene9:
     #--Meeting room--
-    scene bg meeting_1 with dissolve
+    scene bg meeting_1 with fade
     "Just before the first VGDC meeting.."
     mc "(Oh man... There's a lot of people.)"
     mc "(I didn't think it'd be this packed.)"
@@ -350,10 +353,10 @@ label prologue_scene9:
     "I tilted my head to the side in an attempt to better see him."
     "Just then, he stood straight and faced the audience, a smile plastered on his face."
     mc "(... Hmm..?)"
-    show gd calm
-    gd "Good evening, everyone."
+    show gd calm with dissolve
+    unknown "Good evening, everyone."
     "The chattering within the hall ceased, and all eyes fell on him."
-    gd "I'm very pleased to have you all here. It's very humbling to see such a great turnout."
+    unknown "I'm very pleased to have you all here. It's very humbling to see such a great turnout."
     mc "(This... is the guy I bumped into!)"
     gd "Welcome to the first Video Game Development Club meeting. I'm the club president, Jeorge Dan. Though, you may call me George Dan if you wish."
     mc "(The club president? Seriously?!)"
@@ -409,9 +412,9 @@ label prologue_scene10:
     hide kd calm with dissolve
     "..."
     show yu calm with dissolve
-    yu "..."
-    yu "Oooookaaay..."
-    yu "Anyways!! Hey-ho everyone!"
+    unknown "..."
+    unknown "Oooookaaay..."
+    unknown "Anyways!! Hey-ho everyone!"
     "The next officer's enthusiasm effectively dispelled the heavy atmosphere of the room."
     mc "(Bless your soul...)"
     yu "My name's Yukiko, and I'm the programming officer!"
@@ -421,11 +424,11 @@ label prologue_scene10:
     show yu calm:
         linear 0.5 xalign 1.0
     show md calm with dissolve
-    md "Geez, you're as loud as ever."
+    unknown "Geez, you're as loud as ever."
     "A girl with headphones stepped forward, placing a hand on Yukiko's shoulder."
-    mc "(That's the girl who got into a fight with the club members the other day...)"
+    unknown "(That's the girl who got into a fight with the club members the other day...)"
     yu "Heyy, wait your turn!"
-    md "Shouldn't be a problem, right? You were just about done anyway."
+    unknown "Shouldn't be a problem, right? You were just about done anyway."
     yu "Hmph."
     hide yu calm with dissolve
     "As Yukiko returned to her spot, Melody cleared her thoat and faced the room."
@@ -441,9 +444,9 @@ label prologue_scene10:
     "Melody's eyes lit up."
     hide md calm with dissolve
     "She returned back to the line of officers pushed someone forward by their shoulders."
-    re "Eeep!"
+    unknown "Eeep!"
     show re calm with dissolve
-    re "M-Melody!"
+    unknown "M-Melody!"
     md "Alright, alright! Give 'em hell, Reina!"
     re "Ahh... ummm..."
     "The girl clasped her hands together and kept her gaze lowered."
@@ -471,22 +474,16 @@ label prologue_scene10:
     menu department_choice:
         "Which one interests me the most?"
         "Programming":
-            "Programming route"
             call yu_route
         "Art":
-            "Art Route"
             call re_route
         "Writing":
-            "Writing Route"
             call gd_route
         "Production":
-            "Production Route"
             call kd_route
         "Audio":
-            "Audio Route"
             call melody_route
         "Design":
-            "Design Route"
             call alex_route
     return
 # END PROLOGUE SCENE10
