@@ -6,7 +6,7 @@ label gd_scene1:
     mc "(So he's the guy I bumped into earlier...)"
     show gd calm with dissolve
     gd "Oh yeah, one more thing. This first meeting may not be too exciting, but I promise you that there will be invaluable experiences to gain,many joyous moments to come, and new friends to share those moments with."
-    jd "So with that said, I hope that you will enjoy your journey here to the fullest."
+    gd "So with that said, I hope that you will enjoy your journey here to the fullest."
     mc "(The way he speaks... it’s so familiar, but I can’t recall what it is.)"
     mc "(The way that he is able to captivate the audience...)"
     mc "(There is a weird, but definitely familiar feeling about him that that perplexes me and I can’t seem to figure out!!)"
@@ -28,15 +28,15 @@ label gd_scene1:
     ren "Are you going to pitch a game idea for the next meeting? I think you should!"
     mc "Yeah, I'm considering doing it, but will I have enough time or the ability to run a whole team?"
     ren "I believe you can do it. You are more than capable! And don't worry, if anything, I’ll personally be here to help you out."
-    mc "Thanks ren, I’ll definitely consider it now."
-    mc "(I really do miss talking to ren.)"
+    mc "Thanks Ren, I’ll definitely consider it now."
+    mc "(I really do miss talking to Ren.)"
     mc "At that moment I saw him coming up towards us and Ren started to walk down towards him."
     show ren calm:
         linear 0.5 xalign 0.7
     show gd calm:
         xalign 0.3
     with dissolve
-    gd "Hey ren, I need to ask you something, can you come with me?"
+    gd "Hey Ren, I need to ask you something, can you come with me?"
     ren "Yeah, I can, but what's up with the speech? You know this was only a VGDC meeting, not a presidential inauguration... Who are you trying to impress anyway?"
     gd "I must make sure that the new members know how cool I am."
     ren "That's pretty...cringe."
@@ -44,7 +44,7 @@ label gd_scene1:
     ren "You got it..."
     hide ren calm with dissolve
     hide gd calm with dissolve
-    mc "(So ren knows him huh? Here’s my chance to have my curiosity satisfied! This is perfect!!)"
+    mc "(So Ren knows him huh? Here’s my chance to have my curiosity satisfied! This is perfect!!)"
     mc "HEY YOU!!"
     mc "(...Wait where did they go?)"
     mc "(Why did everyone turn their heads? Is there something interesting behind me?)"
@@ -76,7 +76,7 @@ label gd_scene2:
     mc "I’m hungry..."
     mc "And you sound happy today, did something happen?"
     dad "Nothin’, your mom and I just had our anniversary today."
-    dad "Dad “Oh yeah, if you’re hungry, there’s food in the fridge. We came up to your area to eat for our anniversary, and we dropped by to say hi, but you weren’t there so we just dropped off some food for ya."
+    dad "Oh yeah, if you’re hungry, there’s food in the fridge. We came up to your area to eat for our anniversary, and we dropped by to say hi, but you weren’t there so we just dropped off some food for ya."
     mc "No way?! You are officially my favorite dad!"
     dad "I am your only dad..."
     dad "But your fridge is pretty empty! You need to take care of yourself and be more responsible for your health!"
@@ -116,7 +116,7 @@ label gd_scene3:
     scene bg studentcenter_2 with fade
     mc "(I missed my first class class today, but that’s okay. The notes are online so I should be fine.)"
     mc "(What terrible luck... Whatever, I should find a place to study now.)"
-    mc "(Oh! I know where! ren told me that Ayala Library is a great place to study and I haven’t been there yet either.)"
+    mc "(Oh! I know where! Ren told me that Ayala Library is a great place to study and I haven’t been there yet either.)"
     mc "(I think it should be around here somewhere...)"
     mc "(Oh! I see it. Wow, it looks so nice from the outside...)"
     with hpunch
@@ -148,7 +148,7 @@ label gd_scene3:
             mc "(He's so warm and his hands are soft. He smells nice too... Wait what?)"
             "Suddenly, I snap out of my delusional state and realize what had just happened."
             mc "Hahaha! I’m very sorry!"
-            jd "It's oka..."
+            gd "It's oka..."
             "After nervously apologizing, I got up and quickly walked away."
     
     #cut
@@ -204,7 +204,7 @@ label gd_scene3:
     "I studied for awhile until I was caught up."
     mc "(I think that’s enough studying for today. I caught up with my class so that’s a relief.)"
     mc "(I’m getting kinda hungry though. Oh yeah, VGDC is having a fundraiser and they’re selling food at their booth.)" 
-    mc "(I should drop by and support them. Maybe ren will give me a discount hehe.)"
+    mc "(I should drop by and support them. Maybe Ren will give me a discount hehe.)"
     mc "(Hopefully he’s not there running the booth or something. I can’t stand seeing him again.)"
     #outside anywhere
     mc "(I think the booth is on ring road somewhere... )"
@@ -213,15 +213,15 @@ label gd_scene3:
     show ren calm with dissolve
     ren "Hey! What the? Why do you look like a starving child! I can’t have that. Here, take this. I already paid for it"
     "Ren handed me a plate full of freshly made food!!"
-    mc "ren... thank you so much!!!"
+    mc "Ren... thank you so much!!!"
     ren "Hahaha, no worries kiddo."
     mc "(For some reason, I had a feeling that he was going to be here, but thank goodness he’s not.)"
     mc "(What am I saying?? Why should it matter to me if he’s here or not.)"
     mc "(Anyway, I kinda wanna get some exercise today. I wonder if there’s a park near by.)"
-    mc "Oh by the way ren, is there a park near here?"
+    mc "Oh by the way Ren, is there a park near here?"
     ren "Yeah, there’s a park one mile going that way. Are you planning to chill there?"
     mc "Yeah, I had a long, stressful, and embarrassing day."
-    mc "Okay thank you ren, I’m going to head over there, and thank you for the food!"
+    mc "Okay thank you Ren, I’m going to head over there, and thank you for the food!"
     ren "No problem kiddo."
     mc "(The park is on the way to my apartment, that’s perfect.)"
     hide ren calm with dissolve
@@ -379,11 +379,11 @@ label gd_scene4:
     show ren calm with dissolve
     ren "Hey, you did great! I expected nothing less from you kiddo."
     mc "Yeah... Thank goodness it’s over."
-    mc "Oh ren, you’re not gonna pitch an idea?"
+    mc "Oh Ren, you’re not gonna pitch an idea?"
     ren "Nope. I’ve decided to join your group! Well, if that’s cool with you!"
     mc "Of course!"
     ren "Anyway, we'll find out who will be in our group in the next meeting. I have to head out now, but I'll catch you later."
-    mc "Bye ren!."
+    mc "Bye Ren!."
     ren "See ya!."
     hide ren with dissolve
     with Pause(0.5)
@@ -410,7 +410,7 @@ label gd_scene4:
     
 #Scene 5
 #Setting: Lecture Hall
-#Characters: MC, ren, gd
+#Characters: MC, Ren, gd
 #Dialogue:
 #Outside
 label gd_scene5:      
@@ -547,7 +547,7 @@ label gd_scene6:
     show ren calm with dissolve
     ren "Wow! Look at that everyone, our leader looks so pretty today! You look good kiddo."
     mc "(I’m... seriously about to faint. Everyone is actually here, including him and they’re all looking!! Maybe I shouldn’t have looked extra nice today.)"
-    mc "Thanks ren... Hi everyone, welcome to the first meeting. Let’s all work hard and do our best!"
+    mc "Thanks Ren... Hi everyone, welcome to the first meeting. Let’s all work hard and do our best!"
     mc "I’ll give everyone the full details of the game and then we can start by having the programmers set up gitHub."
     mc "I’ll need to talk to the artist and the writer to plan out the characters and stories."
     mc "Audio boy, you work your magic! Sounds good everyone?"
@@ -563,11 +563,11 @@ label gd_scene6:
     gd "Yeah, what’s up?"
     mc "Oh nevermind..."
     mc "(I wanted to thank him for the meal last night, but I’m sure I don’t need to say anything.)"
-    mc "Okay ren and gd so about the characters, can you guys talk to each other and come up with designs for the characters...."
+    mc "Okay Ren and gd so about the characters, can you guys talk to each other and come up with designs for the characters...."
     gd "That shouldn’t be hard. But knowing ren, I’ll end up coming up with the characters all by myself."
     ren "That’s not true! You’re the one that relied on me for all the characters last project!"
     ren "That reminds me! You owe me a dinner for the characters I drew for your group last project since you guys didn’t have an artist!"
-    gd "Oh yeah, I totally forgot about that! My bad ren. I’ll cook you dinner tonight and bring it over."
+    gd "Oh yeah, I totally forgot about that! My bad Ren. I’ll cook you dinner tonight and bring it over."
     hide gd calm with dissolve
     show ren calm:
         linear 0.5 xalign 0.5
@@ -579,7 +579,7 @@ label gd_scene6:
     ren "By the way, do you want to join us for dinner? It would be nice to have you and gd both come!"
     ren "My place has been a bit empty and boring lately..."
     mc "(I shouldn’t...)"
-    mc "Sorry ren, maybe next time! I have something that I have to do."
+    mc "Sorry Ren, maybe next time! I have something that I have to do."
     ren "I see. No worries! You’re welcome to come if by if you change your mind!"
     mc "Thank you."
     mc "(Boy am I tired. I feel like I’m gonna...)"
@@ -592,7 +592,7 @@ label gd_scene6:
     ren "Here, hold onto my shoulders, I’ll carry you back home."
     mc "No, I’m okay really... "
     mc "(She gave me a stare that is similar to that of a worried mother’s expression towards her child.)"
-    mc "...Thank you, ren."
+    mc "...Thank you, Ren."
     hide ren calm with dissolve
     #player’s Apartment
     show bg mc_apartment_inside with dissolve
@@ -603,7 +603,7 @@ label gd_scene6:
     ren "Alright, you just lay down and close your eyes. I’ll cook you something to eat right now."
     mc "Wait, I’ll be okay. You have dinner plans with someone and you can’t miss that!"
     ren "Oh that? Don’t worry about it, he’ll understand. Rest up, I’ll cook you dinner tonight."
-    mc "(ren...)"
+    mc "(Ren...)"
     mc "(Why do you do this... for me?)"
     ren "Okay, the food is ready, let’s eat!"
     ren "Come on you lazy pig, get up."
@@ -628,14 +628,262 @@ label gd_scene6:
     ren "I must make sure that you are okay!"
     mc "I've been okay..."
     ren "Better safe than sorry! Anyway, my apartment is lonesome, so I’m gonna crash here and hang out with you for the day!"
-    mc "(Even though it’s 8 a.m on a Saturday, I’m happy that ren came. It does get pretty lonely sometimes.)"
+    mc "(Even though it’s 8 a.m on a Saturday, I’m happy that Ren came. It does get pretty lonely sometimes.)"
     mc "Okay, okay I’m going back to bed. Please, Just 10 more minutes. Or better yet, wake me up when you finish cooking. Thank you!"
     ren "...."
     mc "(It's almost the end of the quarter and the club meetings are going well. We made a lot of progress so far and we’re on track to finish it by winter break.)"
-    mc "(Ren and I have also been getting extremely close.)"
+    mc "(ren and I have also been getting extremely close.)"
     mc "After the incident where I fainted in front of her, she would always check up on me and take care of me.)"
     mc "(And as for George Dan, I would always see him at club meetings and he would always make the meeting fun, interesting, and productive for everyone.)"
     mc "(As I felt the stitches on the shirt that he sew back for me, the memories of when I first met him at the park came back.)"
     mc "(I haven’t seen him at the park since our first encounter...)"
+    ren "Hey sleepyhead, wake up!"
+    mc "The quarter is ending soon…"
+    ren "Yeah, time does fly by when you’re too busy."
+    ren "That’s why you have to take time away from your busywork and spend a little time enjoying ya self!"
+    mc "That’s easier said than done… being an adult requires us to uphold a lot of responsibilities. We actually have to worry about the future ahead of us now."
+    mc "Work hard now and enjoy life later! That’s my motto."
+    mc "Besides, it’s impossible for me to make time for relaxing since finals and projects are coming up."
+    ren "Well… that’s why I’m here! To find the time for you to relax instead of over studying. Haven’t you heard?? Too much studying is equal to ‘student dying’."
+    mc "Haha, real funny. I’m gonna fail my exams because of you…"
+    ren "You’re not wrong though. We do have a life ahead of us to worry about and we’re given great opportunities in life to do many great things…"
+    ren "But sometimes we forget the things that are also important in our life, and sometimes we don’t realize it until it’s too late."
+    mc "(Tears started to fall down her gentle face as she spoke. I can sense feelings of sincerity and regret coming from her.)"
+    mc "(What she said weren’t merely just words, but experiences. Experiences that she had gone through. Experiences that shouldn’t be taken lightly. Ren…)"
+    ren "Work hard and enjoy life along the way with others! That’s my motto for sure."
+    ren "You also better take care of your health too! You can’t work hard or enjoy life if you’re always out of energy!"
+    mc "ren… fine, let’s relax then! You prepare the food and I’ll prepare… the Netfix!"
+    ren "That’s what I like to hear!"
+    mc "How about you come back tomorrow night and I’ll cook you dinner to repay ya for all those times that you took care of me?"
+    ren "That sounds great, but we’ll have to do it another day! Sadly, I’m going to be busy tomorrow. George Dan and I made plans to go somewhere."
+    mc "George Dan huh… that’s fine! We’ll do it next time…"
+    ren "Sorry about that kiddo!"
+    mc "No worries!"
+    ren "Lunch is ready though! Let’s eat."
+    mc "Thank you, Ren."
+    #--black--
+    "Ren left. The place feels a bit empty again. I guess humans are social animals… it does suck feeling lonely."
+    "I guess ren is right. You’re enjoying their company so much that when they leave, you just can’t help but get a little sad."
+    "Our group’s last meeting is coming up… We finished the project and it’s works amazingly thanks to everyone’s hard work."
+    "Oh, I know! I’ll cook everyone something nice and the last meeting can just be a hangout!"
+
+    #Last Club Meeting
+    #setting: apartment
+    scene bg mc_apartment_inside with fade
+    mc "The last meeting… I can’t believe it’s been a whole quarter already. Everyone worked so hard and the game came out nicely."
+    mc "I hope they’ll enjoy my cooking. I mean, why wouldn’t they? I’m a pretty damn good chef. George Dan seemed to enjoy it the last time I cooked for him..."
+    #setting: outside/lobby
+    "As I walk towards the room, I start to get that indescribable feeling… the feeling that you get when you know that a story is coming to an end." 
+    "I mean, it’s a good ending… but this might be the last time I’ll really get to be this close to everyone."
+    "Then everyone will be going off to another group or doing their own thing next quarter. I know that we will all keep in touch, but we won’t be as close as we are now."
+    #Enters the room
+    "Well, that’s part of the journey I guess. Let’s enjoy this last moment…"
+    show gd calm with dissolve
+    mc "WHY ARE YOU THE ONLY ONE HERE??"
+    mc "Where’s everyone else??"
+    gd "Didn’t you see the group chat?"
+    "I pulled out my phone to check"
+    hide gd calm with dissolve
+    show phone with dissolve
+    mc "Hey [mcname], Alex, me, and Melody are all going to be busy. We will not make it to the last meeting! Sorry! But we can hangout after finals! - Love ya, Ren"
+    mc "(Why didn’t I check my messages earlier…ughhh.)"
+    hide phone with dissolve
+    show gd calm with dissolve
+    gd "You didn’t plan anything special before the meeting, did you?"
+    "I walked up to him and placed the box of food in front of him."
+    mc "You’re eating all of that. By yourself."
+    mc "I can’t believe that they all ditched the meeting… I really wanted to thank them for their hard work you know."
+    "He starts to eat my food."
+    gd "You’ll get to do it later, when we hang out after finals."
+    mc "You’re… actually eating my food."
+    show gd smile with dissolve
+    gd "It’s pretty good. Your cooking tastes even better the second time. It’s a shame that the group’s not here to try it."
+    mc "(Why am I blushing!?)"
+    #Player Option 
+    menu why_am_i_blushing:
+        #option 1: Asks him if he really likes your cooking.
+        "Ask him if he really likes my cooking":
+            mc "Is it really that good?"
+            gd "Yeah, I love it."
+            mc "Thanks."
+            mc "...Why did you come if you knew that everyone else wasn’t coming?"
+            gd "I am the group’s main buddy officer so it’s my duty to be here at this final meeting to thank you for an amazing quarter and congratulate you for your hard work."
+            gd "Also... I didn’t want you to be here alone all by yourself."
+            mc "I… Thanks."
+            "I sat down, across from him."
+            mc "Since no one is here, I guess I’ll just give you my thanks. Good luck on your finals."
+            gd "Hey."
+            "I turned back around and looked at him."
+            gd "Let’s finish our one on one match today."
+            mc "Now you finally want to lose?"
+            gd "Let’s see if you’ll still say that after the game."
+            mc "You’re on."
+            gd "Before that, here."
+            "He hands me a wooden double picture frame."
+            gd "I always get it for everyone in the group that I’m in. It’s like a souvenir... to remind them that they were a part of a wonderful journey."
+            gd "The other one is special. I got it for you as a personal thank you for holding the team together and creating a memorable experience for all of us." 
+            "I hadn’t expected this at all… I was awed. I looked at him in the eyes and he gently smiles back."
+            mc "Thanks…"
+        #option 2: Try to invite him over to your place. #Best
+        "Try to invite him over to my place":
+            mc "Is it really that good?"
+            gd "Yeah, I love it."
+            mc "Anyway… why did you come if you knew that everyone else wasn’t coming?"
+            gd "I am the group’s main buddy officer so it’s my duty to be here at this final meeting to thank you for an amazing quarter and congratulate you for your hard work."
+            gd "Also... I didn’t want you to be here alone all by yourself."
+            mc "Thanks... actually, come with me!"
+            gd "Where do you want to go?"
+            mc "We’re going to my place."
+            gd "Huh… What??"
+            mc "Come on, let’s go. I want you to try something."
+            "Like a spirit had possessed, I grabbed him by the hand and dragged him to come with me"
+            gd "Hey wait! We can take my car, it’ll be faster..."
+            #--black--
+            #Player’s apartment
+            scene bg mc_apartment_inside with fade
+            show gd calm with dissolve
+            gd "So this is your apartment... It’s so empty, don’t you get a bit lonely?"
+            mc "So will putting a giant teddy bear in that corner make it less lonely, huh??"
+            mc "(This guy… already criticizing my place. He’s getting me angry again.)"
+            mc "(No s**t it gets a bit lonely when you live by yourself.)"
+            gd "I like it actually. Simple and spacious, yet elegant. But I think it needs a little something…"
+            "He pulls out an object and then places it on my table next to my laptop."
+            gd "Some objects are good to keep around. It reminds you that you are never alone in this world."
+            mc "Since when did you get that?"
+            "The item that he placed on my table was a picture of our group together."
+            gd "I always get it for everyone in the group that I’m in. It’s like a souvenir... to remind them that they were a part of a wonderful journey."
+            gd "This one... is special."
+            mc "(There’s something behind it…)"
+            "He opens the the second frame underneath the first frame to reveal another picture. It was a double picture frame."
+            mc "That’s.... us…"
+            "It was a picture of me staring at him angrily during a group meeting. My irritated eyes glaring at him and his subtle posture. Ren took this picture."
+            show gd smile with dissolve
+            gd "I like this one. I got it for you as a personal thank you for holding the team together and creating a memorable experience for all of us." 
+            "I was shook. Words did not come to me. I did not expect this. As I stare at the pictures, I wanted to thank him, but I couldn’t say a word. I only shed a few tears."
+            show cd calm with dissolve
+            gd "Oh yeah, did you want to show me something? Sorry for stealing the show."
+            "I finally snapped out of my trance and wiped the few tear drops off my face."
+            mc "Sorry, I got a bit distracted. Thank you very much for the gift…"
+            mc "Okay! Sit down and relax. I’m going to make food for you to repay you for the meal at the start of the year."
+            gd "This is rare so I guess I’ll accept your offer."
+            "I looked at him in the eyes and he gently smiles back. As the night went on we talked to each other endlessly as we ate. I was getting to know him more and… it was nice."
+            gd "That was really good. Thank you for the meal."
+            mc "No worries."
+            gd "It’s been a whole quarter already huh?..."
+            mc "Yeah… are you leaving now?"
+            gd "Is that your basketball over there?"
+            mc "Yeah."
+            "He didn’t answer my question but instead grabs my hand."
+            show gd smile with dissolve
+            gd "Let’s go, I want you to see something."
+            mc "Huh?"
+            "He picks up the basketball."
+            gd "I wanna show you what a real winner looks like."
+            "He passes the basketball to me."
+            mc "Ah I see. You’re on. We’ll finish our match tonight."
+            "Our eyes crossed and this time… I smiled back at him."
+    #----------END OF OPTION-----------
+    #Park Scene
+    #Setting: Park
+    scene bg park_1 with fade
+    show gd calm with dissolve
+    gd "Are you ready to lose? You start."
+    "He passes the ball to me."
+    mc "You’re gonna eat those words."
+    mc "(He’s playing extremely aggressive. I guess he really wants to win. I won’t let him.)"
+    "It felt refreshing as we played.  I don’t want to lose… I don’t want this day to end."
+    mc "(There! An opening.)"
+    gd "Not even close."
+    "He predicted my movements and blocks me."
+    mc "Not bad…"
+    gd "Try to defend this."
+    mc "(He’s fast!)"
+    "I was able to catch up and defend him from going to the rim but then he pulls up and makes a jump shot."
+    gd "1-0."
+    mc "That was pretty lucky. I didn’t expect you to make that."
+    "Once get got the ball back he quickly" 
+    mc "You know what they call me… the Handle God."
+    "I quickly crossed him over with ease and laid up the ball into the basket."
+    mc "Too easy. You can’t guard me!"
+    gd "Let’s see you do that again."
+    "I did the same thing once again, but this time he swiftly moved back and tries to block me, but this time I reversed my layup and scored once again."
+    "Our bodies made contact during the shot and as I landed I felt a stinging pain coming from my left foot and I yelled out in pain."
+    gd "Hey are you okay??"
+    mc "Scored and one."
+    "He just slightly laughs and carried me over to a bench. We sat down on the bench."
+    gd "Let me see your foot."
+    mc "It’s fine, just a tiny sprain, I get them all the time. I can still walk fine, it just hurts a little."
+    gd "Well, I guess the game is over..."
+    mc "Then I win."
+    gd "Then I guess you win the bet. I’ll leave you alone in here now."
+    "I grabbed him by the arm. He turns and looks me in the eyes."
+    mc "So you’re just going to leave me here, at night, after you injured me?!"
+    gd "I’m joking, I’m joking. Hahaha."
+    gd "It’s been a whole quarter already huh? Sorry it took this long for our rematch."
+    mc "Don’t worry, I understand. Ren told me that you’re always busy so it only makes sense."
+    mc "So what are you going to do during winter break? Are you gonna go home?"
+    gd "This place is like home to me so I’ll be staying here for the break. How about you?"
+    mc "I live up north so I’ll be heading back there to my family during the break..."
+    "We sat on the bench silently for the next minute. He then broke the silence."
+    gd "How’s your dad like?"
+    mc "(Huh? That’s a weird question…)"
+    mc "Uhmm… he’s just a uhhh… regular, nosy, old fool that always try to piss me off!!"
+    mc "(Thinking about him is making me annoyed.)"
+    gd "Oh I see. Hahaha."
+    mc "But I guess he’s wise and caring… sometimes."
+    mc "(I wonder why he’s asking about my dad… I should ask him about his dad.)"
+    mc "How’s your dad like?"
+    gd "We were never close..."
+    mc "Oh… I’m sorry to hear that. Maybe you can use this winter break to get closer to him."
+    gd "If you tried your best to help someone but they refuse to accept your help, will you ever give up on them?"
+    mc "If you know that you will never forgive yourself for giving up on them… then you should never let go of them."
+    mc "Maybe they’re lonely… and they need someone to clear those gray clouds of loneliness."
+    gd "I see…"
+    "He then grabs my arms and put them around his neck."
+    gd "I’ll take you home."
+    mc "I can walk on my own you know..."
+    gd "I know."
+    "He carried me on his back. My arms around his warm neck. His warm body against mine. The weather is getting colder."
+    mc "(Always playing the prince while I play the princess in distress…)"
+    "Just like then… quiet but comforting. I couldn’t help but to smile as I rest my head onto his shoulders."
+    #--black-- 
+    "Suddenly, a black car stops in front of us, blocking us from moving forward."
+    "A man around my dad’s age came out of the car. Exiting the passenger side was a woman... "
+    show gd calm:
+        linear 0.5 xalign 0.8
+    show ren calm at left with dissolve
+    show ren calm:
+        linear 0.5 xalign 0.2
+    mc "(It’s Ren!)"
+    "George Dan looks at the man. Their eyes met, a cold stare that I have never seen before, came from George Dan. Serious wouldn’t describe the look in his eyes, it was more of hatred."
+    "I wanted to ask him about the situation… but I couldn’t. It wasn’t my place to say anything."
+    gd "ren, can you take [mcname] home."
+    ren "Yeah."
+    "ren then came over and took me from George Dan’s shoulders."
+    hide gd with dissolve
+    show ren calm:
+        linear 0.5 xalign 0.5
+    mc "It’s okay ren, I can walk."
+    ren "Nope. I got you!"
+    "She wrapped my arms around her neck and carried me on her back."
+    mc "(Stubborn just like George Dan… I’m thankful for friends like you guys.)"
+    ren "Don’t worry, I’ll explain everything once we get home."
+    hide ren calm with dissolve
+    "I looked at George Dan and the mysterious man. Their eyes still glaring at one another without a single word. Is it his father? Why was ren with him…?"
+    #Apartment Scene 9000x
+    #Setting: MC apartment
+    scene bg mc_apartment_inside with fade
+    show ren calm with dissolve
+    ren "How’s your foot? Here let me get you some ice."
+    mc "I’m okay, thank you Ren."
+    ren "You’re probably wondering who that guy was. You probably guessed it though… he’s our father."
+    mc "Yeah, I had a feeling… wait WHAT?!?! ‘Our father’??"
+    ren "Yeah, George Dan and I are siblings… well, he’s my stepbrother."
+    ren "Why? Did you think we were… perhaps, lovers?"
+    "She starts so laugh. I on the other hand, was shook. I couldn’t believe what she had told me."
+    mc "You guys are siblings?? You never told me this!!"
+    ren "I thought you knew… hahaha."
+    mc "You told me you had plans with him so I thought you two… like each other…"
+    ren "Oh that… we were just planning to visit our mom in the hospital like usual. Here, sit down, drink some water, and I’ll explain to you everything…"
     return
 # END SCENE 6
