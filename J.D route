@@ -1078,7 +1078,7 @@ Ren “I must make sure that you are okay!”
 
 mc “I've been okay...”
 
-Ren “Better safe than sorry! You've also been overstudying, so I'm here to make sure you're staying healthy!"
+Ren “Better safe than sorry! You've also been over-studying, so I'm here to make sure you're staying healthy!"
 
 Rne "And anyway, my apartment is lonesome, so I’m gonna crash here and hang out with you for the day!”
 
@@ -1355,6 +1355,7 @@ mc “Ah I see. You’re on. We’ll finish our match tonight.”
 
 “Our eyes crossed and this time… I smiled back at him.”
 
+
 ----------END OF OPTION-----------
 
 #Park Scene
@@ -1416,7 +1417,7 @@ jd “Well, I guess the game is over...”
 
 mc “Then I win.”
 
-jd “Then I guess you win the bet. I’ll leave you alone in here now.”
+jd “Then I guess you win the bet. I’ll have to leave you alone now.”
 
 “I grabbed him by the arm. He turns and looks me in the eyes.”
 
@@ -1444,15 +1445,15 @@ mc “Uhmm… he’s just a uhhh… regular, nosy, old fool that always try to p
 
 mc “(Thinking about him is making me annoyed.)”
 
-jd “Oh I see. Hahaha.”
+jd “Oh I see. Your dad seems like a good man.”
 
-mc “But I guess he’s wise and caring… sometimes.”
+mc “But I guess he’s wise and caring… sometimes. He’s a professor, so he always has some crafty stuff I can learn from I guess.”
 
 mc “(I wonder why he’s asking about my dad… I should ask him about his dad.)”
 
 mc “How’s your dad like?”
 
-jd “We were never close...”
+jd “We’re… not close...”
 
 mc “Oh… I’m sorry to hear that. Maybe you can use this winter break to get closer to him.”
 
@@ -1460,7 +1461,13 @@ jd “If you tried your best to help someone but they refuse to accept your help
 
 mc “If you know that you will never forgive yourself for giving up on them… then you should never let go of them.”
 
-mc “Maybe they’re lonely… and they need someone to clear those gray clouds of loneliness.”
+jd “A man once told me a similar thing a few years ago.”
+
+mc “That’s one hell of a guy.”
+
+jd “Yeah, I learned a lot from him.”
+
+mc “Anyway, maybe they’re lonely… and they just need someone to clear those gray clouds of loneliness for them.”
 
 jd “I see…”
 
@@ -1493,6 +1500,7 @@ jd “Ren, can you take (y/n) home.”
 
 Ren “Yeah.”
 
+
 “Ren then came over and took me from J.D’s shoulders.”
 
 mc “It’s okay Ren, I can walk.”
@@ -1518,6 +1526,7 @@ Ren “You’re probably wondering who that guy was. You probably guessed it tho
 
 mc “Yeah, I had a feeling… wait WHAT?!?! ‘Our father’??”
 
+
 Ren “Yeah, J.D and I are siblings… well, he’s my stepbrother.”
 
 Ren “Why? Did you think we were… perhaps, lovers?”
@@ -1528,13 +1537,328 @@ mc “You guys are siblings?? You never told me this!!”
 
 Ren “I thought you knew… hahaha.”
 
-mc “You told me you had plans with him so I thought you two… like each other…”
+mc “Don’t give me that ‘I thought you knew’ B.S. You told me you had plans with him so I thought you two… like each other…”
 
 Ren “Oh that… we were just planning to visit our mom in the hospital like usual. Here, sit down, drink some water, and I’ll explain to you everything…”
 
+Ren “So first off, that man you saw is J.D’s birth father and my stepfather. J.D and I both came from different parents.”
 
+Ren “I was born in Japan. My birth father passed away before I was born. Around a year before, J.D’s mother passed away as well when he was only a baby.”
 
+Ren “At that time J.D’s father and mother owned a big business chain in Japan. After having J.D, his mother fell ill and became a victim to the passing of time.”
 
+Ren “The loss of his wife burdened him heavily. Before her death she apologized to him for being the first one to leave so early. She asked him to be strong and to carry their child with both arms of love.”
 
+Ren “‘If only I could hold our child one last time… I will always love and protect the two of you.’ were her last words.”
 
+Ren “With his wife’s dying words, the crying man promised to live on and raise their child into a fine person.”
 
+Ren “As life went on, his business required his presence so he needed someone to take care of his child. He found a widow desperately seeking a job to support her daughter.”
+
+Ren “At that time, she had no one to support or help her. To her, the man had saved her life and also her daughter’s life... no one would hire her, a lonely widow with a child.”
+
+Ren “She raised the child like her own, with love and care that only a mother can give. And that love, that she showed to the child, moved his father.”
+
+Ren “To him, watching her hold the child in her arms, was like watching the spirit of his own wife before his eyes. It brimmed his body full of warmth and life once more. In him, a cold and long winter had finally ended.”
+
+Ren “He would always come home a bit early. Hiding from a corner, he would watch her hold the child in both arms… He was falling in love with each, and every look.”
+
+Ren “Although he was in love, he was not ready to move on. He would truly never confess his feelings for her.”
+
+Ren “Years went by, the little boy started to grow up with the care of the woman. Eventually calling her his mother. Jealous, the little girl also called the man her father. 
+
+Ren “Regardless of being married, the love that the man and the woman showed to the two children were undeniable. The four of them were like a family.”
+
+Ren “Soon after, the father wanted to expand his business to America. He wanted to move there, but he wasn’t sure of what to say to the her.”
+
+Ren “On the top of a hillside of his house he told her about his plans and tells her that she doesn’t have to come if she doesn’t wish to. She replied, ‘I owe you my life. And if you wish, I will follow you wherever you go.’”
+
+Ren “Happy to hear that, he moved over to America with his family. Unfamiliar with the weather, she started to get minor illnesses. Aside from that, they lived happily in their new found home.”
+
+Ren “They little boy, under the guidance of his mother and father, had become a smart, humble and capable person.”
+
+Ren “With each and every day with her, the man’s love for her became stronger. Understanding that his previous wife wanted him to live on, he was finally ready to confess his love for her.”
+
+Ren “But before he had the chance to do so, she fell into a coma. Without any notice, without any time, without a word, she had already left him and their family. The family was in sorrow.”
+
+Ren “Sadness and despair consumed him once more. Even though he knows that there’s hope, every day that she didn’t wake up, despair thined his hopes.”
+
+Ren “Day by day, night by night he would skip work and sleep to be by her side at the hospital. The despair and burden drove him to absolute madness. He cursed at the Gods for bringing such curse into his life.”
+
+Ren “He just wanted to be happy with his family. The madness started to eat away at him; he started to believe that if the Gods took away his loved ones instead of his wealth, then money has to be the answer to his happiness.”
+
+Ren “Slowly, he came to the hospital less frequently, and eventually he stopped going. He stopped caring about everything and everyone; he only looked for more wealth and power.”
+
+Ren “Years went by, his children, seeing his despair, tried everything they could to help him. But never did listen or accepted what they had to say.”
+
+Ren “‘You’re adults now. Either you stay and do as I say, or you can leave.’ Were his last words to his children.”
+
+Ren “His son, not accepting of his corrupt ways and desire for power, left. He took his sister and ran off.”
+
+“As Ren spoke, I can see tears coming out from her as she tries to hide them.”
+
+Ren “And yeah… we went up north for a year. That’s where I attended your high school and J.D attended the university there.”
+
+Ren “But eventually we both missed home too much. We missed our mom. When J.D heard that our father moved back to Japan, he instantly took us back here.”
+
+Ren “The reason why our father came back and looked for J.D was to… I’m not sure why actually. But something is different about him… but… maybe he misses us.”
+
+mc “Ren…”
+
+mc “By the way, how did you know all of past so well?”
+
+Ren “I found his diary. Hehe.”
+
+mc “You nosy child...”
+
+mc “Your father… poor soul.”
+
+“Their family went through so much. 
+
+Ren “I’m happy to see him again. And I want to help him, but I don’t know what to do. I want us to be a family again...”
+
+“I grab onto Ren’s hands tightly. Her cold, cold hands.”
+
+mc “If you know that you’ll regret not helping him, then never stop helping him! You can do it Ren!”
+
+Ren “(y/n)... Thank you.”
+
+“As Ren sat beside me. I started to slowly fall asleep. I looked at he and she too was slowly falling asleep.”
+
+--black--
+“Everything’s so dark… am I in a dream? From a distance I can see someone… it’s him! He has his back turned though. I can’t see his face. But it’s him for sure.”
+
+mc “Hey... J.D!”
+
+Setting: Inside MC apartment
+
+“Suddenly, I woke up with Rin laying on my lap.”
+
+mc “She must’ve fallen asleep.”
+
+“I grabbed a few blankets and placed it over her.”
+
+mc “It’s late… I wonder where he is. I should text him.”
+
+“I grabbed my phone and texted him, but he didn’t reply. I decided to get some fresh air. My foot was still hurting.”
+
+Setting: Outside of apartment
+
+“When I walked outside I saw him… he was standing against a tree in front of my place.”
+
+jd “Is Ren in there?”
+
+mc “Yeah. Aren’t you cold? Do you want to go inside?”
+
+jd “No, it’s okay. I just need to talk to you.”
+
+mc “Ren told me everything about you, your dad, and your family.”
+
+jd “I see.”
+
+mc “So you guys are siblings?”
+
+jd “Yeah, I’ve treated her like my little sister ever since we were babies.”
+
+mc “So what happened between you and your dad?”
+
+jd “It was different… it was as if he was longing for someone to help him. For someone to save him. He came to see us as a way of asking for help…You’re right, I’m not going to give up on him.”
+
+jd “He asked me to go to Japan with him.”
+
+mc “Are you going?”
+
+jd “Yeah. I’m packing tonight and leaving tomorrow.”
+
+“I didn’t think that he was going to leave so suddenly...”
+
+mc “But what about Ren and your mom…? 
+
+jd “Tell Ren I apologize for leaving her… I’ll be back, but in the meantime, tell her to take care of mother for me. And I’m sorry, but I won’t make it to the club’s last meet up.”
+
+mc “You really are leaving… I understand.”
+
+mc “I…”
+
+#Option 
+
+#Option 1: Wish him good luck. (good)
+
+jd “Mhm?”
+
+“I shook my head.”
+
+mc “It’s nothing. Good luck! Don’t lose hope, I believe in you.”
+
+mc “(I am going to miss you…)”
+
+#option 2: Run up to him and give him a hug.(best)
+
+jd “Mhm?”
+
+“I ran up to him and wrapped my arms around his body.”
+mc “Thank you... “
+
+“He placed his hand on the back of my head and moved it towards his chest.”
+
+jd “I’m going to miss you.”
+
+#end of option
+
+“He turned around and took a few steps forward.”
+
+jd “Hey, thanks for everything… and tell your dad I said hi.”
+
+mc “Huh? Do you know my dad?! Hey wait up!”
+
+“As he walks away with his back facing me, he pulls out his left hand and waves it.”
+
+mc “This guy… always playing the cool guy… and how does he know my dad?
+
+“I opened up my phone and called my dad.”
+
+mc “Come on old man… pick up. Pick up…”
+
+Dad “Hey… what’s up? Why are you calling so late?”
+
+mc “Do you know a guy by the name of Jeorge Dan, Dad?”
+
+Dad “Yeah, he was one of my student and mentee. He studied under me and stuff. Why? Did you meet him?”
+
+“I was shook, I didn’t actually believe it. There’s no way…”
+
+mc “Remember the guy I told you about, the one that I thought I had met before. Yeah that’s him.”
+
+Dad “Oh I see… You did meet him before though.”
+
+mc “I DID!?!”
+
+Dad “Yeah, I brought him over for dinner a few years ago. You cooked the family dinner but you had a meeting to go to so you dashed out and left before actually meeting him.”
+
+Dad “You guys crossed paths at the front door, but I don’t think you noticed him.”
+
+mc “You’re kidding me.”
+
+Dad “He tried your food by the way.”
+
+mc “What?! What did he say about it??”
+
+Dad “Too salty.”
+
+mc “Are.. are you serious?”
+Dad “No. Hahaha. He said he enjoyed it very much.”
+
+mc “So he did try my food before. This world is too small for comfort. And how dare you allow him to eat my cooking without telling me!!”
+
+Dad “...”
+
+mc “Hey don’t you hang up on… He actually hung up on me… again. Guys are so annoying.”
+
+“I couldn’t believe it… we had crossed paths before. I certainly didn’t recognize him, but he recognized me.”
+
+mc “He played me like a fool… and I fell for all of it. Hahaha. That guy is definitely annoying.”
+
+mc “I’m really going to miss him…”
+
+#setting: inside player’s apartment
+
+mc “Good morning Ren.”
+
+Ren “Oi… how long did I sleep for? That sleep was actually super comforting.”
+
+mc “Yeah you knocked out pretty early.”
+
+mc “Hey Ren, I have to tell you something…”
+
+mc “After you fell asleep, I met up with J.D outside…”
+
+“I explained to her what J.D had told me…”
+
+Ren “I had a feeling that
+
+mc “You’re not sad?”
+
+Ren “Of course I’m sad, but I know it’s for the best and someone has to take care of our mom ya know.”
+
+Ren “One sec, someone is calling me, I’ll be right back.
+
+“Ren went into the the kitchen. Suddenly, I heard Ren dropping her phone. She came jolting towards me as if she was chased by a cougar.”
+
+Ren “I’m heading to the hospital now!”
+
+mc “Did something happen!?”
+
+Ren “My mom just woke up!!”
+
+mc “No way! Did you tell J.D?!”
+
+Ren “No, I’m not sure if he left yet or not, but I’m going to head there now!”
+
+mc “Okay, run Ren! I’ll check if he’s still at his place.”
+
+“I texted him.”
+
+mc “Please see my message.”
+
+#Setting: outside
+
+“I grabbed my jacket and started sprinting towards J.D’s place.”
+
+mc “Don’t leave yet…”
+
+“As I ran the pain on my foot started to get worse. I wanted to cry. I don’t want him to leave. Not now. Don’t go!!!”
+
+mc “J.D are you there?! Please…”
+
+“I continued to bash at his door, but no reply; no response.”
+
+“I waited… I looked at my phone hoping that he saw my message. Please... see my message and head to the hospital.”
+
+mc “No… he’ll be at the hospital no matter what. Why then… am I so sad.”
+
+“I walked towards a bench and sat down. I haven’t slept yet. My eyes tire.”
+
+“A flash of lightning came across the sky and a faint sound of thunder followed it.”
+
+“My body, deprived of sleep; my foot, too weak to take another step. I closed my eyes and waited for the rain.”
+
+ENDINGS:
+Bad:
+
+“As I close my eyes my phone vibrates.”
+
+mc “‘Ren: J.D made it here to the hospital!!’”
+
+“tiny droplets of rain start to run down my face.”
+
+mc “That’s good… he made it to the hospital.”
+
+mc “I wish…”
+
+mc “I wish I had gotten to know him more.”
+
+mc “I blew all my chances hahaha…”
+
+“I sat there in the rain, alone.”
+
+Good:
+
+mc “(At least I can take a warm bath when I get home… but I’ll probably be sick though.)”
+
+“The rain started to pound the surface. I could hear the sound of the rain, but I couldn’t feel it.”
+
+“I opened my sleepy eyes…”
+
+mc “Hey… what are you doing here. You’re supposed to be at the hospital with your family.”
+
+jd “You’re going to get sick if you stay out here.”
+
+mc “Always changing the subject…hahaha.”
+
+“He picked up my arms, wrapped it around his neck, and carried me on his back.”
+
+“I tightened my wrap around him. Tears were coming out of my eyes. I rested my face against his shoulders.”
+
+jd “Let’s meet her, together.”
+
+THE END
