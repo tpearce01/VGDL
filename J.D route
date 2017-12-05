@@ -1100,6 +1100,402 @@ mc “(As I felt the stitches on the shirt that he sew back for me, memories of 
 
 mc “(I haven’t seen him at the park since our first encounter...)”
 
+Ren “Hey sleepyhead, wake up!”
+
+mc “The quarter is ending soon…”
+
+Ren “Yeah, time does fly by when you’re too busy.”
+
+Ren “That’s why you have to take time away from your busywork and spend a little time enjoying ya self!”
+
+mc “That’s easier said than done… being an adult requires us to uphold a lot of responsibilities. We actually have to worry about the future ahead of us now.”
+
+mc “Work hard now and enjoy life later! That’s my motto.”
+
+mc “Besides, it’s impossible for me to make time for relaxing since finals and projects are coming up.”
+
+Ren “Well… that’s why I’m here! To find the time for you to relax instead of over studying. Haven’t you heard?? Too much studying is equal to ‘student dying’.”
+
+mc “Haha, real funny. I’m gonna fail my exams because of you…”
+
+Ren “You’re not wrong though. We do have a life ahead of us to worry about and we’re given great opportunities in life to do many great things…”
+
+Ren “But sometimes we forget the things that are also important in our life, and sometimes we don’t realize it until it’s too late.”
+
+mc “(Tears started to fall down her gentle face as she spoke. I can sense feelings of sincerity and regret coming from her.)”
+
+mc “(What she said weren’t merely just words, but experiences. Experiences that she had gone through. Experiences that shouldn’t be taken lightly. Ren…)”
+
+Ren “Work hard and enjoy life along the way with others! That’s my motto for sure.”
+
+Ren “You also better take care of your health too! You can’t work hard or enjoy life if you’re always out of energy!
+
+mc “Ren… fine, let’s relax then! You prepare the food and I’ll prepare… the Netfix!”
+
+Ren “That’s what I like to hear!”
+
+mc “How about you come back tomorrow night and I’ll cook you dinner to repay ya for all those times that you took care of me?”
+
+Ren “That sounds great, but we’ll have to do it another day! Sadly, I’m going to be busy tomorrow. J.D and I made plans to go somewhere.”
+
+mc “J.D huh… that’s fine! We’ll do it next time…”
+ 
+Ren “Sorry about that kiddo!”
+
+mc “No worries!”
+
+Ren “Lunch is ready though! Let’s eat.”
+
+mc “Thank you, Ren.”
+
+--black--
+
+“Ren left. The place feels a bit empty again. I guess humans are social animals… it does suck feeling lonely.”
+
+“I guess Ren is right. You’re enjoying their company so much that when they leave, you just can’t help but get a little sad.”
+
+“Our group’s last meeting is coming up… We finished the project and it’s works amazingly thanks to everyone’s hard work.”
+
+“Oh, I know! I’ll cook everyone something nice and the last meeting can just be a hangout!”
+
+Last Club Meeting
+
+#setting: apartment
+
+mc “The last meeting… I can’t believe it’s been a whole quarter already. Everyone worked so hard and the game came out nicely.”
+
+mc “I hope they’ll enjoy my cooking. I mean, why wouldn’t they? I’m a pretty damn good chef. J.D seemed to enjoy it the last time I cooked for him...”
+
+#setting: outside/lobby
+
+“As I walk towards the room, I start to get that indescribable feeling… the feeling that you get when you know that a story is coming to an end. 
+“I mean, it’s a good ending… but this might be the last time I’ll really get to be this close to everyone.”
+
+“Then everyone will be going off to another group or doing their own thing next quarter. I know that we will all keep in touch, but we won’t be as close as we are now.”
+
+#Enters the room
+
+“Well, that’s part of the journey I guess. Let’s enjoy this last moment…”
+
+mc “WHY ARE YOU THE ONLY ONE HERE??”
+
+mc “Where’s everyone else??”
+
+jd “Didn’t you see the group chat?”
+
+“I pulled out my phone to check”
+
+mc “Hey (y/n), Alex, me, and Melody are all going to be busy. We will not make it to the last meeting! Sorry! But we can hangout after finals! - Love ya, Ren”
+
+mc “(Why didn’t I check my messages earlier…ughhh.)”
+
+jd “You didn’t plan anything special before the meeting, did you?”
+
+“I walked up to him and placed the box of food in front of him.”
+
+mc “You’re eating all of that. By yourself.”
+
+mc “I can’t believe that they all ditched the meeting… I really wanted to thank them for their hard work you know.”
+
+“He starts to eat my food.”
+
+jd “You’ll get to do it later, when we hang out after finals.”
+
+mc “You’re… actually eating my food.”
+
+jd “It’s pretty good. Your cooking tastes even better the second time. It’s a shame that the group’s not here to try it.”
+
+mc “(Why am I blushing!?)”
+
+#Player Option 
+#option 1: Asks him if he really likes your cooking.
+
+mc “Is it really that good?”
+
+jd “Yeah, I love it.”
+
+mc “Thanks.”
+
+mc “...Why did you come if you knew that everyone else wasn’t coming?”
+
+jd “I am the group’s main buddy officer so it’s my duty to be here at this final meeting to thank you for an amazing quarter and congratulate you for your hard work.”
+
+jd “Also... I didn’t want you to be here alone all by yourself.”
+
+mc “I… Thanks.”
+
+“I sat down, across from him.”
+
+mc “Since no one is here, I guess I’ll just give you my thanks. Good luck on your finals.”
+
+jd “Hey.”
+
+“I turned back around and looked at him.”
+
+jd “Let’s finish our one on one match today.”
+
+mc “Now you finally want to lose?”
+
+jd “Let’s see if you’ll still say that after the game.”
+
+mc “You’re on.”
+
+jd “Before that, here.”
+
+“He hands me a wooden double picture frame.”
+
+jd “I always get it for everyone in the group that I’m in. It’s like a souvenir... to remind them that they were a part of a wonderful journey.”
+
+jd “The other one is special. I got it for you as a personal thank you for holding the team together and creating a memorable experience for all of us.” 
+“I hadn’t expected this at all… I was awed. I looked at him in the eyes and he gently smiles back.”
+
+mc “Thanks…”
+
+#option 2: Try to invite him over to your place. #Best
+
+mc “Is it really that good?”
+
+jd “Yeah, I love it.”
+
+mc “Anyway… why did you come if you knew that everyone else wasn’t coming?”
+
+jd “I am the group’s main buddy officer so it’s my duty to be here at this final meeting to thank you for an amazing quarter and congratulate you for your hard work.”
+
+jd “Also... I didn’t want you to be here alone all by yourself.”
+
+mc “Thanks... actually, come with me!”
+
+jd “Where do you want to go?”
+
+mc “We’re going to my place.”
+
+jd “Huh… What??”
+
+mc “Come on, let’s go. I want you to try something.”
+
+“Like a spirit had possessed, I grabbed him by the hand and dragged him to come with me”
+
+jd “Hey wait! We can take my car, it’ll be faster...”
+
+--black--
+
+#Player’s apartment
+
+jd “So this is your apartment... It’s so empty, don’t you get a bit lonely?”
+
+mc “So will putting a giant teddy bear in that corner make it less lonely, huh??”
+
+mc “(This guy… already criticizing my place. He’s getting me angry again.)”
+
+mc “(No s**t it gets a bit lonely when you live by yourself.)”
+
+jd “I like it actually. Simple and spacious, yet elegant. But I think it needs a little something…”
+
+“He pulls out an object and then places it on my table next to my laptop.”
+
+jd “Some objects are good to keep around. It reminds you that you are never alone in this world.”
+
+mc “Since when did you get that?”
+
+“The item that he placed on my table was a picture of our group together.”
+
+jd “I always get it for everyone in the group that I’m in. It’s like a souvenir... to remind them that they were a part of a wonderful journey.”
+
+jd “This one... is special.”
+
+mc “(There’s something behind it…)”
+
+“He opens the the second frame underneath the first frame to reveal another picture. It was a double picture frame.”
+
+mc “That’s.... us…”
+
+“It was a picture of me staring at him angrily during a group meeting. My irritated eyes glaring at him and his subtle posture. Ren took this picture.”
+
+jd “I like this one. I got it for you as a personal thank you for holding the team together and creating a memorable experience for all of us.” 
+
+“I was shook. Words did not come to me. I did not expect this. As I stare at the pictures, I wanted to thank him, but I couldn’t say a word. I only shed a few tears.”
+
+jd “Oh yeah, did you want to show me something? Sorry for stealing the show.”
+
+“I finally snapped out of my trance and wiped the few tear drops off my face.”
+
+mc “Sorry, I got a bit distracted. Thank you very much for the gift…”
+
+mc “Okay! Sit down and relax. I’m going to make food for you to repay you for the meal at the start of the year.”
+
+jd “This is rare so I guess I’ll accept your offer.”
+
+“I looked at him in the eyes and he gently smiles back. As the night went on we talked to each other endlessly as we ate. I was getting to know him more and… it was nice.
+
+jd “That was really good. Thank you for the meal.”
+
+mc “No worries.”
+
+jd “It’s been a whole quarter already huh?...”
+
+mc “Yeah… are you leaving now?”
+
+jd “Is that your basketball over there?”
+
+mc “Yeah.”
+
+“He didn’t answer my question but instead grabs my hand.”
+
+jd “Let’s go, I want you to see something.”
+
+mc “Huh?”
+
+“He picks up the basketball.”
+
+jd “I wanna show you what a real winner looks like.”
+
+“He passes the basketball to me.”
+
+mc “Ah I see. You’re on. We’ll finish our match tonight.”
+
+“Our eyes crossed and this time… I smiled back at him.”
+
+----------END OF OPTION-----------
+
+#Park Scene
+
+Setting: Park
+
+jd “Are you ready to lose? You start.”
+
+“He passes the ball to me.”
+
+mc “You’re gonna eat those words.”
+mc “(He’s playing extremely aggressive. I guess he really wants to win. I won’t let him.)”
+
+“It felt refreshing as we played.  I don’t want to lose… I don’t want this day to end.”
+
+mc “(There! An opening.)”
+
+jd “Not even close.”
+
+“He predicted my movements and blocks me.”
+
+mc “Not bad…”
+
+jd “Try to defend this.”
+
+mc “(He’s fast!)”
+
+“I was able to catch up and defend him from going to the rim but then he pulls up and makes a jump shot.”
+
+jd “1-0.”
+
+mc “That was pretty lucky. I didn’t expect you to make that.”
+
+“Once get got the ball back he quickly 
+
+mc “You know what they call me… the Handle God.”
+
+“I quickly crossed him over with ease and laid up the ball into the basket.”
+
+mc “Too easy. You can’t guard me!”
+
+jd “Let’s see you do that again.
+
+“I did the same thing once again, but this time he swiftly moved back and tries to block me, but this time I reversed my layup and scored once again.”
+
+“Our bodies made contact during the shot and as I landed I felt a stinging pain coming from my left foot and I yelled out in pain.”
+
+jd “Hey are you okay??”
+
+mc “Scored and one.”
+
+“He just slightly laughs and carried me over to a bench. We sat down on the bench.”
+
+jd “Let me see your foot.”
+
+mc “It’s fine, just a tiny sprain, I get them all the time. I can still walk fine, it just hurts a little.”
+
+jd “Well, I guess the game is over...”
+
+mc “Then I win.”
+
+jd “Then I guess you win the bet. I’ll leave you alone in here now.”
+
+“I grabbed him by the arm. He turns and looks me in the eyes.”
+
+mc “So you’re just going to leave me here, at night, after you injured me?!”
+
+jd “I’m joking, I’m joking. Hahaha.”
+
+jd “It’s been a whole quarter already huh? Sorry it took this long for our rematch.”
+
+mc “Don’t worry, I understand. Ren told me that you’re always busy so it only makes sense.”
+
+mc “So what are you going to do during winter break? Are you gonna go home?”
+
+jd “This place is like home to me so I’ll be staying here for the break. How about you?”
+
+mc “I live up north so I’ll be heading back there to my family during the break...”
+
+“We sat on the bench silently for the next minute. He then broke the silence.”
+
+jd “How’s your dad like?”
+
+mc “(Huh? That’s a weird question…)”
+
+mc “Uhmm… he’s just a uhhh… regular, nosy, old fool that always try to piss me off!!”
+
+mc “(Thinking about him is making me annoyed.)”
+
+jd “Oh I see. Hahaha.”
+
+mc “But I guess he’s wise and caring… sometimes.”
+
+mc “(I wonder why he’s asking about my dad… I should ask him about his dad.)”
+mc “How’s your dad like?”
+
+jd “We were never close...”
+
+mc “Oh… I’m sorry to hear that. Maybe you can use this winter break to get closer to him.”
+
+jd “If you tried your best to help someone but they refuse to accept your help, will you ever give up on them?”
+
+mc “If you know that you will never forgive yourself for giving up on them… then you should never let go of them.”
+
+mc “Maybe they’re lonely… and they need someone to clear those gray clouds of loneliness.”
+
+jd “I see…”
+
+“He then grabs my arms and put them around his warm neck.”
+
+jd “I’ll take you home.”
+
+mc “I can walk on my own you know...”
+
+jd “I know.”
+
+“He carried me on his back. His warm body against mine. The weather is getting colder.”
+
+mc “(Always playing the prince while I play the princess in distress…)”
+
+“Just like then… quiet but comforting. I couldn’t help but to smile as I rest my head onto his shoulders.”
+
+--black-- 
+
+“Suddenly, a luxury black car stops in front of us, blocking us from moving forward.”
+
+“A man around my dad’s age came out of the car. Exiting the passenger side was a woman... “
+
+mc “(It’s Ren!)”
+
+“J.D looks at the man. Their eyes met, a cold stare that I have never seen before, came from J.D. Serious wouldn’t describe the look in his eyes, it was more of hatred.”
+
+“I wanted to ask him about the situation… but I couldn’t. It wasn’t my place to say anything.”
+jd “Ren, can you take (y/n) home.”
+
+Ren “Yeah.”
+
+“Ren then came over and took me from J.D’s shoulders.”
+
+mc “It’s okay Ren! I can walk. 
+
 
 
 
