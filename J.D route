@@ -1,6 +1,8 @@
 #DIALOGUE : 
+
 #Scene 1: 
-#setting:lecture hall
+
+#SETTING: lecture hall
 
 mc “(So he's the guy I bumped into earlier...)” 
 
@@ -22,12 +24,13 @@ mc “(He’s so cu...I MEAN ODD. Yes, very odd…)”
 
 mc “(Oh well, I shouldn’t think too much about it. Too much curiosity is always troublesome.)”
 
-mc “(HUH?! Something poked me.)”
+mc “(Huh?! Something poked me.)”
 
 Ren "Hey, I didn't expect to see you here!"
 
-"This is Ren. I haven't seen her since high school, but
-she was like my bigger sister back then in high school. Always protecting me and taking care of me."
+"This is Ren, she went to my old high school. I met her when she came to the school as a senior.”
+
+“I haven't seen her since high school, but she was like my bigger sister back then in high school. Always protecting me and taking care of me."
 
 mc "Ren! It's been awhile!"
 
@@ -41,15 +44,13 @@ Ren "Anyway, I see that you are here now, so does that mean you are planning to 
 
 mc "Yeah I was at their booth earlier and I wanted to check out their first club meeting."
 
-Ren "You should definitely join!!"
-
-Ren "Are you going to pitch a game idea for the next meeting? I think you should!”
+Ren "You should definitely join!! And if you do join, you should totally pitch an idea!”
 
 mc "Yeah, I'm considering doing it, but will I have enough time or the ability to run a whole team?"
 
 Ren "I believe you can do it. You are more than capable! And don't worry, if anything, I’ll personally be here to help you out."
 
-mc "Thanks Ren, I’ll definitely consider it now.”
+mc "Thanks Ren...”
 
 mc “(I really do miss talking to Ren.)”
 
@@ -67,11 +68,11 @@ jd "Anyway, come with me for a sec."
 
 Ren “You got it...”
 
-mc “(So Ren knows him huh? Here’s my chance to have my curiosity satisfied! This is perfect!!)”
+mc “(So Ren knows him huh? Maybe I’ve met him before! Here’s my chance to ask!)”
 
 mc “HEY YOU!!”
 
-mc “(...Wait where did they go?)”
+mc “(Wait... where did they go?)”
 
 mc "(Why did everyone turn their heads? Is there something interesting behind me?)"
 
@@ -83,24 +84,25 @@ mc “(I HAVE TO GET OUT OF HERE!!)”
 
 Crowd “Who was that?”
 
-Crowd “That was pretty weird.. Who was” [they] “calling for?”   
+Crowd “That was pretty weird... Who were they calling for?”   
 
 #she/he gender
 
-Crowd “Hey! Maybe” [she] “was calling for me because” [they] “thought I was cute!”
+Crowd “Hey! Maybe (they) was calling for me because (they) thought I was cute!”
 
 Crowd “No fool, you’re ugly.”
 
 Crowd “Waah… you’re so mean.”
 
 Scene 2:
-#Setting: MC’s Apartment
+
+#SETTING: MC’s Apartment
 
 mc “That was the most… EMBARRASSING MOMENT OF MY LIFE!!!”
 
 mc “That was so embarrassing. Everything felt so embarrassing!!”
 
-mc “Okay. Okay. Focus... I have to calm down and get work done. Get over it, let the past me worry about what happened.”
+mc “Okay. Okay. Focus... I have to calm down and get work done. Get over it, let the past me worry about it.”
 
 mc “Okay… time to get work done.”
 
@@ -109,7 +111,7 @@ But the meeting ended so late so I didn’t have time to make food.)”
 
 mc “Life at college...”
 
-"My phone suddenly starts to ring. I'm pretty sure it's the old man calling me."
+"My phone suddenly starts to ring. I'm pretty sure it's the old man calling me..."
 
 mc "Hello? Dad?”
 
@@ -121,8 +123,7 @@ mc “And you sound happy today, did something happen?”
 
 Dad “Nothin’, your mom and I just had our anniversary today.”
 
-Dad “Oh yeah, if you’re hungry, there’s food in the fridge. We came up to your area to eat for our anniversary, 
-and we dropped by to say hi, but you weren’t there so we just dropped off some food for ya.”
+Dad “Oh yeah, if you’re hungry, there’s food in the fridge. We came up to your area to eat for our anniversary, and we dropped by to say hi, but you weren’t there so we just dropped off some food for ya.”
 
 mc “No way?! You are officially my favorite dad!”
 
@@ -158,7 +159,7 @@ Dad “I just want to say, firstly, good luck with school and keep warm, the wea
 
 mc “Thanks Dad...Tell mo...”
 
-mc "He... JUST HUNG UP ON ME?"
+mc "He... HE JUST HUNG UP ON ME?"
 
 mc “That rotten old man! Didn’t even let me finish my sentence and just hangs up on. What kind of dad does that…”
 
@@ -166,17 +167,17 @@ mc “That rotten old man! Didn’t even let me finish my sentence and just hang
 
 mc “Thanks Mom and Dad…”
 
-"After I finished eating, I took off my clothes, got into my bed, and put on my headphones. The soothing music starts to play,
-as I begin to do some of my homework.”
+"After I finished eating, I took off my clothes, got into my bed, and put on my headphones. The soothing music starts to play, as I begin to do some of my homework.”
 
-"Eventually, my eyes start to tire. I put my work aside, laid down on, looked at the window, and as I listened to the music, 
-his voice...started to run through my mind.)”
+"Eventually, my eyes start to tire. I put my work aside, laid down on, looked at the window, and as I listened to the music, his voice...started to run through my mind.)”
+
+--black--
 
 mc “(I really want to ask him…)”
 
 mc “(Hey... you...)”
 
---black--
+--Back to normal--
 
 mc “OH SHOOT!! IT’S 8:15!”
 
@@ -184,19 +185,18 @@ mc “(I won’t make it to my 8 a.m class!! Damn… I forgot to set my alarm.)�
 
 "Disappointed and sad, I slammed my head back into my pillow.”
 
-
 Scene 3: 
-#Setting: Anywhere on Campus
-mc “(I missed my first class class today, but that’s okay. The notes are online so I should be fine.)”
+
+#SETTING: Anywhere on Campus
+
+mc “(I missed my first class today, but that’s okay. The notes are online so I should be fine.)”
 
 mc “(What terrible luck… Whatever, I should find a place to study now.)”
 
-mc “(Oh! I know where! Ren told me that Ayala Library is a great place to study and I haven’t been there yet either.)”
-
---black--
-
+mc “(Oh! I should try the library. I haven’t been there yet either.)”
 mc “(I think it should be around here somewhere…)”
 
+#image 
 mc “(Oh! I see it. Wow, it looks so nice from the outside…)”
 
 "I then suddenly bumped into someone
@@ -239,8 +239,7 @@ mc “(Next time?! What am saying!?)”
 
 mc “Here’s your bott…”
 
-“As I return the bottle to him, my legs start to feel weak. Suddenly, as if a ghost had possessed me,
-my legs stumble and I fell toward him.”
+“As I returned the bottle to him, my legs started to feel weak. Suddenly, as if a ghost had possessed me, my legs stumble and I fell toward him.”
 
 jd “Oi, Are you okay?”	
 
@@ -257,7 +256,7 @@ jd "It's oka..."
 
 "After nervously apologizing, I got up and quickly walked away.”
 
-#cut----------------------------------------------
+#end of option----------------------------------------------
 
 #Setting: Outside
 
@@ -267,7 +266,7 @@ mc “(Why did I do that... at first I wanted to meet him, and when I met him, I
 
 mc “(It’s okay! It’s over now. I need to focus and get some work done.)”
 
-#Setting: ayala
+#Setting: Inside library
 
 mc “(This library is so nice. It looks so modern and it feels so comfortable.)”
 
@@ -281,10 +280,9 @@ mc “He’s reading his book so he doesn’t notice me yet. What should I do?!)
 
 mc “(Okay, no problem. This is fine. It’s not awkward at all. We’re just two people studying at the same table.)”
 
-"A few minutes pass by as I try to study."
+"A few minutes passed by as I try to study."
 
-mc “(This feeling is so tense... how am I supposed to focus?! I wonder if he’s looking at me. Should I peek to see if he is
-or should I just leave??)”
+mc “(This feeling is so tense... how am I supposed to focus?! I wonder if he’s looking at me. Should I peek to see if he is or should I just leave??)”
 
 [Player Options 2]----------------------------------------------
 
@@ -304,11 +302,11 @@ mc “(He’s not looking at all, or maybe he is indirectly looking and he can a
 
 mc “(AH! I know a way to test this.)”
 
-"I gently put my book down, with my face looking down. I then softly yawn."
+"I gently put my book down, with my face looking down. I then softly yawned."
 
 mc “(If he yawns then that means that he’s definitely looking at me! Hehe, I’m a genius!)”
 
-"He then yawns almost instantly!"
+"He then yawns almost instantly."
 
 mc “HA I KNEW IT!”
 
@@ -322,20 +320,18 @@ mc “(Wait… Why is everyone looking at me?)”
 
 mc “(OH NO, I DID IT AGAIN!! ME AND MY BIG MOUTH. I NEED TO LEAVE.)”
 
---black--
+--black and back--
 
 mc “(That was so embarrassing! I got played by that fool!!)”
 
----[Hell no, get the heck out of there!!] (worst)---
+----[Hell no, get the heck out of there!!] (worst)----
 
 mc “(I can’t believe he’s here again. I’m definitely leaving.)”
 
 "I got up and left."
 
 
-#cut----------------------------------------------
-
---black--
+#End of option----------------------------------------------
 
 #library
 
@@ -355,7 +351,6 @@ mc “(I should drop by and support them. Maybe Ren will give me a discount hehe
 
 mc “(Hopefully he’s not there running the booth or something. I can’t stand seeing him again.)”
 
---black--
 #outside anywhere
 
 mc “(I think the booth is on ring road somewhere… )”
@@ -390,16 +385,15 @@ Ren “No problem kiddo.”
 
 mc “(The park is on the way to my apartment, that’s perfect.)”
 
-#player’s apartment
+#SETTING: player’s apartment
 
 mc “(Let’s see… I should change first into something more comfortable.)”
 
 mc “(Okay, that’s done, now I just need to grab my basketball and then I can head to the park.)”
 
-#park
+#SETTING: park
 
-mc “(This park is amazing, there’s even a pond here! It’s so empty and quiet. Everyone must be too busy with school to 
-have time to come here.)”
+mc “(This park is amazing, there’s even a pond here! It’s so empty and quiet. Everyone must be too busy with school to have time to come here.)”
 
 mc “(The quietness of the park creates such a relaxing atmosphere compared to the liveliness on Ring Road...)”
 
@@ -415,7 +409,7 @@ mc “(Should I confront him this time?)”
 
 [Player Options 3]
 
-[Yes, and make sure you show him who’s boss] (Best Choice + Bonus)
+---[Yes, and make sure you show him who’s boss] (Best Choice + Bonus)---
 
 “I walk up to him to confront him."
 
@@ -481,15 +475,13 @@ mc “(Actually, if I run, I might be able to make it back before the rain hits!
 
 mc “(What the?! It’s raining already! What a splendid day... It couldn’t get any worse.)”
 
-mc “(Something is covering me from the rain...)”
-
-“He's holding an umbrella over my head.”
+“Without asking him, he came over towards me with an umbrella and held it over our heads.”
 
 mc “(This guy... what does he want. He’s probably going to ask me if he can walk me home.)”
 
 jd “I’ll walk you home.”
 
-mc “(Who does this guy think he is?? He didn’t even ask me, he just demands that I walk home with him.)”
+mc “(Who does this guy think he is?? He didn’t even ask me, he just demands that I walk home with him??)”
 
 mc “No thanks. I’d rather stay in the rain.”
 
@@ -497,20 +489,17 @@ jd “Then I will stay here in the rain, together, with you.”
 
 mc “(Huh??...)”
 
-"Unexpected were his words as I turned my head to look at him."
+"Unexpected were his words as I turn my head to look at him."
 
-mc “Who... is this guy.”
+mc “(Who... is this guy.)”
 
-#settings: road?
+#settings: road
 
-"It was turning night. We walk home in silence as the rain falls. 
-The sound of the rain brought a soothing quietness, but it did not bring solitude."
+"It was turning night. We walked home in silence as the rain falls. The sound of the rain brought a soothing quietness, but it did not bring solitude."
 
 "He stood next to me, with his umbrella above us as we walk through our reflection on the concrete."
 
-"The quietness wasn’t awkward between us, but instead it felt… comforting, as if two friends had reunited after years of isolation..."
-
-"No words needed. The rain spoke for us."
+"The quietness wasn’t awkward between us, but instead it felt… comforting, as if two friends had reunited after years of isolation...No words needed."
 
 "Once we arrived at my place, I turn to look up at him."
 
@@ -549,7 +538,6 @@ mc “My name is (y/n)".
 jd "(y/n)...”
 
 
-
 #inside prot apartment
 
 mc “(It’s so cold in here!! I need a warm bath so badly!)”
@@ -585,9 +573,11 @@ mc “(This guy…)”
 
 mc “Fine, if I win, you leave.”
 
-jd “Don’t worry, you won’t will.”
+jd “Don’t worry, you won’t win.”
 
-mc “(THIS GUY!!!)”
+mc “...”
+
+“From a distance a faint sound of thunder strode across the sky.”
 
 mc “(Was that thunder?)”
 
@@ -619,7 +609,7 @@ mc “(So he did notice me… Maybe I should’ve taken his offer. I sounded pre
 
 mc “You idiot… now you’re gonna be going home dripping wet.”
 
-#Setting your apartment
+#Setting: MC apartment
 
 mc “(It’s so cold in here!! I need a warm bath so badly!)”
 
@@ -646,11 +636,11 @@ mc “(Today is already pitch day… I hope I don’t choke up there.)”
 
 mc “(I'm getting so nervous even though this is a small presentation…)”
 
-jd "Up next we have a game called Find the Faker by” +[mc]
+jd "Up next we have a game called Find the Faker by (y/n).”
 
-mc "Hi everyone. My name is” + [mc] “and my game is called Find the Faker."
+mc "Hi everyone. My name is (y/n) and my game is called Find the Faker."
 
-mc "So my game is a text based game with animation where the player plays as the main character and as the story develops, the player are provided with evidence and clues."
+mc "So my game is a text based game with animation where the player plays as the main character and as the story develops, the player is provided with evidence and clues."
 
 mc "There will be an abnormal villain within your group of characters that can morph itself into anyone."
 
@@ -660,9 +650,11 @@ mc “(Okay, you got this, everything is going smoothly, just stall it out for a
 
 mc "That's the gist of it. Thank you for listening, and once again, the name of my game called Find the Faker."
 
-“(The crowd claps)”
+“The crowd claps and from a distance I can hear Ren’s ecstatic voice.”
 
-mc “(It’s over…What a relief.)”
+Ren “WOOO! YEAH!!”
+
+mc “(Jeez Ren… you’re killing me. But It’s over now…What a relief.)”
 
 Ren "Hey, you did great! I expected nothing less from you kiddo."
 
@@ -672,9 +664,9 @@ mc “Oh Ren, you’re not gonna pitch an idea?”
 
 Ren “Nope. I’ve decided to join your group! Well, if that’s cool with you!”
 
-mc “Of course!”
+mc “Yeah, it would be an honor to have you!”
 
-Ren "Anyway, we'll find out who will be in our group in the next meeting. I have to head out now, but I'll catch you later."
+Ren "Anyway, we'll find out who will be in our group next meeting. I have to head out now, but I'll catch you later."
 
 mc "Bye Ren!."
 
@@ -694,9 +686,9 @@ jd “Don’t worry, I won’t lose to a stalker.”
 
 mc “(Stalker!? Why you… no I shouldn’t fall for his taunts.)”
 
-[Player Option 4]
+#[Player Option 4]
 
-[Then come and challenge me today!](Best)
+#--[Then come and challenge me today!](Best)--
 
 mc “Instead of talking big, how bout you come out and play me tonight!”
 
@@ -704,24 +696,27 @@ jd “I would love to, but you’ll just have to wait a bit for your that L.”
 
 mc “Hmph. At this rate I guess I’ll just have to wait two lifetimes before I get to beat you.”
 
-jd “Hahaha, one day, when there’s enough time. Bye.”
+“Unexpectedly, he starts to burst out laughing.”
 
 mc “(That’s... the first time I heard him laugh.)”
+
+jd “One day,  when there’s enough time.”
+
+“He gave me a smile and walks away. I couldn’t understand this guy even if I knew him for a thousand years…”
 
 [Ignore him and walk away](Worst)
 
 mc “Scaredy-cat.”
 
-jd “Maybe soon!”
+jd “Maybe one day,  when there’s enough time.”
 
 mc “(Whatever. I should go home, it’s getting late.)”
 
-Scene 5
-Setting: Lecture Hall
-Characters: MC, Ren, jd
+“I rolled my eyes and walked away as if I could care less.”
 
-Dialogue:
-#Outside
+Scene 5
+
+SETTING: outside
 
 Ren "Heya!"
 
@@ -749,9 +744,9 @@ jd “I have to talk to the board, but I’ll be back.”
 
 mc "What a great supervisor. He ditches us to wander off and he’ll never come back."
 
-Ren “That’s jd for ya. Hahaha. Let’s have an introduction everyone!”
+Ren “That’s J.D for ya. Hahaha. Let’s have an introduction everyone!”
 
-mc “(After introductions, we exchanged details. I then told my members the general information about the project.)”
+“After introductions, we exchanged details. I then told my members the general information about the project.”
 
 mc “(Hmmm it's getting late, I should head back soon.)”
 
@@ -767,22 +762,19 @@ jd “Thank you.”
 
 jd “I’ll see you later, Stalker.”
 
-mc “(This guy gets on my nerves so much.)”
-
-mc “(Maybe that’s his plan! I’m falling for him.. I mean his trap, falling for his trap!)”
+mc “(He really likes to get on my nerves.)”
 
 mc “(Anyway, I should start heading home.)”
 
-Scene 5
-Setting: Player’s Apartment
-Characters: MC and jd(Phone)
 
+
+Setting: Player’s Apartment
 
 mc “(I suddenly wake after hearing a message notification. It's 1 a.m!!)”
 
 mc “(Why is he texting me at 1 a.m?! Why am I so awake now...)”
 
-jd "Hey, this is me Jeorge, sorry for messaging you this late, but I was wondering when you wanted to meetup to discuss about the game?"
+jd "Hey, this is me J.D, sorry for messaging you this late, but I was wondering when you wanted to meetup to discuss about the game?"
 
 mc “(Mhhmm should I wait till the morning and answer or should I answer it now... 
 
@@ -800,28 +792,23 @@ mc “Yeah sure.”
 
 mc “(Wait. What did he say? WAIT, WHAT DID I SAY? HOW DID THIS HAPPEN.)”
 
-jd “Okay, sounds good. I’ll send you my address tomorrow”
+jd “Okay, sounds good. I’ll send you my address tomorrow.”
 
 jd “Goodnight.”
 
-mc “(I am so careless… I can’t even fall asleep now.)”
+“How am I so careless… I can’t even fall asleep now.”
 
-
-mc ”(It's 3 a.m...)”
-
-mc “(I'm going to be so tired tomorrow but I can't sleep. All because of him...)”
-
-#Setting: jd’s apartment
+#SETTING: jd’s apartment
 
 mc "So this is where the president lives huh?"
 
 jd "Yeah, it's pretty empty inside"
 
-mc It's so clean... 
+“His apartment is so clean and organized... it was like walking into a hotel.”
 
 mc "Your apartment is so clean, but you're a guy…”
 
-mc It's so sad when a guy's apartment is cleaner than yours...
+“It's so sad when a guy's apartment is cleaner than yours…”
 
 jd "I just like to keep things clean I guess."
 
@@ -831,7 +818,7 @@ mc "Yeah, sure. What do you have?"
 
 jd "Well the fri... I guess you found the fridge."
 
-mc “(I opened up his fridge and there was so much food inside! I really wanted to cook too because I haven’t cooked in so long.)”
+“I opened up his fridge and there was so much food inside! I really wanted to cook too because I haven’t cooked in awhile.”
 
 mc “So much fresh ingredients in here… You mind if I cook?”
 
@@ -851,7 +838,7 @@ jd “You’re pretty comfortable around strangers huh?”
 
 mc “You’re not a stranger… You’re a freaking stalker.”
 
-jd “Hahaha, I see.”
+“He gave out an awkward laugh and continued to cut the vegetables.”
 
 mc “Can you pass me the bowl over there and cut up the tomatoes.”
 
@@ -861,11 +848,9 @@ jd “You’re pretty good at cooking, but why did you suddenly want to cook?”
 
 mc “I don’t cook often, but since I have all these ingredients and someone to test my cooking, I can’t let go of such opportunity.”
 
-mc “(He just smiled and did not say anything back.)”
+“He just smiled and didn’t say anything back. We cooked for an hour or so and the food came out great.”
 
-mc “(We cooked for an hour or so and the food came out great.)”
-
-jd “It smells great, thanks for cooking me dinner.”
+jd “Thanks for cooking me dinner.”
 
 mc “What? Don’t think this is free. You owe me a dinner too.”
 
@@ -873,21 +858,23 @@ jd “Then I’ll have to come to your apartment and use your ingredients.”
 
 mc “Nevermind. I take that back.”
 
-jd “Hahaha. Let’s eat!”
+“We both burst out laughing.”
 
-mc “(As we ate, I noticed a weird outfit on his table.)”
+jd “Let’s eat!”
 
-mc "Is that your halloween costume?"
+“As we ate, I noticed a weird outfit on his table.”
+
+mc "Is that your Halloween costume?"
 
 mc "This is one good detective costume! Where did you get it?"
 
-jd "Oh, I made it."
+jd "I made it."
 
 mc "You made that by yourself? I guess you have some skill after all."
 
-mc “(I stood up to get a better look at the costume, but as I stood up, the bottom of my shirt catches the sharp corner of the table.)”
+“I got up to get a better look at the costume, but as I stood up, the bottom of my shirt caught the sharp corner of the table and rips.”
 
-mc "Damn it, my shirt… it ripped”
+mc "Damn it, my shirt…”
 
 jd "Here, take off your shirt."
 
@@ -895,15 +882,17 @@ mc "WHAT?! HUH?! YOU PERVERT."
 
 jd "Here take this shirt, put it on, and give me your shirt, I won't look."
 
-mc “(This guy... what is he up to. I took off my shirt, put on the other one and handed it to him.)”
+mc “(This guy... what is he up to.)”
+
+“He looks away. I took off my shirt, put on the other one and handed it to him.”
 
 mc "Here."
 
-mc “(He pulls out his sewing kit and starts to sew my shirt together… he does know how to do a lot of things...)”
+“He pulls out his sewing kit and starts to sew my shirt together…”
 
 jd "Here ya go, sorry I wasn't able to do a better job."
 
-mc "You sure know how to do everything huh... 
+mc "You sure know how to do everything huh…”
 
 jd "It's called being a responsible adult." 
 
@@ -915,33 +904,37 @@ jd "I meant that there are many different kinds of adults…”
 
 jd "Well it's late, we weren't able to discuss much, but we can talk about the game another day."
 
+“He’s right, it was getting late and we didn’t get any progress done. I really wanted to get at least something done.”
+
 mc "Let’s at least plan out the first group meeting first!”
 
 jd "Sounds good."
 
-Club Meetings
-Setting: Lecture Hall? Or  Game lab?
-Characters: jd, Ren, MC
+--Few days later--
 
 #player’s apartment
 
-“(*Beep Beep Beep*)”
+“The blaring sound of my alarm… I hate it.”
 
-mc “(I shouldn’t have stayed up so late last night… I’m so tired now.)”
+mc “I shouldn’t have stayed up so late last night… I’m so tired now.”
 
-mc “(Today is our VGDC group’s first meeting! I’m so nervous but excited at the same time. Leading a group is such a big task, hopefully I’ll be able to manage.)”
+mc “Today is our VGDC group’s first meeting! I’m so nervous but excited at the same time. Leading a group is such a big task, hopefully I’ll be able to manage.”
 
-mc “(I got up and got ready. Hmm I think I should dress a little nicer today…)”
+mc “Hmm I think I should dress a little nicer today…”
 
-#Outside anywhere
+“I jolted out of my bed and prepared myself for the day.”
+
+#Setting: Outside anywhere
 
 mc “(It’s almost time for the meeting… Thinking about it makes my stomach want to curl up.)”
 
-mc “(I’ll be fine! Let’s go in.)”
+mc “I’ll be fine!”
 
 #inside meeting place
 
-Ren “Wow! Look at that everyone, our leader looks so pretty today! You look good kiddo.”
+Ren “Wow! Look at that everyone, our leader looks so pretty today!”
+
+Ren “(Seriously, Ren is going to give me a heart attack one day.)”
 
 mc “(I’m… seriously about to faint. Everyone is actually here, including him and they’re all looking!! Maybe I shouldn’t have looked extra nice today.)”
 
@@ -951,13 +944,13 @@ mc “I’ll give everyone the full details of the game and then we can start by
 
 mc “I’ll need to talk to the artist and the writer to plan out the characters and stories.”
 
-mc “Audio boy, you work your magic! Sounds good everyone?”
+mc “Audio boy, start thinking of music selections! Sounds good everyone?”
 
 Members “Yea!”
 
 mc “Then let’s get to work!”
 
-mc “Hey jd, since we don’t have any writers… do you mind being our main writer?”
+mc “Hey J.D, since we don’t have any writers… do you mind being our main writer?”
 
 jd “Yeah, I don’t mind.”
 
@@ -969,9 +962,9 @@ jd “Yeah, what’s up?”
 
 mc “Oh nevermind…”
 
-mc “(I wanted to thank him for the meal last night, but I’m sure I don’t need to say anything.)”
+“I wanted to thank him for the meal last night, but I’m sure I don’t need to say anything.”
 
-mc “Okay Ren and jd so about the characters, can you guys talk to each other and come up with designs for the characters….”
+mc “Okay Ren and J.D so about the characters, can you guys talk to each other and come up with designs for the characters….”
 
 jd “That shouldn’t be hard. But knowing Ren, I’ll end up coming up with the characters all by myself.”
 
@@ -979,19 +972,27 @@ Ren “That’s not true! You’re the one that relied on me for all the charact
 
 Ren “That reminds me! You owe me a dinner for the characters I drew for your group last project since you guys didn’t have an artist!”
 
-jd “Oh yeah, I totally forgot about that! My bad Ren. I’ll cook you dinner tonight and bring it over.”
+jd “Oh yeah, I totally forgot about that. My bad Ren. I’ll cook you dinner tonight and bring it over.”
 
-mc “(Ren and Jeorge get along so well.)”
+mc “(Ren and J.D get along so well.)”
 
-mc “(We worked on the project for an hour. Throughout the hour of our meeting, I discussed my vision of the projects and questions that the members had.)”
+“We worked on the project for an hour. Throughout the hour of our meeting, I discussed my vision of the projects and questions that the members had.”
 
 mc “Alright everyone! Thank you for coming to today’s meeting. I’ll see everyone next meeting!”
 
 mc “(That meeting went well…)”
 
+“I felt an extreme pain coming from head. Damn, I probably didn’t get enough sleep.”
+
+“Suddenly, I heard a voice coming from behind me.”
+
 Ren “Good meeting today kiddo!”
 
-Ren “By the way, do you want to join us for dinner? It would be nice to have you and jd both come!”
+mc “Oi!	 You shouldn’t sneak up on someone like that…”
+
+Ren “Sorry, sorry!”
+
+Ren “By the way, do you want to join us for dinner? It would be nice to have you and J.D both come!”
 
 Ren “My place has been a bit empty and boring lately…”
 
@@ -1001,19 +1002,26 @@ mc “Sorry Ren, maybe next time! I have something that I have to do.”
 
 Ren “I see. No worries! You’re welcome to come if by if you change your mind!”
 
-mc “Thank you.”
+mc “Thank you.
 
 mc “(Boy am I tired. I feel like I’m gonna…)”
 
+--black--
+
 Ren “Hey! Can you hear me??”
 
+
 mc “(Is that Ren? Why do I feel so light-headed)”
+
+“I felt so exhausted. My body felt like it gave out and just collapsed. I opened my eyes and saw Ren in front of me.”
+
+--back--
 
 mc “Ren? Is that you? What happened…”
 
 Ren “You passed out right in front of me!”
 
-mc “Oh… I guess I did. Just a bit tired, I’ll be okay.”
+mc “Oh… I guess I did. I’m just a bit tired, I’ll be okay.”
 
 Ren “No way, you are not okay. You need to take better care of yourself.”
 
@@ -1021,17 +1029,17 @@ Ren “Here, hold onto my shoulders, I’ll carry you back home.”
 
 mc “No, I’m okay really… “
 
-mc “(She gave me a stare that is similar to that of a worried mother’s expression towards her child.”)
+“She gave me a stare that is similar to that of a worried mother’s expression towards her child. She then picked me up and carried me on her back.”
 
 mc “...Thank you, Ren.”
 
-#player’s Apartment
+#Setting: player’s Apartment
 
 Ren “You’ve been working too hard on yourself…”
 
 mc “Maybe just a little.”
 
-mc “(I smiled and she gives me a long sigh.)”
+“I smiled and she gives me a long sigh.”
 
 Ren “Alright, you just lay down and close your eyes. I’ll cook you something to eat right now.”
 
@@ -1039,20 +1047,33 @@ mc “Wait, I’ll be okay. You have dinner plans with someone and you can’t m
 
 Ren “Oh that? Don’t worry about it, he’ll understand. Rest up, I’ll cook you dinner tonight.”
 
-mc “(Ren…)”
+mc “Ren…”
 
-mc “(Why do you do this… for me?)”
+--black--
+
+“I closed my eyes and rested. I’m so grateful to have someone like you as a friend, Ren.”
+
 Ren “Okay, the food is ready, let’s eat!”
+
+--back--
+
+“Hearing Ren’s voice, I gained consciousness again and the smell of her amazing cooking rushed through my nose.”
+
+mc “Ren… that smells so good.”
 
 Ren “Come on you lazy pig, get up.”
 
 mc “Hey wait! Hey that tickles!”
 
-mc “(Ren picked me up and carried me to dinner table.)”
+“Ren picked me up and carried me to dinner table. The table was filled with food.”
 
 mc “Wow! You cooked all of this for me??”
 
-Ren “For US. I’m gonna eat your food with you! Oh yeah, make sure you sleep early tonight and not stay up late.”
+Ren “Yeah… I kinda used a lot of your ingredients hehe. But I also cooked extra so you can eat while you work instead of starving yourself…”
+
+mc “It’s okay, I never get the chance to use them anyway.”
+
+Ren “Make sure you sleep early tonight and not stay up late.”
 
 Ren “I’m cooking your dinner so you better listen to what I say... OR else MUWAHAHA.”
 
@@ -1062,12 +1083,10 @@ Ren “What did you say?”
 
 mc “N-nothing!”
 
-mc “(We both laughed…  I’m so grateful to have such a good friend like you in this life...)”
+“We both laughed endlessly. Ren… Thank you so much.”
 
-Player’s Apartment Part 1235332
-Setting: apartment
+#Setting: player’s apartment
 
-#player’s apartment
 Ren “Hey! Wake up! I’m here to cook you breakfast!
 
 mc “(It’s 8 a.m and she’s already here knocking at my door....)”
@@ -1082,23 +1101,23 @@ Ren “Better safe than sorry! You've also been over-studying, so I'm here to ma
 
 Rne "And anyway, my apartment is lonesome, so I’m gonna crash here and hang out with you for the day!”
 
-mc “(Even though it’s 8 a.m on a Saturday, I’m happy that Ren came. It does get pretty lonely sometimes.)”
+“Even though it’s 8 a.m on a Saturday, I’m happy that Ren came. It does get pretty lonely sometimes.”
 
 mc “Okay, okay I’m going back to bed. Please, Just 10 more minutes. Or better yet, wake me up when you finish cooking. Thank you!”
 
 Ren “....”
 
-mc “(It's almost the end of the quarter and the club meetings are going well. We made a lot of progress so far and we’re on track to finish it by winter break.)”
+“It's almost the end of the quarter and the club meetings are going well. We made a lot of progress so far and we’re on track to finish it by winter break.”
 
-mc “(Ren and I have also been getting extremely close.)"
+“Ren and I have also been getting extremely close.”
 
-mc "(After the incident where I fainted in front of her, she would always check up on me and take care of me.)”
+“After the incident where I fainted in front of her, she would always check up on me and take care of me.”
 
-mc  “(And as for J.D, I would always see him at club meetings and he would always make the meeting fun, interesting, and productive for everyone.)”
+“And as for J.D, I would always see him at club meetings and he would always make the meeting fun, interesting, and productive for everyone.”
 
-mc “(As I felt the stitches on the shirt that he sew back for me, memories of when I first met him at the park came back.)”
+“As I felt the stitches on the shirt that he sew back for me, memories of when I first met him at the park came back.”
 
-mc “(I haven’t seen him at the park since our first encounter...)”
+“I haven’t seen him at the park since that day…”
 
 Ren “Hey sleepyhead, wake up!”
 
@@ -1110,11 +1129,11 @@ Ren “That’s why you have to take time away from your busywork and spend a li
 
 mc “That’s easier said than done… being an adult requires us to uphold a lot of responsibilities. We actually have to worry about the future ahead of us now.”
 
-mc “Work hard now and enjoy life later! That’s my motto.”
+mc “Work hard now and enjoy life later! That’s my motto. Kinda.”
 
 mc “Besides, it’s impossible for me to make time for relaxing since finals and projects are coming up.”
 
-Ren “Well… that’s why I’m here! To find the time for you to relax instead of over studying. Haven’t you heard?? Too much studying is equal to ‘student dying’.”
+Ren “Well… that’s why I’m here! To find the time for you to relax instead of over-studying. Haven’t you heard?? Too much ‘studying’ is equal to ‘student dying’.”
 
 mc “Haha, real funny. I’m gonna fail my exams because of you…”
 
@@ -1122,19 +1141,21 @@ Ren “You’re not wrong though. We do have a life ahead of us to worry about a
 
 Ren “But sometimes we forget the things that are also important in our life, and sometimes we don’t realize it until it’s too late.”
 
-mc “(Tears started to fall down her gentle face as she spoke. I can sense feelings of sincerity and regret coming from her.)”
+“Tears started to fall down her gentle face as she spoke. I can sense feelings of sincerity and regret coming from her.”
 
-mc “(What she said weren’t merely just words, but experiences. Experiences that she had gone through. Experiences that shouldn’t be taken lightly. Ren…)”
+“What she said weren’t merely just words, but experiences. Experiences that she had gone through. Experiences that shouldn’t be taken lightly.”
+
+mc “Ren…”
 
 Ren “Work hard and enjoy life along the way with others! That’s my motto for sure.”
 
 Ren “You also better take care of your health too! You can’t work hard or enjoy life if you’re always out of energy!
 
-mc “Ren… fine, let’s relax then! You prepare the food and I’ll prepare… the Netfix!”
+mc “Ren… fine, let’s relax then! You prepare the food and I’ll prepare… the Netflix!”
 
 Ren “That’s what I like to hear!”
 
-mc “How about you come back tomorrow night and I’ll cook you dinner to repay ya for all those times that you took care of me?”
+mc “How about you come back tomorrow night and I’ll cook you dinner to repay you for all those times that you took care of me?”
 
 Ren “That sounds great, but we’ll have to do it another day! Sadly, I’m going to be busy tomorrow. J.D and I made plans to go somewhere.”
 
@@ -1158,7 +1179,7 @@ mc “Thank you, Ren.”
 
 “Oh, I know! I’ll cook everyone something nice and the last meeting can just be a hangout!”
 
-Last Club Meeting
+#Last Club Meeting
 
 #setting: apartment
 
@@ -1169,11 +1190,12 @@ mc “I hope they’ll enjoy my cooking. I mean, why wouldn’t they? I’m a pr
 #setting: outside/lobby
 
 “As I walk towards the room, I start to get that indescribable feeling… the feeling that you get when you know that a story is coming to an end. 
+
 “I mean, it’s a good ending… but this might be the last time I’ll really get to be this close to everyone.”
 
 “Then everyone will be going off to another group or doing their own thing next quarter. I know that we will all keep in touch, but we won’t be as close as we are now.”
 
-#Enters the room
+#Enter meeting room.
 
 “Well, that’s part of the journey I guess. Let’s enjoy this last moment…”
 
@@ -1185,7 +1207,7 @@ jd “Didn’t you see the group chat?”
 
 “I pulled out my phone to check”
 
-mc “Hey (y/n), Alex, me, and Melody are all going to be busy. We will not make it to the last meeting! Sorry! But we can hangout after finals! - Love ya, Ren”
+mc “Hey (y/n),  Most of us will not make it to the last meeting! Sorry! But we can hangout after finals! - Love ya, Ren”
 
 mc “(Why didn’t I check my messages earlier…ughhh.)”
 
@@ -1197,7 +1219,7 @@ mc “You’re eating all of that. By yourself.”
 
 mc “I can’t believe that they all ditched the meeting… I really wanted to thank them for their hard work you know.”
 
-“He starts to eat my food.”
+“He opens up the box and starts to eat my food.”
 
 jd “You’ll get to do it later, when we hang out after finals.”
 
@@ -1205,10 +1227,10 @@ mc “You’re… actually eating my food.”
 
 jd “It’s pretty good. Your cooking tastes even better the third time. It’s a shame that the group’s not here to try it.”
 
-mc “(Why am I blushing!?)”
+“Hearing him say that, made me blush a little…I guess my cooking is pretty good.”
 
-#Player Option 
-#option 1: Asks him if he really likes your cooking.
+#Player Option --------------------------
+#option 1: Asks him if he really likes your cooking.-------
 
 mc “Is it really that good?”
 
@@ -1226,7 +1248,7 @@ mc “I… Thanks.”
 
 “I sat down, across from him.”
 
-mc “Since no one is here, I guess I’ll just give you my thanks. Good luck on your finals.”
+mc “Since no one is here, I guess I’ll just give you my thanks and good luck on your finals.”
 
 jd “Hey.”
 
@@ -1242,16 +1264,19 @@ mc “You’re on.”
 
 jd “Before that, here.”
 
-“He hands me a wooden double picture frame.”
+“He handed me a rectangular box. I opened it and inside was a wooden double picture frame.”
 
-jd “I always get it for everyone in the group that I’m in. It’s like a souvenir... to remind them that they were a part of a wonderful journey.”
+“On one picture it was the picture of the whole group. And on the other was a picture of me staring at him with my irritated expression.”
 
-jd “The other one is special. I got it for you as a personal thank you for holding the team together and creating a memorable experience for all of us.” 
+jd “I always get it for everyone in the group that I’m in. It’s like a souvenir... to remind them that they were a part of a wonderful journey. I gave everyone else it already, so you’re the last one.”
+
+jd “This one is special. I got it for you as a personal thank you for holding the team together and creating a memorable experience for all of us.”
+ 
 “I hadn’t expected this at all… I was awed. I looked at him in the eyes and he gently smiles back.”
 
 mc “Thanks…”
 
-#option 2: Try to invite him over to your place. #Best
+#-------option 2: Try to invite him over to your place. #Best----------
 
 mc “Is it really that good?”
 
@@ -1269,15 +1294,13 @@ jd “Where do you want to go?”
 
 mc “We’re going to my place.”
 
-jd “Huh… What??”
+jd “Huh… What?”
 
 mc “Come on, let’s go. I want you to try something.”
 
-“Like a spirit had possessed, I grabbed him by the hand and dragged him to come with me”
+“Like a spirit had possessed, I grabbed him by the hand and dragged him to come with me.”
 
 jd “Hey wait! We can take my car, it’ll be faster...”
-
---black--
 
 #Player’s apartment
 
@@ -1315,6 +1338,12 @@ jd “I like this one. I got it for you as a personal thank you for holding the 
 
 “I was shook. Words did not come to me. I did not expect this. As I stare at the pictures, I wanted to thank him, but I couldn’t say a word. I only shed a few tears.”
 
+jd “Are you okay?”
+
+mc “Yeah! I’m good. What do you mean? Nothing’s wrong with me.”
+
+“He smiles and looks away.”
+
 jd “Oh yeah, did you want to show me something? Sorry for stealing the show.”
 
 “I finally snapped out of my trance and wiped the few tear drops off my face.”
@@ -1323,9 +1352,13 @@ mc “Sorry, I got a bit distracted. Thank you very much for the gift…”
 
 mc “Okay! Sit down and relax. I’m going to make food for you to repay you for the meal at the start of the year.”
 
-jd “This is rare so I guess I’ll accept your offer.”
+jd “This is rare so I guess I’ll accept your offer. Let me also help you.”
 
-“I looked at him in the eyes and he gently smiles back. As the night went on we talked to each other endlessly as we ate. I was getting to know him more and… it was nice.
+--black--
+
+“As the night went on we talked to each other endlessly as we ate. I was getting to know him more and… it was nice.”
+
+--back--
 
 jd “That was really good. Thank you for the meal.”
 
@@ -1335,17 +1368,17 @@ jd “It’s been a whole quarter already huh?...”
 
 mc “Yeah… are you leaving now?”
 
+“He did not reply, but just stared at my basketball.”
+
 jd “Is that your basketball over there?”
 
 mc “Yeah.”
 
-“He didn’t answer my question but instead grabs my hand.”
+“He didn’t answer my question but instead grabs the ball.”
 
 jd “Let’s go, I want you to see something.”
 
 mc “Huh?”
-
-“He picks up the basketball.”
 
 jd “I wanna show you what a real winner looks like.”
 
@@ -1360,22 +1393,25 @@ mc “Ah I see. You’re on. We’ll finish our match tonight.”
 
 #Park Scene
 
-Setting: Park
+#Setting: Park
 
 jd “Are you ready to lose? You start.”
 
 “He passes the ball to me.”
 
 mc “You’re gonna eat those words.”
-mc “(He’s playing extremely aggressive. I guess he really wants to win. I won’t let him.)”
 
-“It felt refreshing as we played.  I don’t want to lose… I don’t want this day to end.”
+“I dribbled the ball and our match began.”
+
+“It felt refreshing as we played.  I don’t want to lose.”
+
+mc “(He’s playing extremely aggressive. I guess he really wants to win. I won’t let him.)”
 
 mc “(There! An opening.)”
 
 jd “Not even close.”
 
-“He predicted my movements and blocks me.”
+“He predicted my movements and blocks my layup and grabs the ball.”
 
 mc “Not bad…”
 
@@ -1389,7 +1425,7 @@ jd “1-0.”
 
 mc “That was pretty lucky. I didn’t expect you to make that.”
 
-“Once get got the ball back he quickly 
+“Once he got the ball back he quickly tried to make another jump shot, but misses and I grabbed the ball.”
 
 mc “You know what they call me… the Handle God.”
 
@@ -1399,15 +1435,23 @@ mc “Too easy. You can’t guard me!”
 
 jd “Let’s see you do that again.
 
-“I did the same thing once again, but this time he swiftly moved back and tries to block me, but this time I reversed my layup and scored once again.”
+“Once again I dribbled the ball. I then did the same thing once again, but this time he swiftly moves back and tries to block me.”
 
-“Our bodies made contact during the shot and as I landed I felt a stinging pain coming from my left foot and I yelled out in pain.”
+“Anticipating his movements, I switched the ball over to my other hand and made a reverse layup and scored once again.”
+
+“Our bodies made contact during the shot and as I landed I felt a stinging pain coming from my left foot.”
+
+mc “Ahhh!”
 
 jd “Hey are you okay??”
 
 mc “Scored and one.”
 
-“He just slightly laughs and carried me over to a bench. We sat down on the bench.”
+“He just slightly laughs and carries me over to a bench.”
+
+jd “You played a bit too aggressive.”
+
+mc “I play to win… I’m not scared.”
 
 jd “Let me see your foot.”
 
@@ -1419,11 +1463,13 @@ mc “Then I win.”
 
 jd “Then I guess you win the bet. I’ll have to leave you alone now.”
 
-“I grabbed him by the arm. He turns and looks me in the eyes.”
+“I grabbed him by the arm. He turns and looks me in the eyes. I have him an angry and fustrated look.”
 
 mc “So you’re just going to leave me here, at night, after you injured me?!”
 
-jd “I’m joking, I’m joking. Hahaha.”
+jd “I’m joking, I’m joking! Of course I wouldn’t.”
+
+“He sat down again, took a sip of water and passed it over to me.”
 
 jd “It’s been a whole quarter already huh? Sorry it took this long for our rematch.”
 
@@ -1431,13 +1477,13 @@ mc “Don’t worry, I understand. Ren told me that you’re always busy so it o
 
 mc “So what are you going to do during winter break? Are you gonna go home?”
 
-jd “This place is like home to me so I’ll be staying here for the break. How about you?”
+jd “This place is like home to me so I’ll be staying here for the break I guess. How about you?”
 
 mc “I live up north so I’ll be heading back there to my family during the break...”
 
 “We sat on the bench silently for the next minute. He then broke the silence.”
 
-jd “How’s your dad like?”
+jd “What’s your dad like?”
 
 mc “(Huh? That’s a weird question…)”
 
@@ -1445,13 +1491,13 @@ mc “Uhmm… he’s just a uhhh… regular, nosy, old fool that always try to p
 
 mc “(Thinking about him is making me annoyed.)”
 
-jd “Oh I see. Your dad seems like a good man.”
+“He just gave a very slight but relieved smile.”
 
 mc “But I guess he’s wise and caring… sometimes. He’s a professor, so he always has some crafty stuff I can learn from I guess.”
 
 mc “(I wonder why he’s asking about my dad… I should ask him about his dad.)”
 
-mc “How’s your dad like?”
+mc “What’s your dad like?”
 
 jd “We’re… not close...”
 
@@ -1461,9 +1507,9 @@ jd “If you tried your best to help someone but they refuse to accept your help
 
 mc “If you know that you will never forgive yourself for giving up on them… then you should never let go of them.”
 
-jd “A man once told me a similar thing a few years ago.”
+jd “I like it… a man once told me a similar thing a few years ago.”
 
-mc “That’s one hell of a guy.”
+mc “He’s one hell of a guy.”
 
 jd “Yeah, I learned a lot from him.”
 
@@ -1496,6 +1542,7 @@ mc “(It’s Ren!)”
 “J.D looks at the man. Their eyes met, a cold stare that I have never seen before, came from J.D. Serious wouldn’t describe the look in his eyes, it was more of hatred.”
 
 “I wanted to ask him about the situation… but I couldn’t. It wasn’t my place to say anything.”
+
 jd “Ren, can you take (y/n) home.”
 
 Ren “Yeah.”
@@ -1515,7 +1562,6 @@ Ren “Don’t worry, I’ll explain everything once we get home.”
 
 “I looked at J.D and the mysterious man. Their eyes still glaring at one another without a single word. Is it his father? Why was Ren with him…?”
 
-#Apartment Scene 9000x
 Setting: MC apartment
 
 Ren “How’s your foot? Here let me get you some ice.”
@@ -1531,7 +1577,7 @@ Ren “Yeah, J.D and I are siblings… well, he’s my stepbrother.”
 
 Ren “Why? Did you think we were… perhaps, lovers?”
 
-“She starts so laugh. I on the other hand, was shook. I couldn’t believe what she had told me.”
+“She starts to laugh. I on the other hand, was shook. I couldn’t believe what she had told me.”
 
 mc “You guys are siblings?? You never told me this!!”
 
@@ -1539,7 +1585,7 @@ Ren “I thought you knew… hahaha.”
 
 mc “Don’t give me that ‘I thought you knew’ B.S. You told me you had plans with him so I thought you two… like each other…”
 
-Ren “Oh that… we were just planning to visit our mom in the hospital like usual. Here, sit down, drink some water, and I’ll explain to you everything…”
+Ren “Oh that… we were just planning to visit our mom in the hospital like usual...Here, sit down, drink some water, and I’ll explain to you everything…”
 
 Ren “So first off, that man you saw is J.D’s birth father and my stepfather. J.D and I both came from different parents.”
 
@@ -1559,7 +1605,7 @@ Ren “At that time, she had no one to support or help her. To her, the man had 
 
 Ren “She raised the child like her own, with love and care that only a mother can give. And that love, that she showed to the child, moved his father.”
 
-Ren “To him, watching her hold the child in her arms, was like watching the spirit of his own wife before his eyes. It brimmed his body full of warmth and life once more. In him, a cold and long winter had finally ended.”
+Ren “To him, watching her hold the child in her arms, was like watching the spirit of his own wife before his eyes. It brimmed his body full of warmth and life once more. In him, a cold and long winter had ended.”
 
 Ren “He would always come home a bit early. Hiding from a corner, he would watch her hold the child in both arms… He was falling in love with each, and every look.”
 
@@ -1571,7 +1617,9 @@ Ren “Regardless of being married, the love that the man and the woman showed t
 
 Ren “Soon after, the father wanted to expand his business to America. He wanted to move there, but he wasn’t sure of what to say to the her.”
 
-Ren “On the top of a hillside of his house he told her about his plans and tells her that she doesn’t have to come if she doesn’t wish to. She replied, ‘I owe you my life. And if you wish, I will follow you wherever you go.’”
+Ren “On the top of a hillside of his house he told her about his plans and tells her that she doesn’t have to come if she doesn’t wish to.”
+
+Ren “With that she replied, ‘I owe you my life. And if you wish, I will follow you wherever you go.’”
 
 Ren “Happy to hear that, he moved over to America with his family. Unfamiliar with the weather, she started to get minor illnesses. Aside from that, they lived happily in their new found home.”
 
@@ -1581,7 +1629,7 @@ Ren “With each and every day with her, the man’s love for her became stronge
 
 Ren “But before he had the chance to do so, she fell into a coma. Without any notice, without any time, without a word, she had already left him and their family. The family was in sorrow.”
 
-Ren “Sadness and despair consumed him once more. Even though he knows that there’s hope, every day that she didn’t wake up, despair thined his hopes.”
+Ren “Sadness and despair consumed him once more. Even though he knows that there’s hope, every day that she didn’t wake up, despair thinned his hopes.”
 
 Ren “Day by day, night by night he would skip work and sleep to be by her side at the hospital. The despair and burden drove him to absolute madness. He cursed at the Gods for bringing such curse into his life.”
 
@@ -1599,31 +1647,31 @@ Ren “His son, not accepting of his corrupt ways and desire for power, left. He
 
 Ren “And yeah… we went up north for a year. That’s where I attended your high school and J.D attended the university there.”
 
-Ren “But eventually we both missed home too much. We missed our mom. When J.D heard that our father moved back to Japan, he instantly took us back here.”
+Ren “But eventually we both missed home too much. We missed our mom. When J.D heard that our father had moved back to Japan, he instantly took us back here.”
 
 Ren “The reason why our father came back and looked for J.D was to… I’m not sure why actually. But something is different about him… but… maybe he misses us.”
 
 mc “Ren…”
 
-mc “By the way, how did you know all of past so well?”
+mc “By the way, how did you know all of his past so well?”
 
 Ren “I found his diary. Hehe.”
 
 mc “You nosy child...”
 
-mc “Your father… poor soul.”
+mc “(Her father… poor soul. Her mom… Their family went through so much.”
 
-“Their family went through so much. 
+Ren “I’m happy to see him again... And I want to help him, but I don’t know what to do.”
 
-Ren “I’m happy to see him again. And I want to help him, but I don’t know what to do. I want us to be a family again...”
+Ren “I want us to be a family again...”
 
-“I grab onto Ren’s hands tightly. Her cold, cold hands.”
+“I tightly grabbed onto Ren’s hands. Her cold, cold hands.”
 
-mc “If you know that you’ll regret not helping him, then never stop helping him! You can do it Ren!”
+mc “If you know that you’ll regret not helping him, then never stop helping him! Don’t lose hope!”
 
 Ren “(y/n)... Thank you.”
 
-“As Ren sat beside me. I started to slowly fall asleep. I looked at he and she too was slowly falling asleep.”
+“As Ren sat beside me. I started to slowly fall asleep. I looked at her and she too was slowly falling asleep.”
 
 --black--
 “Everything’s so dark… am I in a dream? From a distance I can see someone… it’s him! He has his back turned though. I can’t see his face. But it’s him for sure.”
@@ -1640,7 +1688,9 @@ mc “She must’ve fallen asleep.”
 
 mc “It’s late… I wonder where he is. I should text him.”
 
-“I grabbed my phone and texted him, but he didn’t reply. I decided to get some fresh air. My foot was still hurting.”
+“I grabbed my phone and texted him, but he didn’t reply.”
+
+“I decided to get some fresh air. My foot was still hurting.”
 
 Setting: Outside of apartment
 
@@ -1652,7 +1702,7 @@ mc “Yeah. Aren’t you cold? Do you want to go inside?”
 
 jd “No, it’s okay. I just need to talk to you.”
 
-mc “Ren told me everything about you, your dad, and your family.”
+mc “Ren told me everything about you, your dad, your mom, and your family.”
 
 jd “I see.”
 
@@ -1662,11 +1712,13 @@ jd “Yeah, I’ve treated her like my little sister ever since we were babies.�
 
 mc “So what happened between you and your dad?”
 
-jd “It was different… it was as if he was longing for someone to help him. For someone to save him. He came to see us as a way of asking for help…You’re right, I’m not going to give up on him.”
+jd “It was different… it was as if he was longing for someone to help him. For someone to save him. I guess… he came to see us as a way of asking for help.”
+
+jd “You’re right, I’m not going to give up on him.”
 
 jd “He asked me to go to Japan with him.”
 
-mc “Are you going?”
+mc “Japan? Are you going?”
 
 jd “Yeah. I’m packing tonight and leaving tomorrow.”
 
@@ -1674,9 +1726,9 @@ jd “Yeah. I’m packing tonight and leaving tomorrow.”
 
 mc “But what about Ren and your mom…? 
 
-jd “Tell Ren I apologize for leaving her… I’ll be back, but in the meantime, tell her to take care of mother for me. And I’m sorry, but I won’t make it to the club’s last meet up.”
+jd “Tell Ren I apologize for leaving her… I’ll be back, but in the meantime, tell her to take care of our mother for me. And I’m sorry, but I won’t make it to the club’s last meet up.”
 
-mc “You really are leaving… I understand.”
+mc “You really are leaving. It’s okay... I understand.”
 
 mc “I…”
 
@@ -1703,21 +1755,23 @@ mc “Thank you... “
 
 jd “I’m going to miss you.”
 
+“Tears filled my eyes…”
+
 #end of option
 
 “He turned around and took a few steps forward.”
 
 jd “Hey, thanks for everything… and tell your dad I said hi.”
 
-mc “Huh? Do you know my dad?! Hey wait up!”
+mc “Huh?? Do you know my dad?! Hey wait up!”
 
 “As he walks away with his back facing me, he pulls out his left hand and waves it.”
 
-mc “This guy… always playing the cool guy… and how does he know my dad?
+mc “This guy… always playing the cool guy. And how does he know my dad?
 
 “I opened up my phone and called my dad.”
 
-mc “Come on old man… pick up. Pick up…”
+mc “Come on old man… pick up. PICK UP…”
 
 Dad “Hey… what’s up? Why are you calling so late?”
 
@@ -1741,18 +1795,21 @@ mc “You’re kidding me.”
 
 Dad “He tried your food by the way.”
 
-mc “What?! What did he say about it??”
+mc “What?! What... did he say about it??”
 
 Dad “Too salty.”
 
 mc “Are.. are you serious?”
+
 Dad “No. Hahaha. He said he enjoyed it very much.”
+
+mc “You evil man…”
 
 mc “So he did try my food before. This world is too small for comfort. And how dare you allow him to eat my cooking without telling me!!”
 
 Dad “...”
 
-mc “Hey don’t you hang up on… He actually hung up on me… again. Guys are so annoying.”
+mc “Hey don’t you hang up on… He actually hung up on me… again!! Guys are so annoying.”
 
 “I couldn’t believe it… we had crossed paths before. I certainly didn’t recognize him, but he recognized me.”
 
@@ -1768,13 +1825,13 @@ Ren “Oi… how long did I sleep for? That sleep was actually super comforting.
 
 mc “Yeah you knocked out pretty early.”
 
-mc “Hey Ren, I have to tell you something…”
+mc “Hey Ren, I have something to tell you...”
 
 mc “After you fell asleep, I met up with J.D outside…”
 
 “I explained to her what J.D had told me…”
 
-Ren “I had a feeling that
+Ren “I had a feeling that would happen…”
 
 mc “You’re not sad?”
 
@@ -1782,7 +1839,7 @@ Ren “Of course I’m sad, but I know it’s for the best and someone has to ta
 
 Ren “One sec, someone is calling me, I’ll be right back.
 
-“Ren went into the the kitchen. Suddenly, I heard Ren dropping her phone. She came jolting towards me as if she was chased by a cougar.”
+“Ren went into the the kitchen and answered the call. Suddenly, I heard Ren dropping her phone. She came jolting towards me as if she was chased by a cougar.”
 
 Ren “I’m heading to the hospital now!”
 
@@ -1796,17 +1853,18 @@ Ren “No, I’m not sure if he left yet or not, but I’m going to head there n
 
 mc “Okay, run Ren! I’ll check if he’s still at his place.”
 
-“I texted him.”
+“I quickly pulled out my phone and texted him.”
 
 mc “Please see my message.”
 
-#Setting: outside
-
 “I grabbed my jacket and started sprinting towards J.D’s place.”
+
+
+#Setting: outside
 
 mc “Don’t leave yet…”
 
-“As I ran the pain on my foot started to get worse. I wanted to cry. I don’t want him to leave. Not now. Don’t go!!!”
+“As I ran the pain on my foot started to get worse. I wanted to cry. I don’t want him to leave. Not now!”
 
 mc “J.D are you there?! Please…”
 
@@ -1823,13 +1881,14 @@ mc “No… he’ll be at the hospital no matter what. Why then… am I so sad.�
 “My body, deprived of sleep; my foot, too weak to take another step. I closed my eyes and waited for the rain.”
 
 ENDINGS:
+
 Bad:
 
 “As I close my eyes my phone vibrates.”
 
 mc “‘Ren: J.D made it here to the hospital!!’”
 
-“tiny droplets of rain start to run down my face.”
+“tiny droplets of rain started to run down my face.”
 
 mc “That’s good… he made it to the hospital.”
 
@@ -1853,12 +1912,17 @@ mc “Hey… what are you doing here. You’re supposed to be at the hospital wi
 
 jd “You’re going to get sick if you stay out here.”
 
-mc “Always changing the subject…hahaha.”
+mc “Always changing the subject...”
 
-“He picked up my arms, wrapped it around his neck, and carried me on his back.”
+“A gave him a slight laugh and he picked up my arms, wrapped it around his neck, and carried me on his back.”
 
-“I tightened my wrap around him. Tears were coming out of my eyes. I rested my face against his shoulders.”
+“I tightened my wrap around him. Tears were coming out of my eyes. I rested my face against his shoulders next to his warm face.”
 
 jd “Let’s meet her, together.”
 
-THE END
+
+
+
+
+
+
