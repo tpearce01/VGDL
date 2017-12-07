@@ -1,0 +1,565 @@
+DIALOGUE:
+
+--Scene 1:--
+
+SETTING: Outside (Night)
+
+ax “Hey Bro! How’d I do up there?”
+
+mc “You got the girls giving off giggly noises if that’s the answer you’re expecting…”
+
+ax “HAHAHA! Yes, YES!”
+
+“With his fist clenched and raised in the air, he gave off an excited grin as he knew that he had accomplished his goal.”
+
+“Yeah, this… is definitely Alex. He lives in the moment just to impress girls…”
+
+“As we continue to walk he brings up an interesting topic…”
+
+ax “Did you see that girl, Melody?”
+
+mc “The one with the red streaks and the headphones? Audio girl, right?”
+
+ax “Yeah! Was she looking at me when I was speaking?”
+
+mc “No, she had an uninterested look the whole time. I don’t even think she even glanced at you.”
+
+ax “What?!? Are you serious…?”
+
+“He had a hopeless look on his face that can probably make any girl go ‘Awww, Alex’ and hug him.”
+
+mc “Yeah, but why does that matter? You like her or something?”
+
+ax “You don’t understand… I’ve been trying to get at her for the longest time...”
+
+mc “Since When!?”
+
+ax “Since last week.”
+
+“I raised my hand and smacked him on the head lightly.”
+
+mc “You freaking player. I thought you were serious.”
+
+ax “Oww, that hurts... Just kidding!”
+
+ax “But no, for reals… I want to try and get at her. I’ve known her since last year, but we didn’t talk much.”
+
+ax “Well, she didn’t talk to anyone much really, she’s always doing her thing. Like a lonewolf…”
+
+mc “I see…”
+
+ax “I like lonewolfs.”
+
+mc “...”
+
+ax “She’s also notorious for being a bad girl. Like the ones that can seduce you to do whatever she wants...”
+
+mc “I don’t think she has any bad intentions though...”
+
+ax “I like bad girls.”
+
+mc “... I am speechless. You will never change. I take that back. You will never grow up!!”
+
+“He starts to laugh hysterically.” 
+
+ax “Comeeee on… good girls ain’t no fun, am I right?”
+
+mc “I wouldn’t know…”
+
+ax “But yeah, she’s the ‘Hard to get’ kinda girl, so I really, reaaally want to impress her.”
+
+ax “You don’t understand how many guys tried to get at her last year…”
+
+ax “And did you not see the look on their faces this year?! She’s more desirable than ever!”
+
+mc “You talk about her as if she’s an object…”
+
+ax “Hahaha, did it sound that way? My bad, I meant to say that she’s… one of a kind you know. And maybe that’s why a lot of the guys like her.”
+
+mc “She is cute… I guess.”
+
+ax “Right?! But hey, she’s fair game. Though… you’re up against me if you want to snatch her away.”
+
+mc “You’re a lunatic. I’m not interested in her.”
+
+ax “Reaaaally? I can already read the fattest lie on your face.”
+
+mc “Why… you!”
+
+“Alex starts to laugh uncontrollably and runs away as I try to chase him.”
+
+“Suddenly, I realized that I didn’t have my phone on me.”
+
+mc “Alex! I lost my phone, can you call it, please?”
+
+ax “OH shoot, yea.”
+
+“Alex called my phone but no one picked up.”
+
+ax “No answer… I think you might’ve left it in the lecture hall.”
+
+mc “Damn… I’ll be right back.”
+
+“As I start running to the lecture hall, I accidentally bumped into someone on the shoulder. They gave off an angry expression.”
+
+kd “Watch where you're going, Kid.”
+
+mc “My bad…”
+
+kd “Pst. Get out of my way...”
+
+mc “Damn... isn’t he the production guy? What an ass...”
+
+“I got to the lecture hall and luckily the doors were still open....”
+
+SETTING: Lecture Hall
+
+"When I entered the lecture hall, the board was covered in graffiti and then I saw Melody drawing graffiti on the far wall. ‘VGDC sucks.’ was one of the messages on the wall.”
+
+“She turned around with a blank expression on her face, like a deer when you shine your high beams at it.”
+
+md “Damn… I forgot to lock the doors.”
+
+"I felt frozen in place. What should I do?"
+
+#----------Player Choice 1----------
+#-----#option 1: Apologize and tell her that you’re just here to look for your phone. (Worse)-----
+
+mc "Uh, I'm really sorry. I, um, well, I-"
+
+md “You’re looking for your phone right?”
+
+mc “Yes… how’d you kn-?”
+
+md “Here. Catch.”
+
+“She tosses the phone across the lecture hall to me.”
+
+mc “(I barely caught it… this girl is crazy.)”
+
+mc “Uh… thanks.”
+
+md “Close the door on the way out, will ya kiddo. And one more thing. If you tell anyone this, I’ll make sure you’ll regret ever coming to UCI.”
+
+“Her words sent shivers throughout my whole body and soul. She’s so aggressive… I felt as if I was the deer being hunted…”
+
+mc “Of c-course!”
+
+md “Good… now get out.”
+
+
+-----#option 2: Look for your phone and ignore her (Best):-----
+
+md “Hey!”
+
+mc "(Pull yourself together. She's not going to jump you.)"
+
+mc "(...)"
+
+mc "(...or will she?)"
+
+mc “(It doesn’t matter! I should just ignore her and look for my phone.)”
+
+md “Looking for this?”
+	
+“In her hand was my phone.”
+
+mc “Y-yeah…”
+
+md “Since you ignored me…”
+	
+md “I’ll tell ya what. Tell me your name, then kneel on the floor and beg for your phone… and MAYBE I’ll give you it back.”
+
+mc “(Pft… does she really think I’m going to be her dog? Play fire with fire.)”
+
+mc “What if I don’t… and instead I tell the board members what you’re doing right now.”
+
+md “You dare threaten me…?  Hmfph… this arrogant punk.”
+
+“She gave off an angry and aggressive smirk.”
+
+mc “Alright… you win.”
+
+“She tosses the phone across the lecture hall to me.”
+
+mc “(I barely caught it… this girl is crazy.)”
+
+“If you tell anyone this, I’ll make sure you’ll regret ever coming to UCI.”
+
+“Her aggressive tone and words sent shivers throughout my whole body and soul. 
+
+“I felt as if I was the deer being hunted. I’m wasn’t playing with fire… I was sinking in the middle of the ocean!”
+
+
+
+#----------End of Player Choice 1----------
+
+
+“Right before I left Alex came running through the door.”
+
+mc “(Oh no!! This is bad…)”
+
+ax “Hey dude, slow down next ti...”
+
+“He gazed around the room with a shocked expression on his face…”
+
+ax “You.. didn’t do this in like 10 seconds did you...?”
+
+mc “No…”
+
+“I pointed my finger towards her.”
+
+“Alex formed his hand into a gun-like formation with his index finger pointing towards her.”
+
+ax “Hey… Melody...”
+
+mc “(This is so awkward…)”
+
+“Alex then quietly whispers to me.”
+
+ax “Omg dude! This is my chance!”
+
+md “Great… don’t worry, Alex, it’s not permanent…”
+
+“Alex instantly smiles and then whispers to me.”
+
+ax “OMG!! She said my name!!”
+
+“I slammed my hand against my face.”
+
+“With a cool and calm posture he turns towards Melody.”
+
+ax “Yo, no worries… I won’t tell the board or anyone, I promise!”
+
+ax “I only have one favor to ask you though…”
+
+md “What.”
+
+ax “Uhh… do you want to.. eat lunch with us tomorrow?”
+
+md “No.”
+
+mc “(Us?? And damn she rejected his ass quickly.)”
+
+ax “But… I… uh need to ask you questions about audio… effects? I mean… since you did say that you’ll help people out if they have questions for ya.”
+
+“I closed my eyes. I was cringing at every B.S word that he said.”
+
+md “Fine.”
+
+“I slammed my hand against my face again. I can’t believe it worked...”
+
+md “Now get out of my lecture hall. And if any of you tell anyone, I’ll-”
+
+ax “Yeah! Don’t worry… we won’t.”
+
+“With a great sigh we looked at each other and exited the hall.”
+
+SETTING: Outside (night)
+
+ax “Speaking of the devil… awkward.”
+
+mc “You had to come in at the worst time…”
+
+ax “I scored us a lunch date with her though!”
+
+mc “US?! Why did you drag me into this…”
+
+ax “Because! Because... it would be awkward to have a 1 to 1 conversation with a beast like that!”
+
+“He points to me and pokes me.”
+
+ax “And because. You. Are. My. Wingman!”
+
+“I let out a big sigh.”
+
+mc “Fine, whatever.”
+
+mc “What a stressful and awkward situation… Let’s go home now.”
+
+ax “Forreal…”
+
+--Scene 2--
+
+SETTING: Student Center
+
+“It’s the next day. Alex and I have a ‘lunch date’ with Melody. I’m pretty sure this is gonna end up badly somehow...”
+
+ax “Hey dude!”
+
+mc “Why are you so... dressed up?”
+
+mc “Is that... cologne?” 
+
+ax “No girl can resist my beautiful physique.”
+
+ax “HAHAHA!”
+
+mc “Please stop.”
+
+mc “When is she coming?”
+
+“As I speak, someone snatches my lunch right before my eyes.”
+
+md “Mmmh! This looks good!”
+
+mc “Hey wa-!”
+
+mc “...”
+
+md “Thanks for lunch! So nice of you to offer it to me!”
+
+mc “I… whatever.”
+
+mc “(She did find my phone I guess…)”
+
+ax “Hel-.”
+
+“Before Alex can finish a word, she instantly dives into my food like a barbarian.”
+
+md “This is sooo good! Did you cook it!?”
+
+mc “Yeah…”
+
+md “Waah! You have to invite me over to your place sometimes.”
+
+“She looks at me and smiles innocently and then Alex looks at me and rolls his eyes.”
+
+mc “(So that’s how she wants to play it. The innocent, seductive girl that tries to get the two friends to fight over her...)”
+
+md “Oh hi there Alex! Didn’t see you earlier!”
+
+ax “You seem awfully happy this afternoon…”
+
+md “That’s because I, the most beautiful and smart girl, aced my quiz.”
+
+mc “(Alex is right… she’s totally different from the night before. She’s… much happier now.)”
+
+md “Oh yeah Alex, what kind of music related, audio-thingy, did you want to talk about?”
+
+ax “Well-uh…”
+
+mc “(Alex you fool… you didn’t prepare a subject to talk about did you…)”
+
+ax “How about… you join my group this year? Hehe?”
+
+md “Alex…”
+
+md “No.”
+
+“Alex’s face turns extremely mellow as Melody rejects his offer.”
+
+ax “Huh!? Why not…”
+
+md “I’m not going to join your group just because you ask me to. I can do whatever I like.”
+
+md “But…”
+
+“Melody then gives Alex a very distressed look. A kind of innocent and seductive look, kinda like a maiden in distress.”
+
+“Her voice too, started to sound fragile and sincere. She then holds up both of her index fingers and quietly taps them together.”
+
+md “...If you get me a something nice to drink… I might consider helping you out here and there.”
+
+“Alex instantly stood up without hesitation.”
+
+ax “Yes! Of course! Whatever drink you want, I shall buy it and deliver it you!”
+
+“She then pretends to be charmed by Alex’s hospitality.”
+
+md “Ohhh Alex… you’re such a sweet guy. No wonder why all the girls like you so much.”
+
+“Flattered by her over exaggerated words, Alex starts to pad his shoulders and straighten out his outfit.”
+
+mc “(Goodness sake… she got him to make that ‘I’m the best’ face…)”
+
+mc “(Alex you one gullible fool. You got played by her so hard.)”
+
+md “I would like a caramel macchiato, hot, with 2 shots of espresso and make it a venti as well!”
+
+ax “I’ll be right back!”
+
+“He bolts off towards the food court.”
+
+md “Soo… how did I do? That was pretty good, eh?”
+
+mc “He is the only person, in this universe, who would fall for that.”
+
+md “I know.”
+
+“She looks at me and starts to laugh.”
+
+mc “(The way she laughs… it’s pretty charming. I can’t help but to look at her.)”
+
+md “Don’t worry… I’m not trying to use Alex or anything.”
+
+md “I just think it’s cute. Like having a little kid brother.”
+
+“With her elbow on the table and one side of face against her curled up hand, she looks at me and smiles.”
+
+mc “(I’m not gonna lie… she’s… cu-)”
+
+mc “(Control yourself man!! You’re falling for the oldest trick in the book!!)”
+
+md “Oh yeah, we haven’t introduced ourselves to each other yet.”
+
+“She extends her hand out towards me.”
+
+md “I’m Melody, nice to meet you (y/n)!”
+
+#----------Player Choice 2----------
+-----option 1: Tell her that you’re not going to fall for her tricks (Bad)
+
+mc “Pft. I’m not going to fall for your tricks.”
+
+md “Aww...  you’re no fun.”
+
+
+
+-----option 2: Wait. How did you know my name? (Decent)
+mc “(How did you know my name?)”
+
+“She gives a slight grin and remained silent.”
+
+mc “Whatever.”
+
+-----option 3: Alex told you my name, huh? (Good)
+
+mc “(Damn that Alex…)”
+
+mc “Alex told you my name, huh?”
+
+“I grabbed her hand with mine and with a firm grip, I shook her hand.”
+
+md “Ahhh… I see. I can’t fool you.”
+
+mc “...”
+
+---------End of option 2---------
+
+“Just as fast as he had left, Alex came back with her order and she pats him on the head and smiles at him.”
+
+md “Thank you Alex.”
+
+mc “(The expression on his face when she patted him… yup. He’s definitely gone now. Dreaming in his own little world…)”
+
+md “Oh yeah, (y/n), are you planning to pitch a game for the club meeting next week?”
+
+mc “I’ll have to see… I’m not sure if I have time to manage a whole team.”
+
+md “I think you should… the more the merrier!”
+
+“Suddenly, both Alex’s and Melody’s phone vibrated at the same time.”
+
+mc “Hey you dimwit!”
+
+“I gently smack Alex on the head as he intensely stares at Melody.”
+
+ax “Huh?”
+
+mc “Your phone...”
+
+“He looked down at his phone and a few seconds after reading the message his mood and tone changes.”
+
+ax “Melody, we have to go. Now.”
+
+md “Yeah… I know.”
+
+ax “Sorry (y/n), but we gotta go. We’ll talk to you later!”
+
+mc “(Something’s wrong. Something serious…)”
+
+“I quickly grabbed Alex’s wrist.”
+
+mc “Call me after.”
+
+ax “Yeah.”
+
+mc “...”
+
+#Scene 3
+
+SETTING: Player’s apartment
+
+“I waited for hours. Waiting for Alex’s call.”
+
+mc “What’s taking him so long… something happened with VGDC.”
+
+“My phone rang! I quickly grabbed it and picked up.”
+
+mc “Alex! What happened?”
+
+ax “...We’re in big trouble.”
+
+mc “What do you mean.”
+
+ax “The whole VGDC board got called in… and not just us… the Dean staff and professors got involved too.”
+
+mc “The Dean… you mean the student affairs people??”
+
+ax “Yeah…”
+
+ax “Sooo… it seems that Melody’s work of art from the other day was not liked by the professors too much…”
+
+ax “The professors weren’t able to give their lectures today because there was graffiti all over the chalkboard. They called us in to clean it up.”
+
+mc “What!? I thought she cleaned up after herself?”
+
+ax “Well… she didn’t.”
+
+ax “It’s okay though! She didn’t get caught. They don’t have any evidence as to who did it.”
+
+“I let out a big sigh of relief.”
+
+ax “The only evidence that they have is that person probably really, really hates VGDC because a lot of the graffiti was dissing the club.”
+
+mc “Then Melody will be fine as long as she doesn’t do it anymore?”
+
+ax “Yeah… about that. You know the production officer, Kendrick?”
+
+mc “Yeah, the guy with the attitude?”
+
+ax “He’s… accusing Melody of being the one that did it and the two of them got in a big fight. Melody then bolted out the door after.”
+
+mc “That bastard… why does he have to be like that?”
+
+ax “Well… I probably would’ve done the same thing if I were him.”
+
+“Alex starts to giggle.”
+
+mc “What do you mean and why are you giggling?”
+
+ax “Let’s just say that the board didn’t believe Kendrick because he’s… a little bit bias.”
+
+ax “So last year, our boy Kendrick had a little crush on Melody…”
+
+mc “WHAT!? No way! Him and Melody??”
+
+ax “Yeah he was obsessed with her. He would try to do everything to impress her.”
+
+ax “Finally, one day, he decided to ask her to a school dance in front of EVERYONE at the meeting.”
+
+ax “I was there, front row, when Melody flat out rejected him and embarrassed him in front of everyone!”
+
+ax “The fool, he already knew that she wasn’t interested in him or anyone, yet he still set himself up for that one.”
+
+“Alex starts to hysterically laugh.”
+
+ax “Duuuude you should’ve seen it. Okay… most of the people felt bad, but I laughed my ass off.”
+
+mc “...”
+
+ax “I tried to hold it in though, but I couldn’t and it just bursted out. And then others laughed after too.”
+
+ax “I think that’s probably why Kendrick also hates me as well, but oh well, what can you do.”
+
+ax “Hey… you still there? Hellooo?”
+
+mc “Yeah, I’m just a bit shook…”
+
+mc “(Everything makes sense… the day that I bumped into Kendrick…)”
+
+ax “Well, that’s basically it. Talk to Melody about it if you see her around and keep our little secret about her artistry low key or else it might escalate to more drama.”
+
+mc “Gotcha. Thanks Alex.”
+
