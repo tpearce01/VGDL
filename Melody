@@ -123,7 +123,7 @@ md “Damn… I forgot to lock the doors.”
 "I felt frozen in place. What should I do?"
 
 #----------Player Choice 1----------
-#-----#option 1: Apologize and tell her that you’re just here to look for your phone. (Worse)-----
+-----#option 1: Apologize and tell her that you’re just here to look for your phone. (Worse)-----
 
 mc "Uh, I'm really sorry. I, um, well, I-"
 
@@ -553,6 +553,8 @@ ax “I tried to hold it in though, but I couldn’t and it just bursted out. An
 
 ax “I think that’s probably why Kendrick also hates me as well, but oh well, what can you do.”
 
+ax “That’s also the reason why I think she hates the club… Kendrick makes her life so much harder.”
+
 ax “Hey… you still there? Hellooo?”
 
 mc “Yeah, I’m just a bit shook…”
@@ -562,4 +564,126 @@ mc “(Everything makes sense… the day that I bumped into Kendrick…)”
 ax “Well, that’s basically it. Talk to Melody about it if you see her around and keep our little secret about her artistry low key or else it might escalate to more drama.”
 
 mc “Gotcha. Thanks Alex.”
+
+mc “Wait. One more thing Alex.”
+
+ax “Yeah?”
+
+mc “Do you think she’ll do it again?”
+
+ax “I’m… I’m not sure. Keep an eye on her if you can.”
+
+mc “Yeah.”
+
+mc “Melody…”
+
+#-------------Scene 4-----------------
+
+SETTING: Player’s apartment
+
+“A few has passed since the incident. I’ve submitted my pitch online and now I’m planning out the game, preparing for the actual pitch next meeting.”
+
+“I haven’t seen or talked to Melody yet…”
+
+“I took my phone out of my pocket and called Alex.”
+
+ax “Yo, what’s up.”
+
+mc “Hey, I have a question. Do you know where I can find a piano at school?”
+
+ax “Yeah there’s a public piano room and concert hall right behind the VGDC club meeting place.”
+
+mc “Alright, thanks.”
+
+ax “Doing a piano lesson or what?”
+
+mc “Yea-”
+
+ax “If you’re teaching piano lessons to a girl… and you’re not telling me about it…”
+
+“Without hesitation, I instantly hung up on him.”
+
+mc “Haiyah. That boy and his obsession with girls… unreal.”
+
+SETTING: Piano Concert Hall
+
+mc “Wow… this room is so beautiful! There’s no one here either…”
+
+“A grand piano sat on the middle of the wooden stage, surrounded by the warmth of the incandescent lights.”
+
+“The concert hall isn’t enormous, but the mood and the atmosphere is very subtle and cozy.”
+
+“I went on the stage, sat down on the stool, and started to feel the keys on the piano.”
+
+mc “Soft and beautiful as always… I want to test something.”
+
+“I started to play a few notes.”
+
+mc “(I’m not a professional pianist, but I know enough to impress a few girls.)”
+
+mc “(EHhheh…That was pretty cringe... I sounded kinda like Alex for a bit.)”
+
+“The keys on my fingers felt natural even though I haven’t touched a piano in months. The empty hall was filled by the sound of my creation.”
+
+mc “That’s enough testing for now…”
+
+unknown “That was pretty good.”
+
+mc “(A girl’s voice?)”
+
+“I turned towards the empty stalls to see who it was.”
+
+md “Hey.”
+
+mc “Melody? What are you doing here?”
+
+md “I should ask you the same question.”
+
+“She got up and walked towards the stage, towards me.”
+
+mc “Just testing something. Don’t worry, you’ll soon see.”
+md “Ahhh. Interesting.”
+
+“She stood next to me, while I sat, and slowly starts to move her hand across the surface of the piano keys.”
+
+md “This piano… it’s nice.”
+
+md “Well, nice seeing you again, (y/n). I’ll see you around.”
+
+“She gave me a smile before turning and leaving.”
+
+mc “Something or someone is bothering her… I can feel it.”
+
+mc “Can it be… that Kendrick guy?”
+
+mc “Hmm. Maybe I’m over thinking it. I should just mind my own business.”
+
+“I got up and before leaving the concert hall, I turned around and gave it one last glance.”
+
+“As I left the room, I turned to my left and saw the president of VGDC next to me. Surprised by his appearance, I took a few step back.”
+
+“He looks at me and gives me a slight, but beautiful smile.”
+
+jd “That was a beautiful piece that you played there.”
+
+mc “(How did he hear me?? I didn’t remembering seeing him in there.)”
+
+mc “Oh-uh, thanks.”
+
+“He walks away while whistling the tune that I just played.”
+
+mc “What a weird guy…”
+
+mc “Pitch day is tomorrow. I gotta get ready ASAP…”
+
+#Scene 5
+
+#SETTING: anywhere on campus
+
+mc “Today is pitch day and the meeting is going to start soon. I’m already getting some massive butterflies…”
+
+
+
+
+
 
