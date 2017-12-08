@@ -397,6 +397,10 @@ md “I just think it’s cute. Like having a little kid brother.”
 
 “With her elbow on the table and one side of face against her curled up hand, she looks at me and smiles.”
 
+“She slowly starts to scan my body with her eyes, from the heads down.”
+
+md “You’re a pretty good looking.”
+
 mc “(I’m not gonna lie… she’s… cu-)”
 
 mc “(Control yourself man!! You’re falling for the oldest trick in the book!!)”
@@ -549,11 +553,11 @@ ax “Duuuude you should’ve seen it. Okay… most of the people felt bad, but 
 
 mc “...”
 
-ax “I tried to hold it in though, but I couldn’t and it just bursted out. And then others laughed after too.”
+ax “I tried to hold it in though, but I couldn’t... and it just bursted out. And then others laughed after too.”
 
 ax “I think that’s probably why Kendrick also hates me as well, but oh well, what can you do.”
 
-ax “That’s also the reason why I think she hates the club… Kendrick makes her life so much harder.”
+ax “That’s also the reason why I think Melody hates the club… Kendrick makes her life so much harder.”
 
 ax “Hey… you still there? Hellooo?”
 
@@ -680,7 +684,139 @@ mc “Pitch day is tomorrow. I gotta get ready ASAP…”
 
 #SETTING: anywhere on campus
 
-mc “Today is pitch day and the meeting is going to start soon. I’m already getting some massive butterflies…”
+mc “Today is pitch day. I’m already getting some massive butterflies…”
+
+“I nervously walk around my room thinking about project idea.”
+mc “What if I stutter up there… no what if I don’t remember what to say. What if I can’t handle it and start to-”
+
+“My phone rang before I can finish my thought.”
+
+mc “Hello?”
+
+ax “Yo. Bad news.”
+
+mc “What happened?”
+
+ax “Someone told me that Melody plans on publishing her artwork again… so if you see her, keep an eye on her will ya?”
+
+mc “What is that girl thinking…”
+
+SETTING: outside anywhere (pref outside lecture hall)
+
+“I head towards the lecture a few hours before the meeting started.”
+
+mc “(I’m pretty sure she’ll be here…)”
+
+mc “(There’s no way she’ll be doing it after the meeting. She’ll definitely do it before.)”
+
+“Once there, I tried opening the doors but they were all locked except for one on the far side. I entered.”
+
+SETTING: lecture hall
+
+“Instantly, as I entered, she turns around and looks at me.”
+
+“I wave at her.”
+
+mc “Hey…”
+
+“I point and look towards the door.”
+
+mc “You, uh, forgot to lock this door.”
+
+md “How did you know I was here.”
+
+md “Let’s not worry that. You need to get out.”
+
+“She turns back around and continues to vandalize the board.”
+
+md “And what if I don’t.”
+
+“I start to walk towards her.”
+
+mc “Well, if you don’t… First they’ll probably make you clean the board, then kick you out of the club…”
+
+“I slowly walk up next to her and lightly yank the graffiti pen out of her hand.”
+
+mc “And finally, they’ll probably kick you out of the school.”
+
+“She turns, looks at me and smiles.”
+
+md “Only if I get caught.”
+
+“She pulls out another pen and continues her artistry.”
+
+“I let out a big sigh and continue to observe her ‘artwork’.”
+
+mc “Wow. You must really hate this club. Why not just leave?”
+
+md “You don’t understand. And anyway, I’m planning to leave this dumpster place soon.”
+
+“I look at the pen, unlocked the cap, and started drawing on the wall.”
+
+mc “This is a nifty pen.”
+
+md “Yup. It’s not permanent. It just takes a reaaaally long time to scrub it of-”
+
+“Before she can finish her sentence, she turns and looks at me confused, with one eyebrow raised higher than the other.”
+
+md “What are you doing??”
+
+mc “I’m making your artwork better.”
+
+mc “I think this miserable looking guy needs some cat ears...”
+mc “There! Perfect.”
+
+“I turn to look at her and smile. With her hands on her stomach she suddenly bursts out laughing.”
+
+“That laughter quickly dissolved as noises outside of the lecture hall can be heard and the locked doors start to crackle.”
+
+mc “I think they’re here.”
+
+md “What do you mean, the meeting doesn’t start for another hour.”
+
+mc “No, they’re here for you!”
+
+mc “We gotta go!”
+
+“As fast as our feet can move, we went for the closest door near us. As I opened and held door, I took in a breath of fresh air.”
+
+“But there was only one way leading to the main road and as soon as I took a step I catch a glimpse of a silhouette turning at the corner.”
+
+“I quickly pushed Melody back inside and quietly closed the door.”
+
+mc “Go to the other side and leave! They’re already here, I’ll stall for you!”
+
+md “No… you’ll get caught!”
+
+#----------Player Choice 3----------
+#-----option 1: Tell her that you didn’t do it so you can make up an excuse, but she’ll be kicked if they find out. (BEST)
+
+mc “I didn’t do the graffiti so I can make up an excuse, but you’ll get kicked if they find out!!”
+
+md “It doesn’t matter, I’m going to leave anyway!”
+
+mc “It does matter! I don’t want you to leave. Now go!”
+
+“I was surprised as she was when I had said those words to her.”
+ 
+“Speechless, she turns and starts to run for the other door.”
+
+#-----option 2: Tell her to go now and that she’s annoying.(WORSE)
+mc “Go now! You’re so annoying, just go! You’ll get both of us caught.”
+
+“She didn’t say anything, but her eyes started to get red. She then turns and heads for the other door.”
+
+mc “(Damn… maybe I shouldn’t have said that.)”
+
+#----------End of Player Choice 3----------
+
+
+
+
+
+
+
+
 
 
 
