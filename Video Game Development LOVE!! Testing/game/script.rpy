@@ -26,6 +26,27 @@ define mc = Character("[mcname]")       # Main Character / Protagonist
 define you_are_weeb_trash = True
 define kt = Character("Karen Tendo")
 
+# CHARACTER ATTRIBUTES
+define mcname = "Tyler"     # Default main character name
+define gender = "m"         # Default character gender
+
+# DIALOGUE VARIABLES
+define they = "he"          # UNUSED - Variable for setting gender he/she
+define they_c = "He"        # He/She Capital version
+define their = "his"        # UNUSED - Variable for setting gender his/hers
+define their_c = "His"        # His/Hers Capital version
+
+# CURRENT ROUTE
+define route = "common"     # UNUSED - Define current route title
+
+# AFFECTION - UNUSED
+define max_affection = 0    # Highest current affection, used for affection function
+define gd_affection = 0     # George Dan affection
+define yu_affection = 0     # Yukiko affection
+define re_affection = 0     # Reina affection
+define kd_affection = 0     # Kendrick affection
+define md_affection = 0     # Melody affection
+define ax_affection = 0     # Alexander affection
 
 ## START ##
 # MAIN GAME LOOP
@@ -35,6 +56,7 @@ label start:
     scene bg black              # Default to black scene in case of missing background
     
     # TESTING
+    #call test_werecat
     #call kd_route
     #call end_scene
     #call test_moon
@@ -160,34 +182,16 @@ label get_gender:
 # END GET GENDER
 ## END NON ROUTE SCENES ##
     
+    
+## INIT ##
+# VARIABLES DEFINED HERE WILL NOT BE SAVED BETWEEN RUNTIME
 init:
-    # CHARACTER ATTRIBUTES
-    define mcname = "Tyler"     # Default main character name
-    define gender = "m"         # Default character gender
-    
-    # DIALOGUE VARIABLES
-    define they = "he"          # UNUSED - Variable for setting gender he/she
-    define they_c = "He"        # He/She Capital version
-    define their = "his"        # UNUSED - Variable for setting gender his/hers
-    define their_c = "His"        # His/Hers Capital version
-    
     # SYSTEM TIME / WERECAT VARIABLES
     define year = 0
     define month = 0
     define day = 0
     define is_werecat = False
-    
-    # CURRENT ROUTE
-    define route = "common"     # UNUSED - Define current route title
-    
-    # AFFECTION - UNUSED
-    define max_affection = 0    # Highest current affection, used for affection function
-    define gd_affection = 0     # George Dan affection
-    define yu_affection = 0     # Yukiko affection
-    define re_affection = 0     # Reina affection
-    define kd_affection = 0     # Kendrick affection
-    define md_affection = 0     # Melody affection
-    define ax_affection = 0     # Alexander affection
+    image gd calm = "gd calm.png"
     
     # ANIMATIONS
     define anim_speed = .08
@@ -221,7 +225,7 @@ init python:
         if index == 4:
             is_werecat = True
             return True
-        is_werecat = False
+        is_werecat = False ## TESTING - SET TO TRUE, OTHERWISE SET FALSE
         return False
         ## NOTES ON WERECAT GEORGE DAN ##
         # TO DO:
@@ -258,4 +262,16 @@ init python:
     
     # AUDIO
     renpy.music.set_volume(0.25, 0, channel="music")
+    
+    # INIT - SETTING VARIABLES EVERY TIME THE GAME IS RUN
+    #image gd calm = ("gd calm.png")
+    #get_time()
+    #moon_phase(month, day, year)
+    #if is_werecat:
+    #    image gd_calm = ("werecat.png")
+init:
+    $ get_time()
+    $ moon_phase(month, day, year)
+    if is_werecat:
+        image gd calm = "werecat.png"
         
