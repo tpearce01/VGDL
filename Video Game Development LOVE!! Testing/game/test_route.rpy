@@ -10,6 +10,23 @@ label test_effects:
     return
 # END TEST EFFECTS
 
+# TEST WERECAT - NEED TO CHANGE moon_phase CODE TO RETURN TRUE/FALSE FOR PROPER TESTING
+label test_werecat:
+    python:
+        string_test = "Not a werecat"
+        if is_werecat == True:
+            string_test = "is a werecat"
+    show gd calm
+    "[string_test]"
+    "SOME TIME LATER..."
+    python:
+        string_test = "Not a werecat"
+        if is_werecat == True:
+            string_test = "is a werecat"
+    show gd calm
+    return
+# END TEST WERECAT
+
 label test_moon:
     python:
         string_data = "Not a full moon"
