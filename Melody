@@ -10,7 +10,7 @@ mc “You got the girls giving off giggly noises if that’s the answer you’re
 
 ax “HAHAHA! Yes, YES!”
 
-“With his fist clenched and raised in the air, he gave off an excited grin as he knew that he had accomplished his goal.”
+“With his fist clenched and raised in the air, he gives off an excited grin as he knew that he had accomplished his goal.”
 
 “Yeah, this… is definitely Alex. He lives in the moment just to impress girls…”
 
@@ -26,7 +26,7 @@ mc “No, she had an uninterested look the whole time. I don’t even think she 
 
 ax “What?!? Are you serious…?”
 
-“He had a hopeless look on his face that can probably make any girl go ‘Awww, Alex’ and hug him.”
+“He has a hopeless look on his face that can probably make any girl go ‘Awww, Alex’.”
 
 mc “Yeah, but why does that matter? You like her or something?”
 
@@ -674,9 +674,16 @@ mc “(How did he hear me?? I didn’t remembering seeing him in there.)”
 
 mc “Oh-uh, thanks.”
 
+“He hands me a basic flier.”
+
+jd “It’s a small piano competition here, in a couple of weeks.”
+
+jd “You should come and watch.”
+
 “He walks away while whistling the tune that I just played.”
 
 mc “What a weird guy…”
+mc “Piano competition? I’ve never watched one before… this might be interesting.”
 
 mc “Pitch day is tomorrow. I gotta get ready ASAP…”
 
@@ -789,9 +796,11 @@ mc “Go to the other side and leave! They’re already here, I’ll stall for y
 md “No… you’ll get caught!”
 
 #----------Player Choice 3----------
-#-----option 1: Tell her that you didn’t do it so you can make up an excuse, but she’ll be kicked if they find out. (BEST)
+#-----option 1: Ask her to trust you. (BEST)
 
 mc “I didn’t do the graffiti so I can make up an excuse, but you’ll get kicked if they find out!!”
+
+mc “Trust me on this one…”
 
 md “It doesn’t matter, I’m going to leave anyway!”
 
@@ -810,10 +819,301 @@ mc “(Damn… maybe I shouldn’t have said that.)”
 
 #----------End of Player Choice 3----------
 
+“Instantly, as she turns, I headed out once more.”
+
+SETTING: Outside Lecture Hall
+
+“In front of me were J.D and Kendrick. I froze still as their eyes gaze at mine.”
+
+kd “Well, well, well. What are you doing out here kid?”
+
+“He gave off a vicious and cold grin.”
+
+mc “Oh-hey, you guys are from VGDC right? I was just in there looking for my wallet because I had class this morning and I had lost it earlier this morning as well.”
+
+mc “You guys should definitely look inside though… someone has been vandalizing the lecture hall again.”
+
+kd “Again? Interesting how you would know that...”
+
+mc “(CRAP!!! I didn’t mean to say again, his is bad!!)”
+
+mc “Well yeah, I heard someone was vandalizing the lecture hall the other day… I guess they did it again.”
+
+“My body couldn’t move. It felt less of a talk and more of an interrogation. I was trapped.”
+
+kd “Then if say that you didn’t do it, did you see who did?”
+
+mc “I didn’t see anyone when I entered the room from this door.”
+
+“Irritated by my answer, Kendrick lunges forward with anger and grabs the torso of my shirt with two hands.”
+
+kd “Tell me who did it! I know that you know! Talk!”
+
+md “Hey! What’s going on around here. Why are the doors locked as well?”
+
+“It was Melody. She walked towards us and the two of them turn to look.”
+
+kd “Mind your own business. This kid is a suspect here.”
+
+md “Really? What proof do you have?”
+
+“J.D turns and looks at me.”
+
+jd “Open your hands and show me the pinky side of it.”
+
+“I push Kendrick away and did what J.D told me.”
+
+jd “There’s no markings or ink. You’re fine to leave.”
+
+kd “What? Are you serious J.D?! I’m sure this guy did it or knows who did it.”
+
+jd “Unless there’s evidence or we catch them in the act, then we can’t accuse him.”
+
+jd “Let’s go, Kendrick, we have to clean the hall before the meeting starts.”
+
+“Kendrick stares at Melody with an irritated expression.”
+
+kd “Annoying girl.”
+
+“I moved aside and they entered the hall.”
+
+“I look up at Melody. Our eyes met and I let out a big sigh. 
+
+md “Let’s go.”
+
+“We walk towards the main road.”
+
+SETTING: Ring Road
+
+mc “That… was so close.”
+
+md “I’m sorry I got you into that…really.”
+
+#----------Player Choice 4----------
+#-----option 1: Laugh. (BEST)
+
+“I look at her and start to laugh uncontrollably. I then collapsed onto the floor and laid down.”
+
+md “What?! What’s so funny?”
+
+mc “It’s nothing.”
+
+“She gives off an irritated look. I smiled at her.”
+
+mc “I’m just happy that we both got away. But don’t do it again next time!”
+
+md “Yeah… I’ll stop.”
+
+“I raised both my hands in the air. She came over and helped me up.”
+
+mc “Let’s find something to eat until the meeting.”
+
+“After taking a few steps, Melody grabs my hand.”
+
+“I turn around and face her.”
+
+md “I… thank you.”
+
+mc “Don’t worry about it...”
+
+#-----option 2: Tell her it’s whatevers.(WORSE)
+
+mc “It’s whatevers.”
+
+mc “I’m just happy that we both got away. But don’t do it again next time...”
+
+md “Yeah… I’ll stop.”
+
+mc “Let’s find something to eat until the meeting.”
+
+#-----option 3: It’s fine.(MEDIUM)
+
+mc “Oh, it’s fine! I still got away…”
+
+mc “I’m just happy that we both got away. But don’t do it again next time!”
+
+md “Yeah… I’ll stop.”
+
+mc “Let’s find something to eat until the meeting.”
+
+#----------End of Player Choice 4----------
+
+SETTING: Lecture Hall
+
+mc “My stomach is going to explode… I knew I shouldn’t have eaten before my pitch. Now I have food and butterflies in my stomach.”
+
+“The crowd claps as a girl finishes pitching.”
+
+jd “Next up we have (y/n) who will pitching a game called Gentle Keys.”
+
+mc “Thats me… oh this is not good.”
+
+“The crowd claps as I slowly walk up to the stage.”
+
+mc “(There’s so many people… my stomach…)”
+
+mc “(Phewww. Okay. Let’s go.)”
+
+mc “Hi everyone, my name is (y/n). My game is called Gentle Keys.”
+
+mc “This game is a rhythm slash music video game. If you’ve ever played Guitar Hero or Osu, it’s similar to that.”
+
+mc “The game is fairly basic, and well be sticking to using piano songs…”
+
+“I continued to talk until the time ran out.”
+
+mc “Thank you for listen! My game is called Gentle Keys if you guys and ladies are interested.”
+
+“The crowd claps once more and I headed towards the exit to get some fresh air.”
 
 
+SETTING: Outside Lecture Hall (Night)
+
+mc “Phewww… that wasn’t as bad as I thought.”
+
+md “So that’s why you were at the concert hall…”
+
+mc “Sneaking behind someone is not nice…”
+
+“I turn around to face Melody.”
+
+md “Does it look like I’m a nice person??”
+
+md “Anyway, I’ve decided… I-”
+
+unknown “(y/n)!!”
+
+“Before Melody could finish her sentence, someone screamed out my name behind her.”
+
+mc “Ren?!”
+
+Ren “Heya! Long time no see.”
+
+“This is Ren. She’s… well kinda like an older sister to me back in high school. She’s a year above me and I only knew her for one year.”
+
+“But we became really close and she treated me like her little sibling.”
+
+mc “(W-wow. Ren’s so different! Her hair… her outfit. She looks so much older and pretti-)”
+
+md “Hey! You’re not gonna even say hi to me?”
+
+Ren “Oops! Sorry Melody, I got too caught up seeing (y/n) again.”
+
+md “You still didn’t even say hi to me yet…same old Ren.”
+
+“Both Ren and Melody looked at each other and laughed.”
+
+“Ren then runs up to me and with her arms around me, she started to squeeze me tightly with the side of her face on my torso.”
+
+mc “Hey, wait! Get off me, Ren! I smell! I just presented and I’m soaked.”
+
+“Ren started to sniff my torso.”
+
+Ren “Liar! You smell so nice! Mmm! It reminds me so much of the good old days.”
+
+Ren “I missed you so much!”
+
+md “Good old days?”
+
+“One of Melody’s eyebrows raises as she glares at me with a stern and curious look.”
+
+“I start to shake my head violently as Ren continues to squeeze me in her arms.”
+
+mc “(She’s not my ex! She’s not my ex! She’s not my ex!!)”
+
+mc “Oh HAHAHA! Ren and I are just friends! We’ve known each other back in high school! She would always treat me like a kid, right Ren?”
+
+“Ren continued to hug me with her cheek rubbing against my body.”
+
+Ren “Ohhh... mmmm… uhhh. My precious little Angel.”
+
+“I start to nervously laugh”
+
+“Melody let out a long and sigh and started to shake her head.”
+
+md “Oh boy… this is gonna be long.”
+
+mc “Ehhehehe! Okay, I’ll catch up with you more later, Ren! I’ve got to discuss something with Melody.”
+
+Ren “Awww… alright. I’ll talk to guys later then! I’ll make sure to join your group too (y/n)!”
+
+Ren “Bye guys!”
+
+“After waving us good-bye, Ren headed out.”
+
+mc “Ohhh boy… that was unexpected.”
+
+“I looked at Melody and she gave me a very, very irritated and impatient look.”
+
+mc “(What should I say now?)”
+
+#----------Player Option 5------------
+#option 1: “It’s not what you think.” (Middle)
+mc “I promise you… it’s not what you think!”
+
+mc “We’re just friends! She’s just a touchy person!”
+
+“With her hand on her stomach she bursts out laughing.”
+
+mc “Why are you laughing??”
+
+md “Because that was too cringy to watch.”
 
 
+#option 2: “I swear, she’s not my ex girlfriend.” (Best)
+
+“I turn to look at Melody.”
+
+mc “I swear, she’s not my ex girlfriend.”
+
+mc “She’s just a touchy person!”
+
+“With her hand on her stomach she bursts out laughing.”
+
+mc “Why are you laughing??”
+
+md “Because that was too cringy to watch.”
+
+
+#option 3: “She’s kinda cute, don’t ya think.” (Middle)
+
+mc “She’s kinda cute, don’t ya think?”
+
+md “You know what I think?”
+
+“Melody starts to curl her fingers into a fist.”
+
+md “I think you need a big fat punch!”
+
+mc “EH? Why?!”
+
+“She tosses her punch half way, but then stops and cross her arms instead.
+
+#--------End of Option-----------
+
+md “Anyway, I’m still mad and annoyed because you ignored me earlier.”
+
+mc “Huh? I did?”
+
+“When I said those words, her eyebrows started to arc and she looked even more annoyed.”
+
+md “Hpmph. I’ve decided to join your group. Don’t tell anyone.”
+
+mc “Eh?! Really??”
+
+“With her arms crossed and a stern look on her face, she starts to walk away.”
+
+mc “Oi! Wai-”
+
+mc “(Is she… angry at me? There’s no way it’s my fault.)” 
+
+mc “(She’s probably having one of those moody days of the month...)”
+
+mc “Yup. That’s probably it.”
+
+mc “But damn… Ren got a lot cuter than before…”
+
+mc “Shoot… I should get home, it’s getting kinda late.”
 
 
 
