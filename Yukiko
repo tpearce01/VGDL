@@ -187,33 +187,35 @@
 
 #scene1 programming workshop
     #game lab
+
 #end of scene1
 
 #scene2 player gets a team
     #SSLH
+
 #end of scene2
 
 #scene3 Yukiko helps player with programming
     #game lab
+
 #end of scene3
 
 #scene4 notice Yukiko's dedication
     #game lab
-#end of scene 4
+
+#end of scene4
 
 #scene5 midterms
     #idk
+
 #end of scene5
 
 #scene6 Hackathon "Date"
     #idk
-#end of scene 6
+
+#end of scene6
 
 #scene7 Confession Scene
-
-#scene8 Projects showcase
-
-#scene9 Software Company Internship Offer
     #UTC at night
     mc "(Actually managing to call her out here still feels like a dream.)"
     mc "(The cool breeze flowing through the azure night reminds me of time passing by.)"
@@ -235,3 +237,8 @@
     mc "Well... you see..."
     yu "Yes?"
     mc ""
+#end of scene7
+
+#scene8 Projects showcase
+
+#scene9 Software Company Internship Offer
