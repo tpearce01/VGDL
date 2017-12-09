@@ -83,19 +83,40 @@ label yu_scene1:
     mc "Uhh.."
     yu "Bzzt, time's up; you get both!"
     #calm
+    "Her face resets into one of pure concentration."
     yu "Oh wait, I should probably clean this first."
     "She pulls out a handkerchief and gently wipes the blood and dirt from my injury."
     yu "I'm sure I should have put some antiseptic on first, but we don't have that right now..."
-    "She tears open a bandaid and carefully places it over my cut..."
-    "... and repeats the process except with another bandaid, forming a cross pattern on the back of my hand."
-    yu "All better?"
+    "She tears open a bandaid and carefully places it over my cut, her hands working with an unexpected speed and precision."
+    mc "You seem like you're used to this."
+    yu "..."
+    "She repeats the process except with another bandaid, forming a cross pattern on the back of my hand."
+    #happy
+    "Admiring her work, she smiles to herself in satisfaction while still sitting on me."
+    #calm
+    mc "Could you move of--"
+    yu "Sorry, did you say something earlier?"
+    mc "Oh, uh, you seem like you're used to this."
+    #nervous
+    yu "Ah, I tend to get little cuts and bruises a lot."
+    yu "Sometimes, when I'm walking around and thinking about something, I bump into a whole lot of stuff!"
+    mc "Is that why you carry bandaids on you?"
+    #happy
+    yu "Yep!"
+    #calm
+    yu "Did they help you feel better?"
     mc "Sure, but why two?"
     yu "It's cooler that way."
     yu "Don't you think it's like some cool symbol thingy on your hand?"
     #happy
     yu "Everyone knows crosses are cooler than straight lines."
+    yu "Like, paths having crossed once is more charming than being parallel lines who are always besides each other but will never touch?"
+    mc "Couldn't you just use one bandaid though?"
+    mc "(God, I'm letting myself get caught up in this girl's pace.)"
+    yu "But one bandaid by itself will get lonely."
     #calm
     "The girl directs her eyes upwards and rests an index finger on her chin, as if thinking."
+    "I expect another eccentric line out of her but she quickly subverts my expectations again."
     yu "Hey, aren't you [mcname]?!"
     #happy
     "Contrary to what I expected, her face lights up with the intensity of a thousand suns."
@@ -108,7 +129,7 @@ label yu_scene1:
     mc "You can get off me first."
     #nervous
     yu "Oh, sorry."
-    "She says that rather quietly."
+    "She whispers that rather quietly."
     mc "(That was surprisingly meek of her.)"
     #remove her sprite
     "We dust the dirt and plant matter off ourselves."
@@ -150,11 +171,11 @@ label yu_scene1:
     yu "I'll teach you personally!"
     yu "Or if you would prefer something else, there are a lot of tutorials online on how to get started with Python!"
     yu "Python is what they teach here in the introductory class and it's the easiest to get started with, and--"
-    *The school bell chimes.*
+    "The school bell chimes."
     mc "Oh crap, I'm gonna be late for my evening lab!"
     #sad
     yu "Oh..."
-    She looks a bit disappointed, but I don't have a choice.*
+    "She looks a bit disappointed, but I don't have a choice."
     mc "I'll see you at the programming workshop, okay?"
     mc "(I tell that her gently as if somehow consoling her.)"
     #happy
@@ -163,8 +184,8 @@ label yu_scene1:
     yu "See you later!"
     mc "Bye!"
     yu "By the way, thanks for protecting me!"
-    "She runs off before I could say anything else."
-    "I walk away with what must have been a smile on my face."
+    "She runs off, somehow very slowly, before I could say anything else."
+    "I turn around and walk away with what must have been a smile on my face."
     #make her sprite disappear
     #fadeout
     return
