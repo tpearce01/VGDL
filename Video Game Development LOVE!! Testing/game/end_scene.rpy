@@ -28,7 +28,7 @@ init:
     define credits_speed = 35   # Number of seconds it takes to scroll through the credits - Higher value results in slower scroll
     python:
         credits = "{size=80}Credits\n"
-        credits_data = ('Art', 'Carolee Nguyen'), ('Art', 'Ha Hoang'), ('Art', 'Kierstin Roque'), ('Art', 'Mark Pareja'), ('Audio', 'Derek Giap'), ('Baddest Bitch', 'Kiara Mendaros'), ('Programming', 'Emily Chan'), ('Programming', 'Tyler Pearce'), ('Head Writers', 'Lexi Olah'), ('Head Writers', 'Phuoc Trinh'), ('Supporting Writers', 'Alonso Rojas'), ('Supporting Writers', 'Edric Truong'), ('Supporting Writers', 'Riley'), ('Special Thanks', 'Naz Hartoonian, Officer Buddy'), ('Special Thanks', 'VGDC, For making this possible')
+        credits_data = ('Art', 'Carolee Nguyen'), ('Art', 'Ha Hoang'), ('Art', 'Kierstin Roque'), ('Art', 'Mark Pareja'), ('Audio', 'Derek Giap'), ('Project Director', 'Kiara Mendaros'), ('Programming', 'Emily Chan'), ('Programming', 'Tyler Pearce'), ('Head Writers', 'Lexi Olah'), ('Head Writers', 'Phuoc Trinh'), ('Supporting Writers', 'Alonso Rojas'), ('Supporting Writers', 'Edric Truong'), ('Supporting Writers', 'Riley'), ('Special Thanks', 'Naz Hartoonian, Officer Buddy'), ('Special Thanks', 'VGDC, For making this possible')
         c_temp = ''
         for c in credits_data:
             if not c_temp==c[0]:
