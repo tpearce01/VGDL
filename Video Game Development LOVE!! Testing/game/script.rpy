@@ -59,7 +59,7 @@ label start:
     # TESTING
     #call test_werecat
     #call kd_route
-    #call end_scene
+    call end_scene
     #call test_moon
     #call test_time
     #call test_monologue

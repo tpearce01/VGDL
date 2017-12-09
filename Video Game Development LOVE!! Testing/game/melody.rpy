@@ -95,7 +95,7 @@ label melody_scene1:
             mc "Of c-course!"
             md "Good… now get out."
 
-    -----#option 2: Look for your phone and ignore her (Best):-----
+    #-----#option 2: Look for your phone and ignore her (Best):-----
         "Look for my phone and ignore her":
             md "Hey!"
             mc "(Pull yourself together. She's not going to jump you.)"
@@ -105,7 +105,7 @@ label melody_scene1:
             md "Looking for this?"
             "In her hand was my phone."
             mc "Y-yeah…"
-            md "Since you ignored me…"	
+            md "Since you ignored me..."
             md "I’ll tell ya what. Tell me your name, then kneel on the floor and beg for your phone… and MAYBE I’ll give you it back."
             mc "(Pft… does she really think I’m going to be her dog? Play fire with fire.)"
             mc "What if I don’t… and instead I tell the board members what you’re doing right now."
@@ -361,7 +361,7 @@ label melody_scene1:
     ax "If you’re teaching piano lessons to a girl… and you’re not telling me about it…"
     "Without hesitation, I instantly hung up on him."
     mc "Haiyah. That boy and his obsession with girls… unreal."
-    SETTING: Piano Concert Hall
+    #SETTING: Piano Concert Hall
     mc "Wow… this room is so beautiful! There’s no one here either…"
     "A grand piano sat on the middle of the wooden stage, surrounded by the warmth of the incandescent lights."
     "The concert hall isn’t enormous, but the mood and the atmosphere is very subtle and cozy."
@@ -398,7 +398,7 @@ label melody_scene1:
     gd "It’s a small piano competition here, in a couple of weeks."
     gd "You should come and watch."
     "He walks away while whistling the tune that I just played."
-    mc "What a weird guy…
+    mc "What a weird guy..."
     mc "Piano competition? I’ve never watched one before… this might be interesting."
     mc "Pitch day is tomorrow. I gotta get ready ASAP…"
     #Scene 5
@@ -417,7 +417,7 @@ label melody_scene1:
     mc "(I’m pretty sure she’ll be here…)"
     mc "(There’s no way she’ll be doing it after the meeting. She’ll definitely do it before.)"
     "Once there, I tried opening the doors but they were all locked except for one on the far side. I entered."
-    SETTING: lecture hall
+    #SETTING: lecture hall
     "Instantly, as I entered, she turns around and looks at me."
     "I wave at her."
     mc "Hey…"
@@ -471,7 +471,7 @@ label melody_scene1:
     mc "(Damn… maybe I shouldn’t have said that.)"
     #----------End of Player Choice 3----------
     "Instantly, as she turns, I headed out once more."
-    SETTING: Outside Lecture Hall
+    #SETTING: Outside Lecture Hall
     "In front of me were George Dan and Kendrick. I froze still as their eyes gaze at mine."
     kd "Well, well, well. What are you doing out here kid?"
     "He gave off a vicious and cold grin."
@@ -499,10 +499,10 @@ label melody_scene1:
     "Kendrick stares at Melody with an irritated expression."
     kd "Annoying girl."
     "I moved aside and they entered the hall."
-    "I look up at Melody. Our eyes met and I let out a big sigh. 
+    "I look up at Melody. Our eyes met and I let out a big sigh."
     md "Let’s go."
     "We walk towards the main road."
-    SETTING: Ring Road
+    #SETTING: Ring Road
     mc "That… was so close."
     md "I’m sorry I got you into that…really."
     #----------Player Choice 4---------
@@ -530,7 +530,7 @@ label melody_scene1:
     md "Yeah… I’ll stop."
     mc "Let’s find something to eat until the meeting."
     #----------End of Player Choice 4----------
-    SETTING: Lecture Hall
+    #SETTING: Lecture Hall
     mc "My stomach is going to explode… I knew I shouldn’t have eaten before my pitch. Now I have food and butterflies in my stomach."
     "The crowd claps as a girl finishes pitching."
     gd "Next up we have [mcname] who will pitching a game called Gentle Keys."
@@ -544,7 +544,7 @@ label melody_scene1:
     "I continued to talk until the time ran out."
     mc "Thank you for listen! My game is called Gentle Keys if you guys and ladies are interested."
     "The crowd claps once more and I headed towards the exit to get some fresh air."
-    SETTING: Outside Lecture Hall (Night)
+    #SETTING: Outside Lecture Hall (Night)
     mc "Phewww… that wasn’t as bad as I thought."
     md "So that’s why you were at the concert hall…"
     mc "Sneaking behind someone is not nice…"
@@ -606,7 +606,7 @@ label melody_scene1:
     "Melody starts to curl her fingers into a fist."
     md "I think you need a big fat punch!"
     mc "EH? Why?!"
-    "She tosses her punch half way, but then stops and cross her arms instead.
+    "She tosses her punch half way, but then stops and cross her arms instead."
     #--------End of Option-----------
     md "Anyway, I’m still mad and annoyed because you ignored me earlier."
     mc "Huh? I did?"
