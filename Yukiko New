@@ -31,7 +31,7 @@ label yu_scene1:
     mc ("I actually feel like crashing on the nearest soft surface right now.")
     "I attempt to drag myself back home..."
     #switch to aldrich park
-    "... and I end up collapsed in the park."
+    "... and I end up collapsed in the park on the grass."
     mc "(I can't do it anymore...)"
     mc "(I'll rest my eyes... just for a little...)"
     "My vision fills with black as sleep overtakes me."
@@ -39,22 +39,49 @@ label yu_scene1:
     mc "Ngh...........nnn."
     mc "Just five more minutes..."
     "I allow my eyes to peek open ever so slightly."
-    "Orange immediately stains my vision as I realize I am facing the sunset."
+    "An unpleasant orange immediately stains my vision as I realize I am facing the sunset."
     "I turn over onto my other side away from the light."
     "I prepare to shut my eyes to go back to sleep until I notice a faint purple through my eyelashes."
-    
-    "She abruptly stands up, extends her arms upwards, and arches her back forward in a long stretch."
-    yu "*yawn*"
-    mc "Hey."
-    yu "Hmm?"
-    "Her eyes finally land on me and scan me up and down."
+    "Opening my eyes further reveals a rather unexpected scene before me."
+    mc "Whoa!"
+    "I bolt upwards to a sitting position in surprise."
+    "Right in front of me is a girl sleeping peacefully on her back."
+    "Her long, straight purple hair is slightly astray with strands wavering in the wind."
+    mc "(Actually, this wind is getting really strong.)"
+    #a gust of wind?!
+    "*SNAP!*"
+    "A relatively large branch suddenly falls towards her."
+    mc "Get out of the way!"
+    "She began to stir."
+    "Without thinking, I dash into a standing position with her between and below my legs with my back towards the falling branch's trajectory."
+    "Her crimson eyes flicker for a moment before dilating and meeting mines, seemingly lasting forever due to the adrenaline."
+    "As if she understood just by our brief exchange of gazes, her sleepy face snaps to one of urgency as she suddenly jumped up and tackled me."
+    mc "OOHOUGH!"
+    "I wasn't prepared for a hit by a surprising amount of force from the front, so I toppled backwards onto the grass, disheveled but out of harm's way."
+    "The branch hits the ground with a loud crack."
+    "We sit there in surreal silence for a few moments before the girl sitting on top of me finally speaks."
+    yu "Gosh, what are you doing?"
+    yu "That branch almost hit you!"
+    mc "Wait, what?!"
+    "A cruel twist replaces my expectations of gratefulness."
+    mc "That's my line!"
+    mc "A branch fell towards you while you were sleeping and I was trying to block it."
+    yu "Hmm, that's what happened?"
+    mc "Yes, it did..."
+    mc "(Why did I even try?)"
+    yu "C'mon, cheer up!"
+    yu "I was just teasing you."
+    "I put my hand on my forehead in exasperation and suddenly wince in pain."
+    #calm
+    yu "Oh, you have a cut on your hand."
+    "The girl directs her eyes upwards and rests an index finger on her chin, as if thinking."
     yu "Hey, it's [mcname]!"
     "Contrary to what I expected, her face lights up with the intensity of a thousand suns."
-    mc "Yeah, I was waiting for you."
+    mc "I was looking for you."
     mc "(To be honest, I've never had anyone so earnestly happy to see me before.)"
     "I can feel my face begin tinting a light shade of crimson."
-    "She takes a huge stride into my personal space."
-    #yukiko smile
+    "She leans in a bit closer despite already having long crossed my boundary of personal space."
+    #happy
     yu "What can I do for you today?"
     mc "I, uh..."
     mc "(What did I come here for again..?)"
@@ -66,15 +93,14 @@ label yu_scene1:
     yu "Don't worry! Learning is what this club is for."
     yu "Everyone starts somewhere."
     mc "When did you start?"
-    #Yukiko nervous
+    #fear
     yu "Uhh..."
     mc "Hmm?"
     yu "When I was... six."
     mc "Oh."
-    #Yukiko nervous smile
     yu "Sorry, I didn't mean to get you down."
     yu "Don't worry [mcname], what we do here is for everybody to learn!"
-    #Yukiko big smile
+    #happy
     yu "I'll teach you personally!"
     yu "Or if you would prefer something else, there are a lot of tutorials online on how to get started with Python!"
     #Yukiko sparkly eyes ganbatte
@@ -82,12 +108,12 @@ label yu_scene1:
     *The school bell chimes.*
     mc "Ah, I have to get going now."
     mc "My next class is starting soon."
-    #Yukiko sad
+    #sad
     yu "Oh..."
     She looks a bit disappointed, but I don't have a choice.*
     mc "I'll see you at the programming workshop, okay?"
     mc "(I tell that her gently as if somehow consoling her.)"
-    #back to smiley Yukiko
+    #happy
     yu "Yep!"
     mc "(Well, she got better quickly.)"
     yu "See you later!"
