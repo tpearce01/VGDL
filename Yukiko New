@@ -54,42 +54,88 @@ label yu_scene1:
     mc "Get out of the way!"
     "She began to stir."
     "Without thinking, I dash into a standing position with her between and below my legs with my back towards the falling branch's trajectory."
+    #close up of Yukiko's calm sprite
     "Her crimson eyes flicker for a moment before dilating and meeting mines, seemingly lasting forever due to the adrenaline."
     "As if she understood just by our brief exchange of gazes, her sleepy face snaps to one of urgency as she suddenly jumped up and tackled me."
     mc "OOHOUGH!"
     "I wasn't prepared for a hit by a surprising amount of force from the front, so I toppled backwards onto the grass, disheveled but out of harm's way."
     "The branch hits the ground with a loud crack."
     "We sit there in surreal silence for a few moments before the girl sitting on top of me finally speaks."
+    #nervous
     yu "Gosh, what are you doing?"
     yu "That branch almost hit you!"
     mc "Wait, what?!"
-    "A cruel twist replaces my expectations of gratefulness."
     mc "That's my line!"
     mc "A branch fell towards you while you were sleeping and I was trying to block it."
+    #calm
     yu "Hmm, that's what happened?"
     mc "Yes, it did..."
     mc "(Why did I even try?)"
+    #smile
     yu "C'mon, cheer up!"
-    yu "I was just teasing you."
+    yu "Sorry, I was just teasing you."
     "I put my hand on my forehead in exasperation and suddenly wince in pain."
     #calm
     yu "Oh, you have a cut on your hand."
+    "She fumbles around in her pocket for a moment before pulling out two bandaids."
+    #happy
+    yu "which one would you like?"
+    mc "Uhh.."
+    yu "Bzzt, time's up; you get both!"
+    #calm
+    yu "Oh wait, I should probably clean this first."
+    "She pulls out a handkerchief and gently wipes the blood and dirt from my injury."
+    yu "I'm sure I should have put some antiseptic on first, but we don't have that right now..."
+    "She tears open a bandaid and carefully places it over my cut..."
+    "... and repeats the process except with another bandaid, forming a cross pattern on the back of my hand."
+    yu "All better?"
+    mc "Sure, but why two?"
+    yu "It's cooler that way."
+    yu "Don't you think it's like some cool symbol thingy on your hand?"
+    #happy
+    yu "Everyone knows crosses are cooler than straight lines."
+    #calm
     "The girl directs her eyes upwards and rests an index finger on her chin, as if thinking."
-    yu "Hey, it's [mcname]!"
+    yu "Hey, aren't you [mcname]?!"
+    #happy
     "Contrary to what I expected, her face lights up with the intensity of a thousand suns."
     mc "I was looking for you."
     mc "(To be honest, I've never had anyone so earnestly happy to see me before.)"
+    mc "(That, and I'm beginning to become more conscious of her weight on me.)"
     "I can feel my face begin tinting a light shade of crimson."
-    "She leans in a bit closer despite already having long crossed my boundary of personal space."
-    #happy
+    "She leans in a bit closer despite already sitting on me."
     yu "What can I do for you today?"
-    mc "I, uh..."
-    mc "(What did I come here for again..?)"
-    yu "Did you need help with programming, perhaps?"
-    mc "Oh, right."
+    mc "You can get off me first."
+    #nervous
+    yu "Oh, sorry."
+    "She says that rather quietly."
+    mc "(That was surprisingly meek of her.)"
+    #remove her sprite
+    "We dust the dirt and plant matter off ourselves."
+    #bring her sprite back at a reasonable distance and calm
+    mc "Why were you napping next to me?"
+    yu "Well, I walked to the game lab and Reina described a male student who was looking for me."
+    mc "(I wonder what Reina said about me...)"
+    yu "I remembered I abduct -- I mean persuaded a guy matching the description yesterday to join the club."
+    #change to happy sprite in the middle of the line? "I mean persuaded"
+    mc "(No, you totally kidnapped me.)"
+    yu "I was walking back and noticed you napping on the grass."
+    yu "You looked so peaceful, I didn't want to wake you."
+    #calm
+    yu "I sat down waited but the weather was so nice and the wind was so cool."
+    yu "The birds were chirping, and the rays of the sun were so warm!"
+    mc "Don't worry, I understand. I would have napped too."
+    #happy
+    yu "Riiiiiight?"
+    mc "Now why was I looking for you again?"
+    yu "Programming?"
+    yu "It's the only thing I do."
+    mc "Oh, right, programming!"
+    #calm
     yu "What's your experience level?"
     mc "I'm a complete beginner."
     "I look away rather sheepishly."
+    #happy
     yu "Don't worry! Learning is what this club is for."
     yu "Everyone starts somewhere."
     mc "When did you start?"
@@ -103,11 +149,9 @@ label yu_scene1:
     #happy
     yu "I'll teach you personally!"
     yu "Or if you would prefer something else, there are a lot of tutorials online on how to get started with Python!"
-    #Yukiko sparkly eyes ganbatte
     yu "Python is what they teach here in the introductory class and it's the easiest to get started with, and--"
     *The school bell chimes.*
-    mc "Ah, I have to get going now."
-    mc "My next class is starting soon."
+    mc "Oh crap, I'm gonna be late for my evening lab!"
     #sad
     yu "Oh..."
     She looks a bit disappointed, but I don't have a choice.*
@@ -118,13 +162,10 @@ label yu_scene1:
     mc "(Well, she got better quickly.)"
     yu "See you later!"
     mc "Bye!"
-    mc "(I bid farewell to the other club members in the game lab and leave.)"
-    #outdoors UCI walking to class
-    mc "(Oh boy, I almost spent a whole hour in there with her.)"
-    mc "(Rather, I spent most of that time waiting for her.)"
-    mc "(She seems a bit strange, but I think she's a good person at heart, with how much she wanted to help me and all.)"
-    mc "Well, that's just based on the meager amount of time we had to make first impressions."
-    mc "(I hope I can learn more about programming next time.)"
+    yu "By the way, thanks for protecting me!"
+    "She runs off before I could say anything else."
+    "I walk away with what must have been a smile on my face."
+    #make her sprite disappear
     #fadeout
     return
 
