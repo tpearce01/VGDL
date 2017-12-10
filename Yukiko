@@ -236,7 +236,7 @@
     "As if we spoke of the devil, Reina suddenly enters the game lab."
     #reina calm sprite entering from the side
     "As she scanned the room for a place to sit, Reina's expression changes from a slight smile upon spotting Yukiko to a slight frown upon seeing me."
-    re "Yukiko... is he bothering you?"
+    re "Yuki... is he bothering you?"
     "I involuntarily flinch at the timid girl's sharp words."
     mc "(Now that I think about it, standing over and talking down to Yukiko like this doesn't exactly look very friendly.)"
     mc "Oh sorry, I was just.."
@@ -247,20 +247,84 @@
     #Reina blush and wriggling a bit
     "Reina wriggles around a bit like a captured animal, but quickly lets out a sigh of resignation to her fate."
     #Reina calm
-    re "Yukiko, you know the only reason they always have questions is because they aren't getting what you're saying during your presentation."
+    re "Yuki, you know the only reason they always have questions is because they aren't getting what you're saying during your presentation."
     #Yukiko sad
     yu "Uuuu..."
     #Reina calm
     re "That being said... if you have any worries... you can just come to me."
     #Yukiko surprised
     "Yukiko's makes a surprised face but quickly turns into sunshines and rainbows in response."
+    #Yukiko happy
     yu "Reina!"
     "Yukiko holds onto Reina even tighter."
     re "Agh.. I'm choking.."
-    #happy
-    "She cheers up a bit."
-
-
+    "I couldn't help but fail at surpressing a laugh at such a heartwarming scene."
+    "Reina seems to be uncomfortable but I couldn't shake the feeling that she looks silghtly happy."
+    re "Well? What's on your mind?"
+    yu "I... don't have many friends here."
+    re "And that bothers you, right?"
+    yu "Yeah."
+    "Reina shrinks down a bit deeper into Yukiko's embrace."
+    re "I know... I'm the worst person you could ask for advice about this but..."
+    re "I see you talking to a lot of people all the time."
+    #Yukiko sad
+    yu "Right?"
+    re "Wait.. I'm not finished."
+    re "At least from my perspective... when you talk to them..."
+    re "It looks like you're not being yourself."
+    #Yukiko surprised
+    yu "Really?"
+    mc "(I wonder if the Yukiko who bandaged me is the same as the Yukiko sitting in front of me right now.)"
+    re "So what you can do is..."
+    re "At least for me.. I don't want many friends."
+    re "But if you're not satisfied with your amount of friends, you should go out and talk to people."
+    #Yukiko calm
+    re "Not like talking, but... connecting."
+    yu "You mean like speaking what's on my mind, or..?"
+    re "Not exactly that..."
+    mc "I've kind of read a book about this before."
+    mc "Perhaps you have to stop being polite and start being real?"
+    mc "Not everyone will like you so you have to show people who you really are so they can decide to like you or not?"
+    "They both stare at me."
+    mc "Oh sorry, that sounds silly, doesn't it?"
+    yu "No, it doesn't."
+    re "If you backpedal now... you would be a hypocrite."
+    mc "(Ack, she got me there!)"
+    yu "Since [mcname] would be denying what he just said?"
+    mc "I was just mentioning something I read; it doesn't mean I necessarily believe in it."
+    yu "True..."
+    mc "But then again, knowing about the books someone reads probably tells a lot about them..."
+    #fade to black
+    "We continue to discuss how to make friends for a good hour."
+    #back to the park yet again
+    #Yukiko happy very close to Reina calm
+    "Even while walking back in the park, Yukiko clings to Reina."
+    re "This is where I'm turning... so..."
+    #yeah uh try your best to show the following?
+    "Reina effortlessly slips out under Yukiko's arms by simply bending her knees and kneeling down."
+    re "See you later, Yuki..."
+    #Reina sprite fades away
+    #Yukiko nervous
+    yu "Poor Reina must be really exhausted from all that socializing."
+    yu "She doesn't usually talk that much at all."
+    mc "How did you become friends?"
+    #Yukiko happy
+    yu "I caught her alone in the game lab one day and the rest was history."
+    mc "(You caught her..?)" #Italicize caught?
+    mc "I'd like to hear more about that potentially incriminating evidence you just--"
+    #cockblock phone rings
+    mc "Sorry, can I take this?"
+    yu "Of course!"
+    "I answer my phone to the voice of a friend I made at school."
+    mc "What's up? Yeah. Oh, I'm just walking back from around the computer science building. Sounds fun! Okay. Alright, see you then."
+    "I was about to hang up when an idea abruptly pops into my head."
+    mc "Actually, wait..."
+    #Choice A1 - Invite Yukiko to group hangout
+    "I put down my phone for a moment."
+    mc "Hey Yukiko, wanna go grab a bite with my friends and I?"
+    #Choice A2 - Keep Yukiko company
+    mc "Something came up today. I have to pass this time."
+    mc "Mmhm, talk to you later. Bye."
 #end of scene1
 
 #scene2 player gets a team
