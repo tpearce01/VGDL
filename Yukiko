@@ -546,18 +546,95 @@
     #move Yukiko sprite to the side quickly and change to nervous expression while bicycle bell sound plays twice
     "... and narrowly avoids a collision with a speeding biker."
     mc "You know what, I'm walking you back."
+    #fade out
+    "After I walked her home, I immediately started teaching myself how to program."
+#end of scene2
 
 #scene3 midterms vs project help
-    #idk
+    #mc apartment
+    "I got onto my dream project team, but..."
+    mc "This is so hard!!!"
+    "I remember Yukiko said that people usually learn Python first, but I jumped into another language."
+    "Since the deadline for me to complete my portion of the work is next week, I've been bugging my project leader about the intricacies of lua at least every ten minutes while working."
+    mc "(He's been very reliable and patient with me, but that's exactly why I shouldn't keep bothering him.)"
+    mc "(He has his own life and midterms too...)"
+    mc "Maybe Yukiko could help me with this."
+    "I rub my forehead in frustration and let my gaze wander over to a stack of textbooks on my desk."
+    mc "(Wait, midterms!)"
+    mc "Is this what they call being between a rock and a hard place?"
+    "I don't want to turn in crap, but I don't want to fail my classes either..."
+    mc "(What do I do?)"
 
+    #Choice B1 - Study for midterms
+    mc "I can't change the dates of the midterms but I can just work harder later to make up my part for the project."
+    "I nod to myself confidently."
+    "I spend the rest of the day with my face buried in textbooks."
+    #fade to black
+
+    #Choice B2 - Get help from Yukiko
+    mc "(Is it okay for me to ask her for help?)"
+    mc "(Guess I'll try...)"
+    "I call Yukiko."
+    #phone ringing sound thing
+    "This is my first time calling her."
+    "The phone keeps ringing, but it doesn't seem like she's going to pick up."
+    "I almost hang up when her voice suddenly caresses my eardrums."
+    yu "Hello?"
+    mc "Hey, do you have some spare time?"
+    mc "I could really use a hand with programming in lua."
+    yu "I'm at my apartment right now."
+    mc "Should we meet in the game lab?"
+    yu "No, going outside is a pain; just come over."
+    "She casually invites me over with a bored tone."
+    "Normally I would be very ecstatic, but her attitude makes it difficult to let my thoughts sidetrack into less than pure territory."
+    yu "Do you have a laptop?"
+    mc "Yes, I'm on my way."
+    yu "Kay, bye."
+    #fade to black
+    #Yukiko's apartment outside
+    #fade in
+    "I text her to let her know I'm outside."
+    "She opens the door with her hair slightly disheveled."
+    yu "Hi."
+    mc "Sup."
+    yu "Without giving me cue to follow, she shuffles back inside."
+    #Yukiko's apartment inside
+    "I follow her to find the living room void of furniture and a few filled trash bags lined up next to the door."
+    yu "My room is this way. Well, it's pretty obvious, I guess."
+    mc "Do you have any roommates?"
+    yu "Nope."
+    "She lets out a yawn while walking into her room."
+    "I come in and see a bed, desk with a computer, and an office chair."
+    "She leaves the light off and works in the darkness."
+    mc "(I'm not sure how to put it, but it's very Yukiko.)"
+    mc "Did you just wake up by any chance?"
+    yu "Yeeeeeaaaaah."
+    mc "Are you awake?"
+    yu "Maybe."
+    "I give her a very soft punch on the head."
+    yu "Owie."
+    "She falls back onto the cushion of her black office chair which let out a sigh as if it was just as tired as its owner."
+    "From her desk, she picks up and throws a loose-leaf manual at my face that smacks me painlessly in the face and falls to the floor."
+    mc "I'm suing you."
+    yu "I'm pretty sure I can afford a better lawyer than you."
+    mc "Fair enough, since you can afford to live in a 2 bedroom apartment by yourself."
+    yu "With a little help from financial aid, I do enough freelance work to support myself."
+    "She turns her chair back to her computer and resumes her work."
+    yu "I don't have any friends to room with here."
+    mc "Couldn't you just find other female students?"
+    yu
+    mc "Must be nice."
+    yu "It gets lonely sometimes."
+    "I pick up the manual and read the title aloud."
+    mc "Lua for Dummies."
+    yu "Just use that as reference."
+    "She says that without looking at me."
+    mc "Um, is this really different from searching for it on the internet?"
+    yu "I'll be here in case you don't get anything."
+    #fade to black
 #end of scene3
 
-#scene4 Hackathon "Date"
-    #idk
-
-#end of scene4
-
-#scene5 Confession Scene
+#scene4 Confession Scene
     #UTC at night
     mc "(Actually managing to call her out here still feels like a dream.)"
     mc "(The cool breeze flowing through the azure night reminds me of time passing by.)"
@@ -632,12 +709,10 @@
     mc "(I hope this isn't making her uncomfortable.)"
     yu "....."
     "She wraps her slender arms around and leans her weight on me and we just stand there for what seems to be an eternity."
+#end of scene4
 
+#scene5 normie date
 
-#end of scene5
+#scene6 Projects showcase CHANGE to "my project sucked, Yukiko's was good"
 
-#scene6 normie date
-
-#scene7 Projects showcase CHANGE to "my project sucked, Yukiko's was good"
-
-#scene8 Software Company Internship Offer
+#scene7 Software Company Internship Offer
