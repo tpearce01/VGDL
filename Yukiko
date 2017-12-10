@@ -2,7 +2,7 @@
 
 # INTRO SCENE
     #aldrich park or something
-    "With my brain freshly laundered by the dull drone of my professor's bored voice from the lecture I just walked out of, I fruitlessly try to stifle a yawn under today's fair weather."
+    "I walk out of my boring lecture into the fair weather and stifle a yawn."
     mc "(I know I shouldn't, but I stayed up last night again.)"
     "I pull out my phone while walking slowly and aimlessly on the park's paths."
     mc "(Yesterday's club meeting was interesting.)"
@@ -362,8 +362,9 @@
     "I stop eating."
     mc "What."
     mc "How can you not like food?"
-    #smile
+    #happy
     yu "Aha, sorry. I phrased that wrong."
+    #calm
     yu "I try to go as long as possible without eating."
     yu "When I do have to eat, I just inhale the minimum amount of food I need to function and I hurry back to my computer."
     "She picks up one of my fish tacos and devours it one bite to demonstrate."
@@ -371,11 +372,27 @@
     "I melodramatically agonize over the death of my beloved taco."
     yu "What's in a fish taco?"
     mc "Didn't you just eat it?"
+    #nervous
     yu "I didn't taste anything though."
     mc "What a waste...
     "I clutch my arm and observe a moment of silence for the wasted food."
-    yu "I love water though! I just have to take a sip and I already feel refreshed."
+    #calm
+    yu "You know, I do love water though.
+    "I couldn't help but stare at her blankly."
+    yu "I just have to take a sip and I already feel refreshed."
     yu "I can also keep a bottle next to me at my desk all the time."
+    mc "So you're saying bottled water is the best thing to happen since sliced bread?"
+    #nervous
+    yu "No, [mcname], I'm saying programming is the best thing to happen since bottled water!"
+    mc "Or is bottled water the best thing to happen since programming?"
+    #calm
+    yu "Ehh? I haven't thought about it that way."
+    yu "....."
+    mc "....."
+    yu "Pfft.."
+    mc "Hahahaha!"
+    #happy
+    "We both laugh to ourselves and have a good time."
 #end of scene1
 
 #scene2 player gets a team
