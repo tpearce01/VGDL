@@ -2,7 +2,7 @@
 
 # INTRO SCENE
     #aldrich park or something
-    "With my brain freshly laundered by the dull drone of my professor's bored voice from the lecture I just walked out of, I try fruitlessly to stifle a yawn under today's fair weather."
+    "With my brain freshly laundered by the dull drone of my professor's bored voice from the lecture I just walked out of, I fruitlessly try to stifle a yawn under today's fair weather."
     mc "(I know I shouldn't, but I stayed up last night again.)"
     "I pull out my phone while walking slowly and aimlessly on the park's paths."
     mc "(Yesterday's club meeting was interesting.)"
@@ -106,7 +106,7 @@
     #happy
     yu "Everyone knows crosses are cooler than straight lines."
     yu "Like, paths having crossed once is more charming than being parallel lines who are always besides each other but will never touch?"
-    mc "Couldn't you just use one bandaid though?"
+    mc "But couldn't you just use one bandaid though?"
     mc "(God, I'm letting myself get caught up in this girl's pace.)"
     yu "But one bandaid by itself will get lonely."
     #calm
@@ -215,7 +215,7 @@
     yu "Two is great, three's a party, but any more than that.. I.."
     mc "Get overwhelmed?"
     "She gives a slight nod with her head as much as being on a flat surface would allow."
-    mc "You were so talkative when you me though."
+    mc "You were so talkative when you met me though."
     #nervous
     yu "I just woke up from a nap so I was refreshed and the adrenaline of almost being hit by a branch and you seemed like a good person and--"
     "I might be imagining it, but it looks like her eyes are spinning in circles from the speed at which she is looking around."
@@ -227,10 +227,10 @@
     mc "I mean it. I mean, you seem like a person who would have a lot of friends."
     "As the words left my mouth, I immediately regret speaking before thinking."
     #sad
-    "My fears are justified as her hopeful expression undoes itself."
+    "My fears are justified as her hopeful expression unravels."
     yu "That's not true, though."
     yu "I've talked to a lot of people here, but I don't have many people I can call a friend."
-    yu "Here, maybe only Reina."
+    yu "At this school, maybe only Reina."
     mc "Maybe?"
     #knocking sounds
     "As if we spoke of the devil, Reina suddenly enters the game lab."
@@ -253,10 +253,10 @@
     #Reina calm
     re "That being said... if you have any worries... you can just come to me."
     #Yukiko surprised
-    "Yukiko's makes a surprised face but quickly turns into sunshines and rainbows in response."
+    "Yukiko makes a surprised face but quickly turns into sunshines and rainbows in response."
     #Yukiko happy
     yu "Reina!"
-    "Yukiko holds onto Reina even tighter."
+    "She holds onto Reina even tighter."
     re "Agh.. I'm choking.."
     "I couldn't help but fail at surpressing a laugh at such a heartwarming scene."
     "Reina seems to be uncomfortable but I couldn't shake the feeling that she looks silghtly happy."
@@ -283,7 +283,7 @@
     yu "You mean like speaking what's on my mind, or..?"
     re "Not exactly that..."
     mc "I've kind of read a book about this before."
-    mc "Perhaps you have to stop being polite and start being real?"
+    mc "Maybe you have to stop being polite and start being real?"
     mc "Not everyone will like you so you have to show people who you really are so they can decide to like you or not?"
     "They both stare at me."
     mc "Oh sorry, that sounds silly, doesn't it?"
@@ -309,6 +309,7 @@
     yu "She doesn't usually talk that much at all."
     mc "How did you become friends?"
     #Yukiko happy
+    "She poses her arms on her hips and puffs her chest out proudly."
     yu "I caught her alone in the game lab one day and the rest was history."
     mc "(You caught her..?)" #Italicize caught?
     mc "I'd like to hear more about that potentially incriminating evidence you just--"
@@ -322,7 +323,7 @@
 
     #Choice A1 - Invite Yukiko to group hangout
     "I put down my phone for a moment."
-    mc "Hey Yukiko, wanna go grab a bite with my friends and I?"
+    mc "Hey Yukiko, wanna go grab a bite with us?"
     #nervous
     yu "Um, sure."
 
@@ -354,6 +355,7 @@
     #fade to black
     "We head to the food court and I grab some overpriced fish tacos."
     "Yukiko just asks for a water cup."
+    #food court
     #fade in, Yukiko should still be calm sprite
     mc "Hey Yukiko, what kind of food do you like?"
     yu "I don't really like food."
@@ -363,10 +365,17 @@
     #smile
     yu "Aha, sorry. I phrased that wrong."
     yu "I try to go as long as possible without eating."
-    yu "When I do have to eat, I just inhale the minimum I need to function and I hurry back to my computer."
-    yu "I love water though! It helps me feel refreshed and it's so convenient."
-    #food court
-
+    yu "When I do have to eat, I just inhale the minimum amount of food I need to function and I hurry back to my computer."
+    "She picks up one of my fish tacos and devours it one bite to demonstrate."
+    mc "MY TACO!!!"
+    "I melodramatically agonize over the death of my beloved taco."
+    yu "What's in a fish taco?"
+    mc "Didn't you just eat it?"
+    yu "I didn't taste anything though."
+    mc "What a waste...
+    "I clutch my arm and observe a moment of silence for the wasted food."
+    yu "I love water though! I just have to take a sip and I already feel refreshed."
+    yu "I can also keep a bottle next to me at my desk all the time."
 #end of scene1
 
 #scene2 player gets a team
@@ -379,22 +388,17 @@
 
 #end of scene3
 
-#scene4 notice Yukiko's dedication
-    #game lab
+#scene4 midterms vs project help
+    #idk
 
 #end of scene4
 
-#scene5 midterms vs project help
+#scene5 Hackathon "Date"
     #idk
 
 #end of scene5
 
-#scene6 Hackathon "Date"
-    #idk
-
-#end of scene6
-
-#scene7 Confession Scene
+#scene6 Confession Scene
     #UTC at night
     mc "(Actually managing to call her out here still feels like a dream.)"
     mc "(The cool breeze flowing through the azure night reminds me of time passing by.)"
@@ -416,12 +420,10 @@
     mc "Well... you see..."
     yu "Yes?"
     mc ""
-#end of scene7
+#end of scene6
 
-#scene8 normie date
+#scene7 normie date
 
-#scene9 Projects showcase
+#scene8 Projects showcase CHANGE to "my project sucked, Yukiko's was good"
 
-#scene10 Software Company Internship Offer
-
-#possibly scene11 for the final decision
+#scene9 Software Company Internship Offer
