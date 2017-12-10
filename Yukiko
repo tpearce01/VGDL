@@ -188,7 +188,8 @@
 #end of intro
 
 #scene1 programming workshop
-    #game lab
+    "A week later in the game lab..."
+    #fade into game lab
     #yukiko nervous
     yu "A-and so, for testing code, they say that ninety percent of the work goes into the last ten percent of software, so it's like ten times the effort for a tenth of the fun..."
     "She says all this with strange inflections in her tone of voice."
@@ -338,68 +339,68 @@
     "....."
     "It was a bit awkward, but Yukiko's true personality shined through here and there."
     "My friends part ways for class while getting the wrong idea about Yukiko and I, goading me as they left."
-        #calm
-        mc "I swear they're nice people."
-        yu "You all seem to get along very well."
-        #sad
-        yu "... I was just being weird."
-        mc "No, you weren't being weird. You were fine."
-        mc "It's only natural to be a bit reserved when you first meet people."
-        #nervous
-        yu "Um, [mcname], can I ask you a question?"
-        mc "You just did."
-        yu "Can I ask you another question after this question?"
-        mc "Shoot."
-        yu "Um, I just had a feeling, so if I'm totally wrong, just correct me, but..."
-        mc "Mmhmm?"
-        yu "You seemed like you were making an extra effort involve me in the conversations."
-        mc "What made you think that?"
-        yu "You were being pretty awkward yourself."
-        mc "Ugh..."
-        "I feel like I had just been stabbed in the chest.
-        mc "So that's how it looked to you."
-        #happy
-        yu "Thank you, [mcname]."
-        "I can't stop my face from flushing slightly as I deny it."
-        mc "Nah, I didn't do anything..."
-        "I quickly change the subject."
-        #calm
-        mc "Hey Yukiko, what kind of food do you like?"
-        yu "I don't really like food."
-        mc "What."
-        mc "How can you not like food?"
-        #happy
-        yu "Aha, sorry. I phrased that wrong."
-        #calm
-        yu "I try to go as long as possible without eating."
-        yu "When I do have to eat, I just inhale the minimum amount of food I need to function and I hurry back to my computer."
-        "She picks up one of my fish tacos and devours it one bite to demonstrate."
-        mc "MY TACO!!!"
-        "I melodramatically agonize over the death of my beloved taco."
-        yu "What's in a fish taco?"
-        mc "Didn't you just eat it?"
-        #nervous
-        yu "I didn't taste anything though."
-        mc "What a waste...
-        "I grit my teeth and clutch my fist while staring downwards to observe a moment of silence for the wasted food."
-        #calm
-        yu "You know, I do love water though.
-        "I couldn't help but stare at her blankly."
-        yu "I just have to take a sip and I already feel refreshed."
-        yu "I can also keep a bottle next to me at my desk all the time."
-        mc "So you're saying bottled water is the best thing to happen since sliced bread?"
-        #nervous
-        yu "No, [mcname], I'm saying programming is the best thing to happen since bottled water!"
-        mc "Or is bottled water the best thing to happen since programming?"
-        #calm
-        yu "Ehh? I haven't thought about it that way."
-        yu "....."
-        mc "....."
-        yu "Pfft.."
-        mc "Hahahaha!"
-        #happy
-        "We both laugh to ourselves and have a good time."
-
+    #calm
+    mc "I swear they're nice people."
+    yu "You all seem to get along very well."
+    #sad
+    yu "... I was just being weird."
+    mc "No, you weren't being weird. You were fine."
+    mc "It's only natural to be a bit reserved when you first meet people."
+    #nervous
+    yu "Um, [mcname], can I ask you a question?"
+    mc "You just did."
+    yu "Can I ask you another question after this question?"
+    mc "Shoot."
+    yu "Um, I just had a feeling, so if I'm totally wrong, just correct me, but..."
+    mc "Mmhmm?"
+    yu "You seemed like you were making an extra effort involve me in the conversations."
+    mc "What made you think that?"
+    yu "You were being pretty awkward yourself."
+    mc "Ugh..."
+    "I feel like I had just been stabbed in the chest.
+    mc "So that's how it looked to you."
+    #happy
+    yu "Thank you, [mcname]."
+    "I can't stop my face from flushing slightly as I deny it."
+    mc "Nah, I didn't do anything..."
+    "I quickly change the subject."
+    #calm
+    mc "Hey Yukiko, what kind of food do you like?"
+    yu "I don't really like food."
+    mc "What."
+    mc "How can you not like food?"
+    #happy
+    yu "Aha, sorry. I phrased that wrong."
+    #calm
+    yu "I try to go as long as possible without eating."
+    yu "When I do have to eat, I just inhale the minimum amount of food I need to function and I hurry back to my computer."
+    "She picks up one of my fish tacos and devours it one bite to demonstrate."
+    mc "MY TACO!!!"
+    "I melodramatically agonize over the death of my beloved taco."
+    yu "What's in a fish taco?"
+    mc "Didn't you just eat it?"
+    #nervous
+    yu "I didn't taste anything though."
+    mc "What a waste...
+    "I grit my teeth and clutch my fist while staring downwards to observe a moment of silence for the wasted food."
+    #calm
+    yu "You know, I do love water though.
+    "I couldn't help but stare at her curiously."
+    yu "I just have to take a sip and I already feel refreshed."
+    yu "I can also keep a bottle next to me at my desk all the time."
+    mc "So you're saying bottled water is the best thing to happen since sliced bread?"
+    #nervous
+    yu "No, [mcname], I'm saying programming is the best thing to happen since bottled water!"
+    mc "Or is bottled water the best thing to happen since programming?"
+    #calm
+    yu "Ehh? I haven't thought about it that way."
+    yu "....."
+    mc "....."
+    yu "Pfft.."
+    mc "Hahahaha!"
+    #happy
+    "We both laugh to ourselves and have a good time until we part for class."
+    #fade out
 
     #Choice A2 - Keep Yukiko company
     mc "Something came up today. I have to pass this time."
@@ -452,7 +453,7 @@
     "I grit my teeth and clutch my fist while staring downwards to observe a moment of silence for the wasted food."
     #calm
     yu "You know, I do love water though.
-    "I couldn't help but stare at her blankly."
+    "I couldn't help but stare at her curiously."
     yu "I just have to take a sip and I already feel refreshed."
     yu "I can also keep a bottle next to me at my desk all the time."
     mc "So you're saying bottled water is the best thing to happen since sliced bread?"
@@ -466,30 +467,97 @@
     yu "Pfft.."
     mc "Hahahaha!"
     #happy
-    "We both laugh to ourselves and have a good time."
+    "We both laugh to ourselves and have a good time until we part for class."
+    #fade out
 #end of scene1
 
-#scene2 player gets a team
+#scene2 player gets a team and help with programming
+    "I haven't seen Yukiko since we had lunch together, but we exchanged numbers before we left."
+    "We texted each other mostly about random crap, like how four hours of sleep is not a lot, but a four hour nap is."
+    "I sheepishly grin to myself walking to the building where the club meeting is taking place again."
     #SSLH
+    mc "(I would be lying if I said I don't look forward to our weird exchanges.)"
+    "I enter the lecture hall in the middle of someone's game pitch and get a few looks from the packed audience."
+    "I hasten my walk of shame and plop down into the first random seat I could find."
+    "The current pitch doesn't catch my interest so my eyes inevitably begin wandering around the room."
+    #All the officers' calm sprites except JD together on screen, Reina next to Yukiko with both of them on the right
+    "I notice that most of the officers sit together on the stage, maintaining an air of professionalism."
+    mc "(What's Yukiko doing?)"
+    "I see Yukiko listening to the pitches like the good officer she is."
+    mc "Wait..."
+    "Now that I look more closely, I notice she is actually staring in the podium's general direction. Her eyes aren't focused."
+    "She seems to be silently drumming her fingers on her leg."
+    mc "Poor Yukiko..."
+    "I silently offer a prayer for her."
+    "Her eyes suddenly dart towards my direction."
+    mc "(It's just a coincidence, right? Or she could be looking at someone else.)"
+    "Her eyes quickly shift back to the direction of the podium."
+    "I remind myself that the students pitching the games are putting their ideas out there and deserve respect."
+    "The current student's pitch describes programming in lua for a game mod."
+    mc "(It can't be THAT game, can it?)"
+    "As the pitch goes on, the student never mentions the name of the game, but all the clues point to a game I hold dear to my heart as part of my childhood."
+    mc "Larry's Mod!"
+    "In my fit of nostalgia, I accidentally blurt that out rather loudly and attract the attention of nearby audience members and the officers."
+    #Alexander serious and Melody Angry
+    "I receive a lot of sideward gazes for my interruption and certain officers I will not name appear to be arresting me with their gazes."
+    #Yukiko nervous
+    "Yukiko is trying in vain to give me a disciplinary look, but her quivering features indicates she appears to be preoccupied with surpressing a smile."
+    "I mutter a meek apology dispersed in no one's direction in particular and remain dead silent for the rest of the presentations."
+    "It's fine though, because I know which project I want to work on."
+    #no more officer sprites and fade to black
+    "The rest of the pitches finish and I head towards the stage to join the other students asking officers and game pitchers questions."
+    #fade back in
+    #Yukiko nervous
+    "Most of the members are programmers, so a rabid pack of students are swarming Yukiko with questions."
+    mc "(Wouldn't Reina help Yukiko right now?)"
+    #Reina calm
+    "I look for Reina, but she is occupied with her own group of students."
+    mc "Right."
+    #Reina calm go away
+    mc "(Plus, that would be considered coddling Yukiko, wouldn't it?)"
+    mc "(But helping out just a little bit wouldn't hurt, right?)"
+    "I wrack my brain for ideas."
+    mc "(Yukiko said she's bad with big groups...)"
+    mc "(Wait, duh! If they asked one-by-one, it would be easier on her!)"
+    #Yukiko nervous
+    "I stride over and break through Yukiko's circle of interviewers."
+    "I clear my throat and prepare my best voice of authority."
+    mc "Hey guys, I think everyone would get their questions answered a lot faster we asked one at a time!"
+    "Everyone observes a moment of silence during which I imagined being lynched by the mob."
+    "Yukiko looks at me surprised like everyone else for a moment, but gives an almost invisible nod to show that she got my cue."
+    #Yukiko happy
+    yu "I think that's a great idea, w-would everyone form a neat, single-file line for me please?"
+    "It was as if everyone remembered that they're mature, adult college students."
+    "A line forms in front of Yukiko and she tackles their inquiries one-on-one with the speed of an experienced officer."
+    "I watched her proudly like a mother bird witnessing her young flying for the first time."
+    "Yukiko continues answering questions without missing a beat."
+    #fade to black
+    "Like a knight mowing down a goblin army with a sword, she whittles the crowd down until it was time to vacate the hall."
+    #fade into outside SSLH
+    #Yukiko calm
+    yu "I'm so done."
+    mc "You need anything? Food? Water?"
+    yu "My computer."
+    mc "Right, priorities."
+    yu "I should head back now."
+    yu "See you later..."
+    #uh shuffle the sprite away
+    "She begins shuffling away..."
+    #move Yukiko sprite to the side quickly and change to nervous expression while bicycle bell sound plays twice
+    "... and narrowly avoids a collision with a speeding biker."
+    mc "You know what, I'm walking you back."
 
-#end of scene2
-
-#scene3 Yukiko helps player with programming
-    #game lab
+#scene3 midterms vs project help
+    #idk
 
 #end of scene3
 
-#scene4 midterms vs project help
+#scene4 Hackathon "Date"
     #idk
 
 #end of scene4
 
-#scene5 Hackathon "Date"
-    #idk
-
-#end of scene5
-
-#scene6 Confession Scene
+#scene5 Confession Scene
     #UTC at night
     mc "(Actually managing to call her out here still feels like a dream.)"
     mc "(The cool breeze flowing through the azure night reminds me of time passing by.)"
@@ -503,18 +571,73 @@
     mc "You sure work as hard as ever, huh?"
     yu "When I get in the zone, it I just forget that things are moving around me."
     mc "I really like that about you."
-    #Yukiko smiles
+    #happy
     yu "Thanks!"
     #Yukiko tries to make small talk
     mc "U-um, let's get to what I came out here to talk to you about!"
     yu "Right, right; sorry for sidetracking."
     mc "Well... you see..."
+    #calm
     yu "Yes?"
-    mc ""
-#end of scene6
+    mc "I like yu..."
+    mc "... mmy fish tacos."
+    yu "Me too."
+    mc "You didn't even taste -- wait, that's not what I meant!"
+    mc "I mean I like you!
+    yu "I know."
+    "I tried to pick my jaw off the floor."
+    mc "You do?"
+    #happy
+    yu "I like you too!"
+    "I'm so taken aback that I can't think of anything to say, so I stammer something stupid instead."
+    mc "T-that's good."
+    "She stares at me smiling as I fry my brain on what to do next."
+    "She's probably expecting something and I can't stand it anymore, so I move automatically."
+    #zoom in on that Yukiko sprite, change to nervous
+    yu "Is there something on my face, [mcname]?"
+    "Her confused, innocent line manages to knock out all the courage I mustered in one foul swoop."
+    #zoom out
+    "I back off dejectedly."
+    mc "Oh, nothing of the sort."
+    "It suddenly hits me that she might not know what I'm getting at."
+    mc "(But really, even in this kind of situation..?)"
+    mc "Hey, Yukiko?"
+    yu "Yes?"
+    mc "So you like me, right?"
+    #happy
+    yu "A lot, yeah!"
+    mc "Do you like Reina too?"
+    yu "Even more!"
+    mc "(Okay, that stings a little, but I have to go on.)"
+    mc "I like you in a romantic way."
+    yu "Oh."
+    mc "..."
+    yu "....."
+    #calm
+    mc "......."
+    yu "........."
+    #nervous
+    mc "..........."
+    yu "............."
+    #blush
+    yu "Wait what when did this start I can't believe you would fall for someone like me oh but there were a lot of boys who gave me attention when I was growing up but I never got back to them so I don't really know how this works and--"
+    "She loses control of her intonation so her voice oscillates between various pitches just like when she gets nervous in front of groups."
+    mc "Yukiko--"
+    yu "I'm not really against the idea but you know wouldn't it be weird if people at the club noticed us together or maybe they already see us that way and I don't really care in the end but oh my gosh what would Reina do to you after she finds out--"
+    mc "Yukiko!"
+    yu "I wanna crawl back to my computer right now but at the same time I don't so it's a really big issue for me right now right now but oh my gosh that was an attempt at kissing me earlier and I completely missed what you were getting at and--"
+    #zoom in on that sprite baby
+    "I move automatically again and pull her into a tight hug."
+    yu "Hau?!"
+    mc "(I hope this isn't making her uncomfortable.)"
+    yu "....."
+    "She wraps her slender arms around and leans her weight on me and we just stand there for what seems to be an eternity."
 
-#scene7 normie date
 
-#scene8 Projects showcase CHANGE to "my project sucked, Yukiko's was good"
+#end of scene5
 
-#scene9 Software Company Internship Offer
+#scene6 normie date
+
+#scene7 Projects showcase CHANGE to "my project sucked, Yukiko's was good"
+
+#scene8 Software Company Internship Offer
