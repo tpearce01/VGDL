@@ -59,6 +59,7 @@
     #nervous
     yu "Gosh, what are you doing?"
     yu "That branch almost hit you!"
+    "Her girly, singsong voice comes out light but worried."
     mc "Wait, what?!"
     mc "That's my line!"
     mc "A branch fell towards you while you were sleeping and I was trying to block it."
@@ -212,6 +213,9 @@
     yu "I wish it wasn't."
     mc "What do you mean?"
     yu "I always get like this with large groups."
+    yu "The way the saying goes is to picture everyone in their underwear, but really, how would that help?"
+    yu "If anything, I would feel like I'm the one who's out of place being the only one wearing clothes."
+    "Yukiko sighs."
     yu "Two is great, three's a party, but any more than that.. I.."
     mc "Get overwhelmed?"
     "She gives a slight nod with her head as much as being on a flat surface would allow."
@@ -259,7 +263,7 @@
     "She holds onto Reina even tighter."
     re "Agh.. I'm choking.."
     "I couldn't help but fail at surpressing a laugh at such a heartwarming scene."
-    "Reina seems to be uncomfortable but I couldn't shake the feeling that she looks silghtly happy."
+    "Reina seems to be uncomfortable but I couldn't shake the feeling that she looks slightly happy."
     re "Well? What's on your mind?"
     yu "I... don't have many friends here."
     re "And that bothers you, right?"
@@ -289,8 +293,8 @@
     mc "Oh sorry, that sounds silly, doesn't it?"
     yu "No, it doesn't."
     re "If you backpedal now... you would be a hypocrite."
-    mc "(Ack, she got me there!)"
     yu "Since [mcname] would be denying what he just said?"
+    mc "(Ack, they got me there!)"
     mc "I was just mentioning something I read; it doesn't mean I necessarily believe in it."
     yu "True..."
     mc "But then again, knowing about the books someone reads probably tells a lot about them..."
@@ -325,7 +329,77 @@
     "I put down my phone for a moment."
     mc "Hey Yukiko, wanna go grab a bite with us?"
     #nervous
+    "She begins fidgeting and hesitates to answer until I give her an encouraging smile."
     yu "Um, sure."
+    "We head to the food court and I grab some overpriced fish tacos."
+    "Yukiko just asks for a water cup."
+    "....."
+    "Time passes as we just chat together about nothing in particular."
+    "....."
+    "It was a bit awkward, but Yukiko's true personality shined through here and there."
+    "My friends part ways for class while getting the wrong idea about Yukiko and I, goading me as they left."
+        #calm
+        mc "I swear they're nice people."
+        yu "You all seem to get along very well."
+        #sad
+        yu "... I was just being weird."
+        mc "No, you weren't being weird. You were fine."
+        mc "It's only natural to be a bit reserved when you first meet people."
+        #nervous
+        yu "Um, [mcname], can I ask you a question?"
+        mc "You just did."
+        yu "Can I ask you another question after this question?"
+        mc "Shoot."
+        yu "Um, I just had a feeling, so if I'm totally wrong, just correct me, but..."
+        mc "Mmhmm?"
+        yu "You seemed like you were making an extra effort involve me in the conversations."
+        mc "What made you think that?"
+        yu "You were being pretty awkward yourself."
+        mc "Ugh..."
+        "I feel like I had just been stabbed in the chest.
+        mc "So that's how it looked to you."
+        #happy
+        yu "Thank you, [mcname]."
+        "I can't stop my face from flushing slightly as I deny it."
+        mc "Nah, I didn't do anything..."
+        "I quickly change the subject."
+        #calm
+        mc "Hey Yukiko, what kind of food do you like?"
+        yu "I don't really like food."
+        mc "What."
+        mc "How can you not like food?"
+        #happy
+        yu "Aha, sorry. I phrased that wrong."
+        #calm
+        yu "I try to go as long as possible without eating."
+        yu "When I do have to eat, I just inhale the minimum amount of food I need to function and I hurry back to my computer."
+        "She picks up one of my fish tacos and devours it one bite to demonstrate."
+        mc "MY TACO!!!"
+        "I melodramatically agonize over the death of my beloved taco."
+        yu "What's in a fish taco?"
+        mc "Didn't you just eat it?"
+        #nervous
+        yu "I didn't taste anything though."
+        mc "What a waste...
+        "I grit my teeth and clutch my fist while staring downwards to observe a moment of silence for the wasted food."
+        #calm
+        yu "You know, I do love water though.
+        "I couldn't help but stare at her blankly."
+        yu "I just have to take a sip and I already feel refreshed."
+        yu "I can also keep a bottle next to me at my desk all the time."
+        mc "So you're saying bottled water is the best thing to happen since sliced bread?"
+        #nervous
+        yu "No, [mcname], I'm saying programming is the best thing to happen since bottled water!"
+        mc "Or is bottled water the best thing to happen since programming?"
+        #calm
+        yu "Ehh? I haven't thought about it that way."
+        yu "....."
+        mc "....."
+        yu "Pfft.."
+        mc "Hahahaha!"
+        #happy
+        "We both laugh to ourselves and have a good time."
+
 
     #Choice A2 - Keep Yukiko company
     mc "Something came up today. I have to pass this time."
@@ -375,7 +449,7 @@
     #nervous
     yu "I didn't taste anything though."
     mc "What a waste...
-    "I clutch my arm and observe a moment of silence for the wasted food."
+    "I grit my teeth and clutch my fist while staring downwards to observe a moment of silence for the wasted food."
     #calm
     yu "You know, I do love water though.
     "I couldn't help but stare at her blankly."
