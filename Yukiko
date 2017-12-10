@@ -319,12 +319,54 @@
     mc "What's up? Yeah. Oh, I'm just walking back from around the computer science building. Sounds fun! Okay. Alright, see you then."
     "I was about to hang up when an idea abruptly pops into my head."
     mc "Actually, wait..."
+
     #Choice A1 - Invite Yukiko to group hangout
     "I put down my phone for a moment."
     mc "Hey Yukiko, wanna go grab a bite with my friends and I?"
+    #nervous
+    yu "Um, sure."
+
     #Choice A2 - Keep Yukiko company
     mc "Something came up today. I have to pass this time."
     mc "Mmhm, talk to you later. Bye."
+    #cell phone beep
+    mc "Now, where were we?"
+    #calm
+    yu "Who was that?"
+    mc "Just some friends seeing if I want to hang out."
+    yu "Shouldn't you go hang out with them?"
+    mc "I don't feel like it today."
+    #happy
+    yu "Uwaaah, [mcname] sure is mean to his friends!"
+    mc "Okay, the real reason is that when I meet a new friend, I like to spend time to get to know them."
+    yu "Who's that? Have I met them before?"
+    "I flash a smile at Yukiko who returns a confused smile."
+    mc "(Wait, is she serious?)"
+    #calm
+    yu "..."
+    mc "It's you."
+    yu "..."
+    yu "Oh! I didn't think of that."
+    "She rests a fist on the back of her head, flashes a smile, and sticks her tongue out while winking."
+    mc "(I'm not sure if I find that cute or disturbing.)"
+    mc "Wanna go grab a bite?
+    yu "Okay."
+    #fade to black
+    "We head to the food court and I grab some overpriced fish tacos."
+    "Yukiko just asks for a water cup."
+    #fade in, Yukiko should still be calm sprite
+    mc "Hey Yukiko, what kind of food do you like?"
+    yu "I don't really like food."
+    "I stop eating."
+    mc "What."
+    mc "How can you not like food?"
+    #smile
+    yu "Aha, sorry. I phrased that wrong."
+    yu "I try to go as long as possible without eating."
+    yu "When I do have to eat, I just inhale the minimum I need to function and I hurry back to my computer."
+    yu "I love water though! It helps me feel refreshed and it's so convenient."
+    #food court
+
 #end of scene1
 
 #scene2 player gets a team
@@ -342,7 +384,7 @@
 
 #end of scene4
 
-#scene5 midterms
+#scene5 midterms vs project help
     #idk
 
 #end of scene5
@@ -376,6 +418,10 @@
     mc ""
 #end of scene7
 
-#scene8 Projects showcase
+#scene8 normie date
 
-#scene9 Software Company Internship Offer
+#scene9 Projects showcase
+
+#scene10 Software Company Internship Offer
+
+#possibly scene11 for the final decision
