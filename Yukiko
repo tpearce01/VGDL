@@ -20,6 +20,7 @@
     re "Sorry, Yukiko isn't here right now..."
     mc "Oh, that's okay."
     mc "I'll come back later."
+    #disappear reina!
     "I take my leave while shutting the door at the same time."
     mc ("I actually feel like crashing on the nearest soft surface right now.")
     "I attempt to drag myself back home..."
@@ -187,6 +188,78 @@
 
 #scene1 programming workshop
     #game lab
+    #yukiko nervous
+    yu "A-and so, for testing code, they say that ninety percent of the work goes into the last ten percent of software, so it's like ten times the effort for a tenth of the fun..."
+    "She says all this with strange inflections in her tone of voice."
+    yu "(She's so nervous..)"
+    "Yukiko proceeds to drop all her notes onto the floor."
+    yu "Ahh! I'm so sorry everyone!"
+    mc "(Wow, she's a mess right now.)"
+    mc "(I don't know much about programming to be able to say anything to help her out.)"
+    "A few other students and I stand up to help her gather her dropped papers."
+    #fade to black short timeskip
+    "The rest of the meeting went shakily but steadily."
+    "Much to Yukiko's dismay, a lot of students had questions for her afterwards."
+    "I waited until everyone dispersed to approach her."
+    #sad yukiko sprite going downwards
+    yu "Uuuu..."
+    "She slumps down onto a desk in the corner."
+    mc "Hey, Yukiko."
+    "From the top of the desk, she directs a cute upward gaze against me as if projecting a telepathic barrier with her eyes to prevent any further inquiries."
+    "I almost felt like a criminal walking up to her."
+    mc "That must have been stressful."
+    "Her eyes give up on arresting me and face forward into empty space."
+    yu "I wish it wasn't."
+    mc "What do you mean?"
+    yu "I always get like this with large groups."
+    yu "Two is great, three's a party, but any more than that.. I.."
+    mc "Get overwhelmed?"
+    "She gives a slight nod with her head as much as being on a flat surface would allow."
+    mc "You were so talkative when you me though."
+    #nervous
+    yu "I just woke up from a nap so I was refreshed and the adrenaline of almost being hit by a branch and you seemed like a good person and--"
+    "I might be imagining it, but it looks like her eyes are spinning in circles from the speed at which she is looking around."
+    mc "Thanks. It wasn't what I expected when I took a nap in the park, but I had fun talking to you."
+    #calm
+    "Her eyes lock onto me again."
+    yu "Really?"
+    "She utters that word timidly."
+    mc "I mean it. I mean, you seem like a person who would have a lot of friends."
+    "As the words left my mouth, I immediately regret speaking before thinking."
+    #sad
+    "My fears are justified as her hopeful expression undoes itself."
+    yu "That's not true, though."
+    yu "I've talked to a lot of people here, but I don't have many people I can call a friend."
+    yu "Here, maybe only Reina."
+    mc "Maybe?"
+    #knocking sounds
+    "As if we spoke of the devil, Reina suddenly enters the game lab."
+    #reina calm sprite entering from the side
+    "As she scanned the room for a place to sit, Reina's expression changes from a slight smile upon spotting Yukiko to a slight frown upon seeing me."
+    re "Yukiko... is he bothering you?"
+    "I involuntarily flinch at the timid girl's sharp words."
+    mc "(Now that I think about it, standing over and talking down to Yukiko like this doesn't exactly look very friendly.)"
+    mc "Oh sorry, I was just.."
+    "Yukiko stands up and suddenly glomps Reina."
+    #move a happy Yukiko up and towards Reina surprised
+    re "Kyah!"
+    yu "Don't worry Reina. He was just comforting me after my big workshop flop."
+    #Reina blush and wriggling a bit
+    "Reina wriggles around a bit like a captured animal, but quickly lets out a sigh of resignation to her fate."
+    #Reina calm
+    re "Yukiko, you know the only reason they always have questions is because they aren't getting what you're saying during your presentation."
+    #Yukiko sad
+    yu "Uuuu..."
+    #Reina calm
+    re "That being said... if you have any worries... you can just come to me."
+    #Yukiko surprised
+    "Yukiko's makes a surprised face but quickly turns into sunshines and rainbows in response."
+    yu "Reina!"
+    "Yukiko holds onto Reina even tighter."
+    re "Agh.. I'm choking.."
+    #happy
+    "She cheers up a bit."
+
 
 #end of scene1
 
