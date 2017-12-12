@@ -1,5 +1,3 @@
-nm = naomi
-
 Scene 1 - Food Court
 
 ”I hadn’t talked to Alex since finding out that he was a design officer in the VGDC.”
@@ -41,7 +39,7 @@ mc "All right. As long as your plan doesn't involve anything super awful."
 ax “Nah! I’ll text you later about it.”
 
 [Neg. Option] "No"
-mc "I'm not comfortable with doing soemthing like that."
+mc "I'm not comfortable with doing something like that."
 ax "So you're gonna abandon your friend in his time of need?"
 mc "I'm not 'abandoning' you..."
 ax "Look, help me with this, and I'll help you with your pitch for next week."
@@ -58,27 +56,24 @@ ax "It won't be for very long, I promise. I'll text you later about it."
 
 Scene 2 - Starbucks Student Center
 
-ax "Okay, so we have to have some sort of a plan for the pitch."
+“We met up the next day to discuss the pitch.”
+
+ax "Okay, so what’s our plan?”
 mc "I was thinking of a dating sim, but with cats."
 ax "So kind of like Hatoful Boyfriend?"
 mc "Yeah! But with cats."
-ax "Okay, okay..."
+ax “Sounds weird, but its got cats, so…”
 
 "Before Alex could continue, a girl in a demin jacket walked up to our table."
 
 nm "Alex."
 ax "Naomi."
-nm "Hi, I don't believe I know you."
+nm “Who’s this?”
 mc "My name is (Y/N)."
-nm "So, how do you two know each other?"
-mc "We've known each other forever. We went to different high schools, but we were able to reconnect when I came here."
-nm "Heh. I assume he's told you about me, then?"
-ax "Actually... I haven't told (Y/N) anything about you."
-nm "What a surprise. Look, (Y/N), the guy you knew back when you were kids... that guy isn't around anymore."
-ax "How would you know?"
-nm "I just don't want you to hurt (Y/N)'s feelings."
+nm “How do you two know each other?"
+mc “We’ve known each other since grade school.
 ax "Can you please leave, Naomi?"
-nm "I know you two are the new "it" couple. Everyone's been talking about it. (Y/N), get out while you can."
+nm “Don’t come back to me and say I didn’t tell you so.”
 
 "Naomi left, and I sat there baffled."
 
@@ -89,7 +84,28 @@ mc "If you say so."
 Scene 3 - Food Court
 
 mc "I had no idea you were into the whole design thing."
-ax "Sure am! It's really pretty cool."
+ax "Sure am! It's really pretty cool.”
+mc “What exactly do you do?”
+ax “I do the aesthetics. Making sure it looks good and it’s all zen and lookin’ good. things like that.”
+mc “You were always into football. It’s so weird to think that you’re like, artsy now.”
+ax “It was soccer, and it’s not an absurd idea.”
+mc “But a self-proclaimed hardcore jock boy to a sensitive artist?”
+ax “I went to high school, broadened my horizons a little, and decided that I really enjoyed doing the whole design thing.”
+mc “Is it something you just stumbled onto, or…?”
+ax “I was required to take a couple of electives, so I did a graphic design course one year. It was fun.”
+mc “Huh.”
+ax “What? Not exciting enough for you?”
+mc “No, I’m just trying to figure out why, still.”
+ax “Yeah, there were a lot of cute chicks in the class that I wanted to impress. I worked hard, got good, and now here I am.”
+mc “That makes a lot more sense.”
+ax “I think that you could be a really great designer too.”
+mc “That sounds like a lie.”
+ax “Not at all! You’ve got a sharp eye for detail, and you stand by your convictions.”
+mc “Um… thank you?”
+ax “You’re welcome. Ugh, it’s five to three. We should probably get to class.”
+
+“Alex had changed so much… but at the same time, he hadn’t changed at all.”
+
 
 Scene 4 - SSLH
 
@@ -101,6 +117,10 @@ Scene 4 - SSLH
 ax "Hello everyone! My name is Alex, and this is my friend, (y/n)."
 mc "Hi! Uh... so the basic gist of our game is that it's a dating simulator about cats."
 ax "Think 'Hatoful Boyfriend'."
+
+“As we went to sit back down, my heart was racing.”
+“People didn’t seem thrilled about the idea. It looked like there were a lot more dog lovers than cat lovers.”
+“But with Alex, I hoped that maybe they’d be more willing to sign on.”
 
 Scene 5 - Aldrich Park
 
@@ -143,50 +163,121 @@ ax "Say that we can stop pretending. Say that you feel the same way about me. I 
 CHOICE A - "I love you!"
 mc "I love you too, Alex. Let's... let's stop pretending."
 ax "Phew... that was hard..."
-mc "But what about Naomi?"
-ax "
+mc “Just… what about Naomi?"
+ax “Naomi is nice, but she’s not you. Not by a longshot.”
+mc “So is that… that’s it?”
+ax “Besides the obligatory social media update spam, yeah. I guess that’s it.”
+mc “I don’t feel any different.”
+ax “Me neither. I think we just need time to let it sink in.”
 
 CHOICE B - "Wait a second..."
 mc "I'm still not completely convinced, Alex."
 ax "Y-yeah... okay. Y'know, I was just kidding."
 mc "It sure didn't look like it."
 ax "Nah. You and me, officially a couple? If we were going to do that, we would have done it forever ago."
-mc "Yeah, I guess."
+mc "Yeah, I guess. Are you okay?”
+ax “Sure! Why wouldn’t I be okay?”
+mc “Again, you just seemed to take it super personally just then.”
+ax “Nah, nah, we’re cool. We’re good. Let’s finish eating.”
+
 
 CHOICE A
 [scene 1]
-ax "Wow, you and me, together. This feels... good."
+mc “You okay?”
+ax “Yeah, just thinking. Wow, you and me, together. This feels... good."
 
 [scene 2]
 "Weeks passed, and we were so happy."
 "We did everything together. Just like old time."
 "The only difference was that we were past the friend stage. We were in love."
 
+
+
 [scene 3]
 "Our game was set to be completed in the following week."
 "Alex had stopped returning my texts. He didn't want to meet up for lunch..."
 "And then I found out the truth."
 
+mc “Alex? I thought I’d find you here.”
+ax “Oh. (Y/N). What are you doing here?”
+mc “You’re my boyfriend, and you’re basically acting like I don’t exist.”
+ax “What? Nah.”
+mc “I’ve texted you three times since this morning. A couple people dropped out, and the game needs to be finished by next week.”
+ax “Sorry. I’ve been distracted.”
+mc “Clearly. But that doesn’t give you the right to ignore me.”
+ax “I wasn’t ignoring you.”
 mc "You went back to Denim Jacket?"
 ax "Her name is Naomi."
 mc "I don't care WHAT her name is. How could you do this to me?"
 ax "Everyone keeps on telling me how much I've changed. And maybe I have."
-ax "But so have you. It feels like you're leaching off me."
+ax "But so have you. It feels like you're leaching off me.”
 
-[end]
+Diverges into 2 options:
+[Pos. Option] “You think I’ve been leaching off you?”
+mc "Okay, but how does it benefit me?"
+ax "You'll get the satisfaction of helping your best friend in his time of need."
+mc "That's it?"
+ax "I'll also help you with a pitch for the meeting next week."
+mc "(I did want to pitch something next week...)"
+mc "(And if I had the help of one of the official officers, I was sure to get accepted.)"
+mc "All right. As long as your plan doesn't involve anything super awful."
+ax “Nah! I’ll text you later about it.”
+
+[Neg. Option] "What are you talking about!?"
+mc “Leaching? I’m leaching off you? What does that even mean?”
+ax “You used to be so independent, never took no for an answer.”
+
+ENDING
+[end - pos]
+mc “You should have told me if you had such a problem with the way I was acting.”
+ax “What was I supposed to say? Stop being so annoying?”
+mc “We could have just gone back to being friends.”
+ax “So why don’t we?”
+mc “Because you ruined it. You ruined everything.”
+ax “I ruined everything? I wasn’t the clingy, needy one.”
+mc “You’re awful.”
+ax “We’re both kind of awful. Look, I’m sorry. I don’t want to fight. Go back to being friends?”
+mc “It’s gonna take some time.”
+ax “Well, sure. Of course. But we’ve got all the time in the world.”
+mc “Yeah. You’re right. Let’s start our friendship over.”
+ax “The best way to do that is by grabbing coffee.”
+mc “Sounds great.”
+
+“Looking back, the last few weeks had been a trainwreck.”
+“I lost the love of my life.”
+“I lost the best friendship I’d ever had.”
+“Our cat dating sim never ended up getting finished.”
+“But I was still standing, and I had the chance to win my best friend back.”
+“Things could only go up from here.”
+
+[end - neg]
 mc "You're really going to pin all of this on me?"
 ax "We didn't finish the game because of YOU."
 mc "How is it my fault!?"
 ax "Your constant nagging, dragging me to places instead of to the meetings so we could finish things."
 mc "That's what couples do!"
-ax "If you love someone, then you're not going to keep them from doing what they want to do."
-mc "Alex! Don't leave. I love you!"
+ax "If you love someone, then you're not going to keep them from doing what they want to do.”
+mc “I thought this was what you wanted to do!”
+ax “I changed my mind. I’m leaving.”
+mc "Alex! Don't leave, please! I love you!"
 ax "Yeah, and I thought I loved you too."
+
+“Looking back, the last few weeks had been a trainwreck.”
+“I lost the love of my life.”
+“I lost the best friendship I’d ever had.”
+“Our cat dating sim never ended up getting finished.”
+“I ended up all alone, and it hurt.”
+“I tried to find a silver lining in the whole situation, but there wasn’t one.”
+“There was nothing I could do. It was the death of the best friendship I’d ever had.”
 
 CHOICE B
 [scene 1]
 ax "Look, about the other day..."
 mc "Forget about it. Let's just work on our game, okay?"
+ax “No, I don’t want to forget about it. I want to talk about it.”
+mc “What’s there to talk about?”
+ax “I… I know I said I was kidding when I said everything, but a small part of me wasn’t.”
+mc “I kind of figured. You were always a bad liar.”
 
 [scene 2]
 "Our game was set to be completed in the following week."
@@ -199,4 +290,17 @@ ax "Wow, our game turned out great!"
 [end]
 ax "Thanks for everything, (Y/N)."
 mc "It's what friends do!"
-ax "Then I'm super lucky to have a friend like you."
+ax "Then I'm super lucky to have a friend like you.”
+mc “Do you ever think of like, what could have been?”
+ax ”I’m not sure what you mean.”
+mc “What if I had said that I loved you too a few weeks ago?”
+ax “I dunno.”
+mc “Do you think things could have worked out between us?”
+ax “Romantically? Probably. But there’s also the other option, where it ends up badly, with both of us pissed and throwing shoes at each other.”
+mc “I’d like to think that I’d throw slippers, because at least they’re soft.”
+ax “Shoes, slippers - doesn’t mater. This way was better. No negative outcomes come out of a friendship built on respect.”
+mc “Yeah, that’s true.”
+ax “Anyways, enough with the depressing alternate universe theories. We finished a game! We need to celebrate!”
+mc “What are you thinking?”
+ax “Laser tag?”
+mc “Yes. Laser tag.”
