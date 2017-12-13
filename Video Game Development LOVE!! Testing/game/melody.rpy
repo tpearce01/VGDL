@@ -14,9 +14,9 @@ label melody_scene1:
     md "What do you want?"
     mc "\"Just wondering if you’ve seen a phone around here.\""
     md "Not really."
-    hide md with dissolve
+    hide md calm with dissolve
     "As Melody was leaving, Alex made his way inside."
-    show ax with dissolve
+    show ax calm with dissolve
     ax "Hey, what’s taking you so long? You ?"
     mc "\"Yeah… I just got caught up with talking to Melody.\""
     ax "The Audio Officer Melody?"

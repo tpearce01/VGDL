@@ -1,5 +1,8 @@
 ## ALEX ##
 
+define ax_positive = 0
+define ax_negative = 0
+
 # ALEX SCENE 1
 label alex_scene1:
     #***ADD IN TEXT W/ GIRL AND DENIM JACKET***
@@ -37,6 +40,7 @@ label alex_scene1:
         "Please say you'll help me, [mcname]."
         "Yes":
             #[Pos. Option] "Yes"
+            $ ax_positive = ax_positive + 1
             mc "\"Okay, but how does it benefit me?\""
             ax "You'll get the satisfaction of helping your best friend in his time of need."
             mc "\"That's it?\""
@@ -47,6 +51,7 @@ label alex_scene1:
             ax "Nah! I’ll text you later about it."
         "No":
             #[Neg. Option] "No"
+            $ ax_negative = ax_negative + 1
             mc "\"I'm not comfortable with doing soemthing like that.\""
             show ax frown with dissolve
             ax "So you're gonna abandon your friend in his time of need?"
