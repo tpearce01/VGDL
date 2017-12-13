@@ -22,9 +22,88 @@ mc “Yeah, it sounded really neat. I’d love to be part of the team.”
 md “I dunno man, how good are you?”
 mc “(Gulp)”
 mc “I’m pretty good. 
+md “Can I see what you got man?”
+mc “Huh?”
+md “Your work, you got a portfolio or something I can see?”
+mc ”(Ah crap.)”
+mc “Sorry, I left my laptop at home.”
+md “No worries man, show me next time.”
+md “I’ll let Reina know we found an artist. It was [mcname], right?”
+mc “Yeah.”
+md “Sweet. I’ll see what I can do about getting you on the team.”
+md “You should get in touch with Reina, you’ll be working together a lot on this project.”
+mc “(I hope so. I really want to get a chance to talk to her more.)”
 
+--black screen--
+
+“The Game Lab, Later that Week”
+“A few club members are scattered around the room, chatting and working on their devices. Thankfully, Alex is nowhere to be found.”
+“I recognize Yukiko helping someone out. She sends a smile my way. Reina is in the corner again, drawing.”
+mc “(Alright, I’ll give her fair warning this time.)”
+“I clear my throat as I get closer.”
+mc “Ahem. Reina?”
+“No response.”
+mc “Reina?”
+“I lightly tap her on the shoulder.”
+re “Ah?!”
+“She jolts back, but I catch the chair before it falls.”
+re “You?”
+mc “I want to say that one was your fault.”
+re “No way! Stop sneaking up on me!”
+re “But thanks for catching me...again.”
+“She’s blushing a bit again.”
+mc “Anyway, I spoke to Melody and I’ll be working with you guys this quarter.”
+mc “So I’ve got your back, literally.”
+“She chuckles, but stops herself.”
+mc “My name’s [mcname] by the way, didn’t get a chance to introduce myself the last time I caught you.”
+“She lets a few more giggles escape.”
+re “It’s not like I would keep falling if you weren’t so quiet.”
+“I hold my hand out to shake. Her grip is gentle and she quickly looks away.”
+re “Reina, sorry for being so jumpy…”
+re “Oh right...um…”
+re “Melody asked me to take a look at your past work. Do you have your laptop on you?”
+mc “Right, here we go.”
+“I bring up some art I found online the other night. It’s not mine, but I could probably pull off something like it if I tried.”
+re “These are pretty good. I mean…it’s not like I haven’t seen better, but this isn’t bad.”
+re “How long have you been drawing?”
+mc “I drew a lot throughout high school, practiced whenever I could.”
+“It’s not entirely a lie...I doodled quite a bit in math.”
+re “Mm, it’s incredible what practice can do.”
+“She seems legitimately impressed with ‘my’ work. I just wish what I was showing her was as real.”
+re “Yeah, this will do fine. I’m looking forward to working with you [mcname].”
+“She smiles, brushing her light blue hair to the side. Slight dimples form at her cheeks.”
+mc “(Cute…)”
+re “But make sure you carry your weight this quarter.”
+mc “Right.”
+“I pack up my computer and start heading home. Reina returns to her work. I catch her glancing back at me once or twice.”
+mc “(Oh man. How am I going to keep this up?)”
+“I want to get to know Reina better, but I can’t keep lying to her about the art.”
+“This can only get worse over time. Maybe I can…? I don’t know…”
+mc “(What was it she said?)”
+“...it’s incredible what practice can do.”
+mc “(If I put my mind to it, maybe I can do the work and come clean.)”
+“Maybe.”
+
+-------------------------------------------
 
 First choice: Week 3
+
+--black--
+
+"And thus started my first quarter in VGDC."
+"As expected, the team I'm part of is filled with skilled members."
+mc "(Well, excluding myself of course. But no one needs no know that."
+mc "(... At least, not yet.)" 
+
+--Game Room--
+
+"A week had passed" 
+"Today marks our first ever team meeting, and it went by without a hitch."
+"I bought a drawing tablet beforehand and practiced enough to at least look like I know what I'm doing."
+"Nothing too impressive, just working on minor assets."
+"After what felt like forever, the meeting finally ended, and the group shuffled to get their things together."
+mc "(Reina's getting ready too...)"
+mc "(What do I do?)"
 
 [Option 1- Ask to talk to Reina]
 mc “(This is my only chance…! I’ve got to do it!)”
@@ -101,32 +180,35 @@ mc “Just got some work to finish up before the end of the day. Nothing major.�
 md “Woa, responsible. I like it.”
 md “Keep those work ethics up for our project and I just might start respecting you!”
 mc “Haha, sounds like a plan!”
-“They team filed out, and I was left alone.”
+“The team filed out, and I was left alone.”
 “I whipped out my brand new tablet, and started testing out an art program I downloaded the other day.”
 mc “(It may not be much, but… Anything is better than nothing.)”
 
-
+---------------------------------------------------------------------------------------
 
 Second choice: Week 4
 [Option 1- Ask Reina out for lunch]
 
 [Option 2- Work on drawing]
 
-
+---------------------------------------------------------------------------------------
 
 Third choice: Week 5
+
+mc "Hahhh..."
+
 [Option 1- Ask to hang out with Reina]
 
 [Option 2- Work on drawing]
 
-
+------------------------------------------------------------------------------------------
 
 Final choice: Week 6
 [Option 1- Invite Reina over to your room]
 
 [Option 2- Work on drawing]
 
-
+------------------------------------------------------------------------------------------
 
 [[GOOD ENDING]]
 
@@ -169,10 +251,6 @@ mc “...”
 “She’s caught on.”
 “I gripped the base of my chair firmly, and faced her gaze head on.”
 mc “(...Dang. What the heck do I do?)”
-mc “(Right now, Reina is confronting me.)”
-mc “(Reina, the girl that could barely speak to anyone without crumbling into a blushing, stuttering mess, is now confronting the truth.)”
-mc “(...)”
-mc “(But, what the heck am I doing?)”
 “We’d been staring at each other for what felt like an eternity, but those eyes never wavered. Not once.”
 mc “... Heh”
 re “...”
@@ -198,8 +276,122 @@ re "I couldn't help but think something was off when a 'prodigy' worked so hard 
 mc "Hmmm... so that gave it away, huh?"
 mc "Heh... guess I should've looked around more."
 "I sat there, a wry smile on my face, just looking up at the ceiling."
-mc "(Reina confronted the truth.)"
-mc "(This sweet, cute girl could do that much. So... what excuse do I have?)"
+mc “(Right now, Reina is confronting me.)”
+mc “(Reina, the girl that could barely speak to anyone without crumbling down into a blushing, stuttering mess, is confronting the truth.)”
+mc “(All I've been doing these past three weeks is run away from it...)"
+re "..."
+re "(mcname), please. Be honest with me."
+mc "..."
+mc "I'm... sorry."
+"I took a deep breath and bowed my head at her, putting as much sincerity in my words and actions as I could."
+mc "You're right. I'm no artist, much less a prodigy of any sort."
+mc "I lied so I could get placed in the same team as you." 
+mc "I didn't think much of it when I did it, but as time went on, this awful feeling started building up in my gut."
+mc "I thought I'd be fine if I could learn how to draw and pick up a few skills, but I severly underestimated just how difficult that was."
+mc "Then... things just went downhill from there. As much as I could, I practiced and practiced."
+mc "As time went on, I realized my efforts were in vain. There's just no learning these things over night."
+mc "But even still... I just couldn't bring myself to confess."
+re "(mcname)..."
+mc "Heh. I'm sorry, I really hope you're not feeling sorry for me right now."
+mc "I know you're a nice girl, but I wouldn't hold it against you if you hated me right now. In fact, I deserve it."
+re "... You're the worst."
+re "Deceit on top of plagiarism. What you did was awful, and there's no doubt you deserve to be punished accordingly."
+"Up until this point, Reina has been relatively calm and emotionless."
+"Now, I could hear her voice shake slightly with each word."
+re "Ngh..."
+re "But even still, I... I just can't hate you."
+mc "...Huh?"
+"I lifted my head to look at her, eyes wide open in bewilderment."
+mc "But... why?"
+re "Well..."
+re "You worked... hard."
+mc "..."
+re "Day after day, I saw you work so hard."
+re "Sometimes you were serious. Other times you were frustrated. Every now and again you'd even look a bit sad."
+re "But no matter what kind of expression you had on your face, you were always working diligently, trying hard to improve."
+re "There's just no way I could hate someone like that."
+mc "Then... Then does this mean-?"
+re "I don't forgive you, and I'm still angry at you."
+re "You're going to have your current tasks stripped from you and you'll be confessing to the whole team within the week."
+mc "(Ouch. Don't know what I was expecting there.)"
+mc "Y-Yea, of course. That's to be expected."
+re "... But, afterwards, I wouldn't mind... teaching you myself."
+mc "(?!?)"
+mc "H-Hold on. Are you serious..?"
+"Reina looked away sheepishly and nodded. I gawked in response."
+mc "But... why?"
+re "W-Well... you may have done something bad, but you're not a bad person. At least I don't think you are."
+re "I... I want to try trusting you. A-And maybe, getting to know the real you, and not some made up prodigy."
+mc "..."
+mc "G-Geez... hah. I, I can't believe this is happening."
+re "D-Don't let it get to your head though! It's not like it's anything special or anything, and you're still not off the hook for everything you did!"
+mc "Oh no, I know that! Trust me, I do!"
+mc "I swear I'll work hard to make up for my mistakes!"
+mc "Once I've redeemed myself, I look forward to working with you. I really, really do."
+re "Hmph. That's more like it."
+"With a pout and her chin pointed upward slightly, I knew Reina was trying her best to seem upset."
+"Though, she couldn't hide the red that brushed her cheeks nor the slight smile that pulled at her lips."
+"mc (It may have been a rough start, but maybe there's still hope for a happy ending after all.)"
 
+---------------------------------------------------------------------------------------------
 
 [[BAD ENDING]]
+
+“The game lab is mostly empty today.”
+“I’m playtesting our project for a bit when the door to the lab slams shut.”
+md “[mcname], we need to talk pal.”
+mc “(Gulp)”
+“Melody takes me outside. Reina is waiting for us.”
+“She seems to be on the verge of tears.”
+re “The art you showed me at the beginning, it wasn’t yours was it.”
+mc “Uhh…”
+md “Well?”
+“The two of them stare me down. No amount of lying or excuses can get me out of this one.”
+mc “Yeah, I stole it. I lied and passed it off as my own. I just really wanted to be on the team.”
+md “Un-flipping-believable.”
+mc “I’m sorry.”
+“I turn to Reina.”
+mc “Reina, I didn’t mean to do any harm. I’m really, really sorry.”
+re “You idiot! It’s not just that, you lied to us! You lied to me…”
+mc “I…”
+mc “Reina, you know me, I would never try to hurt you.”
+re “Do I know you? What else did you lie about? Does art even matter to you?”
+re “...Do I even matter to you?”
+mc “(Of course you do!)”
+mc “No, I--”
+mc “Reina, I’ve got your back. You mean the world to me.”
+re “I’d rather you just let me fall that day instead of letting me down here like this..”
+re “What could you possibly have wanted so much that you would pretend to be someone you’re not?”
+“I hesitate. Before I can answer, she storms off.”
+mc “(I wanted to be with you…)”
+“I try to follow her, but Melody stops me.”
+md “You’re in deep trouble, pal.”
+
+//Timeskip to later, main character is talking to Alex in the park
+“Because of my plagiarism, they kicked me off the team.”
+“The president was going to drop me from the club entirely and report my actions, but someone convinced him to let me off with a warning.”
+“I can’t join another team for the rest of the year, that’s not too bad.”
+“But I won’t be able to be with Reina again, and that punishment will last forever.”
+mc “So that’s where I am right now.”
+ax “Wow.”
+ax “You really messed up, my friend.”
+mc “Yeah…”
+“Alex and I laying in the grass in Aldrich. I just really needed someone to talk to.”
+mc “I have to wonder if things might have gone down another way if I had done things differently.”
+mc “In any case, thanks for putting in a kind word to George. It means a lot that you backed me up there.”
+“Alex smirks.”
+ax “You know I’m happy to stick up for you…”
+ax “But that wasn’t me that had your back in the meeting.”
+mc “Huh?”
+ax “Your guardian angel was someone else. Speak of the devil, here she comes.”
+“A blue-haired girl walks over to the two of us. If she were smiling, she’d have dimples. If she were laughing, it would be the sweetest sound in the air.”
+“I jump to my feet.”
+mc “Reina.”
+re “It’s not like I forgive you, I don’t.”
+mc “I’m sorry, I really am. I’ll say it a thousand times and a thousand more.”
+“She continues.”
+re “See this as a learning experience, practice if you will. Make yourself better from the time you spent with me.”
+re “After all, that’s all I was to you in the end.”
+re “I wish you luck in the future with VGDC, but I never want to talk to you again.”
+re “Good bye.”
+
