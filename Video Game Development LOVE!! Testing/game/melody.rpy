@@ -36,7 +36,7 @@ label melody_scene1:
     mc "I don’t think she has any bad intentions though..."
     ax "I like bad girls."
     mc "... I am speechless. You will never change. I take that back. You will never grow up!!"
-    "He starts to laugh hysterically." 
+    "He starts to laugh hysterically."
     show ax happy with dissolve
     ax "Comeeee on… good girls ain’t no fun, am I right?"
     mc "I wouldn’t know…"
@@ -71,7 +71,7 @@ label melody_scene1:
     kd "Pst. Get out of my way..."
     mc "Damn... isn’t he the production guy? What an ass..."
     "I got to the lecture hall and luckily the doors were still open...."
-    
+
     #SETTING: Lecture Hall
     scene bg meeting_2 with dissolve
     "When I entered the lecture hall, the board was covered in graffiti and then I saw Melody drawing graffiti on the far wall. ‘VGDC sucks.’ was one of the messages on the wall."
@@ -115,7 +115,7 @@ label melody_scene1:
             "She tosses the phone across the lecture hall to me."
             mc "(I barely caught it… this girl is crazy.)"
             "If you tell anyone this, I’ll make sure you’ll regret ever coming to UCI."
-            "Her aggressive tone and words sent shivers throughout my whole body and soul." 
+            "Her aggressive tone and words sent shivers throughout my whole body and soul."
             "I felt as if I was the deer being hunted. I’m wasn’t playing with fire… I was sinking in the middle of the ocean!"
 
     #----------End of Player Choice 1----------
@@ -158,7 +158,7 @@ label melody_scene1:
     md "Now get out of my lecture hall. And if any of you tell anyone, I’ll-"
     ax "Yeah! Don’t worry… we won’t."
     "With a great sigh we looked at each other and exited the hall."
-    
+
     #SETTING: Outside (night)
     scene bg outside_night with dissolve
     show ax calm with dissolve
@@ -173,7 +173,7 @@ label melody_scene1:
     mc "Fine, whatever."
     mc "What a stressful and awkward situation… Let’s go home now."
     ax "Forreal…"
-    
+
     #--Scene 2--
     #SETTING: Student Center
     scene bg studentcenter with fade
@@ -181,7 +181,7 @@ label melody_scene1:
     show ax calm with dissolve
     ax "Hey dude!"
     mc "Why are you so... dressed up?"
-    mc "Is that... cologne?" 
+    mc "Is that... cologne?"
     ax "No girl can resist my beautiful physique."
     ax "HAHAHA!"
     mc "Please stop."
@@ -253,7 +253,7 @@ label melody_scene1:
     md "Oh yeah, we haven’t introduced ourselves to each other yet."
     "She extends her hand out towards me."
     md "I’m Melody, nice to meet you [mcname]!"
-    
+
     #----------Player Choice 2---------
     menu md_menu2:
         "Tell her that I'm not going to fall for her tricks":
@@ -274,9 +274,9 @@ label melody_scene1:
             md "Ahhh… I see. I can’t fool you."
             mc "..."
     #---------End of option 2---------
-    
+
     ### END OF UPDATES ###
-    
+
     "Just as fast as he had left, Alex came back with her order and she pats him on the head and smiles at him."
     md "Thank you Alex."
     mc "(The expression on his face when she patted him… yup. He’s definitely gone now. Dreaming in his own little world…)"
@@ -615,7 +615,7 @@ label melody_scene1:
     mc "Eh?! Really??"
     "With her arms crossed and a stern look on her face, she starts to walk away."
     mc "Oi! Wai-"
-    mc "(Is she… angry at me? There’s no way it’s my fault.)" 
+    mc "(Is she… angry at me? There’s no way it’s my fault.)"
     mc "(She’s probably having one of those moody days of the month...)"
     mc "Yup. That’s probably it."
     mc "But damn… Ren got a lot cuter than before…"
