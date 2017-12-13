@@ -31,6 +31,7 @@ define mcname = "Tyler"     # Default main character name
 define gender = "m"         # Default character gender
 
 # DIALOGUE VARIABLES
+define gender_d = "male"
 define they = "he"          # UNUSED - Variable for setting gender he/she
 define they_c = "He"        # He/She Capital version
 define their = "his"        # UNUSED - Variable for setting gender his/hers
@@ -174,6 +175,7 @@ label get_gender:
         "Female":
             python:
                 gender = "f"
+                gender_d = "female"
                 they = "her"
                 they_c = "Her"
                 their = "hers"
@@ -262,6 +264,9 @@ init python:
     
     # AUDIO
     renpy.music.set_volume(0.25, 0, channel="music")
+    
+    # EFFECTS
+    flash = Fade(0.25, 0, 0.75, color="#fff")
     
     # INIT - SETTING VARIABLES EVERY TIME THE GAME IS RUN
     #image gd calm = ("gd calm.png")
