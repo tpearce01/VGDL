@@ -1,3 +1,6 @@
+define md_affection = 0
+# max affection = 8
+
 #DIALOGUE:
 #--Scene 1:--
 #SETTING: Outside (Night)
@@ -97,6 +100,7 @@ label melody_scene1:
 
     #-----#option 2: Look for your phone and ignore her (Best):-----
         "Look for my phone and ignore her":
+            $ md_affection = md_affection + 1
             md "Hey!"
             mc "(Pull yourself together. She's not going to jump you.)"
             mc "(...)"
@@ -263,11 +267,13 @@ label melody_scene1:
 
     #-----option 2: Wait. How did you know my name? (Decent)
         "Wait. How did you know my name?":
+            $ gd_affection = gd_affection + 1
             mc "(How did you know my name?)"
             "She gives a slight grin and remained silent."
             mc "Whatever."
     #-----option 3: Alex told you my name, huh? (Good)
         "Alex told you my name?":
+            $ gd_affection = gd_affection + 2
             mc "(Damn that Alex…)"
             mc "Alex told you my name, huh?"
             "I grabbed her hand with mine and with a firm grip, I shook her hand."
@@ -276,7 +282,11 @@ label melody_scene1:
     #---------End of option 2---------
 
     ### END OF UPDATES ###
-
+    show md calm:
+        linear 0.5 xalign 0.2
+    show ax calm at right with dissolve
+    show ax calm:
+        linear 0.5 xalign 0.8
     "Just as fast as he had left, Alex came back with her order and she pats him on the head and smiles at him."
     md "Thank you Alex."
     mc "(The expression on his face when she patted him… yup. He’s definitely gone now. Dreaming in his own little world…)"
@@ -291,16 +301,23 @@ label melody_scene1:
     "He looked down at his phone and a few seconds after reading the message his mood and tone changes."
     ax "Melody, we have to go. Now."
     md "Yeah… I know."
+    hide md calm with dissolve
+    show ax calm:
+        linear 0.5 xalign 0.5
     ax "Sorry [mcname], but we gotta go. We’ll talk to you later!"
     mc "(Something’s wrong. Something serious…)"
     "I quickly grabbed Alex’s wrist."
     mc "Call me after."
     ax "Yeah."
+    hide ax calm with dissolve
     mc "..."
+    
     #Scene 3
     #SETTING: Player’s apartment
+    scene bg mc_apartment_inside with fade
     "I waited for hours. Waiting for Alex’s call."
     mc "What’s taking him so long… something happened with VGDC."
+    show phone with dissolve
     "My phone rang! I quickly grabbed it and picked up."
     mc "Alex! What happened?"
     ax "...We’re in big trouble."
@@ -346,12 +363,16 @@ label melody_scene1:
     mc "Do you think she’ll do it again?"
     ax "I’m… I’m not sure. Keep an eye on her if you can."
     mc "Yeah."
+    hide phone with dissolve
     mc "Melody…"
+    
     #-------------Scene 4-----------------
     #SETTING: Player’s apartment
+    scene bg mc_apartment_inside with fade
     "A few has passed since the incident. I’ve submitted my pitch online and now I’m planning out the game, preparing for the actual pitch next meeting."
     "I haven’t seen or talked to Melody yet…"
     "I took my phone out of my pocket and called Alex."
+    show phone with dissolve
     ax "Yo, what’s up."
     mc "Hey, I have a question. Do you know where I can find a piano at school?"
     ax "Yeah there’s a public piano room and concert hall right behind the VGDC club meeting place."
@@ -361,6 +382,7 @@ label melody_scene1:
     ax "If you’re teaching piano lessons to a girl… and you’re not telling me about it…"
     "Without hesitation, I instantly hung up on him."
     mc "Haiyah. That boy and his obsession with girls… unreal."
+    
     #SETTING: Piano Concert Hall
     mc "Wow… this room is so beautiful! There’s no one here either…"
     "A grand piano sat on the middle of the wooden stage, surrounded by the warmth of the incandescent lights."
@@ -375,6 +397,7 @@ label melody_scene1:
     unknown "That was pretty good."
     mc "(A girl’s voice?)"
     "I turned towards the empty stalls to see who it was."
+    show md calm with dissolve
     md "Hey."
     mc "Melody? What are you doing here?"
     md "I should ask you the same question."
@@ -384,6 +407,7 @@ label melody_scene1:
     "She stood next to me, while I sat, and slowly starts to move her hand across the surface of the piano keys."
     md "This piano… it’s nice."
     md "Well, nice seeing you again, [mcname]. I’ll see you around."
+    hide md calm with dissolve
     "She gave me a smile before turning and leaving."
     mc "Something or someone is bothering her… I can feel it."
     mc "Can it be… that Kendrick guy?"
@@ -391,6 +415,7 @@ label melody_scene1:
     "I got up and before leaving the concert hall, I turned around and gave it one last glance."
     "As I left the room, I turned to my left and saw the president of VGDC next to me. Surprised by his appearance, I took a few step back."
     "He looks at me and gives me a slight, but beautiful smile."
+    show gd calm with dissolve
     gd "That was a beautiful piece that you played there."
     mc "(How did he hear me?? I didn’t remembering seeing him in there.)"
     mc "Oh-uh, thanks."
@@ -398,27 +423,36 @@ label melody_scene1:
     gd "It’s a small piano competition here, in a couple of weeks."
     gd "You should come and watch."
     "He walks away while whistling the tune that I just played."
+    hide gd calm with dissolve
     mc "What a weird guy..."
     mc "Piano competition? I’ve never watched one before… this might be interesting."
     mc "Pitch day is tomorrow. I gotta get ready ASAP…"
+    
     #Scene 5
     #SETTING: anywhere on campus
+    scene bg park_1 with fade
     mc "Today is pitch day. I’m already getting some massive butterflies…"
     "I nervously walk around my room thinking about project idea."
     mc "What if I stutter up there… no what if I don’t remember what to say. What if I can’t handle it and start to-"
     "My phone rang before I can finish my thought."
+    show phone with dissolve
     mc "Hello?"
     ax "Yo. Bad news."
     mc "What happened?"
     ax "Someone told me that Melody plans on publishing her artwork again… so if you see her, keep an eye on her will ya?"
     mc "What is that girl thinking…"
+    
     #SETTING: outside anywhere (pref outside lecture hall)
+    scene bg sslh with fade
     "I head towards the lecture a few hours before the meeting started."
     mc "(I’m pretty sure she’ll be here…)"
     mc "(There’s no way she’ll be doing it after the meeting. She’ll definitely do it before.)"
     "Once there, I tried opening the doors but they were all locked except for one on the far side. I entered."
+    
     #SETTING: lecture hall
+    scene bg meeting_1 with dissolve
     "Instantly, as I entered, she turns around and looks at me."
+    show md calm with dissolve
     "I wave at her."
     mc "Hey…"
     "I point and look towards the door."
@@ -457,22 +491,35 @@ label melody_scene1:
     mc "Go to the other side and leave! They’re already here, I’ll stall for you!"
     md "No… you’ll get caught!"
     #----------Player Choice 3---------
-    #-----option 1: Ask her to trust you. (BEST)
-    mc "I didn’t do the graffiti so I can make up an excuse, but you’ll get kicked if they find out!!"
-    mc "Trust me on this one…"
-    md "It doesn’t matter, I’m going to leave anyway!"
-    mc "It does matter! I don’t want you to leave. Now go!"
-    "I was surprised as she was when I had said those words to her."
-
-    "Speechless, she turns and starts to run for the other door."
-    #-----option 2: Tell her to go now and that she’s annoying.(WORSE
-    mc "Go now! You’re so annoying, just go! You’ll get both of us caught."
-    "She didn’t say anything, but her eyes started to get red. She then turns and heads for the other door."
-    mc "(Damn… maybe I shouldn’t have said that.)"
+    menu md_menu3:
+        "What should I do?"
+        #-----option 1: Ask her to trust you. (BEST)
+        "As her to trust me":
+            $ md_affection = md_affection + 1
+            mc "I didn’t do the graffiti so I can make up an excuse, but you’ll get kicked if they find out!!"
+            mc "Trust me on this one…"
+            md "It doesn’t matter, I’m going to leave anyway!"
+            mc "It does matter! I don’t want you to leave. Now go!"
+            "I was surprised as she was when I had said those words to her."
+            hide md calm with dissolve
+            "Speechless, she turns and starts to run for the other door."
+        #-----option 2: Tell her to go now and that she’s annoying.(WORSE
+        "Tell her to go now and that she's annoying":
+            mc "Go now! You’re so annoying, just go! You’ll get both of us caught."
+            hide md calm with dissolve
+            "She didn’t say anything, but her eyes started to get red. She then turns and heads for the other door."
+            mc "(Damn… maybe I shouldn’t have said that.)"
     #----------End of Player Choice 3----------
     "Instantly, as she turns, I headed out once more."
     #SETTING: Outside Lecture Hall
+    scene bg sslh with dissolve
     "In front of me were George Dan and Kendrick. I froze still as their eyes gaze at mine."
+    show kd calm at left with dissolve
+    show kd calm:
+        linear 0.5 xalign 0.2
+    show gd calm at right with dissolve
+    show gd calm:
+        linear 0.5 xalign 0.8
     kd "Well, well, well. What are you doing out here kid?"
     "He gave off a vicious and cold grin."
     mc "Oh-hey, you guys are from VGDC right? I was just in there looking for my wallet because I had class this morning and I had lost it earlier this morning as well."
@@ -485,6 +532,11 @@ label melody_scene1:
     mc "I didn’t see anyone when I entered the room from this door."
     "Irritated by my answer, Kendrick lunges forward with anger and grabs the torso of my shirt with two hands."
     kd "Tell me who did it! I know that you know! Talk!"
+    show kd calm:
+        linear 0.5 xalign 0
+    show gd calm:
+        linear 0.5 xalign 1
+    show md calm with dissolve
     md "Hey! What’s going on around here. Why are the doors locked as well?"
     "It was Melody. She walked towards us and the two of them turn to look."
     kd "Mind your own business. This kid is a suspect here."
@@ -496,46 +548,65 @@ label melody_scene1:
     kd "What? Are you serious George Dan?! I’m sure this guy did it or knows who did it."
     gd "Unless there’s evidence or we catch them in the act, then we can’t accuse him."
     gd "Let’s go, Kendrick, we have to clean the hall before the meeting starts."
+    hide gd calm with dissolve
     "Kendrick stares at Melody with an irritated expression."
     kd "Annoying girl."
+    hide kd calm with dissolve
     "I moved aside and they entered the hall."
     "I look up at Melody. Our eyes met and I let out a big sigh."
     md "Let’s go."
+    hide md calm with dissolve
     "We walk towards the main road."
+    
     #SETTING: Ring Road
+    scene bg studentcenter_2 with dissolve
+    show md calm with dissolve
     mc "That… was so close."
     md "I’m sorry I got you into that…really."
     #----------Player Choice 4---------
-    #-----option 1: Laugh. (BEST)
-    "I look at her and start to laugh uncontrollably. I then collapsed onto the floor and laid down."
-    md "What?! What’s so funny?"
-    mc "It’s nothing."
-    "She gives off an irritated look. I smiled at her."
-    mc "I’m just happy that we both got away. But don’t do it again next time!"
-    md "Yeah… I’ll stop."
-    "I raised both my hands in the air. She came over and helped me up."
-    mc "Let’s find something to eat until the meeting."
-    "After taking a few steps, Melody grabs my hand."
-    "I turn around and face her."
-    md "I… thank you."
-    mc "Don’t worry about it..."
-    #-----option 2: Tell her it’s whatevers.(WORSE)
-    mc "It’s whatevers."
-    mc "I’m just happy that we both got away. But don’t do it again next time..."
-    md "Yeah… I’ll stop."
-    mc "Let’s find something to eat until the meeting."
-    #-----option 3: It’s fine.(MEDIUM)
-    mc "Oh, it’s fine! I still got away…"
-    mc "I’m just happy that we both got away. But don’t do it again next time!"
-    md "Yeah… I’ll stop."
-    mc "Let’s find something to eat until the meeting."
+    menu md_menu4:
+        "What should I do?"
+        #-----option 1: Laugh. (BEST)
+        "Laugh.":
+            $ md_affection = md_affection + 2
+            "I look at her and start to laugh uncontrollably. I then collapsed onto the floor and laid down."
+            md "What?! What’s so funny?"
+            mc "It’s nothing."
+            "She gives off an irritated look. I smiled at her."
+            mc "I’m just happy that we both got away. But don’t do it again next time!"
+            md "Yeah… I’ll stop."
+            "I raised both my hands in the air. She came over and helped me up."
+            mc "Let’s find something to eat until the meeting."
+            "After taking a few steps, Melody grabs my hand."
+            "I turn around and face her."
+            md "I… thank you."
+            mc "Don’t worry about it..."
+            
+        #-----option 2: Tell her it’s whatevers.(WORSE)
+        "Tell her it's whatevers.":
+            mc "It’s whatevers."
+            mc "I’m just happy that we both got away. But don’t do it again next time..."
+            md "Yeah… I’ll stop."
+            mc "Let’s find something to eat until the meeting."
+        #-----option 3: It’s fine.(MEDIUM)
+        "It's fine.":
+            $ md_affection = md_affection + 1
+            mc "Oh, it’s fine! I still got away…"
+            mc "I’m just happy that we both got away. But don’t do it again next time!"
+            md "Yeah… I’ll stop."
+            mc "Let’s find something to eat until the meeting."
     #----------End of Player Choice 4----------
+    
     #SETTING: Lecture Hall
+    scene bg meeting_1 with fade
     mc "My stomach is going to explode… I knew I shouldn’t have eaten before my pitch. Now I have food and butterflies in my stomach."
     "The crowd claps as a girl finishes pitching."
+    show gd calm with dissolve
     gd "Next up we have [mcname] who will pitching a game called Gentle Keys."
     mc "Thats me… oh this is not good."
+    hide gd calm with dissolve
     "The crowd claps as I slowly walk up to the stage."
+    scene bg meeting_2 with dissolve
     mc "(There’s so many people… my stomach…)"
     mc "(Phewww. Okay. Let’s go.)"
     mc "Hi everyone, my name is [mcname]. My game is called Gentle Keys."
@@ -544,15 +615,23 @@ label melody_scene1:
     "I continued to talk until the time ran out."
     mc "Thank you for listen! My game is called Gentle Keys if you guys and ladies are interested."
     "The crowd claps once more and I headed towards the exit to get some fresh air."
+    
     #SETTING: Outside Lecture Hall (Night)
+    scene bg sslh with dissolve
     mc "Phewww… that wasn’t as bad as I thought."
     md "So that’s why you were at the concert hall…"
     mc "Sneaking behind someone is not nice…"
     "I turn around to face Melody."
+    show md calm with dissolve
     md "Does it look like I’m a nice person??"
     md "Anyway, I’ve decided… I-"
     unknown "[mcname]!!"
     "Before Melody could finish her sentence, someone screamed out my name behind her."
+    show md calm:
+        linear 0.5 xalign 0.2
+    show ren calm at right with dissolve
+    show ren calm:
+        linear 0.5 xalign 0.8
     mc "Ren?!"
     Ren "Heya! Long time no see."
     "This is Ren. She’s… well kinda like an older sister to me back in high school. She’s a year above me and I only knew her for one year."
@@ -584,29 +663,37 @@ label melody_scene1:
     mc "Ohhh boy… that was unexpected."
     "I looked at Melody and she gave me a very, very irritated and impatient look."
     mc "(What should I say now?)"
-    #----------Player Option 5------------
-    #option 1: "It’s not what you think." (Middle)
-    mc "I promise you… it’s not what you think!"
-    mc "We’re just friends! She’s just a touchy person!"
-    "With her hand on her stomach she bursts out laughing."
-    mc "Why are you laughing??"
-    md "Because that was too cringy to watch."
+    menu md_menu5:
+        "What should I say now?"
+        #----------Player Option 5------------
+        #option 1: "It’s not what you think." (Middle)
+        "It's not what you think.":
+            $ md_affection = md_affection + 1
+            mc "I promise you… it’s not what you think!"
+            mc "We’re just friends! She’s just a touchy person!"
+            "With her hand on her stomach she bursts out laughing."
+            mc "Why are you laughing??"
+            md "Because that was too cringy to watch."
 
-    #option 2: "I swear, she’s not my ex girlfriend." (Best)
-    "I turn to look at Melody."
-    mc "I swear, she’s not my ex girlfriend."
-    mc "She’s just a touchy person!"
-    "With her hand on her stomach she bursts out laughing."
-    mc "Why are you laughing??"
-    md "Because that was too cringy to watch."
+        #option 2: "I swear, she’s not my ex girlfriend." (Best)
+        "I swear, she's not my ex girlfriend.":
+            $ md_affection = md_affection + 2
+            "I turn to look at Melody."
+            mc "I swear, she’s not my ex girlfriend."
+            mc "She’s just a touchy person!"
+            "With her hand on her stomach she bursts out laughing."
+            mc "Why are you laughing??"
+            md "Because that was too cringy to watch."
 
-    #option 3: "She’s kinda cute, don’t ya think." (Middle)
-    mc "She’s kinda cute, don’t ya think?"
-    md "You know what I think?"
-    "Melody starts to curl her fingers into a fist."
-    md "I think you need a big fat punch!"
-    mc "EH? Why?!"
-    "She tosses her punch half way, but then stops and cross her arms instead."
+        #option 3: "She’s kinda cute, don’t ya think." (Middle)
+        "She's kinda cute, don't ya think?":
+            $ md_affection = md_affection + 1
+            mc "She’s kinda cute, don’t ya think?"
+            md "You know what I think?"
+            "Melody starts to curl her fingers into a fist."
+            md "I think you need a big fat punch!"
+            mc "EH? Why?!"
+            "She tosses her punch half way, but then stops and cross her arms instead."
     #--------End of Option-----------
     md "Anyway, I’m still mad and annoyed because you ignored me earlier."
     mc "Huh? I did?"
