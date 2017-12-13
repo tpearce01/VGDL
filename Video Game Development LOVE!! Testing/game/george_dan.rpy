@@ -999,8 +999,10 @@ label gd_scene6:
             "He turned around and took a few steps forward."
             gd "Hey, thanks for everything… and tell your dad I said hi."
             mc "Huh?? Do you know my dad?! Hey wait up!"
+            hide gd calm with dissolve
             "As he walks away with his back facing me, he pulls out his left hand and waves it."
             mc "This guy… always playing the cool guy. And how does he know my dad?"
+            show phone with dissolve
             "I opened up my phone and called my dad."
             mc "Come on old man… pick up. PICK UP…"
             dad "Hey… what’s up? Why are you calling so late?"
@@ -1025,7 +1027,11 @@ label gd_scene6:
             "I couldn’t believe it… we had crossed paths before. I certainly didn’t recognize him, but he recognized me."
             mc "He played me like a fool… and I fell for all of it. Hahaha. That guy is definitely annoying."
             mc "I’m really going to miss him…"
+            hide phone with dissolve
+            
             #setting: inside player’s apartment
+            scene bg mc_apartment_inside with fade
+            show ren with dissolve
             mc "Good morning Ren."
             ren "Oi… how long did I sleep for? That sleep was actually super comforting."
             mc "Yeah you knocked out pretty early."
