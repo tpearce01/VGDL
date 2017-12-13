@@ -1,3 +1,6 @@
+define gd_affection = 0
+#define max_affection = 10
+
 #DIALOGUE : 
 #Scene 1: 
 #setting:lecture hall
@@ -134,6 +137,7 @@ label gd_scene3:
             "I immediately hand back the bottle and nervously walk off without saying a word."
             gd "Thank y..."
         "Get dramatic and tell him that he’s the worst kind of guy":  #(middle)
+            $ gd_affection = gd_affection + 1
             mc "Wait a minute, why am I, a [gender_d], picking up the bottle for you who obviously bumped into me??" #Can the gender be removed?
             mc "(WHAT AM I SAYING?! THIS IS NOT ME.)"
             gd "My apologies. You picked up my bottle so fast that I didn’t even have time to react."
@@ -143,6 +147,7 @@ label gd_scene3:
             mc "(Next time?! What am saying!?)"
             "I start to quickly walk away."
         "Pretend to accidentally trip and sees if he catches you": #(best)
+            $ gd_affection = gd_affection + 2
             mc "Here’s your bott..."
             "As I return the bottle to him, my legs start to feel weak. Suddenly, as if a ghost had possessed me, my legs stumble and I fell toward him."
             gd "Oi, Are you okay?"
@@ -174,6 +179,7 @@ label gd_scene3:
         "(This feeling is so tense... how am I supposed to focus?! I wonder if he’s looking at me. Should I peek to see if he is or should I just leave??)"
         #[Player Options 2]
         "Definitely peek": #(best)
+            $ gd_affection = gd_affection + 1
             mc "(Okay. Just a really, really brief peek.)"
             "(you peek at him)"
             mc "(Wow.... His face, resting gently on his silky fingers. He looks so elegant...)"
@@ -245,6 +251,7 @@ label gd_scene3:
         "(Should I confront him this time?)"
         #[Player Options 3]
         "Yes, and make sure you show him who’s boss": #(Best Choice + Bonus)
+            $ gd_affection = gd_affection + 1
             "I walk up to him to confront him."
             mc "Hey you!!"
             "He then looks at me."
@@ -301,11 +308,13 @@ label gd_scene3:
             #[Player Option 3.1(bonus)]
             menu gd_menu3_1:
                 "Run at him and whisper in his ears": #(1st best)
+                    $ gd_affection = gd_affection + 2
                     "I turned around and walked up to him. With my hands on his shoulders I whispered...)"
                     mc "My name is [mcname]."
                     gd "[mcname]..."
                 
                 "Nah. You haven’t beaten me yet.": #(2nd best)
+                    $ gd_affection = gd_affection + 1
                     mc "You haven’t beaten me yet."
                     mc "(I turn around and smile.)"
                     mc "My name is [mcname]."
@@ -401,6 +410,7 @@ label gd_scene4:
     menu gd_menu4:
         #[Player Option 4]
         "Then come and challenge me today!": #(Best)
+            $ gd_affection = gd_affection + 1
             mc "Instead of talking big, how bout you come out and play me tonight!"
             gd "I would love to, but you’ll just have to wait a bit for your that L."
             mc "Hmph. At this rate I guess I’ll just have to wait two lifetimes before I get to beat you."
@@ -729,6 +739,7 @@ label gd_scene6:
             mc "Thanks…"
         #option 2: Try to invite him over to your place. #Best
         "Try to invite him over to my place":
+            $ gd_affection = gd_affection + 1
             mc "Is it really that good?"
             gd "Yeah, I love it."
             mc "Anyway… why did you come if you knew that everyone else wasn’t coming?"
@@ -970,12 +981,14 @@ label gd_scene6:
         "What should I do?"
         "Wish him good luck.":
             #Option 1: Wish him good luck. (good)
+            $ gd_affection = gd_affection + 1
             gd "Mhm?"
             "I shook my head."
             mc "It’s nothing. Good luck! Don’t lose hope, I believe in you."
             mc "(I am going to miss you…)"
         "Run up to him and give him a hug":
             #option 2: Run up to him and give him a hug.(best)
+            $ gd_affection = gd_affection + 2
             gd "Mhm?"
             "I ran up to him and wrapped my arms around his body."
             mc "Thank you... "
@@ -1048,6 +1061,10 @@ label gd_scene6:
     "A flash of lightning came across the sky and a faint sound of thunder followed it."
     scene bg black with fade
     "My body, deprived of sleep; my foot, too weak to take another step. I closed my eyes and waited for the rain."
+    
+    # If affection is >= 70% of max, good end. Otherwise flow into bad end
+    if gd_affection >= 7:
+        jump gd_good_end
     
     #ENDINGS:
 label gd_bad_end:
