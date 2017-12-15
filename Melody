@@ -1111,9 +1111,562 @@ mc “(She’s probably having one of those moody days of the month...)”
 
 mc “Yup. That’s probably it.”
 
-mc “But damn… Ren got a lot cuter than before…”
+mc “But damn… Ren got a lot cuter than before.”
 
 mc “Shoot… I should get home, it’s getting kinda late.”
+
+#SCENE 6
+
+#SETTING: Anywhere outside, ring road
+
+“It’s been a week since pitch night. Melody said she wanted to meet up today to talk about the game. I still couldn’t believe that she wanted to join my group…”
+
+“She asked me to meet her up at the piano room. I’m guessing she wants me to record her a few pieces in order to create the audio for the game.”
+
+Suddenly, as I walk towards the piano room, a random guy bumps into me.
+
+mc “My bad, sorry.”
+
+kd “If it isn’t the rat again.”
+
+“It was Kendrick and he has a malicious smirk on his face.”
+
+mc “What do you want?”
+
+kd “What do I want? I WANT YOU TO TELL ME WHO DID IT!”
+
+kd “I know you know.”
+
+“He grabs me by my shirt. I coldly look at him in the eyes.”
+
+mc “I don’t know.”
+
+md “Let him go.”
+
+kd “Ahhh… your little princess to the rescue again?”
+
+kd “I wonder how long she’ll be around to help you.”
+
+kd “I hoping she does leave. She doesn’t deserve to be here at all.”
+
+“He starts to laugh wickedly and walks.”
+
+mc “(I really wanted to punch him…)”
+
+md “Hey, are you okay?”
+
+mc “Yeah. I’m fine. I handle bullies all the time.”
+
+mc “Oh yeah, what did you want to talk about?”
+
+md “Follow me!”
+
+“She grabs my hand and started to run towards the piano room.”
+
+mc “Hey! Wait!...”
+
+SETTING: Piano Room
+
+md “We’re here.”
+
+md “I wanted you to...”
+
+mc “Play the piano for you to record for the audio?”
+
+“She nods her head and smiles.”
+
+mc “Yeah, that’s no problem at all!”
+
+“I turn to look towards the stage.”
+
+mc “Well… I guess we’ll have to wait our turn. There’s someone here before us.”
+“Melody turns and looks at the stage.”
+
+md “Oh… him.”
+
+“As we both look, he started to play.”
+
+mc “Wow… J.D’s pretty good. He’s really good!”
+
+“I look towards Melody and she looked unimpressed and annoyed.”
+
+md “Yeah he’s good, but does he have to take up our spot.”
+
+mc “(Our?)”
+
+md “Let’s just go to the other piano room…”
+
+mc “I think he’s almost done...”
+
+“As Melody starts to walk away, J.D stopped playing and claps from one person can be heard.”
+
+mc “Is that Ren??”
+
+“Irritated, she turns and looks at me.”
+
+md “Let’s go.”
+
+#PLAYER CHOICE 6----------
+
+#-------option 1---------: Tell her that we should go down there to meet them. (Worse)
+
+mc “Let’s go down there and meet them instead!”
+
+“Her irritated expression turned for the worse.”
+
+md “Do whatever you want.”
+
+“She starts to leave the building.”
+
+mc “Hey wait!”
+
+“I quickly followed her as she exits.”
+
+
+#-------option 2---------: Listen and go with her. (Good)
+
+mc “Okay, let’s go.”
+
+“I quickly followed her as she exits.”
+
+
+------------End of choice 6------------
+
+SETTING: OUTSIDE
+
+“We recorded the music that Melody needed and then she left… I wonder why she seemed so irritated back at the concert hall…”
+
+“Was it because of J.D? Well… I guess she really does hate the club. But why is she still in it if she hates it?”
+
+“Tonight is the club meeting and also results… I wonder if Melody is actually in my group.
+
+SCENE 7 
+#Setting: Outside
+
+“Today’s our first group meeting.”
+
+“Yesterday was the club meeting and I was pretty surprise to see the results. I totally did not expect it all…”
+
+#Setting: Meeting place
+
+“I walk inside to our meeting place and the first thing I noticed was Alex holding her hands between his.”
+
+ax “Ren, ohhh Ren! I still can’t believe I’m this lucky to be in a group with such a beautiful girl.”
+
+Ren “Awww, thank you Alex! You’re such a sweetheart!”
+
+md “Oh buddy… you fall victim to girls way too easily. I feel bad for you.”
+
+“Ren was the first one to notice me.”
+
+Ren “(y/n)!!”
+
+“She dashes toward me and wraps her arms around me.”
+
+
+ax “Hey dude! You finally made it!”
+
+md “The leader is the last one to be here huh?”
+
+mc “Hey everyone…”
+
+“I look around the room to get a good look at everyone.”
+
+“This is my team… the four of us.”
+
+“Alex is our designer/programmer, Ren is our artist, Melody is our audio girl, and I’m the producer.”
+
+“I guess our team is solid for this game project.”
+
+“It was pretty unexpected. I thought that Alex was going to have his own group since he was pitching…
+
+“But it turns out that no one wanted to join his project so he chose to be in mine. That’s good though, because we don’t really have that many members.”
+
+“I didn’t think Ren would be in our group, but I guess after seeing me, she really wanted to be in my group.”
+
+“I guess she thinks I’m pretty cute!”
+
+“And Melody… well I knew she was going to be in my group but it still feels like a dream.”
+
+“She looks so beauti…”
+
+mc “By the way! I just realized… how come we have 2 officer buddies for such a small group?”
+
+ax “Wait, Melody, you didn’t tell (y/n)?”
+
+md “Oh yeah… I dropped the board gig. I’m not a board member anymore.”
+
+md “It didn’t suit me anyway.”
+
+mc “Oh… that makes sense.”
+
+“I had a feeling that she was going to drop the board position, but it was a surprise to see her do it so early…”
+
+mc “Well then… “
+
+“Everyone stares at me intensely as I spoke.”
+
+mc “Firstly… can you all stop staring at me!!”
+
+md “Oh yeah, let me just stare at a wall while you talk!”
+
+“Alex and Ren start to laugh uncontrollably.”
+
+mc “...”
+
+mc “Okay guys! This game should be pretty simple and straightforward! We also all know each other so this will be easy for us to collaborate.”
+
+mc “I sent you guys a work schedule and your roles. Let’s get to work everyone!”
+
+ax “Sounds good!”
+
+md “Yup.”
+
+Ren “Wait!!”
+
+“Instantly everyone turns to look at Ren.”
+
+Ren “Before we start, I have a gift for everyone!”
+
+“She pulls out 3 slips of paper and hands them to everyone.”
+
+Ren “They’re tickets to the Fall Fair this week!”
+
+Ren “I’m volunteering there and they gave out free tickets, so as a gift, I’m giving one to each one of you!”
+
+ax “Ren!!! I can’t accept this… unless…”
+
+Ren “Unless?”
+
+ax “Unless I can go with you.”
+
+mc “EHHH?”
+
+“I quickly moved my hands to cover my eyes.”
+
+mc “(This is embarrassing… I can’t watch him get rejected.)”
+
+Ren “Of course Alex! I’m free on the weekends at night!”
+
+mc “(No way…)”
+
+ax “Yes!!! This has to be my luckiest day ever!”
+
+md “That was… unexpected.”
+
+mc “Alright Alex, you fool, get to work before I kick you out of here!”
+
+ax “Sorry! Sorry!”
+
+“I couldn’t help but to laugh a little… everyone felt the same.”
+
+“This group is... perfect. Hopefully we don’t run into any dilemmas.”
+
+#SCENE 8
+
+SETTING: Player’s Apartment
+
+“The first group meeting went well the other day… It was so much fun working with everyone. Alex, Ren, and especially Melody all looked pretty happy.”
+
+mc “What should I do today… it’s the weekend and I guess I should take my mind off school.”
+
+“As I ponder, my eyes took notice of the piece of paper that J.D had handed to me that one time.”
+
+mc “The piano competition huh?”
+
+mc “I wonder if he’ll be there… I guess I’ll check it out.”
+
+mc “He was pretty good when I watched him that one time. I wonder if he’s even better in a competition.”
+
+SETTING: Concert Hall
+
+mc “There’s actually a lot more people than I had expected. The hall’s almost filled up!”
+
+“I went to find a seat and sat down as the competition begins.”
+
+speaker “Hi everyone, welcome to our this year’s competition!”
+
+speaker “We’ll start off right away with our first contestant, Miss Melody!”
+
+mc “Melody… WHAT?!”
+
+mc “It can’t be the same Melody??”
+
+“I focused my eyes heavily towards the stage to see the first contestant walk onto the stage.”
+
+mc “It’s her!!! No way, she knows how to play the piano?!?”
+
+mc “That dress… she looks amazing...”
+
+“She was wearing an extremely beautiful dress. And her sheer beauty alone had many of the guys in the audience screaming out her name.”
+
+“The crowd of excited college boys started to quiet down as she begins to play.”
+
+mc “She’s really good…”
+
+“The way she plays the piano… it wasn’t natural, It wasn’t formal…
+
+“It was aggressive and exciting almost to point where you would want to just stand up and cheer.”
+
+“Her style of aggression... played perfectly.”
+
+mc “Beautiful…”
+
+“As she finishes up, the crowd ejected from their seats while claps and screams of her name travel throughout the audience.”
+
+“As the cheering continues, I settle my eyes towards her. Not once did I blink.”
+
+
+mc “Melody… she didn’t tell me that she can play the piano.”
+
+“My phone rings and I stepped out to answer it.”
+
+mc “Yeah, what’s up Alex?”
+
+ax “Ren… she’s busy!! So she can’t go to the fair with me!!!”
+
+“I started to hear sobbing noises coming from the phone.”
+
+mc “Are you… crying? Man up!!”
+
+ax “I can’t… I- I had the perfect chance and now it’s gone.”
+
+mc “Well… you can always go later with her…”
+
+ax “I’m already here…”
+
+mc “Oh dear… I guess I’ll come…”
+
+ax “Really?”
+
+mc “Well… I can’t leave you all by yourself…”
+
+“I hung up and started to walk towards the fair.”
+
+mc “This guy is like a child....”
+
+SETTING: Fall Fair
+
+mc “Yo.”
+
+ax “You made it! This is gonna be a fun friend date!”
+
+mc “If you put it that way, I’ma go home.”
+
+ax “Joking! Joking!”
+
+“We went up to a stall and we decided to play their game in order to win a prize. Then two familiar faces showed up from a distance.”
+
+“Alex turns his eyes towards the two of them and his excitement quickly returned to a depressed state.”
+
+ax “So that’s what she meant by ‘busy’…”
+
+“Ren was walking aside the president of VGDC, J.D.”
+
+mc “It’s okay buddy, there are more fish in the ocean for you to catch.”
+
+“I continued to play the game and landed a hoop onto the tip of the glass bottle.”
+
+“The lady hands me my prize of a stuffed animal and a bracelet.”
+
+mc “Here take this. I call her Ren.”
+
+“I handed him the teddy bear that the lady handed me.”
+
+ax “Real funny…”
+
+“I started to laugh.”
+
+“We hung out and checked the stalls out a little bit more and then headed home.”
+
+ax “Hey… thanks for hanging out with me.”
+
+mc “I had to… your date bailed on you.”
+
+ax “...”
+
+mc “I’m joking Hahaha. Alright, laters Alex.”
+
+ax “See ya.”
+
+“I held the bracelet in my hand as I start to walk home. The bracelet had a music note on it as a design.”
+
+mc “I should give this to Melody… she’ll like it.”
+
+#--------Player Choice 7-----------
+
+Option 1(good): Call her.
+
+“I took out of my phone and started to call her.”
+
+md “What’s up?”
+
+mc “Where are you?”
+
+md “I’m at the concert hall at school.”
+
+mc “This late?”
+
+md “Yeah, I’m just chilling here by myself.”
+
+mc “Do you need company?”
+
+md “No…”
+
+mc “Hmmm…”
+
+md “But I do need someone to play the piano so I can record it for our game.”
+
+“I started to laugh.”
+
+mc “I’ll be there in a few.”
+
+
+
+#-----Option 2: Nah, don’t call her.------
+
+mc “Maybe next time…”
+
+mc “Watching her today was very refreshing…”
+
+mc “She made me want to play.”
+
+“I start to head back to the school, towards the concert hall.”
+
+
+#END OF CHOICE 7-----------------
+
+
+SETTING: Concert Hall
+
+mc “Don’t you get lonely being here by yourself?”
+
+md “I prefer the loneliness most of the time.”
+
+“I walk towards her as she sits on the piano stool.”
+
+mc “Here. I got this for you.”
+
+“Reaching for my pocket I took out the bracelet and handed it to her.”
+
+md “It’s a cute bracelet. I like the design.”
+
+mc “An interesting thing happened today.”
+
+md “Hmm?”
+
+“I sat myself down on the stool beside her. And started to touch the piano keys.”
+md “Hey… wait! Did I say you can sit next to me?!”
+
+mc “One sec, let me finish. So I went to this event, and there was this girl, in a beautiful dress, sitting in this exact spot, and beautifully played this song.”
+
+“I started to dance my fingers on the keys and played the similar song that she played earlier this morning.”
+
+“I then turn to look at her. Her eyebrows started to curl inward and her cheeks started to turn red.”
+
+md “You were watching me?!”
+
+mc “Yeah… and so were like 50 other guys screaming your name Hahaha.”
+
+mc “you’re pretty popular.”
+
+md “I just play for fun…”
+
+mc “I was shook when I heard your name and saw you play… you didn’t tell me that you play the piano.”
+
+md “It’s not a big deal.”
+
+mc “You’re really good.”
+
+md “Thanks…”
+
+“We sat there, together, silently for a minute.”
+
+md “I’m going to leave the club after this quarter.”
+
+mc “Hmm…”
+
+mc “Is there a reason?”
+
+md “Not my place to be I guess…”
+
+mc “Is it because of Kendrick? Alex told me everything...”
+
+md “Oh that little thing he did?”
+
+md “Sort of... We were pretty good friends back then, but he just took everything the wrong way.”
+
+md “But that’s not the main reason.”
+
+md “I guess you can say that I’m a little similar to Kendrick…”
+
+mc “What do you mean?”
+
+md “I… I was pretty close to someone as well. But it’s hard to be around someone who doesn’t feel the same way.”
+
+mc “One way love, I assume?”
+
+“She starts to smile, but sadness can be seen within that smile.”
+
+md “You’re good at catching on.”
+
+mc “Nothing is ever the same once you confess your feelings for the person you love...”
+
+mc “It can either be reciprocated with the start of a beautiful chapter-”
+ 
+md “Or rejected with an end to a friendship.”
+
+md “And the love that you have for that person… it will hurt you more than ever.”
+
+mc “The most beautiful love is the one that is not forced…”
+
+mc “So that’s why you’re leaving…”
+
+md “Yeah… I just have to accept things for what they are and move on.”
+mc “(The person she loves…)”
+
+mc “We should leave soon! It’s getting way too late.”
+
+md “Mmm. You go first, I’m going to stay here for another minute.”
+
+mc “Okay, goodnight and ’m sorry to hear about that…”
+
+“She shakes her head and smiles.”
+
+“As I turn to walk away, she grabs me by my jacket sleeve.”
+
+“I turn around towards the girl who’s sitting in front of me with her head down.”
+
+“With one hand on my sleeve, and the other holding the bracelet, her tears started to fall… Hitting the wooden ground as they fall…”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
 
 
 
