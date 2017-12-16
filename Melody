@@ -1582,17 +1582,21 @@ md “Thanks…”
 
 “We sat there, together, silently for a minute.”
 
-md “I’m going to leave the club after this quarter.”
+
+
+md “I was planning to leave the club at the start of this year...”
+
+md “But after meeting you, I thought it would be fun to stick around a little bit longer, until our project is done.”
 
 mc “Hmm…”
 
-mc “Is there a reason?”
+mc “Is there a reason… for why you’re leaving, if you don’t mind?”
 
 md “Not my place to be I guess…”
 
-mc “Is it because of Kendrick? Alex told me everything...”
+mc “Kendrick? Alex told me about you two.”
 
-md “Oh that little thing he did?”
+md “Oh that little thing?”
 
 md “Sort of... We were pretty good friends back then, but he just took everything the wrong way.”
 
@@ -1629,7 +1633,7 @@ mc “We should leave soon! It’s getting way too late.”
 
 md “Mmm. You go first, I’m going to stay here for another minute.”
 
-mc “Okay, goodnight and ’m sorry to hear about that…”
+mc “I’m sorry to hear about that…”
 
 “She shakes her head and smiles.”
 
@@ -1637,13 +1641,212 @@ mc “Okay, goodnight and ’m sorry to hear about that…”
 
 “I turn around towards the girl who’s sitting in front of me with her head down.”
 
-“With one hand on my sleeve, and the other holding the bracelet, her tears started to fall… Hitting the wooden ground as they fall…”
+“With one hand on my sleeve, and the other holding the bracelet, her tears started to fall… hitting the ground as they fall…”
+
+#SCENE 9
+
+#SETTING: player’s apartment
+
+“Last night… that incident with Melody.”
+
+“I can’t keep her off my mind… and him.”
+
+“She’s leaving after this project. I need to talk to her today, after the group meeting.”
+
+“My phone rang as I ponder around my thoughts.”
+
+mc “Alex?”
+
+ax “Come to the lecture hall, now!!”
+
+mc “What happened?”
+
+ax “Melody is in trouble!”
+
+“I hung up the phone and instantly dashed out my door.”
+
+#SETTING: Lecture Hall
+
+“Instantly, after entering the lecture hall, my body froze in place as I observe the the walls and boards had graffiti all over it.”
+
+“At the bottom of the lecture hall, near the podium, were Alex and Melody, next to each other, and facing them, across a table, were Kendrick, and J.D.”
+
+“After observing the situation, I quickly rush to them.”
+
+mc “What’s going on?!”
+
+kd “None of your business, brat.”
+
+“My eyes met with Kendrick as he spoke to me. I can see a spiteful happiness coming from his face."
+
+“Ignoring me, J.D looks directly towards Melody.”
+
+jd “As you can see, the room has been vandalized by someone. This person has been causing the club quite a lot of trouble.”
+
+jd “Kendrick found this object, here, at the lecture hall, and Kendrick identifies it to be yours, Melody.”
+
+jd “Is this your bracelet?”
+
+“He tosses the object onto the table.”
+
+“It was the bracelet with the music note design that I gave to Melody...”
+
+mc “(She couldn’t have done it! She was with me last night!! Someone has to be framing her.)”
+
+mc “If this is about Melody being the person vandalizing the room, I can tell you that it’s not her! She was with me last night!”
+
+mc “Melody! Tell them!”
+
+“She stood there, with her head down, without saying a word.”
+
+jd “Melody, I ask you again, is this your bracelet?”
+
+“She looks up and their eyes met. Sadness filled her eyes as J.D confronts her.”
+
+“She then looks at the bracelet that I gave to her.”
+
+md “Yes.”
+
+“Pleased from hearing Melody say those words, Kendrick gives off a nasty smirk.”
+
+kd “Finally caught the vixen.”
+
+mc “(I need to shut this guy up!!)”
+
+“As I move barely an inch towards Kendrick, Alex quickly grabs me and locks me down.”
+
+ax “Sorry… but you shouldn’t make the situation worse.”
+
+mc “Let me go Alex!”
+
+ax “I’m sorry, just wait till it’s over first. Please keep your cool.”
+
+“Alex holds me down as I struggle to get loose.”
+
+jd “Then Melody, were you the person responsible for the vandalism that happened the past few times?”
+
+kd “Come on J.D, she already confessed that she’s the person. Just report her to the school and get it over with.”
+
+md “Yes…”
+
+mc “No… no…”
+
+“Kendrick turns to J.D and starts to laugh comfortably.”
+
+kd “I told you! I knew it.”
+
+“Ignoring Kendrick, and with a subtle, but somber expression, he looks at Melody.”
+
+jd “Leave the club, Melody, and I won’t report this to the school.”
+
+kd “What?! You’re letting her off too easily! Just report her to the Dean so she can get expelled for this atrocious act.”
+
+“J.D and Melody, their heavy-hearted eyes met once more.”
+
+md “I’m sorry... for saying those words.”
+
+“Suddenly, Melody turned and bolted towards the door, with her tears falling as she ran past me.”
+
+“Shook by the event that just happened, my whole body and mind froze in place as I stare at J.D.”
+
+kd “I can’t believe you let her go that easily… well at least she’s gone now. She never deserved to be in our club anyway.”
+
+“Alex’s hold on me suddenly loosened. As I noticed his release, I ceased my eyes from staring at J.D and turned it towards Alex...”
+
+“It wasn’t the joyful Alex, full of life Alex, or the cool headed Alex that I was looking at…”
+
+ax “Hey... (y/n)... grab the bracelet and find her will ya.”
+
+ax “Don’t…”
+
+“Suddenly, without warning, he lunges forward towards Kendrick and punches him in the face with his right hand.”
+
+kd “OUGHHH!”
+
+ax “DON’T EVER TALK TO HER LIKE THAT YOU SWINE!!!!”
+
+“Alex then turns and looks at me with pure anger in his eyes.”
+
+ax “What are you doing!?”
+
+ax “GO!! I’ll hold them back!!”
+
+“I quickly ran past them, towards J.D, and grabbed the bracelet.”
+
+“Our eyes met… He didn’t stop me…”
+
+“With God’s speed, I turned and ran out of the lecture hall.”
+
+mc “Don’t leave… please.”
+
+#SCENE 10
+
+#Setting: outside
+
+#Good Ending--------------
+
+mc “Hey…”
+
+“Standing a couple of yards away from me, she turns and looks.
+
+“Her somber eyes met mine as I approach her.”
+
+“Without saying anything, I open my hand with the bracelet inside it.”
+
+“Looking at the bracelet, she touches it…”
+
+mc “I-”
+
+“Tears started to fall from her eyes once again.”
+
+“As the first of many tears hit the ground, she suddenly lunges towards me.”
+
+“With her hands grabbing the torso of my shirt, and the side of her face resting against my chest she began to cry helplessly.”
+
+“I slowly place my arms around her… holding her tightly.”
+
+mc “I will follow you… wherever you go.”
+
+----Black------
+
+“The night at the concert hall, after the festival, when I gave Melody the bracelet…”
+
+“I saw him as I left.”
+
+#SETTING: Outside at night
+
+“We both stared at each other, neither one moving a muscle.”
+
+jd “How was the performance at the concert hall today?”
+
+mc “You… you knew Melody would be there… and the flier.”
+
+jd “Follow her. Wherever she goes… follow her.”
+
+jd “And give her what I couldn’t.”
 
 
 
 
+#Bad Ending---------------
 
+mc “Hey…”
 
+“Standing a couple of yards away from me, she turns and looks.
+
+“Her somber eyes met mine as I approach her.”
+
+“Without saying anything, I open my hand with the bracelet inside it.”
+
+“Looking at the bracelet, she touches it…”
+
+“Tears started to fall from her eyes once again.”
+
+md “I’m sorry (y/n)... my feelings for him… has not gone away.”
+
+“She turned and ran.”
+
+“She ran away… farther and farther away… from my grasp.”
 
 
 
