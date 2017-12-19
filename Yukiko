@@ -473,7 +473,7 @@
 
 #scene2 player gets a team and help with programming
     "I haven't seen Yukiko since we had lunch together, but we exchanged numbers before we left."
-    "We texted each other mostly about random crap, like how four hours of sleep is not a lot, but a four hour nap is."
+    "We texted each other mostly about random crap, like how four hours of sleep isn't a lot, but a four hour nap is."
     "I sheepishly grin to myself walking to the building where the club meeting is taking place again."
     #SSLH
     mc "(I would be lying if I said I don't look forward to our weird exchanges.)"
@@ -501,7 +501,7 @@
     #Alexander serious and Melody Angry
     "I receive a lot of sideward gazes for my interruption and certain officers I will not name appear to be arresting me with their gazes."
     #Yukiko nervous
-    "Yukiko is trying in vain to give me a disciplinary look, but her quivering features indicates she appears to be preoccupied with surpressing a smile."
+    "Yukiko is trying in vain to give me a disciplinary look, but her quivering features indicates she appears to be preoccupied with suppressing a smile."
     "I mutter a meek apology dispersed in no one's direction in particular and remain dead silent for the rest of the presentations."
     "It's fine though, because I know which project I want to work on."
     #no more officer sprites and fade to black
@@ -527,9 +527,9 @@
     "Yukiko looks at me surprised like everyone else for a moment, but gives an almost invisible nod to show that she got my cue."
     #Yukiko happy
     yu "I think that's a great idea, w-would everyone form a neat, single-file line for me please?"
-    "It was as if everyone remembered that they're mature, adult college students."
+    "It's as if everyone suddenly remembers that they're mature, adult college students."
     "A line forms in front of Yukiko and she tackles their inquiries one-on-one with the speed of an experienced officer."
-    "I watched her proudly like a mother bird witnessing her young flying for the first time."
+    "I watch her proudly like a mother bird witnessing her young flying for the first time."
     "Yukiko continues answering questions without missing a beat."
     #fade to black
     "Like a knight mowing down a goblin army with a sword, she whittles the crowd down until it was time to vacate the hall."
@@ -614,7 +614,7 @@
     "I give her a very soft punch on the head."
     yu "Owie."
     "She falls back onto the cushion of her black office chair which let out a sigh as if it was just as tired as its owner."
-    "From her desk, she picks up and throws a loose-leaf manual at my face that smacks me painlessly in the face and falls to the floor."
+    "From her desk, she picks up and tosses a paperback manual at my face that smacks me painlessly in the face and falls to the floor."
     mc "I'm suing you."
     yu "I'm pretty sure I can afford a better lawyer than you."
     mc "Fair enough, since you can afford to live in a 2 bedroom apartment by yourself."
@@ -622,9 +622,11 @@
     "She turns her chair back to her computer and resumes her work."
     yu "I don't have any friends to room with here."
     mc "Couldn't you just find other female students?"
-    yu
+    yu "I only know Reina here and she d"
     mc "Must be nice."
     yu "It gets lonely sometimes."
+    "I peer over curiously at Yukiko who remains focused on her monitor."
+
     "I pick up the manual and read the title aloud."
     mc "Lua for Dummies."
     yu "Just use that as reference."
@@ -704,14 +706,14 @@
     mc "Yukiko!"
     yu "I wanna crawl back to my computer right now but at the same time I don't so it's a really big issue for me right now right now but oh my gosh that was an attempt at kissing me earlier and I completely missed what you were getting at and--"
     #zoom in on that sprite baby
-    "I move automatically again and pull her into a tight hug."
-    yu "Hau?!"
-    mc "(I hope this isn't making her uncomfortable.)"
+    "I decide to speak through actions instead of words, pulling her into a secure, yet gentle embrace."
     yu "....."
-    "She wraps her slender arms around and leans her weight on me and we just stand there for what seems to be an eternity."
+    "Yukiko's panicked rambling trails off into quiet murmurs, and finally, into muffled breaths as she rested her face onto my chest."
+    "The tension of her body fades away as she leans her weight on me in silent consent..."
 #end of scene4
 
 #scene5 normie date
+    "We might have become official yesterday, but nothing has really changed."
 
 #scene6 Projects showcase CHANGE to "my project sucked, Yukiko's was good"
 
