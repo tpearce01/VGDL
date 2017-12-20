@@ -188,8 +188,88 @@ mc “(It may not be much, but… Anything is better than nothing.)”
 
 Second choice: Week 4
 [Option 1- Ask Reina out for lunch]
+“It’s another day in the game lab, everyone doing their own thing. George Dan is in the front, leading a workshop on writing dialogue.”
+“It sounds somewhat interesting. I listen in while browsing the internet. I’m starving.”
+“I see Reina in the corner, it looks like she’s finishing up some work. Maybe she’s got some free time?”
+mc “Hey Reina, would you like to go and get some lunch with me?”
+re “Oh, um…I’m not really hungry right now.”
+mc “C’mon, my treat. We’ve been working hard, I think it’s a good time for a break.”
+“Reina glances back to her work, she’s just finished a character. Suddenly, her stomach grumbles quietly.”
+re “Eep! Er, maybe a break would be good.”
+“Before I can make a joke about it, my stomach growls even louder.”
+mc “Haha, it seems we’re in agreement here. Let’s go.”
+
+“We decide to go to one of the food courts on campus.”
+mc “So what do you think you’re going to get? I’m gonna get the spicy Italian, got it once and I was hooked.”
+re “Oh, actually I was going to get that too. It’s one of my favorites…”
+mc “No way! What a coincidence.”
+“She’s looking away, brushing her light blue hair to the side. As I glance at her, my thoughts slip from my mouth.”
+mc “God, you are so cute.”
+“Reina blushes a bright red. If she wasn’t looking directly at me before, she was directly avoiding eye contact now.”
+mc “(Shoot, did I say that out loud?)”
+re “You don’t actually mean it.”
+mc “No, I do! I wouldn’t lie to you.”
+mc “(Er…)”
+mc “...Not about that.”
+“We get our orders and sit down at a table near a window. It’s a nice day outside.”
+mc “So, how long have you been drawing Reina?”
+re “Hm? Well, I’ve always enjoyed drawing since I was little. I started taking it more seriously towards the end of middle school though.”
+mc “Yeah it shows, your work is really good Reina.”
+re “It’s not that amazing. But thanks.”
+mc “So your middle school and high school, they must have had pretty good art programs, huh?”
+re “Actually I was homeschooled, so yes and no.”
+re “We didn’t spend a lot of time on art in class, but in my downtime I drew a lot.”
+mc “Huh.”
+mc “(I don’t want to stereotype, but maybe that’s why she’s less comfortable talking around people.)”
+“We eat for a while. Reina glances outside, watching some people pass by.”
+re “I know it’s a little unrealistic, but I’d like to one day write a webcomic or something.”
+mc “That’s awesome! You could totally do that.”
+re “Thanks, but it’s a lot of work, and I have a long ways to go till I’m good enough for something like that.”
+mc “Well when it happens, let me know how it goes. I’ll be one of the first readers.”
+mc “Something I was wondering about, if you don’t mind my asking...”
+re “What is it?”
+mc “How long does it take to dye your hair like that?”
+re “...What do you mean?”
+mc “Your hair, it’s uh… nevermind.”
+“We finish up and head back to the game lab.”
+mc “Aah, that was a good meal. Was even better because I got to be there with you.”
+re “Oh, um, yeah. It was nice.”
+re “Maybe, um, we could do it again sometime [mcname]...”
+mc “I’d like that.”
+re “Oh, that break was a bit longer than I expected, I have to go to a class!”
+re “I had a good time [mcname], I’ll see you later.”
+mc “Bye Reina, have a good one.”
 
 [Option 2- Work on drawing]
+“It’s another day in the game lab, everyone doing their own thing. George Dan is in the front, leading a workshop on writing dialogue.”
+“It sounds somewhat interesting, but I’m focused on something else.”
+mc “(Straight line. Straight line. Straight line.)”
+“Sketch, undo, sketch undo.”
+mc “(How do people do this right?)”
+re “Um... how is it going [mcname]?
+mc “Wha?!”
+“I quickly open a new canvas, nearly falling out of my chair in the process.”
+re “Pffft. Now we’re almost even.”
+“She giggles a little.”
+re “I’m sorry.”
+mc “Nah, it’s fine. I’m just warming up a bit before I get to my work on the project. I can’t seem to get my lines right.”
+re “It’s good to see you hard at work. May I see your settings?”
+mc “Uh sure.”
+“She leans up close. I can feel her gentle presence beside me.”
+re “If you’re having trouble, maybe you should adjust the stabilizer to help keep your lines straight. Of course, you could just keep at it until you’re more comfortable with your lines, too.”
+mc “Right. Maybe after warming up some more they’ll be back to normal.”
+“Lying again.”
+re “Here, try now.”
+“Reina takes a step back, and I try drawing a line on the clean slate.”
+“Even when my hand gets unsteady, the line comes out a little cleaner.”
+mc “Hey, that makes a big difference, thanks.”
+re “I’m happy to help.”
+“She smiles for a moment, then looks away.”
+re “It’s part of my job after all.”
+re “I have to go to class. Keep up the good work [mcname].”
+mc “Will do Reina, see you later.”
+mc “(Straight line, straight line, straight line…)”
+“It was really nice of her to help me out there. I hope she isn’t catching on though.”
 
 ---------------------------------------------------------------------------------------
 
@@ -207,6 +287,50 @@ Final choice: Week 6
 [Option 1- Invite Reina over to your room]
 
 [Option 2- Work on drawing]
+“It’s a little later in the evening in the game lab. A small group of officers have left to get some dinner.”
+“Unfortunately, one of them didn’t go along.”
+ax “Wow [mcname], I never took you for the artistic type.”
+“I’m trying to finish some backgrounds for the project. It’s been getting easier, when Alex isn’t around.”
+mc “I doodled in high school.”
+ax “Yeah, but that doesn’t get you into a product based project in your first year as an artist.”
+mc “A lot can happen in four years.”
+mc “(Dude, just leave me alone… I know I’m not doing the best, but I’m trying.)”
+ax “True, true. Your backgrounds are looking pretty good, not going to lie.”
+mc “(Really?)”
+mc “Oh, thanks.”
+mc “(Backgrounds are one thing, but I still need to work on the art and animations for a few npc’s. That’s going to be rough.)”
+ax “Anyway, I never thought you’d join Melody’s team of all people.”
+mc “What do you mean?”
+ax “Ah, well, she’s… she’s quite something.”
+ax “She’s pretty cute, no? I keep trying to chat it up with her, but she won’t give me the light of day.”
+ax “Of course, she’s not the only cute girl on the team, huh? Reina’s pretty nice, too.”
+mc “Yeah…”
+“Alex smirks.”
+ax “She’s a bit quiet though.”
+mc “She is, but when she smiles, man.”
+ax “Must take someone pretty special to get her to open up, huh?”
+mc “I don’t know, but… wait a minute, why am I even talking to you about this?”
+ax “Haha, face it friend, you’ve got a crush on her.”
+mc “Shut up, don’t you dare talk to anyone about this.”
+ax “Wait wait, how bad is it? You ask her out yet?”
+mc “Leave me alone Alex, I have work to do.”
+ax “Oh, it’s bad alright. You like her.”
+ax “Wait, don’t tell me. You joined the team just to get close to her. I’m right aren’t I?”
+mc “(Just going to keep working on this background, maybe he’ll leave.)”
+ax “Oh you hopeless romantic. And you thought I was bad? You’re a natural Romeo, a Cyrano, a lover just looking for the right time and place.”
+mc “Alex, these backgrounds aren’t going to finish themselves. Leave me alone.”
+“Respectfully ignoring my words, Alex proceeds to playfully bob my chair back and forth.”
+ax “You like her, you do. You really really like her!”
+“At that moment, the lab door opens and a blue-haired art officer walks in on the two of us.”
+mc “Reina! Hi.”
+re “...”
+“Lightly blushing, she leaves as suddenly as she came in.”
+ax “Don’t worry, your secret is safe with me [mcname].”
+“With a wink, he leaves, heading out the door.”
+mc “(I sure hope he doesn’t say anything.)”
+“Unfortunately, there’s still a lot to be done for the project.”
+mc “(Ugh, what a mess I’ve gotten myself into.)”
+
 
 ------------------------------------------------------------------------------------------
 
@@ -369,9 +493,9 @@ md “You’re in deep trouble, pal.”
 
 //Timeskip to later, main character is talking to Alex in the park
 “Because of my plagiarism, they kicked me off the team.”
-“The president was going to drop me from the club entirely and report my actions, but someone convinced him to let me off with a warning.”
+“The president was going to drop me from the club entirely and report my actions, but someone convinced him to let me off with a stern warning.”
 “I can’t join another team for the rest of the year, that’s not too bad.”
-“But I won’t be able to be with Reina again, and that punishment will last forever.”
+“But I don't know if I can ever face Reina again, and that punishment will last forever.”
 mc “So that’s where I am right now.”
 ax “Wow.”
 ax “You really messed up, my friend.”
@@ -381,10 +505,10 @@ mc “I have to wonder if things might have gone down another way if I had done 
 mc “In any case, thanks for putting in a kind word to George. It means a lot that you backed me up there.”
 “Alex smirks.”
 ax “You know I’m happy to stick up for you…”
-ax “But that wasn’t me that had your back in the meeting.”
+ax “But it wasn’t me that had your back in the meeting.”
 mc “Huh?”
 ax “Your guardian angel was someone else. Speak of the devil, here she comes.”
-“A blue-haired girl walks over to the two of us. If she were smiling, she’d have dimples. If she were laughing, it would be the sweetest sound in the air.”
+“A blue-haired girl walks over to the two of us. If she were smiling, she’d have dimples.”
 “I jump to my feet.”
 mc “Reina.”
 re “It’s not like I forgive you, I don’t.”
@@ -392,6 +516,7 @@ mc “I’m sorry, I really am. I’ll say it a thousand times and a thousand mo
 “She continues.”
 re “See this as a learning experience, practice if you will. Make yourself better from the time you spent with me.”
 re “After all, that’s all I was to you in the end.”
+mc "That's not..."
 re “I wish you luck in the future with VGDC, but I never want to talk to you again.”
 re “Good bye.”
 
