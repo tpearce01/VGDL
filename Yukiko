@@ -713,7 +713,73 @@
 #end of scene4
 
 #scene5 normie date
-    "We might have become official yesterday, but nothing has really changed."
+    #UTC daytime? I mean idk where else tehy would go to hang near UCI
+    "Yukiko and I may be official now, but our relationship didn't really change from before.
+    "Well, one little thing might have changed..."
+    #happy
+    yu "Hi [mcname]!"
+    mc "Hey!"
+    "She's even more beautiful than before."
+    #calm
+    "Or at least in my eyes, she is.
+    "Everyone seems to wear the same outfit over and over again."
+    "I pop the question."
+    mc "Hey Yukiko, why does everyone around here seem to wear the same clothes everyday?"
+    yu "Are you familiar with no outfit november?"
+    mc "Is that a thing?"
+    yu "Nah, I'm just messing with you."
+    yu "Sometimes, it's best not to pry into things too closely and just enjoy the journey."
+    mc "How can I enjoy the journey if I don't understand it?"
+    yu "Some things don't need to be understood, [mcname]."
+    #happy
+    "She grabs my hand and leads me along towards the plaza."
+    mc "Where are we going?"
+    #calm
+    yu "I don't know."
+    "I stare at her rather confusedly, but I realize she can't see my expression as she was scanning the plaza to pick out a restaurant."
+    yu "How about this place?"
+    mc "A ramen restaurant? Have you tried it before?"
+    #nervous
+    yu "I've had a lot of the instant kind at home."
+    "I smile wryly at her mainstream college student tendencies."
+    mc 'I don't think that counts, Yukiko."
+    #calm
+    #door chime
+    "Still holding hands, we clumsily stumble over each other's feet into the store."
+    #fade to black
+    #wait 5 seconds
+    #door chime
+    yu "That was soooo good!"
+    mc "I'm surprised you can taste anything wolfing it down like that."
+    #smile
+    yu "I'm surprised you can taste staring at me eat my food."
+    mc "In my defense, I was captivated.
+    #nervous
+    yu "Is this the start of a cheesy line?"
+    mc "No, it was like watching a wild lioness devour her prey without a second thought."
+    yu "Did you just call me a wild animal?"
+    #sad
+    "Yukiko feigns anger and turns away from me in protest."
+    "I decide to play along."
+    mc "Yukiko, I'm sorry!"
+    mc "Yukikoooo?"
+    #zoom into that sprite baby
+    "I get close enough to whisper in her ear."
+    mc "Yuki..."
+    #blush
+    "With my shenanigans, I manage to start her into jumping a few feet away from me as her face flushed red."
+    yu "Reina might assault you if she hears you calling me that."
+    mc "Does it bother you?"
+    mc "I think it's a really cute nickname."
+    yu "No, that name is part of Reina's intellectual property, so you can't plagiarize it."
+    mc "Sweety? Maybe honey? Or how about darling?"
+    #nervous
+    yu "I think I'm starting to feel kind of nauseous."
+    mc "Sorry, teasing you is just really fun."
+    mc "Can't spell Yukiko without the 'ko.'"
+    mc "The k stands for kind and the o stands for outgoing."
+    #blush
+    yu "There you go with the cheesy lines again..."
 
 #scene6 Projects showcase CHANGE to "my project sucked, Yukiko's was good"
 
