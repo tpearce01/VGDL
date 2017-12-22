@@ -742,7 +742,7 @@
     #nervous
     yu "I've had a lot of the instant kind at home."
     "I smile wryly at her mainstream college student tendencies."
-    mc 'I don't think that counts, Yukiko."
+    mc "I don't think that counts, Yukiko."
     #calm
     #door chime
     "Still holding hands, we clumsily stumble over each other's feet into the store."
@@ -775,13 +775,173 @@
     mc "Sweety? Maybe honey? Or how about darling?"
     #nervous
     yu "I think I'm starting to feel kind of nauseous."
-    mc "Sorry, teasing you is just really fun."
+    mc "Kidding. Teasing you is just really fun."
     mc "Can't spell Yukiko without the 'ko.'"
     mc "The k stands for kind and the o stands for outgoing."
-    #blush
     yu "There you go with the cheesy lines again..."
-    "She yawns as she takes small, unsure steps into random directions."
-
+    #calm
+    yu "[mcname], I'm not feeling very well..."
+    mc "What's wrong? Did the food not sit well with you?"
+    "She takes small, unsure steps into random directions."
+    mc "(This could be disorientation due to food poisoning..!)"
+    yu "I'm feeling... feeling..."
+    "I grab her shoulders to steady her."
+    mc "Feeling?"
+    "Yukiko lets out a big yawn."
+    yu "A strong food coma."
+    "I poke her on the forehead."
+    mc "Don't scare me like that, dummy."
+    "She stares at me with hazy eyes."
+    mc "You wanna go home?"
+    yu "Yeah..."
+    "While saying that, she latches onto my arm and leans her weight on me."
+    "I walk her home gently."
+    #fade to black
+    #yukiko apartment outside
+    "We arrive to the familiar outside of an apartment."
+    mc "Hey Yukiko, need help getting your keys?"
+    yu "Nah, I think I'll be okay..."
+    "She lets go of my arm, straightens her posture, and adopts a focused gaze."
+    "Yukiko fishes her hand inside of her bag for a while as I watched."
+    "After a short period of rustling, she stands triumphantly with a glistening ring of metal in her hand."
+    #happy
+    "She unlocks the door while the corners of her mouth curve upwards somewhat mischievously at me."
+    mc "For someone who was just sleeping on my arm, you sure got better fast."
+    yu "Your arm has magical healing properties."
+    "She walks inside without giving me an opportunity to respond."
+    "I shrug and follow her in."
+    #Yukiko apartment inside
+    "The inside is still barren, but the rubbish adorning the living room from the last time I visited are all gone."
+    mc "(Did she expect me to come over today?)"
+    "Yukiko gestures to her room."
+    yu "Come in."
+    "I don't know what I'm getting into, but I can only obey my girlfriend being strangely assertive."
+    "I scamper inside with my tail tucked between my legs."
+    #Yukiko room?
+    yu "Sit down."
+    mc "Okay."
+    #sitting noises? pomf?
+    yu "I'm gonna go shower."
+    mc "I see."
+    #fade out yukiko sprite
+    "I sit there calmly doing nothing for the next 15 minutes."
+    #wait a bit?
+    #calm
+    "She returns with an air of sweet shampoo wafting from her still slightly damp hair."
+    yu "I haven't done it in a while because of work, but I guess I can spare enough time today."
+    mc "Doing what?"
+    yu "Video games."
+    mc "Oh."
+    yu "What?"
+    mc "Nothing."
+    "....."
+    mc "I just didn't see a console in your room so I thought we were doing something else."
+    yu "There are games on PC too."
+    mc "Oh, I usually play most games on console with a controller."
+    #happy
+    yu "Then today's the day for you try out the games I have on my computer!"
+    mc "Are you gonna be playing with me?"
+    #calm
+    yu "Yeah, you can use controllers with the keyboard, or just use the controllers by themselves."
+    mc "Heck yeah! As long as I have controls I'm used to, I can mop the floor with you."
+    #happy
+    yu "Is that a challenge?"
+    #nervous
+    yu "I wanted to play co-op games, but if you want to throw down, then..."
+    #fade to black
+    #calm
+    "Yukiko proceeds to decimate me in every game genre possible, even first-person shooters and fighting games, the ones I thought I were good at."
+    mc "No way..."
+    "Outside of fighting games, Yukiko wasn't even trying."
+    #happy
+    "In fact, she spent a lot of her time watching me and giggling at my dismay every time she scored a headshot on me in , wiped out my base in Mooncraft, or "
+    yu "Do you want to play co-op games yet?"
+    "She says that with a genuine innocence that my pride embellishes with mocking intent."
+    mc "I think I can live with just one more rematch on Tori Faiter."
+    "I'm determined to win at least once against Yukiko, so I put on my game face."
+    #calm
+    mc "Good Queen of Cats, nothing but one of your nine lives, that I mean to make bold withal, and, as you shall use me hereafter, dry-beat the rest of the eight.
+    mc "Will you pluck your controller out of his pilcher by the ears? Make haste, lest mine be about your ears ere it be out."
+    "Yukiko plays along without missing a beat."
+    yu "I am for you."
+    "I might be good enough to defeat her in Tori Faiter with a bit of luck."
+    "At least in this game, she has to try in order to beat me."
+    "....."
+    "She's beating me again."
+    mc "(Instead of accepting my character's inevitable defeat, maybe I should try a change in strategy.)"
+    "I'm currently at 85% health. While adopting a defensive playstyle to stall out the game, I take brief side glances at Yukiko."
+    "The light emitted from the monitor highlights her long eyelashes and big eyes. Her glossy lips remain slightly parted in concentration."
+    "She chunks about 20% of my character's health due to me taking one hand off the controller in order to poke her on the cheek."
+    #nervous
+    "She mumbles something in response."
+    yu "What are you doing, dummy?"
+    "Satisfied that she wasn't ignoring me, I try something more bold."
+    "With my character at 65% health, I lean over and give her a peck on the cheek."
+    #blush
+    "She stops beating my fighter up for a fleeting moment to send me a cute, panicked look."
+    #calm
+    "Yukiko immediately snaps back to the game and somehow increases the severity of her assault on my virtual self."
+    "She begins whittling me down from 65% to 50%... 50% to 35%... and 35% to 15%."
+    "Realizing the gap in our skill levels at this point, I concede that winning is a faraway dream."
+    mc "(But, I don't want to lose at least..!)"
+    "In a final desperate bid to avoid defeat, I tear my gaze from the screen showing my limping 1% health character and I begin standing up--"
+    #blush and some weird sprite movement here
+    "... and Yukiko pushes me down onto the bed to stop me from doing anything else to her."
+    "Aside from the game's background music, it was so quiet that we could hear both of our controllers clatter onto the rug with a quiet thud."
+    yu "[mcname], do you want to win that badly?"
+    mc "Now that I think about it, no, not really."
+    #nervous
+    mc "I think I just wanted you to notice me."
+    "I give her a dry laugh."
+    mc "I'm lame, aren't I?"
+    #happy
+    yu "No, I think that's really cute."
+    mc "(Now I'm the one who's blushing.)"
+    yu "[mcname], I'm the one who's lame."
+    yu "I thought if you kept trying to beat me, you would end up staying longer."
+    yu "Studying at this school and living here..."
+    yu "Even if I was fortunate enough to start what I love doing since I was a kid..."
+    yu "Even if I can ace the classes in my major while sleeping in lecture..."
+    yu "Even though I could probably comfortably live off working from home like I do right now..."
+    #sad
+    mc "Yukiko..."
+    yu "It doesn't change the fact that I'm all alone in this cold, drafty apartment when I wake up late in the afternoon."
+    "I embrace her close to me."
+    mc "Are you cold right now?"
+    "She shakes her head as she nuzzles into my chest."
+    mc "Yukiko."
+    yu "Hmm?"
+    mc "I'll stay as long as you want."
+    yu "Is that a promise?"
+    mc "Yes."
+    yu "What if I want you to stay until morning comes?"
+    mc "Fine with me."
+    yu "....."
+    "Yukiko peeks her head up and stares into my eyes. She looks like she has something to say."
+    mc "What is it?"
+    yu "What if... I want you to stay until I say otherwise?"
+    mc "Okay."
+    #nervous
+    yu "Are you serious?"
+    mc "I'll pay rent too, of course."
+    yu "You don't have a job, right?"
+    #happy
+    yu "You're really thoughtful [mcname], but you can't even afford half of this rent."
+    mc "Oh, that's right."
+    mc "I was so caught up in the moment that I forgot about the financial implications."
+    yu "That's something I like about you."
+    #calm
+    yu "You can just pay me what you're currently paying for your current place."
+    mc "Really? That's really generous. I even get a whole room to myself."
+    yu "I think I'm coming out on top for this one. I get a whole [mcname] to myself!"
+    mc "Maybe I can contribute in other ways. I've got the stamina for the most strenuous chores and I can cook pretty decently."
+    yu "That would be really helpful, thank you."
+    mc "Is there anything else I can do for you?"
+    "Yukiko mulls over her options for a moment and reddens."
+    #blush
+    yu "Can you close your eyes?"
+    mc "... sure."
+    #fade to black
 #scene6 Projects showcase CHANGE to "my project sucked, Yukiko's was good"
 
 #scene7 Software Company Internship Offer
