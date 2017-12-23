@@ -71,41 +71,92 @@ ax "Naomi."
 nm “Who’s this?”
 mc "My name is (Y/N)."
 nm “How do you two know each other?"
-mc “We’ve known each other since grade school.
+mc “We’ve known each other since grade school."
+nm "Oh, is that so? How cute."
 ax "Can you please leave, Naomi?"
+
+"A shiver went down my spine as Naomi glared down at me, her arms crossed."
+
 nm “Don’t come back to me and say I didn’t tell you so.”
+mc "How can I? You haven't told me anything."
+nm "I don't think you realize how popular your little boytoy here is around the campus."
+ax "What can I say? I get around."
+nm "He's what you might call a 'serial dater'."
+mc "I've never heard of that term before. Since when has Alex dated cereal?"
+nm "Ugh. No, 'serial' dater. He... he dates many women but never forms a deep bond or relationship with them."
+mc "Well, like I said, I've known him for a long time. Whatever kind of guy he is, I'm okay with it."
+nm "Do you love him?"
+
+"Alex looked at me expectantly."
+
+mc "Uh... well, as a friend I do. If it's more, then... then I guess we'll find out."
+nm "Hm. Anyways, my point was that people have been talking. Like, a lot of people. Almost everybody. Watch yourself."
+ax "Okay, seriously, Naomi - leave. Now."
+nm "You're digging yourself into a deep hole, (Y/N). Be wary of how far that hole goes. You may find yourself unable to get out."
 
 "Naomi left, and I sat there baffled."
 
 mc "Everyone's talking about it?"
 ax "Don't worry. She's just trying to psyche you out."
 mc "If you say so."
+ax "I'm serious. Why are you even worrying about it now?"
+mc "Because I..."
+mc "(Because suddenly my feelings for you extend beyond the 'just friends' amount.)"
+mc "You know what? Nevermind."
+ax "Okay. Back to the game pitch. So, it's Hatoful Boyfriend with cats. What else?"
+mc "What... what do you mean, what else?"
+ax "How long do you want to work on it? Just for a quarter? Or longer?"
+mc "Uh... I dunno. Ask me another question."
+ax "Besides me, did you have anyone else you wanted to have join the group?"
+mc "Well, no. You're the only person I really know."
+ax "All right. What position did you want to be?"
+mc "The... the top position?"
+ax "What?"
+mc "I only know of two positions. Top and bottom."
+ax "Oh, god, no, not like... not "bed" position. Did you wanna be a writer, or a producer, or an artist, or-"
+mc "Designer. I want to be a designer."
+ax "I assumed that I would be the designer, but-"
+mc "No, no. I guess I meant junior designer. Assistant designer. You would, of course, be the main designer."
+ax "Are you actually interested in becoming a designer, or are you just trying to find an excuse to get closer to me?"
+mc "It could be a little of both."
+ax "If I didn't know better, I'd say that you were flirting with me."
+mc "You're reading too much into it. I want more coffee."
+ax "Then, I will go grab you more coffee, dear."
+
+"The word 'dear' made my stomach turn. He said it so... so casually."
+"Was this really just a revenge scheme, or was it quickly turning into something more?"
 
 Scene 3 - Food Court
+
+"The conversation with Naomi yesterday made me realize that I didn't really know a lot about the "new" Alex."
+"Growing up, he was kind of a quiet guy. He was always super friendly, though."
+"And also, he was into sports, not art."
+"So, how did he become the Design leader of a Video Game Design Club?"
 
 mc "I had no idea you were into the whole design thing."
 ax "Sure am! It's really pretty cool.”
 mc “What exactly do you do?”
-ax “I do the aesthetics. Making sure it looks good and it’s all zen and lookin’ good. things like that.”
+ax “I do the aesthetics. Making sure it looks good and it’s all zen and lookin’ good. Things like that.”
 mc “You were always into football. It’s so weird to think that you’re like, artsy now.”
 ax “It was soccer, and it’s not an absurd idea.”
-mc “But a self-proclaimed hardcore jock boy to a sensitive artist?”
+mc “But a self-proclaimed hardcore jock boy turning into a sensitive artist?”
 ax “I went to high school, broadened my horizons a little, and decided that I really enjoyed doing the whole design thing.”
 mc “Is it something you just stumbled onto, or…?”
 ax “I was required to take a couple of electives, so I did a graphic design course one year. It was fun.”
 mc “Huh.”
 ax “What? Not exciting enough for you?”
 mc “No, I’m just trying to figure out why, still.”
-ax “Yeah, there were a lot of cute chicks in the class that I wanted to impress. I worked hard, got good, and now here I am.”
-mc “That makes a lot more sense.”
+ax “There were a lot of cute chicks in the class that I wanted to impress. I worked hard, got good, and now here I am.”
+mc “That makes a lot more sense."
 ax “I think that you could be a really great designer too.”
 mc “That sounds like a lie.”
 ax “Not at all! You’ve got a sharp eye for detail, and you stand by your convictions.”
 mc “Um… thank you?”
-ax “You’re welcome. Ugh, it’s five to three. We should probably get to class.”
+ax "Didn't you want to do design on our club project anyways?"
+mc "Well, yeah."
+ax “See? Ugh, it’s five to three. We should probably get to class.”
 
 “Alex had changed so much… but at the same time, he hadn’t changed at all.”
-
 
 Scene 4 - SSLH
 
@@ -286,6 +337,9 @@ mc “I kind of figured. You were always a bad liar.”
 
 [scene 3]
 ax "Wow, our game turned out great!"
+mc "Well, that's to be expected with the two best designers on campus."
+ax "True. True."
+mc "
 
 [end]
 ax "Thanks for everything, (Y/N)."
