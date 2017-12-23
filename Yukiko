@@ -942,6 +942,64 @@
     yu "Can you close your eyes?"
     mc "... sure."
     #fade to black
-#scene6 Projects showcase CHANGE to "my project sucked, Yukiko's was good"
 
-#scene7 Software Company Internship Offer
+#scene6 Projects showcase CHANGE to "my project sucked, Yukiko's was good"
+    #outside dbh
+    "It's been a month since I moved in with Yukiko."
+    "Today was the day for our projects to be showcased."
+    "My project did painfully average."
+    "First of all, the fact that people needed to own or purchase Larry's Mod in order to experience it served a crucial barrier discouraging people from trying it."
+    "Secondly, the development team, including me, was collectively caught up in the nostalgia of Larry's Mod and didn't consider how much appeal it would have for gamers who prefer more modern titles."
+    "It was definitely suited for a very niche audience."
+    "Lastly, our mod of Larry's Mod neither executed a known concept exceptionally well or really offer any new, innovative features that made it stand out from the other available mods."
+    "It was a good learning project for the programmers on the team, but in the end, that's all we could afford to make it turn out to be within our capabilities at the time."
+    #calm
+    "I sigh dejectedly next to Yukiko."
+    yu "Cheer up, [mcname]. I liked your project. I saw how much effort went into the programming."
+    mc "Hearing someone like you tell me that makes me feel a little better."
+    yu "Forget my qualifications. Anyone could tell you guys were really passionate about your work."
+    #happy
+    yu "As long as you guys learned something, you can always use those skills to make something better in the future."
+    mc "Right, right. That was the point."
+    "Her smile is contagious, so I can't help but smile too."
+    yu "Oh right, I had something important to tell you today."
+    mc "Is it about your project?"
+    #calm
+    yu "I actually signed up for a commercial project with an experienced team. We're also not sponsored by the club."
+    mc "I see."
+    yu "We didn't get much reception after release..."
+    mc "Oh..."
+    #happy
+    yu "But once the internet caught wind of it, our game blew up overnight."
+    mc "OH?!"
+    mc "That's great! We have to go celebrate."
+    #calm
+    yu "I'm not really feeling it today."
+    mc "Oh, how come?"
+    yu "What I just told you coincides with what I actually have to tell you today."
+    mc "What is it?"
+    #hide sprite
+    "She starts slowly walking facing away from me with her arms behind her back. I follow suit."
+    yu "I wasn't satisfied with my life here. So I thought that focusing on my career would help me find the spark in my life that I was looking for."
+    yu "They say that the degree is the minimum that you need to get a job."
+    yu "Sometimes you don't even need the degree."
+    yu "Networking and your portfolio and capabilities are what really get you the job."
+    mc "Sounds about right to me."
+    yu "I couldn't do the networking part. I just couldn't."
+    yu "It wasn't that I had anything against networking."
+    yu "Some people might see networking as a selfish thing because they consider it as a means to an end instead of an end within itself."
+    yu "You know, just a handful of people helping each other out."
+    yu "I gave up early. I didn't want to go back to trying to talk to people, not to mention people who I might emd up working with. It was scary."
+    yu "I took the easy way out and worked really hard for my talents to get noticed."
+    yu "Sometimes things just don't work out if you avoid reality and keep trying to play by your rules."
+    yu "That was okay. I decided I was content with what I had. A really sweet guy even wandered his way into my heart one day."
+    yu "But now, just when I thought I was at my happiest, my work gets noticed."
+    yu "I printed out the job offer they gave me."
+    "Without looking at me still, she holds out a 2-page document in my direction."
+    "She doesn't say anything else. Even without seeing her face, I can tell she's crying."
+    "I'm not daft enough to not know what kind of question she's asking without her actually saying it. I know what I have to do."
+    "I take the stapled paper from her small hand and hastily skim over the contents in order quickly formulate a response to ease her fears, to put her at rest."
+    "I can't find any appropriate words. Maybe it's better to say something rather than nothing. But maybe some things are best left unsaid."
+    "We walk home in silence."
+
+#scene7 Final
