@@ -1056,7 +1056,7 @@
     "I feel a soft cloth and gentle hand drying my tears."
     #sad
     "It's Yukiko using her sleeve to wipe away the residue of my weeping."
-    mc "Girl, don't scare me like that."
+    mc "Don't scare me like that."
     "With two tilts of my head, I wipe away the rest of my tears on my shoulders."
     "Returning my gaze to her, I notice her eyes are rather moist and bloodshot."
     #happy
@@ -1131,6 +1131,29 @@
     #stop the music
     yu "Do you really think that was what I was doing?"
     yu "[mcname], I was writing up a follow-up email to the company declining their offer."
-    yu ""
+    "Her dissonantly calm face petrifies me. In the crucial moment, I stand frozen again."
+    yu "I was really..."
+    #sad
+    yu "Really..."
+    #cry
+    yu "R-really..."
+    #sob
+    #disappear sprite
+    #door slam sound effect
+    "The loud noise snaps me out of my stupor and into the present moment."
+    mc "Yukiko..!"
+    #heavy knocking
+    mc "Yukiko!"
+    #heavy knocking
+    #fade to black
+    #wait a bit
+    #park
+    "It's been an academic quarter since I last saw Yukiko."
+    "I still go to the club, but I never see her."
+    "I sent her texts apologizing and encouraging her, but she never responded."
+    "I don't think about it everyday. Nowadays, I commit to my routine of waking up, going to school, coming home, studying, and heading to bed.
+    "Life goes on."
+    "But... sometimes it just feels like I'm moving like an automaton. When I talk to other people, I act normal. I look people in the eye while greeting them. We make friendly small talk."
+    "Sometimes, it feels all like an act to me. What I'm doing, what I feel, and what I say."
 
     #good branch
