@@ -888,7 +888,7 @@
     #blush and some weird sprite movement here
     "... and Yukiko pushes me down onto the bed to stop me from doing anything else to her."
     "Aside from the game's background music, it was so quiet that we could hear both of our controllers fall onto the rug with a quiet thud."
-    "Our bodies remain still. Our characters in Tori Faiter stopped fighting and merely cycle through their idle animations, as if refusing to hurt each other."
+    "Mirroring our bodies, our characters in Tori Faiter remain still and cycle through their idle animations, as if refusing to hurt each other."
     yu "[mcname], do you want to win that badly?"
     mc "Now that I think about it, no, not really."
     #nervous
@@ -1074,20 +1074,37 @@
     yu "I skim some stuff I don't know for 30 minutes and I'm good."
     mc "Okay, you do that and I'll start on the freelance work you haven't done yet."
     yu "Uhh, I don't think..."
+    mc "Can I come in?"
+    yu "Sure."
+    #inside
     "Yukiko lets me skim the assignments she has in her work email."
     mc "Alright, I have no idea how to do this!"
-    mc "I'll keep handling the chores and cooking and I'll bring you whatever you need."
+    "Yukiko rewards my effort with a faux exasperated sigh as she plops down in her chair."
+    mc "I'll keep handling the chores and cooking. I'll bring you whatever you need."
     yu "So you'll keep doing what you've always been doing?"
     mc "You didn't have to put it that way..."
-    yu "And I'll keep doing what I've always been doing too."
-    yu "Nothing will change."
+    "She snickers amusedly as my voice trails off."
+    yu "And I'll keep doing what I've always been doing too. Nothing will change."
+    "Yukiko puts her hand on her mouse and hovers the cursor over the send button."
     mc "Is this really okay, Yukiko?"
-    yu "Yes. I can't turn back now."
+    yu "Like you said [mcname], there are many ways to happiness."
+    "Her voice sounds brave, but her hand is shaking."
+    "I give her a reassuring smile and put my hand on top of hers."
+    #mouse click
+    #instant black
 
-#I felt like breaking up with her
+#I felt like encouraging her to go
     mc "(I wanted her to stay with me.)"
     mc "(... but I also want her to chase her future, with or without me in it.)"
     "I knock on her bedroom door and receive no response."
     mc "(If you love something, let it go, and if it loves you back, it will always come back to you, right?)"
     "I make a poor effort of comforting myself with a platitude before steeling my heart in preparation for what I'm about to do."
-    "I begin packing my things, serious or not."
+    "I begin audibly packing anything I had that would fit into my suitcase, serious or not."
+    "I still sense no signs of life from Yukiko's room."
+    "I shout at her bedroom door."
+    mc "Yukiko, this is the last time I'm gonna try. Let's talk about this like grown-ups."
+    "No response."
+    mc "I don't want to make any assumptions before we talked, but..."
+    mc "Lately, I've been feeling like I'm the ball and chain that's been tying you down here."
+    "Still no response."
+    mc "Yukiko, if you're going to keep running away from this, I don't think I can keep staying here."
