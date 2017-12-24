@@ -1148,12 +1148,59 @@
     #fade to black
     #wait a bit
     #park
-    "It's been an academic quarter since I last saw Yukiko."
-    "I still go to the club, but I never see her."
-    "I sent her texts apologizing and encouraging her, but she never responded."
-    "I don't think about it everyday. Nowadays, I commit to my routine of waking up, going to school, coming home, studying, and heading to bed.
-    "Life goes on."
-    "But... sometimes it just feels like I'm moving like an automaton. When I talk to other people, I act normal. I look people in the eye while greeting them. We make friendly small talk."
-    "Sometimes, it feels all like an act to me. What I'm doing, what I feel, and what I say."
+    "It's been an academic quarter since I last saw her."
+    "Since then, I sent her texts apologizing and encouraging her, but she never responded."
+    "I still go to the club, but I never catch a glimpse of her, even during official events."
+    "I don't think about it everyday.
+    mc "(I wake up. I go to school. I study. I sleep. Life goes on.)"
+    mc "(However, my body grows weary merely from carrying out its routine.)"
+    mc "(I function as an automaton. When I talk to other people, I behave as I normally do. I look people in the eye while greeting them. We make friendly small talk.)"
+    mc "(It feels all like an act to me. What I'm doing, what I feel, and what I say.)"
+    "My introspection ends early as I end up walking mindlessly into someone familiar."
+    #Reina calm
+    re "..."
+    "She stares at me blankly before continuing on her way."
+    "I turn in her direction and greet her back with a friendly smile."
+    mc "Hi Reina, how's it going?"
+    "She mechanically turns her torso back towards me without a change in expression."
+    re "... hi."
+    mc "Maybe you've forgotten me from back then, but we talked for a bit."
+    re "... I remember."
+    mc "Oh."
+    re "....."
+    mc "........."
+    "............."
+    "We share awkward silence until Reina shifts her body as if about to leave."
+    mc "Hey, have you seen..."
+    "I verbally taper off the end of my question as Reina briefly looks as if I had just asked her if I could defecate on her shoes in public."
+    re "You don't even know..?"
+    "I start to feel a little annoyed at her rudeness."
+    mc "I don't. Tell me. What am I missing?"
+    "Taking note of the angle of the corners of my mouth, my smile must have dropped off a long time ago in this conversation."
+    "Reina begins walking away. I stride after her in what must have appeared to outsiders as in an intimidating manner."
+    mc "Tell me!"
+    "The voice that leaves my throat surprises me with its harshness."
+    "In a single swift motion, Reina twirls around with her hand raised."
+    #slap sound
+    "The freshly throbbing pain in my cheek pales in comparison to the news Reina delivers to me immediately after."
+    re "She doesn't go here anymore."
+    "With the pragmatism of her tone to set the mood, Reina begins cutting me with her short statements."
+    re "She cried to me on the phone. She flunked her finals by not going."
+    re "She didn't take the job. She moved back home."
+    "Refusing to be frozen again, I try moving my body."
+    re "Are you even listening? You're the one who asked me."
+    "Bearing a famine for words, I have no words to offer her."
+    re "Whatever."
+    "Reina starts walking away, taking glances back to make sure I'm not stopping her again."
+    re "There were plenty of things she wasn't satisfied with before you barged in. Don't give yourself too much credit.
+    re "You were just the final lock to seal away her heart."
+    #no reina
+    "As Reina disappears into the rays of morning sunshine, I carry my body away back into the park to rest on the grass."
+    #blurring out
+    "I lie down weighed heavily in hardship. My body drifts away into the sea of slumber, anchoring my my mind with it."
+    "Afraid of drifting away into loneliness, afraid of navigating through an uncharted future, I remain floating here where we first met, calling out your name."
+    mc "Yukiko..."
+    #black
+    "But you never came."
 
     #good branch
