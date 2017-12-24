@@ -1088,8 +1088,9 @@
     "Yukiko puts her hand on her mouse and hovers the cursor over the send button."
     mc "Is this really okay, Yukiko?"
     yu "Like you said [mcname], there are many ways to happiness."
-    "Her voice sounds brave, but her hand is shaking."
+    "Her voice sounds brave, but her hand on the mouse is shaking."
     "I give her a reassuring smile and put my hand on top of hers."
+    "From today on, we forge forward to our uncertain future."
     #mouse click
     #instant black
 
@@ -1105,6 +1106,31 @@
     mc "Yukiko, this is the last time I'm gonna try. Let's talk about this like grown-ups."
     "No response."
     mc "I don't want to make any assumptions before we talked, but..."
-    mc "Lately, I've been feeling like I'm the ball and chain that's been tying you down here."
-    "Still no response."
-    mc "Yukiko, if you're going to keep running away from this, I don't think I can keep staying here."
+    "I see and hear the door shake a little."
+    mc "Yukiko, if you're going to keep running away from this, I'm leaving right now."
+    "The doorknob turns frantically right before the door swings open abruptly, narrowly missing my face."
+    #nervous
+    yu "[mcname], you can't be serious."
+    mc "Just take the job. You don't have to lose me. We can make this work!"
+
+    #bad branch
+    #sad
+    yu "Long distance relationships are really hard [mcname]."
+    yu "And we just started officially dating a month ago."
+    yu "Couples who have been together longer than us have been broken apart by distance."
+    yu "I want to believe that we can be different, [mcname], but it just doesn't feel like us two silly college students have it in us."
+    "As much as I hate to admit it, Yukiko's worries have a strong foundation within reality."
+    mc "Yukiko, I... I think we're special, and..."
+    "I try to find some sensible words to reassure her with, but I just end up stumbling over my own desperate thoughts."
+    "My trembling voice must not sound very encouraging to her either."
+    yu "I think we're special too but... maybe not as much as you think we are."
+    mc "How could you say that? I'm really trying here, Yukiko."
+    yu "I'm trying too, [mcname]."
+    mc "Is that why you've been sitting in that room by yourself all day?"
+    #calm
+    #stop the music
+    yu "Do you really think that was what I was doing?"
+    yu "[mcname], I was writing up a follow-up email to the company declining their offer."
+    yu ""
+
+    #good branch
