@@ -89,8 +89,22 @@ nm "Do you love him?"
 
 "Alex looked at me expectantly."
 
+DivMerges into 2 options:
+[Pos. Option] "Of course!"
+mc "We're dating, so obviously I do."
+nm "That's so sweet. What cute little things has he told you?"
+ax "Our relationship isn't-"
+mc "He told me I have a cuter nose than you do."
+nm "That's obviously a lie."
+mc "I don't know - I'm looking at you right now, and I feel like your nose is gonna poke me in the eye. That's how big your nose is."
+nm "Ugh. Look - you're not foolilng anyone. Especially not everyone on campus who's talking about the two of you."
+mc "I..."
+
+[Neg. Option] "Well..."
 mc "Uh... well, as a friend I do. If it's more, then... then I guess we'll find out."
 nm "Hm. Anyways, my point was that people have been talking. Like, a lot of people. Almost everybody. Watch yourself."
+
+
 ax "Okay, seriously, Naomi - leave. Now."
 nm "You're digging yourself into a deep hole, (Y/N). Be wary of how far that hole goes. You may find yourself unable to get out."
 
@@ -144,24 +158,33 @@ ax “I went to high school, broadened my horizons a little, and decided that I 
 mc “Is it something you just stumbled onto, or…?”
 ax “I was required to take a couple of electives, so I did a graphic design course one year. It was fun.”
 mc “Huh.”
-ax “What? Not exciting enough for you?”
+ax “You look confused. Do I need to explain it again?”
 mc “No, I’m just trying to figure out why, still.”
 ax “There were a lot of cute chicks in the class that I wanted to impress. I worked hard, got good, and now here I am.”
-mc “That makes a lot more sense."
-ax “I think that you could be a really great designer too.”
-mc “That sounds like a lie.”
-ax “Not at all! You’ve got a sharp eye for detail, and you stand by your convictions.”
-mc “Um… thank you?”
-ax "Didn't you want to do design on our club project anyways?"
-mc "Well, yeah."
-ax “See? Ugh, it’s five to three. We should probably get to class.”
+mc “That makes a lot more sense. I thought that you'd have a more interesting story though."
+ax "You're right. I've been keeping the truth from you."
+mc "I... what?"
+ax "You see, the real reason I became a designer was because aliens abducted me, and-"
+mc "I'm just gonna stop you right there."
+ax "Too ridiculous?"
+mc "It sounds like something out of The Sims."
+ax "So do you actually have interest in learning the design aspect of video games, or are you just interested in designers?"
+mc "I... w-what?!"
+ax "You were never really into art either, growing up."
+mc "I liked it more than you did!"
+ax "You literally sneezed on a painting in a museum. On purpose. And got kicked out."
+mc "It was a modern art piece. It was just black rectangles on a canvas. It was awful, and it deserved it."
+ax "Mrs. Henderson wasn't happy."
+mc "What's your point?"
+ax "I guess I'm just trying to figure out why you're suddenly so into design."
+mc "I like learning. I ge to hang out with my best friend and learn at the same time. It's a win-win.""
+ax “Hey, so, it’s five to three. We should probably get to class.”
 
 “Alex had changed so much… but at the same time, he hadn’t changed at all.”
 
 Scene 4 - SSLH
 
 ”A week passed, and the most important club meeting of the quarter was near - the Pitch Meeting.”
-”We had finally decided on a theme for the game - the old west.”
 “I’ve never been a huge fan of speaking in front of huge crowds.”
 “But with Alex at my side, we could conquer anything.”
 
@@ -169,11 +192,14 @@ ax "Hello everyone! My name is Alex, and this is my friend, (y/n)."
 mc "Hi! Uh... so the basic gist of our game is that it's a dating simulator about cats."
 ax "Think 'Hatoful Boyfriend'."
 
+
 “As we went to sit back down, my heart was racing.”
 “People didn’t seem thrilled about the idea. It looked like there were a lot more dog lovers than cat lovers.”
 “But with Alex, I hoped that maybe they’d be more willing to sign on.”
 
 Scene 5 - Aldrich Park
+
+"
 
 ax "What do you think of the campus so far? It's not quite UCLA, but..."
 mc "Well, I think it's really, really green."
@@ -190,12 +216,15 @@ mc "Right. Uh, why is that funny?"
 
 Scene 6 - Food Court
 
-ax "Thanks for meeting me here."
-mc "Of course. What do you need?"
-ax "I've got a confession to make."
+"I had gotten a text from Alex early in the morning."
+
+ax "
+ax "I'm really glad you're here."
+mc "Yeah, me too."
 
 "Alex had become uncharacteristically quiet."
 
+ax "I've got a confession to make."
 mc "What happened? Is it about Naomi?"
 ax "Yes. No. Nothing. Nothing bad."
 mc "Whatever it is, it's not going to change our relationship."
