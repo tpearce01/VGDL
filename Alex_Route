@@ -83,13 +83,13 @@ nm "I don't think you realize how popular your little boytoy here is around the 
 ax "What can I say? I get around."
 nm "He's what you might call a 'serial dater'."
 mc "I've never heard of that term before. Since when has Alex dated cereal?"
-nm "Ugh. No, 'serial' dater. He... he dates many women but never forms a deep bond or relationship with them."
+nm "Ugh. No, 'serial' dater. He dates many women but never forms a deep bond or relationship with them."
 mc "Well, like I said, I've known him for a long time. Whatever kind of guy he is, I'm okay with it."
 nm "Do you love him?"
 
 "Alex looked at me expectantly."
 
-DivMerges into 2 options:
+Diverges into 2 options:
 [Pos. Option] "Of course!"
 mc "We're dating, so obviously I do."
 nm "That's so sweet. What cute little things has he told you?"
@@ -103,7 +103,6 @@ mc "I..."
 [Neg. Option] "Well..."
 mc "Uh... well, as a friend I do. If it's more, then... then I guess we'll find out."
 nm "Hm. Anyways, my point was that people have been talking. Like, a lot of people. Almost everybody. Watch yourself."
-
 
 ax "Okay, seriously, Naomi - leave. Now."
 nm "You're digging yourself into a deep hole, (Y/N). Be wary of how far that hole goes. You may find yourself unable to get out."
@@ -367,7 +366,7 @@ mc “I kind of figured. You were always a bad liar.”
 [scene 3]
 ax "Wow, our game turned out great!"
 mc "Well, that's to be expected with the two best designers on campus."
-ax "True. True."
+ax "Totally."
 mc "
 
 [end]
