@@ -363,11 +363,51 @@ mc “I kind of figured. You were always a bad liar.”
 "One of the writers in our group had flaked out early on."
 "We were scrambling to get everything done on time."
 
+mc "We have four of the five routes done. We just have one more."
+ax "Which one?"
+mc "Tabby Cat's."
+ax "Remind me again - what was that one again?"
+mc "Tabby Cat is the flirty one who gets around."
+ax "Did you just admit to giving me a fursona?"
+mc "Yeah. Sorry. But not sorry."
+
 [scene 3]
-ax "Wow, our game turned out great!"
-mc "Well, that's to be expected with the two best designers on campus."
-ax "Totally."
-mc "
+
+"Game testing day arrived and I felt just as nervous as the day we had originally pitched the game."
+
+ax "Hey, breathe."
+mc "I am breating."
+ax "Well, do more of it. You look like you're gonna pass out."
+mc "I feel like passing out."
+ax "Everything's going to be fine. You don't need to be so nervous."
+mc "But what if people don't like it?"
+ax "It doesn't matter. This is a prototype, not the finalized version. There will be bugs.But we'll fix them."
+mc "Right. Just a prototype..."
+
+mc "Everyone looks like they're having a lot of fun! I'm getting jealous."
+ax "There's nothing against you playing the game now, too."
+mc "Yes! Come on, you've gotta help me make decisions."
+
+"Alex and I opeened up the game on his laptop."
+
+Option 1 ("Choose Tabby Cat Path")
+
+ax "Tabby Cat's route, huh?"
+mc "Well, yeah! What's wrong with that? It's obviously the best route."
+ax "Nothing! I'm actually kind of glad you chose it. I might have put something in there, just for you."
+mc "No way!"
+
+"Alex helped guide me toward his surprise in-game gift."
+
+mc "Wh-what... what is this!?"
+ax "I thought it'd be a fun easter egg. Do you not like it?"
+mc "No, I do. I just... thank you, Alex. I'm glad we're friends."
+ax "Me too, (Y/N)."
+
+Option 2 ("Choose A Different Path")
+
+ax "I thought for sure that you would have chosen Tabby Cat's route."
+mc "I don't like tabby's as much as you do."
 
 [end]
 ax "Thanks for everything, (Y/N)."
