@@ -246,21 +246,46 @@ mc "Sounds great."
 
 Scene 5 - Aldrich Park
 
-"A couple days later, Alex and I were walking in Aldrich Park."
+"A couple days later, Alex and I finally had time to catch up in Aldrich Park."
 
 ax "What do you think of the campus so far? It's not quite UCLA, but..."
 mc "Well, I think it's really, really green."
 ax "Is... is that good?"
 mc "Nature is good. And I like how like, you can get most places by going in a circle."
-ax "Oh, Ring Road?"
+ax "Ring Road?"
 mc "Yeah! Ring Road is super convenient."
-ax "Speaking of circles... it's funny."
-mc "What is?"
-ax "You remember how we 'went out' in Junior High for a week?"
-mc "Oh yeah..."  
+ax "What have you been up to the past few years?"
+mc "I'm... sorry, what?"
+ax "We haven't really had time to catch up. What's been going on in your life? Any boyfriends or girlfriends?"
+mc "Well... I did have a steady-ish relationship with someone my junior year of High School."
+ax "What were they like?"
+mc "Quiet. Artsy. Kind."
+ax "Sounds like a great person. Why'd you guy's break up?"
+mc "It just didn't feel right."
+ax "Is there a... particular type of person you're looking for now?"
+mc "I haven't really thought about it. Why, have you heard something?"
+ax "About someone liking you? No, not yet. But I do know a lot of people. I could help hook you up."
+mc "Ugh, no thanks. I just want to focus on school."
+ax "Same ol' (Y/N). Always the good student."
+mc "Hey! I like my A's."
+ax "I like your A's too! I was just wondering."
 
-mc "So, what's going on between you and Naomi?"
-ax "
+Option A - Ask About Alex's Feelings
+mc "Maybe I'm reading too much into it, but it sounds like maybe you're getting feelings for me."
+ax "What!? No. I like Naomi. You're helping me get Naomi back."
+mc "I thought this was a revenge thing."
+ax "It started out that way, but I decided to try to get her back again."
+mc "After she was so rude the other day?"
+ax "I'm allowed to change my mind."
+
+Option B - Let It Go
+mc "I appreciate your concern for my love life, but I'm fine."
+ax "Are you sure? Are you really sure?"
+mc "If I'm still single at the end of the school year, then we can talk."
+ax "I'm going to hold you to that."
+
+"As we walked to class, Alex looked like he was hiding something."
+"I didn't want to pry."
 
 Scene 6 - Food Court
 
