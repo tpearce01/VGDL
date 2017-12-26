@@ -187,18 +187,66 @@ Scene 4 - SSLH
 “I’ve never been a huge fan of speaking in front of huge crowds.”
 “But with Alex at my side, we could conquer anything.”
 
-ax "Hello everyone! My name is Alex, and this is my friend, (y/n)."
-mc "Hi! Uh... so the basic gist of our game is that it's a dating simulator about cats."
-ax "Think 'Hatoful Boyfriend'."
+mc "I hope we don't go first."
+ax "But if we go first, then we'll get it over with. We'll set hte bar so high, that everyone else won't be able to reach it."
+mc "I dunno..."
+ax "Look, we'll be okay. Just breath. Most people here are very against public speaking. You're not the only one who's nervous."
+mc "I'm not sure that makes me feel better."
 
+"We ended up being the third group to go up."
+
+ax "Hello everyone! My name is Alex, and this is my friend, (y/n)."
+mc "Hi! The game we're pitching is called 'Lovely Kitten Love'."
+mc "Uh... and so the basic gist of our game is that it's a dating simulator about cats."
+ax "Think 'Hatoful Boyfriend'."
+mc "But with cats."
+ax "Right. With cats.  So, me and (Y/N) are going to head the design."
+ax "We're going to need everyone else though. Artists, writers, programmers."
+mc "Um, and the art style is going to be anime."
+ax "Yes, the art style! Anime. Shojo-style. 2D."
+mc "It, um, isn't meant to be a difficult project, so beginners are welcome."
+ax "Definitely. If you're new to the club, this is a good first project to do to learn the ropes."
+mc "And also, we do plan on finishing it this quarter."
+ax "This may depend on how many people join our group, though."
+mc "Yeah, so, if you have any questions, feel free to come and ask us."
+ax "(Y/N) and I look forward to having you guys join our team!"
 
 “As we went to sit back down, my heart was racing.”
-“People didn’t seem thrilled about the idea. It looked like there were a lot more dog lovers than cat lovers.”
-“But with Alex, I hoped that maybe they’d be more willing to sign on.”
+"When everyone had finished pitching, Alex and I sat there. No one came up to us though."
+
+mc "It feels like everyone is avoiding us."
+ax "Nah. There were a lot of pitches this time. Ours wasn't very complicated, so people probably don't have questions."
+mc "I hope you're right."
+
+"The Audio Officer, Melody, showed up."
+
+md "Hey, you guys!"
+mc "Hi."
+ax "What's up, Melody?"
+md "Nothin', nothin'. So, your game sounds like a furry simulator."
+ax "Thanks, Captain Obvious. What other insightful observations do you have?"
+md "Oh, I'm soooo sorry if I offended you!"
+ax "Your sarcasm isn't necessary."
+md "I'm just curious why you're choosing to do something so... basic. Is it because of the girl?"
+mc "My name is (Y/N)."
+md "But does Alex know that? He goes through girls on a weekly basis. Did he bother to learn your name?"
+ax "You should leave, Melody. There might be actual people with actual questions who want to talk with us, and you're scaring them away."
+md "Maybe I was interested in joining your little furry simulator."
+mc "It's not... really a furry simulator."
+ax "Are you actually interested?"
+md "No, but I could have been."
+ax "You're just wasting time now."
+md "Whatever. Good luck getting anyone to join your lame little group. And enjoy your week-long relationship with Alex, (Y/N)!"
+ax "Ugh. I'm so glad she's gone."
+mc "Did something happen between you and Melody?"
+ax "Just something stupid. You can't get along with everybody."
+mc "You didn't date her too, did you?"
+ax "God, no. The meeting's almost done. Wanna leave early to grab a burger across the street?"
+mc "Sounds great."
 
 Scene 5 - Aldrich Park
 
-"
+"A couple days later, Alex and I were walking in Aldrich Park."
 
 ax "What do you think of the campus so far? It's not quite UCLA, but..."
 mc "Well, I think it's really, really green."
@@ -209,9 +257,10 @@ mc "Yeah! Ring Road is super convenient."
 ax "Speaking of circles... it's funny."
 mc "What is?"
 ax "You remember how we 'went out' in Junior High for a week?"
-mc "Oh yeah! That was crazy. Why did we break up again?"
-ax "Because I wasn't Legolas."
-mc "Right. Uh, why is that funny?"
+mc "Oh yeah..."  
+
+mc "So, what's going on between you and Naomi?"
+ax "
 
 Scene 6 - Food Court
 
@@ -262,14 +311,16 @@ ax “Nah, nah, we’re cool. We’re good. Let’s finish eating.”
 
 CHOICE A
 [scene 1]
-mc “You okay?”
-ax “Yeah, just thinking. Wow, you and me, together. This feels... good."
+ax "You okay?"
+mc "Yeah! Totally. Just thinking."
+
 
 [scene 2]
 "Weeks passed, and we were so happy."
 "We did everything together. Just like old time."
 "The only difference was that we were past the friend stage. We were in love."
 
+mc "Did you ever actually have feelings for Naomi?"
 
 
 [scene 3]
@@ -283,7 +334,7 @@ mc “You’re my boyfriend, and you’re basically acting like I don’t exist.
 ax “What? Nah.”
 mc “I’ve texted you three times since this morning. A couple people dropped out, and the game needs to be finished by next week.”
 ax “Sorry. I’ve been distracted.”
-mc “Clearly. But that doesn’t give you the right to ignore me.”
+mc “Yeah, I get that. But that doesn’t give you the right to ignore me.”
 ax “I wasn’t ignoring you.”
 mc "You went back to Denim Jacket?"
 ax "Her name is Naomi."
@@ -293,14 +344,7 @@ ax "But so have you. It feels like you're leaching off me.”
 
 Diverges into 2 options:
 [Pos. Option] “You think I’ve been leaching off you?”
-mc "Okay, but how does it benefit me?"
-ax "You'll get the satisfaction of helping your best friend in his time of need."
-mc "That's it?"
-ax "I'll also help you with a pitch for the meeting next week."
-mc "(I did want to pitch something next week...)"
-mc "(And if I had the help of one of the official officers, I was sure to get accepted.)"
-mc "All right. As long as your plan doesn't involve anything super awful."
-ax “Nah! I’ll text you later about it.”
+
 
 [Neg. Option] "What are you talking about!?"
 mc “Leaching? I’m leaching off you? What does that even mean?”
