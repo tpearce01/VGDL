@@ -358,7 +358,9 @@ ax "Sorry. She's going to help with the writing."
 mc "Do I get any say in this?"
 ax "(Y/N), we need the help."
 mc "Ugh. Fine. Welcome aboard... I guess."
-nm "
+nm "Such enthusiasm! You make me feel soooo welcomed!"
+mc "Is there ever a time when you aren't sarcastic?"
+nm "Sorry, (Y/N), that's just how I roll."
 
 [scene 2 - SC Starbucks]
 "Weeks passed, and we were so happy."
@@ -366,7 +368,11 @@ nm "
 
 mc "Did you ever actually have feelings for Naomi?"
 ax "What?"
-mc 
+mc "Did you ever LIKE her the way you like me?"
+ax "Why are you asking?"
+mc "I'm just trying to figure out how serious you two were."
+ax "We went on one date."
+
 
 [scene 3 - Food Court]
 "Our game was set to be completed in the following week."
