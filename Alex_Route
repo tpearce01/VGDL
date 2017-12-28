@@ -336,18 +336,39 @@ ax “Nah, nah, we’re cool. We’re good. Let’s finish eating.”
 Goes to CHOICE B ROUTE.
 
 CHOICE A ROUTE
-[scene 1 - ]
+[scene 1 - Aldrich Park]
 "I had never been in a relationship before Alex."
 "Sure, there were crushes, but never anything serious."
 
-[scene 2]
+ax "So we've decided to base the cats on different social cliques, right?"
+mc "Yup! We have..."
+
+nm "Wow. It's week four and you two are still together. That's a first for you, isn't it, Alex?"
+ax "What do you want this time?"
+nm "Can I talk to you? Privately?"
+ax "Anything you need to tell me, you can tell me here, in front of (Y/N)."
+nm "No. No, I can't. Pleeease?"
+ax "Wow. Begging. That's a new low. Fine. (Y/N), we'll be right back."
+"Naomi took Alex aside, far enough to where I could hear what they were saying."
+"He laughed at one point."
+"I could feel my face getting hot from jealousy."
+ax "Naomi wants to help with our game."
+mc "And you couldn't have that conversation with me?"
+ax "Sorry. She's going to help with the writing."
+mc "Do I get any say in this?"
+ax "(Y/N), we need the help."
+mc "Ugh. Fine. Welcome aboard... I guess."
+nm "
+
+[scene 2 - SC Starbucks]
 "Weeks passed, and we were so happy."
 "We did everything together. Just like old time."
-"The only difference was that we were past the friend stage. We were in love."
 
 mc "Did you ever actually have feelings for Naomi?"
+ax "What?"
+mc 
 
-[scene 3]
+[scene 3 - Food Court]
 "Our game was set to be completed in the following week."
 "Alex had stopped returning my texts. He didn't want to meet up for lunch..."
 "And then I found out the truth."
@@ -378,7 +399,7 @@ mc “Leaching? I’m leaching off you? What does that even mean?”
 ax “You used to be so independent, never took no for an answer.”
 
 ENDING
-[end - pos]
+[end - pos - Food Court]
 mc “You should have told me if you had such a problem with the way I was acting.”
 ax “What was I supposed to say? Stop being so annoying?”
 mc “We could have just gone back to being friends.”
@@ -399,7 +420,7 @@ mc “Sounds great.”
 “But I was still standing, and I had the chance to win my best friend back.”
 “Things could only go up from here.”
 
-[end - neg]
+[end - neg - Food Court]
 mc "You're really going to pin all of this on me?"
 ax "We didn't finish the game because of YOU."
 mc "How is it my fault!?"
@@ -439,7 +460,7 @@ mc "Tabby Cat is the flirty one who gets around."
 ax "Did you just admit to giving me a fursona?"
 mc "Yeah. Sorry. But not sorry."
 
-[scene 3]
+[scene 3 - VGDC Lab in DBH]
 "Game testing day arrived and I felt just as nervous as the day we had originally pitched the game."
 ax "Hey, breathe."
 mc "I am breating."
@@ -470,7 +491,7 @@ Option 2 ("Choose A Different Path")
 ax "I thought for sure that you would have chosen Tabby Cat's route."
 mc "I don't like tabby's as much as you do."
 
-[end]
+[end - VDGC Lab in DBH]
 ax "Thanks for everything, (Y/N)."
 mc "It's what friends do!"
 ax "Then I'm super lucky to have a friend like you.”
