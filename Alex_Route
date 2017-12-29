@@ -563,10 +563,26 @@ ax "There's nothing against you playing the game now, too."
 mc "Yes! Come on, you've gotta help me make decisions."
 "Alex and I opeened up the game on his laptop."
 
-Option 1 ("Choose Tabby Cat Path")
-ax "Tabby Cat's route, huh?"
+Option 1 ("Choose Tabby's Path")
+ax "Tabby's route, huh?"
 mc "Thought I'd finally see how Naomi's writing holds up."
 ax "It's really pretty good, actually."
+"Alex and I played through the route together, making all the worse decisions possible."
+"Finally, when Tabby had to confess his feelings for the main character..."
+mc "'I can't love you, because I love somebody else.' What!? What the hell!?"
+ax "I have no idea what Tabby's doing. I didn't get this far."
+mc "You didn't even finish reading it?"
+ax "No! Click next."
+mc "'I'm sorry, but I love my best friend.' Dude, Tabby just rejected my feelings for him."
+ax "That sounds... oddly familiar."
+mc "Oh. Did you tell Naomi -"
+ax "No! I don't know why she chose to write it this way. Just click next."
+mc "Aw, the main character looks so sad! 'I understand. Can we still be friends?' Awwww!!"
+ax "Ugh!!!! Click next!!"
+mc "'Of course we can still be friends.' I wonder how long that's gonna last..."
+"Alex and I saw strange parallels between Tabby's route and the events that had happened over the past few weeks."
+"In the end, Tabby and the main character ended up together anyways."
+"Maybe... maybe, when given the chance, I need to be straightforward with Alex about my feelings..."
 
 Option 2 ("Choose A Different Path")
 ax "I thought for sure that you would have chosen Tabby's route."
