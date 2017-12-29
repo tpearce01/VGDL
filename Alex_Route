@@ -327,7 +327,11 @@ ax "Nah. You and me, officially a couple? If we were going to do that, we would 
 mc "Yeah, I guess. Are you okay?”
 ax “Sure! Why wouldn’t I be okay?”
 mc “Again, you just seemed to take it super personally just then.”
-ax “Nah, nah, we’re cool. We’re good. Let’s finish eating.”
+ax “Nah, nah, we’re cool. Maybe we should um, just break up."
+mc "Break up? Oh, right - the whole fake revenge thing. You sure we've gotten revenge against Naomi?"
+ax "Doesn't matter. I don't want to lie like this anymore.
+mc "Are you okay, Alex?"
+ax "I'm okay. We’re good. Let’s finish eating.”
 "Lunch was awkward after that. Alex purposefully avoided eye contact with me."
 "We talked about Lovely Kitten Love, but he only gave one word answers."
 "He was acting like I had just punched him in the stomach or something."
@@ -446,7 +450,8 @@ ax "Yeah, and I thought I loved you too."
 “There was nothing I could do. It was the death of the best friendship I’d ever had.”
 
 CHOICE B
-[scene 1]
+[scene 1 - Aldrich Park]
+"A few days had passed since we 'broke up'."
 ax "Look, about the other day..."
 mc "Forget about it. Let's just work on our game, okay?"
 ax “No, I don’t want to forget about it. I want to talk about it.”
@@ -454,17 +459,26 @@ mc “What’s there to talk about?”
 ax “I… I know I said I was kidding when I said everything, but a small part of me wasn’t.”
 mc “I kind of figured. You were always a bad liar.”
 ax "Anyways, about the game..."
-mc "Ugh, I know. 
-
+mc "Ugh, I know. It gonna be tight with only one full-time writer, but I think we'll be okay."
+ax "Yeah, about that..."
+"Naomi approached us."
+nm "(Y/N). Alex. Sorry to hear about you two breaking up. But, I did tell you so."
+ax "Hi Naomi. It's nice to see you, too."
+nm "So, did you tell (Y/N) about the great news?"
+mc "What news?"
+nm "Alex and I got back together!"
+ax "No, we didn't. We're just going on a date tonight. That's it."
+"I felt betrayed. I mean, sure, I kind of turned him down the other day, but hearing Naomi's words still hurt..."
+mc "Um... he didn't tell me. But good for you. I'm happy."
 nm "Do you still need some writing help?"
 mc "Writing help?"
-ax "I may have... asked her to help."
+ax "I may have... asked her to help since we're short a person on the team."
 mc "Are you even a part of the club?"
 nm "Not officially. But I do dabble in Creative Writing."
-mc "I don't think we'll need your help, Naomi. We'll be fine."
+mc "Hm... I don't think we'll need your help, Naomi. We'll be fine."
 nm "That's not what Alex was telling me last night."
 mc "What are you hiding from me?"
-ax "Nothing! We'll talk about it later. I'll talk to oyou about it later too, Naomi. Bye."
+ax "Nothing! We'll talk about it later. I'll talk to you about it later too, Naomi. In a separate conversation. Bye."
 "Naomi didn't look happy, but she still left, and Alex and I were alone again."
 mc "Okay, it's later! What are you hiding from me?"
 ax "It's been forty-five seconds, if that."
@@ -473,14 +487,50 @@ ax "We don't have a full team."
 mc "I know that part."
 ax "It's going to be hard to finish this quarter unless we get some outside help."
 mc "I know that, too."
-ax "
-"Naomi sent me a text."
-"'No wonder Alex dumped you.'"
+ax "And... and that's it, isn't it?"
 
-[scene 2]
+Option A - ("Ask About Feelings for Naomi")
+mc "So... so do you love Naomi?"
+ax "I don't love her, but I still have feelings for her, (Y/N)."
+mc "But the whole plan was to get back at her for..."
+ax "She's still pretty. And right now, she can help us. So I'm gonna try to get on her good side, okay?"
+mc "She's just so mean..."
+ax "You're not jealous, are you?"
+mc "No! I'm just woried about your well-being. Be careful, okay?"
+"Hearing that Alex was going out with Naomi did hurt a little."
+"I don't know why. After all, we were just friends..."
+
+Option B - ("Ask About Relationship With Naomi")
+mc "When did you guys get back together anyways?"
+ax "Last week."
+mc "I honestly didn't think she'd want you back after everything she thought about you."
+ax "Me neither. But then she found out about us and said that she decided to give me a second cahnge."
+mc "Why's that?"
+ax "She never really explained why, and I don't really care enough to question it."
+mc "As long as you guys are happy..."
+
+Either Option Leads To -
+ax "Look, (Y/N), forget about Naomi. She's not relevant right now."
+mc "Right. You're right."
+"Later that day, I got a weird text."
+"'Hey, it's Naomi.'"
+mc "'How did you even get this number?'"
+nm "'I asked Alex to give it to me.'"
+mc "'Oh.'"
+nm "'(Y/N), if it's too uncomfortable for you, then I won't offer to help you guys out.'"
+mc "'What do you mean by 'uncomfortable'?'"
+nm "'If what's going on between me and Alex makes you uncomfortable...'"
+mc "'No, it's fine. But I am confused why you asked him out again.'"
+nm "'I think the first time we went out, I acted out of line. He's a nice guy.'"
+mc "'He really is. If you ever hurt him though, you'll have to deal with me.'"
+nm "'Yes, ma'am. ;)'"
+"I told Naomi that Alex would contact her if we did need her help."
+"I was tired of dealing with her at this point."
+"Plus, I didn't want to be dragged into whatever would potentially happen between her and Alex again."
+
+[scene 2 - SC Starbucks]
 "Our game was set to be completed in the following week."
-"One of the writers in our group had flaked out early on."
-"We were scrambling to get everything done on time."
+"We still hadn't found a replacement writer and were really struggling."
 mc "We have four of the five routes done. We just have one more."
 ax "Which one?"
 mc "Tabby's."
@@ -493,13 +543,10 @@ mc "So... I was hoping that you could write it. I've got a ton of schoolwork to 
 ax "Actually, I think we should have Naomi help us."
 mc "Does it work like that, where we can just get someone else on board that's outside the club?"
 ax "People who aren't students are allowed to work on projects. It's the same concept."
-mc "I'm really not comfortable with this. She... she sent me a text the other day."
-ax "What about?"
-"I showed Alex the text, and all he did was sigh."
-ax "I'm sorry she sent you this. She's not exactly tactful."
-ax "You don't have to be a part of getting her on board to do the route. You don't need to make any decisions about her."
-ax "But... I still think it would be a good idea. You can't do everything, (Y/N)."
-mc "Ugh... you know what? Fine. Just do it. As long as she gets it done, I don't care."
+
+mc "Are we going to have enough time to finish? Should we just scrap it?"
+ax "I've actually been working on most of it. All Naomi would need to do is polish some parts to make it... coherent."
+mc "Well, then I think we have our answer. Hit her up."
 
 [scene 3 - VGDC Lab in DBH]
 "Game testing day arrived and I felt just as nervous as the day we had originally pitched the game."
@@ -526,6 +573,13 @@ ax "I thought for sure that you would have chosen Tabby's route."
 mc "And finally read the crap that Naomi came up with? No thanks."
 ax "You don't know that."
 
+Either Option Leads To - 
+ax "You know that Naomi and I didn't last, right?"
+mc "Again?"
+ax "Yup. I had it coming."
+mc "You, um, kind of did. Sorry."
+ax "It's okay."
+
 [end - VDGC Lab in DBH]
 ax "Thanks for everything, (Y/N)."
 mc "It's what friends do!"
@@ -533,10 +587,14 @@ ax "Then I'm super lucky to have a friend like you.”
 mc “Do you ever think of like, what could have been?”
 ax ”I’m not sure what you mean.”
 mc “What if I had said that I loved you too a few weeks ago?”
-ax “I dunno.”
+ax “I dunno. So much has happened that I haven't really thought about it.”
 mc “Do you think things could have worked out between us?”
 ax "Romantically? I guess we'll never know."
 mc "Why don't we try it out?"
 ax "Is that your way of asking me out on a date?"
 mc "Hm. I guess I am!"
 ax "Okay, sure! Let's try it out."
+mc "Alex?"
+ax "Yeah?"
+mc "I love you. I'm sorry I didn't tell you a few weeks ago."
+ax "It's totally cool, (Y/N). I love you, too."
