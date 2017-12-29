@@ -429,7 +429,8 @@ mc "Alex?"
 ax "..."
 ax "I'll see you around, [mcname]."
 
-[scene 3 - Food Court]
+ENDING
+[end- bad- Food Court]
 "Our game was set to be completed in the following week."
 "Alex had stopped returning my texts. He didn't want to meet up for lunch..."
 "And then I found out the truth."
@@ -446,42 +447,8 @@ ax "She's got a name."
 mc "I don't care WHAT her name is. How could you do this to me?"
 ax "Everyone keeps on telling me how much I've changed. And maybe I have."
 ax "But so have you. It feels like you've been leaching off me.”
-
-Diverges into 2 options:
-[Pos. Option] “You think I’ve been leaching off you?”
-mc "What makes you think I've been leaching off you!?"
-ax "You, just... You won't leave me alone. Ever."
-mc "Okay, that's called being clingy."
-ax "Yes, clingy!"
-mc "
-
-[Neg. Option] "What are you talking about!?"
 mc “Leaching? I’m leaching off you? What does that even mean?”
 ax “You used to be so independent, never took no for an answer.”
-
-ENDING
-[end - pos - Food Court]
-mc “You should have told me if you had such a problem with the way I was acting.”
-ax “What was I supposed to say? Stop being so annoying?”
-mc “We could have just gone back to being friends.”
-ax “So why don’t we?”
-mc “Because you ruined it. You ruined everything.”
-ax “I ruined everything? I wasn’t the clingy, needy one.”
-mc “You’re awful.”
-ax “We’re both kind of awful. Look, I’m sorry. I don’t want to fight. Go back to being friends?”
-mc “It’s gonna take some time.”
-ax “Well, sure. Of course. But we’ve got all the time in the world.”
-mc “Yeah. You’re right. Let’s start our friendship over.”
-ax “The best way to do that is by grabbing coffee.”
-mc “Sounds great.”
-“Looking back, the last few weeks had been a trainwreck.”
-“I lost the love of my life.”
-“I lost the best friendship I’d ever had.”
-“Our cat dating sim never ended up getting finished.”
-“But I was still standing, and I had the chance to win my best friend back.”
-“Things could only go up from here.”
-
-[end - neg - Food Court]
 mc "You're really going to pin all of this on me?"
 ax "We didn't finish the game because of YOU."
 mc "How is it my fault!?"
@@ -664,13 +631,47 @@ ax "Next time, maybe we should get writing samples before we tell people to writ
 mc "That is an excellent idea. But, like you said, this is just a prototype. Maybe Naomi could fix it for us?"
 
 Either Option Leads To - 
-ax "You know that Naomi and I didn't broke up, right?"
+ax "You know that Naomi and I broke up, right?"
 mc "Again?"
 ax "Yup. Well, kind of. We didn't really break up the first time, but... whatever. I had it coming."
 mc "You, um, kind of did. Sorry."
-ax "It's okay. I'll deal."
+ax "It's okay. I'll deal with it."
 
-[end - VDGC Lab in DBH]
+ENDING
+[end - normal - student center]
+"The rest of the quarter went on without a hitch."
+"Alex and I finished our game, and everything's been progressing nicely."
+"That is, aside from the awkward tension between me and Alex."
+"Everytime we met up, the atmosphere always became heavy, and neither of us could talk freely."
+"It was frustrating."
+"I wanted our old relationship back."
+--phone buzz--
+ax "'Hey, can we meet up at the food court?'"
+mc "..."
+mc "'Sure. Be there in 5."
+"In my heart, I hoped Alex felt the same."
+
+--food court--
+
+mc "..."
+ax "..."
+mc "Umm... So, what did you-"
+ax "I’m sorry." 
+ax "Listen, [mcname], I really regret what I did before, and I can't stand how things are between us."
+ax "Can't we... go back to being friends?”
+mc "..."
+mc "I feel the same way, Alex."
+mc “But, it’s gonna take some time.”
+ax “Well, sure. Of course. But we’ve got all the time in the world.”
+mc “Yeah. You’re right. Let’s start our friendship over.”
+ax “The best way to do that is by grabbing coffee.”
+mc “Haha. Sounds great.”
+“Looking back, the last few weeks had been a trainwreck, the worst of it being I'd lost the best friendship I’d ever had.”
+“But I was still standing, and I had the chance to win my best friend back.”
+“Things could only go up from here.”
+
+ENDING
+[end- good- VDGC Lab in DBH]
 ax "Thanks for everything, (Y/N)."
 mc "It's what friends do!"
 ax "Then I'm super lucky to have a friend like you.”
