@@ -304,7 +304,7 @@ ax "100%."
 mc "I... don't know what to say..."
 ax "Say that we can stop pretending. Say that you feel the same way about me. I love you, (Y/N)."
 
-CHOICE A [Pos] - "I love you!"
+CHOICE A [Neg] - "I love you!"
 mc "I love you too, Alex. Let's... let's stop pretending."
 ax "Phew... that was hard..."
 mc “Just… what about Naomi?"
@@ -319,7 +319,7 @@ ax “Me neither. I think we just need time to let it sink in.”
 "I loved my best friend, and he loved me."
 Goes to CHOICE A ROUTE.
 
-CHOICE B [Neg] - "Wait a second..."
+CHOICE B [Pos] - "Wait a second..."
 mc "I'm still not completely convinced, Alex."
 ax "Y-yeah... okay. Y'know, I was just kidding."
 mc "It sure didn't look like it."
