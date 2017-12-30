@@ -1096,7 +1096,7 @@
 
 #I felt like encouraging her to go
     mc "(I wanted her to stay with me.)"
-    mc "(... but I also want her to chase her future, with or without me in it.)"
+    mc "(... but I also want her to chase her future.)"
     "I knock on her bedroom door and receive no response."
     mc "(If you love something, let it go, and if it loves you back, it will always come back to you, right?)"
     "I make a poor effort of comforting myself with a platitude before steeling my heart in preparation for what I'm about to do."
@@ -1112,41 +1112,56 @@
     #nervous
     yu "[mcname], you can't be serious."
     mc "Just take the job. You don't have to lose me. We can make this work!"
+    #sad
+    "Yukiko stares at me for a bit while biting her lower lip anxiously for before speaking."
+    yu "Long distance relationships are really hard [mcname]."
+    yu "We even just started officially dating a month ago."
+    yu "Couples who have been together longer than us have been broken apart by distance."
+    yu "I want to believe that we can be different, [mcname], but it just doesn't feel like two silly college students like us are capable of doing any different."
 
     #bad branch
-    #sad
-    yu "Long distance relationships are really hard [mcname]."
-    yu "And we just started officially dating a month ago."
-    yu "Couples who have been together longer than us have been broken apart by distance."
-    yu "I want to believe that we can be different, [mcname], but it just doesn't feel like us two silly college students have it in us."
-    "As much as I hate to admit it, Yukiko's worries have a strong foundation within reality."
+    #hide sprite
+    "I stare down at my feet, unable to look her in the eye. Unable to face the truth."
+    "As much as I hate to admit it, Yukiko's worries hold a strong foundation within reality."
     mc "Yukiko, I... I think we're special, and..."
     "I try to find some sensible words to reassure her with, but I just end up stumbling over my own desperate thoughts."
-    "My trembling voice must not sound very encouraging to her either."
+    mc "(My trembling voice must not sound very encouraging to her.)"
     yu "I think we're special too but... maybe not as much as you think we are."
+    "I still can't look her in the eyes."
     mc "How could you say that? I'm really trying here, Yukiko."
+    "Her voice cuts at me from a few paces from the wooden floor I'm staring at."
     yu "I'm trying too, [mcname]."
     mc "Is that why you've been sitting in that room by yourself all day?"
-    #calm
     #stop the music
+    "Before could hold my tongue, those vile words fueled by frustration left my mouth."
+    "I look up impulsively to assess the damage."
+    #calm
+    "Yukiko's unflinching countenance greets my vision."
     yu "Do you really think that was what I was doing?"
-    yu "[mcname], I was writing up a follow-up email to the company declining their offer."
-    "Her dissonantly calm face petrifies me. In the crucial moment, I stand frozen again."
-    yu "I was really..."
+    yu "I was writing up a follow-up email to the company declining their offer."
+    mc "Why didn't you just tell me then?"
+    yu "I was still deliberating..."
+    mc "You took three days sitting in there by yourself to deliberate?"
+    "My voice rises together with my anger."
+    #nervous
+    yu "I-I just needed some time to myself..."
+    mc "Why didn't you just talk to me about it instead of hiding like a kid?"
     #sad
-    yu "Really..."
+    yu "I didn't mean..."
+    mc "Do you know how worried I was sitting out here? I was--"
     #cry
-    yu "R-really..."
-    #sob
+    "I finally manage to stop myself at the sight of her tears."
+    mc "Yukiko, I'm sorry, I didn't mean to--"
+    yu "L-long distance or not, t-this isn't going to work out."
+    "Yukiko tries to communicate through her tears."
+    yu "If you want me to go s-so bad, I'll do it. I'll just forget about you."
+    yu "We're breaking up."
+    "I give her a bitter smile."
+    mc "Sure."
+    "With what felt like a pained expression on my face, I quickly stride out of her apartment, disappearing into the cold night."
     #disappear sprite
-    #door slam sound effect
-    "The loud noise snaps me out of my stupor and into the present moment."
-    mc "Yukiko..!"
-    #heavy knocking
-    mc "Yukiko!"
-    #heavy knocking
     #fade to black
-    #wait a bit
+    #wait a while
     #park
     "It's been an academic quarter since I last saw her."
     "Since then, I sent her texts apologizing and encouraging her, but she never responded."
@@ -1187,13 +1202,13 @@
     "With the pragmatism of her tone to set the mood, Reina begins cutting me with her short statements."
     re "She cried to me on the phone. She flunked her finals by not going."
     re "She didn't take the job. She moved back home."
-    "Refusing to be frozen again, I try moving my body."
+    "I daftly remain still."
     re "Are you even listening? You're the one who asked me."
     "Bearing a famine for words, I have no words to offer her."
     re "Whatever."
     "Reina starts walking away, taking glances back to make sure I'm not stopping her again."
     re "There were plenty of things she wasn't satisfied with before you barged in. Don't give yourself too much credit.
-    re "You were just the final lock to seal away her heart."
+    re "You just happened to be the final lock to seal away her heart."
     #no reina
     "As Reina disappears into the rays of morning sunshine, I carry my body away back into the park to rest on the grass."
     #blurring out
@@ -1201,6 +1216,49 @@
     "Afraid of drifting away into loneliness, afraid of navigating through an uncharted future, I remain floating here where we first met, calling out your name."
     mc "Yukiko..."
     #black
-    "But you never came."
+    "But you never come."
 
     #good branch
+        #black
+        "I close my eyes and bite my lip while wracking my brain for a solution."
+        "As much as I hate to admit it, Yukiko's worries hold a strong foundation within reality."
+        mc "Yukiko..."
+        "I practically crush my lower lip with the weight of my front teeth before finally speaking."
+        mc "I... think you're right, as much as it pains me to admit it."
+        yu "..."
+        mc "(She's the one who said that we can't continue our relationship like this, but she looks so sad.)"
+        "Of course, I know that's not her fault because she's just describing the situation as it is. She's not happy with this either."
+        mc "(Things change; life happens. These circumstances aren't really anyone's fault.)"
+        yu "[mcname], is this really okay?"
+        #sprite movement duh
+        "I move close to her and place my hands gently on top of her fragile shoulders."
+        mc "... I can't answer that question for you, Yukiko."
+        mc "This might sound cheesy, but if you have even a tiny part of you who wants to take the job, just go for it. Even if it's scary."
+        mc "I believe that a couple is composed of two people who are 100% looking to come together to make 200%."
+        mc "I don't think it's 50% and 50% coming together to become 100%."
+        mc "In other words, I think couples should come together to enrich each others' lives instead of leaning on each other like a crutch... so..."
+        "Feeling silly, I scratch my head."
+        yu "I don't really know what I'm doing."
+        mc "I think you do. You just making a really hard decision."
+        yu "I don't know how to talk people."
+        mc "But you really do know how to talk to a person enthusiastically about bottled water and fish tacos."
+        yu "I was just born with my talent."
+        mc "I find it really hard to believe that you can nonchalantly rent out a $2000 apartment while going to school without working hard at all."
+        yu "I'm selfish, [mcname]. I don't want to pick to begin with. Between taking the job and staying with you, I mean."
+        yu "Not to mention I spent three days sulking indecisively while you took care of me. I'm sorry about that."
+        mc "It's a tough decision. Also, I think it's my job to help my girlfriend make tough decisions, right?"
+        mc "And... you're not selfish, Yukiko. I was really blown away when you tackled me out of harm's way while I was trying to bodyblock a branch for you in the park."
+        mc "You could say that you really left an impact on me."
+        #happy
+        "Yukiko tries in vain to prevent a giggle from slipping out."
+        #nervous
+        yu "D-don't make me laugh in such as serious situation."
+        #calm
+        "I chuckle to disguise the nostalgia-induced sadness welling up in my eyes."
+        mc "The point is that I believe in you. Whatever you decide to do, you have my support."
+        "Yukiko pauses for a moment before abruptly removing my arms from her shoulders."
+        mc "(Did I make her mad?)"
+        #blush
+        "She quickly squeezes me tight in a hug with her face nestled into my chest. I embrace gingerly her in return."
+        "Just like the time we became official not so long ago, we just stand like that for a while, both knowing what's going to come next."
+        yu "I'm going."
