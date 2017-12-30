@@ -252,7 +252,7 @@ ax "Same ol' (Y/N). Always the good student."
 mc "Hey! I like my A's."
 ax "I like your A's too! I was just wondering."
 
-Option A - Ask About Alex's Feelings
+[Pos. Option] - Ask About Alex's Feelings
 mc "Maybe I'm reading too much into it, but it sounds like maybe you're getting feelings for me."
 ax "What!? No. I like Naomi. You're helping me get Naomi back."
 mc "I thought this was a revenge thing."
@@ -263,7 +263,7 @@ mc "Just to make sure - you don't like me like that, do you?"
 ax "I... um... it's irrelevant."
 "Little did Alex know that maybe I was starting to have feelings for him too..."
 
-Option B - Let It Go
+[Neg. Option] - Let It Go
 mc "I appreciate your concern for my love life, but I'm fine."
 ax "Are you sure? Are you really sure?"
 mc "If I'm still single at the end of the school year, then we can talk."
@@ -304,7 +304,7 @@ ax "100%."
 mc "I... don't know what to say..."
 ax "Say that we can stop pretending. Say that you feel the same way about me. I love you, (Y/N)."
 
-CHOICE A - "I love you!"
+CHOICE A [Pos] - "I love you!"
 mc "I love you too, Alex. Let's... let's stop pretending."
 ax "Phew... that was hard..."
 mc “Just… what about Naomi?"
@@ -319,7 +319,7 @@ ax “Me neither. I think we just need time to let it sink in.”
 "I loved my best friend, and he loved me."
 Goes to CHOICE A ROUTE.
 
-CHOICE B - "Wait a second..."
+CHOICE B [Neg] - "Wait a second..."
 mc "I'm still not completely convinced, Alex."
 ax "Y-yeah... okay. Y'know, I was just kidding."
 mc "It sure didn't look like it."
@@ -507,7 +507,7 @@ ax "It's going to be hard to finish this quarter unless we get some outside help
 mc "I know that, too."
 ax "And... and that's it, isn't it?"
 
-Option A - ("Ask About Feelings for Naomi")
+[Pos Option] - ("Ask About Feelings for Naomi")
 mc "So... so do you love Naomi?"
 ax "I don't love her, but I still have feelings for her, (Y/N)."
 mc "But the whole plan was to get back at her for..."
@@ -518,7 +518,7 @@ mc "No! I'm just woried about your well-being. Be careful, okay?"
 "Hearing that Alex was going out with Naomi did hurt a little."
 "I don't know why. After all, we were just friends..."
 
-Option B - ("Ask About Relationship With Naomi")
+[Neg Option] - ("Ask About Relationship With Naomi")
 mc "When did you guys get back together anyways?"
 ax "Last week."
 mc "I honestly didn't think she'd want you back after everything she thought about you."
@@ -594,7 +594,7 @@ ax "There's nothing against you playing the game now, too."
 mc "Yes! Come on, you've gotta help me make decisions."
 "Alex and I opeened up the game on his laptop."
 
-Option 1 ("Choose Tabby's Path")
+[pos option] ("Choose Tabby's Path")
 ax "Tabby's route, huh?"
 mc "Thought I'd finally see how Naomi's writing holds up."
 ax "It's really pretty good, actually."
@@ -615,7 +615,7 @@ mc "'Of course we can still be friends.' I wonder how long that's gonna last..."
 "In the end, Tabby and the main character ended up together anyways."
 "Maybe... maybe, when given the chance, I need to be straightforward with Alex about my feelings..."
 
-Option 2 ("Choose A Different Path")
+[Neg Option] ("Choose A Different Path")
 ax "Cali's path, huh?"
 mc "Yup. Calico's are my favorite."
 ax "I thought for sure that you would have chosen Tabby's route."
