@@ -2,7 +2,7 @@
 mc "(Production, huh...)"
 mc "Hmmm..."
 "As Jeorge Dan resumed his presentation, I considered the appeal of joining the productions department."
-mc "(Many of the other departments definitely interest me, but it'd be nice to get some leadership experience.)"
+mc "(There are others I'm interested in, but it'd be nice to get some leadership experience.)"
 mc "(That, and I've always wanted to lead a game of my own...)"
 "Since I could remember, I've been making up video games in my head, some more complex than others."
 "I'd always wanted to bring at least one of those ideas to life, but never had the resources to do so."
@@ -13,30 +13,30 @@ mc "..."
 mc ".."
 mc "(Ah, well. What have I got to lose, right?)"
 mc "(This is my first quarter here in UCI. Let's hit the ground running!)"
-"Just as I'd come to a conlcusion, the room errupted in applause."
-"People started getting up and Jeorge Dan had left the podium."
+"Just as I'd come to a conclusion, the room errupted in applause."
+"People started getting up and Jeorge Dan began tidying the podium."
 mc "(Looks like the meeting's over.)"
-"I got up from my chair and merged into the sea of fleeing college students."
-mc "
-mc "(Of course, that means my first project in the club shouldn't be too ambitious.)"
-mc "(Alright. What's a simple and entertaining game...) 
--
--
--
--
--
+"I got up from my chair and merged into the sea of fleeing college students as I mulled over my game."
+mc "(Alright, my first project shouldn't be too ambitious.)"
+mc "(Now to think of a simple, entertaining game...)"
 
 
 [Game Pitch]
->Pitches project. Complex format, but really well done and thought out.
+
+
+--Outside SSLH--
+>
 -
 -
 -
 -
 -
+--Inside SSLH--
 -
 -
-*Jurassic Times
+-
+-
+-
 Mc “(The time comes to pitch my game, the more people are called to share they’re game ideas, the more that my nervousness grows.)”
 mc “(dang, I can’t even pay attention to other people’s presentations, I’m so nervous.)”
 mc “(Finally the dreaded moment arrives and my name is called.)
