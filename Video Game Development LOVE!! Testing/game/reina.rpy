@@ -228,14 +228,15 @@ label re_scene3:
      
      #---------------------------------------------------------------------------------------
             scene bg gamelab with fade
-            "It’s another day in the game lab, everyone doing their own thing. George Dan is in the front, leading a workshop on writing dialogue."
-            "It sounds somewhat interesting. I listen in while browsing the internet. I’m starving."
+            
 
      #Second choice: Week 4
     menu reina_option_2:
-        "What should I do?"
+        "What should I do today?"
      #[Option 1- Ask Reina out for lunch]
         "Ask Reina out for lunch":
+            "It’s another day in the game lab, everyone doing their own thing. George Dan is in the front, leading a workshop on writing dialogue."
+            "It sounds somewhat interesting. I listen in while browsing the internet. I’m starving."
             "I see Reina in the corner, it looks like she’s finishing up some work. Maybe she’s got some free time?"
             show re calm with dissolve
             mc "Hey Reina, would you like to go and get some lunch with me?"
@@ -245,19 +246,23 @@ label re_scene3:
             re "Eep! Er, maybe a break would be good, if you’re paying."
             "Before I can make a joke about it, my stomach growls even louder."
             mc "Haha, it seems we’re in agreement here. Let’s go."
-
+            scene bg black with fade
             "We decide to go to one of the food courts on campus."
+            scene bg foodcourt_1 with dissolave
+            show re calm with dissolve
             mc "So what do you think you’re going to get? I’m gonna get the spicy Italian, got it once and I was hooked."
             re "Oh, actually I was going to get that too. It’s one of my favorites…"
             mc "No way! What a coincidence."
             "She’s looking away, brushing her hair behind her ear. As I glance at her, my thoughts slip from my mouth."
             mc "God, you are so cute."
+            show re blush with dissolve
             "Reina blushes a bright red. If she wasn’t looking directly at me before, she was directly avoiding eye contact now."
             mc "(Oh God I said that?)"
             re "You don’t actually mean it."
             mc "No, I do! I wouldn’t lie to you."
             mc "(Er…)"
             mc "...Not about that."
+            show re calm with dissolve
             "We get our orders and sit down at a table near a window. It’s a nice day outside."
             mc "So, how long have you been drawing, Reina?"
             re "Hm? Well, I’ve always enjoyed drawing since I was little. I started taking it more seriously towards the end of middle school though."
@@ -281,9 +286,11 @@ label re_scene3:
             mc "Your hair, it’s uh… nevermind. It looks really good on you."
             "We finish up and head back to the game lab."
             mc "Aah, that was a good meal. Was even better because I got to be there with you."
+            show re blush with dissolve
             re "Oh, um, yeah. It was nice."
             re "Maybe, um, we could do it again sometime [mcname]..."
             mc "I’d like that."
+            show re calm with dissolve
             "Reina glances at her phone and notices the time."
             re "Oh no, I’m going to be late to class! I have to run now, bye!"
             re "I had a good time [mcname], make sure you don’t slack off though.."
@@ -291,7 +298,10 @@ label re_scene3:
      
      #[Option 2- Work on drawing]
         "Work on drawing":
-            "It sounds somewhat interesting, but I’m focused on something else."
+            "I shook my head."
+            mc "(No, no distractions. I've got to get to work!)"
+            "I mentally pump myself up before opening up my drawing software and pulling out my tablet."
+            "After a bit of warming up, I get right to it."
             mc "(Straight line. Straight line. Straight line.)"
             "Sketch, undo, sketch undo."
             mc "(How do people do this right?)"
