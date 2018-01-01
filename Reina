@@ -185,6 +185,7 @@ mc “Haha, sounds like a plan!”
 mc “(It may not be much, but… Anything is better than nothing.)”
 
 ---------------------------------------------------------------------------------------
+--game lab--
 
 “It’s another day in the game lab, everyone doing their own thing. George Dan is in the front, leading a workshop on writing dialogue.”
 “It sounds somewhat interesting. I listen in while browsing the internet. I’m starving.”
@@ -244,10 +245,12 @@ re “I had a good time [mcname], make sure you don’t slack off though..”
 mc “Bye Reina, have a good one.”
 
 #[Option 2 - Work on Drawing]
-“It’s another day in the game lab, everyone doing their own thing. George Dan is in the front, leading a workshop on writing dialogue.”
-“It sounds somewhat interesting, but I’m focused on something else.”
+"I shook my head."
+mc "(No, no distractions. I've got to get to work!)"
+"I mentally pump myself up before opening up my drawing software and pulling out my tablet."
+"After a bit of warming up, I get right to it."
 mc “(Straight line. Straight line. Straight line.)”
-“Sketch, undo, sketch undo.”
+“Sketch, undo, sketch, undo.”
 mc “(How do people do this right?)”
 re “[mcname] I think you’re gonna break your Z key.
 mc “Wha?!”
@@ -386,7 +389,7 @@ mc "(I'm getting better, little by little. I can't stop now.)"
 ------------------------------------------------------------------------------------------
 
 Final choice: Week 6
-#[Option 1 - Invite Reina to the Apartment]
+
 “It’s a little later in the evening in the game lab. A small group of officers have left to get some dinner.”
 “It seems like one of them didn’t go along.”
 mc “Hey Reina, why didn’t you go along with the other officers?”
@@ -396,8 +399,12 @@ re “And maybe with…”
 “I couldn’t quite hear the last part.”
 mc “Hm?”
 re “Oh, nothing.”
-mc “Alright, well I’m going to head home for the day.”
-re “...”
+mc "..."
+mc "(Reina's defenses seem to be down.)"
+mc "(The deadline for the game is coming up, but...)"
+mc "(Should I try pushing my luck..?)"
+
+#[Option 1 - Invite Reina to the Apartment]
 mc “Hey...Reina?”
 re “Yes?”
 mc “This is going to sound kind of dumb,  but do you want to come along? Just hang out at my apartment for a while? It might be nice to unwind a bit, you’ve been working all day.”
@@ -450,8 +457,6 @@ re “I-I might like you...a bit.”
 “I only realized later that when I had turned up the volume on my computer, a certain piece of my ‘original’ work showed up on my screen for just long enough.”
 
 #[Option 2 - Practice Drawing]
-“It’s a little later in the evening in the game lab. A small group of officers have left to get some dinner.”
-“Unfortunately, one of them didn’t go along.”
 ax “Wow [mcname], I never took you for the artistic type.”
 “I’m trying to finish some backgrounds for the project. It’s been getting easier, when Alex isn’t around.”
 mc “I doodled in high school.”
@@ -485,9 +490,12 @@ mc “Alex, unless you want to be the next Tybalt, I would let me work if I were
 “Respectfully ignoring my words, Alex proceeds to playfully bob my chair back and forth.”
 ax “You like her, you do. You really really like her!”
 “At that moment, the lab door opens and one blue-haired art officer walks in on the two of us.”
-mc “Reina! Hi.”
-re “...”
-“Lightly blushing, she leaves as suddenly as she came in.”
+mc “Reina? Did you forget something?”
+re “Ah, umm...”
+“Lightly blushing, she briskly walks over to the table and snatches what seems to be her tablet stylus, then leaves as suddenly as she came in.”
+"Alex let out a low whistle."
+ax "Quite the little lamb you've set your eyes on."
+mc "Oh, shut it."
 ax “Don’t worry, your secret is safe with me [mcname].”
 “With a wink, he leaves, heading out the door.”
 mc “(I sure hope he doesn’t say anything.)”
