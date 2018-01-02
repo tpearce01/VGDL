@@ -513,7 +513,7 @@ label melody_scene1:
     "Instantly, as she turns, I headed out once more."
     #SETTING: Outside Lecture Hall
     scene bg sslh with dissolve
-    "In front of me were George Dan and Kendrick. I froze still as their eyes gaze at mine."
+    "In front of me were Jeorge Dan and Kendrick. I froze still as their eyes gaze at mine."
     show kd calm at left with dissolve
     show kd calm:
         linear 0.5 xalign 0.2
@@ -541,11 +541,11 @@ label melody_scene1:
     "It was Melody. She walked towards us and the two of them turn to look."
     kd "Mind your own business. This kid is a suspect here."
     md "Really? What proof do you have?"
-    "George Dan turns and looks at me."
+    "Jeorge Dan turns and looks at me."
     gd "Open your hands and show me the pinky side of it."
-    "I push Kendrick away and did what George Dan told me."
+    "I push Kendrick away and did what Jeorge Dan told me."
     gd "There’s no markings or ink. You’re fine to leave."
-    kd "What? Are you serious George Dan?! I’m sure this guy did it or knows who did it."
+    kd "What? Are you serious Jeorge Dan?! I’m sure this guy did it or knows who did it."
     gd "Unless there’s evidence or we catch them in the act, then we can’t accuse him."
     gd "Let’s go, Kendrick, we have to clean the hall before the meeting starts."
     hide gd calm with dissolve
