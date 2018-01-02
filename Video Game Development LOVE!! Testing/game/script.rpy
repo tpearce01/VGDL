@@ -102,6 +102,10 @@ label prologue:
 label gd_route:
     call gd_scene1              # GEORGE DAN SCENE 1
     call gd_scene2              # GEORGE DAN SCENE 2
+    call gd_scene3
+    call gd_scene4
+    call gd_scene5
+    call gd_scene6
     return
 # END GEORGE DAN
 
@@ -279,4 +283,7 @@ init:
     $ moon_phase(month, day, year)
     if is_werecat:
         image gd calm = "werecat.png"
+        image gd flustered = "gd flustered_ears.png"
+        image gd sad = "gd sad_ears.png"
+        image gd serious = "gd serious_ears.png"
         

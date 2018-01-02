@@ -35,10 +35,10 @@ label gd_scene1:
     mc "(I really do miss talking to Ren.)"
     mc "At that moment I saw him coming up towards us and Ren started to walk down towards him."
     show ren calm:
-        linear 0.5 xalign 0.7
+        linear 0.5 xalign 0.8
+    show gd calm with dissolve
     show gd calm:
-        xalign 0.3
-    with dissolve
+        linear 0.5 xalign 0.2
     gd "Hey Ren, I need to ask you something, can you come with me?"
     ren "Yeah, I can, but what's up with the speech? You know this was only a VGDC meeting, not a presidential inauguration... Who are you trying to impress anyway?"
     gd "I must make sure that the new members know how cool I am."
@@ -254,6 +254,7 @@ label gd_scene3:
             $ gd_affection = gd_affection + 1
             "I walk up to him to confront him."
             mc "Hey you!!"
+            show gd calm with dissolve
             "He then looks at me."
             mc "(Oh crap! Maybe this is a bad idea. It’s too late now though!)"
             mc "Why are you stalking me? You’ve been following around the whole day!"
@@ -278,12 +279,14 @@ label gd_scene3:
             gd "Are you ready?"
             mc "(Yeah, I’m ready to kick your ass.)"
             mc "(As I nod my head, a faint clap of thunder passes by.)"
+            show gd serious with dissolve
             gd "Thunder..."
             gd "Hey, I guess we’ll have to postpone our game."
             mc "(DAMN IT! Is it really going to rain. Cursed luck, I didn’t even bring an umbrella either.)"
             mc "(Actually, if I run, I might be able to make it back before the rain hits!)"
             mc "(What the?! It’s raining already! What a splendid day... It couldn’t get any worse.)"
             mc "(Something is covering me from the rain...)"
+            show gd calm with dissolve
             "He's holding an umbrella over my head."
             mc "(This guy... what does he want. He’s probably going to ask me if he can walk me home.)"
             gd "I’ll walk you home."
@@ -420,6 +423,7 @@ label gd_scene4:
             mc "Scaredy-cat."
             gd "Maybe soon!"
             mc "(Whatever. I should go home, it’s getting late.)"
+    return
     
 #Scene 5
 #Setting: Lecture Hall

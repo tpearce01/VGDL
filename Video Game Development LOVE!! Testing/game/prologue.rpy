@@ -105,12 +105,13 @@ label prologue_scene2:
     mc "..."
     unknown "It certainly doesn't seem like it."
     yu "Oh lighten up! I know how much you love people, so I brought you one!"
+    show kd angry with dissolve
     unknown "Tch."
     show yu calm with dissolve
     yu "Alright bud, I'll leave you in Kendrick's hands, alright? I've got some more hunting to do."
     mc "(Wait, you're just going to leave me here?!)"
     hide yu calm with dissolve
-    show kd calm:
+    show kd angry:
         linear 0.5 xalign 0.5
     "Before I got to voice my thoughts, the girl named Yukiko ran away, leaving me with this Kendrick guy."
     "He clicked his tongue."
@@ -128,8 +129,8 @@ label prologue_scene2:
     kd "... Seeing as you're less than enthusiastic about this, I suppose there's no point in asking you what you'd like to know."
     kd "Please, bear with me while I go over the activities and goals of this club. I'll try to keep it short."
     mc "\"Alright... Fine by me, I guess.\""
-    "He cleared his throat."
     show kd calm with dissolve
+    "He cleared his throat."
     kd "We are known at the Video Game Development Club, or the VGDC for short."
     kd "No matter the major of the individual, this club is open to anyone and everyone interested in producing video games."
     kd "There are six departments: programming, art, writing, audio, production, and design. I, personally, am part of the production department."
@@ -147,6 +148,7 @@ label prologue_scene2:
     mc "\"Huh?\""
     kd "That's where the club meets. If you ever change your mind, there will likely be an officer there that can help you."
     mc "\"Oh. Uh, alright. Thank you...\""
+    hide kd calm with dissolve
     "He gave a curt nod before returning back to his post, and I took this as my cue to leave."
     mc "\"He seemed... nice?\""
     mc "..."
@@ -191,8 +193,10 @@ label prologue_scene4:
     mc "\"Umm.. Thank you..\""
     "I reached out, expecting him to hand me the book. But instead, he continued to stare at the cover."
     mc " ...?"
+    show gd flustered with dissolve
     unknown ".. Oh, sorry."
     "He looked up and apologized, as if he only just remembered I was there."
+    show gd calm with dissolve
     "Placing the book in my hand, he flashed a smile so beautiful, my heart skipped a beat."
     mc "(Holy shi-)"
     unknown "I apologize for bumping into you. And..."
@@ -235,6 +239,7 @@ label prologue_scene5:
     "The girl stopped in her tracks and looked me right in the eye."
     unknown "... Tch."
     "After a second, she just adjusted her backpack, and stormed out of the building."
+    hide md angry with dissolve
     "I caught the door before it closed, nervously turning to watch students hastily moving out of the girl's way."
     "Then, I peeked inside the game room."
     return
@@ -256,6 +261,7 @@ label prologue_scene6:
     mc "(Looks like my best bet...)"
     "I quietly stepped toward her."
     mc "\"Umm.. Excuse me-?\""
+    show re surprised with hpunch
     unknown "Ah?!"
     mc "\"Woa-!\""
     "The girl jolted back, and pretty violently too."
@@ -265,6 +271,7 @@ label prologue_scene6:
     unknown "YES!"
     mc "..."
     unknown "..."
+    show re blush with dissolve
     unknown "I, umm..."
     unknown "I'm- I'm thank y- FINE! I'm fine! And, umm..."
     unknown "... Thank you..."
@@ -272,6 +279,7 @@ label prologue_scene6:
     unknown "So, uh... can I help you?"
     mc "\"Oh, yea.\""
     mc "\"Actually, I'm interested in joinging VGDC, and was told this was the place to go if I wanted to sign up.\""
+    show re calm with dissolve
     unknown "Y-yes, it is... Um, I'll have you added to the newsletter. Can you give me your email...?"
     "After I told her, she inputted it and nodded."
     unknown "Alright. I added you and sent you the first message. You should be getting an email every week from here on out."
@@ -316,16 +324,18 @@ label prologue_scene8:
     "He grabbed my arm."
     mc "\"Ngh...\""
     mc "\"Unhand me you philandering monkey.\""
+    show ax happy with dissolve
     ax "Yikes. You're one brutal tsundere."
     mc "\"Oh no. These are my honest feelings.\""
     ax "So harsh..."
+    show ax calm with dissolve
     ax "But hey, this is perfect timing. My club meeting room is actually really close by."
     ax "Come with me, let's finally get you joined!"
     mc "\"Thanks, but no thanks. I already joined a club, and I don't need any more than that this quarter.\""
     ax "Huh..?"
     "Alex let go of my hand."
     mc "...?"
-    show ax frown with dissolve
+    show ax sad with dissolve
     "There was an uncharacteristic frown on his face. It actually made me feel a little guilty."
     ax "Geez, really..?"
     ax "Alright, tell me what club this is. I'll beat up whoever took you away!"
@@ -341,7 +351,7 @@ label prologue_scene8:
     ax "Nothing, nothing."
     ax "Well, I'll let it slide for now. See you tomorrow, [mcname]!"
     "Before I could respond, he spun on his heel and headed away from the building."
-    hide ax with dissolve
+    hide ax  calm with dissolve
     mc "..."
     mc "\"Weirdo.\""
     return
@@ -424,8 +434,10 @@ label prologue_scene10:
     unknown "Anyways!! Hey-ho everyone!"
     "The next officer's enthusiasm effectively dispelled the heavy atmosphere of the room."
     mc "(Bless your soul...)"
+    show yu happy with dissolve
     yu "My name's Yukiko, and I'm the programming officer!"
     yu "This department's fairly straightforward. You write words into the computer and the engine does its thing!"
+    show yu calm with dissolve
     yu "... Or, well, I guess it's a liiiitle more complicated than that."
     yu "But not to worry! I'll be here to help you if your code goes out of whack!"
     show yu calm:
@@ -451,10 +463,11 @@ label prologue_scene10:
     "Melody's eyes lit up."
     hide md calm with dissolve
     "She returned back to the line of officers pushed someone forward by their shoulders."
+    show re surprised with dissolve
     unknown "Eeep!"
-    show re calm with dissolve
     unknown "M-Melody!"
     md "Alright, alright! Give 'em hell, Reina!"
+    show re calm with dissolve
     re "Ahh... ummm..."
     "The girl clasped her hands together and kept her gaze lowered."
     re "I'm... Reina. Uhh, Art officer?"

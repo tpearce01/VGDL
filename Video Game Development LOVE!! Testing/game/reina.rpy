@@ -1,3 +1,6 @@
+define re_affection = 0
+#define max_affection = 4
+
 ## REINA ROUTE ##
 # SCENE 1
 label re_scene1:
@@ -220,6 +223,7 @@ label re_scene3:
      
      #[Option 2- Work on drawing] 
         "Work on drawing":
+            $ re_affection = re_affection + 1
             show md calm with dissolve
             md "What, you staying here, [mcname]?"
             mc "Me? Oh, uh.. yea."
@@ -308,6 +312,7 @@ label re_scene3:
      
      #[Option 2- Work on drawing]
         "Work on drawing":
+            $ re_affection = re_affection + 1
             "I shook my head."
             mc "(No, no distractions. I've got to get to work!)"
             "I mentally pump myself up before opening up my drawing software and pulling out my tablet."
@@ -461,6 +466,7 @@ label re_scene3:
      #[Option 2- Work on drawing]
         "Stay focused.":
             #Option 2- Stay focused]
+            $ re_affection = re_affection + 1
             mc "(Ngh... As much as I want to...)"
             "I sighed and turned my back to the pathway so I faced away from her."
             mc "(I'm getting better, little by little. I can't stop now.)"
@@ -501,7 +507,7 @@ label re_scene3:
             "She seems a little flustered at the question, but I can hear a quiet response."
             re "I’d like that."
             #The two go to the apartment.
-            show bg mc_apartment_inside with dissolve
+            scene bg mc_apartment_inside with dissolve
             show re calm with dissolve
             mc "So, here’s my apartment, the grand loft."
             "I cleaned up earlier, so the place wasn’t too messy. My roommates had left some dishes in the sink though."
@@ -559,6 +565,7 @@ label re_scene3:
      #[Option 2- Work on drawing]
         "Practice drawing.":
             #[Option 2 - Practice Drawing]
+            $ re_affection = re_affection + 1
             scene bg gameroom with dissolve
             "It’s a little later in the evening in the game lab. A small group of officers have left to get some dinner."
             "Unfortunately, one of them didn’t go along."
@@ -617,11 +624,14 @@ label re_scene3:
             "Unfortunately, there’s still a lot to be done for the project."
             mc "(Ugh, what a mess I’ve gotten myself into.)"
      
-     
+    if re_affection >= 3:
+        jump re_good_ending
+    else:
+        jump re_bad_ending
      
      #[[GOOD ENDING]]
 label re_good_ending:
-    scene bg startbucks with fade
+    scene bg sturbacks with fade
     "I'm midway into week six, and three weeks into Melody's game project."
     "I've spent as much time as I could practicing art and animating, but there's only so much I can get done in this much time."
     mc "(This... was definitely a mistake.)"
@@ -691,7 +701,7 @@ label re_good_ending:
     mc "(Reina, the girl that could barely speak to anyone without crumbling down into a blushing, stuttering mess, is confronting the truth.)"
     mc "(All I've been doing these past three weeks is run away from it...)"
     re "..."
-    re "(mcname), please. Be honest with me."
+    re "[mcname], please. Be honest with me."
     mc "..."
     mc "I'm... sorry."
     "I took a deep breath and bowed my head at her, putting as much sincerity in my words and actions as I could."
@@ -702,7 +712,7 @@ label re_good_ending:
     mc "Then... things just went downhill from there. As much as I could, I practiced and practiced."
     mc "As time went on, I realized my efforts were in vain. There's just no learning these things over night."
     mc "But even still... I just couldn't bring myself to confess."
-    re "(mcname)..."
+    re "[mcname]..."
     mc "Heh. I'm sorry, I really hope you're not feeling sorry for me right now."
     mc "I know you're a nice girl, but I wouldn't hold it against you if you hated me right now. In fact, I deserve it."
     re "... You're the worst."
@@ -745,12 +755,14 @@ label re_good_ending:
     "With a pout and her chin pointed upward slightly, I knew Reina was trying her best to seem upset."
     "Though, she couldn't hide the red that brushed her cheeks nor the slight smile that pulled at her lips."
     mc "(It may have been a rough start, but maybe there's still hope for a happy ending after all.)"
+    return
 
     #---------------------------------------------------------------------------------------------
      
      
      #[[BAD ENDING]]
 label re_bad_ending:
+    scene bg gameroom with dissolve
     "The game lab is mostly empty today."
     "I’m playtesting our project for a bit when the door to the lab slams shut."
     show md angry with dissolve
@@ -825,4 +837,4 @@ label re_bad_ending:
     mc "That’s not…"
     re "I wish you luck in the future with VGDC, but I never want to talk to you again."
     re "Good bye."
-    
+    return
