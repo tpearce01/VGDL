@@ -229,17 +229,9 @@ init python:
         if index == 4:
             is_werecat = True
             return True
-        is_werecat = False ## TESTING - SET TO TRUE, OTHERWISE SET FALSE
+        is_werecat = False 
         return False
-        ## NOTES ON WERECAT GEORGE DAN ##
-        # TO DO:
-        #       > Add werecat art
-        #       > Find + Replace all "show gd calm" --> 
-        #           if is_werecat:
-        #               show gd werecat calm
-        #           else:
-        #               show gd calm
-        #       > Repeat for all emotions
+
     
     # FUNCTION set_route - SET ROUTE STRING BASED ON AFFECTION
     def set_route():
