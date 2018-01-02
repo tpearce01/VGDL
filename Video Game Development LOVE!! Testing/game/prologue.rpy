@@ -9,7 +9,7 @@ label prologue_scene1:
     ## END SCENE AUDIO ##
     scene bg black with fade
     "My name is [mcname]"
-    "I'd consider myself a pretty good student. I attended class, got good grades, and ended the semester with an admirable GPA."
+    "I'd consider myself a pretty good student. I attend class, get good grades, and ended the semester with an admirable GPA."
     "Though I wasn't entirely confident about it, I genuinely thought I had a shot at getting accepted into my dream school, UCLA."
     "\"To become a Bruin... Honestly, that'd be a dream come true.\" I'd think."
     "..."
@@ -54,7 +54,7 @@ label prologue_scene1:
     ax "Haha, harsh!"
     "Letting out a little laugh, Alex let go of my arm and took out his phone, grooming his hair as he stared at his reflection."
     "Once he was satisfied, the corners of his lips pulled into charming smile, and he strode to his target."
-    hide ax with dissolve
+    hide ax calm with dissolve
     mc "(Finally...)" 
     "I wrapped my hand around my arm, now free from the philanderer's grasp, and glanced around Aldrich Park."
     "Today was the Involvement Fair, so the area was filled with booths and students."
@@ -92,19 +92,21 @@ label prologue_scene2:
     show yu calm with dissolve
     unknown "Here we are!"
     show yu calm:
-        linear 0.5 xalign 0.0
+        linear 0.5 xalign 0.2
     show kd calm with dissolve
     show kd calm:
-        linear 0.5 xalign 1.0
+        linear 0.5 xalign 0.8
     unknown "Hmm..?"
     "The girl brought me to a booth with a video game themed banner. There was a guy wearing a suit sitting behind it."
     "He stared at me for a moment before turning to the girl."
     unknown "Yukiko, please tell me you didn't just abduct this person."
+    show yu happy with dissolve
     yu "Tooootally not! [they_c] came here out of their own free will! Right?"
     mc "..."
     unknown "It certainly doesn't seem like it."
     yu "Oh lighten up! I know how much you love people, so I brought you one!"
     unknown "Tch."
+    show yu calm with dissolve
     yu "Alright bud, I'll leave you in Kendrick's hands, alright? I've got some more hunting to do."
     mc "(Wait, you're just going to leave me here?!)"
     hide yu calm with dissolve
@@ -363,14 +365,14 @@ label prologue_scene9:
     "The chattering within the hall ceased, and all eyes fell on him."
     unknown "I'm very pleased to have you all here. It's very humbling to see such a great turnout."
     mc "(This... is the guy I bumped into!)"
-    gd "Welcome to the first Video Game Development Club meeting. I'm the club president, Jeorge Dan. Though, you may call me George Dan if you wish."
+    gd "Welcome to the first Video Game Development Club meeting. I'm the club president, Jeorge Dan. Though, you may call me Jeorge Dan if you wish."
     mc "(The club president? Seriously?!)"
     mc "(Geez... This really is a small world.)"
     "I took a deep breath, paying no mind to the rapid pacing in my chest."
     #--black--
     scene bg black with fade
     "The meeting went on."
-    "George Dan went over the basics of the club, including activities, purpose, and history."
+    "Jeorge Dan went over the basics of the club, including activities, purpose, and history."
     "He spoke in a way that was confident yet calm. I'd like to say that his voice captured everyone in the hall."
     "Though... that may have just been me."
     return
@@ -388,7 +390,7 @@ label prologue_scene10:
     gd "Each member will belong to a specified department, no matter their skill level."
     gd "If you have no experience, have no fear. We have seasoned officers at your disposal."
     gd "Now... if those officers could please come on stage and introduce themselves?"
-    "George Dan directed a smile at the opposite end of the stage, causing a group of students to stir."
+    "Jeorge Dan directed a smile at the opposite end of the stage, causing a group of students to stir."
     "Soon enough, they all walked to the front of the stage and faced us all."
     mc "(....)"
     mc "(Talk about a huge coincidence.)"

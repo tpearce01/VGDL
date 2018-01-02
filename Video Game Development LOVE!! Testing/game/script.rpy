@@ -3,7 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define gd = Character("George Dan")     # Writer
+define gd = Character("Jeorge Dan")     # Writer
 define yu = Character("Yukiko")         # Programmer
 define re = Character("Reina")          # Artist
 define kd = Character("Kendrick")       # Production

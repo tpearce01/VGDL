@@ -647,7 +647,7 @@ label gd_scene6:
     mc "(It's almost the end of the quarter and the club meetings are going well. We made a lot of progress so far and we’re on track to finish it by winter break.)"
     mc "(ren and I have also been getting extremely close.)"
     mc "After the incident where I fainted in front of her, she would always check up on me and take care of me.)"
-    mc "(And as for George Dan, I would always see him at club meetings and he would always make the meeting fun, interesting, and productive for everyone.)"
+    mc "(And as for Jeorge Dan, I would always see him at club meetings and he would always make the meeting fun, interesting, and productive for everyone.)"
     mc "(As I felt the stitches on the shirt that he sew back for me, the memories of when I first met him at the park came back.)"
     mc "(I haven’t seen him at the park since our first encounter...)"
     ren "Hey sleepyhead, wake up!"
@@ -668,8 +668,8 @@ label gd_scene6:
     mc "ren… fine, let’s relax then! You prepare the food and I’ll prepare… the Netfix!"
     ren "That’s what I like to hear!"
     mc "How about you come back tomorrow night and I’ll cook you dinner to repay ya for all those times that you took care of me?"
-    ren "That sounds great, but we’ll have to do it another day! Sadly, I’m going to be busy tomorrow. George Dan and I made plans to go somewhere."
-    mc "George Dan huh… that’s fine! We’ll do it next time…"
+    ren "That sounds great, but we’ll have to do it another day! Sadly, I’m going to be busy tomorrow. Jeorge Dan and I made plans to go somewhere."
+    mc "Jeorge Dan huh… that’s fine! We’ll do it next time…"
     ren "Sorry about that kiddo!"
     mc "No worries!"
     ren "Lunch is ready though! Let’s eat."
@@ -684,7 +684,7 @@ label gd_scene6:
     #setting: apartment
     scene bg mc_apartment_inside with fade
     mc "The last meeting… I can’t believe it’s been a whole quarter already. Everyone worked so hard and the game came out nicely."
-    mc "I hope they’ll enjoy my cooking. I mean, why wouldn’t they? I’m a pretty damn good chef. George Dan seemed to enjoy it the last time I cooked for him..."
+    mc "I hope they’ll enjoy my cooking. I mean, why wouldn’t they? I’m a pretty damn good chef. Jeorge Dan seemed to enjoy it the last time I cooked for him..."
     #setting: outside/lobby
     "As I walk towards the room, I start to get that indescribable feeling… the feeling that you get when you know that a story is coming to an end." 
     "I mean, it’s a good ending… but this might be the last time I’ll really get to be this close to everyone."
@@ -869,21 +869,21 @@ label gd_scene6:
     show ren calm:
         linear 0.5 xalign 0.2
     mc "(It’s Ren!)"
-    "George Dan looks at the man. Their eyes met, a cold stare that I have never seen before, came from George Dan. Serious wouldn’t describe the look in his eyes, it was more of hatred."
+    "Jeorge Dan looks at the man. Their eyes met, a cold stare that I have never seen before, came from Jeorge Dan. Serious wouldn’t describe the look in his eyes, it was more of hatred."
     "I wanted to ask him about the situation… but I couldn’t. It wasn’t my place to say anything."
     gd "ren, can you take [mcname] home."
     ren "Yeah."
-    "ren then came over and took me from George Dan’s shoulders."
+    "ren then came over and took me from Jeorge Dan’s shoulders."
     hide gd with dissolve
     show ren calm:
         linear 0.5 xalign 0.5
     mc "It’s okay ren, I can walk."
     ren "Nope. I got you!"
     "She wrapped my arms around her neck and carried me on her back."
-    mc "(Stubborn just like George Dan… I’m thankful for friends like you guys.)"
+    mc "(Stubborn just like Jeorge Dan… I’m thankful for friends like you guys.)"
     ren "Don’t worry, I’ll explain everything once we get home."
     hide ren calm with dissolve
-    "I looked at George Dan and the mysterious man. Their eyes still glaring at one another without a single word. Is it his father? Why was ren with him…?"
+    "I looked at Jeorge Dan and the mysterious man. Their eyes still glaring at one another without a single word. Is it his father? Why was ren with him…?"
     #Apartment Scene 9000x
     #Setting: MC apartment
     scene bg mc_apartment_inside with fade
@@ -892,16 +892,16 @@ label gd_scene6:
     mc "I’m okay, thank you Ren."
     ren "You’re probably wondering who that guy was. You probably guessed it though… he’s our father."
     mc "Yeah, I had a feeling… wait WHAT?!?! ‘Our father’??"
-    ren "Yeah, George Dan and I are siblings… well, he’s my stepbrother."
+    ren "Yeah, Jeorge Dan and I are siblings… well, he’s my stepbrother."
     ren "Why? Did you think we were… perhaps, lovers?"
     "She starts so laugh. I on the other hand, was shook. I couldn’t believe what she had told me."
     mc "You guys are siblings?? You never told me this!!"
     ren "I thought you knew… hahaha."
     mc "You told me you had plans with him so I thought you two… like each other…"
     ren "Oh that… we were just planning to visit our mom in the hospital like usual. Here, sit down, drink some water, and I’ll explain to you everything…"
-    ren "So first off, that man you saw is George Dan’s birth father and my stepfather. George Dan and I both came from different parents."
-    ren "I was born in Japan. My birth father passed away before I was born. Around a year before, George Dan’s mother passed away as well when he was only a baby."
-    ren"At that time George Dan’s father and mother owned a big business chain in Japan. After having George Dan, his mother fell ill and became a victim to the passing of time."
+    ren "So first off, that man you saw is Jeorge Dan’s birth father and my stepfather. Jeorge Dan and I both came from different parents."
+    ren "I was born in Japan. My birth father passed away before I was born. Around a year before, Jeorge Dan’s mother passed away as well when he was only a baby."
+    ren"At that time Jeorge Dan’s father and mother owned a big business chain in Japan. After having Jeorge Dan, his mother fell ill and became a victim to the passing of time."
     ren "The loss of his wife burdened him heavily. Before her death she apologized to him for being the first one to leave so early. She asked him to be strong and to carry their child with both arms of love."
     ren "‘If only I could hold our child one last time… I will always love and protect the two of you.’ were her last words."
     ren "With his wife’s dying words, the crying man promised to live on and raise their child into a fine person."
@@ -928,9 +928,9 @@ label gd_scene6:
     ren "‘You’re adults now. Either you stay and do as I say, or you can leave.’ Were his last words to his children."
     ren"His son, not accepting of his corrupt ways and desire for power, left. He took his sister and ran off."
     "As Ren spoke, I can see tears coming out from her as she tries to hide them."
-    ren "And yeah… we went up north for a year. That’s where I attended your high school and George Dan attended the university there."
-    ren "But eventually we both missed home too much. We missed our mom. When George Dan heard that our father had moved back to Japan, he instantly took us back here."
-    ren "The reason why our father came back and looked for George Dan was to… I’m not sure why actually. But something is different about him… but… maybe he misses us."
+    ren "And yeah… we went up north for a year. That’s where I attended your high school and Jeorge Dan attended the university there."
+    ren "But eventually we both missed home too much. We missed our mom. When Jeorge Dan heard that our father had moved back to Japan, he instantly took us back here."
+    ren "The reason why our father came back and looked for Jeorge Dan was to… I’m not sure why actually. But something is different about him… but… maybe he misses us."
     mc "Ren…"
     mc "By the way, how did you know all of his past so well?"
     ren "I found his diary. Hehe."
@@ -945,7 +945,7 @@ label gd_scene6:
     #--black-
     scene bg black with fade
     "Everything’s so dark… am I in a dream? From a distance I can see someone… it’s him! He has his back turned though. I can’t see his face. But it’s him for sure."
-    mc "Hey... George Dan!"
+    mc "Hey... Jeorge Dan!"
     #Setting: Inside MC apartment
     scene bg mc_apartment_inside with fade
     "Suddenly, I woke up with Ren laying on my lap."
@@ -1036,8 +1036,8 @@ label gd_scene6:
             ren "Oi… how long did I sleep for? That sleep was actually super comforting."
             mc "Yeah you knocked out pretty early."
             mc "Hey Ren, I have something to tell you..."
-            mc "After you fell asleep, I met up with George Dan outside…"
-            "I explained to her what George Dan had told me…"
+            mc "After you fell asleep, I met up with Jeorge Dan outside…"
+            "I explained to her what Jeorge Dan had told me…"
             ren "I had a feeling that would happen…"
             mc "You’re not sad?"
             ren "Of course I’m sad, but I know it’s for the best and someone has to take care of our mom ya know."
@@ -1046,18 +1046,18 @@ label gd_scene6:
             ren "I’m heading to the hospital now!"
             mc "Did something happen!?"
             ren "My mom just woke up!!"
-            mc "No way! Did you tell George Dan?!"
+            mc "No way! Did you tell Jeorge Dan?!"
             ren "No, I’m not sure if he left yet or not, but I’m going to head there now!"
             mc "Okay, run Ren! I’ll check if he’s still at his place."
             "I quickly pulled out my phone and texted him."
             mc "Please see my message."
-            "I grabbed my jacket and started sprinting towards George Dan’s place."
+            "I grabbed my jacket and started sprinting towards Jeorge Dan’s place."
 
     #Setting: outsid
     scene bg gd_apartment_outside with fade
     mc "Don’t leave yet…"
     "As I ran the pain on my foot started to get worse. I wanted to cry. I don’t want him to leave. Not now!"
-    mc "George Dan are you there?! Please…"
+    mc "Jeorge Dan are you there?! Please…"
     "I continued to bash at his door, but no reply; no response."
     "I waited… I looked at my phone hoping that he saw my message. Please... see my message and head to the hospital."
     mc "No… he’ll be at the hospital no matter what. Why then… am I so sad."
@@ -1078,7 +1078,7 @@ label gd_bad_end:
     scene bg gd_apartment_outside with fade
     "As I close my eyes my phone vibrates."
     show phone with dissolve
-    mc "‘Ren: George Dan made it here to the hospital!!’"
+    mc "‘Ren: Jeorge Dan made it here to the hospital!!’"
     "tiny droplets of rain started to run down my face."
     mc "That’s good… he made it to the hospital."
     mc "I wish…"

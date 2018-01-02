@@ -72,8 +72,8 @@ label alex_scene1:
 
 # ALEX SCENE 2
 label alex_scene2:
-    #Scene 2 - Starbucks Student Center
-    scene bg starbucks with fade
+    #Scene 2 - Sturbacks Student Center
+    scene bg sturbacks with fade
     show ax calm with dissolve
     ax "Okay, so we have to have some sort of a plan for the pitch."
     mc "I was thinking of a dating sim, but with cats."
