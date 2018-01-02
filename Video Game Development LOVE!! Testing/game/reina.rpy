@@ -24,7 +24,9 @@ label re_scene1:
     md "We’re looking for experienced members only."
     md "This project is going to need some programmers who know their stuff."
     "Melody nudges Reina gently"
+    show re surprised with dissolve
     re "Ah! We’re looking for artists as well."
+    show re calm with dissolve
     "Her voice is quiet, but just audible in the lecture hall."
     mc "(Reina’s team looking for an artist? I think I found my project.)"
     return
@@ -48,7 +50,9 @@ label re_scene2:
     md "No worries man, show me next time."
     md "I’ll let Reina know we found an artist. It was [mcname], right?"
     mc "Yeah."
+    show md happy with dissolve
     md "Sweet. I’ll see what I can do about getting you on the team."
+    show md calm with dissolve
     md "You should get in touch with Reina, you’ll be working together a lot on this project."
     mc "(I hope so. I really want to get a chance to talk to her more.)"
 
@@ -93,9 +97,11 @@ label re_scene2:
     "It’s not entirely a lie...I doodled quite a bit in math."
     re "Mm, it’s incredible what practice can do."
     "She seems legitimately impressed with ‘my’ work. I just wish what I was showing her was as real."
+    show re happy with dissolve
     re "Yeah, this will do fine. I’m looking forward to working with you [mcname]."
     "She smiles, brushing her hair to the side. Slight dimples form at her cheeks."
     mc "(Cute…)"
+    show re calm with dissolve
     re "But make sure you carry your weight this quarter."
     mc "Right."
     "I pack up my computer and start heading home. Reina returns to her work. I catch her glancing back at me once or twice."
@@ -134,7 +140,7 @@ label re_scene2:
 #First choice: Week 3
 label re_scene3:
     menu reina_option_1:
-        "What should I do?"
+        "(What do I do?)"
         
         "Ask to talk to Reina":
              #[Option 1- Ask to talk to Reina]
@@ -149,7 +155,6 @@ label re_scene3:
              mc "You think you can grace me with your presence for just a bit?"
              show re surprised with dissolve 
              "Reina looked taken aback, and shifted her eyes away from me."
-             show re calm with dissolve
              re "U-Umm... I’m sorry, but, I’m not really all that good company..."
              re "But, uh, you can talk to anyone else here?"
              mc "Hmmm... I could, sure. But I only want to talk to you."
@@ -180,7 +185,7 @@ label re_scene3:
              re "A game? You have one with you?"
              mc "Anything’s accessible with internet connection!"
              "I whipped out my phone and threw a wink her way."
-             #show re happy with dissolve ?
+             show re happy with dissolve 
              re " Pff... hehe, I guess you’re right."
              mc "(Dear lord. A giggle that cute should be illegal--)"
              mc "O-Of course I am!"
@@ -196,7 +201,7 @@ label re_scene3:
              mc "Pooh Teal Is Shush"            
              re "Pooh teal is shush...."
              re "... Umm..."
-             re "Is it... ‘Putty... lease.. us...?"
+             re "Is it... ‘Putty... lease.. us...?'"
              mc "Snrk.."
              re "What?"
              mc "That makes no sense, Reina."
@@ -208,6 +213,7 @@ label re_scene3:
              re "Pfff-"
              re "Hahaha! And you said my phrase made no sense!"
              mc "Hey, this makes waaaaay more sense than \"putty lease us!\""
+             hide re happy with dissolve
              "She laughed, and the day went on like that, with us chuckling over a silly kid’s game."
              "In the end, she left with a grin on her face."
              "I wished to myself that I could keep making her smile like that."
@@ -218,36 +224,38 @@ label re_scene3:
             md "What, you staying here, [mcname]?"
             mc "Me? Oh, uh.. yea."
             mc "Just got some work to finish up before the end of the day. Nothing major."
+            show md happy with dissolve
             md "Woa, responsible. I like it."
             md "Keep those work ethics up for our project and I just might start respecting you!"
             mc "Haha, sounds like a plan!"
-            hide md calm with dissolve
+            hide md happy with dissolve
             "They team filed out, and I was left alone."
             "I whipped out my brand new tablet, and started testing out an art program I downloaded the other day."
             mc "(It may not be much, but... Anything is better than nothing.)"
      
      #---------------------------------------------------------------------------------------
-            scene bg gamelab with fade
-            
-
+    scene bg gamelab with fade
      #Second choice: Week 4
+    "It’s another day in the game lab, everyone doing their own thing. George Dan is in the front, leading a workshop on writing dialogue."
+    "It sounds somewhat interesting. I listen in while browsing the internet. I’m starving."
+    "I see Reina in the corner, it looks like she’s finishing up some work. Maybe she’s got some free time?"
     menu reina_option_2:
         "What should I do today?"
      #[Option 1- Ask Reina out for lunch]
         "Ask Reina out for lunch":
-            "It’s another day in the game lab, everyone doing their own thing. George Dan is in the front, leading a workshop on writing dialogue."
-            "It sounds somewhat interesting. I listen in while browsing the internet. I’m starving."
-            "I see Reina in the corner, it looks like she’s finishing up some work. Maybe she’s got some free time?"
             show re calm with dissolve
             mc "Hey Reina, would you like to go and get some lunch with me?"
             re "Oh, um…I’m not really hungry right now."
             mc "C’mon, my treat. We’ve been working hard, I think it’s a good time for a break."
             "Reina glances back to her work, she’s just finished a character. Suddenly, her stomach grumbles quietly."
+            show re surprised with dissolve
             re "Eep! Er, maybe a break would be good, if you’re paying."
             "Before I can make a joke about it, my stomach growls even louder."
             mc "Haha, it seems we’re in agreement here. Let’s go."
+            
             scene bg black with fade
             "We decide to go to one of the food courts on campus."
+            
             scene bg foodcourt_1 with dissolave
             show re calm with dissolve
             mc "So what do you think you’re going to get? I’m gonna get the spicy Italian, got it once and I was hooked."
@@ -284,14 +292,16 @@ label re_scene3:
             mc "How long does it take to dye your hair like that?"
             re "...What do you mean?"
             mc "Your hair, it’s uh… nevermind. It looks really good on you."
+            scene bg black with fade
             "We finish up and head back to the game lab."
-            mc "Aah, that was a good meal. Was even better because I got to be there with you."
+            scene bg foodcourt_1 with dissolve
             show re blush with dissolve
+            mc "Aah, that was a good meal. Was even better because I got to be there with you."
             re "Oh, um, yeah. It was nice."
             re "Maybe, um, we could do it again sometime [mcname]..."
             mc "I’d like that."
-            show re calm with dissolve
             "Reina glances at her phone and notices the time."
+            show re surprised with dissolve
             re "Oh no, I’m going to be late to class! I have to run now, bye!"
             re "I had a good time [mcname], make sure you don’t slack off though.."
             mc "Bye Reina, have a good one."
@@ -305,11 +315,14 @@ label re_scene3:
             mc "(Straight line. Straight line. Straight line.)"
             "Sketch, undo, sketch undo."
             mc "(How do people do this right?)"
+            show re calm with dissolve
             re "[mcname] I think you’re gonna break your Z key."
             mc "Wha?!"
             "I quickly open a new canvas, nearly falling out of my chair in the process."
+            show re happy with dissolve
             re "Pffft. Now we’re almost even."
             "She stifles a laugh."
+            show re calm with dissolve
             re "I’m sorry."
             mc "Nah, it’s fine. I’m just… uh… warming up a bit before I get to my work on the project. I can’t seem to get my lineart right."
             re "It’s good to see you hard at work. May I see your settings?"
@@ -322,19 +335,21 @@ label re_scene3:
             "Reina takes a step back, and I try drawing a line on the clean slate."
             "Even when my hand gets unsteady, the line comes out a little cleaner."
             mc "Hey, that makes a big difference, thanks."
+            show re happy with dissolve
             re "I’m happy to help."
             "She smiles for a moment, then looks away."
+            show re calm with dissolve
             re "It’s part of my job after all."
             re "I have to go to class. Keep up the good work [mcname]."
             mc "Will do Reina, see you later."
             mc "(Straight line, straight line, straight line…)"
             "It was really nice of her to help me out there. I hope she isn’t catching on though."
 
-            ---------------------------------------------------------------------------------------
+            #---------------------------------------------------------------------------------------
      
      
-     --Aldrich Park--
-
+     #--Aldrich Park--
+    scene bg park_1 with fade
     mc "Hahhh..."
     "I set my sketchbook down on the grass and stretched my arms."
     mc "(Geez... How long have I been sitting out on the grass?)"
@@ -356,10 +371,12 @@ label re_scene3:
             mc "(I've practiced enough, right? I think I've earned a little break...)"
             "As soon as she came within earshot, I called out to her."
             mc "Heyy! Reina!"
+            show re surprised with dissolve
             re "Huh?"
             "Surprised, she faltered a bit before locking eyes with me. I couldn't help but grin."
             re "[mcname]? What are you doing here?"
             mc "Oh, nothing much. Just got a little burst of inspiration after looking at the park and decided to doodle for a bit."
+            show re calm with dissolve
             re "Doodle?"
             "Her eyes fell to my sketchbook, closed on the grass right next to me."
             re "That sounds really nice, actually. Do you think I can take a peek?"
@@ -373,11 +390,13 @@ label re_scene3:
             mc "Your dorm, huh... Does that mean you're done with classes for the day?"
             re "Umm, yes..."
             mc "That's great news! Now you can chill here with me!"
+            show re blush with dissolve
             re "Wait.. what?!"
             mc "Now now, don't be shy. There's plenty of room, come on!"
             "I patted to the spot to my left and smiled at her blushing face."
             "She glanced around her surroundings before hesitantly approaching her spot."
             re "I... guess I could..."
+            show re calm with dissolve
             "I cheered as she took a seat."
             "She responded with exasperation, but it was obvious from her features that she was enjoying herself."
             "We talked from there, a bit about video games, and a bit about our own peronal lives."
@@ -388,6 +407,7 @@ label re_scene3:
             mc "Mmm.. Not at all."
             re "Hehe. Well, just know you can rest, if you'd like."
             mc "Nahh, I'd much rather spend my time with you."
+            show re blush with dissolve
             re "O-Oh..."
             "She coughed awkwardly and looked away, red tinting her cheeks."
             re "Umm... Well, I could stay here, if you'd like."
@@ -404,11 +424,13 @@ label re_scene3:
             mc "... Hey, Reina?"
             re "Hmm?"
             mc "Wanna take a nap with me?"
+            show re surprised with dissolve
             "I peeked up at her in time to see her expression burst in surprise."
             re "!! A... n-nap?!"
             mc "Yea. C'mon, why not, right?"
             re "W-Well, there are lots of things wrong with it!"
             mc "Like what?"
+            show re blush with dissolve
             re "...."
             mc "Do you hate me or something?"
             re "...."
@@ -432,7 +454,8 @@ label re_scene3:
             "I scooted a little closer toward her. She didn't even flinch."
             "Filled with an inexplicable amount of happiness, I couldn't hold back the smile that pulled at my lips as drowsiness pulled on my eyelids."
             "I wasn't able to catch Reina looking back at me in adoration before closing her own eyes."
-            --black--
+            #--black--
+            scene bg black with fade
             "Needless to say, we ended up staying like that for much longer than a minute."
      
      #[Option 2- Work on drawing]
@@ -445,34 +468,41 @@ label re_scene3:
             "The sun supplied light, the park provided inspiration, and the guilt at the pit of my stomach dispensed endless encouragement."
             "So I kept at it, completely oblivious to the attention I was getting."
 
-            ------------------------------------------------------------------------------------------
+            #------------------------------------------------------------------------------------------
      
      
-     
+    scene bg black with fade
      #Final choice: Week 6
     menu reina_option_4:
-        "What should I do?"
+        "What should I do today?"
      #[Option 1- Invite Reina over to your room]
         "Invite Reina over to my apartment.":
-            Final choice: Week 6
+            #Final choice: Week 6
             #[Option 1 - Invite Reina to the Apartment]
+            scene bg gameroom with dissolve
             "It’s a little later in the evening in the game lab. A small group of officers have left to get some dinner."
             "It seems like one of them didn’t go along."
+            show re calm with dissolve
             mc "Hey Reina, why didn’t you go along with the other officers?"
             re "Oh, I wasn’t hungry. Besides, I prefer to be by myself."
             "She glances away."
+            show re blush with dissolve
             re "And maybe with…"
             "I couldn’t quite hear the last part."
             mc "Hm?"
+            show re calm with dissolve
             re "Oh, nothing."
             mc "Alright, well I’m going to head home for the day."
             re "..."
             mc "Hey...Reina?"
             re "Yes?"
             mc "This is going to sound kind of dumb,  but do you want to come along? Just hang out at my apartment for a while? It might be nice to unwind a bit, you’ve been working all day."
+            show re blush with dissolve
             "She seems a little flustered at the question, but I can hear a quiet response."
             re "I’d like that."
             #The two go to the apartment.
+            show bg mc_apartment_inside with dissolve
+            show re calm with dissolve
             mc "So, here’s my apartment, the grand loft."
             "I cleaned up earlier, so the place wasn’t too messy. My roommates had left some dishes in the sink though."
             "A few desks line the walls of a medium-sized living room. It’s not the most organized, but it’s a welcoming place."
@@ -487,15 +517,18 @@ label re_scene3:
             mc "I’ll be completely honest, I didn’t plan this far. What do you want to do?"
             re "Um, I’m not sure. We could just...talk like this. This is nice."
             mc "I didn’t expect you of all people would want to talk."
+            show re blush with dissolve
             re "No, but I… I don’t know."
             re "I feel like when I’m around you…"
             re "Like, when I’m with Melody, it’s hard to find the words. She’s always so loud and forward."
             re "But with you, I feel like I can talk, and no matter what I say, you’d listen."
             re "Um, yeah."
             mc "I’m glad you feel that way, Reina."
+            show re calm with dissolve
             "One of my favorite songs starts playing and I get an idea."
             mc "Oh, this song is great. Come on, let’s dance!"
             "I turn up the volume, then gently grasp Reina’s hands and pull her to her feet."
+            show re happy with dissolve
             re "Pfft, I don’t know how to dance [mcname]!"
             mc "You think that I do? Relax, just move with the music."
             re "You idiot! You better not step on my feet [mcname]!"
@@ -504,16 +537,20 @@ label re_scene3:
             "Our dancing is an odd mix of imitating the movies and bobbing around."
             "And just like that, with her hand in mine, Reina spins and lands right in my arms."
             "Her deep green eyes gaze into mine. Her thin smile with dimples on the sides softens a little."
+            show re calm with dissolve
             re "I uh…"
             mc "Heh, you must really like me or something. Coming to my apartment, agreeing to dance."
+            show re blush with dissolve
             re "I-I-I do not! I just needed to take a break."
             "I lean in a little closer."
             mc "Are you sure? You don’t sound all that convinced."
             "Just then the music ends and the player turns on a loud advertisement."
+            show re surprised with dissolve
             re "Ah!"
             "In her surprise, Reina manages to trip on my foot. Thankfully, I catch her before she falls."
             mc "Looks like I’ve got your back, again."
             re "Oh wipe that dumb grin off your face."
+            show re blush with dissolve
             re "I-I might like you...a bit."
             "We embrace, her hands gently alight on my back as the ad plays on. I could hold this moment forever."
             "I only realized later that when I had turned up the volume on my computer, a certain piece of my ‘original’ work showed up on my screen for just long enough."
@@ -522,8 +559,10 @@ label re_scene3:
      #[Option 2- Work on drawing]
         "Practice drawing.":
             #[Option 2 - Practice Drawing]
+            scene bg gameroom with dissolve
             "It’s a little later in the evening in the game lab. A small group of officers have left to get some dinner."
             "Unfortunately, one of them didn’t go along."
+            show ax calm with dissolve
             ax "Wow [mcname], I never took you for the artistic type."
             "I’m trying to finish some backgrounds for the project. It’s been getting easier, when Alex isn’t around."
             mc "I doodled in high school."
@@ -540,7 +579,9 @@ label re_scene3:
             ax "She’s pretty cute, no? I keep trying to chat with her, but she won’t give me the time of day."
             ax "Of course, she’s not the only cute girl on the team, huh? Reina’s pretty nice, too."
             mc "Yeah…"
+            show ax happy with dissolve
             "Alex smirks."
+            show ax calm with dissolve
             ax "She’s a bit quiet though."
             mc "She is, but when she smiles, man."
             ax "Must take someone pretty special to get her to open up, huh?"
@@ -557,10 +598,20 @@ label re_scene3:
             "Respectfully ignoring my words, Alex proceeds to playfully bob my chair back and forth."
             ax "You like her, you do. You really really like her!"
             "At that moment, the lab door opens and one blue-haired art officer walks in on the two of us."
+            show ax calm:
+                linear 0.5 xalign 0.2
+            show re calm with dissolve
+            show re calm:
+                linear 0.5 xalign 0.8
             mc "Reina! Hi."
+            show re blush with dissolve
             re "..."
             "Lightly blushing, she leaves as suddenly as she came in."
+            hide re blush with dissolve
+            show ax calm:
+                linear 0.5 xalign 0.5
             ax "Don’t worry, your secret is safe with me [mcname]."
+            hide ax calm with dissolve
             "With a wink, he leaves, heading out the door."
             mc "(I sure hope he doesn’t say anything.)"
             "Unfortunately, there’s still a lot to be done for the project."
@@ -580,6 +631,7 @@ label re_good_ending:
     "I leaned back closed my eyes, rubbing my temples."
     mc "(No point in complaining now, though. I've just got to tough it out, and contribute however I can.)"
     "After a moment, I let out a sigh and opened my eyes."
+    show re calm with dissolve
     re "..."
     mc "(?!)"
     mc "R-Reina?!"
@@ -591,7 +643,7 @@ label re_good_ending:
     re "So, what have you been doing up until now?"
     mc "Hmm? I’ve just been browsing around, I guess. Nothing too productive."
     re "Browsing…"
-    She then peered into my laptop screen."
+    "She then peered into my laptop screen."
     re " ...‘An Introduction to Animation’...?"
     "(Oh crud, I forgot to close out my art tabs--)"
     mc "Uh, yea. I’ve been… browsing for a good article to reference this one high schooler to!"
@@ -629,7 +681,7 @@ label re_good_ending:
     "After a few seconds, she took a deep breath and faced me."
     re "Whenever we have our team meetings, you'd always stay much later than the rest of us and just draw."
     re "Not only that, but I'd see you around here a lot with your tablet, too."
-    re "At first, I didn't think much of it. 'He's just working on homework or his projects," I'd think."
+    re "At first, I didn't think much of it. \"He's just working on homework or his projects,\" I'd think."
     re "But as I kept looking at you throughout the week, you always looked so serious and... frustrated."
     re "I couldn't help but think something was off when a 'prodigy' worked so hard for so long, and never even once seemed happy."
     mc "Hmmm... so that gave it away, huh?"
@@ -674,11 +726,13 @@ label re_good_ending:
     re "You're going to have your current tasks stripped from you and you'll be confessing to the whole team within the week."
     mc "(Ouch. Don't know what I was expecting there.)"
     mc "Y-Yea, of course. That's to be expected."
+    show re blush with dissolve
     re "... But, afterwards, I wouldn't mind... teaching you myself."
     mc "(?!?)"
     mc "H-Hold on. Are you serious..?"
     "Reina looked away sheepishly and nodded. I gawked in response."
     mc "But... why?"
+    show re calm with dissolve
     re "W-Well... you may have done something bad, but you're not a bad person. At least I don't think you are."
     re "I... I want to try trusting you. A-And maybe, getting to know the real you, and not some made up prodigy."
     mc "..."
@@ -692,16 +746,22 @@ label re_good_ending:
     "Though, she couldn't hide the red that brushed her cheeks nor the slight smile that pulled at her lips."
     mc "(It may have been a rough start, but maybe there's still hope for a happy ending after all.)"
 
-    ---------------------------------------------------------------------------------------------
+    #---------------------------------------------------------------------------------------------
      
      
      #[[BAD ENDING]]
 label re_bad_ending:
     "The game lab is mostly empty today."
     "I’m playtesting our project for a bit when the door to the lab slams shut."
+    show md angry with dissolve
     md "[mcname], we need to talk pal."
     mc "(Gulp)"
     "Melody takes me outside. Reina is waiting for us."
+    show md angry:
+        linear 0.5 xalign 0.2
+    show re calm with dissolve
+    show re calm:
+        linear 0.5 xalign 0.8
     "She seems to be on the verge of tears."
     re "The art you showed me at the beginning, it wasn’t yours was it."
     mc "Uhh…"
@@ -723,30 +783,39 @@ label re_bad_ending:
     re "I’d rather you just let me fall that day instead of letting me down here like this.."
     re "What could you possibly have wanted so much that you would ruin your integrity like this?"
     "I hesitate. Before I can answer, she storms off."
+    hide re calm with dissolve
     mc "(I wanted to be with you…)"
+    show md angry:
+        linear 0.5 xalign 0.5
     "I try to follow her, but Melody stops me."
     md "You’re in deep trouble, pal."
 
-    //Timeskip to later, main character is talking to Alex in the park
+    #//Timeskip to later, main character is talking to Alex in the park
+    scene bg park_2 with fade
     "Because of my plagiarism, they kicked me off the team."
     "The president was going to drop me from the club entirely and report my actions, but someone convinced him to let me off with a stern warning."
     "I can’t join another team for the rest of the year, that’s not too bad."
     "But I don’t know if I can ever face Reina again, and that punishment will last forever."
     mc "So that’s where I am right now."
+    show ax calm with dissolve
     ax "Wow."
     ax "You really messed up, my friend."
     mc "Yeah…"
     "Alex and I laying in the grass in Aldrich. I just really needed someone to talk to."
     mc "I have to wonder if things might have gone down another way if I had done things differently."
     mc "In any case, thanks for putting in a kind word to George. It means a lot that you backed me up there."
+    show ax happy with dissolve
     "Alex smirks."
     ax "You know I’m happy to stick up for you…"
     ax "But it wasn’t me that had your back in the meeting."
     mc "Huh?"
+    show ax calm with dissolve
     ax "Your guardian angel was someone else. Speak of the devil, here she comes."
+    hide ax calm with dissolve
     "A blue-haired girl walks over to the two of us. If she were smiling, she’d have dimples."
     "I jump to my feet."
     mc "Reina."
+    show re calm with dissolve
     re "It’s not like I forgive you, I don’t."
     mc "I’m sorry, I really am. I’ll say it a thousand times and a thousand more."
     "She continues."
@@ -756,3 +825,4 @@ label re_bad_ending:
     mc "That’s not…"
     re "I wish you luck in the future with VGDC, but I never want to talk to you again."
     re "Good bye."
+    
