@@ -339,7 +339,7 @@ label prologue_scene8:
     "There was an uncharacteristic frown on his face. It actually made me feel a little guilty."
     ax "Geez, really..?"
     ax "Alright, tell me what club this is. I'll beat up whoever took you away!"
-    mc "\"The Videa Game Development Club, or VGDC.\""
+    mc "\"The Video Game Development Club, or VGDC.\""
     ax "..."
     "His eyes widened a bit."
     show ax calm with dissolve
