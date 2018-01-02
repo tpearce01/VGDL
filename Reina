@@ -412,9 +412,9 @@ mc “This is going to sound kind of dumb,  but do you want to come along? Just 
 re “I’d like that.”
 //The two go to the apartment.
 mc “So, here’s my apartment, the grand loft.”
-“I cleaned up earlier, so the place wasn’t too messy. My roommates had left some dishes in the sink though.”
-“A few desks line the walls of a medium-sized living room. It’s not the most organized, but it’s a welcoming place.”
-“Reina sits on the couch. She seems out of place there, a beautiful person in a quaint apartment.”
+“I cleaned up earlier, so the place wasn’t too messy. Could have done a better job though..”
+“A few posters line the walls to add some color. It’s not the most organized, but it’s a cozy place.”
+“Reina sits on the bed. She seems out of place there, a beautiful person in a small, quaint apartment.”
 mc “Want anything to drink?”
 re “No thanks.”
 “She hesitates for a moment.”
