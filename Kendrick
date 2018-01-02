@@ -1,8 +1,11 @@
+[INITIAL STRUGGLE]
+
+>Protag chooses to join Production department because she’s passionate about video game development and has a game she really wants to produce
 --SSLH--
 mc "(Production, huh...)"
 mc "Hmmm..."
 "As Jeorge Dan resumed his presentation, I considered the appeal of joining the productions department."
-mc "(There are others I'm interested in, but it'd be nice to get some leadership experience.)"
+mc "(The other departments are interesting, but it'd be nice to get some leadership experience.)"
 mc "(That, and I've always wanted to lead a game of my own...)"
 "Since I could remember, I've been making up video games in my head, some more complex than others."
 "I'd always wanted to bring at least one of those ideas to life, but never had the resources to do so."
@@ -16,27 +19,13 @@ mc "(This is my first quarter here in UCI. Let's hit the ground running!)"
 "Just as I'd come to a conclusion, the room errupted in applause."
 "People started getting up and Jeorge Dan began tidying the podium."
 mc "(Looks like the meeting's over.)"
-"I got up from my chair and merged into the sea of fleeing college students as I mulled over my game."
+"I got up from my chair and merged into the sea of fleeing college students and started mulling over my game."
 mc "(Alright, my first project shouldn't be too ambitious.)"
-mc "(Now to think of a simple, entertaining game...)"
+mc "(Now to think of something simple and entertaining...)"
 
-
-[Game Pitch]
-
-
+>Pitches project. Complex format, but really well done and thought out.
 --Outside SSLH--
->
--
--
--
--
--
---Inside SSLH--
--
--
--
--
--
+mc "Talk about submitting pitch and go into game and be really determined"
 mc “(The time comes to pitch my game, the more people are called to share they’re game ideas, the more that my nervousness grows.)”
 mc “(Dang, I can’t even pay attention to other people’s presentations, I’m so nervous.)”
 mc “(Finally the dreaded moment arrives and my name is called.)
@@ -58,17 +47,14 @@ mc “(I don’t know why I was even nervous. This is fun, the people here are n
 mc “So yeah, I’m [mcname] and my game is T-rex Attack!”
 "I do the T-rex pose again."
 mc "Thank you all for listening!”
--
--
--
--
 
-#teams formulated. Kendrick is the officer buddy of the group
+>Teams formulated. Kendrick is the officer buddy of the group.
+--Black--
+"Narration to indicate time skip"
+--Inside SSLH--
+mc "(Omg my team is so hhootttt)"
 
-
--
--
--
+>Kendrick is detached and blunt. Recognizes the potential of the game but not the protag herself.
 kd “Now that the roles have been assigned it’s time to hit the ground running. I’ll be here if you need help.”
 “Kendrick looks determined, maybe he really liked my game idea. I’m feeling good about this, I have to be enthusiastic too.”
 mc “I’m hyped! I promise that I’m going to produce the heck out of this!”
@@ -99,10 +85,16 @@ mc “My bad, I just misread the situation. I’m sorry.”
 kd “It's fine. Just don’t make the mistake again, get to producing, we meet here next week at the same time. Dismissed.”
 mc “(I already hate college, I knew I should have gone to UC Riverside.)”
 
+>Team disbands. Protag talks to Kendrick alone to ask what she should be doing/his thoughts
+mc "So uh do you wanna touch dicks"
 
-[Kendrick is detached and blunt. Recognizes the potential of the game, but not the protagonist herself]
+>Speaks really harshly and bluntly. Unintentionally an asshole, that’s just how he is. Protag sees him as someone hard to get along with but doesn’t hate him (yet).
+mc "(Monologue about how she'll ganbate despite it all)"
 
-
+>Gets a Discord up. Starts things up, but Kendrick makes a scene
+--MC room--
+mc "(Yaaay time to talk on discord!)
+--Phone thing--
 mc “(I got everyone’s phone number and email at the meeting, I figured it would be best to set up a Discord and contact everyone online.)”
 mc “(All the invitations had been sent in class, now I just had to wait for everyone to join.)”
 mc “(Once everyone joined, I figured I would get the ball rolling, try to get everyone to introduce themselves, that whole bit.)”
@@ -137,22 +129,31 @@ mc "I’m sorry about your past experiences, but I can assure you that this is n
 kd “We’ll see...”
 “He goes offline.”
 
+>Ok now she low key hates him
+--mc room--
+mc "Wow upsetti spaghetti"
 
-#week time skip of low-key hatred
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+[[Wow Heck you Kendrick]]
 
 #tm stands for team member
 
+
+>Week time skip of low-key hatred. 
 mc “(Kendrick is getting on my nerves. Everyday, he always does something that infuriates me.”
 mc “(Yesterday he dropped his pencil, and he just pointed at me and the pencil like he was entitled to me bending over to pick it up for him.”
 mc “(How do people this rude even fit into society?)”
+
+>Now Kendrick starts being mean to the rest of the team, and protag blows up
 kd “No, this is garbage, do it again.”
 tm ”O-okay, what about it do you want me to fix?”
 mc “It’s mostly fine, just maybe color inside the lines a little more.”
 kd “Don’t listen to her, its wrong do it again”
 mc “What part?”
 kd “All of it, redo it.”
-mc “I feel like you wake up, come in here and think..”
+
+>Details how he’s such an asshat, but Kendrick doesn’t understand. mc “I feel like you wake up, come in here and think..”
 #imitating Kendrick
 mc “Hmmm what should I be mad about today, oh I know, I’m going to be a giant pedantic poop hole to my club members”
 kd “Poop hole?”
@@ -170,26 +171,36 @@ kd “It's usually just me taking work seriously, that’s why I was one of the 
 kd "You think this type of art and behavior in general is going to pass at a legit workspace where making games is what puts food on the table?”
 mc “This is a club, not a full time job, so making this video game isn’t life or death for me.”
 kd “It is for me.”
+
+>Kendrick leaves at protag’s request. Meeting continues. 
 mc “Well then I think you should go and find more people who are willing to put up with your crap.”
 kd “Is that what you all think?”
 mc “(Everyone looks at each other, one person starts nodding, everybody nods.)”
 kd “Alright, I will take my leave, hopefully the next team I get won’t be filled with bumbling buffoons.”
-mc “Oh yeah, I’m sure they’d love to have you. That was sarcastic by the way.”
+mc “Oh yeah, I’m sure they’d love to have you. That was sarcastic by the way.”“I’m just stating the truth.”
 
+>Protag asks president if she could switch officer buddies. JD smiles and says he’ll do what he can.
+"messages between the two"
 
-#mc asks president to change officer buddies
-
-
+> JD asks Protag to come to the game lab late at night when no one’s there. Surprise! Kendrick’s there. 
 cc “(Alright, I texted JD and was told to wait here in the game lab, I mean I know Irvine is one of the safest cities ever, but walking around campus at night is still kinda spooky.)”
 “I arrive at the game room."
 "To my surprise, Kendrick is there, I try to turn around and leave, but the president is blocking the door."
 "Right before I can stick my fingers through the gap, he speaks a single sentence.”
+
+> “Make nice kiddos” Exit JD
 jd “Make nice kiddos.”
 “And he shuts the door.”
 “A couple seconds of silence pass, feeling like minutes.”
+
+> Kendrick starts off. “I don’t see what the issue is here. Why didnt you just communicate with me?”
 “Kendrick breaks the silence.”
 kd “I don’t see what the issue is here. Why didn’t you just communicate with me?”
+
+>Protag passive aggressively responds. 
 mc “Why would I bother even trying when the answer would be “it's garbage” anyways?
+
+>Kendrick low-key irritated. Protag scoffs and leaves.
 kd “That’s rich, ming from someone who would just respond by mockingly imitating them.”
 mc “Well, it'sbvious that neither of us are particularly enjoying this situation, so how about we just agree to interact as little as possible until the end, then I can quit the club and we can never see each other again.”
 kd “Deal.”
@@ -205,41 +216,45 @@ kd “What’s that?”
 mc “Never mind, I almost thought you were kinda cool.”
 “I jump out the window.”
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-(Kendrick pov, he realizes people have feelings)
+[Kendrick realizes people have feelings]
 
 
+>Kendrick POV. Confused with Protag’s declarations but seriously analyzes her words
 kd “(I hate these intrusive thoughts, like a worm stuck in my brain that I can’t get out,  I can’t even focus in school without thinking about her words)”
 kd “(Usually I dismiss it as stupid people saying stupid people things, but maybe.)”
 kd “(I even listened to that song, kinda liked it, but ill never tell her that, she’ll never let it go.)”
 kd “(And that imitation, the sound is completely wrong, but the mannerisms and tone are pretty close.)”
+
+>Back to protag. Next meeting. Kendrick is there super early.
 mc “(I shows up, Kendrick is already there.)”
 mc “What’s up K DOT!”
 kd “What?”
 mc “Listen to more hip hop.”
-kd “Yea, t-that song you showed, me, i-it wasn’t horrible.”
-mc “(Holy crap, he actually did, this makes me smile, I’m going to tease him a bit.)”
-mc “Ayyyy look at Kendrick, getting lit!”
-kd “Shut up!”
-mc “I’m sorry, I forgot our deal, Ima get right to work.”
-kd “Good.”
-mc “Moments pass, I decide to take a break, look at some dank memes.”
-mc “Pffffft!”
-mc “(Damn I laughed, this picture of this gangsta duck crossing his arms was too much for me, I should have known.)”
-kd “Are you working?”
-mc “You’re not my dad!”
-kd “I AM YOU-“
+
+>Protag is low key snarky. Kendrick doesnt respond as usual and protag is a little surprised.
+tm "members doing shit"
+
+>Meeting goes on. Kendrick is still mean but catches himself and reiterates often. The whole team is surprised.
+"Narration of the things"
+
+>Something happens where Kendrick ends up apologizing to the protag and she’s just so flabbergasted she takes him outside
 mc “(He stopped himself?)”
 kd “You’re right, I’m sorry.”
 mc “(What the heck, he never apologizes, is he alright?)”
 mc “Can you step outside with me outside?”
 kd “Sure.”
 mc “(We stand outside the game room)”
+
+>”Yo art thou okay.”
 mc “Yo fam, are you dying? Do you have cancer?”
 kd “No, doctor says I’m in peak physical condition”
 mc “Err, okay….”
 kd “I’ve decided cooperating with you would be most beneficial to me. Nothing more.”
 mc “Hmmmmm, okay, okay, I see you, I see you.”
+
+>Protag is impressed and is expresses her happiness. Kendrick doesn’t understand.
 kd “Is there something wrong with that?”
 mc “Nah nah, quite the opposite actually, here’s some candy, as a reward, and also for positive reinforcement.”
 kd “what am I, a dog?”
@@ -247,6 +262,42 @@ mc “That would be an insult to dogs”
 kd “Whatever.”
 mc “Kendrick eats it, he puts the wrapper in his pocket.”
 mc “Alright boy, lets get to work.”
+
+>Some cheesy line about how shes proud or something idk
+mc "Uwaaaa sugoi desuuu"
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[Kendrick feels affection.]
+
+
+> Weeks pass. Kendrick gradually becomes more and more a decent person
+>Officers notices, especially JD (because he’s cool like that)
+>Something happens where Kendrick becomes super duper stressed. Protag notices. She expresses concern but Kendrick pushes her away.
+>Another meeting. Kendrick falls asleep but protag doesn't want anyone to wake him up
+>Everyone leaves and it’s just him and her. He asks why she just let him sleep and she goes on about how he should take care of himself more and how great he’s doing and how impressed/proud she is of him
+> Kendrick’s kawaii kokoro goes doki doki. Protag leaves.
+> Kendrick POV something gushy and gross about woa protag is such a sweetie.
+>They keep meeting up in the game lab and he gets all flustered and jealous whenever she’s happy with other guys
+>Low key tsundere. Protag thinks he’s cute.
+> “... Hold on. Did I actually just think that”
+
+5. Kendrick confesses. Protag recognizes her feelings for him.
+>Another time skip. Monologue about how Kendrick’s pretty dang chill.
+>All of a sudden…
+> “I like you. Please go out with me.”
+> “Nani the fukk”
+> Protag thinks she’s dreaming, but nope, it’s reality.
+>Starts freaking out. Super flustered. She never considered her feelings to be like that
+
+Phuoc help me choose how the good ending would go:
+1. Kendrick sees how Protag has difficulty talking to him and asks her to forget he ever confessed. This pushes protag to confess to him and they go out
+2. Kendrick is super chivalrous manly man who supports protag with her project and she’s so grateful and emotional with how kind he is she gives a super cheesy and embarrassed and shy confession and he teases her and wow this is disgustingly sweet
+
+ALT. BAD END
+>They never feel for one another. They becomes strangers once more after the project ends.
+
+~~~~~
 
 
 (Weeks pass, Kendrick gradually becomes more and more of a decent person)
