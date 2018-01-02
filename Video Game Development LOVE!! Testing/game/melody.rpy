@@ -5,7 +5,7 @@ define md_affection = 0
 #--Scene 1:--
 #SETTING: Outside (Night)
 label melody_scene1:
-    scene bg outside_night with fade
+    scene bg night with fade
     show ax calm with dissolve
     ax "Hey Bro! How’d I do up there?"
     mc "You got the girls giving off giggly noises if that’s the answer you’re expecting…"
@@ -19,16 +19,16 @@ label melody_scene1:
     mc "The one with the red streaks and the headphones? Audio girl, right?"
     ax "Yeah! Was she looking at me when I was speaking?"
     mc "No, she had an uninterested look the whole time. I don’t even think she even glanced at you."
-    show ax frown with dissolve
+    show ax sad with dissolve
     ax "What?!? Are you serious…?"
     "He has a hopeless look on his face that can probably make any girl go ‘Awww, Alex’."
     mc "Yeah, but why does that matter? You like her or something?"
     ax "You don’t understand… I’ve been trying to get at her for the longest time..."
     mc "Since When!?"
+    show ax calm with dissolve
     ax "Since last week."
     "I raised my hand and smacked him on the head lightly."
     mc "You freaking player. I thought you were serious."
-    show ax calm with dissolve
     ax "Oww, that hurts... Just kidding!"
     ax "But no, for reals… I want to try and get at her. I’ve known her since last year, but we didn’t talk much."
     ax "Well, she didn’t talk to anyone much really, she’s always doing her thing. Like a lonewolf…"
@@ -39,14 +39,16 @@ label melody_scene1:
     mc "I don’t think she has any bad intentions though..."
     ax "I like bad girls."
     mc "... I am speechless. You will never change. I take that back. You will never grow up!!"
-    "He starts to laugh hysterically."
     show ax happy with dissolve
+    "He starts to laugh hysterically."
     ax "Comeeee on… good girls ain’t no fun, am I right?"
     mc "I wouldn’t know…"
+    show ax calm with dissolve
     ax "But yeah, she’s the ‘Hard to get’ kinda girl, so I really, reaaally want to impress her."
     ax "You don’t understand how many guys tried to get at her last year…"
     ax "And did you not see the look on their faces this year?! She’s more desirable than ever!"
     mc "You talk about her as if she’s an object…"
+    show ax happy with dissolve
     ax "Hahaha, did it sound that way? My bad, I meant to say that she’s… one of a kind you know. And maybe that’s why a lot of the guys like her."
     mc "She is cute… I guess."
     show ax calm with dissolve
@@ -68,7 +70,7 @@ label melody_scene1:
     hide ax calm with dissolve
     "As I start running to the lecture hall, I accidentally bumped into someone on the shoulder. They gave off an angry expression."
     with hpunch
-    show kd concerned with dissolve
+    show kd angry with dissolve
     kd "Watch where you're going, Kid."
     mc "My bad…"
     kd "Pst. Get out of my way..."
@@ -79,7 +81,7 @@ label melody_scene1:
     scene bg meeting_2 with dissolve
     "When I entered the lecture hall, the board was covered in graffiti and then I saw Melody drawing graffiti on the far wall. ‘VGDC sucks.’ was one of the messages on the wall."
     "She turned around with a blank expression on her face, like a deer when you shine your high beams at it."
-    show md calm with dissolve
+    show md angry with dissolve
     md "Damn… I forgot to lock the doors."
     "I felt frozen in place. What should I do?"
     #----------Player Choice 1---------------#
@@ -87,12 +89,14 @@ label melody_scene1:
     #option 1: Apologize and tell her that you’re just here to look for your phone. (Worse)-----
         "Apologize and tell her that I'm just here to look for my phone":
             mc "Uh, I'm really sorry. I, um, well, I-"
+            show md calm with dissolve
             md "You’re looking for your phone right?"
             mc "Yes… how’d you kn-?"
             md "Here. Catch."
             "She tosses the phone across the lecture hall to me."
             mc "(I barely caught it… this girl is crazy.)"
             mc "Uh… thanks."
+            show md angry with dissolve
             md "Close the door on the way out, will ya kiddo. And one more thing. If you tell anyone this, I’ll make sure you’ll regret ever coming to UCI."
             "Her words sent shivers throughout my whole body and soul. She’s so aggressive… I felt as if I was the deer being hunted…"
             mc "Of c-course!"
@@ -106,6 +110,7 @@ label melody_scene1:
             mc "(...)"
             mc "(...or will she?)"
             mc "(It doesn’t matter! I should just ignore her and look for my phone.)"
+            show md calm with dissolve
             md "Looking for this?"
             "In her hand was my phone."
             mc "Y-yeah…"
@@ -113,12 +118,13 @@ label melody_scene1:
             md "I’ll tell ya what. Tell me your name, then kneel on the floor and beg for your phone… and MAYBE I’ll give you it back."
             mc "(Pft… does she really think I’m going to be her dog? Play fire with fire.)"
             mc "What if I don’t… and instead I tell the board members what you’re doing right now."
+            show md angry with dissolve
             md "You dare threaten me…?  Hmfph… this arrogant punk."
             "She gave off an angry and aggressive smirk."
             mc "Alright… you win."
             "She tosses the phone across the lecture hall to me."
             mc "(I barely caught it… this girl is crazy.)"
-            "If you tell anyone this, I’ll make sure you’ll regret ever coming to UCI."
+            md "If you tell anyone about this, I’ll make sure you’ll regret ever coming to UCI."
             "Her aggressive tone and words sent shivers throughout my whole body and soul."
             "I felt as if I was the deer being hunted. I’m wasn’t playing with fire… I was sinking in the middle of the ocean!"
 
@@ -133,6 +139,11 @@ label melody_scene1:
     mc "No…"
     "I pointed my finger towards her."
     "Alex formed his hand into a gun-like formation with his index finger pointing towards her."
+    show ax calm:
+        linear 0.5 xalign 0.2
+    show md calm at right with dissolve
+    show md calm:
+        linear 0.5 xalign 0.8
     ax "Hey… Melody..."
     mc "(This is so awkward…)"
     "Alex then quietly whispers to me."
@@ -143,12 +154,6 @@ label melody_scene1:
     ax "OMG!! She said my name!!"
     "I slammed my hand against my face."
     "With a cool and calm posture he turns towards Melody."
-    show ax calm with dissolve
-    show ax calm:
-        linear 0.5 xalign 0.2
-    show md calm at right with dissolve
-    show md calm:
-        linear 0.5 xalign 0.8
     ax "Yo, no worries… I won’t tell the board or anyone, I promise!"
     ax "I only have one favor to ask you though…"
     md "What."
@@ -159,12 +164,13 @@ label melody_scene1:
     "I closed my eyes. I was cringing at every B.S word that he said."
     md "Fine."
     "I slammed my hand against my face again. I can’t believe it worked..."
+    show md angry with dissolve
     md "Now get out of my lecture hall. And if any of you tell anyone, I’ll-"
     ax "Yeah! Don’t worry… we won’t."
     "With a great sigh we looked at each other and exited the hall."
 
     #SETTING: Outside (night)
-    scene bg outside_night with dissolve
+    scene bg night with dissolve
     show ax calm with dissolve
     ax "Speaking of the devil… awkward."
     mc "You had to come in at the worst time…"
@@ -186,6 +192,7 @@ label melody_scene1:
     ax "Hey dude!"
     mc "Why are you so... dressed up?"
     mc "Is that... cologne?"
+    show ax happy with dissolve
     ax "No girl can resist my beautiful physique."
     ax "HAHAHA!"
     mc "Please stop."
@@ -199,6 +206,7 @@ label melody_scene1:
     md "Mmmh! This looks good!"
     mc "Hey wa-!"
     mc "..."
+    show md happy with dissolve
     md "Thanks for lunch! So nice of you to offer it to me!"
     mc "I… whatever."
     mc "(She did find my phone I guess…)"
@@ -209,17 +217,20 @@ label melody_scene1:
     md "Waah! You have to invite me over to your place sometimes."
     "She looks at me and smiles innocently and then Alex looks at me and rolls his eyes."
     mc "(So that’s how she wants to play it. The innocent, seductive girl that tries to get the two friends to fight over her...)"
+    show md calm with dissolve
     md "Oh hi there Alex! Didn’t see you earlier!"
     ax "You seem awfully happy this afternoon…"
+    show md happy with dissolve
     md "That’s because I, the most beautiful and smart girl, aced my quiz."
     mc "(Alex is right… she’s totally different from the night before. She’s… much happier now.)"
+    show md calm with dissolve
     md "Oh yeah Alex, what kind of music related, audio-thingy, did you want to talk about?"
     ax "Well-uh…"
     mc "(Alex you fool… you didn’t prepare a subject to talk about did you…)"
     ax "How about… you join my group this year? Hehe?"
     md "Alex…"
     md "No."
-    show ax frown with dissolve
+    show ax sad with dissolve
     "Alex’s face turns extremely mellow as Melody rejects his offer."
     ax "Huh!? Why not…"
     md "I’m not going to join your group just because you ask me to. I can do whatever I like."
@@ -231,6 +242,7 @@ label melody_scene1:
     "Alex instantly stood up without hesitation."
     ax "Yes! Of course! Whatever drink you want, I shall buy it and deliver it you!"
     "She then pretends to be charmed by Alex’s hospitality."
+    show md happy with dissolve
     md "Ohhh Alex… you’re such a sweet guy. No wonder why all the girls like you so much."
     "Flattered by her over exaggerated words, Alex starts to pad his shoulders and straighten out his outfit."
     mc "(Goodness sake… she got him to make that ‘I’m the best’ face…)"
@@ -240,20 +252,25 @@ label melody_scene1:
     ax "I’ll be right back!"
     hide ax calm with dissolve
     "He bolts off towards the food court."
+    show md calm with dissolve
     show md calm:
         linear 0.5 xalign 0.5
     md "Soo… how did I do? That was pretty good, eh?"
     mc "He is the only person, in this universe, who would fall for that."
     md "I know."
+    show md happy with dissolve
     "She looks at me and starts to laugh."
     mc "(The way she laughs… it’s pretty charming. I can’t help but to look at her.)"
+    show md calm with dissolve
     md "Don’t worry… I’m not trying to use Alex or anything."
     md "I just think it’s cute. Like having a little kid brother."
+    show md happy with dissolve
     "With her elbow on the table and one side of face against her curled up hand, she looks at me and smiles."
     "She slowly starts to scan my body with her eyes, from the heads down."
     md "You’re a pretty good looking."
     mc "(I’m not gonna lie… she’s… cu-)"
     mc "(Control yourself man!! You’re falling for the oldest trick in the book!!)"
+    show md calm with dissolve
     md "Oh yeah, we haven’t introduced ourselves to each other yet."
     "She extends her hand out towards me."
     md "I’m Melody, nice to meet you [mcname]!"
@@ -267,13 +284,13 @@ label melody_scene1:
 
     #-----option 2: Wait. How did you know my name? (Decent)
         "Wait. How did you know my name?":
-            $ gd_affection = gd_affection + 1
+            $ md_affection = md_affection + 1
             mc "(How did you know my name?)"
             "She gives a slight grin and remained silent."
             mc "Whatever."
     #-----option 3: Alex told you my name, huh? (Good)
         "Alex told you my name?":
-            $ gd_affection = gd_affection + 2
+            $ md_affection = md_affection + 2
             mc "(Damn that Alex…)"
             mc "Alex told you my name, huh?"
             "I grabbed her hand with mine and with a firm grip, I shook her hand."
@@ -281,23 +298,27 @@ label melody_scene1:
             mc "..."
     #---------End of option 2---------
 
-    ### END OF UPDATES ###
     show md calm:
-        linear 0.5 xalign 0.2
-    show ax calm at right with dissolve
-    show ax calm:
         linear 0.5 xalign 0.8
+    show ax calm at left with dissolve
+    show ax calm:
+        linear 0.5 xalign 0.2
+    show md happy with dissolve
     "Just as fast as he had left, Alex came back with her order and she pats him on the head and smiles at him."
     md "Thank you Alex."
+    show ax happy with dissolve
     mc "(The expression on his face when she patted him… yup. He’s definitely gone now. Dreaming in his own little world…)"
+    show md calm with dissolve
     md "Oh yeah, [mcname], are you planning to pitch a game for the club meeting next week?"
     mc "I’ll have to see… I’m not sure if I have time to manage a whole team."
     md "I think you should… the more the merrier!"
+    show ax calm with dissolve
     "Suddenly, both Alex’s and Melody’s phone vibrated at the same time."
     mc "Hey you dimwit!"
     "I gently smack Alex on the head as he intensely stares at Melody."
     ax "Huh?"
     mc "Your phone..."
+    show ax sad with dissolve
     "He looked down at his phone and a few seconds after reading the message his mood and tone changes."
     ax "Melody, we have to go. Now."
     md "Yeah… I know."
@@ -380,10 +401,12 @@ label melody_scene1:
     ax "Doing a piano lesson or what?"
     mc "Yea-"
     ax "If you’re teaching piano lessons to a girl… and you’re not telling me about it…"
+    hide phone with dissolve
     "Without hesitation, I instantly hung up on him."
     mc "Haiyah. That boy and his obsession with girls… unreal."
     
     #SETTING: Piano Concert Hall
+    scene bg piano with fade
     mc "Wow… this room is so beautiful! There’s no one here either…"
     "A grand piano sat on the middle of the wooden stage, surrounded by the warmth of the incandescent lights."
     "The concert hall isn’t enormous, but the mood and the atmosphere is very subtle and cozy."
@@ -407,8 +430,9 @@ label melody_scene1:
     "She stood next to me, while I sat, and slowly starts to move her hand across the surface of the piano keys."
     md "This piano… it’s nice."
     md "Well, nice seeing you again, [mcname]. I’ll see you around."
-    hide md calm with dissolve
+    show md happy with dissolve
     "She gave me a smile before turning and leaving."
+    hide md happy with dissolve
     mc "Something or someone is bothering her… I can feel it."
     mc "Can it be… that Kendrick guy?"
     mc "Hmm. Maybe I’m over thinking it. I should just mind my own business."
@@ -430,7 +454,7 @@ label melody_scene1:
     
     #Scene 5
     #SETTING: anywhere on campus
-    scene bg park_1 with fade
+    scene bg mc_apartment_inside with fade
     mc "Today is pitch day. I’m already getting some massive butterflies…"
     "I nervously walk around my room thinking about project idea."
     mc "What if I stutter up there… no what if I don’t remember what to say. What if I can’t handle it and start to-"
@@ -530,13 +554,15 @@ label melody_scene1:
     "My body couldn’t move. It felt less of a talk and more of an interrogation. I was trapped."
     kd "Then if say that you didn’t do it, did you see who did?"
     mc "I didn’t see anyone when I entered the room from this door."
+    show kd angry
     "Irritated by my answer, Kendrick lunges forward with anger and grabs the torso of my shirt with two hands."
     kd "Tell me who did it! I know that you know! Talk!"
-    show kd calm:
-        linear 0.5 xalign 0
+    show kd angry:
+        linear 0.3 xalign 0.0
     show gd calm:
-        linear 0.5 xalign 1
-    show md calm with dissolve
+        linear 0.4 xalign 0.5
+    with Pause(0.3)
+    show md angry at right with dissolve
     md "Hey! What’s going on around here. Why are the doors locked as well?"
     "It was Melody. She walked towards us and the two of them turn to look."
     kd "Mind your own business. This kid is a suspect here."
@@ -545,13 +571,20 @@ label melody_scene1:
     gd "Open your hands and show me the pinky side of it."
     "I push Kendrick away and did what Jeorge Dan told me."
     gd "There’s no markings or ink. You’re fine to leave."
+    show md calm with dissolve
     kd "What? Are you serious Jeorge Dan?! I’m sure this guy did it or knows who did it."
     gd "Unless there’s evidence or we catch them in the act, then we can’t accuse him."
     gd "Let’s go, Kendrick, we have to clean the hall before the meeting starts."
     hide gd calm with dissolve
+    show md calm:
+        linear 0.5 xalign 0.8
+    show kd angry:
+        linear 0.5 xalign 0.2
     "Kendrick stares at Melody with an irritated expression."
     kd "Annoying girl."
-    hide kd calm with dissolve
+    hide kd angry with dissolve
+    show md calm:
+        linear 0.5 xalign 0.5
     "I moved aside and they entered the hall."
     "I look up at Melody. Our eyes met and I let out a big sigh."
     md "Let’s go."
@@ -570,15 +603,18 @@ label melody_scene1:
         "Laugh.":
             $ md_affection = md_affection + 2
             "I look at her and start to laugh uncontrollably. I then collapsed onto the floor and laid down."
+            show md angry with dissolve
             md "What?! What’s so funny?"
             mc "It’s nothing."
             "She gives off an irritated look. I smiled at her."
             mc "I’m just happy that we both got away. But don’t do it again next time!"
+            show md calm with dissolve
             md "Yeah… I’ll stop."
             "I raised both my hands in the air. She came over and helped me up."
             mc "Let’s find something to eat until the meeting."
             "After taking a few steps, Melody grabs my hand."
             "I turn around and face her."
+            show md happy with dissolve
             md "I… thank you."
             mc "Don’t worry about it..."
             
@@ -588,6 +624,7 @@ label melody_scene1:
             mc "I’m just happy that we both got away. But don’t do it again next time..."
             md "Yeah… I’ll stop."
             mc "Let’s find something to eat until the meeting."
+        
         #-----option 3: It’s fine.(MEDIUM)
         "It's fine.":
             $ md_affection = md_affection + 1
@@ -613,16 +650,21 @@ label melody_scene1:
     mc "This game is a rhythm slash music video game. If you’ve ever played Guitar Hero or Osu, it’s similar to that."
     mc "The game is fairly basic, and well be sticking to using piano songs…"
     "I continued to talk until the time ran out."
-    mc "Thank you for listen! My game is called Gentle Keys if you guys and ladies are interested."
+    mc "Thank you for listening! My game is called Gentle Keys if you guys and ladies are interested."
     "The crowd claps once more and I headed towards the exit to get some fresh air."
     
     #SETTING: Outside Lecture Hall (Night)
+label test_md_0:
     scene bg sslh with dissolve
     mc "Phewww… that wasn’t as bad as I thought."
     md "So that’s why you were at the concert hall…"
     mc "Sneaking behind someone is not nice…"
+    show md calm at right
+    show md calm:
+        xalign 1.5
+    show md calm:
+        linear 0.5 xalign 0.5
     "I turn around to face Melody."
-    show md calm with dissolve
     md "Does it look like I’m a nice person??"
     md "Anyway, I’ve decided… I-"
     unknown "[mcname]!!"
@@ -633,34 +675,40 @@ label melody_scene1:
     show ren calm:
         linear 0.5 xalign 0.8
     mc "Ren?!"
-    Ren "Heya! Long time no see."
+    ren "Heya! Long time no see."
     "This is Ren. She’s… well kinda like an older sister to me back in high school. She’s a year above me and I only knew her for one year."
     "But we became really close and she treated me like her little sibling."
     mc "(W-wow. Ren’s so different! Her hair… her outfit. She looks so much older and pretti-)"
     md "Hey! You’re not gonna even say hi to me?"
-    Ren "Oops! Sorry Melody, I got too caught up seeing [mcname] again."
+    ren "Oops! Sorry Melody, I got too caught up seeing [mcname] again."
     md "You still didn’t even say hi to me yet…same old Ren."
     "Both Ren and Melody looked at each other and laughed."
     "Ren then runs up to me and with her arms around me, she started to squeeze me tightly with the side of her face on my torso."
     mc "Hey, wait! Get off me, Ren! I smell! I just presented and I’m soaked."
     "Ren started to sniff my torso."
-    Ren "Liar! You smell so nice! Mmm! It reminds me so much of the good old days."
-    Ren "I missed you so much!"
+    ren "Liar! You smell so nice! Mmm! It reminds me so much of the good old days."
+    ren "I missed you so much!"
     md "Good old days?"
     "One of Melody’s eyebrows raises as she glares at me with a stern and curious look."
     "I start to shake my head violently as Ren continues to squeeze me in her arms."
     mc "(She’s not my ex! She’s not my ex! She’s not my ex!!)"
     mc "Oh HAHAHA! Ren and I are just friends! We’ve known each other back in high school! She would always treat me like a kid, right Ren?"
     "Ren continued to hug me with her cheek rubbing against my body."
-    Ren "Ohhh... mmmm… uhhh. My precious little Angel."
+    ren "Ohhh... mmmm… uhhh. My precious little Angel."
     "I start to nervously laugh"
+    show md angry with dissolve
     "Melody let out a long and sigh and started to shake her head."
+    show md calm with dissolve
     md "Oh boy… this is gonna be long."
     mc "Ehhehehe! Okay, I’ll catch up with you more later, Ren! I’ve got to discuss something with Melody."
-    Ren "Awww… alright. I’ll talk to guys later then! I’ll make sure to join your group too [mcname]!"
-    Ren "Bye guys!"
+    ren "Awww… alright. I’ll talk to guys later then! I’ll make sure to join your group too [mcname]!"
+    ren "Bye guys!"
+    hide ren calm with dissolve
+    show md calm:
+        linear 0.5 xalign 0.5
     "After waving us good-bye, Ren headed out."
     mc "Ohhh boy… that was unexpected."
+    show md angry with dissolve
     "I looked at Melody and she gave me a very, very irritated and impatient look."
     mc "(What should I say now?)"
     menu md_menu5:
@@ -671,6 +719,7 @@ label melody_scene1:
             $ md_affection = md_affection + 1
             mc "I promise you… it’s not what you think!"
             mc "We’re just friends! She’s just a touchy person!"
+            show md happy2 with dissolve
             "With her hand on her stomach she bursts out laughing."
             mc "Why are you laughing??"
             md "Because that was too cringy to watch."
@@ -681,6 +730,7 @@ label melody_scene1:
             "I turn to look at Melody."
             mc "I swear, she’s not my ex girlfriend."
             mc "She’s just a touchy person!"
+            show md happy2 with dissolve
             "With her hand on her stomach she bursts out laughing."
             mc "Why are you laughing??"
             md "Because that was too cringy to watch."
@@ -695,15 +745,558 @@ label melody_scene1:
             mc "EH? Why?!"
             "She tosses her punch half way, but then stops and cross her arms instead."
     #--------End of Option-----------
+    show md calm with dissolve
     md "Anyway, I’m still mad and annoyed because you ignored me earlier."
     mc "Huh? I did?"
+    show md angry with dissolve
     "When I said those words, her eyebrows started to arc and she looked even more annoyed."
     md "Hpmph. I’ve decided to join your group. Don’t tell anyone."
     mc "Eh?! Really??"
     "With her arms crossed and a stern look on her face, she starts to walk away."
+    hide md angry with dissolve
     mc "Oi! Wai-"
     mc "(Is she… angry at me? There’s no way it’s my fault.)"
     mc "(She’s probably having one of those moody days of the month...)"
     mc "Yup. That’s probably it."
     mc "But damn… Ren got a lot cuter than before…"
     mc "Shoot… I should get home, it’s getting kinda late."
+    
+    #SCENE 6
+
+    #SETTING: Anywhere outside, ring road
+    scene bg studentcenter_2 with fade
+    "It’s been a week since pitch night. Melody said she wanted to meet up today to talk about the game. I still couldn’t believe that she wanted to join my group…"
+    "She asked me to meet her up at the piano room. I’m guessing she wants me to record her a few pieces in order to create the audio for the game."
+    with hpunch
+    "Suddenly, as I walk towards the piano room, a random guy bumps into me."
+    mc "My bad, sorry."
+    show kd calm with dissolve
+    kd "If it isn’t the rat again."
+    "It was Kendrick and he has a malicious smirk on his face."
+    mc "What do you want?"
+    show kd angry with dissolve
+    kd "What do I want? I WANT YOU TO TELL ME WHO DID IT!"
+    kd "I know you know."
+    "He grabs me by my shirt. I coldly look at him in the eyes."
+    mc "I don’t know."
+    show kd angry:
+        linear 0.5 xalign 0.2
+    show md calm at right with dissolve
+    show md calm:
+        linear 0.5 xalign 0.8
+    md "Let him go."
+    show kd calm with dissolve
+    kd "Ahhh… your little princess to the rescue again?"
+    kd "I wonder how long she’ll be around to help you."
+    kd "I hoping she does leave. She doesn’t deserve to be here at all."
+    show kd calm:
+        linear 0.5 xalign -1.5
+    hide kd calm with dissolve
+    show md calm:
+        linear 0.5 xalign 0.5
+    "He starts to laugh wickedly and walks."
+    mc "(I really wanted to punch him…)"
+    md "Hey, are you okay?"
+    mc "Yeah. I’m fine. I handle bullies all the time."
+    mc "Oh yeah, what did you want to talk about?"
+    md "Follow me!"
+    "She grabs my hand and started to run towards the piano room."
+    mc "Hey! Wait!..."
+    #SETTING: Piano Room
+    scene bg piano with dissolve
+    show md calm with dissolve
+    md "We’re here."
+    md "I wanted you to..."
+    mc "Play the piano for you to record for the audio?"
+    show md happy with dissolve
+    "She nods her head and smiles."
+    mc "Yeah, that’s no problem at all!"
+    show md calm with dissolve
+    "I turn to look towards the stage."
+    mc "Well… I guess we’ll have to wait our turn. There’s someone here before us."
+    "Melody turns and looks at the stage."
+    hide md calm with dissolve
+    md "Oh… him."
+    show gd calm with dissolve
+    "As we both look, he started to play."
+    mc "Wow… Jeorge Dan’s pretty good. He’s really good!"
+    hide gd calm with dissolve
+    "I look towards Melody and she looked unimpressed and annoyed."
+    show md angry with dissolve
+    md "Yeah he’s good, but does he have to take up our spot."
+    mc "(Our?)"
+    md "Let’s just go to the other piano room…"
+    mc "I think he’s almost done..."
+    hide md angry with dissolve
+    "As Melody starts to walk away, Jeorge Dan stopped playing and claps from one person can be heard."
+    mc "Is that Ren??"
+    show md angry with dissolve
+    "Irritated, she turns and looks at me."
+    md "Let’s go."
+    #PLAYER CHOICE 6----------
+    menu md_menu6:
+        "What should I do?"
+        
+        "Tell her that we should go down there to meet them":
+            #-------option 1---------: Tell her that we should go down there to meet them. (Worse)
+            mc "Let’s go down there and meet them instead!"
+            "Her irritated expression turned for the worse."
+            md "Do whatever you want."
+            "She starts to leave the building."
+            hide md angry with dissolve
+            mc "Hey wait!"
+            "I quickly followed her as she exits."
+
+        "Listen and go with her":
+            #-------option 2---------: Listen and go with her. (Good)
+            $ md_affection = md_affection + 1
+            mc "Okay, let’s go."
+            "I quickly followed her as she exits."
+    #------------End of choice 6------------
+    #SETTING: OUTSIDE
+    scene bg park_1 with fade
+    "We recorded the music that Melody needed and then she left… I wonder why she seemed so irritated back at the concert hall…"
+    "Was it because of Jeorge Dan? Well… I guess she really does hate the club. But why is she still in it if she hates it?"
+    "Tonight is the club meeting and also results… I wonder if Melody is actually in my group."
+     
+    #SCENE 7 
+    #Setting: Outside
+    scene bg dbh_inside with fade
+    "Today’s our first group meeting."
+    "Yesterday was the club meeting and I was pretty surprise to see the results. I totally did not expect it all…"
+    #Setting: Meeting place
+    scene bg gameroom with dissolve
+    "I walk inside to our meeting place and the first thing I noticed was Alex holding her hands between his."
+    show ax calm at left with dissolve
+    show ax calm:
+        linear 0.5 xalign 0.2
+    show ren calm at right with dissolve
+    show ren calm:
+        linear 0.5 xalign 0.8
+    ax "Ren, ohhh Ren! I still can’t believe I’m this lucky to be in a group with such a beautiful girl."
+    ren "Awww, thank you Alex! You’re such a sweetheart!"
+    md "Oh buddy… you fall victim to girls way too easily. I feel bad for you."
+    "Ren was the first one to notice me."
+    ren "[mcname]!!"
+    "She dashes toward me and wraps her arms around me."
+    show ax happy with dissolve
+    ax "Hey dude! You finally made it!"
+    show ax calm with dissolve
+    show ax calm:
+        linear 0.4 xalign 0.0
+    show ren calm:
+        linear 0.3 xalign 0.5
+    show md calm at right with dissolve
+    md "The leader is the last one to be here huh?"
+    mc "Hey everyone…"
+    "I look around the room to get a good look at everyone."
+    "This is my team… the four of us."
+    "Alex is our designer/programmer, Ren is our artist, Melody is our audio girl, and I’m the producer."
+    "I guess our team is solid for this game project."
+    "It was pretty unexpected. I thought that Alex was going to have his own group since he was pitching…"
+    "But it turns out that no one wanted to join his project so he chose to be in mine. That’s good though, because we don’t really have that many members."
+    "I didn’t think Ren would be in our group, but I guess after seeing me, she really wanted to be in my group."
+    "I guess she thinks I’m pretty cute!"
+    "And Melody… well I knew she was going to be in my group but it still feels like a dream."
+    "She looks so beauti…"
+    mc "By the way! I just realized… how come we have 2 officer buddies for such a small group?"
+    ax "Wait, Melody, you didn’t tell [mcname]?"
+    md "Oh yeah… I dropped the board gig. I’m not a board member anymore."
+    md "It didn’t suit me anyway."
+    mc "Oh… that makes sense."
+    "I had a feeling that she was going to drop the board position, but it was a surprise to see her do it so early…"
+    mc "Well then… "
+    "Everyone stares at me intensely as I spoke."
+    mc "Firstly… can you all stop staring at me!!"
+    md "Oh yeah, let me just stare at a wall while you talk!"
+    show ax happy with dissolve
+    "Alex and Ren start to laugh uncontrollably."
+    mc "..."
+    show ax calm with dissolve
+    mc "Okay guys! This game should be pretty simple and straightforward! We also all know each other so this will be easy for us to collaborate."
+    mc "I sent you guys a work schedule and your roles. Let’s get to work everyone!"
+    ax "Sounds good!"
+    md "Yup."
+    ren "Wait!!"
+    "Instantly everyone turns to look at Ren."
+    ren "Before we start, I have a gift for everyone!"
+    "She pulls out 3 slips of paper and hands them to everyone."
+    ren "They’re tickets to the Fall Fair this week!"
+    ren "I’m volunteering there and they gave out free tickets, so as a gift, I’m giving one to each one of you!"
+    ax "Ren!!! I can’t accept this… unless…"
+    ren "Unless?"
+    ax "Unless I can go with you."
+    mc "EHHH?"
+    "I quickly moved my hands to cover my eyes."
+    mc "(This is embarrassing… I can’t watch him get rejected.)"
+    ren "Of course Alex! I’m free on the weekends at night!"
+    mc "(No way…)"
+    show ax happy with dissolve
+    ax "Yes!!! This has to be my luckiest day ever!"
+    md "That was… unexpected."
+    mc "Alright Alex, you fool, get to work before I kick you out of here!"
+    show ax calm with dissolve
+    ax "Sorry! Sorry!"
+    "I couldn’t help but to laugh a little… everyone felt the same."
+    "This group is... perfect. Hopefully we don’t run into any dilemmas."
+    
+    #SCENE 8
+    #SETTING: Player’s Apartment
+    scene bg mc_apartment_inside with fade
+    "The first group meeting went well the other day… It was so much fun working with everyone. Alex, Ren, and especially Melody all looked pretty happy."
+    mc "What should I do today… it’s the weekend and I guess I should take my mind off school."
+    "As I ponder, my eyes took notice of the piece of paper that Jeorge Dan had handed to me that one time."
+    mc "The piano competition huh?"
+    mc "I wonder if he’ll be there… I guess I’ll check it out."
+    mc "He was pretty good when I watched him that one time. I wonder if he’s even better in a competition."
+    #SETTING: Concert Hall
+    scene bg piano with fade
+    mc "There’s actually a lot more people than I had expected. The hall’s almost filled up!"
+    "I went to find a seat and sat down as the competition begins."
+    unknown "Hi everyone, welcome to our this year’s competition!"
+    unknown "We’ll start off right away with our first contestant, Miss Melody!"
+    mc "Melody… WHAT?!"
+    mc "It can’t be the same Melody??"
+    "I focused my eyes heavily towards the stage to see the first contestant walk onto the stage."
+    show md calm with dissolve
+    mc "It’s her!!! No way, she knows how to play the piano?!?"
+    mc "That dress… she looks amazing..."
+    "She was wearing an extremely beautiful dress. And her sheer beauty alone had many of the guys in the audience screaming out her name."
+    "The crowd of excited college boys started to quiet down as she begins to play."
+    mc "She’s really good…"
+    "The way she plays the piano… it wasn’t natural, It wasn’t formal…"
+    "It was aggressive and exciting almost to point where you would want to just stand up and cheer."
+    "Her style of aggression... played perfectly."
+    mc "Beautiful…"
+    "As she finishes up, the crowd ejected from their seats while claps and screams of her name travel throughout the audience."
+    "As the cheering continues, I settle my eyes towards her. Not once did I blink."
+    mc "Melody… she didn’t tell me that she can play the piano."
+    mc "I should go backstage and meet her!"
+    hide md calm with dissolve
+    "My phone rings. I took a step outside to answer it."
+    show phone with dissolve
+    mc "Yeah, what’s up Alex?"
+    ax "Ren… she’s busy!! So she can’t go to the fair with me!!!"
+    "I started to hear sobbing noises coming from the phone."
+    mc "Are you… crying? Man up!!"
+    ax "I can’t… I- I had the perfect chance and now it’s gone."
+    mc "Well… you can always go later with her…"
+    ax "I’m already here…"
+    mc "Oh dear… I guess I’ll come…"
+    ax "Really?"
+    mc "Well… I can’t leave you all by yourself…"
+    hide phone with dissolve
+    scene bg black with fade
+    "I hung up and started to walk towards the fair."
+    mc "This guy is like a child...."
+    #SETTING: Fall Fair
+    scene bg fair with fade
+    mc "Yo."
+    show ax happy with dissolve
+    ax "You made it! This is gonna be a fun friend date!"
+    mc "If you put it that way, I’ma go home."
+    ax "Joking! Joking!"
+    show ax calm with dissolve
+    "We went up to a stall and we decided to play their game in order to win a prize. Then two familiar faces showed up from a distance."
+    "Alex turns his eyes towards the two of them and his excitement quickly returned to a depressed state."
+    ax "So that’s what she meant by ‘busy’…"
+    "Ren was walking aside the president of VGDC, Jeorge Dan."
+    mc "It’s okay buddy, there are more fish in the ocean for you to catch."
+    "I continued to play the game and landed a hoop onto the tip of the glass bottle."
+    "The lady hands me my prize of a stuffed animal and a bracelet."
+    mc "Here take this. I call her Ren."
+    "I handed him the teddy bear that the lady handed me."
+    ax "Real funny…"
+    "I started to laugh."
+    "We hung out and checked the stalls out a little bit more and then headed home."
+    ax "Hey… thanks for hanging out with me."
+    mc "I had to… your date bailed on you."
+    ax "..."
+    mc "I’m joking Hahaha. Alright, laters Alex."
+    ax "See ya."
+    hide ax calm with dissolve
+    "I held the bracelet in my hand as I start to walk home. The bracelet had a music note on it as a design."
+    mc "I should give this to Melody… she’ll like it."
+    
+    #--------Player Choice 7-----------
+    menu md_menu7:
+        "What should I do?"
+        
+        "Call her.":
+            #Option 1(good): Call her.
+            $ md_affection = md_affection + 1
+            "I took out of my phone and started to call her."
+            show phone with dissolve
+            md "What’s up?"
+            mc "Where are you?"
+            md "I’m at the concert hall at school."
+            mc "This late?"
+            md "Yeah, I’m just chilling here by myself."
+            mc "Do you need company?"
+            md "No…"
+            mc "Hmmm…"
+            md "But I do need someone to play the piano so I can record it for our game."
+            "I started to laugh."
+            mc "I’ll be there in a few."
+
+        "Nah, don't call her.":
+            #-----Option 2: Nah, don’t call her.------
+            mc "Maybe next time…"
+            mc "Watching her today was very refreshing…"
+            mc "She made me want to play."
+            "I start to head back to the school, towards the concert hall."
+
+    #END OF CHOICE 7-----------------
+
+    #SETTING: Concert Hall
+    scene bg piano with fade
+    show md calm with dissolve
+    mc "Don’t you get lonely being here by yourself?"
+    md "I prefer the loneliness most of the time."
+    "I walk towards her as she sits on the piano stool."
+    mc "Here. I got this for you."
+    "Reaching for my pocket I took out the bracelet and handed it to her."
+    md "It’s a cute bracelet. I like the design."
+    mc "An interesting thing happened today."
+    md "Hmm?"
+    "I sat myself down on the stool beside her. And started to touch the piano keys."
+    md "Hey… wait! Did I say you can sit next to me?!"
+    mc "One sec, let me finish. So I went to this event, and there was this girl, in a beautiful dress, sitting in this exact spot, and beautifully played this song."
+    "I started to dance my fingers on the keys and played the similar song that she played earlier this morning."
+    "I then turn to look at her. Her eyebrows started to curl inward and her cheeks started to turn red."
+    md "You were watching me?!"
+    mc "Yeah… and so were like 50 other guys screaming your name Hahaha."
+    mc "you’re pretty popular."
+    md "I just play for fun…"
+    mc "I was shook when I heard your name and saw you play… you didn’t tell me that you play the piano."
+    md "It’s not a big deal."
+    mc "You’re really good."
+    show md happy with dissolve
+    md "Thanks…"
+    show md calm with dissolve
+    "We sat there, together, silently for a minute."
+    md "I was planning to leave the club at the start of this year..."
+    md "But after meeting you, I thought it would be fun to stick around a little bit longer, until our project is done."
+    mc "Hmm…"
+    mc "Is there a reason… for why you’re leaving, if you don’t mind?"
+    md "Not my place to be I guess…"
+    mc "Kendrick? Alex told me about you two."
+    md "Oh that little thing?"
+    md "Sort of... We were pretty good friends back then, but he just took everything the wrong way."
+    md "But that’s not the main reason."
+    md "I guess you can say that I’m a little similar to Kendrick…"
+    mc "What do you mean?"
+    md "I… I was pretty close to someone as well. But it’s hard to be around someone who doesn’t feel the same way."
+    mc "One way love, I assume?"
+    "She starts to smile, but sadness can be seen within that smile."
+    md "You’re good at catching on."
+    mc "Nothing is ever the same once you confess your feelings for the person you love..."
+    mc "It can either be reciprocated with the start of a beautiful chapter-"
+    md "Or rejected with an end to a friendship."
+    md "And the love that you have for that person… it will hurt you more than ever."
+    mc "The most beautiful love is the one that is not forced…"
+    mc "So that’s why you’re leaving…"
+    md "Yeah… I just have to accept things for what they are and move on."
+    mc "(The person she loves…)"
+    mc "We should leave soon! It’s getting way too late."
+    md "Mmm. You go first, I’m going to stay here for another minute."
+    mc "I’m sorry to hear about that…"
+    show md happy with dissolve
+    "She shakes her head and smiles."
+    hide md happy with dissolve
+    "As I turn to walk away, she grabs me by my jacket sleeve."
+    show md calm with dissolve
+    "I turn around towards the girl who’s sitting in front of me with her head down."
+    "With one hand on my sleeve, and the other holding the bracelet, her tears started to fall… hitting the ground as they fall…"
+    #SCENE 9
+    #SETTING: player’s apartment
+    scene bg mc_apartment_inside with fade
+    "Last night… that incident with Melody."
+    "I can’t keep her off my mind… and him."
+    "She’s leaving after this project. I need to talk to her today, after the group meeting."
+    "My phone rang as I ponder around my thoughts."
+    show phone with dissolve
+    mc "Alex?"
+    ax "Come to the lecture hall, now!!"
+    mc "What happened?"
+    ax "Melody is in trouble!"
+    hide phone with dissolve
+    "I hung up the phone and instantly dashed out my door."
+    #SETTING: Lecture Hall
+    scene bg meeting_1
+    "Instantly, after entering the lecture hall, my body froze in place as I observe the the walls and boards had graffiti all over it."
+    "At the bottom of the lecture hall, near the podium, were Alex and Melody, next to each other, and facing them, across a table, were Kendrick, and Jeorge Dan."
+    "After observing the situation, I quickly rush to them."
+    mc "What’s going on?!"
+    show kd angry with dissolve
+    kd "None of your business, brat."
+    "My eyes met with Kendrick as he spoke to me. I can see a spiteful happiness coming from his face."
+    hide kd angry with dissolve
+    "Ignoring me, Jeorge Dan looks directly towards Melody."
+    show gd serious at left with dissolve
+    show gd serious:
+        linear 0.3 xalign 0.2
+    show md angry at right with dissolve
+    show md angry:
+        linear 0.3 xalign 0.8
+    gd "As you can see, the room has been vandalized by someone. This person has been causing the club quite a lot of trouble."
+    gd "Kendrick found this object, here, at the lecture hall, and Kendrick identifies it to be yours, Melody."
+    gd "Is this your bracelet?"
+    "He tosses the object onto the table."
+    "It was the bracelet with the music note design that I gave to Melody..."
+    mc "(She couldn’t have done it! She was with me last night!! Someone has to be framing her.)"
+    mc "If this is about Melody being the person vandalizing the room, I can tell you that it’s not her! She was with me last night!"
+    mc "Melody! Tell them!"
+    "She stood there, with her head down, without saying a word."
+    gd "Melody, I ask you again, is this your bracelet?"
+    "She looks up and their eyes met. Sadness filled her eyes as Jeorge Dan confronts her."
+    "She then looks at the bracelet that I gave to her."
+    show md calm with dissolve
+    md "Yes."
+    show gd serious:
+        linear 0.4 xalign 0.0
+    show md calm:
+        linear 0.3 xalign 0.5
+    show kd calm at right with dissolve
+    "Pleased from hearing Melody say those words, Kendrick gives off a nasty smirk."
+    kd "Finally caught the vixen."
+    mc "(I need to shut this guy up!!)"
+    show gd serious:
+        linear 0.5 xalign -1.5
+    show md calm:
+        linear 0.4 xalign -1.5
+    show kd calm:
+        linear 0.3 xalign -1.5
+    with Pause(0.3)
+
+    show ax sad
+    show ax sad:
+        linear 0 xalign 1.5
+    show ax sad:
+        linear 0.3 xalign 0.5
+    "As I move barely an inch towards Kendrick, Alex quickly grabs me and locks me down."
+    ax "Sorry… but you shouldn’t make the situation worse."
+    mc "Let me go Alex!"
+    ax "I’m sorry, just wait till it’s over first. Please keep your cool."
+    "Alex holds me down as I struggle to get loose."
+    show ax sad:
+        linear 0.5 xalign 1.5
+    hide ax sad with dissolve
+    
+    show gd serious:
+        linear 0.5 xalign 0
+    show md calm:
+        linear 0.4 xalign 0.5
+    show kd calm:
+        linear 0.3 xalign 1.01
+    gd "Then Melody, were you the person responsible for the vandalism that happened the past few times?"
+    kd "Come on Jeorge Dan, she already confessed that she’s the person. Just report her to the school and get it over with."
+    md "Yes…"
+    mc "No… no…"
+    "Kendrick turns to Jeorge Dan and starts to laugh comfortably."
+    kd "I told you! I knew it."
+    "Ignoring Kendrick, and with a subtle, but somber expression, he looks at Melody."
+    gd "Leave the club, Melody, and I won’t report this to the school."
+    kd "What?! You’re letting her off too easily! Just report her to the Dean so she can get expelled for this atrocious act."
+    "Jeorge Dan and Melody, their heavy-hearted eyes met once more."
+    md "I’m sorry... for saying those words."
+    hide md calm with dissolve
+    "Suddenly, Melody turned and bolted towards the door, with her tears falling as she ran past me."
+    "Shook by the event that just happened, my whole body and mind froze in place as I stare at Jeorge Dan."
+    kd "I can’t believe you let her go that easily… well at least she’s gone now. She never deserved to be in our club anyway."
+    "Alex’s hold on me suddenly loosened. As I noticed his release, I ceased my eyes from staring at Jeorge Dan and turned it towards Alex..."
+    show gd serious:
+        linear 0.5 xalign -1.5
+    show kd calm:
+        linear 0.3 xalign -1.5
+    with Pause(0.3)
+    hide kd calm with dissolve
+    hide gd calm with dissolve
+
+    show ax sad at right 
+    show ax sad:
+        linear 0 xalign 1.5
+    show ax sad:
+        linear 0.3 xalign 0.5
+    "It wasn’t the joyful Alex, full of life Alex, or the cool headed Alex that I was looking at…"
+    ax "Hey... [mcname]... grab the bracelet and find her will ya."
+    ax "Don’t…"
+    hide ax sad with dissolve
+    show kd calm with dissolve
+    "Suddenly, without warning, he lunges forward towards Kendrick and punches him in the face with his right hand."
+    show ax sad at right
+    show ax sad:
+        linear 0 xalign 1.5
+    show ax sad:
+        linear 0.3 xalign 0.5
+    with Pause(0.2)
+    show kd angry
+    show kd angry:
+        linear 0.3 xalign 0
+    with hpunch
+    kd "OUGHHH!"
+    ax "DON’T EVER TALK TO HER LIKE THAT YOU SWINE!!!!"
+    "Alex then turns and looks at me with pure anger in his eyes."
+    ax "What are you doing!?"
+    ax "GO!! I’ll hold them back!!"
+    hide ax sad with dissolve
+    hide kd angry with dissolve
+    "I quickly ran past them, towards Jeorge Dan, and grabbed the bracelet."
+    show gd serious with dissolve
+    "Our eyes met… He didn’t stop me…"
+    hide gd serious with dissolve
+    "With God’s speed, I turned and ran out of the lecture hall."
+    mc "Don’t leave… please."
+    
+    if md_affection >= 6:
+        jump md_good_ending
+    else:
+        jump md_bad_ending
+        
+    #SCENE 10
+    #Setting: outside
+label md_good_ending:
+    #Good Ending--------------
+    scene bg park_1 with dissolve
+    mc "Hey…"
+    show md angry with dissolve
+    "Standing a couple of yards away from me, she turns and looks."
+    "Her somber eyes met mine as I approach her."
+    "Without saying anything, I open my hand with the bracelet inside it."
+    "Looking at the bracelet, she touches it…"
+    mc "I-"
+    "Tears started to fall from her eyes once again."
+    "As the first of many tears hit the ground, she suddenly lunges towards me."
+    show md calm with dissolve
+    "With her hands grabbing the torso of my shirt, and the side of her face resting against my chest she began to cry helplessly."
+    "I slowly place my arms around her… holding her tightly."
+    mc "I will follow you… wherever you go."
+    #----Black------
+    scene bg black with fade
+    "The night at the concert hall, after the festival, when I gave Melody the bracelet…"
+    "I saw him as I left."
+    #SETTING: Outside at night
+    scene bg night with dissolve
+    show gd calm with dissolve
+    "We both stared at each other, neither one moving a muscle."
+    gd "How was the performance at the concert hall today?"
+    mc "You… you knew Melody would be there… and the flier."
+    gd "Follow her. Wherever she goes… follow her."
+    gd "And give her what I couldn’t."
+    return
+
+    #Bad Ending---------------
+label md_bad_ending:
+    scene bg park_2 with dissolve
+    mc "Hey…"
+    "Standing a couple of yards away from me, she turns and looks."
+    show md angry with dissolve
+    "Her somber eyes met mine as I approach her."
+    "Without saying anything, I open my hand with the bracelet inside it."
+    show md calm with dissolve
+    "Looking at the bracelet, she touches it…"
+    "Tears started to fall from her eyes once again."
+    md "I’m sorry [mcname]... my feelings for him… have not gone away."
+    "She turned and ran."
+    "She ran away… farther and farther away… from my grasp."
+    return

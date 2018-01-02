@@ -57,6 +57,7 @@ label start:
     scene bg black              # Default to black scene in case of missing background
     
     # TESTING
+    #call test_md_2
     #call test_werecat
     #call kd_route
     #call end_scene
@@ -123,9 +124,6 @@ label alex_route:
 # MELODY
 label melody_route:
     call melody_scene1          # MELODY SCENE 1
-    call melody_scene2          # MELODY SCENE 2
-    call melody_scene3          # MELODY SCENE 3
-    call melody_scene4          # MELODY SCENE 4
     return
 #END MELODY
 

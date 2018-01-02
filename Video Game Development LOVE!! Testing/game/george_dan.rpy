@@ -344,7 +344,7 @@ label gd_scene3:
             gd "I was here first, so I couldn’t have!"
             mc "(This guy...)"
             mc "Fine, if I win, you leave."
-            gd "Don’t worry, you won’t will."
+            gd "Don’t worry, you won’t win."
             mc "(THIS GUY!!!)"
             mc "(Was that thunder?)"
             mc "(What the... it’s raining!? What is with the bad luck today! I didn’t even check the weather and I don’t even have an umbrella...)"
@@ -358,11 +358,13 @@ label gd_scene3:
             mc "(What the? Why does he want to know my name for!?)"
             mc "My name is [mcname]"
             gd "Nice to meet you today [mcname]"
+            hide gd calm with dissolve
             mc "(So he did notice me... Maybe I should’ve taken his offer. I sounded pretty rude too...)"
             mc "You idiot... now you’re gonna be going home dripping wet."
             #Setting your apartment
+            scene bg mc_apartment_inside with fade
             mc "(It’s so cold in here!! I need a warm bath so badly!)"
-            mc  "(I turn on the heater and headed for the showers.)"
+            mc "(I turn on the heater and headed for the showers.)"
             mc "What an eventful day today... "
             mc "Maybe I shouldn’t have been so cold towards him..."
             mc "Aiyah... I totally shouldn’t have done that."
@@ -415,7 +417,7 @@ label gd_scene4:
         "Then come and challenge me today!": #(Best)
             $ gd_affection = gd_affection + 1
             mc "Instead of talking big, how bout you come out and play me tonight!"
-            gd "I would love to, but you’ll just have to wait a bit for your that L."
+            gd "I would love to, but you’ll just have to wait a bit for that."
             mc "Hmph. At this rate I guess I’ll just have to wait two lifetimes before I get to beat you."
             gd "Hahaha, one day, when there’s enough time. Bye."
             mc "(That’s... the first time I heard him laugh.)"
