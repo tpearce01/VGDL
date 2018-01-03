@@ -284,7 +284,7 @@ label alex_scene1:
     md "Oh, I'm soooo sorry if I offended you!"
     ax "Your sarcasm isn't necessary."
     show md calm with dissolve
-    md "I'm just curious why you're choosing to do something so... basic. Is it because of [they]"
+    md "I'm just curious why you're choosing to do something so... basic. Is it because of [them]"
     mc "My name is [mcname]."
     md "But does Alex know that? He goes through girls on a weekly basis. Did he bother to learn your name?"
     show ax sad with dissolve
