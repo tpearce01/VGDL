@@ -113,11 +113,6 @@ label gd_route:
 # ALEX
 label alex_route:
     call alex_scene1            # ALEX SCENE 1
-    call alex_scene2            # ALEX SCENE 2
-    call alex_scene3            # ALEX SCENE 3
-    call alex_scene4            # ALEX SCENE 4
-    call alex_scene5            # ALEX SCENE 5
-    call alex_scene6            # ALEX SCENE 6
     return
 # END ALEX
 
