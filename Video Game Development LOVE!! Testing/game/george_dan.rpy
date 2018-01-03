@@ -400,11 +400,11 @@ label gd_scene4:
     ren "Nope. I’ve decided to join your group! Well, if that’s cool with you!"
     mc "Of course!"
     ren "Anyway, we'll find out who will be in our group in the next meeting. I have to head out now, but I'll catch you later."
-    mc "Bye Ren!."
-    ren "See ya!."
+    mc "Bye Ren!"
+    ren "See ya!"
     hide ren with dissolve
     with Pause(0.5)
-    show gd with dissolve
+    show gd calm with dissolve
     gd "You did a nice job up there."
     mc "(That voice...)" 
     mc "Hey, you shouldn’t sneak up on people like that!"
@@ -434,6 +434,7 @@ label gd_scene4:
 #Outside
 label gd_scene5:      
     scene bg sslh with fade
+    show ren calm with dissolve
     ren "Heya!"
     mc "Oh, Hi ren!"
     ren "Are you excited? We find out our team members today."
@@ -472,9 +473,10 @@ label gd_scene5:
 #Setting: Player’s Apartment
 #Characters: MC and gd(Phone)
 label gd_scene6:
-    scene bg mc_apartment_inside with fade
-    show phone with dissolve
+    scene bg black with fade
     mc "(I suddenly wake after hearing a message notification. It's 1 a.m!!)"
+    scene bg mc_apartment_inside with dissolve
+    show phone with dissolve
     mc "(Why is he texting me at 1 a.m?! Why am I so awake now...)"
     gd "Hey, this is me Jeorge, sorry for messaging you this late, but I was wondering when you wanted to meetup to discuss about the game?"
     mc "(Mhhmm should I wait till the morning and answer or should I answer it now..." 
@@ -487,14 +489,15 @@ label gd_scene6:
     mc "(Wait. What did he say? WAIT, WHAT DID I SAY? HOW DID THIS HAPPEN.)"
     gd "Okay, sounds good. I’ll send you my address tomorrow"
     gd "Goodnight."
+    hide phone with dissolve
     mc "(I am so careless... I can’t even fall asleep now.)"
     mc "(It's 3 a.m...)"
     mc "(I'm going to be so tired tomorrow but I can't sleep. All because of him...)"
     
     #Setting: gd’s apartment
     scene bg gd_apartment_inside with fade
-    mc "So this is where the president lives huh?"
     show gd calm with dissolve
+    mc "So this is where the president lives huh?"
     gd "Yeah, it's pretty empty inside"
     mc "It's so clean..." 
     mc "Your apartment is so clean, but you're a guy..."
@@ -558,7 +561,7 @@ label gd_scene6:
     mc "(Today is our VGDC group’s first meeting! I’m so nervous but excited at the same time. Leading a group is such a big task, hopefully I’ll be able to manage.)"
     mc "(I got up and got ready. Hmm I think I should dress a little nicer today...)"
     #Outside anywhere
-    scene bg park_1 with fade
+    scene bg park_1 with dissolve
     mc "(It’s almost time for the meeting... Thinking about it makes my stomach want to curl up.)"
     mc "(I’ll be fine! Let’s go in.)"
     #inside meeting place
@@ -574,8 +577,10 @@ label gd_scene6:
     mc "Then let’s get to work!"
     mc "Hey gd, since we don’t have any writers... do you mind being our main writer?"
     show ren calm:
-        linear 0.5 xalign 0
+        linear 0.4 xalign 0.2
     show gd calm at right with dissolve
+    show gd calm:
+        linear 0.4 xalign 0.8
     gd "Yeah, I don’t mind."
     mc "Thanks!"
     mc  "By the way..."
@@ -665,10 +670,12 @@ label gd_scene6:
     mc "Besides, it’s impossible for me to make time for relaxing since finals and projects are coming up."
     ren "Well… that’s why I’m here! To find the time for you to relax instead of over studying. Haven’t you heard?? Too much studying is equal to ‘student dying’."
     mc "Haha, real funny. I’m gonna fail my exams because of you…"
+    show ren stern with dissolve
     ren "You’re not wrong though. We do have a life ahead of us to worry about and we’re given great opportunities in life to do many great things…"
     ren "But sometimes we forget the things that are also important in our life, and sometimes we don’t realize it until it’s too late."
     mc "(Tears started to fall down her gentle face as she spoke. I can sense feelings of sincerity and regret coming from her.)"
     mc "(What she said weren’t merely just words, but experiences. Experiences that she had gone through. Experiences that shouldn’t be taken lightly. Ren…)"
+    show ren calm with dissolve
     ren "Work hard and enjoy life along the way with others! That’s my motto for sure."
     ren "You also better take care of your health too! You can’t work hard or enjoy life if you’re always out of energy!"
     mc "ren… fine, let’s relax then! You prepare the food and I’ll prepare… the Netfix!"
@@ -681,6 +688,7 @@ label gd_scene6:
     ren "Lunch is ready though! Let’s eat."
     mc "Thank you, Ren."
     #--black--
+    scene bg black with fade
     "Ren left. The place feels a bit empty again. I guess humans are social animals… it does suck feeling lonely."
     "I guess ren is right. You’re enjoying their company so much that when they leave, you just can’t help but get a little sad."
     "Our group’s last meeting is coming up… We finished the project and it’s works amazingly thanks to everyone’s hard work."
@@ -692,10 +700,12 @@ label gd_scene6:
     mc "The last meeting… I can’t believe it’s been a whole quarter already. Everyone worked so hard and the game came out nicely."
     mc "I hope they’ll enjoy my cooking. I mean, why wouldn’t they? I’m a pretty damn good chef. Jeorge Dan seemed to enjoy it the last time I cooked for him..."
     #setting: outside/lobby
+    scene bg dbh_inside with dissolve
     "As I walk towards the room, I start to get that indescribable feeling… the feeling that you get when you know that a story is coming to an end." 
     "I mean, it’s a good ending… but this might be the last time I’ll really get to be this close to everyone."
     "Then everyone will be going off to another group or doing their own thing next quarter. I know that we will all keep in touch, but we won’t be as close as we are now."
     #Enters the room
+    #scene bg gameroom with dissolve
     "Well, that’s part of the journey I guess. Let’s enjoy this last moment…"
     show gd calm with dissolve
     mc "WHY ARE YOU THE ONLY ONE HERE??"
@@ -715,7 +725,7 @@ label gd_scene6:
     "He starts to eat my food."
     gd "You’ll get to do it later, when we hang out after finals."
     mc "You’re… actually eating my food."
-    show gd smile with dissolve
+    #show gd smile with dissolve
     gd "It’s pretty good. Your cooking tastes even better the second time. It’s a shame that the group’s not here to try it."
     mc "(Why am I blushing!?)"
     #Player Option 
@@ -777,7 +787,7 @@ label gd_scene6:
             "He opens the the second frame underneath the first frame to reveal another picture. It was a double picture frame."
             mc "That’s.... us…"
             "It was a picture of me staring at him angrily during a group meeting. My irritated eyes glaring at him and his subtle posture. Ren took this picture."
-            show gd smile with dissolve
+            #show gd smile with dissolve
             gd "I like this one. I got it for you as a personal thank you for holding the team together and creating a memorable experience for all of us." 
             "I was shook. Words did not come to me. I did not expect this. As I stare at the pictures, I wanted to thank him, but I couldn’t say a word. I only shed a few tears."
             show gd calm with dissolve
@@ -789,12 +799,14 @@ label gd_scene6:
             "I looked at him in the eyes and he gently smiles back. As the night went on we talked to each other endlessly as we ate. I was getting to know him more and… it was nice."
             gd "That was really good. Thank you for the meal."
             mc "No worries."
+            show gd serious with dissolve
             gd "It’s been a whole quarter already huh?..."
             mc "Yeah… are you leaving now?"
+            show gd calm with dissolve
             gd "Is that your basketball over there?"
             mc "Yeah."
             "He didn’t answer my question but instead grabs my hand."
-            show gd smile with dissolve
+            #show gd smile with dissolve
             gd "Let’s go, I want you to see something."
             mc "Huh?"
             "He picks up the basketball."
@@ -828,9 +840,12 @@ label gd_scene6:
     gd "Let’s see you do that again."
     "I did the same thing once again, but this time he swiftly moved back and tries to block me, but this time I reversed my layup and scored once again."
     "Our bodies made contact during the shot and as I landed I felt a stinging pain coming from my left foot and I yelled out in pain."
+    show gd serious with dissolve
     gd "Hey are you okay??"
     mc "Scored and one."
+    #show gd smile with dissolve
     "He just slightly laughs and carried me over to a bench. We sat down on the bench."
+    show gd calm with dissolve
     gd "Let me see your foot."
     mc "It’s fine, just a tiny sprain, I get them all the time. I can still walk fine, it just hurts a little."
     gd "Well, I guess the game is over..."
@@ -838,7 +853,9 @@ label gd_scene6:
     gd "Then I guess you win the bet. I’ll leave you alone in here now."
     "I grabbed him by the arm. He turns and looks me in the eyes."
     mc "So you’re just going to leave me here, at night, after you injured me?!"
+    #show gd smile with dissolve
     gd "I’m joking, I’m joking. Hahaha."
+    show gd calm with dissolve
     gd "It’s been a whole quarter already huh? Sorry it took this long for our rematch."
     mc "Don’t worry, I understand. Ren told me that you’re always busy so it only makes sense."
     mc "So what are you going to do during winter break? Are you gonna go home?"
@@ -849,7 +866,9 @@ label gd_scene6:
     mc "(Huh? That’s a weird question…)"
     mc "Uhmm… he’s just a uhhh… regular, nosy, old fool that always try to piss me off!!"
     mc "(Thinking about him is making me annoyed.)"
+    #show gd smile with dissolve
     gd "Oh I see. Hahaha."
+    show gd calm with dissolve
     mc "But I guess he’s wise and caring… sometimes."
     mc "(I wonder why he’s asking about my dad… I should ask him about his dad.)"
     mc "How’s your dad like?"
@@ -858,7 +877,9 @@ label gd_scene6:
     gd "If you tried your best to help someone but they refuse to accept your help, will you ever give up on them?"
     mc "If you know that you will never forgive yourself for giving up on them… then you should never let go of them."
     mc "Maybe they’re lonely… and they need someone to clear those gray clouds of loneliness."
+    show gd serious with dissolve
     gd "I see…"
+    show gd calm with dissolve
     "He then grabs my arms and put them around his neck."
     gd "I’ll take you home."
     mc "I can walk on my own you know..."
@@ -867,6 +888,7 @@ label gd_scene6:
     mc "(Always playing the prince while I play the princess in distress…)"
     "Just like then… quiet but comforting. I couldn’t help but to smile as I rest my head onto his shoulders."
     #--black-- 
+    with fade
     "Suddenly, a black car stops in front of us, blocking us from moving forward."
     "A man around my dad’s age came out of the car. Exiting the passenger side was a woman... "
     show gd calm:
@@ -905,40 +927,49 @@ label gd_scene6:
     ren "I thought you knew… hahaha."
     mc "You told me you had plans with him so I thought you two… like each other…"
     ren "Oh that… we were just planning to visit our mom in the hospital like usual. Here, sit down, drink some water, and I’ll explain to you everything…"
+    
     ren "So first off, that man you saw is Jeorge Dan’s birth father and my stepfather. Jeorge Dan and I both came from different parents."
     ren "I was born in Japan. My birth father passed away before I was born. Around a year before, Jeorge Dan’s mother passed away as well when he was only a baby."
-    ren"At that time Jeorge Dan’s father and mother owned a big business chain in Japan. After having Jeorge Dan, his mother fell ill and became a victim to the passing of time."
+    ren "At that time Jeorge Dan’s father and mother owned a big business chain in Japan. After having Jeorge Dan, his mother fell ill and became a victim to the passing of time."
+    show ren stern with dissolve
     ren "The loss of his wife burdened him heavily. Before her death she apologized to him for being the first one to leave so early. She asked him to be strong and to carry their child with both arms of love."
     ren "‘If only I could hold our child one last time… I will always love and protect the two of you.’ were her last words."
     ren "With his wife’s dying words, the crying man promised to live on and raise their child into a fine person."
+    show ren calm with dissolve
     ren "As life went on, his business required his presence so he needed someone to take care of his child. He found a widow desperately seeking a job to support her daughter."
     ren "At that time, she had no one to support or help her. To her, the man had saved her life and also her daughter’s life... no one would hire her, a lonely widow with a child."
     ren "She raised the child like her own, with love and care that only a mother can give. And that love, that she showed to the child, moved his father."
     ren "To him, watching her hold the child in her arms, was like watching the spirit of his own wife before his eyes. It brimmed his body full of warmth and life once more. In him, a cold and long winter had ended."
     ren "He would always come home a bit early. Hiding from a corner, he would watch her hold the child in both arms… He was falling in love with each, and every look."
+    show ren stern with dissolve
     ren "Although he was in love, he was not ready to move on. He would truly never confess his feelings for her."
     ren "Years went by, the little boy started to grow up with the care of the woman. Eventually calling her his mother. Jealous, the little girl also called the man her father." 
     ren "Regardless of being married, the love that the man and the woman showed to the two children were undeniable. The four of them were like a family."
     ren "Soon after, the father wanted to expand his business to America. He wanted to move there, but he wasn’t sure of what to say to the her."
     ren "On the top of a hillside of his house he told her about his plans and tells her that she doesn’t have to come if she doesn’t wish to."
+    show ren calm with dissolve
     ren "With that she replied, ‘I owe you my life. And if you wish, I will follow you wherever you go.’"
     ren "Happy to hear that, he moved over to America with his family. Unfamiliar with the weather, she started to get minor illnesses. Aside from that, they lived happily in their new found home."
     ren "They little boy, under the guidance of his mother and father, had become a smart, humble and capable person."
     ren "With each and every day with her, the man’s love for her became stronger. Understanding that his previous wife wanted him to live on, he was finally ready to confess his love for her."
+    show ren stern with dissolve
     ren "But before he had the chance to do so, she fell into a coma. Without any notice, without any time, without a word, she had already left him and their family. The family was in sorrow."
     ren "Sadness and despair consumed him once more. Even though he knows that there’s hope, every day that she didn’t wake up, despair thinned his hopes."
     ren "Day by day, night by night he would skip work and sleep to be by her side at the hospital. The despair and burden drove him to absolute madness. He cursed at the Gods for bringing such curse into his life."
     ren "He just wanted to be happy with his family. The madness started to eat away at him; he started to believe that if the Gods took away his loved ones instead of his wealth, then money has to be the answer to his happiness."
     ren "Slowly, he came to the hospital less frequently, and eventually he stopped going. He stopped caring about everything and everyone; he only looked for more wealth and power."
+    show ren calm with dissolve
     ren "Years went by, his children, seeing his despair, tried everything they could to help him. But never did listen or accepted what they had to say."
     ren "‘You’re adults now. Either you stay and do as I say, or you can leave.’ Were his last words to his children."
-    ren"His son, not accepting of his corrupt ways and desire for power, left. He took his sister and ran off."
+    ren "His son, not accepting of his corrupt ways and desire for power, left. He took his sister and ran off."
+    show ren sad with dissolve
     "As Ren spoke, I can see tears coming out from her as she tries to hide them."
     ren "And yeah… we went up north for a year. That’s where I attended your high school and Jeorge Dan attended the university there."
     ren "But eventually we both missed home too much. We missed our mom. When Jeorge Dan heard that our father had moved back to Japan, he instantly took us back here."
     ren "The reason why our father came back and looked for Jeorge Dan was to… I’m not sure why actually. But something is different about him… but… maybe he misses us."
     mc "Ren…"
     mc "By the way, how did you know all of his past so well?"
+    show ren calm with dissolve
     ren "I found his diary. Hehe."
     mc "You nosy child..."
     mc "(Her father… poor soul. Her mom… Their family went through so much."
@@ -946,7 +977,7 @@ label gd_scene6:
     ren "I want us to be a family again..."
     "I tightly grabbed onto Ren’s hands. Her cold, cold hands."
     mc "If you know that you’ll regret not helping him, then never stop helping him! Don’t lose hope!"
-    ren "(y/n)... Thank you."
+    ren "[mcname]... Thank you."
     "As Ren sat beside me. I started to slowly fall asleep. I looked at her and she too was slowly falling asleep."
     #--black-
     scene bg black with fade
@@ -961,11 +992,12 @@ label gd_scene6:
     "I grabbed my phone and texted him, but he didn’t reply."
     "I decided to get some fresh air. My foot was still hurting."
     #Setting: Outside of apartment
-    scene bg mc_apartment_outside with dissolve
+    scene bg gd_apartment_outside with dissolve
     "When I walked outside I saw him… he was standing against a tree in front of my place."
     show gd calm with dissolve
     gd "Is Ren in there?"
     mc "Yeah. Aren’t you cold? Do you want to go inside?"
+    show gd serious with dissolve
     gd "No, it’s okay. I just need to talk to you."
     mc "Ren told me everything about you, your dad, your mom, and your family."
     gd "I see."
@@ -976,9 +1008,11 @@ label gd_scene6:
     gd "You’re right, I’m not going to give up on him."
     gd "He asked me to go to Japan with him."
     mc "Japan? Are you going?"
+    show gd calm with dissolve
     gd "Yeah. I’m packing tonight and leaving tomorrow."
     "I didn’t think that he was going to leave so suddenly..."
     mc "But what about Ren and your mom…?" 
+    show gd serious with dissolve
     gd "Tell Ren I apologize for leaving her… I’ll be back, but in the meantime, tell her to take care of our mother for me. And I’m sorry, but I won’t make it to the club’s last meet up."
     mc "You really are leaving. It’s okay... I understand."
     mc "I…"
@@ -988,6 +1022,7 @@ label gd_scene6:
         "Wish him good luck.":
             #Option 1: Wish him good luck. (good)
             $ gd_affection = gd_affection + 1
+            show gd calm with dissolve
             gd "Mhm?"
             "I shook my head."
             mc "It’s nothing. Good luck! Don’t lose hope, I believe in you."
@@ -995,6 +1030,7 @@ label gd_scene6:
         "Run up to him and give him a hug":
             #option 2: Run up to him and give him a hug.(best)
             $ gd_affection = gd_affection + 2
+            show gd calm with dissolve
             gd "Mhm?"
             "I ran up to him and wrapped my arms around his body."
             mc "Thank you... "
@@ -1002,62 +1038,67 @@ label gd_scene6:
             gd "I’m going to miss you."
             "Tears filled my eyes…"
             #end of option
-            "He turned around and took a few steps forward."
-            gd "Hey, thanks for everything… and tell your dad I said hi."
-            mc "Huh?? Do you know my dad?! Hey wait up!"
-            hide gd calm with dissolve
-            "As he walks away with his back facing me, he pulls out his left hand and waves it."
-            mc "This guy… always playing the cool guy. And how does he know my dad?"
-            show phone with dissolve
-            "I opened up my phone and called my dad."
-            mc "Come on old man… pick up. PICK UP…"
-            dad "Hey… what’s up? Why are you calling so late?"
-            mc "Do you know a guy by the name of Jeorge Dan, dad?"
-            dad "Yeah, he was one of my student and mentee. He studied under me and stuff. Why? Did you meet him?"
-            "I was shook, I didn’t actually believe it. There’s no way…"
-            mc "Remember the guy I told you about, the one that I thought I had met before. Yeah that’s him."
-            dad "Oh I see… You did meet him before though."
-            mc "I DID!?!"
-            dad "Yeah, I brought him over for dinner a few years ago. You cooked the family dinner but you had a meeting to go to so you dashed out and left before actually meeting him."
-            dad "You guys crossed paths at the front door, but I don’t think you noticed him."
-            mc "You’re kidding me."
-            dad "He tried your food by the way."
-            mc "What?! What... did he say about it??"
-            dad "Too salty."
-            mc "Are.. are you serious?"
-            dad "No. Hahaha. He said he enjoyed it very much."
-            mc "You evil man…"
-            mc "So he did try my food before. This world is too small for comfort. And how dare you allow him to eat my cooking without telling me!!"
-            dad "..."
-            mc "Hey don’t you hang up on… He actually hung up on me… again!! Guys are so annoying."
-            "I couldn’t believe it… we had crossed paths before. I certainly didn’t recognize him, but he recognized me."
-            mc "He played me like a fool… and I fell for all of it. Hahaha. That guy is definitely annoying."
-            mc "I’m really going to miss him…"
-            hide phone with dissolve
-            
-            #setting: inside player’s apartment
-            scene bg mc_apartment_inside with fade
-            show ren with dissolve
-            mc "Good morning Ren."
-            ren "Oi… how long did I sleep for? That sleep was actually super comforting."
-            mc "Yeah you knocked out pretty early."
-            mc "Hey Ren, I have something to tell you..."
-            mc "After you fell asleep, I met up with Jeorge Dan outside…"
-            "I explained to her what Jeorge Dan had told me…"
-            ren "I had a feeling that would happen…"
-            mc "You’re not sad?"
-            ren "Of course I’m sad, but I know it’s for the best and someone has to take care of our mom ya know."
-            ren "One sec, someone is calling me, I’ll be right back."
-            "Ren went into the the kitchen and answered the call. Suddenly, I heard Ren dropping her phone. She came jolting towards me as if she was chased by a cougar."
-            ren "I’m heading to the hospital now!"
-            mc "Did something happen!?"
-            ren "My mom just woke up!!"
-            mc "No way! Did you tell Jeorge Dan?!"
-            ren "No, I’m not sure if he left yet or not, but I’m going to head there now!"
-            mc "Okay, run Ren! I’ll check if he’s still at his place."
-            "I quickly pulled out my phone and texted him."
-            mc "Please see my message."
-            "I grabbed my jacket and started sprinting towards Jeorge Dan’s place."
+    "He turned around and took a few steps forward."
+    gd "Hey, thanks for everything… and tell your dad I said hi."
+    mc "Huh?? Do you know my dad?! Hey wait up!"
+    hide gd calm with dissolve
+    "As he walks away with his back facing me, he pulls out his left hand and waves it."
+    mc "This guy… always playing the cool guy. And how does he know my dad?"
+    "I opened up my phone and called my dad."
+    mc "Come on old man… pick up. PICK UP…"
+    show phone with dissolve
+    dad "Hey… what’s up? Why are you calling so late?"
+    mc "Do you know a guy by the name of Jeorge Dan, dad?"
+    dad "Yeah, he was one of my student and mentee. He studied under me and stuff. Why? Did you meet him?"
+    "I was shook, I didn’t actually believe it. There’s no way…"
+    mc "Remember the guy I told you about, the one that I thought I had met before. Yeah that’s him."
+    dad "Oh I see… You did meet him before though."
+    mc "I DID!?!"
+    dad "Yeah, I brought him over for dinner a few years ago. You cooked the family dinner but you had a meeting to go to so you dashed out and left before actually meeting him."
+    dad "You guys crossed paths at the front door, but I don’t think you noticed him."
+    mc "You’re kidding me."
+    dad "He tried your food by the way."
+    mc "What?! What... did he say about it??"
+    dad "Too salty."
+    mc "Are.. are you serious?"
+    dad "No. Hahaha. He said he enjoyed it very much."
+    mc "You evil man…"
+    mc "So he did try my food before. This world is too small for comfort. And how dare you allow him to eat my cooking without telling me!!"
+    dad "..."
+    hide phone with dissolve
+    mc "Hey don’t you hang up on… He actually hung up on me… again!! Guys are so annoying."
+    "I couldn’t believe it… we had crossed paths before. I certainly didn’t recognize him, but he recognized me."
+    mc "He played me like a fool… and I fell for all of it. Hahaha. That guy is definitely annoying."
+    mc "I’m really going to miss him…"
+    
+    #setting: inside player’s apartment
+    scene bg mc_apartment_inside with fade
+    show ren calm with dissolve
+    mc "Good morning Ren."
+    ren "Oi… how long did I sleep for? That sleep was actually super comforting."
+    mc "Yeah you knocked out pretty early."
+    mc "Hey Ren, I have something to tell you..."
+    mc "After you fell asleep, I met up with Jeorge Dan outside…"
+    "I explained to her what Jeorge Dan had told me…"
+    show ren stern with dissolve
+    ren "I had a feeling that would happen…"
+    mc "You’re not sad?"
+    show ren calm with dissolve
+    ren "Of course I’m sad, but I know it’s for the best and someone has to take care of our mom ya know."
+    ren "One sec, someone is calling me, I’ll be right back."
+    hide ren with dissolve
+    "Ren went into the the kitchen and answered the call. Suddenly, I heard Ren dropping her phone. She came jolting towards me as if she was chased by a cougar."
+    show ren calm with hpunch
+    ren "I’m heading to the hospital now!"
+    mc "Did something happen!?"
+    ren "My mom just woke up!!"
+    mc "No way! Did you tell Jeorge Dan?!"
+    ren "No, I’m not sure if he left yet or not, but I’m going to head there now!"
+    mc "Okay, run Ren! I’ll check if he’s still at his place."
+    hide ren calm with dissolve
+    "I quickly pulled out my phone and texted him."
+    mc "Please see my message."
+    "I grabbed my jacket and started sprinting towards Jeorge Dan’s place."
 
     #Setting: outsid
     scene bg gd_apartment_outside with fade
@@ -1086,6 +1127,7 @@ label gd_bad_end:
     show phone with dissolve
     mc "‘Ren: Jeorge Dan made it here to the hospital!!’"
     "tiny droplets of rain started to run down my face."
+    hide phone with dissolve
     mc "That’s good… he made it to the hospital."
     mc "I wish…"
     mc "I wish I had gotten to know him more."

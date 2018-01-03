@@ -113,11 +113,6 @@ label gd_route:
 # ALEX
 label alex_route:
     call alex_scene1            # ALEX SCENE 1
-    call alex_scene2            # ALEX SCENE 2
-    call alex_scene3            # ALEX SCENE 3
-    call alex_scene4            # ALEX SCENE 4
-    call alex_scene5            # ALEX SCENE 5
-    call alex_scene6            # ALEX SCENE 6
     return
 # END ALEX
 
@@ -229,17 +224,9 @@ init python:
         if index == 4:
             is_werecat = True
             return True
-        is_werecat = False ## TESTING - SET TO TRUE, OTHERWISE SET FALSE
+        is_werecat = False 
         return False
-        ## NOTES ON WERECAT GEORGE DAN ##
-        # TO DO:
-        #       > Add werecat art
-        #       > Find + Replace all "show gd calm" --> 
-        #           if is_werecat:
-        #               show gd werecat calm
-        #           else:
-        #               show gd calm
-        #       > Repeat for all emotions
+
     
     # FUNCTION set_route - SET ROUTE STRING BASED ON AFFECTION
     def set_route():
