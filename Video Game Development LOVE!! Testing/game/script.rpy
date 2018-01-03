@@ -271,4 +271,5 @@ init:
         image gd flustered = "gd flustered_ears.png"
         image gd sad = "gd sad_ears.png"
         image gd serious = "gd serious_ears.png"
+        image gd smile = "gd smile_ears.png"
         
