@@ -141,6 +141,7 @@ label gd_scene3:
             mc "Wait a minute, why am I, a [gender_d], picking up the bottle for you who obviously bumped into me??" #Can the gender be removed?
             mc "(WHAT AM I SAYING?! THIS IS NOT ME.)"
             gd "My apologies. You picked up my bottle so fast that I didn’t even have time to react."
+            show gd smile with dissolve
             gd "Thank you very much though."
             mc "(He looks so tall and handsome close up... Wait what?)"
             mc "Uhhh you’re the worst kind of guys, just make sure to not get in my way next time Hmfph!"
@@ -191,6 +192,7 @@ label gd_scene3:
             mc "(If he yawns then that means that he’s definitely looking at me! Hehe, I’m a genius!)"
             "He then yawns almost instantly!"
             mc "HA I KNEW IT!"
+            show gd smile with dissolve
             "(gd gives a slight chuckle)"
             mc "(Did he just smirk at me?)"
             "Before I noticed, the people in the room were all staring at me except for him."
@@ -262,11 +264,13 @@ label gd_scene3:
             gd "Oh, it’s you, the one that yelled out loud at the library."
             mc "I DID NOT DO..."
             mc "So you ARE stalking me!!"
+            show gd smile with dissolve
             gd "I mean... I can’t be the one stalking you if I’m always the one here before you."
             gd "So are YOU stalking me?"
             mc "(He’s smiling at me! He’s ridiculing me! This guy pisses me off so much!!!)"
             mc "Why you..."
             mc "So you do notice me!"
+            show gd calm with dissolve
             gd "Of course I would notice my stalker."
             mc "(I swear this guy’s only job in life is to piss me off.)" 
             mc "I’ll make you eat your words you smart ass!!"
@@ -275,6 +279,7 @@ label gd_scene3:
             mc "(That smirk of his, I’ll make sure to slam this ball onto his face.)"
             "With force, I pass the ball to him."
             mc "Here! Take this. You start."
+            show gd happy with dissolve
             gd "Nice pass."
             gd "Are you ready?"
             mc "(Yeah, I’m ready to kick your ass.)"
@@ -289,9 +294,11 @@ label gd_scene3:
             show gd calm with dissolve
             "He's holding an umbrella over my head."
             mc "(This guy... what does he want. He’s probably going to ask me if he can walk me home.)"
+            show gd smile with dissolve
             gd "I’ll walk you home."
             mc "(Who does this guy think he is?? He didn’t even ask me, he just demands that I walk home with him.)"
             mc "No thanks. I’d rather stay in the rain."
+            show gd calm with dissolve
             gd "Then I will stay here in the rain, together, with you."
             mc "(Huh??..."
             "Unexpected were his words as I turned my head to look at him."
@@ -303,6 +310,7 @@ label gd_scene3:
             "He stood next to me, with his umbrella above us as we walk through our reflection on the concrete."
             "(he quietness wasn’t awkward between us, but instead it felt... comforting, as if two friends had reunited after years of isolation..."
             "No words needed. The sound of the rain spoke for us."
+            show gd calm with dissolve
             "Once we arrived in front of my place, I turn to look up at him."
             mc "Uh-um.. Thanks for walking me home."
             "He looks me in the eyes and smiles."
@@ -410,6 +418,7 @@ label gd_scene4:
     mc "Hey, you shouldn’t sneak up on people like that!"
     gd "Long time no see."
     mc "Too scared to go to the park and get beaten?"
+    show gd happy with dissolve
     gd "Don’t worry, I won’t lose to a stalker."
     mc "(Stalker!? Why you... no I shouldn’t fall for his taunts.)"
     menu gd_menu4:
@@ -508,6 +517,8 @@ label gd_scene6:
     gd "Well the fri... I guess you found the fridge."
     mc "(I opened up his fridge and there was so much food inside! I really wanted to cook too because I haven’t cooked in so long.)"
     mc "So much fresh ingredients in here... You mind if I cook?"
+    show gd calm:
+        linear 0.3 xalign 0.55
     gd "Cook?! Are you really going to cook right now?"
     mc "Why? Is that a problem, huh?"
     gd "Uhh no, feel free to cook yourself anything."
@@ -519,15 +530,19 @@ label gd_scene6:
     gd "Hahaha, I see."
     mc "Can you pass me the bowl over there and cut up the tomatoes."
     gd "Yeah."
+    show gd calm:
+        linear 0.3 xalign 0.5
     gd "You’re pretty good at cooking, but why did you suddenly want to cook?"
     mc "I don’t cook often, but since I have all these ingredients and someone to test my cooking, I can’t let go of such opportunity."
     mc "(He just smiled and did not say anything back.)"
     mc "(We cooked for an hour or so and the food came out great.)"
+    show gd smile with dissolve
     gd "It smells great, thanks for cooking me dinner."
     mc "What? Don’t think this is free. You owe me a dinner too."
     gd "Then I’ll have to come to your apartment and use your ingredients."
     mc "Nevermind. I take that back."
     gd "Hahaha. Let’s eat!"
+    show gd calm with dissolve
     mc "(As we ate, I noticed a weird outfit on his table.)"
     mc "Is that your halloween costume?"
     mc "This is one good detective costume! Where did you get it?"
@@ -537,10 +552,13 @@ label gd_scene6:
     mc "Damn it, my shirt... it ripped"
     gd "Here, take off your shirt."
     mc "WHAT?! HUH?! YOU PERVERT."
+    show gd smile with dissolve
     gd "Here take this shirt, put it on, and give me your shirt, I won't look."
+    hide gd smile with dissolve
     mc "(This guy... what is he up to. I took off my shirt, put on the other one and handed it to him.)"
     mc "Here."
     mc "(He pulls out his sewing kit and starts to sew my shirt together... he does know how to do a lot of things...)"
+    show gd calm with dissolve
     gd "Here ya go, sorry I wasn't able to do a better job."
     mc "You sure know how to do everything huh..." 
     gd "It's called being a responsible adult." 
@@ -549,6 +567,7 @@ label gd_scene6:
     gd "I meant that there are many different kinds of adults..."
     gd "Well it's late, we weren't able to discuss much, but we can talk about the game another day."
     mc "Let’s at least plan out the first group meeting first!"
+    show gd smile with dissolve
     gd "Sounds good."
     
     #Club Meetings
@@ -725,7 +744,7 @@ label gd_scene6:
     "He starts to eat my food."
     gd "You’ll get to do it later, when we hang out after finals."
     mc "You’re… actually eating my food."
-    #show gd smile with dissolve
+    show gd smile with dissolve
     gd "It’s pretty good. Your cooking tastes even better the second time. It’s a shame that the group’s not here to try it."
     mc "(Why am I blushing!?)"
     #Player Option 
@@ -736,6 +755,7 @@ label gd_scene6:
             gd "Yeah, I love it."
             mc "Thanks."
             mc "...Why did you come if you knew that everyone else wasn’t coming?"
+            show gd calm with dissolve
             gd "I am the group’s main buddy officer so it’s my duty to be here at this final meeting to thank you for an amazing quarter and congratulate you for your hard work."
             gd "Also... I didn’t want you to be here alone all by yourself."
             mc "I… Thanks."
@@ -745,10 +765,12 @@ label gd_scene6:
             "I turned back around and looked at him."
             gd "Let’s finish our one on one match today."
             mc "Now you finally want to lose?"
+            show gd smile with dissolve
             gd "Let’s see if you’ll still say that after the game."
             mc "You’re on."
             gd "Before that, here."
             "He hands me a wooden double picture frame."
+            show gd calm with dissolve
             gd "I always get it for everyone in the group that I’m in. It’s like a souvenir... to remind them that they were a part of a wonderful journey."
             gd "The other one is special. I got it for you as a personal thank you for holding the team together and creating a memorable experience for all of us." 
             "I hadn’t expected this at all… I was awed. I looked at him in the eyes and he gently smiles back."
@@ -759,6 +781,7 @@ label gd_scene6:
             mc "Is it really that good?"
             gd "Yeah, I love it."
             mc "Anyway… why did you come if you knew that everyone else wasn’t coming?"
+            show gd calm with dissolve
             gd "I am the group’s main buddy officer so it’s my duty to be here at this final meeting to thank you for an amazing quarter and congratulate you for your hard work."
             gd "Also... I didn’t want you to be here alone all by yourself."
             mc "Thanks... actually, come with me!"
@@ -781,13 +804,15 @@ label gd_scene6:
             gd "Some objects are good to keep around. It reminds you that you are never alone in this world."
             mc "Since when did you get that?"
             "The item that he placed on my table was a picture of our group together."
+            show gd smile with dissolve
             gd "I always get it for everyone in the group that I’m in. It’s like a souvenir... to remind them that they were a part of a wonderful journey."
             gd "This one... is special."
             mc "(There’s something behind it…)"
+            show gd calm with dissolve
             "He opens the the second frame underneath the first frame to reveal another picture. It was a double picture frame."
             mc "That’s.... us…"
             "It was a picture of me staring at him angrily during a group meeting. My irritated eyes glaring at him and his subtle posture. Ren took this picture."
-            #show gd smile with dissolve
+            show gd smile with dissolve
             gd "I like this one. I got it for you as a personal thank you for holding the team together and creating a memorable experience for all of us." 
             "I was shook. Words did not come to me. I did not expect this. As I stare at the pictures, I wanted to thank him, but I couldn’t say a word. I only shed a few tears."
             show gd calm with dissolve
@@ -806,7 +831,7 @@ label gd_scene6:
             gd "Is that your basketball over there?"
             mc "Yeah."
             "He didn’t answer my question but instead grabs my hand."
-            #show gd smile with dissolve
+            show gd smile with dissolve
             gd "Let’s go, I want you to see something."
             mc "Huh?"
             "He picks up the basketball."
@@ -843,7 +868,7 @@ label gd_scene6:
     show gd serious with dissolve
     gd "Hey are you okay??"
     mc "Scored and one."
-    #show gd smile with dissolve
+    show gd smile with dissolve
     "He just slightly laughs and carried me over to a bench. We sat down on the bench."
     show gd calm with dissolve
     gd "Let me see your foot."
@@ -853,7 +878,7 @@ label gd_scene6:
     gd "Then I guess you win the bet. I’ll leave you alone in here now."
     "I grabbed him by the arm. He turns and looks me in the eyes."
     mc "So you’re just going to leave me here, at night, after you injured me?!"
-    #show gd smile with dissolve
+    show gd smile with dissolve
     gd "I’m joking, I’m joking. Hahaha."
     show gd calm with dissolve
     gd "It’s been a whole quarter already huh? Sorry it took this long for our rematch."
@@ -866,7 +891,7 @@ label gd_scene6:
     mc "(Huh? That’s a weird question…)"
     mc "Uhmm… he’s just a uhhh… regular, nosy, old fool that always try to piss me off!!"
     mc "(Thinking about him is making me annoyed.)"
-    #show gd smile with dissolve
+    show gd smile with dissolve
     gd "Oh I see. Hahaha."
     show gd calm with dissolve
     mc "But I guess he’s wise and caring… sometimes."
@@ -1034,9 +1059,11 @@ label gd_scene6:
             gd "Mhm?"
             "I ran up to him and wrapped my arms around his body."
             mc "Thank you... "
+            show gd smile with dissolve
             "He placed his hand on the back of my head and moved it towards his chest."
             gd "I’m going to miss you."
             "Tears filled my eyes…"
+            show gd calm with dissolve
             #end of option
     "He turned around and took a few steps forward."
     gd "Hey, thanks for everything… and tell your dad I said hi."
@@ -1148,6 +1175,7 @@ label gd_good_end:
     mc "Always ignoring me and changing the subject..."
     "I gave him a slight laugh and he picked up my arms, wrapped it around his neck, and carried me on his back."
     "I tightened my wrap around him. Tears were coming out of my eyes. I rested my face against his shoulders next to his warm cheek."
+    show gd smile with dissolve
     gd "Let’s meet her, together."
     scene bg black with fade
     return
