@@ -22,7 +22,7 @@ label test_imagemap:
     #        
     #        hotspot (0,0,600,720) hovered renpy.show("yu shy.png") unhovered renpy.show("yu calm.png") action ("UwU")
     #"testing"
-    $ result = renpy.imagemap("yu shy3.png", "yu calm2.png", [(0,0,1280,720,"2"), (515,475,755,650,"1")])
+    $ result = renpy.imagemap("yu embarassed3.png", "yu calm2.png", [(0,0,1280,720,"2"), (515,475,755,650,"1")])
     if result == "1":
         show yu shy3
         "A-aah! [mcname]-kun, not there!"
