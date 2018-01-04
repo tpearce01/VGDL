@@ -17,20 +17,31 @@ init python:
 ## GUI Configuration Variables
 ################################################################################
 
+## Custom
+## Color used for character names
+define gui.say_text_color = '#eeeeee'
+
+## Color used for small buttons at the bottom in-game
+define gui.mini_button_text_size = 14
+define gui.mini_button_text_color = Borders(10, 4, 10, 0)
+define gui.mini_button_text_color = 14
+define gui.mini_button_text_color = 'dddddd'
+define gui.mini_button_text_selected_color = 'aaaaaa'
+
 
 ## Colors ######################################################################
 ##
 ## The colors of text in the interface.
 
 ## An accent color used throughout the interface to label and highlight text.
-define gui.accent_color = '#cc0066'
+define gui.accent_color = '#444444'
 
 ## The color used for a text button when it is neither selected nor hovered.
 define gui.idle_color = '#aaaaaa'
 
 ## The small color is used for small text, which needs to be brighter/darker to
 ## achieve the same effect.
-define gui.idle_small_color = '#888888'
+define gui.idle_small_color = '#aaaaaa'
 
 ## The color that is used for buttons and bars that are hovered.
 define gui.hover_color = '#cc0066'
@@ -50,7 +61,6 @@ define gui.hover_muted_color = '#ea99c1'
 ## The colors used for dialogue and menu choice text.
 define gui.text_color = '#fdf5e6'
 define gui.interface_text_color = '#404040'
-
 
 ## Fonts and Font Sizes ########################################################
 

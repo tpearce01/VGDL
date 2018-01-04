@@ -9,6 +9,9 @@ init offset = -1
 ## Styles
 ################################################################################
 
+style name_label:
+    properties gui.text_properties("say", accent=True)
+
 style default:
     properties gui.text_properties()
     language gui.language
@@ -144,7 +147,7 @@ style namebox:
     padding gui.namebox_borders.padding
 
 style say_label:
-    properties gui.text_properties("name", accent=True)
+    properties gui.text_properties("say", accent=True)
     xalign gui.name_xalign
     yalign 0.5
 
@@ -272,7 +275,7 @@ style quick_button:
     properties gui.button_properties("quick_button")
 
 style quick_button_text:
-    properties gui.button_text_properties("quick_button")
+    properties gui.button_text_properties("mini_button")
 
 
 ################################################################################
@@ -302,6 +305,8 @@ screen navigation():
             
             imagebutton auto "gui/mm_options_%s.png" xpos 890 ypos 70 focus_mask True  action ShowMenu('preferences')
             
+            imagebutton auto "gui/mm_extras_%s.png" xpos 895 ypos 50 focus_mask True action ShowMenu('help')
+            
             imagebutton auto "gui/mm_exit_%s.png" xpos 900 ypos 100 focus_mask True action Quit(confirm= not main_menu)
 
 
@@ -326,12 +331,12 @@ screen navigation():
             
             textbutton _("Preferences") action ShowMenu("preferences")
 
-        textbutton _("About") action ShowMenu("about")
+        #textbutton _("About") action ShowMenu("about")
 
-        if renpy.variant("pc"):
+        #if renpy.variant("pc"):
 
             ## Help isn't necessary or relevant to mobile devices.
-            textbutton _("Help") action ShowMenu("help")
+            #textbutton _("Help") action ShowMenu("help")
 
             ## The quit button is banned on iOS and unnecessary on Android.
             
@@ -386,7 +391,7 @@ screen navigation2():
 
             textbutton _("Main Menu") action MainMenu()
 
-        textbutton _("About") action ShowMenu("about")
+        #textbutton _("About") action ShowMenu("about")
 
         if renpy.variant("pc"):
 
