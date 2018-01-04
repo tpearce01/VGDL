@@ -36,6 +36,7 @@ define they = "he"          # UNUSED - Variable for setting gender he/she
 define they_c = "He"        # He/She Capital version
 define their = "his"        # UNUSED - Variable for setting gender his/hers
 define their_c = "His"        # His/Hers Capital version
+define them = "him"
 
 # CURRENT ROUTE
 define route = "common"     # UNUSED - Define current route title
@@ -177,6 +178,17 @@ label get_gender:
                 they_c = "Her"
                 their = "hers"
                 their_c = "Hers"
+                them = "her"
+        "Other":
+            python:
+                gender = "?"
+                gender_d = "person"
+                they = "they"
+                they_c = "They"
+                their = "their"
+                their_c = "Their"
+                them = "them"
+                
     return
 # END GET GENDER
 ## END NON ROUTE SCENES ##

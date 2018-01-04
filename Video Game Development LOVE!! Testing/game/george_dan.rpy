@@ -55,8 +55,8 @@ label gd_scene1:
     mc "(EHHH? WHY ARE THEY STARING AT ME?! WAS I THAT LOUD??)"
     mc "(I HAVE TO GET OUT OF HERE!!)"
     crowd "Who was that?"
-    crowd "That was pretty weird.. Who was [they] calling for?"   
-    crowd "Hey! Maybe [they] was calling for me because [they] thought I was cute!"
+    crowd "That was pretty weird.. Who were they calling for?"   
+    crowd "Hey! Maybe they were calling for me because [they] thought I was cute!"
     crowd "No fool, you’re ugly."
     crowd "Waah... you’re so mean."
     return
