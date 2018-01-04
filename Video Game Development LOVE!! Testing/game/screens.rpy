@@ -4,6 +4,9 @@
 
 init offset = -1
 
+image logo = "VGDL_logo_nobackground.png"
+image title_image = "chibi.png"
+
 
 ################################################################################
 ## Styles
@@ -289,6 +292,9 @@ style quick_button_text:
 
 screen navigation():
 
+    image "images/logo.png" xpos 850 ypos 110
+    image "images/chibi.png" xpos 130 ypos 50
+
     vbox:
         style_prefix "navigation"
 
@@ -296,6 +302,7 @@ screen navigation():
         yalign 0.5
 
         spacing gui.navigation_spacing
+        
 
         if main_menu:
 
@@ -308,7 +315,6 @@ screen navigation():
             imagebutton auto "gui/mm_extras_%s.png" xpos 895 ypos 50 focus_mask True action ShowMenu('help')
             
             imagebutton auto "gui/mm_exit_%s.png" xpos 900 ypos 100 focus_mask True action Quit(confirm= not main_menu)
-
 
         else:
 
