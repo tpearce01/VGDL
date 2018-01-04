@@ -21,7 +21,7 @@ init python:
 ## Color used for character names
 define gui.say_text_color = '#eeeeee'
 
-## Color used for small buttons at the bottom in-game
+## Config used for small buttons at the bottom in-game
 define gui.mini_button_text_size = 14
 define gui.mini_button_text_color = Borders(10, 4, 10, 0)
 define gui.mini_button_text_color = 14
@@ -65,13 +65,13 @@ define gui.interface_text_color = '#404040'
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "Comfortaa-Regular.ttf"
 
 ## The font used for character names.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "Comfortaa-Regular.ttf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "Comfortaa-Regular.ttf"
 
 ## The size of normal dialogue text.
 define gui.text_size = 22

@@ -198,6 +198,7 @@ init:
     image sparkle_anim = Animation("sparkle1.gif", anim_speed, "sparkle2.gif", anim_speed, "sparkle3.gif", anim_speed, "sparkle4.gif", anim_speed)
     
 init python:
+    config.font_replacement_map["DejaVuSans.ttf", False, True] = ("Comfortaa-Regular.ttf", False, False)
     # MODULE IMPORTS
     import time
     
