@@ -9,6 +9,9 @@ init offset = -1
 ## Styles
 ################################################################################
 
+style name_label:
+    properties gui.text_properties("say", accent=True)
+
 style default:
     properties gui.text_properties()
     language gui.language
@@ -144,7 +147,7 @@ style namebox:
     padding gui.namebox_borders.padding
 
 style say_label:
-    properties gui.text_properties("name", accent=True)
+    properties gui.text_properties("say", accent=True)
     xalign gui.name_xalign
     yalign 0.5
 
@@ -272,7 +275,7 @@ style quick_button:
     properties gui.button_properties("quick_button")
 
 style quick_button_text:
-    properties gui.button_text_properties("quick_button")
+    properties gui.button_text_properties("mini_button")
 
 
 ################################################################################
@@ -288,6 +291,78 @@ screen navigation():
 
     vbox:
         style_prefix "navigation"
+
+        xpos gui.navigation_xpos
+        yalign 0.5
+
+        spacing gui.navigation_spacing
+
+        if main_menu:
+
+            imagebutton auto "gui/mm_play_%s.png" xpos 930 ypos 110 focus_mask True action Start()
+            
+            imagebutton auto "gui/mm_load_%s.png" xpos 910 ypos 90 focus_mask True  action ShowMenu('load')
+            
+            imagebutton auto "gui/mm_options_%s.png" xpos 890 ypos 70 focus_mask True  action ShowMenu('preferences')
+            
+            imagebutton auto "gui/mm_extras_%s.png" xpos 895 ypos 50 focus_mask True action ShowMenu('help')
+            
+            imagebutton auto "gui/mm_exit_%s.png" xpos 900 ypos 100 focus_mask True action Quit(confirm= not main_menu)
+
+
+        else:
+
+            textbutton _("History") action ShowMenu("history")
+
+            textbutton _("Save") action ShowMenu("save")
+
+        
+
+
+        if _in_replay:
+
+            textbutton _("End Replay") action EndReplay(confirm=True)
+
+        elif not main_menu:
+
+            textbutton _("Main Menu") action MainMenu()
+            
+            textbutton _("Load") action ShowMenu ("Load")
+            
+            textbutton _("Preferences") action ShowMenu("preferences")
+
+        #textbutton _("About") action ShowMenu("about")
+
+        #if renpy.variant("pc"):
+
+            ## Help isn't necessary or relevant to mobile devices.
+            #textbutton _("Help") action ShowMenu("help")
+
+            ## The quit button is banned on iOS and unnecessary on Android.
+            
+            
+
+
+style navigation_button is gui_button
+style navigation_button_text is gui_button_text
+
+style navigation_button:
+    size_group "navigation"
+    properties gui.button_properties("navigation_button")
+
+style navigation_button_text:
+    properties gui.button_text_properties("navigation_button")
+
+
+## Navigation screen ###########################################################
+##
+## This screen is included in the main and game menus, and provides navigation
+## to other menus, and to start the game.
+
+screen navigation2():
+
+    vbox:
+        style_prefix "navigation2"
 
         xpos gui.navigation_xpos
         yalign 0.5
@@ -316,7 +391,7 @@ screen navigation():
 
             textbutton _("Main Menu") action MainMenu()
 
-        textbutton _("About") action ShowMenu("about")
+        #textbutton _("About") action ShowMenu("about")
 
         if renpy.variant("pc"):
 
@@ -381,6 +456,7 @@ style main_menu_version is main_menu_text
 style main_menu_frame:
     xsize 280
     yfill True
+    xoffset -120
 
     background "gui/overlay/main_menu.png"
 
@@ -461,7 +537,7 @@ screen game_menu(title, scroll=None):
 
                     transclude
 
-    use navigation
+    use navigation2
 
     textbutton _("Return"):
         style "return_button"
@@ -709,6 +785,7 @@ style slot_button_text:
 screen preferences():
 
     tag menu
+    
 
     if renpy.mobile:
         $ cols = 2
@@ -1233,7 +1310,7 @@ style skip_text:
 style skip_triangle:
     ## We have to use a font that has the BLACK RIGHT-POINTING SMALL TRIANGLE
     ## glyph in it.
-    font "DejaVuSans.ttf"
+    font "Comfortaa-Regular.ttf"
 
 
 ## Notify screen ###############################################################
