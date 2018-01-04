@@ -1376,8 +1376,8 @@
     su "Naturally, I fit the bill quite well."
     "I'm at a loss for words, so I just say what's on my mind."
     mc "Welcome back."
-    yu "It's good to be home."
     #show surprise image
+    yu "It's good to be home."
     mc "(I don't believe in fate, but... I don't have to. Fate found me instead.)"
     ".:. Good Ending."
     return
