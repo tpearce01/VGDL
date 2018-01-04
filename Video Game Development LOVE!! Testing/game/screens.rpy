@@ -258,7 +258,7 @@ screen quick_menu():
             textbutton _("Save") action ShowMenu('save')
             textbutton _("Q.Save") action QuickSave()
             textbutton _("Q.Load") action QuickLoad()
-            textbutton _("Prefs") action ShowMenu('preferences')
+            textbutton _("Option") action ShowMenu('preferences')
 
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
@@ -329,7 +329,7 @@ screen navigation():
             
             textbutton _("Load") action ShowMenu ("Load")
             
-            textbutton _("Preferences") action ShowMenu("preferences")
+            textbutton _("Options") action ShowMenu("preferences")
 
         #textbutton _("About") action ShowMenu("about")
 
@@ -381,7 +381,7 @@ screen navigation2():
 
         textbutton _("Load") action ShowMenu("load")
 
-        textbutton _("Preferences") action ShowMenu("preferences")
+        textbutton _("Options") action ShowMenu("preferences")
 
         if _in_replay:
 
