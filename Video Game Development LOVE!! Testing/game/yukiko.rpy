@@ -745,7 +745,7 @@
     mc "Hey!"
     "She's even more beautiful than before."
     show yu calm with dissolve
-    "Or at least in my eyes, she is.
+    "Or at least in my eyes, she is."
     "Everyone seems to wear the same outfit over and over again."
     "I pop the question."
     mc "Hey Yukiko, why does everyone around here seem to wear the same clothes everyday?"
