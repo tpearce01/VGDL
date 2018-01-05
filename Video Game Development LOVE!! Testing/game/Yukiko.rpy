@@ -47,6 +47,7 @@
     "A relatively large branch suddenly falls towards her."
     mc "Get out of the way!"
     "She began to stir."
+
 label test:
     "Without thinking, I dash into a standing position with her between and below my legs with my back towards the falling branch's trajectory."
     show yu calm with dissolve
@@ -187,6 +188,7 @@ label test:
     "I turn around and walk away with what must have been a smile on my face."
     "It then occurs to me that I forgot to ask her when the workshop will be."
     scene bg black with fade
+return
 #end of intro
 
 #scene1 programming workshop
