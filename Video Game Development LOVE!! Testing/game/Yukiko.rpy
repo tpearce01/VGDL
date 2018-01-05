@@ -1299,7 +1299,7 @@ return
     mc "(However, let's say that the conditions determining a soulmate include how near they are to you.)"
     mc "(But then, what kind of measurement would you have to use for that?"
     mc "(Are they the best match for you within the same nation? The same state? 50, 20, or 5 miles?)"
-    mc "(Even if you meet and marry someone and stay with them for the rest of your life, are they really your soulmate?
+    mc "(Even if you meet and marry someone and stay with them for the rest of your life, are they really your soulmate?)"
     mc "Maybe you would be happier with someone from Dubai who is completely compatible with you. How about China, Russia, or Europe?)"
     mc "(That's not even considering time periods. Maybe Marie Curie of the 20th century was your ideal.)"
     mc "(If I call the person I'm with my soulmate, it seems to contradict soulmates' own romantic interpretation of being star-crossed lovers.)"
