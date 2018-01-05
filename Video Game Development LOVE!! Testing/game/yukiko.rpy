@@ -1,6 +1,6 @@
 ## YUKIKO ROUTE ##
-
 # INTRO SCENE
+label yu_scene1:
     scene bg park_2 with dissolve
     "I walk out of my boring lecture into the fair weather and stifle a yawn."
     mc "(I know I shouldn't, but I stayed up last night again.)"
@@ -12,9 +12,12 @@
     mc "(She seems the most approachable out of all the officers, but that might be a problem itself.)"
     mc "(Oh well. If I want to learn how to program, then she would be the best officer to talk to.)"
     "I clutch my phone hopefully and shuffle weakly over to the game lab."
-    scene bg gameroom with dissolve
-    "There's a large sign on the door indicating that food and drink are forbidden."
+    scene bg black with dissolve
+    pause 5.0
+    "There's a large sign on the door to the game lab indicating that food and drink are forbidden."
     #play sound "knock.ogg"
+    #door opening
+    scene bg gameroom with dissolve
     show re calm with dissolve
     mc "Hi, is the programming officer here right now?"
     re "Sorry, Yukiko isn't here right now..."
@@ -28,9 +31,10 @@
     "... and I end up collapsed in the park on the grass."
     mc "(I can't do it anymore...)"
     mc "(I'll rest my eyes... just for a little...)"
+    scene bg black with fade
     "My vision fills with black as sleep overtakes me."
     pause 5.0
-    mc "Ngh...........nnn."
+    mc "Ngh........... nnn."
     mc "Just five more minutes..."
     "I allow my eyes to peek open ever so slightly."
     "An unpleasant orange immediately stains my vision as I realize I am facing the sunset."
@@ -38,6 +42,7 @@
     "I prepare to shut my eyes to go back to sleep until I notice a faint purple through my eyelashes."
     "Opening my eyes further reveals a rather unexpected scene before me."
     mc "Whoa!"
+    scene bg park_1
     "I bolt upwards to a sitting position in surprise."
     "Right in front of me is a girl sleeping peacefully on her back."
     "Her long, straight purple hair is slightly astray with strands wavering in the wind."
@@ -50,7 +55,10 @@
     "Without thinking, I dash into a standing position with her between and below my legs with my back towards the falling branch's trajectory."
     show yu calm with dissolve
     show yu calm:
-        zoom 2.0
+        parallel:
+            ease .5 zoom 1.5
+        parallel:
+            linear 0.5 yalign 0.5
     "Her crimson eyes flicker for a moment before dilating and meeting mines, seemingly lasting forever due to the adrenaline."
     "As if she understood just by our brief exchange of gazes, her sleepy face snaps to one of urgency as she suddenly jumped up and tackled me."
     #play sound "thud.ogg"
@@ -122,16 +130,25 @@
     mc "(To be honest, I've never had anyone so earnestly happy to see me before.)"
     mc "(That, and I'm beginning to become more conscious of her weight on me.)"
     "I can feel my face begin tinting a light shade of crimson."
+    show yu calm:
+        ease.5 zoom 2.0
     "She leans in a bit closer despite already sitting on me."
     yu "What can I do for you today?"
     mc "You can get off me first."
+    show yu calm:
+        parallel:
+            ease .5 zoom 1.5
+        parallel:
+            yalign 0.0
+            linear 0.5 yalign 0.5
     show yu nervous with dissolve
     yu "Oh, sorry."
     "She whispers that rather quietly."
     mc "(That was surprisingly meek of her.)"
-    hide yu nervous with dissolve
     "We dust the dirt and plant matter off ourselves."
-    #bring her sprite back at a reasonable distance and calm
+    show yu calm with dissolve
+    show yu calm:
+            ease .5 zoom 1.0
     mc "Why were you napping next to me?"
     yu "Well, I walked to the game lab and Reina described a male student who was looking for me."
     mc "(I wonder what Reina said about me...)"
@@ -141,7 +158,7 @@
     yu "I was walking back and noticed you napping on the grass."
     yu "You looked so peaceful, I didn't want to wake you."
     show yu calm with dissolve
-    yu "I sat down waited but the weather was so nice and the wind was so cool."
+    yu "I sat down and waited, but the weather was so nice and cool."
     yu "The birds were chirping, and the rays of the sun were so warm!"
     mc "Don't worry, I understand. I would have napped too."
     show yu happy with dissolve
@@ -1051,6 +1068,7 @@
     mc "(... no. That's not right.)"
     mc "(The one who's really selfish is me. What if I had just told her how I felt that day...)"
     mc "(How did I feel that day, exactly?)"
+    return
 
 #I felt like telling her to stay with me
     mc "(I wanted her to stay with me.)"
