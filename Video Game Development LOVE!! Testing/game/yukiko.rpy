@@ -1030,7 +1030,7 @@
     mc "Overseas..?"
     "I stop walking and read over the whole description carefully again. Yukiko continues walking farther and farther from me."
     mc "THAT bigwig company?"
-    "The moment I finish reading, I realize what the scope of dilemma I'm facing.
+    "The moment I finish reading, I realize what the scope of dilemma I'm facing."
     "I can't find any appropriate words. Maybe it's better to say something rather than nothing. But maybe some things are best left unsaid?"
     hide yu calm with fade
     "Yukiko's back is growing increasingly fainter in the distance."
