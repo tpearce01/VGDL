@@ -58,7 +58,7 @@ label start:
     scene bg black              # Default to black scene in case of missing background
 
     # TESTING
-    call test
+    call yu_test
     #call test_md_2
     #call test_werecat
     #call kd_route

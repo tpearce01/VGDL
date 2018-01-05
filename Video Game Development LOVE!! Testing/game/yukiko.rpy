@@ -187,7 +187,7 @@ label yu_test:
     "I turn around and walk away with what must have been a smile on my face."
     "It then occurs to me that I forgot to ask her when the workshop will be."
     scene bg black with fade
-return
+    return
 #end of intro
 
 #scene1 programming workshop
