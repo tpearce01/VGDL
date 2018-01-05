@@ -22,7 +22,7 @@
     mc "I'll come back later."
     hide re with dissolve
     "I take my leave while shutting the door at the same time."
-    mc ("I actually feel like crashing on the nearest soft surface right now.")
+    mc "(I actually feel like crashing on the nearest soft surface right now.)"
     "I attempt to drag myself back home..."
     scene bg park_1 with dissolve
     "... and I end up collapsed in the park on the grass."
@@ -47,9 +47,9 @@
     "A relatively large branch suddenly falls towards her."
     mc "Get out of the way!"
     "She began to stir."
-label yu_test:
     "Without thinking, I dash into a standing position with her between and below my legs with my back towards the falling branch's trajectory."
     show yu calm with dissolve
+    show yu calm:
         zoom 2.0
     "Her crimson eyes flicker for a moment before dilating and meeting mines, seemingly lasting forever due to the adrenaline."
     "As if she understood just by our brief exchange of gazes, her sleepy face snaps to one of urgency as she suddenly jumped up and tackled me."
@@ -187,7 +187,6 @@ label yu_test:
     "I turn around and walk away with what must have been a smile on my face."
     "It then occurs to me that I forgot to ask her when the workshop will be."
     scene bg black with fade
-    return
 #end of intro
 
 #scene1 programming workshop
@@ -361,7 +360,7 @@ label yu_test:
     mc "What made you think that?"
     yu "You were being pretty awkward yourself."
     mc "Ugh..."
-    "I feel like I had just been stabbed in the chest.
+    "I feel like I had just been stabbed in the chest."
     mc "So that's how it looked to you."
     show yu happy with dissolve
     yu "Thank you, [mcname]."
@@ -385,10 +384,10 @@ label yu_test:
     mc "Didn't you just eat it?"
     show yu nervous with dissolve
     yu "I didn't taste anything though."
-    mc "What a waste...
+    mc "What a waste..."
     "I grit my teeth and clutch my fist while staring downwards to observe a moment of silence for the wasted food."
     show yu calm with dissolve
-    yu "You know, I do love water though.
+    yu "You know, I do love water though."
     "I couldn't help but stare at her curiously."
     yu "I just have to take a sip and I already feel refreshed."
     yu "I can also keep a bottle next to me at my desk all the time."
@@ -429,7 +428,7 @@ label yu_test:
     yu "Oh! I didn't think of that."
     "She rests a fist on the back of her head, flashes a smile, and sticks her tongue out while winking."
     mc "(I'm not sure if I find that cute or disturbing.)"
-    mc "Wanna go grab a bite?
+    mc "Wanna go grab a bite?"
     yu "Okay."
     hide yu calm with dissolve
     scene bg black with fade
@@ -454,10 +453,10 @@ label yu_test:
     mc "Didn't you just eat it?"
     show yu nervous with dissolve
     yu "I didn't taste anything though."
-    mc "What a waste...
+    mc "What a waste..."
     "I grit my teeth and clutch my fist while staring downwards to observe a moment of silence for the wasted food."
     show yu calm with dissolve
-    yu "You know, I do love water though.
+    yu "You know, I do love water though."
     "I couldn't help but stare at her curiously."
     yu "I just have to take a sip and I already feel refreshed."
     yu "I can also keep a bottle next to me at my desk all the time."
@@ -683,7 +682,7 @@ label yu_test:
     mc "... mmy fish tacos."
     yu "Me too."
     mc "You didn't even taste -- wait, that's not what I meant!"
-    mc "I mean I like you!
+    mc "I mean I like you!"
     yu "I know."
     "I tried to pick my jaw off the floor."
     mc "You do?"
@@ -738,14 +737,14 @@ label yu_test:
 
 #scene5 normie date
     scene bg utc
-    "Yukiko and I may be official now, but our relationship didn't really change from before.
+    "Yukiko and I may be official now, but our relationship didn't really change from before."
     "Well, one little thing might have changed..."
     show yu happy with dissolve
     yu "Hi [mcname]!"
     mc "Hey!"
     "She's even more beautiful than before."
     show yu calm with dissolve
-    "Or at least in my eyes, she is.
+    "Or at least in my eyes, she is."
     "Everyone seems to wear the same outfit over and over again."
     "I pop the question."
     mc "Hey Yukiko, why does everyone around here seem to wear the same clothes everyday?"
@@ -777,7 +776,7 @@ label yu_test:
     mc "I'm surprised you can taste anything wolfing it down like that."
     show yu smile with dissolve
     yu "I'm surprised you can taste staring at me eat my food."
-    mc "In my defense, I was captivated.
+    mc "In my defense, I was captivated."
     show yu nervous with dissolve
     yu "Is this the start of a cheesy line?"
     mc "No, it was like watching a wild lioness devour her prey without a second thought."
@@ -887,7 +886,7 @@ label yu_test:
     mc "I think I can live with just one more rematch on Tori Faiter."
     "I'm determined to win at least once against Yukiko, so I put on my game face."
     show yu calm with dissolve
-    mc "Good Queen of Cats, nothing but one of your nine lives, that I mean to make bold withal, and, as you shall use me hereafter, dry-beat the rest of the eight.
+    mc "Good Queen of Cats, nothing but one of your nine lives, that I mean to make bold withal, and, as you shall use me hereafter, dry-beat the rest of the eight."
     mc "Will you pluck your controller out of his pilcher by the ears? Make haste, lest mine be about your ears ere it be out."
     "Yukiko plays along without missing a beat."
     yu "I am for you."
@@ -1030,7 +1029,7 @@ label yu_test:
     mc "Overseas..?"
     "I stop walking and read over the whole description carefully again. Yukiko continues walking farther and farther from me."
     mc "THAT bigwig company?"
-    "The moment I finish reading, I realize what the scope of dilemma I'm facing.
+    "The moment I finish reading, I realize what the scope of dilemma I'm facing."
     "I can't find any appropriate words. Maybe it's better to say something rather than nothing. But maybe some things are best left unsaid?"
     hide yu calm with fade
     "Yukiko's back is growing increasingly fainter in the distance."
@@ -1075,7 +1074,7 @@ label yu_test:
     mc "(If she's really asleep, I feel like the dumbest person on earth right now.)"
     "The door finally opens just a little."
     yu "[mcname], I was sleeping. Did you need something"
-    "My mouth flaps between open and closed in shock as the tears flow out of my eyes.
+    "My mouth flaps between open and closed in shock as the tears flow out of my eyes."
     mc "Sorry..."
     yu "Just kidding... I heard everything."
     "She opens the door all the way and makes her appearance in the hallway."
@@ -1194,7 +1193,7 @@ label yu_test:
     "It's been an academic quarter since I last saw her."
     "Since then, I sent her texts apologizing and encouraging her, but she never responded."
     "I still go to the club, but I never catch a glimpse of her, even during official events."
-    "I don't think about it everyday.
+    "I don't think about it everyday."
     mc "(I wake up. I go to school. I study. I sleep. Life goes on.)"
     mc "(However, my body grows weary merely from carrying out its routine.)"
     mc "(I function as an automaton. When I talk to other people, I behave as I normally do. I look people in the eye while greeting them. We make friendly small talk.)"
@@ -1235,7 +1234,7 @@ label yu_test:
     "Bearing a famine for words, I have no words to offer her."
     re "Whatever."
     "Reina starts walking away, taking glances back to make sure I'm not stopping her again."
-    re "There were plenty of things she wasn't satisfied with before you barged in. Don't give yourself too much credit.
+    re "There were plenty of things she wasn't satisfied with before you barged in. Don't give yourself too much credit."
     re "You just happened to be the final lock to seal away her heart."
     hide re calm with dissolve
     "As Reina disappears into the rays of morning sunshine, I carry my body away back into the park to rest on the grass."
@@ -1326,7 +1325,7 @@ label yu_test:
     "I let out a quiet sigh."
     #su = supervisor
     su "Hi, you must be the new hire."
-    "I snap back to reality and professional mode as a figure in an expensive looking suit greets me.
+    "I snap back to reality and professional mode as a figure in an expensive looking suit greets me."
     "Based on my impression of the work environment I got at my interviews, I decide to head straight for the casual route."
     mc "Hi, you must be my boss!"
     "Them returning my greeting with a warm smile reassures me of my choice."
@@ -1347,7 +1346,7 @@ label yu_test:
     su "My office is just down the hall."
     "The supervisor begins walking down the hall with me in tow."
     "No one else is around."
-    su "Consider what I'm about to ask you a personal question, since I'm requesting a personal answer. I don't want to hear any corporate pandering, and you don't have to answer if you don't want to.
+    su "Consider what I'm about to ask you a personal question, since I'm requesting a personal answer. I don't want to hear any corporate pandering, and you don't have to answer if you don't want to."
     mc "Go ahead, shoot."
     su "What made you want to work in games?"
     "For a short period of time, the only sounds around us are my footsteps and the click-clatter of high heels down the corridor."
@@ -1358,7 +1357,7 @@ label yu_test:
     mc "Don't worry, it wasn't like that."
     mc "To say she really liked programming would be an understatement. She loved games too."
     mc "Even after a couple years in college, I still didn't know what I was doing. I didn't know where I wanted to go, or what I wanted."
-    mc "When I met her, she didn't have many friends. But I knew she had her stuff together. I believed in her.
+    mc "When I met her, she didn't have many friends. But I knew she had her stuff together. I believed in her."
     mc "She was a person who shined so brightly that she illuminated the path forward for me, even if she didn't mean to."
     mc "I had to let her go shine because I didn't have the capacity to follow her. It just wasn't the right place or the right time for us."
     mc "I don't regret it. I do regret never letting her know how big a role my stint with her had in shaping my future though."
