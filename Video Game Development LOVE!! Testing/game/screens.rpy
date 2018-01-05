@@ -1,4 +1,6 @@
-﻿################################################################################
+﻿#image "gui/load_overlay.png" xpos 400 ypos 110
+
+################################################################################
 ## Initialization
 ################################################################################
 
@@ -660,27 +662,23 @@ style about_label_text:
 ## www.renpy.org/doc/html/screen_special.html#load
 
 screen save():
-
     tag menu
-
+    
     use file_slots(_("Save"))
 
 
 screen load():
-
+    #image "gui/load_overlay.png" xpos 0 ypos 0
     tag menu
-
     use file_slots(_("Load"))
 
 
 screen file_slots(title):
 
     default page_name_value = FilePageNameInputValue(pattern=_("Page {}"), auto=_("Automatic saves"), quick=_("Quick saves"))
-
     use game_menu(title):
-
+    
         fixed:
-
             ## This ensures the input will get the enter event before any of the
             ## buttons do.
             order_reverse True
@@ -747,6 +745,7 @@ screen file_slots(title):
                     textbutton "[page]" action FilePage(page)
 
                 textbutton _(">") action FilePageNext()
+            image "gui/load_overlay.png" xpos -375 ypos -150
 
 
 style page_label is gui_label
@@ -787,21 +786,16 @@ style slot_button_text:
 ## themselves.
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#preferences
-
 screen preferences():
-
     tag menu
-    
-
     if renpy.mobile:
         $ cols = 2
     else:
         $ cols = 4
 
-    use game_menu(_("Preferences"), scroll="viewport"):
-
+    use game_menu(_("Preferences"), scroll="none"):
+        add "gui/preferences_overlay.png" xpos -350 ypos -150
         vbox:
-
             hbox:
                 box_wrap True
 
@@ -831,7 +825,6 @@ screen preferences():
                 ## added here, to add additional creator-defined preferences.
 
             null height (4 * gui.pref_spacing)
-
             hbox:
                 style_prefix "slider"
                 box_wrap True
@@ -880,7 +873,8 @@ screen preferences():
                         textbutton _("Mute All"):
                             action Preference("all mute", "toggle")
                             style "mute_all_button"
-
+        
+    
 
 style pref_label is gui_label
 style pref_label_text is gui_label_text
@@ -962,20 +956,13 @@ style slider_vbox:
 ## https://www.renpy.org/doc/html/history.html
 
 screen history():
-
     tag menu
-
     ## Avoid predicting this screen, as it can be very large.
     predict False
-
     use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport")):
-
         style_prefix "history"
-
         for h in _history_list:
-
             window:
-
                 ## This lays things out properly if history_height is None.
                 has fixed:
                     yfit True
@@ -994,7 +981,6 @@ screen history():
 
         if not _history_list:
             label _("The dialogue history is empty.")
-
 
 style history_window is empty
 
@@ -1044,15 +1030,11 @@ style history_label_text:
 ## help.
 
 screen help():
-
     tag menu
-
     default device = "keyboard"
-
-    use game_menu(_("Help"), scroll="viewport"):
-
+    use game_menu(_("Help"), scroll="none"):
+        add "gui/help_overlay.png" xpos -350 ypos -150
         style_prefix "help"
-
         vbox:
             spacing 15
 
