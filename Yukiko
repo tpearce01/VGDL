@@ -565,6 +565,8 @@
     "After I walked her home, I immediately started teaching myself how to program."
 #end of scene2
 
+#game lab scene where Yukiko is programming with absolute focus
+
 #scene3 midterms vs project help
     scene bg mc_apartment_inside with dissolve
     "I got onto my dream project team, but..."
@@ -728,6 +730,8 @@
     "The tension of her body fades away as she leans her weight on me in silent consent..."
     scene bg black with fade
 #end of scene4
+
+#possible hackathon scene
 
 #scene5 normie date
     scene bg utc
