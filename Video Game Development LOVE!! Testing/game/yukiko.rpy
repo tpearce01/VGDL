@@ -22,7 +22,7 @@
     mc "I'll come back later."
     hide re with dissolve
     "I take my leave while shutting the door at the same time."
-    mc ("I actually feel like crashing on the nearest soft surface right now.")
+    mc "(I actually feel like crashing on the nearest soft surface right now.)"
     "I attempt to drag myself back home..."
     scene bg park_1 with dissolve
     "... and I end up collapsed in the park on the grass."
@@ -50,7 +50,7 @@
     label yu_test:
     "Without thinking, I dash into a standing position with her between and below my legs with my back towards the falling branch's trajectory."
     show yu calm with dissolve
-        zoom 2.0
+    zoom 2.0
     "Her crimson eyes flicker for a moment before dilating and meeting mines, seemingly lasting forever due to the adrenaline."
     "As if she understood just by our brief exchange of gazes, her sleepy face snaps to one of urgency as she suddenly jumped up and tackled me."
     #play sound "thud.ogg"
@@ -361,7 +361,7 @@
     mc "What made you think that?"
     yu "You were being pretty awkward yourself."
     mc "Ugh..."
-    "I feel like I had just been stabbed in the chest.
+    "I feel like I had just been stabbed in the chest."
     mc "So that's how it looked to you."
     show yu happy with dissolve
     yu "Thank you, [mcname]."
