@@ -1,4 +1,5 @@
 --SSLH--
+
 mc "(Production, huh...)"
 mc "Hmmm..."
 "As Jeorge Dan resumed his presentation, I considered the appeal of joining the productions department."
@@ -45,12 +46,14 @@ mc "(The team will be dedicated yet comfortable, we'll get along great, and I wo
 mc "(...)
 mc "(...Hopefully.)"
 
->Teams formulated. Kendrick is the officer buddy of the group.
 --Black--
+
 "In the end, my pitch went on without a hitch."
 mc "(The crowd seemed to take interest, so I'm off with a good start."
 "Encouraged by these thoughts, I finished off the rest of the week strong."
+
 --Inside SSLH--
+
 "The following meeting, day of our team assignments."
 "My team gathered around our officer buddy, Kendrick."
 mc "(So we got the productions officer, huh? He seemes rough around the edges, but reliable none the less.)
@@ -66,7 +69,7 @@ mc "(I’m feeling good about this, I have to be enthusiastic!)"
 mc "(Let's start off with a brief introduction, then I'll get everyone's contact information.)"
 mc "Hello everyone! I'm [mcname], and I'm the team lead for this project."
 mc "Words can not express how stoked I am to have you all on my team. Thank you all for your interest, it really means a lot!"
-mc "To start off, let's have everyone give me your contact information, yea?"
+mc "To start off, let's have everyone join the Discordance server, then write down your contact information."
 
 --transition to indicate time skip--
 
@@ -117,78 +120,111 @@ kd "It caters to a large audience. I have faith in the product."
 "Just as he turned to leave, he looked back at me.
 kd "You on the other hand, I am less than confident in."
 kd "I sincerely hope you prove me wrong."
-"With that, he left, leaving me dumbfounded."
+"With that, he left."
+mc "..."
+mc "(What... the heck was that?)"
+mc "(Is the guy with me, or against me?)"
+"Still reeling from Kendrick's comment, I slowly headed out of the lecure hall."
+mc "(One thing's for sure, he seems like a tough guy to get along with. I hope he'll warm up to me eventually...)"
 
->Speaks really harshly and bluntly. Unintentionally an asshole, that’s just how he is. Protag sees him as someone hard to get along with but doesn’t hate him (yet).
-mc "(Monologue about how she'll ganbate despite it all)"
-
->Gets a Discord up. Starts things up, but Kendrick makes a scene
 --MC room--
-mc "(Yaaay time to talk on discord!)
 --Phone thing--
-mc “(I got everyone’s phone number and email at the meeting, I figured it would be best to set up a Discord and contact everyone online.)”
-mc “(All the invitations had been sent in class, now I just had to wait for everyone to join.)”
-mc “(Once everyone joined, I figured I would get the ball rolling, try to get everyone to introduce themselves, that whole bit.)”
-mc “(I’ve always been better at online conversation anyways, they can think I suck in real life, but online, maybe they can at the very least tolerate me.)”
-mc “Alright guys, thank you so much for joining my game crew, I figured it would be fun to introduce ourselves, so let's start with your year, major, and a fun fact about yourself.”
-mc “(Nobody is typing, so I guess I'll have to get started.)”
-mc “My name is [mcname], I’m a first year, my major is undecided, and I was really into dinosaurs when I was a kid."
-mc "Other girls wanted to be princesses, but I wanted to be T-rex.”
-kd “Nobody cares, we should've made a Slack, people get way too distracted on Discord.”
-“I decided to post a picture of a sad cat, with the text, “I’m sorry.””
-kd “You’re posting memes? Please quit.”
+
+mc "Hmmm"
+"I sat on my bed, the team's Discordance server opened on my phone."
+"I've set up all the channels, and all the members have been added, but it's completely empty. No one has spoken yet."
+mc "(I think I'll start things off and break the ice.)"
+mc “Alright guys, thank you so much for joining my game crew! Though announcements will be handled here, feel free to chat and meet one another in the off-topic channel."
+"I decided to tag on an image of a happy anime character to loosen up the atmosphere."
+mc "Aaaand, send."
+"To my surprise, it was Kendrick's username that started typing."
+kd “A work environment should be treated as a work environment. I see no reason for allowing tomfoolery.”
+mc "..."
+mc "I think a bit of 'tomfoolery' would be good. Helps establish a sense of comraderie, y'know?"
+kd "How absolutely disappointing."
 mc “(Does this guy hate me personally or something, did I do something to him in the past that I don’t remember?)”
 mc “Are you okay?”
 kd “Fantastic, I’m just frustrated that every year, I get assigned groups led by children who don’t understand the responsibilities that come with leading a video game development team.”
 mc “Dude, I don’t think I’ve even done anything to make you think that I’m not capable of leading this team.”
-mc "Making this game has been my dream since I was eight."
+mc "Producing this game has been my dream since I was eight."
 kd “Then why haven’t you made it yet?”
 mc “I don’t know how to make games, which is why I joined this club.”
-kd “You like to daydream and think about all the cool things that you would someday do, but the day never comes, I’m sick of having to be assigned people like you.”
-mc “Man, that cuts deep, he’s right though, I always have these fad dreams that never actually pan out, doing karate, becoming a singer, getting into UCLA.”
-mc “(Who’s to say that this game won’t just be another thrown away dream in my sea of unfulfilled dreams, I mean all the evidence up until now shows that its the most likely outcome.)”
-mc “(Damn, I’m tearing up, its moments like these that make me glad to be online and not in person.)”
-mc “(I really am a failure, I’m always going to be a failure.)”
-mc “(Wait, no..!)”
-mc “(Didn’t I tell myself I was going to change, I’m at a new school, its time for a fresh start, and it starts now!)”
-mc “(Besides, who does this guy think he is? He doesn’t know me? For all he knows I could be a genius programmer, a fisherman, a ski instructor...)”
+kd “You like to daydream and think about all the cool things that you would someday do, but the day never comes; I’m sick of having to be assigned people like you.”
+mc “(...Geez, that cuts deep.)" 
+mc "(He’s right that I haven't done anything until now, but there's no excusing his horrible attitude.)" 
+"I click my tongue in annoyance, my mind whirring with anger."
+mc “(Besides, who does this guy think he is? He doesn’t know me! For all he knows I could be a genius programmer, a fisherman, a ski instructor...)”
 mc “(This guy hasn’t even known me for a whole day and already thinks he has me pinned down?)”
 mc “(If I don’t change for myself, I’m going to change out of spite, to prove this pretentious freak wrong!)”
-mc “(I’m going to play it cool, I’m happy again that I’m online and can pretend.)”
+"I take a deep breath."
+mc “(Alright, but let's play it cool. Nothing will come from acting on emotion...)”
+mc "(Rational thoughts, [mcname], rational...)"
 mc “Just calm down and get some sleep, Kendrick. It’s true that I don’t have experience making games, but I got pretty good grades and held leadership roles in high school."
 mc "I’m sorry about your past experiences, but I can assure you that this is not the case.”
 kd “We’ll see...”
 “He goes offline.”
-
->Ok now she low key hates him
---mc room--
-mc "Wow upsetti spaghetti"
+mc "..."
+mc "(Welp. So much for breaking the ice.)"
+"With my impression of Kendrick lower than ever, I pull the covers over my head and go to sleep."
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-[[Wow Heck you Kendrick]]
 
 #tm stands for team member
 
 
->Week time skip of low-key hatred. 
-mc “(Kendrick is getting on my nerves. Everyday, he always does something that infuriates me.”
-mc “(Yesterday he dropped his pencil, and he just pointed at me and the pencil like he was entitled to me bending over to pick it up for him.”
-mc “(How do people this rude even fit into society?)”
+--Game room--
 
->Now Kendrick starts being mean to the rest of the team, and protag blows up
+"We had our first real team meeting a few days after. Everyone showed up, including Kendrick."
+"After setting up our Bithub, I set up a schedule for the rest of the quarter. 
+"On Kendrick's recommendation, we'll be meeting up twice a week."
+
+--black--
+
+"..."
+"It's been two weeks since then. We've had a total of five meetings."
+"Kendrick showed up to each one and observed the team working."
+"At every opportunity, he'd point out a flaw in my work or leadership."
+"At first, I'd get irritated by it. But with time, I'd gotten used to his harsh nature."
+"Every meeting, I'd just take whatever he threw at me. Because as much as I'd hate to admit it, he'd bring up some pretty valid points."
+"So long as it were just me, I thought I'd be able to get through the quarter just baring it all."
+"One meeting at a time."
+"One insult at a time."
+"It'd all work out, eventually."
+"..."
+"It didn't last long until I was proven wrong."
+
+--game room--
+
+"It was the second meeting of the week."
+"Midway in, the more inexperienced of my artists approached me with their laptop in their hands."
+tm "[mcname]? Can I get your input on the background for the game?"
+mc "Sure! Lemme take a look at it."
+"He placed the laptop in front of me." 
+mc "Hmmm..."
+"Although a valiant effort for a newbie artist, the backrgound was riddled with imperfections. It was clearly done by an amateur."
+mc "(Still, nothing a little elbow grease can't fix.)"
+"I was about to explain how to fix the piece, when the person next to me spoke up."
 kd “No, this is garbage, do it again.”
-tm ”O-okay, what about it do you want me to fix?”
-mc “It’s mostly fine, just maybe color inside the lines a little more.”
-kd “Don’t listen to her, its wrong do it again”
+mc "!! Kendrick, what the heck?!"
+kd "What? It's bad. Plain and simple."
+"From the corner of my eye, I could see my artist siffen and meddle with his fingers."
+tm ”I-I see... Umm, what about it do you want me to fix?”
+"I turned to him, and put on my most comforting smile possible."
+mc “It’s mostly fine! Just maybe color inside the lines a little more.”
+kd “Don’t listen to her. You're better off doing it again”
 mc “What part?”
-kd “All of it, redo it.”
-
->Details how he’s such an asshat, but Kendrick doesn’t understand. mc “I feel like you wake up, come in here and think..”
-#imitating Kendrick
-mc “Hmmm what should I be mad about today, oh I know, I’m going to be a giant pedantic poop hole to my club members”
+kd “All of it. Redo it completely.”
+tm "U-Umm... Are you sure I can't-?"
+kd "Don't make me repeat myself. Stop time and do as you're told."
+mc "..."
+mc "Enough is enough."
+"I slam my hands on the table and stand from my seat."
+mc "You wanna know something, Kendrick?"
+kd "..."
+"Kendrick remained in his seat; he was as calm and composed as ever, and his cold gaze never faltered as he met my own."
+kd "I'm listening."
+mc "It's just... It's mind boggling how you don't even realize how much of a giant, pedantic poop hole you are, and to your own club members!”
 kd “Poop hole?”
-mc “I’m not censoring myself because VGDC doesn’t allow bad words."
 mc "I’m talking about your mouth, insinuating that what comes out of it is pure poop, it's poetic.”
 kd “I don’t see why you’re so mad. The art is garbage, the drawing is chicken scratch, the coloring goes out of the lines."
 kd "It's unoriginal and uninspired. I could go on, but for the sake of time, I felt that “it's garbage” would suffice.”
@@ -202,16 +238,44 @@ kd “It's usually just me taking work seriously, that’s why I was one of the 
 kd "You think this type of art and behavior in general is going to pass at a legit workspace where making games is what puts food on the table?”
 mc “This is a club, not a full time job, so making this video game isn’t life or death for me.”
 kd “It is for me.”
-
->Kendrick leaves at protag’s request. Meeting continues. 
-mc “Well then I think you should go and find more people who are willing to put up with your crap.”
+"I clicked my tongue at him."
+mc “Well then, I think you should go and find more people who are willing to put up with your bull.”
+kd "..."
 kd “Is that what you all think?”
 mc “(Everyone looks at each other, one person starts nodding, everybody nods.)”
-kd “Alright, I will take my leave, hopefully the next team I get won’t be filled with bumbling buffoons.”
-mc “Oh yeah, I’m sure they’d love to have you. That was sarcastic by the way.”“I’m just stating the truth.”
+kd “Hmph. It seems as though my presence is but a hinderance to production."
+kd "In that case, I will be taking my leave."
+"Kendrick stood up, and left the game room."
+"My teams' eyes were downcast; the atmosphere was evidently too tense to resume working."
+mc "Hey, come on guys, perk up!"
+"They all turned to me, and I smiled in turn."
+mc "Come on everyone, we have no reason to act so dour. Let's end the meeting strong, yea?"
 
->Protag asks president if she could switch officer buddies. JD smiles and says he’ll do what he can.
-"messages between the two"
+--mc room--
+
+mc "Uuuugghh...."
+"Emotionally drained, I plopped on my bed and buried my head in my pillow."
+mc "(I've handled Kendrick no ploblem these past few days."
+mc "(If only he could've kept his words targeted at me, I could've kept things going. Ridicule my team member, however...)"
+"I bit my lip as anger began to well inside me.'
+mc "Tch..."
+mc "(I don't want anyone from my team to be treated with disrespect. Never.)"
+mc "(There's only one way to assure this..."
+--phone screen--
+"I pulled up the club president's account from the VGDC Discordance server, and sent him a message."
+mc "/"Excuse me, Jeorge Dan? I have a request to make./""
+"I was relieved to see he started typing right away."
+jd "/"Yes? What is it?/""
+mc "/"I'm the project lead for Tyrannosaurus Wreck. Kendrick was assigned to us as our officer buddy, but he's been incredibly disrespectful./""
+mc "/"If possible, I would like to have him replaced or removed. I can't stand to see any of my members treated to poorly./""
+mc "/"Any and all help for the matter would be greatly appreciated./""
+"......"
+"...."
+"There was a pregnant pause before Jeorge Dan began to reply."
+jd "/"I'll see what I can do./""
+mc "?"
+mc "
+
 
 > JD asks Protag to come to the game lab late at night when no one’s there. Surprise! Kendrick’s there. 
 cc “(Alright, I texted JD and was told to wait here in the game lab, I mean I know Irvine is one of the safest cities ever, but walking around campus at night is still kinda spooky.)”
@@ -499,4 +563,3 @@ mc “N-nah fam.”
 kd “Alright.”
 mc “(I let out a breath, I hope I don’t have to go through that again. Meeting people you weren’t supposed to ever see again at Starbucks is weird, isn’t it?)”
 mc “(Whatever, we gon be alright.)”
-
