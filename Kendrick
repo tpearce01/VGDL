@@ -1,5 +1,3 @@
-[INITIAL STRUGGLE]
-
 --SSLH--
 mc "(Production, huh...)"
 mc "Hmmm..."
@@ -50,50 +48,76 @@ mc "(...Hopefully.)"
 >Teams formulated. Kendrick is the officer buddy of the group.
 --Black--
 "In the end, my pitch went on without a hitch."
-"The crowd seemed to take interest, so I'm off with a good start."
+mc "(The crowd seemed to take interest, so I'm off with a good start."
 "Encouraged by these thoughts, I finished off the rest of the week strong."
 --Inside SSLH--
-"The following meeting."
-"I stood before a group of beautiful individuals. Their eyes were fixated on me."
-mc "(Ohhh, I can't believe it... This is really happening!)"
-"I cleared my throat and beamed at them."
-mc "Hello everyone! I'm [mcname], and I'll be your team lead starting today."
-"Amidst everyone's bright eyes was Kendrick's dark, judging gaze. Just looking at him makes me tense up."
-mc "(Omg my team is so hhootttt)"
+"The following meeting, day of our team assignments."
+"My team gathered around our officer buddy, Kendrick."
+mc "(So we got the productions officer, huh? He seemes rough around the edges, but reliable none the less.)
+kd "All of you are members for the team 'Tyrannosaurus Wreck' correct?”
+"We all nodded."
+kd "Very well then. My name is Kendrick, and I will be aiding you all in your efforts to develop this game."
+kd "If you need any assistance with anything, know that I, along with your team lead, will always be available."
+"He met everyone's gaze as he spoke. He sounded sincere and determined, and I couldn't help but be impressed."
+mc “(I thought he'd be a little harder to warm up to, but it looks like I was wrong. What a pleasant surprise!)" 
+kd "With that said, I will now allow [mcname] to take over."
+"He turned to me and gave me a nod, to which I returned."
+mc "(I’m feeling good about this, I have to be enthusiastic!)"
+mc "(Let's start off with a brief introduction, then I'll get everyone's contact information.)"
+mc "Hello everyone! I'm [mcname], and I'm the team lead for this project."
+mc "Words can not express how stoked I am to have you all on my team. Thank you all for your interest, it really means a lot!"
+mc "To start off, let's have everyone give me your contact information, yea?"
 
->Kendrick is detached and blunt. Recognizes the potential of the game but not the protag herself.
-kd “Now that the roles have been assigned it’s time to hit the ground running. I’ll be here if you need help.”
-“Kendrick looks determined, maybe he really liked my game idea. I’m feeling good about this, I have to be enthusiastic too.”
-mc “I’m hyped! I promise that I’m going to produce the heck out of this!”
-“I put my hands on my hips and puff my chest out proudly."
-"Seeing everyone smile makes me believe that they're caught in my pace, except... Kendrick."
-"Like a troublesome zit staining the nearly flawless sea of faces of my team, he's glowering at me with a disgruntled expression."
-mc “B-but remember guys, the most important thing is to h-have fun.”
-"I unintentionally stutter as his piercing glare cracks my confidence.
-kd “I don’t know if you’re aware of this, but VGDC is a serious club.”
-mc “I know, bu-”
-kd “For god's sake, the people in our organization have gone on to work at the greatest companies the gaming industry has to offer, this isn’t a happy go lucky lets make friends and play patty cake baby club, if that’s what you were expecting, you should leave”
-mc "(Oh my god, what's his problem? I didn’t even say anything.)"
-mc "(Maybe this is a comedy bit? Maybe he thinks he’s being funny by being a douchebag?)”
-mc “Psshh, alright.”
-“I look at my fellow club members and motion to Kendrick”
-mc “can you believe this guy? Whats up his butt?”
-“nobody is laughing, I’m starting to figure out that this isn’t a comedy thing. Oh god think I’ve made this already uncomfortable situation worse”
-kd “get out”
-mc “I-I'm sorry, I thought we were doing a bit.”
-kd “A bit?”
-mc “L-like you were joking”
-kd “Why would I be joking?”
-mc “C-cause you were being super serious, I-I thought you were trying to scare us.”
-kd “I never joke. You might think that your game, and probably your life, is a joke, but I’m actually trying to get things done.”
-“He didn’t have to bring my life into this, although, I guess he’s technically right.”
-"But he could have put it in a bit nicer way..."
-mc “My bad, I just misread the situation. I’m sorry.”
-kd “It's fine. Just don’t make the mistake again, get to producing, we meet here next week at the same time. Dismissed.”
-mc “(I already hate college, I knew I should have gone to UC Riverside.)”
+--transition to indicate time skip--
 
->Team disbands. Protag talks to Kendrick alone to ask what she should be doing/his thoughts
-mc "So uh do you wanna touch dicks"
+mc "Phew..."
+"The meeting had come to a conclusion, and my team had disbanded for the day."
+"I had talked for quite a bit. Only a few more people remained in the meeting room."
+"Whilst surveying the area, I caught sight of Kendrick gathering his belongings."
+mc "(Hmmm... Would he mind if I spoke to him?)"
+"Aside from introducing himself at the beginning, he hadn't spoken a word during our little meeting."
+mc "(I'd really like some advice from him...)"
+"After a moment of contemplation, I decided to approach him."
+mc "(He's my officer buddy, after all. I should be comfortable with him.)"
+mc "Umm... Excuse me, Kendrick?"
+kd "..."
+"His eyes snapped up to me, making me stop in my tracks."
+"Unlike earlier, his gaze was much colder, and I found it difficult to speak up."
+mc "Umm..."
+kd "Well? Speak up."
+mc "gulp."
+mc "Err, I-I just wanted see if you had any... uh... a-advice?"
+"I unintentionally stutter as his piercing glare cracked my confidence. Kendrick sighed in response."
+kd “I don’t know if you’re aware of this, but many elements must come together harmoniously when developing a platformer game.”
+kd "Communicating with all your teammates and scheduling properly for a quarter project is no easy task."
+mc “I... understand."
+"Kendrick raised an eyebrow."
+kd "Do you? Your demeanor during today's meeting told me otherwise."
+mc "My demeanor? What do you mean?"
+kd "You were far too colloquial. You did not establish yourself as a reliable leader figure."
+mc "(...? The heck?)"
+mc "Umm... Although I understand where you're getting at, don't you think you're taking this way too seriously?"
+mc "My game is short, sweet, and fun. What more... this is just a club, isn't it?"
+"I could see Kendrick twitch at my comment, and he intensified his glar."
+kd "Treat something as though it were a joke, and your product will be become just that."
+kd “I, for one, never joke. Unlike you, I’m actually trying to get things done, so I hope you'll be understanding of my actions and position."
+kd "All my projects thus far have been a success. You could gain from learning a thing or two from me."
+mc "Ngh..."
+"I wanted to talk back, but I held my breath."
+"That, and although he was disrespectful, this kind of outlook could only be beneficial to the game's development."
+"I took a deep breath."
+mc "(He... just wants the best for the game. For our team.)"
+"I told this to myself, effectively calming me down."
+mc “I understand. You are entirely correct. I appologize for what I said.”
+kd "... Hmph.”
+"He finished packing his things and put on his bag."
+kd "... The game in itself has potential."
+mc "!!"
+kd "It caters to a large audience. I have faith in the product."
+"Just as he turned to leave, he looked back at me.
+kd "You on the other hand, I am less than confident in."
+kd "I sincerely hope you prove me wrong."
+"With that, he left, leaving me dumbfounded."
 
 >Speaks really harshly and bluntly. Unintentionally an asshole, that’s just how he is. Protag sees him as someone hard to get along with but doesn’t hate him (yet).
 mc "(Monologue about how she'll ganbate despite it all)"
