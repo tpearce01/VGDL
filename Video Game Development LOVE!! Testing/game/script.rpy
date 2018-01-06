@@ -18,6 +18,7 @@ define crowd = Character("Crowd")       # Crowd of people
 define team = Character("Team")         # Projet team
 define dad = Character("Dad")           # MC's Dad
 define nm = Character("Naomi")          # Alex's Friend
+define su = Character("Supervisor")
 
 # Main Character
 define mc = Character("[mcname]")       # Main Character / Protagonist
