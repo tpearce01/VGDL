@@ -4,7 +4,7 @@
 label prologue_scene1:
     ## SCENE AUDIO ##
     $ renpy.music.set_volume(0.75, 0, channel="music")
-    queue music "<loop 11.3609>/Audio Dumpster/Food Court.wav" loop
+    queue music "<loop 11.3609>/Audio Dumpster/Food Court.mp3" loop
     # !! Need to fadeout music before playing the next audio track
     ## END SCENE AUDIO ##
     scene bg black with fade
