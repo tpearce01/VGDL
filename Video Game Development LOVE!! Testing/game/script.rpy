@@ -74,6 +74,8 @@ label start:
     call get_name               # Get main character name
     call get_gender             # Get main character gender
     
+    call yu_test
+    
     # CORE ROUTE
     call prologue
     
