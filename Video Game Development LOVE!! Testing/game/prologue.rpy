@@ -18,6 +18,7 @@ label prologue_scene1:
     #--Aldrich Park 1--
     scene bg park_1 with dissolve
     show ax calm with dissolve
+    #play music "/Audio Dumpster/Easygoing Music.mp3" fadeout 1.0 fadein 1.0 loop
     unknown "[mcname], this way! My club's booth is just up ahead!"
     mc "\"Alex, I told you, I'm not interested in joining any clubs this quarter! Just, let go of me already!\""
     ax "Hmm? Sorry, did you say something?"
