@@ -793,7 +793,7 @@ label yu_scene1:
     "It lulls a me into a reverie of emotional procrastination as I put off processing my feelings of excitement and anxiety."
     "The growing sound of rhythmical tapping of boots on concrete breaks me out of my trance."
     mc "Hey, Yukiko."
-    yu "Hey, MC, you know I've been wondering for the whoooooooooole day what important thing you could possibly have to tell me at the dead of night."
+    yu "Hey, [mcname], you know I've been wondering for the whoooooooooole day what important thing you could possibly have to tell me at the dead of night."
     mc "Oh yeah, sorry about calling you out this late."
     yu "Don't worry, I don't mind."
     yu "I usually stay up working past this hour anyways!"
@@ -1061,7 +1061,11 @@ label yu_scene1:
     show yu nervous with dissolve
     yu "I wanted to play co-op games, but if you want to throw down, then..."
     scene bg black with dissolve
+<<<<<<< HEAD
     "Yukiko proceeds to decimate me in every game genre possible, even first-person shooters and fighting games, the ones I thought I were good at."
+=======
+    "Yukiko proceeds to decimate me in every game genre possible, even first-person shooters and fighting games, the ones I thought I was good at."
+>>>>>>> master
     pause 5.0
     scene bg yu_apartment_inside
     show yu calm with dissolve
@@ -1538,6 +1542,10 @@ label yu_scene1:
                 ".:. Good Ending."
                 return
             else:
+<<<<<<< HEAD
+=======
+                label yu_bad:
+>>>>>>> master
                 hide yu sad with dissolve
                 "I stare down at my feet, unable to look her in the eye. Unable to face the truth."
                 "As much as I hate to admit it, Yukiko's worries hold a strong foundation within reality."

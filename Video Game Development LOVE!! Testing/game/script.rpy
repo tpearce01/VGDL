@@ -18,7 +18,11 @@ define crowd = Character("Crowd")       # Crowd of people
 define team = Character("Team")         # Projet team
 define dad = Character("Dad")           # MC's Dad
 define nm = Character("Naomi")          # Alex's Friend
+<<<<<<< HEAD
 define su = Character("Supervisor")
+=======
+define su = Character("Supervisor")     # Supervisor from Yukiko route
+>>>>>>> master
 
 # Main Character
 define mc = Character("[mcname]")       # Main Character / Protagonist
@@ -156,7 +160,7 @@ label get_name:
         mcname = renpy.input("What is your name?")
         mcname = mcname.strip();
         if not mcname:
-            mcname = "Default_Name"
+            mcname = "Tyler"
     return
 # END GET MCNAME
 

@@ -4,20 +4,21 @@
 label prologue_scene1:
     ## SCENE AUDIO ##
     $ renpy.music.set_volume(0.75, 0, channel="music")
-    queue music "<loop 11.3609>/Audio Dumpster/Food Court.wav" loop
+    queue music "<loop 11.3609>/Audio Dumpster/Food Court.mp3" loop
     # !! Need to fadeout music before playing the next audio track
     ## END SCENE AUDIO ##
     scene bg black with fade
-    "My name is [mcname]"
+    "My name is [mcname]."
     "I'd consider myself a pretty good student. I attend class, get good grades, and ended the semester with an admirable GPA."
     "Though I wasn't entirely confident about it, I genuinely thought I had a shot at getting accepted into my dream school, UCLA."
     "\"To become a Bruin... Honestly, that'd be a dream come true.\" I'd think."
     "..."
     "Unfortunately, life tends to not go the way I want it to."
-    "And today was no exception."
+    "Today was no exception."
     #--Aldrich Park 1--
     scene bg park_1 with dissolve
     show ax calm with dissolve
+    #play music "/Audio Dumpster/Easygoing Music.mp3" fadeout 1.0 fadein 1.0 loop
     unknown "[mcname], this way! My club's booth is just up ahead!"
     mc "\"Alex, I told you, I'm not interested in joining any clubs this quarter! Just, let go of me already!\""
     ax "Hmm? Sorry, did you say something?"
@@ -27,7 +28,7 @@ label prologue_scene1:
     mc "\"Oh, so you heard that?\""
     show ax happy with dissolve
     ax"Haha! Selective hearing, I guess!"
-    mc "\"Selective hearing my ass\""
+    mc "\"Selective hearing my ass.\""
     show ax calm with dissolve
     "This guy is Alexander, or Alex for short."
     "As a result of our parents being close friends, he and I were introduced at a young age and pretty much grew up together."
@@ -35,7 +36,7 @@ label prologue_scene1:
     "We did just about everything together, our bickering a result of how comfortable we are with each other."
     "That is, until his family moved to a different state, and we spent the last four years just chatting online whenever we could."
     mc "(It's been four whole years...)"
-    "He was so ecsatic when he found out I would be attending UCI, he wanted to meet up as soon as we could."
+    "He was so ecstatic when he found out I would be attending UCI, he wanted to meet up as soon as we could."
     "Physically, Alex definitely changed over the years. Admittedly, for the better."
     mc "(But my feelings for him...)"
     ax "[mcname]. [mcname], look, over there."
@@ -59,7 +60,7 @@ label prologue_scene1:
     "I wrapped my hand around my arm, now free from the philanderer's grasp, and glanced around Aldrich Park."
     "Today was the Involvement Fair, so the area was filled with booths and students."
     mc "(Can't say this is my kind of scene.)"
-    "I didn't want to go, but Alex was insitent on making me join his club."
+    "I didn't want to go, but Alex was insistent on making me join his club."
     mc "(At least now, I can finally go back to my room...)"
     "I let out a sigh, and began following a road that would hopefully lead me out of here."
     unknown "Hey, you!"
@@ -144,7 +145,7 @@ label prologue_scene2:
     mc "\"But, I actually kinda planned to not join any clubs my first quarter here.\""
     kd "... I see."
     mc "\"Yea. I'm sorry, but I'm going to get going now.\""
-    kd "DBH 1412"
+    kd "DBH 1412."
     mc "\"Huh?\""
     kd "That's where the club meets. If you ever change your mind, there will likely be an officer there that can help you."
     mc "\"Oh. Uh, alright. Thank you...\""
@@ -171,7 +172,7 @@ label prologue_scene3:
     mc "..."
     mc "(That suit guy said VGDC met in DBH 1412, right?)"
     "I thought for a minute. It wouldn't hurt to give it a shot, would it?"
-    "Making up my mind, I picked my book up from the table and made my way towards the game room"
+    "Making up my mind, I picked my book up from the table and made my way towards the game room."
     return
 # END PROLOGUE SCENE3
          
@@ -179,7 +180,7 @@ label prologue_scene3:
 label prologue_scene4:
     scene bg park_1 with fade
     mc "\"Let's see...\""
-    "I was walking through Aldrich Park, inputing DBH on the Zotfinder app to guide me."
+    "I was walking through Aldrich Park, inputting DBH on the Zotfinder app to guide me."
     "The park had been relatively empty, so I didn't bother looking up and see where I was going."
     mc "\"DBH... Ah, it should be up a- woa!\""
     with hpunch
@@ -265,7 +266,7 @@ label prologue_scene6:
     unknown "Ah?!"
     mc "\"Woa-!\""
     "The girl jolted back, and pretty violently too."
-    "The chair shook and teetered. Instincltively, I put my hand to the back of the chair to keep her from falling."
+    "The chair shook and teetered. Instinctively, I put my hand to the back of the chair to keep her from falling."
     unknown "!!"
     mc "\"That was my bad. Sorry for scaring you. Are you oka-?\""
     unknown "YES!"
@@ -278,7 +279,7 @@ label prologue_scene6:
     "Completely red in the face, she quietly mumbled the last part, then finally turned to look at me."
     unknown "So, uh... can I help you?"
     mc "\"Oh, yea.\""
-    mc "\"Actually, I'm interested in joinging VGDC, and was told this was the place to go if I wanted to sign up.\""
+    mc "\"Actually, I'm interested in joining VGDC, and was told this was the place to go if I wanted to sign up.\""
     show re calm with dissolve
     unknown "Y-yes, it is... Um, I'll have you added to the newsletter. Can you give me your email...?"
     "After I told her, she inputted it and nodded."
@@ -301,7 +302,7 @@ label prologue_scene7:
     mc "sigh..."
     mc "(Did I really make the right choice..?)"
     "I quietly closed the door to the game room and headed towards the exit."
-    mc "(I mean I'm definitely interested in the club.)"
+    mc "(I mean, I'm definitely interested in the club.)"
     mc "(But so far, everyone I've met besides Yukiko seemed really unapproachable.)"
     mc "\"Hmm...\""
     mc "\"Well, it'd be unfair to leave just for that. Might as well just give it a shot.\""
@@ -313,7 +314,7 @@ label prologue_scene7:
 label prologue_scene8:
     #--Outside DB--
     scene bg dbh_outside with dissolve
-    "The doors swung open"
+    "The doors swung open."
     show ax calm with dissolve
     ax "Ah."
     mc "\"Oh.\""
@@ -484,7 +485,7 @@ label prologue_scene10:
     gd "Well then. That just leaves me."
     gd "My name is Jeorge Dan, as you all know. I am the head of the writing department."
     gd "Anyone can write words, true. But more goes into the script than one realizes."
-    gd "If you take interest in conveying themes in a way that is eloquent yet subtle through the written..."
+    gd "If you take interest in conveying themes in a way that is eloquent yet subtle through the written word..."
     gd "Consider joining the department. I'll do my best to assist you."
     hide gd calm with dissolve
     "As the officers wrapped up their introductions, the audience erupted into applause."
