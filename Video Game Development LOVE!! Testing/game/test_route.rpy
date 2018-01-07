@@ -51,7 +51,7 @@ label test_monologue:
 label test_route:
     python:
         renpy.music.set_volume(0.25, 0, channel="music")
-    queue music "test-music-a.ogg" loop
+    #queue music "test-music-a.ogg" loop
     #python:
     #    renpy.music.set_volume(0.25, 0, channel="music")
     # Show a background. This uses a placeholder by default, but you can
