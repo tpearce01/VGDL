@@ -1,13 +1,21 @@
-﻿################################################################################
+﻿#image "gui/load_overlay.png" xpos 400 ypos 110
+
+################################################################################
 ## Initialization
 ################################################################################
 
 init offset = -1
 
+image logo = "VGDL_logo_nobackground.png"
+image title_image = "chibi.png"
+
 
 ################################################################################
 ## Styles
 ################################################################################
+
+style name_label:
+    properties gui.text_properties("say", accent=True)
 
 style default:
     properties gui.text_properties()
@@ -144,7 +152,7 @@ style namebox:
     padding gui.namebox_borders.padding
 
 style say_label:
-    properties gui.text_properties("name", accent=True)
+    properties gui.text_properties("say", accent=True)
     xalign gui.name_xalign
     yalign 0.5
 
@@ -255,7 +263,7 @@ screen quick_menu():
             textbutton _("Save") action ShowMenu('save')
             textbutton _("Q.Save") action QuickSave()
             textbutton _("Q.Load") action QuickLoad()
-            textbutton _("Prefs") action ShowMenu('preferences')
+            textbutton _("Option") action ShowMenu('preferences')
 
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
@@ -272,7 +280,7 @@ style quick_button:
     properties gui.button_properties("quick_button")
 
 style quick_button_text:
-    properties gui.button_text_properties("quick_button")
+    properties gui.button_text_properties("mini_button")
 
 
 ################################################################################
@@ -286,8 +294,83 @@ style quick_button_text:
 
 screen navigation():
 
+    image "images/logo.png" xpos 850 ypos 110
+    image "images/chibi.png" xpos 130 ypos 50
+
     vbox:
         style_prefix "navigation"
+
+        xpos gui.navigation_xpos
+        yalign 0.5
+
+        spacing gui.navigation_spacing
+        
+
+        if main_menu:
+
+            imagebutton auto "gui/mm_play_%s.png" xpos 930 ypos 110 focus_mask True action Start()
+            
+            imagebutton auto "gui/mm_load_%s.png" xpos 910 ypos 90 focus_mask True  action ShowMenu('load')
+            
+            imagebutton auto "gui/mm_options_%s.png" xpos 890 ypos 70 focus_mask True  action ShowMenu('preferences')
+            
+            imagebutton auto "gui/mm_extras_%s.png" xpos 895 ypos 50 focus_mask True action ShowMenu('help')
+            
+            imagebutton auto "gui/mm_exit_%s.png" xpos 900 ypos 100 focus_mask True action Quit(confirm= not main_menu)
+
+        else:
+
+            textbutton _("History") action ShowMenu("history")
+
+            textbutton _("Save") action ShowMenu("save")
+
+        
+
+
+        if _in_replay:
+
+            textbutton _("End Replay") action EndReplay(confirm=True)
+
+        elif not main_menu:
+
+            textbutton _("Main Menu") action MainMenu()
+            
+            textbutton _("Load") action ShowMenu ("Load")
+            
+            textbutton _("Options") action ShowMenu("preferences")
+
+        #textbutton _("About") action ShowMenu("about")
+
+        #if renpy.variant("pc"):
+
+            ## Help isn't necessary or relevant to mobile devices.
+            #textbutton _("Help") action ShowMenu("help")
+
+            ## The quit button is banned on iOS and unnecessary on Android.
+            
+            
+
+
+style navigation_button is gui_button
+style navigation_button_text is gui_button_text
+
+style navigation_button:
+    size_group "navigation"
+    properties gui.button_properties("navigation_button")
+
+style navigation_button_text:
+    properties gui.button_text_properties("navigation_button")
+
+
+## Navigation screen ###########################################################
+##
+## This screen is included in the main and game menus, and provides navigation
+## to other menus, and to start the game.
+
+screen navigation2():
+
+    vbox:
+        style_prefix "navigation2"
 
         xpos gui.navigation_xpos
         yalign 0.5
@@ -306,7 +389,7 @@ screen navigation():
 
         textbutton _("Load") action ShowMenu("load")
 
-        textbutton _("Preferences") action ShowMenu("preferences")
+        textbutton _("Options") action ShowMenu("preferences")
 
         if _in_replay:
 
@@ -316,7 +399,7 @@ screen navigation():
 
             textbutton _("Main Menu") action MainMenu()
 
-        textbutton _("About") action ShowMenu("about")
+        #textbutton _("About") action ShowMenu("about")
 
         if renpy.variant("pc"):
 
@@ -381,6 +464,7 @@ style main_menu_version is main_menu_text
 style main_menu_frame:
     xsize 280
     yfill True
+    xoffset -120
 
     background "gui/overlay/main_menu.png"
 
@@ -461,7 +545,7 @@ screen game_menu(title, scroll=None):
 
                     transclude
 
-    use navigation
+    use navigation2
 
     textbutton _("Return"):
         style "return_button"
@@ -578,27 +662,23 @@ style about_label_text:
 ## www.renpy.org/doc/html/screen_special.html#load
 
 screen save():
-
     tag menu
-
+    
     use file_slots(_("Save"))
 
 
 screen load():
-
+    #image "gui/load_overlay.png" xpos 0 ypos 0
     tag menu
-
     use file_slots(_("Load"))
 
 
 screen file_slots(title):
 
     default page_name_value = FilePageNameInputValue(pattern=_("Page {}"), auto=_("Automatic saves"), quick=_("Quick saves"))
-
     use game_menu(title):
-
+    
         fixed:
-
             ## This ensures the input will get the enter event before any of the
             ## buttons do.
             order_reverse True
@@ -665,6 +745,7 @@ screen file_slots(title):
                     textbutton "[page]" action FilePage(page)
 
                 textbutton _(">") action FilePageNext()
+            image "gui/load_overlay.png" xpos -375 ypos -150
 
 
 style page_label is gui_label
@@ -705,20 +786,16 @@ style slot_button_text:
 ## themselves.
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#preferences
-
 screen preferences():
-
     tag menu
-
     if renpy.mobile:
         $ cols = 2
     else:
         $ cols = 4
 
-    use game_menu(_("Preferences"), scroll="viewport"):
-
+    use game_menu(_("Preferences"), scroll="none"):
+        add "gui/preferences_overlay.png" xpos -350 ypos -150
         vbox:
-
             hbox:
                 box_wrap True
 
@@ -748,7 +825,6 @@ screen preferences():
                 ## added here, to add additional creator-defined preferences.
 
             null height (4 * gui.pref_spacing)
-
             hbox:
                 style_prefix "slider"
                 box_wrap True
@@ -797,7 +873,8 @@ screen preferences():
                         textbutton _("Mute All"):
                             action Preference("all mute", "toggle")
                             style "mute_all_button"
-
+        
+    
 
 style pref_label is gui_label
 style pref_label_text is gui_label_text
@@ -879,20 +956,13 @@ style slider_vbox:
 ## https://www.renpy.org/doc/html/history.html
 
 screen history():
-
     tag menu
-
     ## Avoid predicting this screen, as it can be very large.
     predict False
-
     use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport")):
-
         style_prefix "history"
-
         for h in _history_list:
-
             window:
-
                 ## This lays things out properly if history_height is None.
                 has fixed:
                     yfit True
@@ -911,7 +981,6 @@ screen history():
 
         if not _history_list:
             label _("The dialogue history is empty.")
-
 
 style history_window is empty
 
@@ -961,15 +1030,11 @@ style history_label_text:
 ## help.
 
 screen help():
-
     tag menu
-
     default device = "keyboard"
-
-    use game_menu(_("Help"), scroll="viewport"):
-
+    use game_menu(_("Help"), scroll="none"):
+        add "gui/help_overlay.png" xpos -350 ypos -150
         style_prefix "help"
-
         vbox:
             spacing 15
 
@@ -1233,7 +1298,7 @@ style skip_text:
 style skip_triangle:
     ## We have to use a font that has the BLACK RIGHT-POINTING SMALL TRIANGLE
     ## glyph in it.
-    font "DejaVuSans.ttf"
+    font "Comfortaa-Regular.ttf"
 
 
 ## Notify screen ###############################################################

@@ -17,51 +17,61 @@ init python:
 ## GUI Configuration Variables
 ################################################################################
 
+## Custom
+## Color used for character names
+define gui.say_text_color = '#eeeeee'
+
+## Config used for small buttons at the bottom in-game
+define gui.mini_button_text_size = 14
+define gui.mini_button_text_color = Borders(10, 4, 10, 0)
+define gui.mini_button_text_color = 14
+define gui.mini_button_text_color = 'dddddd'
+define gui.mini_button_text_selected_color = 'aaaaaa'
+
 
 ## Colors ######################################################################
 ##
 ## The colors of text in the interface.
 
 ## An accent color used throughout the interface to label and highlight text.
-define gui.accent_color = '#0099cc'
+define gui.accent_color = '#444444'
 
 ## The color used for a text button when it is neither selected nor hovered.
-define gui.idle_color = '#555555'
+define gui.idle_color = '#111111'
 
 ## The small color is used for small text, which needs to be brighter/darker to
 ## achieve the same effect.
-define gui.idle_small_color = '#aaaaaa'
+define gui.idle_small_color = '#000000'
 
 ## The color that is used for buttons and bars that are hovered.
-define gui.hover_color = '#66c1e0'
+define gui.hover_color = '#cc0066'
 
 ## The color used for a text button when it is selected but not focused. A
 ## button is selected if it is the current screen or preference value.
-define gui.selected_color = '#ffffff'
+define gui.selected_color = '#555555'
 
 ## The color used for a text button when it cannot be selected.
-define gui.insensitive_color = '#5555557f'
+define gui.insensitive_color = '#666666'
 
 ## Colors used for the portions of bars that are not filled in. These are not
 ## used directly, but are used when re-generating bar image files.
-define gui.muted_color = '#003d51'
-define gui.hover_muted_color = '#005b7a'
+define gui.muted_color = '#e066a3'
+define gui.hover_muted_color = '#ea99c1'
 
 ## The colors used for dialogue and menu choice text.
-define gui.text_color = '#ffffff'
-define gui.interface_text_color = '#ffffff'
-
+define gui.text_color = '#fdf5e6'
+define gui.interface_text_color = '#404040'
 
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "Comfortaa-Regular.ttf"
 
 ## The font used for character names.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "Comfortaa-Regular.ttf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "Comfortaa-Regular.ttf"
 
 ## The size of normal dialogue text.
 define gui.text_size = 22
@@ -86,8 +96,10 @@ define gui.title_text_size = 50
 
 ## The images used for the main and game menus.
 #define gui.main_menu_background = "gui/main_menu.png"
-define gui.main_menu_background = "images/TEST_logo.jpg"
-define gui.game_menu_background = "gui/game_menu.png"
+define gui.main_menu_background = "gui/main_menu.png"
+define gui.game_menu_background = "gui/bg.png"
+
+##imagebutton code
 
 ## Should we show the name and version of the game?
 define gui.show_name = False
@@ -99,7 +111,7 @@ define gui.show_name = False
 ## time.
 
 ## The height of the textbox containing dialogue.
-define gui.textbox_height = 185
+define gui.textbox_height = 180
 
 ## The placement of the textbox vertically on the screen. 0.0 is the top, 0.5 is
 ## center, and 1.0 is the bottom.
@@ -108,7 +120,7 @@ define gui.textbox_yalign = 1.0
 
 ## The placement of the speaking character's name, relative to the textbox.
 ## These can be a whole number of pixels from the left or top, or 0.5 to center.
-define gui.name_xpos = 240
+define gui.name_xpos = 215
 define gui.name_ypos = 0
 
 ## The horizontal alignment of the character's name. This can be 0.0 for left-
@@ -228,12 +240,12 @@ define gui.slot_button_width = 276
 define gui.slot_button_height = 206
 define gui.slot_button_borders = Borders(10, 10, 10, 10)
 define gui.slot_button_text_size = 14
-define gui.slot_button_text_xalign = 0.5
+define gui.slot_button_text_xalign = 2
 define gui.slot_button_text_idle_color = gui.idle_small_color
 
 ## The width and height of thumbnails used by the save slots.
-define config.thumbnail_width = 256
-define config.thumbnail_height = 144
+define config.thumbnail_width = 240
+define config.thumbnail_height = 140
 
 ## The number of columns and rows in the grid of save slots.
 define gui.file_slot_cols = 3
