@@ -18,6 +18,7 @@ define crowd = Character("Crowd")       # Crowd of people
 define team = Character("Team")         # Projet team
 define dad = Character("Dad")           # MC's Dad
 define nm = Character("Naomi")          # Alex's Friend
+define su = Character("Supervisor")     # Supervisor from Yukiko route
 
 # Main Character 
 define mc = Character("[mcname]")       # Main Character / Protagonist
@@ -73,9 +74,7 @@ label start:
     # INTRODUCTION / PRE-PROLOGUE
     call get_name               # Get main character name
     call get_gender             # Get main character gender
-    
-    call yu_test
-    
+
     # CORE ROUTE
     call prologue
     
@@ -127,10 +126,7 @@ label melody_route:
 
 # YUKIKO
 label yu_route:
-    call yu_intro
     call yu_scene1
-    call yu_scene2
-    call yu_scene3
     return
 # END YUKIKO
 
@@ -160,7 +156,7 @@ label get_name:
         mcname = renpy.input("What is your name?")
         mcname = mcname.strip();
         if not mcname:
-            mcname = "Default_Name"
+            mcname = "Tyler"
     return
 # END GET MCNAME
 

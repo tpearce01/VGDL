@@ -1,43 +1,59 @@
 ## YUKIKO ROUTE ##
-label yu_test:
 # INTRO SCENE
+label yu_scene1:
+    mc "(Programming sounds like my cup of tea, so I'm going to try to talk to the programming officer.)"
+    mc "(She's the cheerful girl who forcibly escorted me to the club yesterday.)"
+    mc "(She seems the most approachable out of all the officers, but that might serve as a double-edged sword.)"
+    "I look for her on the stage."
+    "From afar, I can see a large crowd of prospective members are circling around her."
+    "Justifying my laziness with the excuse of giving her one less person to deal with, I decide to talk to her tomorrow."
+    "Not feeling like meeting people and knowing what to now, I just allow the bustling of the lecture hall to fill my senses."
+    mc "(The group of lively people clamoring while sharing one common interest.)"
+    mc "(The energetic officers who express their passion for their field in different ways.)"
+    mc "(I hear a lot of good and bad advice from the students here, like attending the first meeting of a lot of clubs lets you get a feel for if the club is a good fit for you.)"
+    mc "(At least they're right about that.)"
+    "With nothing particularly eventful happening for the rest of the meeting, I decide to call it a night."
+    pause 5.0
     scene bg park_2 with dissolve
     "I walk out of my boring lecture into the fair weather and stifle a yawn."
     mc "(I know I shouldn't, but I stayed up last night again.)"
     "I pull out my phone while walking slowly and aimlessly on the park's paths."
     mc "(Yesterday's club meeting was interesting.)"
-    mc "(Programming sounds like my cup of tea, so I'm going to try to talk to the programming officer.)"
     "The programming officer's name is... Yukiko?"
-    mc "(Ah... she's the girl who forcibly escorted me to the club yesterday.)"
-    mc "(She seems the most approachable out of all the officers, but that might be a problem itself.)"
     mc "(Oh well. If I want to learn how to program, then she would be the best officer to talk to.)"
     "I clutch my phone hopefully and shuffle weakly over to the game lab."
-    scene bg gameroom with dissolve
-    "There's a large sign on the door indicating that food and drink are forbidden."
+    scene bg black with dissolve
+    pause 5.0
+    "There's a large sign on the door to the game lab indicating that food and drink are forbidden."
     #play sound "knock.ogg"
+    #door opening
+    scene bg gameroom with dissolve
     show re calm with dissolve
     mc "Hi, is the programming officer here right now?"
     re "Sorry, Yukiko isn't here right now..."
     mc "Oh, that's okay."
+    mc "(Ugh, maybe I should've tried to talk to her yesterday after all.)"
     mc "I'll come back later."
     hide re with dissolve
     "I take my leave while shutting the door at the same time."
     mc "(I actually feel like crashing on the nearest soft surface right now.)"
-    "I attempt to drag myself back home..."
+    "I attempt to drag myself back home."
     scene bg park_1 with dissolve
     "... and I end up collapsed in the park on the grass."
     mc "(I can't do it anymore...)"
-    mc "(I'll rest my eyes... just for a little...)"
+    mc "(I'll rest my eyes, just for a little...)"
+    scene bg black with fade
     "My vision fills with black as sleep overtakes me."
     pause 5.0
-    mc "Ngh...........nnn."
+    mc "Ngh........... nnn."
     mc "Just five more minutes..."
     "I allow my eyes to peek open ever so slightly."
     "An unpleasant orange immediately stains my vision as I realize I am facing the sunset."
     "I turn over onto my other side away from the light."
-    "I prepare to shut my eyes to go back to sleep until I notice a faint purple through my eyelashes."
+    "As I prepare to shut my eyes to return to my slumber, I notice the sight of a faint purple."
     "Opening my eyes further reveals a rather unexpected scene before me."
     mc "Whoa!"
+    scene bg park_1
     "I bolt upwards to a sitting position in surprise."
     "Right in front of me is a girl sleeping peacefully on her back."
     "Her long, straight purple hair is slightly astray with strands wavering in the wind."
@@ -50,7 +66,10 @@ label yu_test:
     "Without thinking, I dash into a standing position with her between and below my legs with my back towards the falling branch's trajectory."
     show yu calm with dissolve
     show yu calm:
-        zoom 2.0
+        parallel:
+            ease .5 zoom 1.5
+        parallel:
+            linear 0.5 yalign 0.5
     "Her crimson eyes flicker for a moment before dilating and meeting mines, seemingly lasting forever due to the adrenaline."
     "As if she understood just by our brief exchange of gazes, her sleepy face snaps to one of urgency as she suddenly jumped up and tackled me."
     #play sound "thud.ogg"
@@ -122,16 +141,24 @@ label yu_test:
     mc "(To be honest, I've never had anyone so earnestly happy to see me before.)"
     mc "(That, and I'm beginning to become more conscious of her weight on me.)"
     "I can feel my face begin tinting a light shade of crimson."
+    show yu calm:
+        ease.5 zoom 2.0
     "She leans in a bit closer despite already sitting on me."
     yu "What can I do for you today?"
     mc "You can get off me first."
+    show yu calm:
+        parallel:
+            ease .5 zoom 1.5
+        parallel:
+            linear 0.5 yalign 1.0
     show yu nervous with dissolve
     yu "Oh, sorry."
     "She whispers that rather quietly."
     mc "(That was surprisingly meek of her.)"
-    hide yu nervous with dissolve
     "We dust the dirt and plant matter off ourselves."
-    #bring her sprite back at a reasonable distance and calm
+    show yu calm with dissolve
+    show yu calm:
+            ease .5 zoom 1.0
     mc "Why were you napping next to me?"
     yu "Well, I walked to the game lab and Reina described a male student who was looking for me."
     mc "(I wonder what Reina said about me...)"
@@ -141,7 +168,7 @@ label yu_test:
     yu "I was walking back and noticed you napping on the grass."
     yu "You looked so peaceful, I didn't want to wake you."
     show yu calm with dissolve
-    yu "I sat down waited but the weather was so nice and the wind was so cool."
+    yu "I sat down and waited, but the weather was so nice and cool."
     yu "The birds were chirping, and the rays of the sun were so warm!"
     mc "Don't worry, I understand. I would have napped too."
     show yu happy with dissolve
@@ -191,7 +218,7 @@ label yu_test:
 
 #scene1 programming workshop
     "A week later in the game lab..."
-    scene gameroom with dissolve
+    scene bg gameroom with dissolve
     show yu nervous with dissolve
     yu "A-and so, for testing code, they say that ninety percent of the work goes into the last ten percent of software, so it's like ten times the effort for a tenth of the fun..."
     "She says all this with strange inflections in her tone of voice."
@@ -205,15 +232,26 @@ label yu_test:
     "The rest of the meeting went shakily but steadily."
     "Much to Yukiko's dismay, a lot of students had questions for her afterwards."
     "I waited until everyone dispersed to approach her."
-    scene gameroom with dissolve
-    #sad yukiko sprite going downwards
+    scene bg gameroom with dissolve
+    show yu sad with dissolve
     yu "Uuuu..."
+    show yu sad:
+        parallel:
+            ease .5
+        parallel:
+            linear 0.5 yalign 1.7
     "She slumps down onto a desk in the corner."
     mc "Hey, Yukiko."
+    show yu sad:
+        parallel:
+            ease .5
+        parallel:
+            linear 0.5 yalign 1.3
     "From the top of the desk, she directs a cute upward gaze against me as if projecting a telepathic barrier with her eyes to prevent any further inquiries."
     "I almost felt like a criminal walking up to her."
     mc "That must have been stressful."
     "Her eyes give up on arresting me and face forward into empty space."
+    show yu calm with dissolve
     yu "I wish it wasn't."
     mc "What do you mean?"
     yu "I always get like this with large groups."
@@ -242,36 +280,86 @@ label yu_test:
     mc "Maybe?"
     #play sound "knock.ogg"
     "As if we spoke of the devil, Reina suddenly enters the game lab."
-    #reina calm sprite entering from the side
+    show re calm at left with dissolve
     "As she scanned the room for a place to sit, Reina's expression changes from a slight smile upon spotting Yukiko to a slight frown upon seeing me."
     re "Yuki... is he bothering you?"
-    "I involuntarily flinch at the timid girl's sharp words."
-    mc "(Now that I think about it, standing over and talking down to Yukiko like this doesn't exactly look very friendly.)"
+    "I involuntarily flinch at the timid girl's uncharacteristically sharp words."
+    mc "(Now that I think about it, standing over and talking down to Yukiko like this looks like I'm trying to intimidate her.)"
     mc "Oh sorry, I was just.."
+    show yu happy:
+        parallel:
+            ease .5
+        parallel:
+            linear 0.5 yalign 1.0
+    show re surprised with dissolve
+    show re surprised:
+        parallel:
+            ease .5
+        parallel:
+            linear 0.5 xalign 0.2
+    show yu happy:
+        parallel:
+            ease .5
+        parallel:
+            linear 0.5 xalign 0.0
     "Yukiko stands up and suddenly glomps Reina."
-    #move a happy Yukiko up and towards Reina surprised
+    show re blush with dissolve
     re "Kyah!"
-    yu "Don't worry Reina. He was just comforting me after my big workshop flop."
+    show re blush:
+        parallel:
+            ease .5
+        parallel:
+            linear 0.5 xalign 0.1
+    pause .5
+    show re blush:
+        parallel:
+            ease .5
+        parallel:
+            linear 0.5 xalign 0.3
+    pause .5
+    show re blush:
+        parallel:
+            ease .5
+        parallel:
+            linear 0.5 xalign 0.1
+    pause .5
+    show re blush:
+        parallel:
+            ease .5
+        parallel:
+            linear 0.5 xalign 0.2
     #Reina blush and wriggling a bit
     "Reina wriggles around a bit like a captured animal, but quickly lets out a sigh of resignation to her fate."
+    yu "Don't worry Reina. He was just comforting me after my big workshop flop."
     show re calm with dissolve
     re "Yuki, you know the only reason they always have questions is because they aren't getting what you're saying during your presentation."
     show yu sad with dissolve
     yu "Uuuu..."
     show re calm with dissolve
     re "That being said... if you have any worries... you can just come to me."
-    show yu nervous with dissolve
-    "Yukiko makes a surprised face but quickly turns into sunshines and rainbows in response."
+    "Yukiko seems speechless for a moment, but quickly turns into sunshines and rainbows in response to Reina's encouragement."
     show yu happy with dissolve
     yu "Reina!"
+    show yu happy:
+        parallel:
+            ease .5
+        parallel:
+            linear 0.5 xalign 0.1
     "She holds onto Reina even tighter."
+    show re surprised with dissolve
     re "Agh.. I'm choking.."
     "I couldn't help but fail at surpressing a laugh at such a heartwarming scene."
+    show re calm wth dissolve
     "Reina seems to be uncomfortable but I couldn't shake the feeling that she looks slightly happy."
     re "Well? What's on your mind?"
     yu "I... don't have many friends here."
     re "And that bothers you, right?"
     yu "Yeah."
+    show re calm:
+        parallel:
+            ease .5
+        parallel:
+            linear 0.5 yalign 1.2
     "Reina shrinks down a bit deeper into Yukiko's embrace."
     re "I know... I'm the worst person you could ask for advice about this but..."
     re "I see you talking to a lot of people all the time."
@@ -280,13 +368,12 @@ label yu_test:
     re "Wait.. I'm not finished."
     re "At least from my perspective... when you talk to them..."
     re "It looks like you're not being yourself."
-    show yu nervous with dissolve
+    show yu calm with dissolve
     yu "Really?"
     mc "(I wonder if the Yukiko who bandaged me is the same as the Yukiko sitting in front of me right now.)"
     re "So what you can do is..."
     re "At least for me.. I don't want many friends."
     re "But if you're not satisfied with your amount of friends, you should go out and talk to people."
-    show yu calm with dissolve
     re "Not like talking, but... connecting."
     yu "You mean like speaking what's on my mind, or..?"
     re "Not exactly that..."
@@ -305,136 +392,138 @@ label yu_test:
     scene bg black with fade
     "We continue to discuss how to make friends for a good hour."
     scene bg park_2 with dissolve
-    #Yukiko happy very close to Reina calm
+    show yu happy
+    show re calm
+    with dissolve
+    show yu happy:
+            linear 0.5 xalign 0.4
+    show re calm:
+            linear 0.5 xalign 0.6
     "Even while walking back in the park, Yukiko clings to Reina."
+    "We walk for a while in comfortable silence."
+    "Fortunately for me, right after I begin pinning myself as the third wheel, Reina speaks up."
     re "This is where I'm turning... so..."
-    #yeah uh try your best to show the following?
-    "Reina effortlessly slips out under Yukiko's arms by simply bending her knees and kneeling down."
+    show re calm:
+        parallel:
+            ease .5
+        parallel:
+            linear 0.5 yalign 1.8
+    pause 0.5
+    show yu calm with dissolve
+    show re calm:
+        parallel:
+            ease .5
+        parallel:
+            linear 0.5 xalign 1.2
+    pause 1.0
+    show re calm:
+        parallel:
+            ease .5
+        parallel:
+            linear 0.5 yalign 1.0
+    "Reina effortlessly slips out under Yukiko's arms by simply kneeling down and sliding out of her embrace."
     re "See you later, Yuki..."
+    show re calm:
+        linear 2.0 xalign 2.0
     hide re calm with dissolve
-    show yu nervous with dissolve
+    show yu calm:
+        linear 0.5 xalign 0.5
+    "Reina scampers off without another word."
     yu "Poor Reina must be really exhausted from all that socializing."
+    "I thought that Yukiko would be sad, but it seems like she had her fair share of Reina today."
     yu "She doesn't usually talk that much at all."
     mc "How did you become friends?"
     show yu happy with dissolve
     "She poses her arms on her hips and puffs her chest out proudly."
     yu "I caught her alone in the game lab one day and the rest was history."
-    mc "(You caught her..?)" #Italicize caught?
+    mc "(You caught her..?)"
     mc "I'd like to hear more about that potentially incriminating evidence you just--"
-    #play sound "knock.ogg"
+    #play sound "phone.ogg"
+    "Before I can investigate the dangerous potential predator standing in front of me, my phone interrupts me."
     mc "Sorry, can I take this?"
     yu "Of course!"
     "I answer my phone to the voice of a friend I made at school."
     mc "What's up? Yeah. Oh, I'm just walking back from around the computer science building. Sounds fun! Okay. Alright, see you then."
     "I was about to hang up when an idea abruptly pops into my head."
     mc "Actually, wait..."
+    define yu_hang = 0
+    menu yu_menu1:
+        "What should I do?"
+        "Invite Yukiko to hang out with us":
+            $ yu_hang = yu_hang + 1
+            "I put down my phone for a moment."
+            mc "Hey Yukiko, wanna go grab a bite with us?"
+            show yu nervous with dissolve
+            "She begins fidgeting and hesitates to answer until I give her an encouraging smile."
+            yu "Um, sure."
+            scene bg foodcourt with dissolve
+            "We head to the food court and I grab some overpriced fish tacos."
+            "Yukiko just asks for a water cup."
+            "....."
+            "Time passes as we just chat together about nothing in particular."
+            "....."
+            "It was a bit awkward, but Yukiko's true personality shined through here and there."
+            "My friends part ways for class while getting the wrong idea about Yukiko and I, goading me as they left."
+            show yu calm with dissolve
+            mc "I swear they're nice people."
+            yu "You all seem to get along very well."
+            show yu sad with dissolve
+            yu "... I was just being weird."
+            mc "No, you weren't being weird. You were fine."
+            mc "It's only natural to be a bit reserved when you first meet people."
+            show yu nervous with dissolve
+            yu "Um, [mcname], can I ask you a question?"
+            mc "You just did."
+            yu "Can I ask you another question after this question?"
+            mc "Shoot."
+            yu "Um, I just had a feeling, so if I'm totally wrong, just correct me, but..."
+            mc "Mmhmm?"
+            yu "You seemed like you were making an extra effort involve me in the conversations."
+            mc "What made you think that?"
+            yu "You were being pretty awkward yourself."
+            mc "Ugh..."
+            "I feel like I had just been stabbed in the chest."
+            mc "So that's how it looked to you."
+            show yu happy with dissolve
+            yu "Thank you, [mcname]."
+            "I can't stop my face from flushing slightly as I deny it."
+            mc "Nah, I didn't do anything..."
+            "I quickly change the subject."
 
-    #Choice A1 - Invite Yukiko to group hangout
-    "I put down my phone for a moment."
-    mc "Hey Yukiko, wanna go grab a bite with us?"
-    show yu nervous with dissolve
-    "She begins fidgeting and hesitates to answer until I give her an encouraging smile."
-    yu "Um, sure."
-    "We head to the food court and I grab some overpriced fish tacos."
-    "Yukiko just asks for a water cup."
-    "....."
-    "Time passes as we just chat together about nothing in particular."
-    "....."
-    "It was a bit awkward, but Yukiko's true personality shined through here and there."
-    "My friends part ways for class while getting the wrong idea about Yukiko and I, goading me as they left."
-    show yu calm with dissolve
-    mc "I swear they're nice people."
-    yu "You all seem to get along very well."
-    show yu sad with dissolve
-    yu "... I was just being weird."
-    mc "No, you weren't being weird. You were fine."
-    mc "It's only natural to be a bit reserved when you first meet people."
-    show yu nervous with dissolve
-    yu "Um, [mcname], can I ask you a question?"
-    mc "You just did."
-    yu "Can I ask you another question after this question?"
-    mc "Shoot."
-    yu "Um, I just had a feeling, so if I'm totally wrong, just correct me, but..."
-    mc "Mmhmm?"
-    yu "You seemed like you were making an extra effort involve me in the conversations."
-    mc "What made you think that?"
-    yu "You were being pretty awkward yourself."
-    mc "Ugh..."
-    "I feel like I had just been stabbed in the chest."
-    mc "So that's how it looked to you."
-    show yu happy with dissolve
-    yu "Thank you, [mcname]."
-    "I can't stop my face from flushing slightly as I deny it."
-    mc "Nah, I didn't do anything..."
-    "I quickly change the subject."
-    show yu calm with dissolve
-    mc "Hey Yukiko, what kind of food do you like?"
-    yu "I don't really like food."
-    mc "What."
-    mc "How can you not like food?"
-    show yu happy with dissolve
-    yu "Aha, sorry. I phrased that wrong."
-    show yu calm with dissolve
-    yu "I try to go as long as possible without eating."
-    yu "When I do have to eat, I just inhale the minimum amount of food I need to function and I hurry back to my computer."
-    "She picks up one of my fish tacos and devours it one bite to demonstrate."
-    mc "MY TACO!!!"
-    "I melodramatically agonize over the death of my beloved taco."
-    yu "What's in a fish taco?"
-    mc "Didn't you just eat it?"
-    show yu nervous with dissolve
-    yu "I didn't taste anything though."
-    mc "What a waste..."
-    "I grit my teeth and clutch my fist while staring downwards to observe a moment of silence for the wasted food."
-    show yu calm with dissolve
-    yu "You know, I do love water though."
-    "I couldn't help but stare at her curiously."
-    yu "I just have to take a sip and I already feel refreshed."
-    yu "I can also keep a bottle next to me at my desk all the time."
-    mc "So you're saying bottled water is the best thing to happen since sliced bread?"
-    show yu nervous with dissolve
-    yu "No, [mcname], I'm saying programming is the best thing to happen since bottled water!"
-    mc "Or is bottled water the best thing to happen since programming?"
-    show yu calm with dissolve
-    yu "Ehh? I haven't thought about it that way."
-    yu "....."
-    mc "....."
-    yu "Pfft.."
-    mc "Hahahaha!"
-    show yu happy with dissolve
-    "We both laugh to ourselves and have a good time until we part for class."
-    scene bg black with fade
+        "Hang out with just Yukiko":
+            #[Neg. Option] "No"
+            mc "Something came up today. I have to pass this time."
+            mc "Mmhm, talk to you later. Bye."
+            #cell phone beep
+            mc "Now, where were we?"
+            show yu calm with dissolve
+            yu "Who was that?"
+            mc "Just some friends seeing if I want to hang out."
+            yu "Shouldn't you go hang out with them?"
+            mc "I don't feel like it today."
+            show yu happy with dissolve
+            yu "Uwaaah, [mcname] sure is mean to his friends!"
+            mc "Okay, the real reason is that when I meet a new friend, I like to spend time to get to know them."
+            yu "Who's that? Have I met them before?"
+            "I flash a smile at Yukiko who returns a confused smile."
+            mc "(Wait, is she serious?)"
+            show yu calm with dissolve
+            yu "..."
+            mc "It's you."
+            yu "..."
+            yu "Oh! I didn't think of that."
+            show yu happy with dissolve
+            "She rests a fist on the back of her head, flashes a smile, and sticks her tongue out while winking."
+            mc "(I'm not sure if I find that cute or disturbing.)"
+            show yu calm with dissolve
+            mc "Wanna go grab a bite?"
+            yu "Okay."
+            hide yu calm with dissolve
+            scene bg black with fade
+            "We head to the food court and I grab some overpriced fish tacos."
+            "Yukiko just asks for a water cup."
+            scene bg foodcourt with dissolve
 
-    #Choice A2 - Keep Yukiko company
-    mc "Something came up today. I have to pass this time."
-    mc "Mmhm, talk to you later. Bye."
-    #cell phone beep
-    mc "Now, where were we?"
-    show yu calm with dissolve
-    yu "Who was that?"
-    mc "Just some friends seeing if I want to hang out."
-    yu "Shouldn't you go hang out with them?"
-    mc "I don't feel like it today."
-    show yu happy with dissolve
-    yu "Uwaaah, [mcname] sure is mean to his friends!"
-    mc "Okay, the real reason is that when I meet a new friend, I like to spend time to get to know them."
-    yu "Who's that? Have I met them before?"
-    "I flash a smile at Yukiko who returns a confused smile."
-    mc "(Wait, is she serious?)"
-    show yu calm with dissolve
-    yu "..."
-    mc "It's you."
-    yu "..."
-    yu "Oh! I didn't think of that."
-    "She rests a fist on the back of her head, flashes a smile, and sticks her tongue out while winking."
-    mc "(I'm not sure if I find that cute or disturbing.)"
-    mc "Wanna go grab a bite?"
-    yu "Okay."
-    hide yu calm with dissolve
-    scene bg black with fade
-    "We head to the food court and I grab some overpriced fish tacos."
-    "Yukiko just asks for a water cup."
-    scene bg foodcourt with dissolve
     show yu calm with dissolve
     mc "Hey Yukiko, what kind of food do you like?"
     yu "I don't really like food."
@@ -451,30 +540,28 @@ label yu_test:
     "I melodramatically agonize over the death of my beloved taco."
     yu "What's in a fish taco?"
     mc "Didn't you just eat it?"
-    show yu nervous with dissolve
     yu "I didn't taste anything though."
     mc "What a waste..."
     "I grit my teeth and clutch my fist while staring downwards to observe a moment of silence for the wasted food."
-    show yu calm with dissolve
     yu "You know, I do love water though."
     "I couldn't help but stare at her curiously."
     yu "I just have to take a sip and I already feel refreshed."
     yu "I can also keep a bottle next to me at my desk all the time."
     mc "So you're saying bottled water is the best thing to happen since sliced bread?"
-    show yu nervous with dissolve
+    show yu happy with dissolve
     yu "No, [mcname], I'm saying programming is the best thing to happen since bottled water!"
     mc "Or is bottled water the best thing to happen since programming?"
     show yu calm with dissolve
     yu "Ehh? I haven't thought about it that way."
     yu "....."
     mc "....."
+    show yu happy with dissolve
     yu "Pfft.."
     mc "Hahahaha!"
-    show yu happy with dissolve
     "We both laugh to ourselves and have a good time until we part for class."
     scene bg black with fade
 #end of scene1
-
+    pause 5.0
 #scene2 player gets a team and help with programming
     "I haven't seen Yukiko since we had lunch together, but we exchanged numbers before we left."
     "We texted each other mostly about random crap, like how four hours of sleep isn't a lot, but a four hour nap is."
@@ -485,14 +572,9 @@ label yu_test:
     "I enter the lecture hall in the middle of someone's game pitch and get a few looks from the packed audience."
     "I hasten my walk of shame and plop down into the first random seat I could find."
     "The current pitch doesn't catch my interest so my eyes inevitably begin wandering around the room."
-    show ax calm with dissolve
-    show kd calm with dissolve
-    show md calm with dissolve
-    show re calm with dissolve
-    show gd calm with dissolve
-    show yu calm with dissolve
     "I notice that most of the officers sit together on the stage, maintaining an air of professionalism."
     mc "(What's Yukiko doing?)"
+    show yu calm with dissolve
     "I see Yukiko listening to the pitches like the good officer she is."
     mc "Wait..."
     "Now that I look more closely, I notice she is actually staring in the podium's general direction. Her eyes aren't focused."
@@ -503,39 +585,45 @@ label yu_test:
     mc "(It's just a coincidence, right? Or she could be looking at someone else.)"
     "Her eyes quickly shift back to the direction of the podium."
     "I remind myself that the students pitching the games are putting their ideas out there and deserve respect."
+    hide yu calm with dissolve
+    "I shift my attention back to the speaker."
     "The current student's pitch describes programming in lua for a game mod."
     mc "(It can't be THAT game, can it?)"
     "As the pitch goes on, the student never mentions the name of the game, but all the clues point to a game I hold dear to my heart as part of my childhood."
+    scene bg meeting_1 with vpunch
     mc "Larry's Mod!"
     "In my fit of nostalgia, I accidentally blurt that out rather loudly and attract the attention of nearby audience members and the officers."
-    show ax serious with dissolve
-    show md angry with dissolve
-    "I receive a lot of sideward gazes for my interruption and certain officers I will not name appear to be arresting me with their gazes."
-    show yu nervous with dissolve
+    show kd angry
+    show md angry at right
+    show gd serious at left
+    with dissolve
+    "I receive a lot of sideway looks for my interruption. Some of the officers appear to be arresting me with their gazes."
+    hide kd angry
+    hide md angry
+    hide gd serious
+    with dissolve
+    pause 2.0
+    show yu calm with dissolve
     "Yukiko is trying in vain to give me a disciplinary look, but her quivering features indicates she appears to be preoccupied with suppressing a smile."
     "I mutter a meek apology dispersed in no one's direction in particular and remain dead silent for the rest of the presentations."
     "It's fine though, because I know which project I want to work on."
-    hide ax serious with dissolve
-    hide kd calm with dissolve
-    hide md angry with dissolve
-    hide re calm with dissolve
-    hide gd calm with dissolve
-    hide yu nervous with dissolve
     scene bg black with fade
     "The rest of the pitches finish and I head towards the stage to join the other students asking officers and game pitchers questions."
-    #fade back in
+    scene bg meeting_1 with dissolve
     show yu nervous with dissolve
     "Most of the members are programmers, so a rabid pack of students are swarming Yukiko with questions."
     mc "(Wouldn't Reina help Yukiko right now?)"
+    hide yu nervous with dissolve
+    pause 2.0
     show re calm with dissolve
     "I look for Reina, but she is occupied with her own group of students."
-    mc "Right."
+    mc "Right, then."
     hide re calm with dissolve
-    mc "(Plus, that would be considered coddling Yukiko, wouldn't it?)"
+    mc "(Plus, trying to help Yukiko out would be considered coddling her, wouldn't it?)"
     mc "(But helping out just a little bit wouldn't hurt, right?)"
     "I wrack my brain for ideas."
     mc "(Yukiko said she's bad with big groups...)"
-    mc "(Wait, duh! If they asked one-by-one, it would be easier on her!)"
+    mc "(Wait, duh! If they asked one-by-one, it would be easier on her! Why aren't they doing that to begin with?)"
     show yu nervous with dissolve
     "I stride over and break through Yukiko's circle of interviewers."
     "I clear my throat and prepare my best voice of authority."
@@ -558,20 +646,47 @@ label yu_test:
     mc "Right, priorities."
     yu "I should head back now."
     yu "See you later..."
-    #uh shuffle the sprite away
     "She begins shuffling away..."
+    show yu calm:
+        parallel:
+            ease .5
+        parallel:
+            linear 0.5 xalign 0.6
+    pause 0.5
+    show yu calm:
+        parallel:
+            ease .5
+        parallel:
+            linear 0.5 xalign 0.7
+    pause 0.5
+    show yu calm:
+        parallel:
+            ease .5
+        parallel:
+            linear 0.5 xalign 0.8
+    pause 0.5
+    show yu calm:
+        parallel:
+            ease .5
+        parallel:
+            linear 0.5 xalign 0.9
+        pause 0.5
+    show yu nervous:
+        linear 0.5 xalign 0.6
     #move Yukiko sprite to the side quickly and change to nervous expression while bicycle bell sound plays twice
     "... and narrowly avoids a collision with a speeding biker."
     mc "You know what, I'm walking you back."
-    #fade out
+    scene bg black with fade
+    pause 2.0
     "After I walked her home, I immediately started teaching myself how to program."
 #end of scene2
-
+    pause 5.0
 #game lab scene where Yukiko is programming with absolute focus
 
 #scene3 midterms vs project help
-    scene bg mc_apartment_inside with dissolve
+    "It's a nice, sunny day on the weekend. Birds are singing, flowers are blooming."
     "I got onto my dream project team, but..."
+    scene bg mc_apartment_inside with vpunch
     mc "This is so hard!!!"
     "I remember Yukiko said that people usually learn Python first, but I jumped into another language."
     "Since the deadline for me to complete my portion of the work is next week, I've been bugging my project leader about the intricacies of lua at least every ten minutes while working."
@@ -582,88 +697,103 @@ label yu_test:
     mc "(Wait, midterms!)"
     mc "Is this what they call being between a rock and a hard place?"
     "I don't want to turn in crap, but I don't want to fail my classes either..."
-    mc "(What do I do?)"
+    define yu_midterms = 0
 
-    #Choice B1 - Study for midterms
-    mc "I can't change the dates of the midterms but I can just work harder later to make up my part for the project."
-    "I nod to myself confidently."
-    "I spend the rest of the day with my face buried in textbooks."
+    menu yu_menu2:
+        "What do I do?"
+        "Study for midterms":
+            $ yu_midterms = yu_midterms + 1
+            #Choice B1 - Study for midterms
+            mc "I can't change the dates of the midterms but I can just work harder later to make up my part for the project."
+            "I nod to myself confidently."
+            "I spend the rest of the day with my face buried in textbooks."
+        "Get programming help from Yukiko":
+            #Choice B2 - Get help from Yukiko
+            mc "(Is it okay for me to ask her for help?)"
+            mc "(Guess I'll try...)"
+            "I call Yukiko."
+            #play audio "phone.mp3"
+            "This is my first time calling her."
+            "The phone keeps ringing, but it doesn't seem like she's going to pick up."
+            "I almost hang up when her voice suddenly caresses my eardrums."
+            yu "Hello?"
+            mc "Hey, do you have some spare time?"
+            mc "I could really use a hand with programming in lua."
+            yu "I'm at my apartment right now."
+            mc "Should we meet in the game lab?"
+            yu "No, going outside is a pain; just come over."
+            "She casually invites me over with a bored tone."
+            "Normally I would be very ecstatic, but her attitude makes it difficult to let my thoughts sidetrack into less than pure territory."
+            yu "Do you have a laptop?"
+            mc "Yes, I'm on my way."
+            yu "Kay, bye."
+            scene bg black with dissolve
+            pause 5.0
+            scene bg yu_apartment_outside with dissolve
+            "I text her to let her know I'm outside."
+            show yu calm with dissolve
+            "She opens the door with her hair slightly disheveled."
+            yu "Hi."
+            mc "Sup."
+            hide yu calm with dissolve
+            yu "Without giving me cue to follow, she shuffles back inside."
+            scene bg yu_apartment_inside with dissolve
+            "I follow her to find the living room void of furniture and a few filled trash bags lined up next to the door."
+            show yu calm with dissolve
+            yu "My room is this way. Well, it's pretty obvious, I guess."
+            mc "Do you have any roommates?"
+            yu "Nope."
+            "She lets out a yawn while walking into her room."
+            scene bg black with dissolve
+            "I come in and see a bed, desk with a computer, and an office chair."
+            "She leaves the light off and works in the darkness."
+            mc "(I'm not sure how to put it, but it's very Yukiko.)"
+            mc "Did you just wake up by any chance?"
+            show yu calm with dissolve
+            yu "Yeeeeeaaaaah."
+            mc "Are you awake?"
+            yu "Maybe."
+            "I give her a very soft punch on the head."
+            yu "Owie."
+            show yu calm:
+                parallel:
+                    ease .5
+                parallel:
+                    linear 0.5 yalign 1.3
+            "She falls back onto the cushion of her black office chair which let out a sigh as if it was just as tired as its owner."
+            "From her desk, she picks up and tosses a paperback manual at my face that smacks me painlessly in the face and falls to the floor."
+            mc "I'm suing you."
+            yu "I'm pretty sure I can afford a better lawyer than you."
+            mc "Fair enough, since you can afford to live in a 2 bedroom apartment by yourself."
+            yu "With a little help from financial aid, I do enough freelance work to support myself."
+            hide yu calm with dissolve
+            "She turns her chair back to her computer and resumes her work."
+            yu "I don't have any friends to room with here."
+            mc "Couldn't you just find other female students?"
+            yu "I only know Reina here and she doesn't really want to room with anyone."
+            mc "Must be nice."
+            yu "It gets lonely sometimes."
+            "I peer over curiously at Yukiko who remains focused on her monitor."
+            #something someting
+            "I pick up the manual and read the title aloud."
+            mc "Lua for Dummies."
+            yu "Just use that as reference."
+            "She says that without looking at me."
+            mc "Um, is this really different from searching for it on the internet?"
+            yu "I'll be here in case you don't get anything."
+            "We just spend the rest of our day like that until midnight."
     scene bg black with fade
-
-    #Choice B2 - Get help from Yukiko
-    mc "(Is it okay for me to ask her for help?)"
-    mc "(Guess I'll try...)"
-    "I call Yukiko."
-    #play audio "phone.mp3"
-    "This is my first time calling her."
-    "The phone keeps ringing, but it doesn't seem like she's going to pick up."
-    "I almost hang up when her voice suddenly caresses my eardrums."
-    yu "Hello?"
-    mc "Hey, do you have some spare time?"
-    mc "I could really use a hand with programming in lua."
-    yu "I'm at my apartment right now."
-    mc "Should we meet in the game lab?"
-    yu "No, going outside is a pain; just come over."
-    "She casually invites me over with a bored tone."
-    "Normally I would be very ecstatic, but her attitude makes it difficult to let my thoughts sidetrack into less than pure territory."
-    yu "Do you have a laptop?"
-    mc "Yes, I'm on my way."
-    yu "Kay, bye."
-    scene bg black with dissolve
     pause 5.0
-    scene bg yu_apartment_outside with dissolve
-    "I text her to let her know I'm outside."
-    "She opens the door with her hair slightly disheveled."
-    yu "Hi."
-    mc "Sup."
-    yu "Without giving me cue to follow, she shuffles back inside."
-    scene bg yu_apartment_inside with dissolve
-    "I follow her to find the living room void of furniture and a few filled trash bags lined up next to the door."
-    yu "My room is this way. Well, it's pretty obvious, I guess."
-    mc "Do you have any roommates?"
-    yu "Nope."
-    "She lets out a yawn while walking into her room."
-    "I come in and see a bed, desk with a computer, and an office chair."
-    "She leaves the light off and works in the darkness."
-    mc "(I'm not sure how to put it, but it's very Yukiko.)"
-    mc "Did you just wake up by any chance?"
-    yu "Yeeeeeaaaaah."
-    mc "Are you awake?"
-    yu "Maybe."
-    "I give her a very soft punch on the head."
-    yu "Owie."
-    "She falls back onto the cushion of her black office chair which let out a sigh as if it was just as tired as its owner."
-    "From her desk, she picks up and tosses a paperback manual at my face that smacks me painlessly in the face and falls to the floor."
-    mc "I'm suing you."
-    yu "I'm pretty sure I can afford a better lawyer than you."
-    mc "Fair enough, since you can afford to live in a 2 bedroom apartment by yourself."
-    yu "With a little help from financial aid, I do enough freelance work to support myself."
-    "She turns her chair back to her computer and resumes her work."
-    yu "I don't have any friends to room with here."
-    mc "Couldn't you just find other female students?"
-    yu "I only know Reina here and she doesn't really want to room with anyone."
-    mc "Must be nice."
-    yu "It gets lonely sometimes."
-    "I peer over curiously at Yukiko who remains focused on her monitor."
-    #something someting
-    "I pick up the manual and read the title aloud."
-    mc "Lua for Dummies."
-    yu "Just use that as reference."
-    "She says that without looking at me."
-    mc "Um, is this really different from searching for it on the internet?"
-    yu "I'll be here in case you don't get anything."
-    "We just spend the rest of our day like that until midnight."
-    scene bg black with fade
 #end of scene3
 
 #scene4 Confession Scene
-    scene bg utc with dissolve
-    mc "(Actually managing to call her out here still feels like a dream.)"
-    mc "(The cool breeze flowing through the azure night reminds me of time passing by.)"
-    mc "(It lulls a me into a reverie of emotional procrastination as I put off processing my feelings of excitement and anxiety.)"
-    mc "(The growing sound of rhythmical tapping of boots on concrete breaks me out of my trance.)"
+    scene bg night with dissolve
+    "Actually managing to call her out here still feels like a dream."
+    "The cool breeze flowing through the azure night reminds me of time passing by."
+    "It lulls a me into a reverie of emotional procrastination as I put off processing my feelings of excitement and anxiety."
+    "The growing sound of rhythmical tapping of boots on concrete breaks me out of my trance."
     mc "Hey, Yukiko."
-    yu "Hey, MC, you know I've been wondering for the whoooooooooole day what important thing you could possibly have to tell me at the dead of night."
+    yu "Hey, [mcname], you know I've been wondering for the whoooooooooole day what important thing you could possibly have to tell me at the dead of night."
     mc "Oh yeah, sorry about calling you out this late."
     yu "Don't worry, I don't mind."
     yu "I usually stay up working past this hour anyways!"
@@ -691,11 +821,19 @@ label yu_test:
     "I'm so taken aback that I can't think of anything to say, so I stammer something stupid instead."
     mc "T-that's good."
     "She stares at me smiling as I fry my brain on what to do next."
-    "She's probably expecting something and I can't stand it anymore, so I move automatically."
-    #zoom in on that Yukiko sprite, change to nervous
+    "She's probably expecting something, so I move forward automatically."
+    show yu calm:
+        parallel:
+            ease .5 zoom 1.5
+        parallel:
+            linear 0.5 yalign 0.5
     yu "Is there something on my face, [mcname]?"
     "Her confused, innocent line manages to knock out all the courage I mustered in one foul swoop."
-    #zoom out
+    show yu calm:
+        parallel:
+            ease .5 zoom 1.0
+        parallel:
+            linear 0.5 yalign 1.0
     "I back off dejectedly."
     mc "Oh, nothing of the sort."
     "It suddenly hits me that she might not know what I'm getting at."
@@ -718,39 +856,50 @@ label yu_test:
     show yu nervous with dissolve
     mc "..........."
     yu "............."
-    show yu blush with dissolve
+    show yu embarassed with dissolve
     yu "Wait what when did this start I can't believe you would fall for someone like me oh but there were a lot of boys who gave me attention when I was growing up but I never got back to them so I don't really know how this works and--"
     "She loses control of her intonation so her voice oscillates between various pitches just like when she gets nervous in front of groups."
     mc "Yukiko--"
     yu "I'm not really against the idea but you know wouldn't it be weird if people at the club noticed us together or maybe they already see us that way and I don't really care in the end but oh my gosh what would Reina do to you after she finds out--"
     mc "Yukiko!"
+    show yu blush with dissolve
     yu "I wanna crawl back to my computer right now but at the same time I don't so it's a really big issue for me right now right now but oh my gosh that was an attempt at kissing me earlier and I completely missed what you were getting at and--"
-    #zoom in on that sprite baby
+    show yu embarassed:
+        parallel:
+            ease .5 zoom 1.5
+        parallel:
+            linear 0.5 yalign 1.0
     "I decide to speak through actions instead of words, pulling her into a secure, yet gentle embrace."
     yu "....."
     "Yukiko's panicked rambling trails off into quiet murmurs, and finally, into muffled breaths as she rested her face onto my chest."
+    show yu calm with dissolve
     "The tension of her body fades away as she leans her weight on me in silent consent..."
     scene bg black with fade
 #end of scene4
-
+    pause 5.0
 #possible hackathon scene
 
 #scene5 normie date
-    scene bg utc
     "Yukiko and I may be official now, but our relationship didn't really change from before."
+    "We text each other dumb, pretty standard couple stuff."
     "Well, one little thing might have changed..."
+    scene bg night with dissolve
     show yu happy with dissolve
     yu "Hi [mcname]!"
     mc "Hey!"
     "She's even more beautiful than before."
     show yu calm with dissolve
     "Or at least in my eyes, she is."
-    "Everyone seems to wear the same outfit over and over again."
-    "I pop the question."
+    "However, there's been something gnawing away at the corner of my mind lately, so I pop the question."
     mc "Hey Yukiko, why does everyone around here seem to wear the same clothes everyday?"
     yu "Are you familiar with no outfit november?"
     mc "Is that a thing?"
-    yu "Nah, I'm just messing with you."
+    yu "Yeah, [mcname], you need to get with the times if we're gonna be together."
+    mc "Whaaaat? How was I supposed to know this?"
+    show yu happy with dissolve
+    yu "Don't worry, I'm just messing with you."
+    mc "(You little...)"
+    show yu calm with dissolve
     yu "Sometimes, it's best not to pry into things too closely and just enjoy the journey."
     mc "How can I enjoy the journey if I don't understand it?"
     yu "Some things don't need to be understood, [mcname]."
@@ -767,14 +916,15 @@ label yu_test:
     "I smile wryly at her mainstream college student tendencies."
     mc "I don't think that counts, Yukiko."
     show yu calm with dissolve
-    play audio "chime.mp3"
+    #play audio "chime.mp3"
     "Still holding hands, we clumsily stumble over each other's feet into the store."
     scene bg black with dissolve
     pause 5.0
-    play audio "chime.mp3"
+    #play audio "chime.mp3"
+    scene bg night with dissolve
     yu "That was soooo good!"
     mc "I'm surprised you can taste anything wolfing it down like that."
-    show yu smile with dissolve
+    show yu happy with dissolve
     yu "I'm surprised you can taste staring at me eat my food."
     mc "In my defense, I was captivated."
     show yu nervous with dissolve
@@ -782,32 +932,65 @@ label yu_test:
     mc "No, it was like watching a wild lioness devour her prey without a second thought."
     yu "Did you just call me a wild animal?"
     show yu sad with dissolve
-    "Yukiko feigns anger and turns away from me in protest."
+    "Yukiko feigns sadness and turns away from me in protest."
     "I decide to play along."
     mc "Yukiko, I'm sorry!"
     mc "Yukikoooo?"
-    #zoom into that sprite baby
+    show yu sad:
+        parallel:
+            ease .5 zoom 1.5
+        parallel:
+            linear 0.5 yalign 0.5
     "I get close enough to whisper in her ear."
     mc "Yuki..."
-    show yu blush with dissolve
+    show yu embarassed with dissolve
     "With my shenanigans, I manage to start her into jumping a few feet away from me as her face flushed red."
+    show yu embarassed:
+        parallel:
+            ease .5 zoom 0.8
+        parallel:
+            linear 0.5 yalign 1.1
     yu "Reina might assault you if she hears you calling me that."
     mc "Does it bother you?"
     mc "I think it's a really cute nickname."
     yu "No, that name is part of Reina's intellectual property, so you can't plagiarize it."
     mc "Sweety? Maybe honey? Or how about darling?"
     show yu nervous with dissolve
-    yu "I think I'm starting to feel kind of nauseous."
+    yu "Actually, I think I'm starting to feel kind of nauseous."
     mc "Kidding. Teasing you is just really fun."
     mc "Can't spell Yukiko without the 'ko.'"
     mc "The k stands for kind and the o stands for outgoing."
+    show yu embarassed with dissolve
     yu "There you go with the cheesy lines again..."
     show yu calm with dissolve
     yu "[mcname], I'm not feeling very well..."
     mc "What's wrong? Did the food not sit well with you?"
+    show yu calm:
+        parallel:
+            ease .5
+        parallel:
+            linear 0.5 xalign 0.4
+    pause 0.5
+    show yu calm:
+        parallel:
+            ease .5
+        parallel:
+            linear 0.5 xalign 0.6
+    pause 0.5
+    show yu calm:
+        parallel:
+            ease .5
+        parallel:
+            linear 0.5 xalign 0.5
     "She takes small, unsure steps into random directions."
+    mc "(Wait...)"
     mc "(This could be disorientation due to food poisoning..!)"
     yu "I'm feeling... feeling..."
+    show yu calm:
+        parallel:
+            ease .5 zoom 1.5
+        parallel:
+            linear 0.5 yalign 0.5
     "I grab her shoulders to steady her."
     mc "Feeling?"
     "Yukiko lets out a big yawn."
@@ -817,6 +1000,11 @@ label yu_test:
     "She stares at me with hazy eyes."
     mc "You wanna go home?"
     yu "Yeah..."
+    show yu calm:
+        parallel:
+            ease .5 zoom 1.5
+        parallel:
+            linear 0.5 xalign 1.8 yalign 0.5
     "While saying that, she latches onto my arm and leans her weight on me."
     "I walk her home gently."
     scene bg black with dissolve
@@ -837,17 +1025,17 @@ label yu_test:
     scene bg yu_apartment_inside with dissolve
     "The inside is still barren, but the rubbish adorning the living room from the last time I visited are all gone."
     mc "(Did she expect me to come over today?)"
+    show yu calm with dissolve
     "Yukiko gestures to her room."
     yu "Come in."
     "I don't know what I'm getting into, but I can only obey my girlfriend being strangely assertive."
     "I scamper inside with my tail tucked between my legs."
-    #Yukiko room?
     yu "Sit down."
     mc "Okay."
     #sitting noises? pomf?
     yu "I'm gonna go shower."
     mc "I see."
-    hide yu happy with dissolve
+    hide yu calm with dissolve
     "I sit there calmly doing nothing for the next 15 minutes."
     pause 5.0
     show yu calm with dissolve
@@ -873,7 +1061,7 @@ label yu_test:
     show yu nervous with dissolve
     yu "I wanted to play co-op games, but if you want to throw down, then..."
     scene bg black with dissolve
-    "Yukiko proceeds to decimate me in every game genre possible, even first-person shooters and fighting games, the ones I thought I were good at."
+    "Yukiko proceeds to decimate me in every game genre possible, even first-person shooters and fighting games, the ones I thought I was good at."
     pause 5.0
     scene bg yu_apartment_inside
     show yu calm with dissolve
@@ -889,35 +1077,53 @@ label yu_test:
     mc "Good Queen of Cats, nothing but one of your nine lives, that I mean to make bold withal, and, as you shall use me hereafter, dry-beat the rest of the eight."
     mc "Will you pluck your controller out of his pilcher by the ears? Make haste, lest mine be about your ears ere it be out."
     "Yukiko plays along without missing a beat."
+    show yu happy with dissolve
     yu "I am for you."
+    show yu calm with dissolve
     "I might be good enough to defeat her in Tori Faiter with a bit of luck."
     "At least in this game, she has to try in order to beat me."
     "....."
     "She's beating me again."
     mc "(Instead of accepting my character's inevitable defeat, maybe I should try a change in strategy.)"
-    "I'm currently at 85% health. While adopting a defensive playstyle to stall out the game, I take brief side glances at Yukiko."
+    "I'm currently at 85 points of health. While adopting a defensive playstyle to stall out the game, I take brief side glances at Yukiko."
     "The light emitted from the monitor highlights her long eyelashes and big eyes. Her glossy lips remain slightly parted in concentration."
-    "She chunks about 20% of my character's health due to me taking one hand off the controller in order to poke her on the cheek."
-    show yu nervous with dissolve
+    "She chunks about 20 points of my character's health due to me taking one hand off the controller in order to poke her on the cheek."
     "She mumbles something in response."
     yu "What are you doing, dummy?"
     "Satisfied that she wasn't ignoring me, I try something more bold."
-    "With my character at 65% health, I lean over and give her a peck on the cheek."
-    show yu blush with dissolve
+    show yu calm with dissolve
+    show yu calm:
+        parallel:
+            ease .5 zoom 1.5
+        parallel:
+            linear 0.5 yalign 0.5
+    "With my character at 65 health, I lean over and give her a peck on the cheek."
+    show yu calm with dissolve
+    show yu calm:
+        parallel:
+            ease .5 zoom 1.0
+        parallel:
+            linear 0.5 yalign 1.0
+    show yu embarassed with dissolve
     "She stops beating my fighter up for a fleeting moment to send me a cute, panicked look."
     show yu calm with dissolve
     "Yukiko immediately snaps back to the game and somehow increases the severity of her assault on my virtual self."
-    "She begins whittling me down from 65% to 50%... 50% to 35%... and 35% to 15%."
+    "She begins whittling me down from 65 to 50... 50 to 35... and 35 to 15."
     "Realizing the gap in our skill levels at this point, I concede that winning is a faraway dream."
     mc "(But, I don't want to lose at least..!)"
-    "In a final desperate bid to avoid defeat, I tear my gaze from the screen showing my limping 1% health character and I begin standing up--"
-    #blush and some weird sprite movement here
+    "In a final desperate bid to avoid defeat, I tear my gaze from the screen showing my limping 1 health character and I begin standing up--"
+    show yu embarassed with dissolve
+    show yu embarassed:
+        parallel:
+            ease .5 zoom 1.5
+        parallel:
+            linear 0.5 yalign 0.5
     "... and Yukiko pushes me down onto the bed to stop me from doing anything else to her."
     "Aside from the game's background music, it was so quiet that we could hear both of our controllers fall onto the rug with a quiet thud."
     "Mirroring our bodies, our characters in Tori Faiter remain still and cycle through their idle animations, as if refusing to hurt each other."
     yu "[mcname], do you want to win that badly?"
     mc "Now that I think about it, no, not really."
-    show yu nervous with dissolve
+    show yu calm with dissolve
     mc "I think I just wanted you to notice me."
     "I give her a dry, self-deprecating laugh."
     mc "I'm lame, aren't I?"
@@ -934,6 +1140,11 @@ label yu_test:
     show yu sad with dissolve
     mc "Yukiko..."
     yu "It doesn't change the fact that I'm all alone in this cold, drafty apartment when I wake up late in the afternoon."
+    show yu sad:
+        parallel:
+            zoom 1.7
+        parallel:
+            linear 0.5 yalign -0.5
     "I embrace her close to me."
     mc "Are you cold right now?"
     "She shakes her head as she nuzzles into my chest."
@@ -1036,8 +1247,9 @@ label yu_test:
     "I start disassociating. I begin seeing myself and my actions from a third-person point of view. It feels almost as if I'm dreaming."
     "The voice in the back of my head telling me to chase after her fails to break through to my senses. It fades away just like Yukiko's figure in my view."
     scene bg black with fade
-
+    pause 5.0
 #scene7 Final
+    scene bg yu_apartment_inside with dissolve
     "It wasn't as if Yukiko disappeared, but today is the third day that she's locked herself in her room."
     "And it's finals week."
     "When I go check up on her, she tells me to leave her alone."
@@ -1050,340 +1262,378 @@ label yu_test:
     mc "(Don't be so selfish...)"
     mc "(... no. That's not right.)"
     mc "(The one who's really selfish is me. What if I had just told her how I felt that day...)"
-    mc "(How did I feel that day, exactly?)"
+    if yu_hang < 1:
+        jump yu_bad
+    menu yu_menu3:
+        "What should I do?"
+        "Tell her to stay with me":
+            label yu_normal:
+            mc "(I wanted her to stay with me.)"
+            #play sound knock.mp3
+            "I knock on her bedroom door and receive no response."
+            mc "Yukiko! I realized it. I knew it all along. I just couldn't bring myself to say it!"
+            "My passion is greeted by silence, but I keep going. I have to say this for the both of us."
+            "I don't want you to leave! You're the most special person in my life right now!"
+            "Even if it means turning down an opportunity like that..!"
+            "I can't stop the waterworks."
+            "I choke back my tears of guilt and sadness."
+            mc "You said that you were happy with what you have right now right?!"
+            mc "No one can say for sure whether you'll be more happy carrying on here or moving away to chase your dreams..."
+            mc "And I certainly don't have a right to decide that for you, but I want you to know..."
+            mc "There are lots of ways to define success! There isn't any one way to reach happiness. And I want to keep sharing the happiness we have now with you!"
+            mc "I love you!"
+            "....."
+            "......."
+            "........."
+            mc "(Was she asleep?)"
+            mc "Yukiko..?"
+            mc "(If she's really asleep, I feel like the dumbest person on earth right now.)"
+            "The door finally opens just a little."
+            show yu calm with dissolve
+            yu "[mcname], I was sleeping. Did you need something"
+            "My mouth flaps between open and closed in shock as the tears flow out of my eyes."
+            mc "Sorry..."
+            yu "Just kidding... I heard everything."
+            hide yu calm with dissolve
+            scene bg black with dissolve
+            "She opens the door all the way and makes her appearance in the hallway."
+            "I still can't really see that well with the tears impeding my vision."
+            "I feel a soft cloth and gentle hand drying my tears."
+            show yu sad with dissolve
+            "It's Yukiko using her sleeve to wipe away the residue of my weeping."
+            mc "Don't scare me like that."
+            "With two tilts of my head, I wipe away the rest of my tears on my shoulders."
+            scene yu_apartment_inside with dissolve
+            show yu calm with dissolve
+            "Returning my gaze to her, I notice her eyes are rather moist and bloodshot."
+            show yu happy with dissolve
+            "Noticing that I was looking at her, she pushed herself to perk up."
+            yu "I was just finishing my email to follow up with the job offer."
+            mc "I see... if you want to go ahead with it, I have no right to stop you."
+            yu "What are you saying, silly?"
+            yu "I'm turning them down. I think I would be much happier here. I don't think I could handle losing the few friends I've worked so hard to get here."
+            yu "If they want me that bad, they can let me telecommute somehow. If not, I'm finishing my degree here to hopefully land a local job."
+            mc "Not hopefully, you're amazing at what you do. You'll find a job. In fact, you already kinda work, so..."
+            show yu nervous with dissolve
+            yu "Oh yeah, that. Right."
+            yu "Once they notified me about that opportunity, I couldn't think about anything else, so I totally forgot about the stuff I had due."
+            mc "You don't have to study for finals, right?"
+            show yu calm with dissolve
+            yu "I skim some stuff I don't know for 30 minutes and I'm good."
+            mc "Okay, you do that and I'll start on the freelance work you haven't done yet."
+            yu "Uhh, I don't think..."
+            mc "Can I come in?"
+            yu "Sure."
+            "Yukiko lets me skim the assignments she has in her work email."
+            mc "Alright, I have no idea how to do this!"
+            show yu calm:
+                parallel:
+                    ease .5
+                parallel:
+                    linear 0.5 yalign 1.3
+            "Yukiko rewards my effort with a faux exasperated sigh as she plops down in her chair."
+            mc "I'll keep handling the chores and cooking. I'll bring you whatever you need."
+            yu "So you'll keep doing what you've always been doing?"
+            mc "You didn't have to put it that way..."
+            "She snickers amusedly as my voice trails off."
+            yu "And I'll keep doing what I've always been doing too. Nothing will change."
+            "Yukiko puts her hand on her mouse and hovers the cursor over the send button."
+            mc "Is this really okay, Yukiko?"
+            show yu happy with dissolve
+            yu "Like you said [mcname], there are many ways to happiness."
+            show yu calm with dissolve
+            "Her voice sounds brave, but her hand on the mouse is shaking."
+            "I give her a reassuring smile and put my hand on top of hers."
+            "From today on, we forge forward to our uncertain future."
+            #play sound "mouse.ogg"
+            scene bg black
+            ".:. Normal Ending."
+            $ MainMenu(confirm=False)()
 
-#I felt like telling her to stay with me
-    mc "(I wanted her to stay with me.)"
-    "I knock on her bedroom door and receive no response."
-    mc "Yukiko! I realized it. I knew it all along. I just couldn't bring myself to say it!"
-    "My passion is greeted by silence, but I keep going. I have to say this for the both of us."
-    "I don't want you to leave! You're the most special person in my life right now!"
-    "Even if it means turning down an opportunity like that..!"
-    "I can't stop the waterworks."
-    "I choke back my tears of guilt and sadness."
-    mc "You said that you were happy with what you have right now right?!"
-    mc "No one can say for sure whether you'll be more happy carrying on here or moving away to chase your dreams..."
-    mc "And I certainly don't have a right to decide that for you, but I want you to know..."
-    mc "There are lots of ways to define success! There isn't any one way to reach happiness. And I want to keep sharing the happiness we have now with you!"
-    mc "I love you!"
-    "....."
-    "......."
-    "........."
-    mc "(Was she asleep?)"
-    mc "Yukiko..?"
-    mc "(If she's really asleep, I feel like the dumbest person on earth right now.)"
-    "The door finally opens just a little."
-    yu "[mcname], I was sleeping. Did you need something"
-    "My mouth flaps between open and closed in shock as the tears flow out of my eyes."
-    mc "Sorry..."
-    yu "Just kidding... I heard everything."
-    "She opens the door all the way and makes her appearance in the hallway."
-    "I still can't really see that well with the tears impeding my vision."
-    "I feel a soft cloth and gentle hand drying my tears."
-    show yu sad with dissolve
-    "It's Yukiko using her sleeve to wipe away the residue of my weeping."
-    mc "Don't scare me like that."
-    "With two tilts of my head, I wipe away the rest of my tears on my shoulders."
-    "Returning my gaze to her, I notice her eyes are rather moist and bloodshot."
-    show yu happy with dissolve
-    "Noticing that I was looking at her, she pushed herself to perk up."
-    yu "I was just finishing my email to follow up with the job offer."
-    mc "I see... if you want to go ahead with it, I have no right to stop you."
-    yu "What are you saying, silly?"
-    yu "I'm turning them down. I think I would be much happier here. I don't think I could handle losing the few friends I've worked so hard to get here."
-    yu "If they want me that bad, they can let me telecommute somehow. If not, I'm finishing my degree here to hopefully land a local job."
-    mc "Not hopefully, you're amazing at what you do. You'll find a job. In fact, you already kinda work, so..."
-    show yu nervous with dissolve
-    yu "Oh yeah, that. Right."
-    yu "Once they notified me about that opportunity, I couldn't think about anything else, so I totally forgot about the stuff I had due."
-    mc "You don't have to study for finals, right?"
-    yu "I skim some stuff I don't know for 30 minutes and I'm good."
-    mc "Okay, you do that and I'll start on the freelance work you haven't done yet."
-    yu "Uhh, I don't think..."
-    mc "Can I come in?"
-    yu "Sure."
-    #inside
-    "Yukiko lets me skim the assignments she has in her work email."
-    mc "Alright, I have no idea how to do this!"
-    "Yukiko rewards my effort with a faux exasperated sigh as she plops down in her chair."
-    mc "I'll keep handling the chores and cooking. I'll bring you whatever you need."
-    yu "So you'll keep doing what you've always been doing?"
-    mc "You didn't have to put it that way..."
-    "She snickers amusedly as my voice trails off."
-    yu "And I'll keep doing what I've always been doing too. Nothing will change."
-    "Yukiko puts her hand on her mouse and hovers the cursor over the send button."
-    mc "Is this really okay, Yukiko?"
-    yu "Like you said [mcname], there are many ways to happiness."
-    "Her voice sounds brave, but her hand on the mouse is shaking."
-    "I give her a reassuring smile and put my hand on top of hers."
-    "From today on, we forge forward to our uncertain future."
-    play sound "mouse.ogg"
-    scene bg black
-    ".:. Normal Ending."
-    return
-
-#I felt like encouraging her to go
-    mc "(I wanted her to stay with me.)"
-    mc "(... but I also want her to chase her future.)"
-    "I knock on her bedroom door and receive no response."
-    mc "(If you love something, let it go, and if it loves you back, it will always come back to you, right?)"
-    "I make a poor effort of comforting myself with a platitude before steeling my heart in preparation for what I'm about to do."
-    "I begin audibly packing anything I had that would fit into my suitcase, serious or not."
-    "I still sense no signs of life from Yukiko's room."
-    "I shout at her bedroom door."
-    mc "Yukiko, this is the last time I'm gonna try. Let's talk about this like grown-ups."
-    "No response."
-    mc "I don't want to make any assumptions before we talked, but..."
-    "I see and hear the door shake a little."
-    mc "Yukiko, if you're going to keep running away from this, I'm leaving right now."
-    "The doorknob turns frantically right before the door swings open abruptly, narrowly missing my face."
-    show yu nervous with dissolve
-    yu "[mcname], you can't be serious."
-    mc "Just take the job. You don't have to lose me. We can make this work!"
-    show yu sad with dissolve
-    "Yukiko stares at me for a bit while biting her lower lip anxiously for before speaking."
-    yu "Long distance relationships are really hard [mcname]."
-    yu "We even just started officially dating a month ago."
-    yu "Couples who have been together longer than us have been broken apart by distance."
-    yu "I want to believe that we can be different, [mcname], but it just doesn't feel like two silly college students like us are capable of doing any different."
-
-    #bad branch
-    hide yu sad with dissolve
-    "I stare down at my feet, unable to look her in the eye. Unable to face the truth."
-    "As much as I hate to admit it, Yukiko's worries hold a strong foundation within reality."
-    mc "Yukiko, I... I think we're special, and..."
-    "I try to find some sensible words to reassure her with, but I just end up stumbling over my own desperate thoughts."
-    mc "(My trembling voice must not sound very encouraging to her.)"
-    yu "I think we're special too but... maybe not as much as you think we are."
-    "I still can't look her in the eyes."
-    mc "How could you say that? I'm really trying here, Yukiko."
-    "Her voice cuts at me from a few paces from the wooden floor I'm staring at."
-    yu "I'm trying too, [mcname]."
-    mc "Is that why you've been sitting in that room by yourself all day?"
-    stop music fadeout 1.0
-    "Before could hold my tongue, those vile words fueled by frustration left my mouth."
-    "I look up impulsively to assess the damage."
-    show yu calm with dissolve
-    "Yukiko's unflinching countenance greets my vision."
-    yu "Do you really think that was what I was doing?"
-    yu "I was writing up a follow-up email to the company declining their offer."
-    mc "Why didn't you just tell me then?"
-    yu "I was still deliberating..."
-    mc "You took three days sitting in there by yourself to deliberate?"
-    "My voice rises together with my anger."
-    show yu nervous with dissolve
-    yu "I-I just needed some time to myself..."
-    mc "Why didn't you just talk to me about it instead of hiding like a kid?"
-    show yu sad with dissolve
-    yu "I didn't mean..."
-    mc "Do you know how worried I was sitting out here? I was--"
-    "I finally manage to stop myself at the sight of her tears."
-    mc "Yukiko, I'm sorry, I didn't mean to--"
-    yu "L-long distance or not, t-this isn't going to work out."
-    "Yukiko tries to communicate through her tears."
-    yu "If you want me to go s-so bad, I'll do it. I'll just forget about you."
-    yu "We're breaking up."
-    "I give her a bitter smile."
-    mc "Sure."
-    "With what felt like a pained expression on my face, I quickly stride out of her apartment, disappearing into the cold night."
-    hide yu sad with dissolve
-    scene bg black with fade
-    pause 5.0
-    scene bg park_2 with fade
-    "It's been an academic quarter since I last saw her."
-    "Since then, I sent her texts apologizing and encouraging her, but she never responded."
-    "I still go to the club, but I never catch a glimpse of her, even during official events."
-    "I don't think about it everyday."
-    mc "(I wake up. I go to school. I study. I sleep. Life goes on.)"
-    mc "(However, my body grows weary merely from carrying out its routine.)"
-    mc "(I function as an automaton. When I talk to other people, I behave as I normally do. I look people in the eye while greeting them. We make friendly small talk.)"
-    mc "(It feels all like an act to me. What I'm doing, what I feel, and what I say.)"
-    "My introspection ends early as I end up walking mindlessly into someone familiar."
-    show re calm with dissolve
-    re "..."
-    "She stares at me blankly before continuing on her way."
-    "I turn in her direction and greet her back with a friendly smile."
-    mc "Hi Reina, how's it going?"
-    "She mechanically turns her torso back towards me without a change in expression."
-    re "... hi."
-    mc "Maybe you've forgotten me from back then, but we talked for a bit."
-    re "... I remember."
-    mc "Oh."
-    re "....."
-    mc "........."
-    "............."
-    "We share awkward silence until Reina shifts her body as if about to leave."
-    mc "Hey, have you seen..."
-    "I verbally taper off the end of my question as Reina briefly looks as if I had just asked her if I could defecate on her shoes in public."
-    re "You don't even know..?"
-    "I start to feel a little annoyed at her rudeness."
-    mc "I don't. Tell me. What am I missing?"
-    "Taking note of the angle of the corners of my mouth, my smile must have dropped off a long time ago in this conversation."
-    "Reina begins walking away. I stride after her in what must have appeared to outsiders as in an intimidating manner."
-    mc "Tell me!"
-    "The voice that leaves my throat surprises me with its harshness."
-    "In a single swift motion, Reina twirls around with her hand raised."
-    play sound"slap.ogg"
-    "The freshly throbbing pain in my cheek pales in comparison to the news Reina delivers to me immediately after."
-    re "She doesn't go here anymore."
-    "With the pragmatism of her tone to set the mood, Reina begins cutting me with her short statements."
-    re "She cried to me on the phone. She flunked her finals by not going."
-    re "She didn't take the job. She moved back home."
-    "I daftly remain still."
-    re "Are you even listening? You're the one who asked me."
-    "Bearing a famine for words, I have no words to offer her."
-    re "Whatever."
-    "Reina starts walking away, taking glances back to make sure I'm not stopping her again."
-    re "There were plenty of things she wasn't satisfied with before you barged in. Don't give yourself too much credit."
-    re "You just happened to be the final lock to seal away her heart."
-    hide re calm with dissolve
-    "As Reina disappears into the rays of morning sunshine, I carry my body away back into the park to rest on the grass."
-    #blurring out
-    "I lie down weighed heavily in hardship. My body drifts away into the sea of slumber, anchoring my my mind with it."
-    "Afraid of drifting away into loneliness, afraid of navigating through an uncharted future, I remain floating here where we first met, calling out your name."
-    mc "Yukiko..."
-    scene bg black with fade
-    "But you never come."
-    ".:. Bad Ending."
-    return
-
-    #good branch
-    scene bg black with fade
-    "I close my eyes and bite my lip while wracking my brain for a solution."
-    "As much as I hate to admit it, Yukiko's worries hold a strong foundation within reality."
-    mc "Yukiko..."
-    "I practically crush my lower lip with the weight of my front teeth before finally speaking."
-    mc "I... think you're right, as much as it pains me to admit it."
-    yu "..."
-    mc "(She's the one who said that we can't continue our relationship like this, but she looks so sad.)"
-    "Of course, I know that's not her fault because she's just describing the situation as it is. She's not happy with this either."
-    mc "(Things change; life happens. These circumstances aren't really anyone's fault.)"
-    yu "[mcname], is this really okay?"
-    #sprite movement duh
-    "I move close to her and place my hands gently on top of her fragile shoulders."
-    mc "... I can't answer that question for you, Yukiko."
-    mc "This might sound cheesy, but if you have even a tiny part of you who wants to take the job, just go for it. Even if it's scary."
-    mc "I believe that a couple is composed of two people who are 100% looking to come together to make 200%."
-    mc "I don't think it's 50% and 50% coming together to become 100%."
-    mc "In other words, I think couples should come together to enrich each others' lives instead of leaning on each other like a crutch... so..."
-    "Feeling silly, I scratch my head."
-    yu "I don't really know what I'm doing."
-    mc "I think you do. You just making a really hard decision."
-    yu "I don't know how to talk people."
-    mc "But you really do know how to talk to a person enthusiastically about bottled water and fish tacos."
-    yu "I was just born with my talent."
-    mc "I find it really hard to believe that you can nonchalantly rent out a $2000 apartment while going to school without working hard at all."
-    yu "I'm selfish, [mcname]. I don't want to pick to begin with. Between taking the job and staying with you, I mean."
-    yu "Not to mention I spent three days sulking indecisively while you took care of me. I'm sorry about that."
-    mc "It's a tough decision. Also, I think it's my job to help my girlfriend make tough decisions, right?"
-    mc "And... you're not selfish, Yukiko. I was really blown away when you tackled me out of harm's way while I was trying to bodyblock a branch for you in the park."
-    mc "You could say that you really left an impact on me."
-    show yu happy with dissolve
-    "Yukiko tries in vain to prevent a giggle from slipping out."
-    show yu calm with dissolve
-    yu "D-don't make me laugh in such as serious situation."
-    show yu calm with dissolve
-    "I chuckle to disguise the nostalgia-induced sadness welling up in my eyes."
-    mc "The point is that I believe in you. Whatever you decide to do, you have my support."
-    "Yukiko pauses for a moment before abruptly removing my arms from her shoulders."
-    mc "(Did I make her mad?)"
-    show yu blush with dissolve
-    "She swiftly rushes forward and squeezes me tight in a hug with her face nestled into my chest. I embrace her gingerly in return."
-    "Just like the time we became official not so long ago, we just stand like that for a while, both knowing what's going to come next."
-    yu "I'm going."
-    scene bg black with fade
-    pause 5.0
-    mc "(When we consider the other billions of people living on this planet, it is hard to believe that you could conveniently meet the one person you were destined to be with.)"
-    mc "(However, let's say that the conditions determining a soulmate include how near they are to you.)"
-    mc "(But then, what kind of measurement would you have to use for that?"
-    mc "(Are they the best match for you within the same nation? The same state? 50, 20, or 5 miles?)"
-    mc "(Even if you meet and marry someone and stay with them for the rest of your life, are they really your soulmate?)"
-    mc "Maybe you would be happier with someone from Dubai who is completely compatible with you. How about China, Russia, or Europe?)"
-    mc "(That's not even considering time periods. Maybe Marie Curie of the 20th century was your ideal.)"
-    mc "(If I call the person I'm with my soulmate, it seems to contradict soulmates' own romantic interpretation of being star-crossed lovers.)"
-    mc "(I'm sure many would disagree, citing the many valid flaws of such an interpretation. Maybe all of what I just described doesn't even matter on a practical basis.)"
-    mc "(Still, when I think about the overwhelming amount of factors we can consider, I don't believe in fate.)"
-    mc "(Although most people would balk at the notion that the relationships we hold so closely to our hearts are largely determined by physical proximity, there are plenty of studies within the realm of social psychology that support the idea.)"
-    mc "(In other words, although we forge genuine friendships through love and connection, circumstances and continual interaction fosters more of it than we like to realize.)"
-    mc "(In the end, all we can do is march forward against nature's undiscriminating winds which threaten to knock us down or blow us off our paths.)"
-    mc "(We try to remain close to those we hold dear, lest we lose them trying to navigate the twists and turns of the bittersweet maze that we call life.)"
-    mc "(I figured all this out after I graduated college.)"
-    mc "(I met a lot of people along the way. Some friends, I end up keeping, even the ones I least expect. Some friendships are torn apart for the wrong reasons. Others decay slowly but certainly, until they have long withered away.)"
-    mc "(Yukiko was one of those who faded into obscurity.)"
-    "The summary goes as follows: after we spent our remaining time together, I saw her off at the airport. At first, I texted her a lot to reassure her and she texted me about the new things she experienced that day, but our lives became increasingly busy."
-    "We just broke off at some point. One day, on a whim, I sent her a text checking up on her, but it didn't send."
-    "She must have finally changed her number to avoid international fees from service within her own country."
-    "Neither of us used social media. I had no way to reach her. I had work and social events plastered all over my week and the rest of my calendar. Life went on."
-    "I worked hard and earned an entry-level position at an international game development company desperate to staff their brand new North American branch."
-    scene bg office with dissolve
-    "Today's my first day on the job and I'm just playing armchair psychologist and philosopher while waiting to meet the head of my department."
-    "I've been sitting in expensive, new posh waiting chair for around 20 minutes already."
-    "It's definitely far from the worst of fates, but I have to keep my mind active so that I don't fall asleep because of how comfortable this chair is."
-    "The early period of my new coworkers bustling about and smiling and greeting me has already passed, and I'm just a sitting mascot that they acknowledge at this point."
-    "I can't get to work before what is basically my briefing. I don't even know where my work area is."
-    "The secretary at the front desk just told me to have a seat here."
-    "I let out a quiet sigh."
-    #su = supervisor
-    su "Hi, you must be the new hire."
-    "I snap back to reality and professional mode as a figure in an expensive looking suit greets me."
-    "Based on my impression of the work environment I got at my interviews, I decide to head straight for the casual route."
-    mc "Hi, you must be my boss!"
-    "Them returning my greeting with a warm smile reassures me of my choice."
-    su "Not exactly. In our company's work environment, we encourage equal collaboration."
-    su "No one's your boss. But of all the people who aren't your boss, I'm the MOST not your boss, if you get what I'm saying."
-    mc "Is that from the company handbook for new hires?"
-    su "Yes, it is. I never thought anyone actually read that. We even have joke illustrations inside of it."
-    mc "Wow... so much for me trying to take my job seriously."
-    su "You *should* take your job seriously. Being serious at what you do is good. I would say though, that the nature of our job as game developers requires us to be able to not take ourselves too seriously."
-    mc "I'm only going to be doing programming right?"
-    su "What I've noticed working in the game industry is that big companies often split the departments up properly in order to ensure a continuous workflow, but smaller companies tend to be a free-for-all."
-    su "Right now, it's not as clear-cut as what I just described, since we're a big company with a branch just beginning to bloom with the few hires we managed to carefully pick out of the local talent pool."
-    su "Our branch right here has the manpower of a small company at the moment."
-    su "What that means is that a programmer like you only does programming related work on paper, but anything else you can bring to the table makes you a huge asset."
-    su "I would recommend working on our odd tasks even though you're not experienced in the field. We don't expect you to be either. It can be a good learning experience."
-    mc "I'll do my best. I wanted to work in this industry, after all."
-    su "That sounds fantastic. I actually have some remaining paperwork for you to fill out in my office before you get started."
-    su "My office is just down the hall."
-    "The supervisor begins walking down the hall with me in tow."
-    "No one else is around."
-    su "Consider what I'm about to ask you a personal question, since I'm requesting a personal answer. I don't want to hear any corporate pandering, and you don't have to answer if you don't want to."
-    mc "Go ahead, shoot."
-    su "What made you want to work in games?"
-    "For a short period of time, the only sounds around us are my footsteps and the click-clatter of high heels down the corridor."
-    mc "When I went to college, a girl entered my life as quickly as she left it."
-    "My voice echoes in the spacious hallway we're walking in."
-    su "Oh, I'm sorry..."
-    "I flash an amiciable smile."
-    mc "Don't worry, it wasn't like that."
-    mc "To say she really liked programming would be an understatement. She loved games too."
-    mc "Even after a couple years in college, I still didn't know what I was doing. I didn't know where I wanted to go, or what I wanted."
-    mc "When I met her, she didn't have many friends. But I knew she had her stuff together. I believed in her."
-    mc "She was a person who shined so brightly that she illuminated the path forward for me, even if she didn't mean to."
-    mc "I had to let her go shine because I didn't have the capacity to follow her. It just wasn't the right place or the right time for us."
-    mc "I don't regret it. I do regret never letting her know how big a role my stint with her had in shaping my future though."
-    "My supervisor smiles and nods understandingly as they listen to my story."
-    mc "I must be going off a tangent."
-    su "No, it's fine. I can tell you really cared about her. It was a good answer, and a really personal one at that."
-    "I notice that their eyes seem to be rather moist."
-    su "Thank you for sharing with me."
-    mc "No problem."
-    scene bg black with dissolve
-    "We finally reach the outside of the closed office."
-    su "Come in, have a seat."
-    mc "I think I'm learning a lot today so far. Sitting in all these chairs is a valuable learning experience for my ass."
-    "My supervisor spares a laugh for my crude joke while sitting down."
-    su "You might want to avoid that kind of humor if the producer comes around. He's a pretty serious fellow."
-    mc "I was just making sure you still find my bad jokes funny."
-    su "I actually didn't recognize you until you started telling me that story."
-    "Fixing a stray strand of hair from my bangs, I chuckle self-consciously."
-    mc "I guess I did change a lot over the years."
-    mc "Why did you come all the way over here?"
-    su "They needed senior level employees who speak good English to run things around here."
-    su "Naturally, I fit the bill quite well."
-    "I'm at a loss for words, so I just say what's on my mind."
-    mc "Welcome back."
-    #show surprise image
-    yu "It's good to be home."
-    mc "(I don't believe in fate, but... I don't have to. Fate found me instead.)"
-    ".:. Good Ending."
-    return
+        "Tell her to go":
+            mc "(I wanted her to stay with me.)"
+            mc "(... but I also want her to chase her future.)"
+            "I knock on her bedroom door and receive no response."
+            mc "(If you love something, let it go, and if it loves you back, it will always come back to you, right?)"
+            "I make a poor effort of comforting myself with a platitude before steeling my heart in preparation for what I'm about to do."
+            "I begin audibly packing anything I had that would fit into my suitcase, serious or not."
+            "I still sense no signs of life from Yukiko's room."
+            "I shout at her bedroom door."
+            mc "Yukiko, this is the last time I'm gonna try. Let's talk about this like grown-ups."
+            "No response."
+            mc "I don't want to make any assumptions before we talked, but..."
+            "I see and hear the door shake a little."
+            mc "Yukiko, if you're going to keep running away from this, I'm leaving right now."
+            "The doorknob turns frantically right before the door swings open abruptly, narrowly missing my face."
+            show yu nervous with dissolve
+            yu "[mcname], you can't be serious."
+            mc "Just take the job. You don't have to lose me. We can make this work!"
+            show yu sad with dissolve
+            "Yukiko stares at me for a bit while biting her lower lip anxiously for before speaking."
+            yu "Long distance relationships are really hard [mcname]."
+            yu "We even just started officially dating a month ago."
+            yu "Couples who have been together longer than us have been broken apart by distance."
+            yu "I want to believe that we can be different, [mcname], but it just doesn't feel like two silly college students like us are capable of doing any different."
+            if yu_midterms >= 1:
+                scene bg black with dissolve
+                "I close my eyes and bite my lip while wracking my brain for a solution."
+                "As much as I hate to admit it, Yukiko's worries hold a strong foundation within reality."
+                scene bg yu_apartment_inside with dissolve
+                show yu calm with dissolve
+                mc "Yukiko..."
+                "I practically crush my lower lip with the weight of my front teeth before finally speaking."
+                mc "I... think you're right, as much as it pains me to admit it."
+                yu "..."
+                show yu sad with dissolve
+                mc "(She's the one who said that we can't continue our relationship like this, but she looks so sad.)"
+                "Of course, I know that's not her fault because she's just describing the situation as it is. She's not happy with this either."
+                mc "(Things change; life happens. These circumstances aren't really anyone's fault.)"
+                yu "[mcname], is this really okay?"
+                show yu sad:
+                    parallel:
+                        ease .5 zoom 1.5
+                    parallel:
+                        linear 0.5 yalign 0.5
+                "I move close to her and place my hands gently on top of her fragile shoulders."
+                mc "... I can't answer that question for you, Yukiko."
+                mc "This might sound cheesy, but if you have even a tiny part of you who wants to take the job, just go for it. Even if it's scary."
+                mc "I don't subscribe to the romantic belief that couples complete each other."
+                mc "Instead, I think it's two people who are whole looking to come together to make something special."
+                mc "I don't think it's two halves coming together to become a whole."
+                mc "In other words, we should prioritize trying to complete ourselves over leaning on each other."
+                "Feeling silly, I scratch my head."
+                yu "I don't really know what I'm doing."
+                mc "I think you do. You just making a really hard decision."
+                show yu calm with dissolve
+                yu "I don't know how to talk people."
+                mc "But you really do know how to talk to a person enthusiastically about bottled water and fish tacos."
+                yu "I was just born with my talent."
+                mc "I find it really hard to believe that you can nonchalantly rent out a $2000 apartment while going to school without working hard at all."
+                show yu happy with dissolve
+                "Yukiko gives me a smile riddled with melancholy."
+                yu "I'm selfish, [mcname]. I don't want to pick to begin with. Between taking the job and staying with you, I mean."
+                show yu sad with dissolve
+                yu "Not to mention I spent three days sulking indecisively while you took care of me. I'm sorry about that."
+                mc "It's a tough decision. Also, I think it's my job to help my girlfriend make tough decisions, right?"
+                show yu calm with dissolve
+                mc "And... you're not selfish, Yukiko. I was really blown away when you tackled me out of harm's way while I was trying to bodyblock a branch for you in the park."
+                mc "You could say that you really left an impact on me."
+                show yu happy with dissolve
+                "Yukiko tries in vain to prevent a giggle from slipping out."
+                show yu nervous with dissolve
+                yu "D-don't make me laugh in such as serious situation."
+                show yu calm with dissolve
+                "I chuckle to disguise the nostalgia-induced sadness welling up in my eyes."
+                mc "The point is that I believe in you. Whatever you decide to do, you have my support."
+                "Yukiko pauses for a moment before abruptly removing my arms from her shoulders."
+                mc "(Did I make her mad?)"
+                show yu blush with dissolve
+                show yu sad:
+                    parallel:
+                        zoom 1.7
+                    parallel:
+                        linear 0.5 yalign -0.5
+                "She swiftly rushes forward and squeezes me tight in a hug with her face nestled into my chest. I embrace her gingerly in return."
+                "Just like the time we became official not so long ago, we just stand like that for a while, both knowing what's going to come next."
+                scene bg black
+                yu "I'm going."
+                pause 5.0
+                mc "(When we consider the other billions of people living on this planet, it is hard to believe that you could conveniently meet the one person you were destined to be with.)"
+                mc "(However, let's say that the conditions determining a soulmate include how near they are to you.)"
+                mc "(But then, what kind of measurement would you have to use for that?"
+                mc "(Are they the best match for you within the same nation? The same state? 50, 20, or 5 miles?)"
+                mc "(Even if you meet and marry someone and stay with them for the rest of your life, are they really your soulmate?)"
+                mc "Maybe you would be happier with someone from Dubai who is completely compatible with you. How about China, Russia, or Europe?)"
+                mc "(That's not even considering time periods. Maybe Marie Curie of the 20th century was your ideal.)"
+                mc "(If I call the person I'm with my soulmate, it seems to contradict soulmates' own romantic interpretation of being star-crossed lovers.)"
+                mc "(I'm sure many would disagree, citing the many valid flaws of such an interpretation. Maybe all of what I just described doesn't even matter on a practical basis.)"
+                mc "(Still, when I think about the overwhelming amount of factors we can consider, I don't believe in fate.)"
+                mc "(Although most people would balk at the notion that the relationships we hold so closely to our hearts are largely determined by physical proximity, there are plenty of studies within the realm of social psychology that support the idea.)"
+                mc "(In other words, although we forge genuine friendships through love and connection, circumstances and continual interaction fosters more of it than we like to realize.)"
+                mc "(In the end, all we can do is march forward against nature's undiscriminating winds which threaten to knock us down or blow us off our paths.)"
+                mc "(We try to remain close to those we hold dear, lest we lose them trying to navigate the twists and turns of the bittersweet maze that we call life.)"
+                mc "(I figured all this out after I graduated college.)"
+                mc "(I met a lot of people along the way. Some friends, I end up keeping, even the ones I least expect. Some friendships are torn apart for the wrong reasons. Others decay slowly but certainly, until they have long withered away.)"
+                mc "(Yukiko was one of those who faded into obscurity.)"
+                "The summary goes as follows: after we spent our remaining time together, I saw her off at the airport."
+                "At first, I texted her a lot to reassure her and she texted me about the new things she experienced that day, but our lives became increasingly busy."
+                "We just broke off at some point. One day, on a whim, I sent her a text checking up on her, but it didn't send."
+                "She must have finally changed her number to avoid international fees from service within her own country."
+                "Neither of us used social media. I had no way to reach her. I had work and social events plastered all over my week and the rest of my calendar. Life went on."
+                "It's been two whole years since I graduated from university."
+                "I worked hard and earned an entry-level position at an international game development company desperate to staff their brand new North American branch."
+                scene bg office with dissolve
+                "Today's my first day on the job and I'm just playing armchair psychologist and philosopher while waiting to meet the head of my department."
+                "I've been sitting in expensive, new posh waiting chair for around 20 minutes already."
+                "It's definitely far from the worst of fates, but I have to keep my mind active so that I don't fall asleep because of how comfortable this chair is."
+                "The early period of my new coworkers bustling about and smiling and greeting me has already passed, and I'm just a sitting mascot that they acknowledge at this point."
+                "I can't get to work before what is basically my briefing. I don't even know where my work area is."
+                "The secretary at the front desk just told me to have a seat here."
+                "I let out a quiet sigh."
+                su "Hi, you must be the new hire."
+                "I snap back to reality and professional mode as a figure in an expensive looking suit greets me."
+                "Based on my impression of the work environment I got at my interviews, I decide to head straight for the casual route."
+                mc "Hi, you must be my boss!"
+                "Them returning my greeting with a warm smile reassures me of my choice."
+                su "Not exactly. In our company's work environment, we encourage equal collaboration."
+                su "No one's your boss. But of all the people who aren't your boss, I'm the MOST not your boss, if you get what I'm saying."
+                mc "Is that from the company handbook for new hires?"
+                su "Yes, it is. I never thought anyone actually read that. We even have joke illustrations inside of it."
+                mc "Wow... so much for me trying to take my job seriously."
+                su "You *should* take your job seriously. Being serious at what you do is good."
+                su "Though, I would say that the nature of our job as game developers requires us to be able to not take ourselves too seriously to a certain extent."
+                mc "Work hard and play hard."
+                su "Exactly."
+                mc "By the way, I'm only going to be doing programming right?"
+                su "What I've noticed working in the game industry is that big companies often split the departments up properly in order to ensure a continuous workflow, but smaller companies tend to be a free-for-all."
+                su "Right now, it's not as clear-cut as what I just described, since we're a big company with a branch just beginning to bloom with the few hires we managed to carefully pick out of the local talent pool."
+                su "Our branch right here has the manpower of a small company at the moment."
+                su "What that means is that a programmer like you only does programming related work on paper, but anything else you can bring to the table makes you a huge asset."
+                su "I would recommend working on our odd tasks even though you're not experienced in the field. We don't expect you to be either. It can be a good learning experience."
+                mc "I'll do my best. I wanted to work in this industry, after all."
+                su "That sounds fantastic. I actually have some remaining paperwork for you to fill out in my office before you get started."
+                su "My office is just down the hall."
+                "The supervisor begins walking down the hall with me in tow."
+                scene bg black with dissolve
+                "No one else is around."
+                su "Consider what I'm about to ask you a personal question, since I'm requesting a personal answer. I don't want to hear any corporate pandering, and you don't have to answer if you don't want to."
+                mc "Go ahead, shoot."
+                su "What made you want to work in games?"
+                "For a short period of time, the only sounds around us are my footsteps and the click-clatter of high heels down the corridor."
+                mc "When I went to college, a girl entered my life as quickly as she left it."
+                "My voice echoes in the spacious hallway we're walking in."
+                su "Oh, I'm sorry..."
+                "I flash an amiciable smile."
+                mc "Don't worry, it wasn't like that."
+                mc "To say she really liked programming would be an understatement. She loved games too."
+                mc "Even after a couple years in college, I still didn't know what I was doing. I didn't know where I wanted to go, or what I wanted."
+                mc "When I met her, she didn't have many friends. But I knew she had her stuff together. I believed in her."
+                mc "She was a person who shined so brightly that she illuminated the path forward for me, even if she didn't mean to."
+                mc "I had to let her go shine because I didn't have the capacity to follow her. It just wasn't the right place or the right time for us."
+                mc "I don't regret it. I do regret never letting her know how big a role my stint with her had in shaping my future though."
+                "My supervisor smiles and nods understandingly as they listen to my story."
+                mc "I must be going off a tangent."
+                su "No, it's fine. I can tell you really cared about her. It was a good answer, and a really personal one at that."
+                "I notice that their eyes seem to be rather moist."
+                su "Thank you for sharing with me."
+                mc "No problem."
+                "We finally reach the outside of the closed office."
+                su "Come in, have a seat."
+                mc "I think I'm learning a lot today so far. Sitting in all these chairs is a valuable learning experience for my ass."
+                "My supervisor spares a laugh for my crude joke while sitting down."
+                su "You might want to avoid that kind of humor if the producer comes around. He's a pretty serious fellow."
+                mc "I was just making sure you still find my bad jokes funny."
+                su "I actually didn't recognize you until you started telling me that story."
+                "Fixing a stray strand of hair on my head, I chuckle self-consciously."
+                mc "I guess I did change a lot over the years."
+                mc "Why did you come all the way over here?"
+                su "They needed senior level employees who speak good English to run things around here."
+                su "Naturally, I fit the bill quite well."
+                "I'm at a loss for words, so I just say what's on my mind."
+                mc "Welcome back."
+                #show surprise
+                yu "It's good to be home."
+                mc "(I don't believe in fate, but... I don't have to.)"
+                mc "(Fate found me instead.)"
+                ".:. Good Ending."
+                return
+            else:
+                label yu_bad:
+                hide yu sad with dissolve
+                "I stare down at my feet, unable to look her in the eye. Unable to face the truth."
+                "As much as I hate to admit it, Yukiko's worries hold a strong foundation within reality."
+                mc "Yukiko, I... I think we're special, and..."
+                "I try to find some sensible words to reassure her with, but I just end up stumbling over my own desperate thoughts."
+                mc "(My trembling voice must not sound very encouraging to her.)"
+                yu "I think we're special too but... maybe not as much as you think we are."
+                "I still can't look her in the eyes."
+                mc "How could you say that? I'm really trying here, Yukiko."
+                "Her voice cuts at me from a few paces from the wooden floor I'm staring at."
+                yu "I'm trying too, [mcname]."
+                mc "Is that why you've been sitting in that room by yourself all day?"
+                stop music fadeout 1.0
+                "Before could hold my tongue, those vile words fueled by frustration left my mouth."
+                "I look up impulsively to assess the damage."
+                show yu calm with dissolve
+                "Yukiko's unflinching face greets my vision."
+                yu "Do you really think that was what I was doing?"
+                yu "I was writing up a follow-up email to the company declining their offer."
+                mc "Why didn't you just tell me then?"
+                yu "I was still deliberating..."
+                mc "You took three days sitting in there by yourself to deliberate?"
+                "My voice rises together with my anger."
+                show yu nervous with dissolve
+                yu "I-I just needed some time to myself..."
+                mc "Why didn't you just talk to me about it instead of hiding like a kid?"
+                show yu sad with dissolve
+                yu "I didn't mean..."
+                mc "Do you know how worried I was sitting out here? I was--"
+                "I finally manage to stop myself at the sight of her tears."
+                mc "Yukiko, I'm sorry, I didn't mean to--"
+                yu "L-long distance or not, t-this isn't going to work out."
+                "Yukiko tries to communicate through her tears."
+                yu "If you want me to go s-so bad, I'll do it. I'll just forget about you."
+                yu "We're breaking up."
+                "I give her a bitter smile."
+                mc "Sure."
+                "With what felt like a pained expression on my face, I quickly stride out of her apartment, disappearing into the cold night."
+                hide yu sad with dissolve
+                scene bg black with fade
+                pause 5.0
+                scene bg park_2 with fade
+                "It's been an academic quarter since I last saw her."
+                "Since then, I sent her texts apologizing and encouraging her, but she never responded."
+                "I still go to the club, but I never catch a glimpse of her, even during official events."
+                "I don't think about it everyday."
+                mc "(I wake up. I go to school. I study. I sleep. Life goes on.)"
+                mc "(However, my body grows weary merely from carrying out its routine.)"
+                mc "(I function as an automaton. When I talk to other people, I behave as I normally do. I look people in the eye while greeting them. We make friendly small talk.)"
+                mc "(It feels all like an act to me. What I'm doing, what I feel, and what I say.)"
+                "My introspection ends early as I end up walking mindlessly into someone familiar."
+                show re calm with dissolve
+                re "..."
+                "She stares at me blankly before continuing on her way."
+                "I turn in her direction and greet her back with a friendly smile."
+                mc "Hi Reina, how's it going?"
+                "She mechanically turns her torso back towards me without a change in expression."
+                re "... hi."
+                mc "Maybe you've forgotten me from back then, but we talked for a bit."
+                re "... I remember."
+                mc "Oh."
+                re "....."
+                mc "........."
+                "............."
+                "We share awkward silence until Reina shifts her body as if about to leave."
+                mc "Hey, have you seen..."
+                "My voice tapers off the end of my question as Reina briefly looks as if I had just asked her if I could defecate on her shoes in public."
+                re "You don't even know..?"
+                "I start to feel a little annoyed at her rudeness."
+                mc "I don't. Tell me. What am I missing?"
+                "Taking note of the angle of the corners of my mouth, my smile must have dropped off a long time ago in this conversation."
+                "Reina begins walking away. I stride after her in what must have appeared to outsiders as in an intimidating manner."
+                mc "Tell me!"
+                "The voice that leaves my throat surprises me with its harshness."
+                "In a single swift motion, Reina twirls around with her hand raised."
+                #play sound "slap.ogg"
+                "The freshly throbbing pain in my cheek pales in comparison to the news Reina delivers to me immediately after."
+                re "She doesn't go here anymore."
+                "With the pragmatism of her tone to set the mood, Reina begins cutting me with her short statements."
+                re "She cried to me on the phone. She flunked her finals by not going."
+                re "She didn't take the job. She moved back home."
+                "I daftly remain still."
+                re "Are you even listening? You're the one who asked me."
+                "Bearing a famine for words, I have no words to offer her."
+                re "Whatever."
+                "Reina starts walking away, taking glances back to make sure I'm not stopping her again."
+                re "There were plenty of things she wasn't satisfied with before you barged in. Don't give yourself too much credit."
+                re "You just happened to be the final lock to seal away her heart."
+                hide re calm with dissolve
+                "As Reina disappears into the rays of morning sunshine, I carry my body away back into the park to rest on the grass."
+                #blurring out
+                "I lie down weighed heavily in hardship. My body drifts away into the sea of slumber, anchoring my my mind with it."
+                "Afraid of drifting away into loneliness, afraid of navigating through an uncharted future, I remain floating here where we first met, calling out your name."
+                mc "Yukiko..."
+                scene bg black with fade
+                "But you never come."
+                ".:. Bad Ending."
+                $ MainMenu(confirm=False)()
