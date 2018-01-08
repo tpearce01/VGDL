@@ -280,42 +280,50 @@ mc "(Thank goodness...)"
 
 > JD asks Protag to come to the game lab late at night when no one’s there. Surprise! Kendrick’s there. 
 "The next day..."
-"I recieved a message from Jeorge Dan asking me to come to the DBH late at night."
-"Like, super late at night."
-"I peered inside the room through the window. Only Jeorge Dan 
-mc 
-cc “(was told to wait here in the game lab, I mean I know Irvine is one of the safest cities ever, but walking around campus at night is still kinda spooky.)”
-“I arrive at the game room."
-"To my surprise, Kendrick is there, I try to turn around and leave, but the president is blocking the door."
-"Right before I can stick my fingers through the gap, he speaks a single sentence.”
+"I recieved a message from Jeorge Dan asking me to come to DBH late at night."
+"By late, I mean super late at night."
+"I was all alone, sitting in the lobby. The game room was locked and barren."
+mc "What's this all about, Mr.President..?"
+mc "It's freezing outside. I'd much rather be within the warm confines of my room instead of here."
+"As I was grumbling to myself, I heard the door to the building open."
+jd "[mcname]. Thank you for coming despite the abrupt nature of my message."
+jd "Part of me was worried I called for you too late and you wouldn't show up."
+mc "Yep. Same here."
+jd "Heh. My apologies."
+mc "So. Why did you ask for me so late?"
+"Just as he was about to respond, the door began to open once more."
+kd "..."
+mc "Kendrick?!"
+kd "Hmph... Leave it to JD to devise such a tasteless scheme."
+"Jeorge Dan just smiled in response as he walked up to Kendrick, and ushered him closer to me."
+"It was evident from his scowl that he'd much rather turn heel and run, but I'm sure his sense of duty mandated otherwise."
+"He stood before me. The only one smiling was Jeorge Dan, either hand placed on each of our backs."
+mc "..."
+kd "..."
+jd "..."
+jd "Alright. Make nice, kiddos."
+"He gave us a pat, and turned to leave."
+kd "... Pardon?"
+mc "Wha?! Hold up, are you just going to leave us?"
+"With no intention to even turn my direction, Jeorge Dan left the building."
+"And just like that, I was left alone with Kendrick."
+mc "(Ngh... Dang that guy...)"
+“Silence fell. It'd only been a moment, but each agonizing, awkward second felt like a minute."
+kd "..."
+"For better or for worse, it was Kendrick who broke the ice."
+kd "We both know why JD pitted us together here, so let's cut to the chase."
+kd "I've given nothing but my best effort to your project, and yet you request an officer change?"
+kd "Truly, I don't understand your issue is here. Why didn’t you just communicate with me?”
+mc "(Tch. If I were able to, I wouldn't have a problem with you in the first place!)"
+mc “Why would I bother even trying when the answer would be “it's garbage” anyways?"
+"At this, Kendrick's eye sharpened. He clicked his tongue in irritation."
+kd “That’s rich, coming from someone who responded just as much immaturity as you claim I am.”
+mc "Ugh..."
+"I realized I was letting my anger get the best of me."
+"I took a deep breath, and glared him straight in the eye."
+mc "You want me to 'communicate with you'? Fine. I will."
+mc "
 
-> “Make nice kiddos” Exit JD
-jd “Make nice kiddos.”
-“And he shuts the door.”
-“A couple seconds of silence pass, feeling like minutes.”
-
-> Kendrick starts off. “I don’t see what the issue is here. Why didnt you just communicate with me?”
-“Kendrick breaks the silence.”
-kd “I don’t see what the issue is here. Why didn’t you just communicate with me?”
-
->Protag passive aggressively responds. 
-mc “Why would I bother even trying when the answer would be “it's garbage” anyways?
-
->Kendrick low-key irritated. Protag scoffs and leaves.
-kd “That’s rich, ming from someone who would just respond by mockingly imitating them.”
-mc “Well, it'sbvious that neither of us are particularly enjoying this situation, so how about we just agree to interact as little as possible until the end, then I can quit the club and we can never see each other again.”
-kd “Deal.”
-“A Couple seconds of silence pass.”
-mc “I really wish prez didn’t lock the door, this is weird.”
-kd “I don’t want to be in here either.”
-mc “Let me check if the window is open.”
-kd “Don’t you open up that window.”
-mc “Don’t you let out that antidote!”
-kd “What?”
-mc “You listen to Travis Scott?”
-kd “What’s that?”
-mc “Never mind, I almost thought you were kinda cool.”
-“I jump out the window.”
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -476,7 +484,7 @@ mc “(Wait, wait wait wait, did I just think he was cute, AGAIN?)”
 [Kendrick confesses. Protag recognizes her feelings for him.]
 
 
->Another time skip. Monologue about how Kendrick’s pretty dang chill.
+>Another time skip. Game finished Monologue about how Kendrick’s pretty dang chill.
 mc “(A couple of weeks have passed, and Kendrick has actually gotten super chill.)”
 mc “(Well, not chill by normal human standards, but compared to the huge pedantic butthole that he was when we met him....)”
 
@@ -517,6 +525,9 @@ mc “Uuuuuhhhhhh...”
 
 
 1. Kendrick sees how Protag has difficulty talking to him and asks her to forget he ever confessed. This pushes protag to confess to him and they go out
+
+
+>kendrick approaches
 mc “I-I don’t know.”
 kd “It's just, I’ve never met anyone as sweet and cute and as funny as you, and when you gave me that chocolate, I was actually, well I was going through some stuff, and your kindness, your laughter, you have no idea how much I needed it. You don’t have to like me back, or say yes, or anything, but these thoughts are keeping me up at night, and I just, I just had to tell you..”
 mc “Well, I uhh...”
@@ -567,6 +578,7 @@ kd "But I can't help but love that about you."
 [BAD ENDING]
 
 
+>never brought back up
 mc “(After we finished the project, I switched my major, quit VGDC, and found a whole new group of friends.)”
 mc “(Sometimes I still see my old VGDC friends on Facebook, but we don't interact much outside of liking each others' posts.)”
 mc “(I’ve just picked up my free coffee at Starbucks, and I’m putting sugar and crap into it, when all of a sudden I hear a familiar voice..)”
