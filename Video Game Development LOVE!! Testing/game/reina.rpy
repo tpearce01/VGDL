@@ -6,6 +6,7 @@ define re_affection = 0
 label re_scene1:
     #Week 2
     scene bg meeting_1 with fade
+    play music "/Audio Dumpster/Waiting Music.mp3" fadeout 1.0 fadein 1.0 loop
     "Pitches"
     "It’s another crowded meeting. Today, we’ll hear about the different projects and choose a team."
     mc "(I told myself I would work as an artist, but what team should I join?)"
@@ -61,7 +62,7 @@ label re_scene2:
 
     #--black screen--
     scene bg black with fade
-
+    play music "/Audio Dumpster/Joke.mp3" fadeout 1.0 fadein 1.0 loop
     "The Game Lab, Later that Week"
     scene bg gameroom with dissolve
     "A few club members are scattered around the room, chatting and working on their devices. Thankfully, Alex is nowhere to be found."
@@ -123,6 +124,7 @@ label re_scene2:
     #First choice: Week 3
 
     #--black--
+    stop music fadeout 1.0
     with Pause(0.5)
     "And thus started my first quarter in VGDC."
     "As expected, the team I'm part of is filled with skilled members."
@@ -131,6 +133,7 @@ label re_scene2:
 
     #--Game Room--
     scene bg gameroom with dissolve
+    play music "/Audio Dumpster/Game Lab.mp3" fadeout 1.0 fadein 1.0 loop
     "A week had passed" 
     "Today marks our first ever team meeting, and it went by without a hitch."
     "I bought a drawing tablet beforehand and practiced enough to at least look like I know what I'm doing."
@@ -240,6 +243,7 @@ label re_scene3:
      #---------------------------------------------------------------------------------------
     scene bg gamelab with fade
      #Second choice: Week 4
+    play music "/Audio Dumpster/Game Lab.mp3" fadeout 1.0 fadein 1.0 loop
     "It’s another day in the game lab, everyone doing their own thing. George Dan is in the front, leading a workshop on writing dialogue."
     "It sounds somewhat interesting. I listen in while browsing the internet. I’m starving."
     "I see Reina in the corner, it looks like she’s finishing up some work. Maybe she’s got some free time?"
@@ -258,6 +262,7 @@ label re_scene3:
             mc "Haha, it seems we’re in agreement here. Let’s go."
             
             scene bg black with fade
+            play music "/Audio Dumpster/Food Court.mp3" fadeout 1.0 fadein 1.0 loop
             "We decide to go to one of the food courts on campus."
             
             scene bg foodcourt_1 with dissolave
@@ -355,6 +360,7 @@ label re_scene3:
      
      #--Aldrich Park--
     scene bg park_1 with fade
+    play music "/Audio Dumpster/Aldrich Park.mp3" fadeout 1.0 fadein 1.0 loop
     mc "Hahhh..."
     "I set my sketchbook down on the grass and stretched my arms."
     mc "(Geez... How long have I been sitting out on the grass?)"
@@ -465,6 +471,7 @@ label re_scene3:
      
      #[Option 2- Work on drawing]
         "Stay focused.":
+            #play music "/Audio Dumpster/Joke.mp3" fadeout 1.0 fadein 1.0 loop
             #Option 2- Stay focused]
             $ re_affection = re_affection + 1
             mc "(Ngh... As much as I want to...)"
@@ -486,6 +493,7 @@ label re_scene3:
             #Final choice: Week 6
             #[Option 1 - Invite Reina to the Apartment]
             scene bg gameroom with dissolve
+            play music "/Audio Dumpster/Game Lab.mp3" fadeout 1.0 fadein 1.0 loop
             "It’s a little later in the evening in the game lab. A small group of officers have left to get some dinner."
             "It seems like one of them didn’t go along."
             show re calm with dissolve
@@ -509,6 +517,7 @@ label re_scene3:
             #The two go to the apartment.
             scene bg mc_apartment_inside with dissolve
             show re calm with dissolve
+            play music "/Audio Dumpster/Piano Solo 1.mp3" fadeout 1.0 fadein 1.0 loop
             mc "So, here’s my apartment, the grand loft."
             "I cleaned up earlier, so the place wasn’t too messy. My roommates had left some dishes in the sink though."
             "A few desks line the walls of a medium-sized living room. It’s not the most organized, but it’s a welcoming place."
@@ -531,6 +540,7 @@ label re_scene3:
             re "Um, yeah."
             mc "I’m glad you feel that way, Reina."
             show re calm with dissolve
+            play music "/Audio Dumpster/Somber Music.mp3" fadeout 1.0 fadein 1.0 loop
             "One of my favorite songs starts playing and I get an idea."
             mc "Oh, this song is great. Come on, let’s dance!"
             "I turn up the volume, then gently grasp Reina’s hands and pull her to her feet."
@@ -570,6 +580,7 @@ label re_scene3:
             "It’s a little later in the evening in the game lab. A small group of officers have left to get some dinner."
             "Unfortunately, one of them didn’t go along."
             show ax calm with dissolve
+            play music "/Audio Dumpster/Game Lab.mp3" fadeout 1.0 fadein 1.0 loop
             ax "Wow [mcname], I never took you for the artistic type."
             "I’m trying to finish some backgrounds for the project. It’s been getting easier, when Alex isn’t around."
             mc "I doodled in high school."
@@ -632,6 +643,7 @@ label re_scene3:
      #[[GOOD ENDING]]
 label re_good_ending:
     scene bg sturbacks with fade
+    play music "/Audio Dumpster/Game Lab.mp3" fadeout 1.0 fadein 1.0 loop
     "I'm midway into week six, and three weeks into Melody's game project."
     "I've spent as much time as I could practicing art and animating, but there's only so much I can get done in this much time."
     mc "(This... was definitely a mistake.)"
@@ -659,11 +671,13 @@ label re_good_ending:
     mc "Uh, yea. I’ve been… browsing for a good article to reference this one high schooler to!"
     re "..."
     mc "Apparently they saw my work and got super inspired. Wanted to create something of their own. But, I’m not much of a teacher myself, so I’ve been looking for a good tutorial to send to them."
+    stop music fadeout 1.0
     re "For the past 4 hours…?"
     mc "..."
     mc "... huh..?"
     "Reina stared straight at me, her emerald eyes boring into my own."
     mc "Wait, Reina, how long have you-?"
+    play music "/Audio Dumpster/Tension.mp3" fadeout 1.0 fadein 1.0 loop
     re "Long enough to know that you’re lying to me."
     mc "?!"
     re "But, the real questions is: are you just lying to me, here and now?" 
@@ -755,6 +769,7 @@ label re_good_ending:
     "With a pout and her chin pointed upward slightly, I knew Reina was trying her best to seem upset."
     "Though, she couldn't hide the red that brushed her cheeks nor the slight smile that pulled at her lips."
     mc "(It may have been a rough start, but maybe there's still hope for a happy ending after all.)"
+    stop music fadeout 1.0
     return
 
     #---------------------------------------------------------------------------------------------
@@ -776,6 +791,7 @@ label re_bad_ending:
         linear 0.5 xalign 0.8
     "She seems to be on the verge of tears."
     re "The art you showed me at the beginning, it wasn’t yours was it."
+    play music "/Audio Dumpster/Bad Ending.mp3" fadeout 1.0 fadein 1.0 loop
     mc "Uhh…"
     md "Well?"
     "The two of them stare me down. No amount of lying or excuses can get me out of this one."
@@ -804,6 +820,7 @@ label re_bad_ending:
 
     #//Timeskip to later, main character is talking to Alex in the park
     scene bg park_2 with fade
+    play music "/Audio Dumpster/Somber Music.mp3" fadeout 1.0 fadein 1.0 loop
     "Because of my plagiarism, they kicked me off the team."
     "The president was going to drop me from the club entirely and report my actions, but someone convinced him to let me off with a stern warning."
     "I can’t join another team for the rest of the year, that’s not too bad."
