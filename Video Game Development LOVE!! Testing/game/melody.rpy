@@ -7,6 +7,7 @@ define md_affection = 0
 label melody_scene1:
     scene bg night with fade
     show ax calm with dissolve
+    play music "/Audio Dumpster/Aldrich Park.mp3" fadeout 1.0 fadein 1.0 loop
     ax "Hey Bro! How’d I do up there?"
     mc "You got the girls giving off giggly noises if that’s the answer you’re expecting…"
     show ax happy with dissolve
@@ -68,6 +69,7 @@ label melody_scene1:
     ax "No answer… I think you might’ve left it in the lecture hall."
     mc "Damn… I’ll be right back."
     hide ax calm with dissolve
+    stop music fadeout 1.0
     "As I start running to the lecture hall, I accidentally bumped into someone on the shoulder. They gave off an angry expression."
     with hpunch
     show kd angry with dissolve
@@ -79,6 +81,7 @@ label melody_scene1:
 
     #SETTING: Lecture Hall
     scene bg meeting_2 with dissolve
+    play music "/Audio Dumpster/Tension.mp3" fadeout 1.0 fadein 1.0 loop
     "When I entered the lecture hall, the board was covered in graffiti and then I saw Melody drawing graffiti on the far wall. ‘VGDC sucks.’ was one of the messages on the wall."
     "She turned around with a blank expression on her face, like a deer when you shine your high beams at it."
     show md angry with dissolve
@@ -130,6 +133,7 @@ label melody_scene1:
 
     #----------End of Player Choice 1----------
     hide md calm with dissolve
+    stop music fadeout 1.0
     "Right before I left Alex came running through the door."
     show ax calm with dissolve
     mc "(Oh no!! This is bad…)"
@@ -138,6 +142,7 @@ label melody_scene1:
     ax "You.. didn’t do this in like 10 seconds did you...?"
     mc "No…"
     "I pointed my finger towards her."
+    play music "/Audio Dumpster/Joke.mp3" fadeout 1.0 fadein 1.0 loop
     "Alex formed his hand into a gun-like formation with his index finger pointing towards her."
     show ax calm:
         linear 0.5 xalign 0.2
@@ -172,6 +177,7 @@ label melody_scene1:
     #SETTING: Outside (night)
     scene bg night with dissolve
     show ax calm with dissolve
+    play music "/Audio Dumpster/Aldrich Park.mp3" fadeout 1.0 fadein 1.0 loop
     ax "Speaking of the devil… awkward."
     mc "You had to come in at the worst time…"
     ax "I scored us a lunch date with her though!"
@@ -187,6 +193,7 @@ label melody_scene1:
     #--Scene 2--
     #SETTING: Student Center
     scene bg studentcenter with fade
+    play music "/Audio Dumpster/Food Court.mp3" fadeout 1.0 fadein 1.0 loop
     "It’s the next day. Alex and I have a ‘lunch date’ with Melody. I’m pretty sure this is gonna end up badly somehow..."
     show ax calm with dissolve
     ax "Hey dude!"
@@ -319,6 +326,7 @@ label melody_scene1:
     ax "Huh?"
     mc "Your phone..."
     show ax sad with dissolve
+    stop music fadeout 1.0
     "He looked down at his phone and a few seconds after reading the message his mood and tone changes."
     ax "Melody, we have to go. Now."
     md "Yeah… I know."
@@ -341,6 +349,7 @@ label melody_scene1:
     show phone with dissolve
     "My phone rang! I quickly grabbed it and picked up."
     mc "Alex! What happened?"
+    play music "/Audio Dumpster/Tension.mp3" fadeout 1.0 fadein 1.0 loop
     ax "...We’re in big trouble."
     mc "What do you mean."
     ax "The whole VGDC board got called in… and not just us… the Dean staff and professors got involved too."
@@ -359,6 +368,7 @@ label melody_scene1:
     ax "He’s… accusing Melody of being the one that did it and the two of them got in a big fight. Melody then bolted out the door after."
     mc "That bastard… why does he have to be like that?"
     ax "Well… I probably would’ve done the same thing if I were him."
+    play music "/Audio Dumpster/Waiting Music.mp3" fadeout 1.0 fadein 1.0 loop
     "Alex starts to giggle."
     mc "What do you mean and why are you giggling?"
     ax "Let’s just say that the board didn’t believe Kendrick because he’s… a little bit bias."
@@ -407,20 +417,24 @@ label melody_scene1:
     
     #SETTING: Piano Concert Hall
     scene bg piano with fade
+    stop music fadeout 1.0
     mc "Wow… this room is so beautiful! There’s no one here either…"
     "A grand piano sat on the middle of the wooden stage, surrounded by the warmth of the incandescent lights."
     "The concert hall isn’t enormous, but the mood and the atmosphere is very subtle and cozy."
     "I went on the stage, sat down on the stool, and started to feel the keys on the piano."
     mc "Soft and beautiful as always… I want to test something."
+    play music "/Audio Dumpster/Piano Solo 1.mp3" fadeout 1.0 fadein 1.0 loop
     "I started to play a few notes."
     mc "(I’m not a professional pianist, but I know enough to impress a few girls.)"
     mc "(EHhheh…That was pretty cringe... I sounded kinda like Alex for a bit.)"
     "The keys on my fingers felt natural even though I haven’t touched a piano in months. The empty hall was filled by the sound of my creation."
+    stop music fadeout 1.0
     mc "That’s enough testing for now…"
     unknown "That was pretty good."
     mc "(A girl’s voice?)"
     "I turned towards the empty stalls to see who it was."
     show md calm with dissolve
+    play music "/Audio Dumpster/Aldrich Park.mp3" fadeout 1.0 fadein 1.0 loop
     md "Hey."
     mc "Melody? What are you doing here?"
     md "I should ask you the same question."
@@ -475,6 +489,7 @@ label melody_scene1:
     
     #SETTING: lecture hall
     scene bg meeting_1 with dissolve
+    play music "/Audio Dumpster/Tension.mp3" fadeout 1.0 fadein 1.0 loop
     "Instantly, as I entered, she turns around and looks at me."
     show md calm with dissolve
     "I wave at her."
@@ -537,6 +552,7 @@ label melody_scene1:
     "Instantly, as she turns, I headed out once more."
     #SETTING: Outside Lecture Hall
     scene bg sslh with dissolve
+    stop music fadeout 1.0
     "In front of me were Jeorge Dan and Kendrick. I froze still as their eyes gaze at mine."
     show kd calm at left with dissolve
     show kd calm:
@@ -563,6 +579,7 @@ label melody_scene1:
         linear 0.4 xalign 0.5
     with Pause(0.3)
     show md angry at right with dissolve
+    stop music fadeout 1.0
     md "Hey! What’s going on around here. Why are the doors locked as well?"
     "It was Melody. She walked towards us and the two of them turn to look."
     kd "Mind your own business. This kid is a suspect here."
@@ -594,6 +611,7 @@ label melody_scene1:
     #SETTING: Ring Road
     scene bg studentcenter_2 with dissolve
     show md calm with dissolve
+    play music "/Audio Dumpster/Aldrich Park.mp3" fadeout 1.0 fadein 1.0 loop
     mc "That… was so close."
     md "I’m sorry I got you into that…really."
     #----------Player Choice 4---------
@@ -636,6 +654,7 @@ label melody_scene1:
     
     #SETTING: Lecture Hall
     scene bg meeting_1 with fade
+    stop music fadeout 1.0
     mc "My stomach is going to explode… I knew I shouldn’t have eaten before my pitch. Now I have food and butterflies in my stomach."
     "The crowd claps as a girl finishes pitching."
     show gd calm with dissolve
@@ -645,6 +664,7 @@ label melody_scene1:
     "The crowd claps as I slowly walk up to the stage."
     scene bg meeting_2 with dissolve
     mc "(There’s so many people… my stomach…)"
+    play music "/Audio Dumpster/Aldrich Park.mp3" fadeout 1.0 fadein 1.0 loop
     mc "(Phewww. Okay. Let’s go.)"
     mc "Hi everyone, my name is [mcname]. My game is called Gentle Keys."
     mc "This game is a rhythm slash music video game. If you’ve ever played Guitar Hero or Osu, it’s similar to that."
@@ -765,6 +785,7 @@ label test_md_0:
 
     #SETTING: Anywhere outside, ring road
     scene bg studentcenter_2 with fade
+    stop music fadeout 1.0
     "It’s been a week since pitch night. Melody said she wanted to meet up today to talk about the game. I still couldn’t believe that she wanted to join my group…"
     "She asked me to meet her up at the piano room. I’m guessing she wants me to record her a few pieces in order to create the audio for the game."
     with hpunch
@@ -772,6 +793,7 @@ label test_md_0:
     mc "My bad, sorry."
     show kd calm with dissolve
     kd "If it isn’t the rat again."
+    play music "/Audio Dumpster/Bad Ending.mp3" fadeout 1.0 fadein 1.0 loop
     "It was Kendrick and he has a malicious smirk on his face."
     mc "What do you want?"
     show kd angry with dissolve
@@ -795,6 +817,7 @@ label test_md_0:
     show md calm:
         linear 0.5 xalign 0.5
     "He starts to laugh wickedly and walks."
+    stop music fadeout 1.0
     mc "(I really wanted to punch him…)"
     md "Hey, are you okay?"
     mc "Yeah. I’m fine. I handle bullies all the time."
@@ -818,6 +841,7 @@ label test_md_0:
     hide md calm with dissolve
     md "Oh… him."
     show gd calm with dissolve
+    play music "/Audio Dumpster/Piano Solo 1.mp3" fadeout 1.0 fadein 1.0 loop
     "As we both look, he started to play."
     mc "Wow… Jeorge Dan’s pretty good. He’s really good!"
     hide gd calm with dissolve
@@ -828,6 +852,7 @@ label test_md_0:
     md "Let’s just go to the other piano room…"
     mc "I think he’s almost done..."
     hide md angry with dissolve
+    stop music fadeout 1.0
     "As Melody starts to walk away, Jeorge Dan stopped playing and claps from one person can be heard."
     mc "Is that Ren??"
     show md angry with dissolve
@@ -866,6 +891,7 @@ label test_md_0:
     "Yesterday was the club meeting and I was pretty surprise to see the results. I totally did not expect it all…"
     #Setting: Meeting place
     scene bg gameroom with dissolve
+    play music "/Audio Dumpster/Game Lab.mp3" fadeout 1.0 fadein 1.0 loop
     "I walk inside to our meeting place and the first thing I noticed was Alex holding her hands between his."
     show ax calm at left with dissolve
     show ax calm:
@@ -943,6 +969,7 @@ label test_md_0:
     #SCENE 8
     #SETTING: Player’s Apartment
     scene bg mc_apartment_inside with fade
+    stop music fadeout 1.0
     "The first group meeting went well the other day… It was so much fun working with everyone. Alex, Ren, and especially Melody all looked pretty happy."
     mc "What should I do today… it’s the weekend and I guess I should take my mind off school."
     "As I ponder, my eyes took notice of the piece of paper that Jeorge Dan had handed to me that one time."
@@ -951,8 +978,10 @@ label test_md_0:
     mc "He was pretty good when I watched him that one time. I wonder if he’s even better in a competition."
     #SETTING: Concert Hall
     scene bg piano with fade
+    play music "/Audio Dumpster/Large Room Background.mp3" fadeout 1.0 fadein 1.0 loop
     mc "There’s actually a lot more people than I had expected. The hall’s almost filled up!"
     "I went to find a seat and sat down as the competition begins."
+    stop music fadeout 1.0
     unknown "Hi everyone, welcome to our this year’s competition!"
     unknown "We’ll start off right away with our first contestant, Miss Melody!"
     mc "Melody… WHAT?!"
@@ -963,11 +992,13 @@ label test_md_0:
     mc "That dress… she looks amazing..."
     "She was wearing an extremely beautiful dress. And her sheer beauty alone had many of the guys in the audience screaming out her name."
     "The crowd of excited college boys started to quiet down as she begins to play."
+    play music "/Audio Dumpster/Piano Solo 2.mp3" fadeout 1.0 fadein 1.0 loop
     mc "She’s really good…"
     "The way she plays the piano… it wasn’t natural, It wasn’t formal…"
     "It was aggressive and exciting almost to point where you would want to just stand up and cheer."
     "Her style of aggression... played perfectly."
     mc "Beautiful…"
+    play music "/Audio Dumpster/Applause.mp3" fadeout 1.0 fadein 1.0 loop
     "As she finishes up, the crowd ejected from their seats while claps and screams of her name travel throughout the audience."
     "As the cheering continues, I settle my eyes towards her. Not once did I blink."
     mc "Melody… she didn’t tell me that she can play the piano."
@@ -975,6 +1006,7 @@ label test_md_0:
     hide md calm with dissolve
     "My phone rings. I took a step outside to answer it."
     show phone with dissolve
+    play music "/Audio Dumpster/Joke.mp3" fadeout 1.0 fadein 1.0 loop
     mc "Yeah, what’s up Alex?"
     ax "Ren… she’s busy!! So she can’t go to the fair with me!!!"
     "I started to hear sobbing noises coming from the phone."
@@ -1015,6 +1047,7 @@ label test_md_0:
     mc "I’m joking Hahaha. Alright, laters Alex."
     ax "See ya."
     hide ax calm with dissolve
+    stop music fadeout 1.0
     "I held the bracelet in my hand as I start to walk home. The bracelet had a music note on it as a design."
     mc "I should give this to Melody… she’ll like it."
     
@@ -1062,7 +1095,9 @@ label test_md_0:
     "I sat myself down on the stool beside her. And started to touch the piano keys."
     md "Hey… wait! Did I say you can sit next to me?!"
     mc "One sec, let me finish. So I went to this event, and there was this girl, in a beautiful dress, sitting in this exact spot, and beautifully played this song."
+    play music "/Audio Dumpster/Piano Solo 2.mp3" fadeout 1.0 fadein 1.0 loop
     "I started to dance my fingers on the keys and played the similar song that she played earlier this morning."
+    play music "/Audio Dumpster/Somber Music.mp3" fadeout 1.0 fadein 1.0 loop
     "I then turn to look at her. Her eyebrows started to curl inward and her cheeks started to turn red."
     md "You were watching me?!"
     mc "Yeah… and so were like 50 other guys screaming your name Hahaha."
@@ -1111,12 +1146,14 @@ label test_md_0:
     #SCENE 9
     #SETTING: player’s apartment
     scene bg mc_apartment_inside with fade
+    stop music fadeout 1.0
     "Last night… that incident with Melody."
     "I can’t keep her off my mind… and him."
     "She’s leaving after this project. I need to talk to her today, after the group meeting."
     "My phone rang as I ponder around my thoughts."
     show phone with dissolve
     mc "Alex?"
+    play music "/Audio Dumpster/Tension.mp3" fadeout 1.0 fadein 1.0 loop
     ax "Come to the lecture hall, now!!"
     mc "What happened?"
     ax "Melody is in trouble!"
@@ -1198,6 +1235,7 @@ label test_md_0:
     "Ignoring Kendrick, and with a subtle, but somber expression, he looks at Melody."
     gd "Leave the club, Melody, and I won’t report this to the school."
     kd "What?! You’re letting her off too easily! Just report her to the Dean so she can get expelled for this atrocious act."
+    stop music fadeout 1.0
     "Jeorge Dan and Melody, their heavy-hearted eyes met once more."
     md "I’m sorry... for saying those words."
     hide md calm with dissolve
@@ -1218,6 +1256,7 @@ label test_md_0:
         linear 0 xalign 1.5
     show ax sad:
         linear 0.3 xalign 0.5
+    play music "/Audio Dumpster/Tension.mp3" fadeout 1.0 fadein 1.0 loop
     "It wasn’t the joyful Alex, full of life Alex, or the cool headed Alex that I was looking at…"
     ax "Hey... [mcname]... grab the bracelet and find her will ya."
     ax "Don’t…"
@@ -1258,6 +1297,7 @@ label test_md_0:
 label md_good_ending:
     #Good Ending--------------
     scene bg park_1 with dissolve
+    play music "/Audio Dumpster/Somber Music.mp3" fadeout 1.0 fadein 1.0 loop
     mc "Hey…"
     show md angry with dissolve
     "Standing a couple of yards away from me, she turns and looks."
@@ -1288,6 +1328,7 @@ label md_good_ending:
     #Bad Ending---------------
 label md_bad_ending:
     scene bg park_2 with dissolve
+    play music "/Audio Dumpster/Somber Music.mp3" fadeout 1.0 fadein 1.0 loop
     mc "Hey…"
     "Standing a couple of yards away from me, she turns and looks."
     show md angry with dissolve
