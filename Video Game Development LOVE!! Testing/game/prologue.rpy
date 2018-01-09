@@ -4,7 +4,7 @@
 label prologue_scene1:
     ## SCENE AUDIO ##
     $ renpy.music.set_volume(0.75, 0, channel="music")
-    queue music "<loop 11.3609>/Audio Dumpster/Food Court.mp3" loop
+    play music "<loop 11.3609>/Audio Dumpster/Food Court.mp3" loop fadeout 1.0 fadein 1.0
     # !! Need to fadeout music before playing the next audio track
     ## END SCENE AUDIO ##
     scene bg black with fade
@@ -18,7 +18,7 @@ label prologue_scene1:
     #--Aldrich Park 1--
     scene bg park_1 with dissolve
     show ax calm with dissolve
-    #play music "/Audio Dumpster/Easygoing Music.mp3" fadeout 1.0 fadein 1.0 loop
+    play music "/Audio Dumpster/Aldrich Park.mp3" fadeout 1.0 fadein 1.0 loop
     unknown "[mcname], this way! My club's booth is just up ahead!"
     mc "\"Alex, I told you, I'm not interested in joining any clubs this quarter! Just, let go of me already!\""
     ax "Hmm? Sorry, did you say something?"
@@ -91,6 +91,7 @@ label prologue_scene2:
     #--Aldrich Park 2--
     scene bg park_2 with fade
     show yu calm with dissolve
+    play music "/Audio Dumpster/Waiting Music.mp3" fadeout 1.0 fadein 1.0 loop
     unknown "Here we are!"
     show yu calm:
         linear 0.5 xalign 0.2
@@ -145,6 +146,7 @@ label prologue_scene2:
     mc "\"But, I actually kinda planned to not join any clubs my first quarter here.\""
     kd "... I see."
     mc "\"Yea. I'm sorry, but I'm going to get going now.\""
+    stop music fadeout 1.0
     kd "DBH 1412."
     mc "\"Huh?\""
     kd "That's where the club meets. If you ever change your mind, there will likely be an officer there that can help you."
@@ -163,6 +165,7 @@ label prologue_scene3:
     scene bg black with fade
     "--A few days later--" 
     scene bg studentcenter with dissolve
+    play music "/Audio Dumpster/Game Lab.mp3" fadeout 1.0 fadein 1.0 loop
     mc "..."
     "I've gotten through my first academic week here in UCI. Classes are faced paced, but nothing I can't work with."
     "I'm completing my work, attending my classes, and reading on my free time. The quarter is going smoothly, so everything should be fine as is. But..."
@@ -179,6 +182,7 @@ label prologue_scene3:
  # PROLOGUE SCENE4
 label prologue_scene4:
     scene bg park_1 with fade
+    play music "/Audio Dumpster/Aldrich Park.mp3" fadeout 1.0 fadein 1.0 loop
     mc "\"Let's see...\""
     "I was walking through Aldrich Park, inputting DBH on the Zotfinder app to guide me."
     "The park had been relatively empty, so I didn't bother looking up and see where I was going."
@@ -233,6 +237,7 @@ label prologue_scene5:
     mc "!!"
     "An arm swung the door open, and out came a very enraged girl with red streaks in her hair."
     show md angry with dissolve
+    play music "/Audio Dumpster/Tension.mp3" fadeout 1.0 fadein 1.0 loop
     unknown "Oh, cut the crap! I ain't changing for the likes of you all, got it?!"
     mc "..."
     unknown "!!"
@@ -250,6 +255,7 @@ label prologue_scene5:
 label prologue_scene6:
     #--Game room--
     scene bg gameroom with fade
+    play music "/Audio Dumpster/Game Lab.mp3" fadeout 1.0 fadein 1.0 loop
     mc "(Ahh... I just have the greatest timing...)"
     "It was dead silent. Every member had a grim look on their face, and no one looked up from their screen."
     mc "(I don't even think anyone noticed me...)"
@@ -299,6 +305,7 @@ label prologue_scene6:
 label prologue_scene7:
     #--DB hall--
     scene bg dbh_inside with fade
+    stop music fadeout 1.0
     mc "sigh..."
     mc "(Did I really make the right choice..?)"
     "I quietly closed the door to the game room and headed towards the exit."
@@ -314,6 +321,7 @@ label prologue_scene7:
 label prologue_scene8:
     #--Outside DB--
     scene bg dbh_outside with dissolve
+    play music "/Audio Dumpster/Joke.mp3" fadeout 1.0 fadein 1.0 loop
     "The doors swung open."
     show ax calm with dissolve
     ax "Ah."
@@ -362,6 +370,7 @@ label prologue_scene8:
 label prologue_scene9:
     #--Meeting room--
     scene bg meeting_1 with fade
+    
     "Just before the first VGDC meeting.."
     mc "(Oh man... There's a lot of people.)"
     mc "(I didn't think it'd be this packed.)"
@@ -372,6 +381,7 @@ label prologue_scene9:
     "Just then, he stood straight and faced the audience, a smile plastered on his face."
     mc "(... Hmm..?)"
     show gd calm with dissolve
+    stop music fadeout 1.0
     unknown "Good evening, everyone."
     "The chattering within the hall ceased, and all eyes fell on him."
     unknown "I'm very pleased to have you all here. It's very humbling to see such a great turnout."
@@ -393,6 +403,7 @@ label prologue_scene9:
 label prologue_scene10:
     #--back to hall--
     scene bg black with fade
+    play music "/Audio Dumpster/Waiting Music.mp3" fadeout 1.0 fadein 1.0 loop
     "About thirty minutes into the meeting..."
     scene bg meeting_1 with dissolve
     show gd calm with dissolve
