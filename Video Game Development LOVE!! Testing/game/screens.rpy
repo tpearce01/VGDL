@@ -295,7 +295,7 @@ style quick_button_text:
 screen navigation():
 
     image "images/logo.png" xpos 850 ypos 110
-    image "images/chibi.png" xpos 130 ypos 50
+    #image "images/chibi.png" xpos 130 ypos 50
 
     vbox:
         style_prefix "navigation"
