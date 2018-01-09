@@ -506,16 +506,16 @@ label prologue_scene10:
     menu department_choice:
         "Which one interests me the most?"
         "Programming":
-            call yu_route
+            call yu_route from _call_yu_route
         "Art":
-            call re_route
+            call re_route from _call_re_route
         "Writing":
-            call gd_route
+            call gd_route from _call_gd_route
         "Production":
-            call kd_route
+            call kd_route from _call_kd_route
         "Audio":
-            call melody_route
+            call melody_route from _call_melody_route
         "Design":
-            call alex_route
+            call alex_route from _call_alex_route
     return
 # END PROLOGUE SCENE10
