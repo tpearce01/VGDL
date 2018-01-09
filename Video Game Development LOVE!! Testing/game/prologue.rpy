@@ -370,7 +370,7 @@ label prologue_scene8:
 label prologue_scene9:
     #--Meeting room--
     scene bg meeting_1 with fade
-    
+    play music "/Audio Dumpster/Large Room Background.mp3" fadeout 1.0 fadein 1.0 loop
     "Just before the first VGDC meeting.."
     mc "(Oh man... There's a lot of people.)"
     mc "(I didn't think it'd be this packed.)"
