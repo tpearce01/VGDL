@@ -636,7 +636,10 @@ label ax_choiceA1:
     "I ended up all alone, and it hurt."
     "I tried to find a silver lining in the whole situation, but there wasn’t one."
     "There was nothing I could do. It was the death of the best friendship I’d ever had."
-    return
+    scene bg black with fade
+    ".:. Bad Ending."
+    $ MainMenu(confirm=False)()
+    #return
 
 label ax_choiceB1:
     #CHOICE B
@@ -902,7 +905,10 @@ label ax_end_normal:
     "Looking back, the last few weeks had been a trainwreck, the worst of it being I'd lost the best friendship I’d ever had."
     "But I was still standing, and I had the chance to win my best friend back."
     "Things could only go up from here."
-    return
+    scene bg black with fade
+    ".:. Normal Ending."
+    $ MainMenu(confirm=False)()
+    #return
     
 label ax_end_good:
     #ENDING
@@ -931,4 +937,6 @@ label ax_end_good:
     mc "I love you. I'm sorry I didn't tell you a few weeks ago."
     show ax calm with dissolve
     ax "It's totally cool, [mcname]. I love you, too."
+    scene bg black with fade
+    ".:. Good Ending."
     return

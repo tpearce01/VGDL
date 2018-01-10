@@ -1,6 +1,7 @@
 ## YUKIKO ROUTE ##
 # INTRO SCENE
 label yu_scene1:
+    play music "/Audio Dumpster/Waiting Music.mp3" fadeout 1.0 fadein 1.0 loop
     mc "(Programming sounds like my cup of tea, so I'm going to try to talk to the programming officer.)"
     mc "(She's the cheerful girl who forcibly escorted me to the club yesterday.)"
     mc "(She seems the most approachable out of all the officers, but that might serve as a double-edged sword.)"
@@ -15,6 +16,7 @@ label yu_scene1:
     "With nothing particularly eventful happening for the rest of the meeting, I decide to call it a night."
     pause 5.0
     scene bg park_2 with dissolve
+    play music "/Audio Dumpster/Aldrich Park.mp3" fadeout 1.0 fadein 1.0 loop
     "I walk out of my boring lecture into the fair weather and stifle a yawn."
     mc "(I know I shouldn't, but I stayed up last night again.)"
     "I pull out my phone while walking slowly and aimlessly on the park's paths."
@@ -39,6 +41,7 @@ label yu_scene1:
     mc "(I actually feel like crashing on the nearest soft surface right now.)"
     "I attempt to drag myself back home."
     scene bg park_1 with dissolve
+    stop music fadeout 1.0
     "... and I end up collapsed in the park on the grass."
     mc "(I can't do it anymore...)"
     mc "(I'll rest my eyes, just for a little...)"
@@ -72,7 +75,7 @@ label yu_scene1:
             linear 0.5 yalign 0.5
     "Her crimson eyes flicker for a moment before dilating and meeting mines, seemingly lasting forever due to the adrenaline."
     "As if she understood just by our brief exchange of gazes, her sleepy face snaps to one of urgency as she suddenly jumped up and tackled me."
-    #play sound "thud.ogg"
+    play music "/Audio Dumpster/Joke.mp3" fadeout 1.0 fadein 1.0 loop
     mc "OOHOUGH!"
     "I wasn't prepared for a hit by a surprising amount of force from the front, so I toppled backwards onto the grass, disheveled but out of harm's way."
     "The branch hits the ground with a loud crack."
@@ -155,10 +158,12 @@ label yu_scene1:
     yu "Oh, sorry."
     "She whispers that rather quietly."
     mc "(That was surprisingly meek of her.)"
+    stop music fadeout 1.0
     "We dust the dirt and plant matter off ourselves."
     show yu calm with dissolve
     show yu calm:
-            ease .5 zoom 1.0
+        ease .5 zoom 1.0
+    play music "/Audio Dumpster/Aldrich Park.mp3" fadeout 1.0 fadein 1.0 loop
     mc "Why were you napping next to me?"
     yu "Well, I walked to the game lab and Reina described a male student who was looking for me."
     mc "(I wonder what Reina said about me...)"
@@ -217,6 +222,7 @@ label yu_scene1:
 #end of intro
 
 #scene1 programming workshop
+    play music "/Audio Dumpster/Game Lab.mp3" fadeout 1.0 fadein 1.0 loop
     "A week later in the game lab..."
     scene bg gameroom with dissolve
     show yu nervous with dissolve
@@ -390,6 +396,7 @@ label yu_scene1:
     yu "True..."
     mc "But then again, knowing about the books someone reads probably tells a lot about them..."
     scene bg black with fade
+    stop music fadeout 1.0
     "We continue to discuss how to make friends for a good hour."
     scene bg park_2 with dissolve
     show yu happy
@@ -399,6 +406,7 @@ label yu_scene1:
             linear 0.5 xalign 0.4
     show re calm:
             linear 0.5 xalign 0.6
+    play music "/Audio Dumpster/Aldrich Park.mp3" fadeout 1.0 fadein 1.0 loop
     "Even while walking back in the park, Yukiko clings to Reina."
     "We walk for a while in comfortable silence."
     "Fortunately for me, right after I begin pinning myself as the third wheel, Reina speaks up."
@@ -451,6 +459,7 @@ label yu_scene1:
         "What should I do?"
         "Invite Yukiko to hang out with us":
             $ yu_hang = yu_hang + 1
+            play music "/Audio Dumpster/Food Court.mp3" fadeout 1.0 fadein 1.0 loop
             "I put down my phone for a moment."
             mc "Hey Yukiko, wanna go grab a bite with us?"
             show yu nervous with dissolve
@@ -520,6 +529,7 @@ label yu_scene1:
             yu "Okay."
             hide yu calm with dissolve
             scene bg black with fade
+            play music "/Audio Dumpster/Food Court.mp3" fadeout 1.0 fadein 1.0 loop
             "We head to the food court and I grab some overpriced fish tacos."
             "Yukiko just asks for a water cup."
             scene bg foodcourt with dissolve
@@ -563,6 +573,7 @@ label yu_scene1:
 #end of scene1
     pause 5.0
 #scene2 player gets a team and help with programming
+    stop music fadeout 1.0
     "I haven't seen Yukiko since we had lunch together, but we exchanged numbers before we left."
     "We texted each other mostly about random crap, like how four hours of sleep isn't a lot, but a four hour nap is."
     "I sheepishly grin to myself walking to the building where the club meeting is taking place again."
@@ -608,6 +619,7 @@ label yu_scene1:
     "I mutter a meek apology dispersed in no one's direction in particular and remain dead silent for the rest of the presentations."
     "It's fine though, because I know which project I want to work on."
     scene bg black with fade
+    play music "/Audio Dumpster/Large Room Background.mp3" fadeout 1.0 fadein 1.0 loop
     "The rest of the pitches finish and I head towards the stage to join the other students asking officers and game pitchers questions."
     scene bg meeting_1 with dissolve
     show yu nervous with dissolve
@@ -628,6 +640,7 @@ label yu_scene1:
     "I stride over and break through Yukiko's circle of interviewers."
     "I clear my throat and prepare my best voice of authority."
     mc "Hey guys, I think everyone would get their questions answered a lot faster we asked one at a time!"
+    stop music fadeout 1.0
     "Everyone observes a moment of silence during which I imagined being lynched by the mob."
     "Yukiko looks at me surprised like everyone else for a moment, but gives an almost invisible nod to show that she got my cue."
     show yu happy with dissolve
@@ -684,6 +697,7 @@ label yu_scene1:
 #game lab scene where Yukiko is programming with absolute focus
 
 #scene3 midterms vs project help
+    play music "/Audio Dumpster/Waiting Music.mp3" fadeout 1.0 fadein 1.0 loop
     "It's a nice, sunny day on the weekend. Birds are singing, flowers are blooming."
     "I got onto my dream project team, but..."
     scene bg mc_apartment_inside with vpunch
@@ -730,8 +744,10 @@ label yu_scene1:
             scene bg black with dissolve
             pause 5.0
             scene bg yu_apartment_outside with dissolve
+            stop music fadeout 1.0
             "I text her to let her know I'm outside."
             show yu calm with dissolve
+            play music "/Audio Dumpster/Game Lab.mp3" fadeout 1.0 fadein 1.0 loop
             "She opens the door with her hair slightly disheveled."
             yu "Hi."
             mc "Sup."
@@ -803,12 +819,14 @@ label yu_scene1:
     show yu happy with dissolve
     yu "Thanks!"
     #Yukiko tries to make small talk
+    stop music fadeout 1.0
     mc "U-um, let's get to what I came out here to talk to you about!"
     yu "Right, right; sorry for sidetracking."
     mc "Well... you see..."
     show yu calm with dissolve
     yu "Yes?"
     mc "I like yu..."
+    play music "/Audio Dumpster/Joke.mp3" fadeout 1.0 fadein 1.0 loop
     mc "... mmy fish tacos."
     yu "Me too."
     mc "You didn't even taste -- wait, that's not what I meant!"
@@ -846,6 +864,7 @@ label yu_scene1:
     mc "Do you like Reina too?"
     yu "Even more!"
     mc "(Okay, that stings a little, but I have to go on.)"
+    stop music fadeout 1.0
     mc "I like you in a romantic way."
     yu "Oh."
     mc "..."
@@ -857,6 +876,7 @@ label yu_scene1:
     mc "..........."
     yu "............."
     show yu embarassed with dissolve
+    play music "/Audio Dumpster/Piano Solo 1.mp3" fadeout 1.0 fadein 1.0 loop
     yu "Wait what when did this start I can't believe you would fall for someone like me oh but there were a lot of boys who gave me attention when I was growing up but I never got back to them so I don't really know how this works and--"
     "She loses control of her intonation so her voice oscillates between various pitches just like when she gets nervous in front of groups."
     mc "Yukiko--"
@@ -880,6 +900,7 @@ label yu_scene1:
 #possible hackathon scene
 
 #scene5 normie date
+    play music "/Audio Dumpster/Food Court.mp3" fadeout 1.0 fadein 1.0 loop
     "Yukiko and I may be official now, but our relationship didn't really change from before."
     "We text each other dumb, pretty standard couple stuff."
     "Well, one little thing might have changed..."
@@ -965,6 +986,7 @@ label yu_scene1:
     show yu calm with dissolve
     yu "[mcname], I'm not feeling very well..."
     mc "What's wrong? Did the food not sit well with you?"
+    stop music fadeout 1.0
     show yu calm:
         parallel:
             ease .5
@@ -1042,6 +1064,7 @@ label yu_scene1:
     "She returns with an air of sweet shampoo wafting from her still slightly damp hair."
     yu "I haven't done it in a while because of work, but I guess I can spare enough time today."
     mc "Doing what?"
+    play music "/Audio Dumpster/Joke.mp3" fadeout 1.0 fadein 1.0 loop
     yu "Video games."
     mc "Oh."
     yu "What?"
@@ -1118,6 +1141,7 @@ label yu_scene1:
             ease .5 zoom 1.5
         parallel:
             linear 0.5 yalign 0.5
+    stop music fadeout 1.0
     "... and Yukiko pushes me down onto the bed to stop me from doing anything else to her."
     "Aside from the game's background music, it was so quiet that we could hear both of our controllers fall onto the rug with a quiet thud."
     "Mirroring our bodies, our characters in Tori Faiter remain still and cycle through their idle animations, as if refusing to hurt each other."
@@ -1130,6 +1154,7 @@ label yu_scene1:
     show yu happy with dissolve
     yu "No, I think that's really cute."
     mc "(Now I'm the one who's blushing.)"
+    play music "/Audio Dumpster/Somber Music.mp3" fadeout 1.0 fadein 1.0 loop
     yu "[mcname], I'm the one who's lame."
     yu "I thought if you kept trying to beat me, you would end up staying longer."
     "Yukiko's lovely smile remains but her round eyes begin filling with melancholy."
@@ -1184,6 +1209,7 @@ label yu_scene1:
 
 #scene6 Projects showcase CHANGE to "my project sucked, Yukiko's was good"
     scene bg dbh_outside with dissolve
+    play music "/Audio Dumpster/Game Lab.mp3" fadeout 1.0 fadein 1.0 loop
     "It's been a month since I moved in with Yukiko."
     "Today was the day for our projects to be showcased."
     "My project did painfully average."
@@ -1213,10 +1239,12 @@ label yu_scene1:
     mc "OH?!"
     mc "That's great! We have to go celebrate."
     show yu calm with dissolve
+    stop music fadeout 1.0
     yu "I'm not really feeling it today."
     mc "Oh, how come?"
     yu "What I just told you coincides with what I actually have to tell you today."
     mc "What is it?"
+    play music "/Audio Dumpster/Melancholy.mp3" fadeout 1.0 fadein 1.0 loop
     "She starts slowly walking facing away from me with her arms behind her back. I follow suit."
     yu "I wasn't satisfied with my life here. So I thought that focusing on my career would help me find the spark in my life that I was looking for."
     yu "They say that the degree is the minimum that you need to get a job."
@@ -1250,6 +1278,7 @@ label yu_scene1:
     pause 5.0
 #scene7 Final
     scene bg yu_apartment_inside with dissolve
+    stop music fadeout 1.0
     "It wasn't as if Yukiko disappeared, but today is the third day that she's locked herself in her room."
     "And it's finals week."
     "When I go check up on her, she tells me to leave her alone."
@@ -1303,6 +1332,7 @@ label yu_scene1:
             "It's Yukiko using her sleeve to wipe away the residue of my weeping."
             mc "Don't scare me like that."
             "With two tilts of my head, I wipe away the rest of my tears on my shoulders."
+            play music "/Audio DumpsterSomber Music.mp3" fadeout 1.0 fadein 1.0 loop
             scene yu_apartment_inside with dissolve
             show yu calm with dissolve
             "Returning my gaze to her, I notice her eyes are rather moist and bloodshot."
@@ -1351,6 +1381,7 @@ label yu_scene1:
             $ MainMenu(confirm=False)()
 
         "Tell her to go":
+            stop music fadeout 1.0
             mc "(I wanted her to stay with me.)"
             mc "(... but I also want her to chase her future.)"
             "I knock on her bedroom door and receive no response."
@@ -1380,6 +1411,7 @@ label yu_scene1:
                 "As much as I hate to admit it, Yukiko's worries hold a strong foundation within reality."
                 scene bg yu_apartment_inside with dissolve
                 show yu calm with dissolve
+                play music "/Audio Dumpster/Somber Music.mp3" fadeout 1.0 fadein 1.0 loop
                 mc "Yukiko..."
                 "I practically crush my lower lip with the weight of my front teeth before finally speaking."
                 mc "I... think you're right, as much as it pains me to admit it."
@@ -1438,6 +1470,7 @@ label yu_scene1:
                 scene bg black
                 yu "I'm going."
                 pause 5.0
+                stop music fadeout 1.0
                 mc "(When we consider the other billions of people living on this planet, it is hard to believe that you could conveniently meet the one person you were destined to be with.)"
                 mc "(However, let's say that the conditions determining a soulmate include how near they are to you.)"
                 mc "(But then, what kind of measurement would you have to use for that?"
@@ -1463,6 +1496,7 @@ label yu_scene1:
                 "It's been two whole years since I graduated from university."
                 "I worked hard and earned an entry-level position at an international game development company desperate to staff their brand new North American branch."
                 scene bg office with dissolve
+                play music "/Audio Dumpster/Game Lab.mp3" fadeout 1.0 fadein 1.0 loop
                 "Today's my first day on the job and I'm just playing armchair psychologist and philosopher while waiting to meet the head of my department."
                 "I've been sitting in expensive, new posh waiting chair for around 20 minutes already."
                 "It's definitely far from the worst of fates, but I have to keep my mind active so that I don't fall asleep because of how comfortable this chair is."
@@ -1496,6 +1530,7 @@ label yu_scene1:
                 "The supervisor begins walking down the hall with me in tow."
                 scene bg black with dissolve
                 "No one else is around."
+                play music "/Audio Dumpster/Somber Music.mp3" fadeout 1.0 fadein 1.0 loop
                 su "Consider what I'm about to ask you a personal question, since I'm requesting a personal answer. I don't want to hear any corporate pandering, and you don't have to answer if you don't want to."
                 mc "Go ahead, shoot."
                 su "What made you want to work in games?"
@@ -1535,13 +1570,16 @@ label yu_scene1:
                 yu "It's good to be home."
                 mc "(I don't believe in fate, but... I don't have to.)"
                 mc "(Fate found me instead.)"
+                scene bg black with fade
                 ".:. Good Ending."
                 return
             else:
                 label yu_bad:
                 hide yu sad with dissolve
+                stop music fadeout 1.0
                 "I stare down at my feet, unable to look her in the eye. Unable to face the truth."
                 "As much as I hate to admit it, Yukiko's worries hold a strong foundation within reality."
+                play music "/Audio Dumpster/Tension.mp3" fadeout 1.0 fadein 1.0 loop
                 mc "Yukiko, I... I think we're special, and..."
                 "I try to find some sensible words to reassure her with, but I just end up stumbling over my own desperate thoughts."
                 mc "(My trembling voice must not sound very encouraging to her.)"
@@ -1581,6 +1619,7 @@ label yu_scene1:
                 scene bg black with fade
                 pause 5.0
                 scene bg park_2 with fade
+                stop music fadeout 1.0
                 "It's been an academic quarter since I last saw her."
                 "Since then, I sent her texts apologizing and encouraging her, but she never responded."
                 "I still go to the club, but I never catch a glimpse of her, even during official events."
@@ -1616,6 +1655,7 @@ label yu_scene1:
                 "In a single swift motion, Reina twirls around with her hand raised."
                 #play sound "slap.ogg"
                 "The freshly throbbing pain in my cheek pales in comparison to the news Reina delivers to me immediately after."
+                play music "/Audio Dumpster/Bad Ending.mp3" fadeout 1.0 fadein 1.0 loop
                 re "She doesn't go here anymore."
                 "With the pragmatism of her tone to set the mood, Reina begins cutting me with her short statements."
                 re "She cried to me on the phone. She flunked her finals by not going."

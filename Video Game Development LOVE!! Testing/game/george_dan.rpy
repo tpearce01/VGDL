@@ -6,6 +6,7 @@ define gd_affection = 0
 #setting:lecture hall
 label gd_scene1:
     scene bg meeting_1 with dissolve
+    play music "/Audio Dumpster/Waiting Music.mp3" fadeout 1.0 fadein 1.0 loop
     mc "(So he's the guy I bumped into earlier...)"
     show gd calm with dissolve
     gd "Oh yeah, one more thing. This first meeting may not be too exciting, but I promise you that there will be invaluable experiences to gain,many joyous moments to come, and new friends to share those moments with."
@@ -49,9 +50,11 @@ label gd_scene1:
     hide gd calm with dissolve
     mc "(So Ren knows him huh? Maybe I’ve met him before! Here’s my chance to ask!)"
     mc "HEY YOU!!"
+    stop music fadeout 1.0
     mc "(Wait... where did they go?)"
     mc "(Why did everyone turn their heads? Is there something interesting behind me?)"
     crowd "?..."
+    play music "/Audio Dumpster/Joke.mp3" fadeout 1.0 fadein 1.0 loop
     mc "(EHHH? WHY ARE THEY STARING AT ME?! WAS I THAT LOUD??)"
     mc "(I HAVE TO GET OUT OF HERE!!)"
     crowd "Who was that?"
@@ -65,6 +68,7 @@ label gd_scene1:
 #Setting: MC’s Apartment
 label gd_scene2:
     scene bg mc_apartment_inside with fade
+    play music "/Audio Dumpster/Game Lab.mp3" fadeout 1.0 fadein 1.0 loop
     mc "That was the most... EMBARRASSING MOMENT OF MY LIFE!!!"
     mc "That was so embarrassing. Everything felt so embarrassing!!"
     mc "Okay. Okay. Focus... I have to calm down and get work done. Get over it, let the past me worry about it."
@@ -110,7 +114,7 @@ label gd_scene2:
     "(*Beep Beep Beep*)"
     scene bg mc_apartment_inside with fade
     mc "OH SHOOT!! IT’S 8:15!"
-    mc "(I won’t make it to my 8 a.m class!! Damn... I forgot to set my alarm.)"
+    mc "(I won’t make it to my 8 a.m class!! Dang... I forgot to set my alarm.)"
     "Disappointed and sad, I slammed my head back into my pillow."
     return
 
@@ -118,6 +122,7 @@ label gd_scene2:
 #Setting: Anywhere on Campus
 label gd_scene3:
     scene bg studentcenter_2 with fade
+    play music "/Audio Dumpster/Food Court.mp3" fadeout 1.0 fadein 1.0 loop
     mc "(I missed my first class class today, but that’s okay. The notes are online so I should be fine.)"
     mc "(What terrible luck... Whatever, I should find a place to study now.)"
     mc "(Oh! I know where! Ren told me that Ayala Library is a great place to study and I haven’t been there yet either.)"
@@ -242,6 +247,7 @@ label gd_scene3:
     
     #park
     scene bg park_1 with dissolve
+    play music "/Audio Dumpster/Aldrich Park.mp3" fadeout 1.0 fadein 1.0 loop
     mc "(This park is amazing, there’s even a pond here! It’s so empty and quiet. Everyone must be too busy with school to have time to come here.)"
     mc "(The quietness of the park creates such a relaxing atmosphere compared to the liveliness on Ring Road...)"
     mc "(But sometimes I do prefer the solitude that quietness brings.)"
@@ -287,7 +293,7 @@ label gd_scene3:
             show gd serious with dissolve
             gd "Thunder..."
             gd "Hey, I guess we’ll have to postpone our game."
-            mc "(DAMN IT! Is it really going to rain. Cursed luck, I didn’t even bring an umbrella either.)"
+            mc "(DANG IT! Is it really going to rain. Cursed luck, I didn’t even bring an umbrella either.)"
             mc "(Actually, if I run, I might be able to make it back before the rain hits!)"
             mc "(What the?! It’s raining already! What a splendid day... It couldn’t get any worse.)"
             mc "(Something is covering me from the rain...)"
@@ -371,6 +377,7 @@ label gd_scene3:
             mc "You idiot... now you’re gonna be going home dripping wet."
             #Setting your apartment
             scene bg mc_apartment_inside with fade
+            stop music fadeout 1.0
             mc "(It’s so cold in here!! I need a warm bath so badly!)"
             mc "(I turn on the heater and headed for the showers.)"
             mc "What an eventful day today... "
@@ -386,6 +393,7 @@ label gd_scene3:
 label gd_scene4:
     scene bg meeting_1 with fade
     show gd calm with dissolve
+    play music "/Audio Dumpster/Game Lab.mp3" fadeout 1.0 fadein 1.0 loop
     gd "Alright everyone, today is the big day. Let's hear those pitches."
     "(*The crowd claps*)"
     mc "(Today is already pitch day... I hope I don’t choke up there.)"
@@ -418,7 +426,7 @@ label gd_scene4:
     mc "Hey, you shouldn’t sneak up on people like that!"
     gd "Long time no see."
     mc "Too scared to go to the park and get beaten?"
-    show gd happy with dissolve
+    show gd smile with dissolve
     gd "Don’t worry, I won’t lose to a stalker."
     mc "(Stalker!? Why you... no I shouldn’t fall for his taunts.)"
     menu gd_menu4:
@@ -444,6 +452,7 @@ label gd_scene4:
 label gd_scene5:      
     scene bg sslh with fade
     show ren calm with dissolve
+    play music "/Audio Dumpster/Waiting Music.mp3" fadeout 1.0 fadein 1.0 loop
     ren "Heya!"
     mc "Oh, Hi ren!"
     ren "Are you excited? We find out our team members today."
@@ -483,6 +492,7 @@ label gd_scene5:
 #Characters: MC and gd(Phone)
 label gd_scene6:
     scene bg black with fade
+    stop music fadeout 1.0
     mc "(I suddenly wake after hearing a message notification. It's 1 a.m!!)"
     scene bg mc_apartment_inside with dissolve
     show phone with dissolve
@@ -506,6 +516,7 @@ label gd_scene6:
     #Setting: gd’s apartment
     scene bg gd_apartment_inside with fade
     show gd calm with dissolve
+    play music "/Audio Dumpster/Waiting Music.mp3" fadeout 1.0 fadein 1.0 loop
     mc "So this is where the president lives huh?"
     gd "Yeah, it's pretty empty inside"
     mc "It's so clean..." 
@@ -549,8 +560,10 @@ label gd_scene6:
     gd "Oh, I made it."
     mc "You made that by yourself? I guess you have some skill after all."
     mc "(I stood up to get a better look at the costume, but as I stood up, the bottom of my shirt catches the sharp corner of the table.)"
-    mc "Damn it, my shirt... it ripped"
+    stop music fadeout 1.0
+    mc "Dang it, my shirt... it ripped"
     gd "Here, take off your shirt."
+    play music "/Audio Dumpster/Joke.mp3" fadeout 1.0 fadein 1.0 loop
     mc "WHAT?! HUH?! YOU PERVERT."
     show gd smile with dissolve
     gd "Here take this shirt, put it on, and give me your shirt, I won't look."
@@ -575,12 +588,15 @@ label gd_scene6:
     #Characters: gd, ren, MC
     #player’s apartment
     scene bg black with fade
+    stop music fadeout 1.0
     "(*Beep Beep Beep*)"
+    "The blaring sound of my alarm… I hate it."
     mc "(I shouldn’t have stayed up so late last night... I’m so tired now.)"
     mc "(Today is our VGDC group’s first meeting! I’m so nervous but excited at the same time. Leading a group is such a big task, hopefully I’ll be able to manage.)"
     mc "(I got up and got ready. Hmm I think I should dress a little nicer today...)"
     #Outside anywhere
     scene bg park_1 with dissolve
+    play music "/Audio Dumpster/Game Lab.mp3" fadeout 1.0 fadein 1.0 loop
     mc "(It’s almost time for the meeting... Thinking about it makes my stomach want to curl up.)"
     mc "(I’ll be fine! Let’s go in.)"
     #inside meeting place
@@ -625,6 +641,7 @@ label gd_scene6:
     mc "Sorry Ren, maybe next time! I have something that I have to do."
     ren "I see. No worries! You’re welcome to come if by if you change your mind!"
     mc "Thank you."
+    stop music fadeout 1.0
     mc "(Boy am I tired. I feel like I’m gonna...)"
     ren "Hey! Can you hear me??"
     mc "(Is that ren? Why do I feel so light-headed)"
@@ -648,6 +665,7 @@ label gd_scene6:
     ren "Oh that? Don’t worry about it, he’ll understand. Rest up, I’ll cook you dinner tonight."
     mc "(Ren...)"
     mc "(Why do you do this... for me?)"
+    play music "/Audio Dumpster/Waiting Music.mp3" fadeout 1.0 fadein 1.0 loop
     ren "Okay, the food is ready, let’s eat!"
     ren "Come on you lazy pig, get up."
     mc "Hey wait! Hey that tickles!"
@@ -664,6 +682,7 @@ label gd_scene6:
     #Setting: apartment
     #player’s apartment
     scene bg mc_apartment_inside with fade
+    play music "/Audio Dumpster/Game Lab.mp3" fadeout 1.0 fadein 1.0 loop
     ren "Hey! Wake up! I’m here to cook you breakfast!"
     mc "(It’s 8 a.m and she’s already here knocking at my door....)"
     show ren calm with dissolve
@@ -708,6 +727,7 @@ label gd_scene6:
     mc "Thank you, Ren."
     #--black--
     scene bg black with fade
+    stop music fadeout 1.0
     "Ren left. The place feels a bit empty again. I guess humans are social animals… it does suck feeling lonely."
     "I guess ren is right. You’re enjoying their company so much that when they leave, you just can’t help but get a little sad."
     "Our group’s last meeting is coming up… We finished the project and it’s works amazingly thanks to everyone’s hard work."
@@ -716,17 +736,20 @@ label gd_scene6:
     #Last Club Meeting
     #setting: apartment
     scene bg mc_apartment_inside with fade
+    play music "/Audio Dumpster/Piano Solo 1.mp3" fadeout 1.0 fadein 1.0 loop
     mc "The last meeting… I can’t believe it’s been a whole quarter already. Everyone worked so hard and the game came out nicely."
-    mc "I hope they’ll enjoy my cooking. I mean, why wouldn’t they? I’m a pretty damn good chef. Jeorge Dan seemed to enjoy it the last time I cooked for him..."
+    mc "I hope they’ll enjoy my cooking. I mean, why wouldn’t they? I’m a pretty dang good chef. Jeorge Dan seemed to enjoy it the last time I cooked for him..."
     #setting: outside/lobby
     scene bg dbh_inside with dissolve
     "As I walk towards the room, I start to get that indescribable feeling… the feeling that you get when you know that a story is coming to an end." 
     "I mean, it’s a good ending… but this might be the last time I’ll really get to be this close to everyone."
     "Then everyone will be going off to another group or doing their own thing next quarter. I know that we will all keep in touch, but we won’t be as close as we are now."
+    stop music fadeout 1.0
     #Enters the room
     #scene bg gameroom with dissolve
     "Well, that’s part of the journey I guess. Let’s enjoy this last moment…"
     show gd calm with dissolve
+    play music "/Audio Dumpster/Joke.mp3" fadeout 1.0 fadein 1.0 loop
     mc "WHY ARE YOU THE ONLY ONE HERE??"
     mc "Where’s everyone else??"
     gd "Didn’t you see the group chat?"
@@ -821,6 +844,7 @@ label gd_scene6:
             mc "Sorry, I got a bit distracted. Thank you very much for the gift…"
             mc "Okay! Sit down and relax. I’m going to make food for you to repay you for the meal at the start of the year."
             gd "This is rare so I guess I’ll accept your offer."
+            stop music fadeout 1.0
             "I looked at him in the eyes and he gently smiles back. As the night went on we talked to each other endlessly as we ate. I was getting to know him more and… it was nice."
             gd "That was really good. Thank you for the meal."
             mc "No worries."
@@ -844,6 +868,7 @@ label gd_scene6:
     #Setting: Park
     scene bg park_1 with fade
     show gd calm with dissolve
+    play music "/Audio Dumpster/Somber Music.mp3" fadeout 1.0 fadein 1.0 loop
     gd "Are you ready to lose? You start."
     "He passes the ball to me."
     mc "You’re gonna eat those words."
@@ -914,6 +939,7 @@ label gd_scene6:
     "Just like then… quiet but comforting. I couldn’t help but to smile as I rest my head onto his shoulders."
     #--black-- 
     with fade
+    stop music fadeout 1.0
     "Suddenly, a black car stops in front of us, blocking us from moving forward."
     "A man around my dad’s age came out of the car. Exiting the passenger side was a woman... "
     show gd calm:
@@ -941,6 +967,7 @@ label gd_scene6:
     #Setting: MC apartment
     scene bg mc_apartment_inside with fade
     show ren calm with dissolve
+    play music "/Audio Dumpster/Somber Music.mp3" fadeout 1.0 fadein 1.0 loop
     ren "How’s your foot? Here let me get you some ice."
     mc "I’m okay, thank you Ren."
     ren "You’re probably wondering who that guy was. You probably guessed it though… he’s our father."
@@ -1006,10 +1033,12 @@ label gd_scene6:
     "As Ren sat beside me. I started to slowly fall asleep. I looked at her and she too was slowly falling asleep."
     #--black-
     scene bg black with fade
+    stop music fadeout 1.0
     "Everything’s so dark… am I in a dream? From a distance I can see someone… it’s him! He has his back turned though. I can’t see his face. But it’s him for sure."
     mc "Hey... Jeorge Dan!"
     #Setting: Inside MC apartment
     scene bg mc_apartment_inside with fade
+    play music "/Audio Dumpster/Somber Music.mp3" fadeout 1.0 fadein 1.0 loop
     "Suddenly, I woke up with Ren laying on my lap."
     mc "She must’ve fallen asleep."
     "I grabbed a few blankets and placed it over her."
@@ -1066,6 +1095,7 @@ label gd_scene6:
             show gd calm with dissolve
             #end of option
     "He turned around and took a few steps forward."
+    stop music fadeout 1.0
     gd "Hey, thanks for everything… and tell your dad I said hi."
     mc "Huh?? Do you know my dad?! Hey wait up!"
     hide gd calm with dissolve
@@ -1080,6 +1110,7 @@ label gd_scene6:
     "I was shook, I didn’t actually believe it. There’s no way…"
     mc "Remember the guy I told you about, the one that I thought I had met before. Yeah that’s him."
     dad "Oh I see… You did meet him before though."
+    play music "/Audio Dumpster/Joke.mp3" fadeout 1.0 fadein 1.0 loop
     mc "I DID!?!"
     dad "Yeah, I brought him over for dinner a few years ago. You cooked the family dinner but you had a meeting to go to so you dashed out and left before actually meeting him."
     dad "You guys crossed paths at the front door, but I don’t think you noticed him."
@@ -1101,6 +1132,7 @@ label gd_scene6:
     #setting: inside player’s apartment
     scene bg mc_apartment_inside with fade
     show ren calm with dissolve
+    stop music fadeout 1.0
     mc "Good morning Ren."
     ren "Oi… how long did I sleep for? That sleep was actually super comforting."
     mc "Yeah you knocked out pretty early."
@@ -1116,6 +1148,7 @@ label gd_scene6:
     hide ren with dissolve
     "Ren went into the the kitchen and answered the call. Suddenly, I heard Ren dropping her phone. She came jolting towards me as if she was chased by a cougar."
     show ren calm with hpunch
+    play music "/Audio Dumpster/Tension.mp3" fadeout 1.0 fadein 1.0 loop
     ren "I’m heading to the hospital now!"
     mc "Did something happen!?"
     ren "My mom just woke up!!"
@@ -1129,6 +1162,7 @@ label gd_scene6:
 
     #Setting: outsid
     scene bg gd_apartment_outside with fade
+    play music "/Audio Dumpster/Melancholy.mp3" fadeout 1.0 fadein 1.0 loop
     mc "Don’t leave yet…"
     "As I ran the pain on my foot started to get worse. I wanted to cry. I don’t want him to leave. Not now!"
     mc "Jeorge Dan are you there?! Please…"
@@ -1161,7 +1195,9 @@ label gd_bad_end:
     mc "I blew all my chances hahaha…"
     "I sat there in the rain, alone."
     scene bg black with fade
-    return
+    ".:. Bad Ending."
+    $ MainMenu(confirm=False)()
+    #return
 
 label gd_good_end:
     #Good:
@@ -1178,5 +1214,6 @@ label gd_good_end:
     show gd smile with dissolve
     gd "Let’s meet her, together."
     scene bg black with fade
+    ".:. Good Ending."
     return
     # END SCENE 6
