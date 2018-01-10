@@ -57,19 +57,9 @@ label start:
     stop music fadeout 1.0      # Stop music from menu in case it has not been stopped
     scene bg black              # Default to black scene in case of missing background
     
-    # TESTING
-    #call test_md_2
-    #call test_werecat
-    #call kd_route
-    #call end_scene
-    #call test_moon
-    #call test_time
-    #call test_monologue
-    #call test_effects
-    #call test_transitions
-    #call test_image_effects
-    # END TESTING
-    
+    scene bg disclaimer with fade
+    with Pause(5.0)
+    scene bg black with fade
     # INTRODUCTION / PRE-PROLOGUE
     call get_name from _call_get_name               # Get main character name
     call get_gender from _call_get_gender             # Get main character gender
