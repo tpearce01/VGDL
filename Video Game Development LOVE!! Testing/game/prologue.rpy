@@ -7,6 +7,9 @@ label prologue_scene1:
     # !! Need to fadeout music before playing the next audio track
     ## END SCENE AUDIO ##
     scene bg black with fade
+    "This is a work of fiction. Names, characters, businesses, places, events and incidents are either the products of the author's imagination or used in a fictitious manner."
+    "Any resemblance to actual persons, living or dead, or actual events is purely coincidental."
+    pause 5.0
     "My name is [mcname]."
     "I'd consider myself a pretty good student. I attend class, get good grades, and ended the semester with an admirable GPA."
     "Though I wasn't entirely confident about it, I genuinely thought I had a shot at getting accepted into my dream school, UCLA."
@@ -55,7 +58,7 @@ label prologue_scene1:
     "Letting out a little laugh, Alex let go of my arm and took out his phone, grooming his hair as he stared at his reflection."
     "Once he was satisfied, the corners of his lips pulled into charming smile, and he strode to his target."
     hide ax calm with dissolve
-    mc "(Finally...)" 
+    mc "(Finally...)"
     "I wrapped my hand around my arm, now free from the philanderer's grasp, and glanced around Aldrich Park."
     "Today was the Involvement Fair, so the area was filled with booths and students."
     mc "(Can't say this is my kind of scene.)"
@@ -116,7 +119,7 @@ label prologue_scene2:
         linear 0.5 xalign 0.5
     "Before I got to voice my thoughts, the girl named Yukiko ran away, leaving me with this Kendrick guy."
     "He clicked his tongue."
-    kd "How unprofessional." 
+    kd "How unprofessional."
     mc "..."
     mc "\"Umm...\""
     kd "..."
@@ -126,7 +129,7 @@ label prologue_scene2:
     show kd thinking with dissolve
     "He looked away for a moment, probably contemplating something. But soon after, he sighed and walked around the table, making his way towards me."
     kd "I'm afraid not. I have a duty, and I am expected to fulfill it."
-    "I couldn't help but let out a sigh." 
+    "I couldn't help but let out a sigh."
     kd "... Seeing as you're less than enthusiastic about this, I suppose there's no point in asking you what you'd like to know."
     kd "Please, bear with me while I go over the activities and goals of this club. I'll try to keep it short."
     mc "\"Alright... Fine by me, I guess.\""
@@ -157,12 +160,12 @@ label prologue_scene2:
     mc "(That suit is seriously overkill for a casual involvement fair, though...)"
     return
 # END PROLOGUE SCENE2
-    
+
 # PROLOGUE SCENE3
 label prologue_scene3:
     #--Student Center--
     scene bg black with fade
-    "--A few days later--" 
+    "--A few days later--"
     scene bg studentcenter with dissolve
     play music "/Audio Dumpster/Game Lab.mp3" fadeout 1.0 fadein 1.0 loop
     mc "..."
@@ -177,7 +180,7 @@ label prologue_scene3:
     "Making up my mind, I picked my book up from the table and made my way towards the game room."
     return
 # END PROLOGUE SCENE3
-         
+
  # PROLOGUE SCENE4
 label prologue_scene4:
     scene bg park_1 with fade
@@ -215,11 +218,11 @@ label prologue_scene4:
     mc "\"Oh.\""
     mc "Oh shoot-!"
     mc "(Right, I had somewhere to go!)"
-    "I hurriedly picked up my phone and got up." 
+    "I hurriedly picked up my phone and got up."
     "After brushing myself off for good measure, I went on my way."
     return
 # END PROLOGUE SCENE4
-    
+
 # PROLOGUE SCENE5
 label prologue_scene5:
     #--Skip to DB lobby--
@@ -230,7 +233,7 @@ label prologue_scene5:
     "I set off for the club meeting room, and turned a corner."
     "To my left, there was a huge window that looked into the game room."
     mc "\"Hmm..?\""
-    "Through the window, I saw a bunch of people sitting down. But, they were all turned toward something." 
+    "Through the window, I saw a bunch of people sitting down. But, they were all turned toward something."
     "I could see that they all had an angry expression on their face."
     mc "(Are they... staring at the door-?)"
     mc "!!"
@@ -364,7 +367,7 @@ label prologue_scene8:
     mc "\"Weirdo.\""
     return
 # END PROLOGUE SCENE8
-    
+
 # PROLOGUE SCENE9
 label prologue_scene9:
     #--Meeting room--
@@ -397,7 +400,7 @@ label prologue_scene9:
     "Though... that may have just been me."
     return
 # END PROLOGUE SCENE9
-    
+
 # PROLOGUE SCENE10
 label prologue_scene10:
     #--back to hall--
@@ -425,7 +428,7 @@ label prologue_scene10:
     show ax calm with dissolve
     ax "Heya! Name's Alexander, the design officer."
     ax "Probably not the most well known or popular department, sure. But that doesn't make it any less amazing."
-    ax "If you're even the slightest bit curious about what it is I do, come talk to me." 
+    ax "If you're even the slightest bit curious about what it is I do, come talk to me."
     ax "And to the girls out there, trust me, I'll make it worth your time~"
     "I could hear some girls nearby giggle."
     hide ax calm with dissolve
