@@ -18,9 +18,13 @@ define crowd = Character("Crowd")       # Crowd of people
 define team = Character("Team")         # Projet team
 define dad = Character("Dad")           # MC's Dad
 define nm = Character("Naomi")          # Alex's Friend
+#<<<<<<< HEAD
+#define su = Character("Supervisor")
+#=======
 define su = Character("Supervisor")     # Supervisor from Yukiko route
+#>>>>>>> master
 
-# Main Character 
+# Main Character
 define mc = Character("[mcname]")       # Main Character / Protagonist
 
 # TEST VARS
@@ -56,7 +60,7 @@ define ax_affection = 0     # Alexander affection
 label start:
     stop music fadeout 1.0      # Stop music from menu in case it has not been stopped
     scene bg black              # Default to black scene in case of missing background
-    
+
     # TESTING
     #call test_md_2
     #call test_werecat
@@ -69,14 +73,19 @@ label start:
     #call test_transitions
     #call test_image_effects
     # END TESTING
-    
+
     # INTRODUCTION / PRE-PROLOGUE
     call get_name from _call_get_name               # Get main character name
     call get_gender from _call_get_gender             # Get main character gender
 
     # CORE ROUTE
+<<<<<<< HEAD
+    call prologue
+
+=======
     call prologue from _call_prologue
     
+>>>>>>> master
     # Credits
     call end_scene from _call_end_scene              # Credits Scene
 
@@ -87,6 +96,18 @@ label start:
 ## ROUTE CONTROL ##
 # PROLOGUE
 label prologue:
+<<<<<<< HEAD
+    call prologue_scene1        # PROLOGUE SCENE 1
+    call prologue_scene2        # PROLOGUE SCENE 2
+    call prologue_scene3        # PROLOGUE SCENE 3
+    call prologue_scene4        # PROLOGUE SCENE 4
+    call prologue_scene5        # PROLOGUE SCENE 5
+    call prologue_scene6        # PROLOGUE SCENE 6
+    call prologue_scene7        # PROLOGUE SCENE 7
+    call prologue_scene8        # PROLOGUE SCENE 8
+    call prologue_scene9        # PROLOGUE SCENE 9
+    call prologue_scene10       # PROLOGUE SCENE 10
+=======
     call prologue_scene1 from _call_prologue_scene1        # PROLOGUE SCENE 1
     call prologue_scene2 from _call_prologue_scene2        # PROLOGUE SCENE 2
     call prologue_scene3 from _call_prologue_scene3        # PROLOGUE SCENE 3      
@@ -97,6 +118,7 @@ label prologue:
     call prologue_scene8 from _call_prologue_scene8        # PROLOGUE SCENE 8
     call prologue_scene9 from _call_prologue_scene9        # PROLOGUE SCENE 9
     call prologue_scene10 from _call_prologue_scene10       # PROLOGUE SCENE 10
+>>>>>>> master
     return
 # END PROLOGUE
 
@@ -137,7 +159,7 @@ label re_route:
     return
 # END REINA
 
-# KENDRICK 
+# KENDRICK
 label kd_route:
     #"Placeholder Kendrick route"
     call kd_scene1 from _call_kd_scene1
@@ -145,7 +167,7 @@ label kd_route:
     return
 # END KENDRIK
 ## END ROUTE CONTROL ##
-    
+
 ## NON-ROUTE SCENES ##
 
 # GET MCNAME
@@ -163,7 +185,7 @@ label get_name:
 label get_gender:
     menu gender:
         "What is your gender?"
-        
+
         "Male":
             # Gender defaults to male - no change needed. Adding statement to satisfy renpy menu syntax
             $ gender = "m"
@@ -185,12 +207,12 @@ label get_gender:
                 their = "their"
                 their_c = "Their"
                 them = "them"
-                
+
     return
 # END GET GENDER
 ## END NON ROUTE SCENES ##
-    
-    
+
+
 ## INIT ##
 # VARIABLES DEFINED HERE WILL NOT BE SAVED BETWEEN RUNTIME
 init:
@@ -200,24 +222,24 @@ init:
     define day = 0
     define is_werecat = False
     image gd calm = "gd calm.png"
-    
+
     # ANIMATIONS
     define anim_speed = .08
     image anim = Animation("1.png", anim_speed, "2.png", anim_speed, "3.png", anim_speed, "4.png", anim_speed, "5.png", anim_speed, "6.png", anim_speed, "7.png", anim_speed, "8.png", anim_speed)
     image sparkle_anim = Animation("sparkle1.gif", anim_speed, "sparkle2.gif", anim_speed, "sparkle3.gif", anim_speed, "sparkle4.gif", anim_speed)
-    
+
 init python:
     config.font_replacement_map["DejaVuSans.ttf", False, True] = ("Comfortaa-Regular.ttf", False, False)
     # MODULE IMPORTS
     import time
-    
+
     # FUNCTION get_time - GET CURRENT SYSTEM TIME
     def get_time():
         global year
         global month
         global day
         year, month, day, hour, minute, second, dow, doy, dst = time.localtime()
-        
+
     # FUNCTION is_fullmoon - DETERMINE IF GEORGE DAN IS A CAT
     # Original code by bumsfield (https://www.daniweb.com/programming/software-development/code/216727/moon-phase-calculator#post968407)
     # Modified by Tyler Pearce
@@ -225,7 +247,7 @@ init python:
         global is_werecat
         ages = [18, 0, 11, 22, 3, 14, 25, 6, 17, 28, 9, 20, 1, 12, 23, 4, 15, 26, 7]
         offsets = [-1, 1, 0, 1, 2, 3, 4, 5, 7, 7, 9, 9]
-        
+
         if day == 31:
             day = 1
         days_into_phase = ((ages[(year + 1) % 19] + ((day + offsets[month-1]) % 30) + (year < 1900)) % 30)
@@ -234,10 +256,10 @@ init python:
         if index == 4:
             is_werecat = True
             return True
-        is_werecat = False 
+        is_werecat = False
         return False
 
-    
+
     # FUNCTION set_route - SET ROUTE STRING BASED ON AFFECTION
     def set_route():
         global max_affection
@@ -260,13 +282,18 @@ init python:
         if ax_affection > max_affection:
             route = "alexander"
             max_affection = ax_affection
-    
+
     # AUDIO
+<<<<<<< HEAD
+    renpy.music.set_volume(0.25, 0, channel="music")
+
+=======
     #renpy.music.set_volume(0.25, 0, channel="music")
     
+>>>>>>> master
     # EFFECTS
     flash = Fade(0.25, 0, 0.75, color="#fff")
-    
+
     # INIT - SETTING VARIABLES EVERY TIME THE GAME IS RUN
     #image gd calm = ("gd calm.png")
     #get_time()
@@ -282,4 +309,3 @@ init:
         image gd sad = "gd sad_ears.png"
         image gd serious = "gd serious_ears.png"
         image gd smile = "gd smile_ears.png"
-        
