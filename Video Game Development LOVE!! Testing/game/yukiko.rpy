@@ -1535,7 +1535,7 @@ label yu_scene1:
                 su "They needed senior level employees who speak good English to run things around here."
                 scene yu_end_2 with dissolve
                 su "Naturally, I fit the bill quite well."
-                "The scene before me feels so surreal that I'm at a complete loss for words, so I just say what's on my mind."
+                "I've been staring at her this whole time, yet the scene before me feels so surreal that I'm almost at a complete loss for words."
                 mc "Welcome back."
                 scene yu_end_3 with dissolve
                 yu "It's good to be home."
