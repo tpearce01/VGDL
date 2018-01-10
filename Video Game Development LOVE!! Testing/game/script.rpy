@@ -59,7 +59,6 @@ define ax_affection = 0     # Alexander affection
 # MAIN GAME LOOP
 label start:
     stop music fadeout 1.0      # Stop music from menu in case it has not been stopped
-    #queue music "insert_song_name.ogg" loop    # Template for queueing music
     scene bg black              # Default to black scene in case of missing background
 
     # TESTING
@@ -76,14 +75,19 @@ label start:
     # END TESTING
 
     # INTRODUCTION / PRE-PROLOGUE
-    call get_name               # Get main character name
-    call get_gender             # Get main character gender
+    call get_name from _call_get_name               # Get main character name
+    call get_gender from _call_get_gender             # Get main character gender
 
     # CORE ROUTE
+<<<<<<< HEAD
     call prologue
 
+=======
+    call prologue from _call_prologue
+    
+>>>>>>> master
     # Credits
-    call end_scene              # Credits Scene
+    call end_scene from _call_end_scene              # Credits Scene
 
     # This ends the game.
     return
@@ -92,6 +96,7 @@ label start:
 ## ROUTE CONTROL ##
 # PROLOGUE
 label prologue:
+<<<<<<< HEAD
     call prologue_scene1        # PROLOGUE SCENE 1
     call prologue_scene2        # PROLOGUE SCENE 2
     call prologue_scene3        # PROLOGUE SCENE 3
@@ -102,51 +107,63 @@ label prologue:
     call prologue_scene8        # PROLOGUE SCENE 8
     call prologue_scene9        # PROLOGUE SCENE 9
     call prologue_scene10       # PROLOGUE SCENE 10
+=======
+    call prologue_scene1 from _call_prologue_scene1        # PROLOGUE SCENE 1
+    call prologue_scene2 from _call_prologue_scene2        # PROLOGUE SCENE 2
+    call prologue_scene3 from _call_prologue_scene3        # PROLOGUE SCENE 3      
+    call prologue_scene4 from _call_prologue_scene4        # PROLOGUE SCENE 4
+    call prologue_scene5 from _call_prologue_scene5        # PROLOGUE SCENE 5
+    call prologue_scene6 from _call_prologue_scene6        # PROLOGUE SCENE 6
+    call prologue_scene7 from _call_prologue_scene7        # PROLOGUE SCENE 7
+    call prologue_scene8 from _call_prologue_scene8        # PROLOGUE SCENE 8
+    call prologue_scene9 from _call_prologue_scene9        # PROLOGUE SCENE 9
+    call prologue_scene10 from _call_prologue_scene10       # PROLOGUE SCENE 10
+>>>>>>> master
     return
 # END PROLOGUE
 
 # GEORGE DAN
 label gd_route:
-    call gd_scene1              # GEORGE DAN SCENE 1
-    call gd_scene2              # GEORGE DAN SCENE 2
-    call gd_scene3
-    call gd_scene4
-    call gd_scene5
-    call gd_scene6
+    call gd_scene1 from _call_gd_scene1              # GEORGE DAN SCENE 1
+    call gd_scene2 from _call_gd_scene2              # GEORGE DAN SCENE 2
+    call gd_scene3 from _call_gd_scene3
+    call gd_scene4 from _call_gd_scene4
+    call gd_scene5 from _call_gd_scene5
+    call gd_scene6 from _call_gd_scene6
     return
 # END GEORGE DAN
 
 # ALEX
 label alex_route:
-    call alex_scene1            # ALEX SCENE 1
+    call alex_scene1 from _call_alex_scene1            # ALEX SCENE 1
     return
 # END ALEX
 
 # MELODY
 label melody_route:
-    call melody_scene1          # MELODY SCENE 1
+    call melody_scene1 from _call_melody_scene1          # MELODY SCENE 1
     return
 #END MELODY
 
 # YUKIKO
 label yu_route:
-    call yu_scene1
+    call yu_scene1 from _call_yu_scene1
     return
 # END YUKIKO
 
 # REINA
 label re_route:
     #"Placeholder Reina Route"
-    call re_scene1
-    call re_scene2
+    call re_scene1 from _call_re_scene1
+    call re_scene2 from _call_re_scene2
     return
 # END REINA
 
 # KENDRICK
 label kd_route:
     #"Placeholder Kendrick route"
-    call kd_scene1
-    call kd_scene2
+    call kd_scene1 from _call_kd_scene1
+    call kd_scene2 from _call_kd_scene2
     return
 # END KENDRIK
 ## END ROUTE CONTROL ##
@@ -267,8 +284,13 @@ init python:
             max_affection = ax_affection
 
     # AUDIO
+<<<<<<< HEAD
     renpy.music.set_volume(0.25, 0, channel="music")
 
+=======
+    #renpy.music.set_volume(0.25, 0, channel="music")
+    
+>>>>>>> master
     # EFFECTS
     flash = Fade(0.25, 0, 0.75, color="#fff")
 

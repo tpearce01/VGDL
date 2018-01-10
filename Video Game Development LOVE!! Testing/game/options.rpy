@@ -4,6 +4,8 @@
 ## them. Lines beginning with a single '#' mark are commented-out code, and you
 ## may want to uncomment them when appropriate.
 
+define config.default_music_volume = 0.5
+define config.default_sfx_volume = 0.5
 
 ## Basics ######################################################################
 
@@ -36,7 +38,7 @@ define gui.about = _("")
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "VideoGameDevelopmentLOVETesting"
+define build.name = "Video_Game_Development_LOVE!!_Demo"
 
 
 ## Sounds and music ############################################################
@@ -46,7 +48,7 @@ define build.name = "VideoGameDevelopmentLOVETesting"
 
 define config.has_sound = True
 define config.has_music = True
-define config.has_voice = True
+define config.has_voice = False
 
 
 ## To allow the user to play a test sound on the sound or voice channel,

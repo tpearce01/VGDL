@@ -4,6 +4,7 @@ define ax_affection = 0
 label alex_scene1:
     #Scene 1 - Food Court
     scene bg foodcourt with fade
+    play music "/Audio Dumpster/Food Court.mp3" fadeout 1.0 fadein 1.0 loop
     "I hadn’t talked to Alex since finding out that he was a design officer in the VGDC."
     "I had so many questions."
     "I managed to meet up with him in the food court the next day."
@@ -74,6 +75,7 @@ label alex_scene1:
 
     #Scene 2 - Starbucks Student Center
     scene bg black with fade
+    play music "/Audio Dumpster/Waiting Music.mp3" fadeout 1.0 fadein 1.0 loop
     "We met up the next day to discuss the pitch."
     scene bg sturbacks with dissolve
     show ax calm with dissolve
@@ -82,12 +84,14 @@ label alex_scene1:
     ax "So kind of like Hatoful Boyfriend?"
     mc "Yeah! But with cats."
     ax "Sounds weird, but its got cats, so…"
+    stop music fadeout 1.0
     "Before Alex could continue, a girl in a demin jacket walked up to our table."
     show ax calm:
         linear 0.4 xalign 0.2
     show nm at right with dissolve
     show nm:
         linear 0.4 xalign 0.8
+    play music "/Audio Dumpster/Tension.mp3" fadeout 1.0 fadein 1.0 loop
     nm "Alex."
     ax "Naomi."
     nm "Who’s this?"
@@ -144,7 +148,9 @@ label alex_scene1:
     show ax calm with dissolve
     show ax calm:
         linear 0.5 xalign 0.5
+    stop music fadeout 1.0
     "Naomi left, and I sat there baffled."
+    play music "/Audio Dumpster/Waiting Music.mp3" fadeout 1.0 fadein 1.0 loop
     mc "Everyone's talking about it?"
     ax "Don't worry. She's just trying to psyche you out."
     mc "If you say so."
@@ -180,6 +186,7 @@ label alex_scene1:
 
     #Scene 3 - Food Court
     scene bg black with fade
+    play music "/Audio Dumpster/Food Court.mp3" fadeout 1.0 fadein 1.0 loop
     "The conversation with Naomi yesterday made me realize that I didn't really know a lot about the \"new\" Alex."
     "Growing up, he was kind of a quiet guy. He was always super friendly, though."
     "And also, he was into sports, not art."
@@ -229,6 +236,7 @@ label alex_scene1:
 
     #Scene 4 - SSLH
     scene bg meeting_1 with fade
+    play music "/Audio Dumpster/Game Lab.mp3" fadeout 1.0 fadein 1.0 loop
     "A week passed, and the most important club meeting of the quarter was near - the Pitch Meeting."
     "I’ve never been a huge fan of speaking in front of huge crowds."
     "But with Alex at my side, we could conquer anything."
@@ -311,6 +319,7 @@ label alex_scene1:
 
     #Scene 5 - Aldrich Park
     scene bg black with fade
+    play music "/Audio Dumpster/Aldrich Park.mp3" fadeout 1.0 fadein 1.0 loop
     "A couple days later, Alex and I finally had time to catch up in Aldrich Park."
     scene bg park_1 with dissolve
     show ax calm with dissolve
@@ -377,6 +386,7 @@ label alex_scene1:
 
     #Scene 6 - Food Court
     scene bg foodcourt_2 with fade
+    play music "/Audio Dumpster/Somber Music.mp3" fadeout 1.0 fadein 1.0 loop
     "I had gotten a text from Alex early in the morning."
     show ax calm with dissolve
     ax "I'm really glad you're here."
@@ -421,9 +431,11 @@ label alex_scene1:
             #Goes to CHOICE A ROUTE.
             jump ax_choiceA1
         "Wait a second...":
+            stop music fadeout 1.0
             #CHOICE B [Pos] - "Wait a second..."
             $ ax_affection = ax_affection + 1
             mc "I'm still not completely convinced, Alex."
+            play music "/Audio Dumpster/Joke.mp3" fadeout 1.0 fadein 1.0 loop
             ax "Y-yeah... okay. Y'know, I was just kidding."
             mc "It sure didn't look like it."
             show ax sad with dissolve
@@ -452,6 +464,7 @@ label ax_choiceA1:
     #CHOICE A ROUTE
     #[scene 1 - Aldrich Park]
     scene bg park_1 with fade
+    play music "/Audio Dumpster/Piano Solo 1.mp3" fadeout 1.0 fadein 1.0 loop
     "I had never been in a relationship until now."
     "Sure, there were crushes, but never anything serious."
     mc "(Now, though...)"
@@ -470,6 +483,7 @@ label ax_choiceA1:
     show nm at right with dissolve
     show nm:
         linear 0.4 xalign 0.8
+    play music "/Audio Dumpster/Tension.mp3" fadeout 1.0 fadein 1.0 loop
     nm "Wow. It's week four and you two are still together. That's a first for you, isn't it, Alex?"
     mc "(Ech...)"
     "It's been a week since we'd gotten together."
@@ -510,6 +524,7 @@ label ax_choiceA1:
 
     #[scene 2 - SC Starbucks]
     scene bg black with fade
+    play music "/Audio Dumpster/Food Court.mp3" fadeout 1.0 fadein 1.0 loop
     "Weeks passed, and we were so happy."
     "We did everything together. Just like old times."
     scene bg sturbacks with dissolve
@@ -535,6 +550,7 @@ label ax_choiceA1:
     mc "(I take that back.)"
     "I sighed. Naomi and Alex had gotten into a full blown conversation."
     "I meddled with his fingers and focused entirely on my phone the whole time."
+    stop music fadeout 1.0
     "When the conversation finally ended and Naomi was about to leave, I allowed myself to look up at her."
     show nm:
         linear 0.3 xalign 0.85
@@ -570,12 +586,14 @@ label ax_choiceA1:
     "He slung his bag over his shoulder. He looked as though he was about to leave right there and then."
     "But, he paused and looked at me."
     mc "Alex?"
+    play music "/Audio Dumpster/Bad Ending.mp3" fadeout 1.0 fadein 1.0 loop
     ax "..."
     ax "I'll see you around, [mcname]."
 
     #ENDING
     #[end- bad- Food Court]
     scene bg black with fade
+    play music "/Audio Dumpster/Tension.mp3" fadeout 1.0 fadein 1.0 loop
     "Our game was set to be completed in the following week."
     "Alex had stopped returning my texts. He didn't want to meet up for lunch..."
     "And then I found out the truth."
@@ -618,12 +636,16 @@ label ax_choiceA1:
     "I ended up all alone, and it hurt."
     "I tried to find a silver lining in the whole situation, but there wasn’t one."
     "There was nothing I could do. It was the death of the best friendship I’d ever had."
-    return
+    scene bg black with fade
+    ".:. Bad Ending."
+    $ MainMenu(confirm=False)()
+    #return
 
 label ax_choiceB1:
     #CHOICE B
     #[scene 1 - Aldrich Park]
     scene bg park_2 with fade
+    play music "/Audio Dumpster/Aldrich Park.mp3" fadeout 1.0 fadein 1.0 loop
     "A few days had passed since we 'broke up'."
     show ax calm with dissolve
     ax "Look, about the other day..."
@@ -636,7 +658,9 @@ label ax_choiceB1:
     show ax calm with dissolve
     ax "Anyways, about the game..."
     mc "Ugh, I know. It gonna be tight with only one full-time writer, but I think we'll be okay."
+    stop music fadeout 1.0
     ax "Yeah, about that..."
+    play music "/Audio Dumpster/Tension.mp3" fadeout 1.0 fadein 1.0 loop
     "Naomi approached us."
     show ax calm:
         linear 0.4 xalign 0.2
@@ -667,6 +691,7 @@ label ax_choiceB1:
     show ax blush:
         linear 0.4 xalign 0.5
     show ax calm with dissolve
+    stop music fadeout 1.0
     "Naomi didn't look happy, but she still left, and Alex and I were alone again."
     mc "Okay, it's later! What are you hiding from me?"
     ax "It's been forty-five seconds, if that."
@@ -727,6 +752,7 @@ label ax_choiceB1:
 
     #[scene 2 - SC Starbucks]
     scene bg black with fade
+    play music "/Audio Dumpster/Food Court.mp3" fadeout 1.0 fadein 1.0 loop
     "Our game was set to be completed in the following week."
     "We still hadn't found a replacement writer and were really struggling."
     scene bg sturbacks with dissolve
@@ -767,6 +793,7 @@ label ax_choiceB1:
 
     #[scene 3 - VGDC Lab in DBH]
     scene bg gameroom with fade
+    play music "/Audio Dumpster/Game Lab.mp3" fadeout 1.0 fadein 1.0 loop
     "Game testing day arrived, and I felt just as nervous as the day we had originally pitched the game."
     show ax calm with dissolve
     ax "Hey, breathe."
@@ -842,6 +869,7 @@ label ax_choiceB1:
 label ax_end_normal:
     #[end - normal - student center]
     scene bg black with fade
+    stop music fadeout 1.0
     "The rest of the quarter went on without a hitch."
     "Alex and I finished our game, and everything's been progressing nicely."
     "That is, aside from the awkward tension between me and Alex."
@@ -852,6 +880,7 @@ label ax_end_normal:
     "--phone buzz--"
     show phone with dissolve
     ax "'Hey, can we meet up at the food court?'"
+    play music "/Audio Dumpster/Somber Music.mp3" fadeout 1.0 fadein 1.0 loop
     mc "..."
     mc "'Sure. Be there in 5."
     "In my heart, I hoped Alex felt the same."
@@ -876,13 +905,17 @@ label ax_end_normal:
     "Looking back, the last few weeks had been a trainwreck, the worst of it being I'd lost the best friendship I’d ever had."
     "But I was still standing, and I had the chance to win my best friend back."
     "Things could only go up from here."
-    return
+    scene bg black with fade
+    ".:. Normal Ending."
+    $ MainMenu(confirm=False)()
+    #return
     
 label ax_end_good:
     #ENDING
     #[end- good- VDGC Lab in DBH]
     scene bg gameroom with fade
     show ax happy with dissolve
+    play music "/Audio Dumpster/Somber Music.mp3" fadeout 1.0 fadein 1.0 loop
     ax "Thanks for everything, [mcname]."
     mc "It's what friends do!"
     ax "Then I'm super lucky to have a friend like you."
@@ -904,4 +937,6 @@ label ax_end_good:
     mc "I love you. I'm sorry I didn't tell you a few weeks ago."
     show ax calm with dissolve
     ax "It's totally cool, [mcname]. I love you, too."
+    scene bg black with fade
+    ".:. Good Ending."
     return

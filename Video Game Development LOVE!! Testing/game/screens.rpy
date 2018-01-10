@@ -8,7 +8,7 @@ init offset = -1
 
 image logo = "VGDL_logo_nobackground.png"
 image title_image = "chibi.png"
-
+#$ renpy.music.set_volume(.5, 0, channel="sound")
 
 ################################################################################
 ## Styles
@@ -35,6 +35,7 @@ style gui_text:
 
 style button:
     properties gui.button_properties("button")
+    
 
 style button_text is gui_text:
     properties gui.text_properties("button")
@@ -256,14 +257,22 @@ screen quick_menu():
             xalign 0.5
             yalign 1.0
 
-            textbutton _("Back") action Rollback()
-            textbutton _("History") action ShowMenu('history')
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Auto") action Preference("auto-forward", "toggle")
-            textbutton _("Save") action ShowMenu('save')
-            textbutton _("Q.Save") action QuickSave()
-            textbutton _("Q.Load") action QuickLoad()
-            textbutton _("Option") action ShowMenu('preferences')
+            textbutton _("Back") action Rollback():
+                activate_sound "Audio Dumpster/Button Click.mp3"
+            textbutton _("History") action ShowMenu('history'):
+                activate_sound "Audio Dumpster/Button Click.mp3"
+            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True):
+                activate_sound "Audio Dumpster/Button Click.mp3"
+            textbutton _("Auto") action Preference("auto-forward", "toggle"):
+                activate_sound "Audio Dumpster/Button Click.mp3"
+            textbutton _("Save") action ShowMenu('save'):
+                activate_sound "Audio Dumpster/Button Click.mp3"
+            textbutton _("Q.Save") action QuickSave():
+                activate_sound "Audio Dumpster/Button Click.mp3"
+            textbutton _("Q.Load") action QuickLoad():
+                activate_sound "Audio Dumpster/Button Click.mp3"
+            textbutton _("Option") action ShowMenu('preferences'):
+                activate_sound "Audio Dumpster/Button Click.mp3"
 
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
@@ -295,7 +304,7 @@ style quick_button_text:
 screen navigation():
 
     image "images/logo.png" xpos 850 ypos 110
-    image "images/chibi.png" xpos 130 ypos 50
+    #image "images/chibi.png" xpos 130 ypos 50
 
     vbox:
         style_prefix "navigation"
@@ -308,36 +317,47 @@ screen navigation():
 
         if main_menu:
 
-            imagebutton auto "gui/mm_play_%s.png" xpos 930 ypos 110 focus_mask True action Start()
+            imagebutton auto "gui/mm_play_%s.png" xpos 930 ypos 110 focus_mask True action Start():
+                activate_sound "Audio Dumpster/Button Click.mp3"
             
-            imagebutton auto "gui/mm_load_%s.png" xpos 910 ypos 90 focus_mask True  action ShowMenu('load')
+            imagebutton auto "gui/mm_load_%s.png" xpos 910 ypos 90 focus_mask True  action ShowMenu('load'):
+                activate_sound "Audio Dumpster/Button Click.mp3"
             
-            imagebutton auto "gui/mm_options_%s.png" xpos 890 ypos 70 focus_mask True  action ShowMenu('preferences')
+            imagebutton auto "gui/mm_options_%s.png" xpos 890 ypos 70 focus_mask True  action ShowMenu('preferences'):
+                activate_sound "Audio Dumpster/Button Click.mp3"
             
-            imagebutton auto "gui/mm_extras_%s.png" xpos 895 ypos 50 focus_mask True action ShowMenu('help')
+            imagebutton auto "gui/mm_extras_%s.png" xpos 895 ypos 50 focus_mask True action ShowMenu('help'):
+                activate_sound "Audio Dumpster/Button Click.mp3"
             
-            imagebutton auto "gui/mm_exit_%s.png" xpos 900 ypos 100 focus_mask True action Quit(confirm= not main_menu)
+            imagebutton auto "gui/mm_exit_%s.png" xpos 900 ypos 100 focus_mask True action Quit(confirm= not main_menu):
+                activate_sound "Audio Dumpster/Button Click.mp3"
 
         else:
 
-            textbutton _("History") action ShowMenu("history")
+            textbutton _("History") action ShowMenu("history"):
+                activate_sound "Audio Dumpster/Button Click.mp3"
 
-            textbutton _("Save") action ShowMenu("save")
+            textbutton _("Save") action ShowMenu("save"):
+                activate_sound "Audio Dumpster/Button Click.mp3"
 
         
 
 
         if _in_replay:
 
-            textbutton _("End Replay") action EndReplay(confirm=True)
+            textbutton _("End Replay") action EndReplay(confirm=True):
+                activate_sound "Audio Dumpster/Button Click.mp3"
 
         elif not main_menu:
 
-            textbutton _("Main Menu") action MainMenu()
+            textbutton _("Main Menu") action MainMenu():
+                activate_sound "Audio Dumpster/Button Click.mp3"
             
-            textbutton _("Load") action ShowMenu ("Load")
+            textbutton _("Load") action ShowMenu ("Load"):
+                activate_sound "Audio Dumpster/Button Click.mp3"
             
-            textbutton _("Options") action ShowMenu("preferences")
+            textbutton _("Options") action ShowMenu("preferences"):
+                activate_sound "Audio Dumpster/Button Click.mp3"
 
         #textbutton _("About") action ShowMenu("about")
 
@@ -379,35 +399,44 @@ screen navigation2():
 
         if main_menu:
 
-            textbutton _("Start") action Start()
+            textbutton _("Start") action Start():
+                activate_sound "Audio Dumpster/Button Click.mp3"
 
         else:
 
-            textbutton _("History") action ShowMenu("history")
+            textbutton _("History") action ShowMenu("history"):
+                activate_sound "Audio Dumpster/Button Click.mp3"
 
-            textbutton _("Save") action ShowMenu("save")
+            textbutton _("Save") action ShowMenu("save"):
+                activate_sound "Audio Dumpster/Button Click.mp3"
 
-        textbutton _("Load") action ShowMenu("load")
+        textbutton _("Load") action ShowMenu("load"):
+                activate_sound "Audio Dumpster/Button Click.mp3"
 
-        textbutton _("Options") action ShowMenu("preferences")
+        textbutton _("Options") action ShowMenu("preferences"):
+                activate_sound "Audio Dumpster/Button Click.mp3"
 
         if _in_replay:
 
-            textbutton _("End Replay") action EndReplay(confirm=True)
+            textbutton _("End Replay") action EndReplay(confirm=True):
+                activate_sound "Audio Dumpster/Button Click.mp3"
 
         elif not main_menu:
 
-            textbutton _("Main Menu") action MainMenu()
+            textbutton _("Main Menu") action MainMenu():
+                activate_sound "Audio Dumpster/Button Click.mp3"
 
         #textbutton _("About") action ShowMenu("about")
 
         if renpy.variant("pc"):
 
             ## Help isn't necessary or relevant to mobile devices.
-            textbutton _("Help") action ShowMenu("help")
+            textbutton _("Help") action ShowMenu("help"):
+                activate_sound "Audio Dumpster/Button Click.mp3"
 
             ## The quit button is banned on iOS and unnecessary on Android.
-            textbutton _("Quit") action Quit(confirm=not main_menu)
+            textbutton _("Quit") action Quit(confirm=not main_menu):
+                activate_sound "Audio Dumpster/Button Click.mp3"
 
 
 style navigation_button is gui_button
@@ -452,8 +481,6 @@ screen main_menu():
 
             text "[config.version]":
                 style "main_menu_version"
-    python:
-        renpy.music.set_volume(0.35, 0, channel="music")
 
 style main_menu_frame is empty
 style main_menu_vbox is vbox
@@ -549,13 +576,15 @@ screen game_menu(title, scroll=None):
 
     textbutton _("Return"):
         style "return_button"
+        activate_sound "Audio Dumpster/Button Click.mp3"
 
         action Return()
 
     label title
 
     if main_menu:
-        key "game_menu" action ShowMenu("main_menu")
+        key "game_menu" action ShowMenu("main_menu"):
+                activate_sound "Audio Dumpster/Button Click.mp3"
 
 
 style game_menu_outer_frame is empty
@@ -732,19 +761,24 @@ screen file_slots(title):
 
                 spacing gui.page_spacing
 
-                textbutton _("<") action FilePagePrevious()
+                textbutton _("<") action FilePagePrevious():
+                    activate_sound "Audio Dumpster/Button Click.mp3"
 
                 if config.has_autosave:
-                    textbutton _("{#auto_page}A") action FilePage("auto")
+                    textbutton _("{#auto_page}A") action FilePage("auto"):
+                        activate_sound "Audio Dumpster/Button Click.mp3"
 
                 if config.has_quicksave:
-                    textbutton _("{#quick_page}Q") action FilePage("quick")
+                    textbutton _("{#quick_page}Q") action FilePage("quick"):
+                        activate_sound "Audio Dumpster/Button Click.mp3"
 
                 ## range(1, 10) gives the numbers from 1 to 9.
                 for page in range(1, 10):
-                    textbutton "[page]" action FilePage(page)
+                    textbutton "[page]" action FilePage(page):
+                        activate_sound "Audio Dumpster/Button Click.mp3"
 
-                textbutton _(">") action FilePageNext()
+                textbutton _(">") action FilePageNext():
+                    activate_sound "Audio Dumpster/Button Click.mp3"
             image "gui/load_overlay.png" xpos -375 ypos -150
 
 
@@ -804,22 +838,30 @@ screen preferences():
                     vbox:
                         style_prefix "radio"
                         label _("Display")
-                        textbutton _("Window") action Preference("display", "window")
-                        textbutton _("Fullscreen") action Preference("display", "fullscreen")
+                        textbutton _("Window") action Preference("display", "window"):
+                            activate_sound "Audio Dumpster/Button Click.mp3"
+                        textbutton _("Fullscreen") action Preference("display", "fullscreen"):
+                            activate_sound "Audio Dumpster/Button Click.mp3"
 
                 vbox:
                     style_prefix "radio"
                     label _("Rollback Side")
-                    textbutton _("Disable") action Preference("rollback side", "disable")
-                    textbutton _("Left") action Preference("rollback side", "left")
-                    textbutton _("Right") action Preference("rollback side", "right")
+                    textbutton _("Disable") action Preference("rollback side", "disable"):
+                        activate_sound "Audio Dumpster/Button Click.mp3"
+                    textbutton _("Left") action Preference("rollback side", "left"):
+                        activate_sound "Audio Dumpster/Button Click.mp3"
+                    textbutton _("Right") action Preference("rollback side", "right"):
+                        activate_sound "Audio Dumpster/Button Click.mp3"
 
                 vbox:
                     style_prefix "check"
                     label _("Skip")
-                    textbutton _("Unseen Text") action Preference("skip", "toggle")
-                    textbutton _("After Choices") action Preference("after choices", "toggle")
-                    textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
+                    textbutton _("Unseen Text") action Preference("skip", "toggle"):
+                        activate_sound "Audio Dumpster/Button Click.mp3"
+                    textbutton _("After Choices") action Preference("after choices", "toggle"):
+                        activate_sound "Audio Dumpster/Button Click.mp3"
+                    textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle")):
+                        activate_sound "Audio Dumpster/Button Click.mp3"
 
                 ## Additional vboxes of type "radio_pref" or "check_pref" can be
                 ## added here, to add additional creator-defined preferences.
@@ -873,6 +915,7 @@ screen preferences():
                         textbutton _("Mute All"):
                             action Preference("all mute", "toggle")
                             style "mute_all_button"
+                            activate_sound "Audio Dumpster/Button Click.mp3"
         
     
 
@@ -1040,11 +1083,14 @@ screen help():
 
             hbox:
 
-                textbutton _("Keyboard") action SetScreenVariable("device", "keyboard")
-                textbutton _("Mouse") action SetScreenVariable("device", "mouse")
+                textbutton _("Keyboard") action SetScreenVariable("device", "keyboard"):
+                    activate_sound "Audio Dumpster/Button Click.mp3"
+                textbutton _("Mouse") action SetScreenVariable("device", "mouse"):
+                    activate_sound "Audio Dumpster/Button Click.mp3"
 
                 if GamepadExists():
-                    textbutton _("Gamepad") action SetScreenVariable("device", "gamepad")
+                    textbutton _("Gamepad") action SetScreenVariable("device", "gamepad"):
+                        activate_sound "Audio Dumpster/Button Click.mp3"
 
             if device == "keyboard":
                 use keyboard_help
@@ -1150,7 +1196,8 @@ screen gamepad_help():
         label _("Y/Top Button")
         text _("Hides the user interface.")
 
-    textbutton _("Calibrate") action GamepadCalibrate()
+    textbutton _("Calibrate") action GamepadCalibrate():
+        activate_sound "Audio Dumpster/Button Click.mp3"
 
 
 style help_button is gui_button
@@ -1215,8 +1262,10 @@ screen confirm(message, yes_action, no_action):
                 xalign 0.5
                 spacing 100
 
-                textbutton _("Yes") action yes_action
-                textbutton _("No") action no_action
+                textbutton _("Yes") action yes_action:
+                    activate_sound "Audio Dumpster/Button Click.mp3"
+                textbutton _("No") action no_action:
+                    activate_sound "Audio Dumpster/Button Click.mp3"
 
     ## Right-click and escape answer "no".
     key "game_menu" action no_action
@@ -1480,10 +1529,14 @@ screen quick_menu():
         xalign 0.5
         yalign 1.0
 
-        textbutton _("Back") action Rollback()
-        textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-        textbutton _("Auto") action Preference("auto-forward", "toggle")
-        textbutton _("Menu") action ShowMenu()
+        textbutton _("Back") action Rollback():
+                activate_sound "Audio Dumpster/Button Click.mp3"
+        textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True):
+                activate_sound "Audio Dumpster/Button Click.mp3"
+        textbutton _("Auto") action Preference("auto-forward", "toggle"):
+                activate_sound "Audio Dumpster/Button Click.mp3"
+        textbutton _("Menu") action ShowMenu():
+                activate_sound "Audio Dumpster/Button Click.mp3"
 
 
 style window:
