@@ -7,9 +7,6 @@ label prologue_scene1:
     # !! Need to fadeout music before playing the next audio track
     ## END SCENE AUDIO ##
     scene bg black with fade
-    "This is a work of fiction. Names, characters, businesses, places, events and incidents are either the products of the author's imagination or used in a fictitious manner."
-    "Any resemblance to actual persons, living or dead, or actual events is purely coincidental."
-    pause 5.0
     "My name is [mcname]."
     "I'd consider myself a pretty good student. I attend class, get good grades, and ended the semester with an admirable GPA."
     "Though I wasn't entirely confident about it, I genuinely thought I had a shot at getting accepted into my dream school, UCLA."
