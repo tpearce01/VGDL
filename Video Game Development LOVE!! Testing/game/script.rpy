@@ -55,7 +55,6 @@ define ax_affection = 0     # Alexander affection
 # MAIN GAME LOOP
 label start:
     stop music fadeout 1.0      # Stop music from menu in case it has not been stopped
-    #queue music "insert_song_name.ogg" loop    # Template for queueing music
     scene bg black              # Default to black scene in case of missing background
     
     # TESTING
@@ -263,7 +262,7 @@ init python:
             max_affection = ax_affection
     
     # AUDIO
-    renpy.music.set_volume(0.25, 0, channel="music")
+    #renpy.music.set_volume(0.25, 0, channel="music")
     
     # EFFECTS
     flash = Fade(0.25, 0, 0.75, color="#fff")

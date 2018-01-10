@@ -52,7 +52,7 @@ label kd_scene1:
     kd "I also wanted to make a game when I was 8, and when I was 9 the game was already done. I know what kind of person you are, you like to daydream and think about all the cool things that you would someday do, but the day never comes. I’m sick of having to be assigned people like you."
     mc "(Man, that cuts deep, he’s right though, I always have these fad dreams that never actually pan out, doing karate, becoming a singer, getting into UCLA.)"
     mc "(Who’s to say that this game won’t just be another thrown away dream in my sea of unfulfilled dreams.)"
-    mc "(Damn, I’m tearing up. It's moments like these that make me glad to be online.)"
+    mc "(dang, I’m tearing up. It's moments like these that make me glad to be online.)"
     mc "(I really am a failure, I’m always going to be a failure.)"
     mc "(No.)"
     mc "(NO.)"

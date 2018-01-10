@@ -241,7 +241,7 @@ label re_scene3:
             mc "(It may not be much, but... Anything is better than nothing.)"
      
      #---------------------------------------------------------------------------------------
-    scene bg gamelab with fade
+    scene bg gameroom with fade
      #Second choice: Week 4
     play music "/Audio Dumpster/Game Lab.mp3" fadeout 1.0 fadein 1.0 loop
     "It’s another day in the game lab, everyone doing their own thing. George Dan is in the front, leading a workshop on writing dialogue."
@@ -264,8 +264,7 @@ label re_scene3:
             scene bg black with fade
             play music "/Audio Dumpster/Food Court.mp3" fadeout 1.0 fadein 1.0 loop
             "We decide to go to one of the food courts on campus."
-            
-            scene bg foodcourt_1 with dissolave
+            scene bg foodcourt_1 with dissolve
             show re calm with dissolve
             mc "So what do you think you’re going to get? I’m gonna get the spicy Italian, got it once and I was hooked."
             re "Oh, actually I was going to get that too. It’s one of my favorites…"

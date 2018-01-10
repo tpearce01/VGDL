@@ -67,7 +67,7 @@ label melody_scene1:
     ax "OH shoot, yea."
     "Alex called my phone but no one picked up."
     ax "No answer… I think you might’ve left it in the lecture hall."
-    mc "Damn… I’ll be right back."
+    mc "dang… I’ll be right back."
     hide ax calm with dissolve
     stop music fadeout 1.0
     "As I start running to the lecture hall, I accidentally bumped into someone on the shoulder. They gave off an angry expression."
@@ -76,7 +76,7 @@ label melody_scene1:
     kd "Watch where you're going, Kid."
     mc "My bad…"
     kd "Pst. Get out of my way..."
-    mc "Damn... isn’t he the production guy? What an ass..."
+    mc "dang... isn’t he the production guy? What an ass..."
     "I got to the lecture hall and luckily the doors were still open...."
 
     #SETTING: Lecture Hall
@@ -85,7 +85,7 @@ label melody_scene1:
     "When I entered the lecture hall, the board was covered in graffiti and then I saw Melody drawing graffiti on the far wall. ‘VGDC sucks.’ was one of the messages on the wall."
     "She turned around with a blank expression on her face, like a deer when you shine your high beams at it."
     show md angry with dissolve
-    md "Damn… I forgot to lock the doors."
+    md "dang… I forgot to lock the doors."
     "I felt frozen in place. What should I do?"
     #----------Player Choice 1---------------#
     menu md_menu1:
@@ -164,7 +164,7 @@ label melody_scene1:
     md "What."
     ax "Uhh… do you want to.. eat lunch with us tomorrow?"
     md "No."
-    mc "(Us?? And damn she rejected his ass quickly.)"
+    mc "(Us?? And dang she rejected his ass quickly.)"
     ax "But… I… uh need to ask you questions about audio… effects? I mean… since you did say that you’ll help people out if they have questions for ya."
     "I closed my eyes. I was cringing at every B.S word that he said."
     md "Fine."
@@ -298,7 +298,7 @@ label melody_scene1:
     #-----option 3: Alex told you my name, huh? (Good)
         "Alex told you my name?":
             $ md_affection = md_affection + 2
-            mc "(Damn that Alex…)"
+            mc "(dang that Alex…)"
             mc "Alex told you my name, huh?"
             "I grabbed her hand with mine and with a firm grip, I shook her hand."
             md "Ahhh… I see. I can’t fool you."
@@ -547,7 +547,7 @@ label melody_scene1:
             mc "Go now! You’re so annoying, just go! You’ll get both of us caught."
             hide md calm with dissolve
             "She didn’t say anything, but her eyes started to get red. She then turns and heads for the other door."
-            mc "(Damn… maybe I shouldn’t have said that.)"
+            mc "(dang… maybe I shouldn’t have said that.)"
     #----------End of Player Choice 3----------
     "Instantly, as she turns, I headed out once more."
     #SETTING: Outside Lecture Hall
@@ -778,7 +778,7 @@ label test_md_0:
     mc "(Is she… angry at me? There’s no way it’s my fault.)"
     mc "(She’s probably having one of those moody days of the month...)"
     mc "Yup. That’s probably it."
-    mc "But damn… Ren got a lot cuter than before…"
+    mc "But dang… Ren got a lot cuter than before…"
     mc "Shoot… I should get home, it’s getting kinda late."
     
     #SCENE 6

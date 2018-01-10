@@ -3,7 +3,6 @@
 # PROLOGUE SCENE1
 label prologue_scene1:
     ## SCENE AUDIO ##
-    $ renpy.music.set_volume(0.75, 0, channel="music")
     play music "<loop 11.3609>/Audio Dumpster/Food Court.mp3" loop fadeout 1.0 fadein 1.0
     # !! Need to fadeout music before playing the next audio track
     ## END SCENE AUDIO ##
@@ -75,7 +74,7 @@ label prologue_scene1:
     "I jolted back, path now blocked by a grinning girl with purple hair."
     unknown "Haha, gotcha!"
     unknown "No escaping from me now, alright?"
-    mc "(Damn. Foiled again...)"
+    mc "(dang. Foiled again...)"
     unknown "Hey, don't give me that look... Come on, just follow me for a sec, okay? There's this really cool club you should totally check out!"
     mc "\"Umm... Sorry, but I'm actually not interest-\""
     unknown "Nonsense! This way!"
@@ -241,7 +240,7 @@ label prologue_scene5:
     unknown "Oh, cut the crap! I ain't changing for the likes of you all, got it?!"
     mc "..."
     unknown "!!"
-    mc "(Oh shit...)"
+    mc "(Oh shoot...)"
     "The girl stopped in her tracks and looked me right in the eye."
     unknown "... Tch."
     "After a second, she just adjusted her backpack, and stormed out of the building."
