@@ -1332,8 +1332,8 @@ label yu_scene1:
             "It's Yukiko using her sleeve to wipe away the residue of my weeping."
             mc "Don't scare me like that."
             "With two tilts of my head, I wipe away the rest of my tears on my shoulders."
-            play music "/Audio DumpsterSomber Music.mp3" fadeout 1.0 fadein 1.0 loop
-            scene yu_apartment_inside with dissolve
+            play music "Audio Dumpster/Somber Music.mp3" fadeout 1.0 fadein 1.0 loop
+            scene bg yu_apartment_inside with dissolve
             show yu calm with dissolve
             "Returning my gaze to her, I notice her eyes are rather moist and bloodshot."
             show yu happy with dissolve
