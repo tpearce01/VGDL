@@ -1061,11 +1061,11 @@ label yu_scene1:
     show yu nervous with dissolve
     yu "I wanted to play co-op games, but if you want to throw down, then..."
     scene bg black with dissolve
-<<<<<<< HEAD
-    "Yukiko proceeds to decimate me in every game genre possible, even first-person shooters and fighting games, the ones I thought I were good at."
-=======
+#<<<<<<< HEAD
+#    "Yukiko proceeds to decimate me in every game genre possible, even first-person shooters and fighting games, the ones I thought I were good at."
+#=======
     "Yukiko proceeds to decimate me in every game genre possible, even first-person shooters and fighting games, the ones I thought I was good at."
->>>>>>> master
+#>>>>>>> master
     pause 5.0
     scene bg yu_apartment_inside
     show yu calm with dissolve
@@ -1532,20 +1532,21 @@ label yu_scene1:
                 mc "I guess I did change a lot over the years."
                 mc "Why did you come all the way over here?"
                 su "They needed senior level employees who speak good English to run things around here."
+                scene yu_ending_1 with dissolve
                 su "Naturally, I fit the bill quite well."
-                "I'm at a loss for words, so I just say what's on my mind."
+                "The scene before me feels so surreal that I'm at a complete loss for words, so I just say what's on my mind."
                 mc "Welcome back."
-                #show surprise
+                scene yu_ending_2 with dissolve
                 yu "It's good to be home."
                 mc "(I don't believe in fate, but... I don't have to.)"
                 mc "(Fate found me instead.)"
                 ".:. Good Ending."
                 return
             else:
-<<<<<<< HEAD
-=======
+#<<<<<<< HEAD
+#=======
                 label yu_bad:
->>>>>>> master
+#>>>>>>> master
                 hide yu sad with dissolve
                 "I stare down at my feet, unable to look her in the eye. Unable to face the truth."
                 "As much as I hate to admit it, Yukiko's worries hold a strong foundation within reality."
