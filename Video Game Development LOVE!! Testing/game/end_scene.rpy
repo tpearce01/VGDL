@@ -2,7 +2,6 @@
 ## Display The End and credits ##
 label end_scene:
     scene black
-    $ renpy.music.set_volume(0.75, 0, channel="music")
     stop music fadeout 0.5
     queue music "/Audio Dumpster/Somber Music.mp3" loop
     #with Pause(1, hard='True')

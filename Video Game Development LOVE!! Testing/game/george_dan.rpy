@@ -285,7 +285,7 @@ label gd_scene3:
             mc "(That smirk of his, I’ll make sure to slam this ball onto his face.)"
             "With force, I pass the ball to him."
             mc "Here! Take this. You start."
-            show gd happy with dissolve
+            show gd smile with dissolve
             gd "Nice pass."
             gd "Are you ready?"
             mc "(Yeah, I’m ready to kick your ass.)"
