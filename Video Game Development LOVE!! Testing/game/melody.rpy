@@ -1323,6 +1323,8 @@ label md_good_ending:
     mc "You… you knew Melody would be there… and the flier."
     gd "Follow her. Wherever she goes… follow her."
     gd "And give her what I couldn’t."
+    scene bg black with fade
+    ".:. Good Ending."
     return
 
     #Bad Ending---------------
@@ -1340,4 +1342,7 @@ label md_bad_ending:
     md "I’m sorry [mcname]... my feelings for him… have not gone away."
     "She turned and ran."
     "She ran away… farther and farther away… from my grasp."
-    return
+    scene bg black with fade
+    ".:. Bad Ending."
+    $ MainMenu(confirm=False)()
+    #return

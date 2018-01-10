@@ -769,6 +769,8 @@ label re_good_ending:
     "With a pout and her chin pointed upward slightly, I knew Reina was trying her best to seem upset."
     "Though, she couldn't hide the red that brushed her cheeks nor the slight smile that pulled at her lips."
     mc "(It may have been a rough start, but maybe there's still hope for a happy ending after all.)"
+    scene bg black with fade
+    ".:. Good Ending."
     stop music fadeout 1.0
     return
 
@@ -854,4 +856,7 @@ label re_bad_ending:
     mc "That’s not…"
     re "I wish you luck in the future with VGDC, but I never want to talk to you again."
     re "Good bye."
-    return
+    scene bg black with fade
+    ".:. Bad Ending."
+    $ MainMenu(confirm=False)()
+    #return
