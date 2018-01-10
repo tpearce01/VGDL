@@ -1558,15 +1558,17 @@ label yu_scene1:
                 "My supervisor spares a laugh for my crude joke while sitting down."
                 su "You might want to avoid that kind of humor if the producer comes around. He's a pretty serious fellow."
                 mc "I was just making sure you still find my bad jokes funny."
+                scene yu_end_1 with dissolve
                 su "I actually didn't recognize you until you started telling me that story."
                 "Fixing a stray strand of hair on my head, I chuckle self-consciously."
                 mc "I guess I did change a lot over the years."
                 mc "Why did you come all the way over here?"
                 su "They needed senior level employees who speak good English to run things around here."
+                scene yu_end_2 with dissolve
                 su "Naturally, I fit the bill quite well."
                 "I'm at a loss for words, so I just say what's on my mind."
                 mc "Welcome back."
-                #show surprise
+                scene yu_end_3 with dissolve
                 yu "It's good to be home."
                 mc "(I don't believe in fate, but... I don't have to.)"
                 mc "(Fate found me instead.)"
