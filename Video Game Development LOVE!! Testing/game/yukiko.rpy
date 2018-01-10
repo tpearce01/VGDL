@@ -1535,7 +1535,8 @@ label yu_scene1:
                 scene bg black with dissolve
                 "No one else is around."
                 play music "/Audio Dumpster/Somber Music.mp3" fadeout 1.0 fadein 1.0 loop
-                su "Consider what I'm about to ask you a personal question, since I'm requesting a personal answer. I don't want to hear any corporate pandering, and you don't have to answer if you don't want to."
+                su "Consider what I'm about to ask you a personal question, since I'm requesting a personal answer."
+                su "I don't want to hear any corporate pandering, but you don't have to answer if you don't want to."
                 mc "Go ahead, shoot."
                 su "What made you want to work in games?"
                 "For a short period of time, the only sounds around us are my footsteps and the click-clatter of high heels down the corridor."
@@ -1570,14 +1571,13 @@ label yu_scene1:
                 su "They needed senior level employees who speak good English to run things around here."
                 scene yu_end_2 with dissolve
                 su "Naturally, I fit the bill quite well."
-                "I've been staring at her this whole time, yet the scene before me feels so surreal that I'm almost at a complete loss for words."
+                "I've been staring at her this whole time, but the scene before me feels so surreal that I'm almost at a complete loss for words."
                 mc "Welcome back."
                 scene yu_end_3 with dissolve
                 yu "It's good to be home."
                 mc "(I don't believe in fate, but... I don't have to.)"
                 mc "(Fate found me instead.)"
                 scene bg black with fade
-                ".:. Good Ending."
                 return
             else:
 #<<<<<<< HEAD
