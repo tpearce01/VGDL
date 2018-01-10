@@ -18,11 +18,11 @@ define crowd = Character("Crowd")       # Crowd of people
 define team = Character("Team")         # Projet team
 define dad = Character("Dad")           # MC's Dad
 define nm = Character("Naomi")          # Alex's Friend
-<<<<<<< HEAD
-define su = Character("Supervisor")
-=======
+#<<<<<<< HEAD
+#define su = Character("Supervisor")
+#=======
 define su = Character("Supervisor")     # Supervisor from Yukiko route
->>>>>>> master
+#>>>>>>> master
 
 # Main Character
 define mc = Character("[mcname]")       # Main Character / Protagonist
