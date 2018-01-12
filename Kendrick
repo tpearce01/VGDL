@@ -142,11 +142,12 @@ kd “A work environment should be treated as a work environment. I see no reaso
 mc "..."
 mc "I think a bit of 'tomfoolery' would be good. Helps establish a sense of comraderie, y'know?"
 kd "How absolutely disappointing."
-mc “(Does this guy hate me personally or something, did I do something to him in the past that I don’t remember?)”
+mc "...."
+mc “(Did I do something to him in the past that I don’t remember?)”
 mc “Are you okay?”
 kd “Fantastic, I’m just frustrated that every year, I get assigned groups led by children who don’t understand the responsibilities that come with leading a video game development team.”
-mc “Dude, I don’t think I’ve even done anything to make you think that I’m not capable of leading this team.”
-mc "Producing this game has been my dream since I was eight."
+mc “I don’t think I’ve even done anything to make you think that I’m not capable of leading this team.”
+mc "Producing my own game had been a dream of mine since primary school y'know."
 kd “Then why haven’t you made it yet?”
 mc “I don’t know how to make games, which is why I joined this club.”
 kd “You like to daydream and think about all the cool things that you would someday do, but the day never comes; I’m sick of having to be assigned people like you.”
@@ -321,32 +322,47 @@ kd “That’s rich, coming from someone who responded just as much immaturity a
 mc "Ugh..."
 "I realized I was letting my anger get the best of me."
 "I took a deep breath, and glared him straight in the eye."
-mc "You want me to 'communicate with you'? Fine. I will."
-mc "
+mc "You want me to communicate with you? Fine. I will."
+mc "You're horribly self centered. All you think about is yourself, and getting work done because YOU want to."
+mc "Do you even realize that the people you're talking to have feelings? Have you ever acknowledged someone for working?"
+mc "There's more to production than just the product, Kendrick. You may be an officer, but I refuse to acknowledge you as a leader."
+mc "At least, not for my project."
+kc "..."
+mc "..."
+mc "It's late. I'll be taking my leave now."
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[Kendrick realizes people have feelings]
+--Black-- (Kendrick's POV)
+"After her little spewl, [mcname] left the bulding."
+"Occaisionally, she would just say what she pleases. Each time, I would just dismiss it as nonsense.
+"After all, ignorant people say ignorant things. I considered her no different."
+"But now..."
 
+--DBH, lobby--
+"I stared at the door as it shut close. The building was barren, save for me."
+kd "..."
+kd "Maybe, she's not not like the others."
 
->Kendrick POV. Confused with Protag’s declarations but seriously analyzes her words
-kd “(I hate these intrusive thoughts, like a worm stuck in my brain that I can’t get out,  I can’t even focus in school without thinking about her words)”
-kd “(Usually I dismiss it as stupid people saying stupid people things, but maybe.)”
-kd “(I even listened to that song, kinda liked it, but ill never tell her that, she’ll never let it go.)”
-kd “(And that imitation, the sound is completely wrong, but the mannerisms and tone are pretty close.)”
+--Game lab-- (Back to protag POV)
 
->Back to protag. Next meeting. Kendrick is there super early.
-mc “(I shows up, Kendrick is already there.)”
-mc “What’s up K DOT!”
-kd “What?”
-mc “Listen to more hip hop.”
-
->Protag is low key snarky. Kendrick doesnt respond as usual and protag is a little surprised.
-tm "members doing shit"
-
->Meeting goes on. Kendrick is still mean but catches himself and reiterates often. The whole team is surprised.
-"Narration of the things"
+mc “...”
+kd "..."
+"When I showed up to the meeting, Kendrick was already there."
+"As I sat down, I couldnt help but voice my thoughts."
+mc "I'm honestly surprised you're here."
+kd "... As am I."
+"Eventually, the rest of the team trickled in."
+"Everyone worked as normal. It'd be just another work meeting if it weren't for one thing."
+"Kendrick was much, much quiter."
+"He barely spoke up, and when he did, they'd be quick, almost curt acknowledgments of the team's work."
+"It was undeniably odd. I'd see members glance up at Kendrick in confusion throughout our time there."
+mc "(It may just be wishful thinking on my part, but I can't help but wonder...)" 
+"I thought to myself as I stared at my laptop."
+mc "(Is he... trying to change..?)"
+"CRASH!!"
+mc "?!"
 
 >Something happens where Kendrick ends up apologizing to the protag and she’s just so flabbergasted she takes him outside
 mc “(He stopped himself?)”
@@ -377,7 +393,8 @@ mc "Uwaaaa sugoi desuuu"
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[Kendrick feels affection.]
+--black screen-- (Kendrick's POV)
+"
 
 
 > Weeks pass. Kendrick gradually becomes more and more a decent person
