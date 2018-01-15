@@ -99,9 +99,18 @@ kd "Do you? Your demeanor during today's meeting told me otherwise."
 mc "My demeanor? What do you mean?"
 kd "You were far too colloquial. You did not establish yourself as a reliable leader figure."
 mc "(...? The heck?)"
+//---------->CHOICE<----------
+
+[pos option- "Isn't that a bit too serious?"
 mc "Umm... Although I understand where you're getting at, don't you think you're taking this way too seriously?"
 mc "My game is short, sweet, and fun. What more... this is just a club, isn't it?"
-"I could see Kendrick twitch at my comment, and he intensified his glar."
+
+[neg option- "I'm sorry."]
+mc "I'm sorry..."
+mc "I just thought that maybe, it'd be nice if we could all get along."
+
+//----------------------------
+"I could see Kendrick twitch at my comment, and he intensified his glare."
 kd "Treat something as though it were a joke, and your product will be become just that."
 kd “I, for one, never joke. Unlike you, I’m actually trying to get things done, so I hope you'll be understanding of my actions and position."
 kd "All my projects thus far have been a success. You could gain from learning a thing or two from me."
@@ -216,8 +225,11 @@ kd “Don’t listen to her. You're better off doing it again”
 mc “What part?”
 kd “All of it. Redo it completely.”
 tm "U-Umm... Are you sure I can't-?"
-kd "Don't make me repeat myself. Stop time and do as you're told."
-mc "..."
+kd "Don't make me repeat myself. Stop wasting time and do as you're told."
+mc "(How could he say that?!)"
+//-------->CHOICE<-----------
+
+[pos option- "Enough is enough!!"]
 mc "Enough is enough."
 "I slam my hands on the table and stand from my seat."
 mc "You wanna know something, Kendrick?"
@@ -241,6 +253,13 @@ mc “This is a club, not a full time job, so making this video game isn’t lif
 kd “It is for me.”
 "I clicked my tongue at him."
 mc “Well then, I think you should go and find more people who are willing to put up with your bull.”
+
+[neg option- Please stop doing this...]
+mc "Kendrick, I don't like the way you treat our team members. Please stop..."
+kd "What?"
+mc "Err, it's just... In all honesty, I'd rather you... leave us be."
+
+//----------------------------
 kd "..."
 kd “Is that what you all think?”
 mc “(Everyone looks at each other, one person starts nodding, everybody nods.)”
@@ -331,7 +350,6 @@ kc "..."
 mc "..."
 mc "It's late. I'll be taking my leave now."
 
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 --Black-- (Kendrick's POV)
@@ -345,12 +363,17 @@ mc "It's late. I'll be taking my leave now."
 kd "..."
 kd "Maybe, she's not not like the others."
 
---Game lab-- (Back to protag POV)
+--Black-- (Protag POV)
+"The next day, the sun was blazing down."
+"I made sure to bring my water canister before I left for class."
+"What I dreaded most, though, was neither the weather nor my lectures."
+
+--Game lab--
 
 mc “...”
 kd "..."
-"When I showed up to the meeting, Kendrick was already there."
-"As I sat down, I couldnt help but voice my thoughts."
+"I showed up to the meeting and set my bottle down on the table."
+"I pulled up a chair before Kendrick."
 mc "I'm honestly surprised you're here."
 kd "... As am I."
 "Eventually, the rest of the team trickled in."
@@ -359,60 +382,79 @@ kd "... As am I."
 "He barely spoke up, and when he did, they'd be quick, almost curt acknowledgments of the team's work."
 "It was undeniably odd. I'd see members glance up at Kendrick in confusion throughout our time there."
 mc "(It may just be wishful thinking on my part, but I can't help but wonder...)" 
-"I thought to myself as I stared at my laptop."
+"I thought to myself as I reached for my water."
 mc "(Is he... trying to change..?)"
-"CRASH!!"
-mc "?!"
+"BAM!!"
+kd "!!"
+mc "?! O-Oh god, I'm so sorry-!!"
+"Water spilled across the table and dripped from Kendrick's laptop."
+"My hand bumped into my canister and toppled it over. The cap of my seemed to have been loosely screwed on, and popped off upon impact."
+"I repositioned the bottle as fast as I could while Kendrick stood, his laptop in his hands and off the table."
+kd "You... insufferable, clumsy little--"
+mc "I-I'm sorry, I'm sorry!"
+"I bowed my head in apology."
+tm "H-Hey, the laptop's fine, right? There's no need to be so--"
+mc "No, no he's right. This was a stupid mistake on my end that could've easily been avoided."
+kd "Ngh..."
+"Kendrick grounded his teeth, his mind undoubtedly racing."
+"A moment later, he took a deep breath, and set his laptop down somewhere dry."
+kd "Ahem... [mcname]."
+"I slowly raised my head to look at him. His expression was calm, but for some reason he struggled to keep eye contact."
+mc "...?"
+kd "I... recognize this was out of your control."
+kd “In fact, I apologize. For... being quite brash and inconsiderate.”
+mc “(What the heck..? Kendrick, apologizing?)”
+mc “U-Uhh... Can you step outside with me outside?”
+kd “Err... sure.”
 
->Something happens where Kendrick ends up apologizing to the protag and she’s just so flabbergasted she takes him outside
-mc “(He stopped himself?)”
-kd “You’re right, I’m sorry.”
-mc “(What the heck, he never apologizes, is he alright?)”
-mc “Can you step outside with me outside?”
-kd “Sure.”
-mc “(We stand outside the game room)”
+--DBH lobby--
 
->”Yo art thou okay.”
-mc “Yo fam, are you dying? Do you have cancer?”
-kd “No, doctor says I’m in peak physical condition”
+mc "(Welp, here we are...)"
+//------------>CHOICE<-----------
+
+[pos option- Are you okay?]
+mc “Hey, are you okay? Are you dying? Do you have cancer?”
+kd “?? No? In fact, the doctor says I’m in peak physical condition”
+
+[neg option- ....]
+mc "..."
+mc "... uhh."
+kd "..."
+kd "Hurry up and spit it out. This is suffocating."
+
+//------------------------------
 mc “Err, okay….”
+mc "Well, we both know something happened here. You've changed..."
+"I stared at him. He sighed."
 kd “I’ve decided cooperating with you would be most beneficial to me. Nothing more.”
-mc “Hmmmmm, okay, okay, I see you, I see you.”
-
->Protag is impressed and is expresses her happiness. Kendrick doesn’t understand.
+mc “Oh? Is that so..."
 kd “Is there something wrong with that?”
-mc “Nah nah, quite the opposite actually, here’s some candy, as a reward, and also for positive reinforcement.”
-kd “what am I, a dog?”
-mc “That would be an insult to dogs”
-kd “Whatever.”
-mc “Kendrick eats it, he puts the wrapper in his pocket.”
-mc “Alright boy, lets get to work.”
-
->Some cheesy line about how shes proud or something idk
-mc "Uwaaaa sugoi desuuu"
+mc “Hmmmm... nope~! Quite the opposite actually." 
+"I giggled and dug through my pockets."
+mc "Let's see... ah! Here, have a mint as a reward, and also for positive reinforcement.”
+"I popped a capsule out of the mint container and presented it to him. Kendrick frowned, but accepted the 'reward' none the less."
+kd “What am I, a dog?”
+mc “Ehhh... that would be an insult to dogs.”
+kd “Tch. Whatever.”
+"Despite his protesting, he popped the mint into his mouth. I couldn't help but feel pleased."
+mc “Awww, look at you! You actually accepted my gift!"
+kd "Shut up. You're annoying."
+mc "Hehe~ Sorry, sorry!"
+mc "Mmmm... but, you know. I'm actually really happy that you're making an effort to change."
+mc "I dreaded the rest of this project, in all honestly. But now... I'm really excited to be working with you."
+mc "Thanks for putting the effort, Kendrick."
+kd "..."
+kd "I... suppose it's no big deal."
+"I grinned. Kendrick coughed and made his way back to the game lab."
+kd "Wipe that grin off your face, weirdo. Remember, I'm only doing this for myself."
+mc "Yessir~"
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
---black screen-- (Kendrick's POV)
-"
+***[Reltionship Development]
 
 
-> Weeks pass. Kendrick gradually becomes more and more a decent person
-"Meeting in the game room and Kendrick's being a coolio bro"
-
->Officers notices, especially JD (because he’s cool like that)
-mc “(The President is talking to me, outside of Starbucks.)”
-jd “Alright, what did you do?”
-mc “What?”
-jd “who is this new Kendrick, and what have you done to the old one”
-mc “again, what?”
-jd “Kendrick! Ever since he started in your guy’s group he’s been, err, nicer, well meaning, laughing, just all around better human being!”
-mc “really?”
-jd “I even caught him listening to hip hop yesterday, every time I used to play it around him he would make me switch songs!”
-mc “Huh, I guess, I don’t really know what caused it though.”
-jd “Well, I don’t know what you guys are doing, but keep doing it, oops I got class, see ya late.r”
-mc “Bye bye!”
-
+>Monologue about how Kendrick's been improving as a person, and how everyone's noticed
 >Something happens where Kendrick becomes super duper stressed. Protag notices. She expresses concern but Kendrick pushes her away.
 mc “Yo”
 kd “Sup”
@@ -456,10 +498,20 @@ mc “(I pick up my bag and just as I’m going to open the door I hear.)”
 kd “MC?”
 mc “Whatsup?”
 kd “T-thanks.”
-mc “(Heh, that was kinda cute.)”
-mc “Wait what the heck, did that thought actually just cross my mind?”
-mc “A-anytime fam.”
-mc “(I smile and take my leave.)”
+mc "(!! Kendrick... thanked me?)"
+//---------->CHOICE<----------
+
+[pos option- I'm so happy!]
+-
+-
+-
+
+[neg option- Now way this is happening.]
+-
+-
+-
+
+//----------------------------
 
 > Kendrick POV something gushy and gross about woa protag is such a sweetie.
 
@@ -498,7 +550,7 @@ mc “(Wait, wait wait wait, did I just think he was cute, AGAIN?)”
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[Kendrick confesses. Protag recognizes her feelings for him.]
+**[Kendrick confesses. Protag recognizes her feelings for him.]
 
 
 >Another time skip. Game finished Monologue about how Kendrick’s pretty dang chill.
@@ -521,19 +573,27 @@ kd “What? NO, t-the second thing...”
 kd “...”
 mc “Wait, are you serious?”
 kd “l-look, I like you, for real”
+//----------CHOICE--------------
 
-> “Nani the fukk”
-mc “Like for real?”
-kd “Nani the fukk?”
+[pos option- "Are you serious..?"]
+-
+-
+-
+
+[neg option- "You can't be serious.]
+-
+-
+-
+
+//---------CHOICE---------------
 kd “For real, please go out with me.”
-
 > Protag thinks she’s dreaming, but nope, it’s reality.
 mc “(Suddenly, the setting makes a lot of sense.)”
 mc “(Am I dreaming, this doesn’t even feel real.)”
 mc “(This is NOT a dream...)”
 mc “(This is a real thing, that is happening to me, right now.)”
 
->Starts freaking out. Super flustered. She never considered her feelings to be like that
+>Starts freaking out. Super flustered. She never considered her feelings to be like that. Says she needs time. Kendrick accepts
 mc “Uuuuuhhhhhh...”
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -543,20 +603,53 @@ mc “Uuuuuhhhhhh...”
 
 1. Kendrick sees how Protag has difficulty talking to him and asks her to forget he ever confessed. This pushes protag to confess to him and they go out
 
+--black--
 
->kendrick approaches
-mc “I-I don’t know.”
-kd “It's just, I’ve never met anyone as sweet and cute and as funny as you, and when you gave me that chocolate, I was actually, well I was going through some stuff, and your kindness, your laughter, you have no idea how much I needed it. You don’t have to like me back, or say yes, or anything, but these thoughts are keeping me up at night, and I just, I just had to tell you..”
-mc “Well, I uhh...”
-kd “You know what, forget I said anything.”
-mc “Yeah.”
-mc “(I get on my scooter and leave.)”
-mc “(I try to stop myself from looking back, but I give in and see Kendrick’s lonely shadow fading away.)”
-mc “(My body abruptly turns around on its own.)"
+"It's been some weeks since Kendrick confessed."
+"He'd tried to converse with me on several occaisions, but each time I'd either avoid it, or cut it short."
+"I know it's horribly rude of me."
+"I know I'm just running away from him."
+"I know he must be hurting."
+"But I... just don't know how to face him."
+kd "[mcname]"
+mc "..."
+kd "Hey. Weirdo."
+mc "... Huh?"
+
+--UTC night--
+
+kd "..."
+mc "?! K-Kendrick?!"
+"I took a few steps back on instinct. He was the last person I expected to run into here."
+"Kendrick must have noticed my intent to run, as his expression soon became fairly dejected." 
+kd "Are you going to leave again...?"
+mc "Ngh..."
+"I couldn't help but wince at that."
+mc “I-I.."
+kd "..."
+"After a moment's hesitation, he let out a sigh."
+kd "[mcname]."
+mc "Y-Yes...?"
+kd “Please, forget I said anything.”
+mc “!!”
+mc "W-wait... what?"
+kd "It's obvious my feelings have done nothing but hinder you."
+kd "Objectively speaking, I feel it's best if things end here."
+mc "..."
+kd "..."
+kd "Thank you, and goodbye, [mcname]."
+"Before I could completely process what was happening, he turned on his heel to leave.”
+"I stood there in utter disbelief just watching his back.”
+mc "..."
+mc "(What... What do I do...?)"
+"My hands tightened into fists. My heart began to race."
+mc "(Are things really just going to end?"
+mc "W... Wait...!"
+mc “(My legs abruptly moves on its own.)"
 mc “WAIIIIT!”
-mc “(I’m scooting back at full speed, almost out of breath.)”
-mc “(Desperate with countless things I want to say to him running through my mind, I brake too rapidly for my current speed.)
-"My body flies off of my scooter and towards the hard concrete, but Kendrick manages to dash and catch me in time."
+"I run to him at full speed, quickly running out of breath.)”
+mc “(Desperate with countless things I want to say to him running through my mind, I trip over my own two feet.)
+"Lucky for me, Kendrick had turned, and caught in time."
 mc “(This is my first time being this close to him.)”
 mc “(He’s so big, he’s so warm...)”
 “(Maybe it's because of being carried like a princess by Kendrick, or the trauma from the accident that almost occurred, but I don't remember why I turned around.)”
@@ -595,18 +688,23 @@ kd "But I can't help but love that about you."
 [BAD ENDING]
 
 
->never brought back up
-mc “(After we finished the project, I switched my major, quit VGDC, and found a whole new group of friends.)”
-mc “(Sometimes I still see my old VGDC friends on Facebook, but we don't interact much outside of liking each others' posts.)”
-mc “(I’ve just picked up my free coffee at Starbucks, and I’m putting sugar and crap into it, when all of a sudden I hear a familiar voice..)”
+--black--
+
+"I never did get the courage to respond to his confession."
+"With time, we just became more and more distant."
+“Months after we finished the project, I quit VGDC and found a whole new group of friends.”
+“Sometimes I still see my old VGDC friends on Facebook, but we don't interact much outside of liking each others' posts.”
+
+--coffe shop--
+
+“I’ve just picked up my coffee when all of a sudden I hear a familiar voice..”
 kd “Excuse me.”
 mc “S-sure.”
-mc “(It’s Kendrick, the eyesore from my game club.)
-mc “(I wonder if he recognizes me.)”
+“It’s Kendrick. I wonder if he recognizes me.”
 kd “Is there a problem?”
-mc “(Oh crap, he noticed me staring.)”
+mc “(Oh crud, he noticed me staring.)”
 mc “N-nothing.”
 kd “Alright.”
-mc “(I let out a sigh, hoping I don’t have to go through that again."
-mc "(Meeting people you weren’t supposed to ever see again at Starbucks is weird, isn’t it?)”
+“I let out a sigh, hoping I don’t have to go through that again."
+mc "(Meeting people you weren’t supposed to ever see again is weird, isn’t it?)”
 mc “(Whatever, I'm going to be alright.)”
